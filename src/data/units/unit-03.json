@@ -187,6 +187,96 @@
       "exampleTr": "Teknoloji ve e-ticarete ilgiliyim.",
       "extra": "Are you interested in learning a new language?",
       "extraTr": "Yeni bir dil öğrenmeye ilgin var mı?"
+    },
+    {
+      "word": "angry",
+      "pronunciation": "ENG-ri",
+      "turkish": "kızgın",
+      "example": "He is angry because he is late.",
+      "exampleTr": "Geç kaldığı için kızgın.",
+      "extra": "Don't be angry, it's okay.",
+      "extraTr": "Kızma, sorun yok."
+    },
+    {
+      "word": "scared",
+      "pronunciation": "skerd",
+      "turkish": "korkmuş",
+      "example": "She is scared of dogs.",
+      "exampleTr": "Köpeklerden korkuyor.",
+      "extra": "I'm not scared of the dark.",
+      "extraTr": "Karanlıktan korkmuyorum."
+    },
+    {
+      "word": "excited",
+      "pronunciation": "ik-SAY-tid",
+      "turkish": "heyecanlı",
+      "example": "I am excited about the trip!",
+      "exampleTr": "Gezi için çok heyecanlıyım!",
+      "extra": "The kids are excited for the party.",
+      "extraTr": "Çocuklar parti için heyecanlı."
+    },
+    {
+      "word": "nervous",
+      "pronunciation": "NÖR-vıs",
+      "turkish": "gergin",
+      "example": "I am nervous about the exam.",
+      "exampleTr": "Sınav için gerginim.",
+      "extra": "Don't be nervous, you'll be fine.",
+      "extraTr": "Gergin olma, iyi olacaksın."
+    },
+    {
+      "word": "beautiful",
+      "pronunciation": "BYUU-ti-fıl",
+      "turkish": "güzel",
+      "example": "She is beautiful.",
+      "exampleTr": "O güzel.",
+      "extra": "Istanbul is a beautiful city.",
+      "extraTr": "İstanbul güzel bir şehir."
+    },
+    {
+      "word": "smart",
+      "pronunciation": "smart",
+      "turkish": "zeki / akıllı",
+      "example": "He is very smart.",
+      "exampleTr": "O çok zeki.",
+      "extra": "She is a smart student.",
+      "extraTr": "O zeki bir öğrenci."
+    },
+    {
+      "word": "strong",
+      "pronunciation": "strong",
+      "turkish": "güçlü",
+      "example": "He is strong and healthy.",
+      "exampleTr": "O güçlü ve sağlıklı.",
+      "extra": "Our team is very strong.",
+      "extraTr": "Ekibimiz çok güçlü."
+    },
+    {
+      "word": "weak",
+      "pronunciation": "viik",
+      "turkish": "zayıf",
+      "example": "I feel weak today.",
+      "exampleTr": "Bugün kendimi zayıf hissediyorum.",
+      "extra": "The signal is very weak here.",
+      "extraTr": "Burada sinyal çok zayıf."
+    },
+    {
+      "word": "driver",
+      "pronunciation": "DRAY-vır",
+      "turkish": "şoför",
+      "example": "He is a taxi driver.",
+      "exampleTr": "O bir taksi şoförü.",
+      "extra": "The drivers are busy today.",
+      "extraTr": "Şoförler bugün meşgul."
+    },
+    {
+      "word": "manager",
+      "pronunciation": "ME-ni-cır",
+      "turkish": "müdür / yönetici",
+      "example": "She is the office manager.",
+      "exampleTr": "O ofis müdürü.",
+      "extra": "I want to be a manager one day.",
+      "extraTr": "Bir gün müdür olmak istiyorum."
     }
   ],
 
@@ -260,7 +350,11 @@
       { "sentence": "He ___ an engineer at a tech company.", "answer": "is", "hint": "be fiili - He ile" },
       { "sentence": "We ___ not late. We are early!", "answer": "are", "hint": "be fiili - We ile" },
       { "sentence": "It ___ very cold outside today.", "answer": "is", "hint": "be fiili - It ile" },
-      { "sentence": "I ___ interested in e-commerce.", "answer": "am", "hint": "be fiili - I ile" }
+      { "sentence": "I ___ interested in e-commerce.", "answer": "am", "hint": "be fiili - I ile" },
+      { "sentence": "I am ___ about the trip!", "answer": "excited", "hint": "heyecanlı" },
+      { "sentence": "Don't be ___. The exam is easy.", "answer": "nervous", "hint": "gergin" },
+      { "sentence": "He is a taxi ___.", "answer": "driver", "hint": "şoför" },
+      { "sentence": "Istanbul is a ___ city.", "answer": "beautiful", "hint": "güzel" }
     ],
     "multipleChoice": [
       { "question": "\"She ___ happy.\" Boşluğa ne gelir?", "options": ["am", "is", "are", "be"], "correct": 1 },
@@ -269,7 +363,10 @@
       { "question": "\"is not\" kısaltması nedir?", "options": ["isnt", "isn't", "is'nt", "in't"], "correct": 1 },
       { "question": "\"Meşgulüm\" İngilizce'de nasıl söylenir?", "options": ["I am busy.", "I is busy.", "I are busy.", "I do busy."], "correct": 0 },
       { "question": "\"Susadım\" İngilizce'de hangisi?", "options": ["I am hungry.", "I am cold.", "I am thirsty.", "I am tired."], "correct": 2 },
-      { "question": "\"Is she a doctor?\" → Hayır. Doğru kısa cevap?", "options": ["No, she not.", "No, she isn't.", "No, she aren't.", "No, she don't."], "correct": 1 }
+      { "question": "\"Is she a doctor?\" → Hayır. Doğru kısa cevap?", "options": ["No, she not.", "No, she isn't.", "No, she aren't.", "No, she don't."], "correct": 1 },
+      { "question": "\"Korkmuş\" İngilizce'de hangisi?", "options": ["angry", "scared", "excited", "nervous"], "correct": 1 },
+      { "question": "\"He is very ___.\" (zeki)", "options": ["strong", "weak", "smart", "tall"], "correct": 2 },
+      { "question": "\"Müdür\" İngilizce'de hangisi?", "options": ["driver", "teacher", "manager", "engineer"], "correct": 2 }
     ],
     "matching": [
       { "left": "happy", "right": "mutlu" },
@@ -281,7 +378,12 @@
       { "left": "short", "right": "kısa boylu" },
       { "left": "busy", "right": "meşgul" },
       { "left": "ready", "right": "hazır" },
-      { "left": "late", "right": "geç" }
+      { "left": "late", "right": "geç" },
+      { "left": "angry", "right": "kızgın" },
+      { "left": "excited", "right": "heyecanlı" },
+      { "left": "nervous", "right": "gergin" },
+      { "left": "beautiful", "right": "güzel" },
+      { "left": "strong", "right": "güçlü" }
     ],
     "sentenceOrder": [
       { "words": ["She", "is", "not", "tired"], "correct": "She is not tired" },
@@ -289,14 +391,20 @@
       { "words": ["They", "are", "happy", "today"], "correct": "They are happy today" },
       { "words": ["Is", "he", "a", "doctor"], "correct": "Is he a doctor" },
       { "words": ["We", "are", "not", "ready", "yet"], "correct": "We are not ready yet" },
-      { "words": ["I", "am", "interested", "in", "technology"], "correct": "I am interested in technology" }
+      { "words": ["I", "am", "interested", "in", "technology"], "correct": "I am interested in technology" },
+      { "words": ["She", "is", "a", "beautiful", "woman"], "correct": "She is a beautiful woman" },
+      { "words": ["I", "am", "not", "scared", "of", "dogs"], "correct": "I am not scared of dogs" },
+      { "words": ["He", "is", "a", "taxi", "driver"], "correct": "He is a taxi driver" }
     ],
     "translation": [
       { "turkish": "Ben mutluyum.", "english": "I am happy.", "acceptAlso": ["I'm happy"] },
       { "turkish": "O öğretmen değil.", "english": "He is not a teacher.", "acceptAlso": ["He isn't a teacher", "He's not a teacher", "She is not a teacher", "She isn't a teacher"] },
       { "turkish": "Hazır mısın?", "english": "Are you ready?", "acceptAlso": ["Are you ready"] },
       { "turkish": "Onlar yorgun değil.", "english": "They are not tired.", "acceptAlso": ["They aren't tired", "They're not tired"] },
-      { "turkish": "Susadım. Biraz su alabilir miyim?", "english": "I am thirsty. Can I have some water?", "acceptAlso": ["I'm thirsty. Can I have some water", "I'm thirsty can I have some water"] }
+      { "turkish": "Susadım. Biraz su alabilir miyim?", "english": "I am thirsty. Can I have some water?", "acceptAlso": ["I'm thirsty. Can I have some water", "I'm thirsty can I have some water"] },
+      { "turkish": "Sınav için gerginim.", "english": "I am nervous about the exam.", "acceptAlso": ["I'm nervous about the exam"] },
+      { "turkish": "O çok zeki.", "english": "He is very smart.", "acceptAlso": ["He's very smart", "She is very smart", "She's very smart"] },
+      { "turkish": "Kızgın olma!", "english": "Don't be angry!", "acceptAlso": ["Don't be angry", "Do not be angry"] }
     ]
   },
 

@@ -187,6 +187,96 @@
       "exampleTr": "Ofisimize hoş geldiniz!",
       "extra": "You're welcome! (= Bir şey değil!)",
       "extraTr": "Rica ederim!"
+    },
+    {
+      "word": "good",
+      "pronunciation": "gud",
+      "turkish": "iyi",
+      "example": "Good morning!",
+      "exampleTr": "Günaydın!",
+      "extra": "The food is good.",
+      "extraTr": "Yemek iyi."
+    },
+    {
+      "word": "what",
+      "pronunciation": "vat",
+      "turkish": "ne",
+      "example": "What is your name?",
+      "exampleTr": "Adın ne?",
+      "extra": "What do you want?",
+      "extraTr": "Ne istiyorsun?"
+    },
+    {
+      "word": "where",
+      "pronunciation": "ver",
+      "turkish": "nerede",
+      "example": "Where are you from?",
+      "exampleTr": "Nerelisin?",
+      "extra": "Where is the station?",
+      "extraTr": "İstasyon nerede?"
+    },
+    {
+      "word": "who",
+      "pronunciation": "huu",
+      "turkish": "kim",
+      "example": "Who is she?",
+      "exampleTr": "O kim?",
+      "extra": "Who is your teacher?",
+      "extraTr": "Öğretmenin kim?"
+    },
+    {
+      "word": "people",
+      "pronunciation": "PII-pıl",
+      "turkish": "insanlar",
+      "example": "There are many people here.",
+      "exampleTr": "Burada çok insan var.",
+      "extra": "Turkish people are friendly.",
+      "extraTr": "Türk insanları samimi."
+    },
+    {
+      "word": "meet",
+      "pronunciation": "miit",
+      "turkish": "tanışmak / buluşmak",
+      "example": "Nice to meet you!",
+      "exampleTr": "Tanıştığıma memnun oldum!",
+      "extra": "Let's meet at the café.",
+      "extraTr": "Kafede buluşalım."
+    },
+    {
+      "word": "speak",
+      "pronunciation": "spiik",
+      "turkish": "konuşmak",
+      "example": "Do you speak English?",
+      "exampleTr": "İngilizce konuşuyor musun?",
+      "extra": "I speak a little Turkish.",
+      "extraTr": "Biraz Türkçe konuşuyorum."
+    },
+    {
+      "word": "understand",
+      "pronunciation": "an-dır-STEND",
+      "turkish": "anlamak",
+      "example": "I don't understand.",
+      "exampleTr": "Anlamıyorum.",
+      "extra": "Do you understand me?",
+      "extraTr": "Beni anlıyor musun?"
+    },
+    {
+      "word": "here",
+      "pronunciation": "hiir",
+      "turkish": "burada",
+      "example": "I am here.",
+      "exampleTr": "Ben buradayım.",
+      "extra": "Come here, please.",
+      "extraTr": "Buraya gel, lütfen."
+    },
+    {
+      "word": "there",
+      "pronunciation": "der",
+      "turkish": "orada / şurada",
+      "example": "He is over there.",
+      "exampleTr": "O şurada.",
+      "extra": "There is a café near here.",
+      "extraTr": "Buranın yakınında bir kafe var."
     }
   ],
 
@@ -260,7 +350,11 @@
       { "sentence": "Good ___! How are you?", "answer": "morning", "hint": "sabah" },
       { "sentence": "___ to meet you!", "answer": "Nice", "hint": "Tanıştığıma memnun oldum" },
       { "sentence": "___ me, where is the bathroom?", "answer": "Excuse", "hint": "affedersiniz" },
-      { "sentence": "You're ___! (= Rica ederim)", "answer": "welcome", "hint": "hoş geldiniz / bir şey değil" }
+      { "sentence": "You're ___! (= Rica ederim)", "answer": "welcome", "hint": "hoş geldiniz / bir şey değil" },
+      { "sentence": "Do you ___ English?", "answer": "speak", "hint": "konuşmak" },
+      { "sentence": "I don't ___. Can you repeat?", "answer": "understand", "hint": "anlamak" },
+      { "sentence": "___ is your teacher?", "answer": "Who", "hint": "kim" },
+      { "sentence": "Come ___, please.", "answer": "here", "hint": "burada" }
     ],
     "multipleChoice": [
       {
@@ -292,6 +386,21 @@
         "question": "\"I'm\" ne demek?",
         "options": ["I is", "I am", "I are", "I was"],
         "correct": 1
+      },
+      {
+        "question": "\"Konuşmak\" İngilizce'de hangisi?",
+        "options": ["speak", "talk", "tell", "say"],
+        "correct": 0
+      },
+      {
+        "question": "\"Where are you from?\" ne demek?",
+        "options": ["Nasılsın?", "Nerelisin?", "Kim o?", "Kaç yaşındasın?"],
+        "correct": 1
+      },
+      {
+        "question": "\"I don't understand\" ne demek?",
+        "options": ["Bilmiyorum", "Görmüyorum", "Anlamıyorum", "Duymuyorum"],
+        "correct": 2
       }
     ],
     "matching": [
@@ -304,7 +413,12 @@
       { "left": "Good morning", "right": "Günaydın" },
       { "left": "Good evening", "right": "İyi akşamlar" },
       { "left": "See you", "right": "Görüşürüz" },
-      { "left": "Welcome", "right": "Hoş geldiniz" }
+      { "left": "Welcome", "right": "Hoş geldiniz" },
+      { "left": "good", "right": "iyi" },
+      { "left": "what", "right": "ne" },
+      { "left": "where", "right": "nerede" },
+      { "left": "speak", "right": "konuşmak" },
+      { "left": "understand", "right": "anlamak" }
     ],
     "sentenceOrder": [
       { "words": ["My", "name", "is", "Eyüp"], "correct": "My name is Eyüp" },
@@ -312,7 +426,10 @@
       { "words": ["She", "is", "my", "friend"], "correct": "She is my friend" },
       { "words": ["Nice", "to", "meet", "you"], "correct": "Nice to meet you" },
       { "words": ["How", "are", "you", "doing"], "correct": "How are you doing" },
-      { "words": ["We", "are", "in", "the", "same", "class"], "correct": "We are in the same class" }
+      { "words": ["We", "are", "in", "the", "same", "class"], "correct": "We are in the same class" },
+      { "words": ["Do", "you", "speak", "English"], "correct": "Do you speak English" },
+      { "words": ["Where", "are", "you", "from"], "correct": "Where are you from" },
+      { "words": ["I", "don't", "understand", "you"], "correct": "I don't understand you" }
     ],
     "translation": [
       {
@@ -339,6 +456,21 @@
         "turkish": "Affedersiniz, tuvalet nerede?",
         "english": "Excuse me, where is the bathroom?",
         "acceptAlso": ["Excuse me where is the bathroom"]
+      },
+      {
+        "turkish": "İngilizce konuşuyor musun?",
+        "english": "Do you speak English?",
+        "acceptAlso": ["Do you speak english"]
+      },
+      {
+        "turkish": "Anlamıyorum.",
+        "english": "I don't understand.",
+        "acceptAlso": ["I don't understand", "I do not understand"]
+      },
+      {
+        "turkish": "Nerelisin?",
+        "english": "Where are you from?",
+        "acceptAlso": ["Where are you from"]
       }
     ]
   },

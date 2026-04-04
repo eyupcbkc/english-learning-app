@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import TranslationToggle from './TranslationToggle'
 
 export default function GrammarBox({ grammar }) {
   return (
@@ -13,8 +14,10 @@ export default function GrammarBox({ grammar }) {
         {/* Explanation */}
         <div className="rounded-xl bg-primary/5 border border-primary/20 p-5">
           <h3 className="font-semibold text-primary mb-2">{grammar.title}</h3>
-          <p className="text-sm leading-relaxed mb-2">{grammar.explanation}</p>
-          <p className="text-sm text-muted-foreground leading-relaxed">{grammar.explanationTr}</p>
+          <p className="text-sm leading-relaxed mb-3">{grammar.explanation}</p>
+          <TranslationToggle label="Türkçe Açıklamayı Göster">
+            <p className="text-sm text-muted-foreground leading-relaxed">{grammar.explanationTr}</p>
+          </TranslationToggle>
         </div>
 
         {/* Table */}

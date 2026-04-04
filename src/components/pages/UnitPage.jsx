@@ -17,7 +17,7 @@ import SentenceOrder from '../shared/SentenceOrder'
 import TranslationExercise from '../shared/TranslationExercise'
 import DialogListening from '../shared/DialogListening'
 import ResourcesSection from '../shared/ResourcesSection'
-import { ArrowLeft, ArrowRight, BookOpen, PenLine, CheckCircle2, Sparkles, RotateCcw, ChevronLeft, ChevronRight, Trophy, Headphones, LinkIcon } from 'lucide-react'
+import { ArrowLeft, ArrowRight, BookOpen, PenLine, CheckCircle2, Sparkles, RotateCcw, ChevronLeft, ChevronRight, Trophy, Headphones, LinkIcon, Brain } from 'lucide-react'
 
 const STEPS = [
   { key: 'vocab', label: 'Kelimeler', labelEn: 'Vocabulary', icon: BookOpen },
@@ -108,28 +108,33 @@ export default function UnitPage() {
       </div>
 
       {/* Step progress */}
-      <div>
-        <div className="flex items-center justify-between mb-2">
-          <div className="flex gap-1">
-            {STEPS.map((s, i) => (
-              <button
-                key={s.key}
-                onClick={() => setStep(i)}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
-                  i === step
-                    ? 'bg-primary text-primary-foreground'
-                    : i < step
-                      ? 'bg-green-100 text-green-700'
-                      : 'bg-muted text-muted-foreground'
-                }`}
-              >
-                <s.icon className="h-3 w-3" />
-                <span className="hidden sm:inline">{s.label}</span>
-              </button>
-            ))}
-          </div>
+      <div className="space-y-3">
+        {/* Step pills — scrollable on mobile */}
+        <div className="flex gap-1.5 overflow-x-auto pb-1 -mx-1 px-1 scrollbar-hide">
+          {STEPS.map((s, i) => (
+            <button
+              key={s.key}
+              onClick={() => setStep(i)}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium transition-all duration-200 whitespace-nowrap shrink-0 ${
+                i === step
+                  ? 'bg-primary text-primary-foreground shadow-sm'
+                  : i < step
+                    ? 'bg-green-100 text-green-700 hover:bg-green-200'
+                    : 'bg-muted text-muted-foreground hover:bg-accent'
+              }`}
+            >
+              {i < step ? (
+                <CheckCircle2 className="h-3.5 w-3.5" />
+              ) : (
+                <s.icon className="h-3.5 w-3.5" />
+              )}
+              <span className="hidden sm:inline">{s.label}</span>
+              <span className="sm:hidden">{s.labelEn.slice(0, 4)}</span>
+            </button>
+          ))}
         </div>
-        <Progress value={progressPercent} className="h-1.5" />
+        {/* Progress bar */}
+        <Progress value={progressPercent} className="h-1.5 progress-shimmer" />
       </div>
 
       {/* Step Content */}
@@ -150,12 +155,18 @@ export default function UnitPage() {
       )}
       {step === 5 && <ResourcesSection resources={unit.resources} />}
       {step === 6 && (
-        <Card className="border-green-200 bg-green-50/50">
+        <Card className="border-green-200 bg-gradient-to-b from-green-50/50 to-emerald-50/30 overflow-hidden">
           <CardContent className="p-8 text-center space-y-6">
-            <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-green-100 mx-auto">
-              <Sparkles className="h-10 w-10 text-green-600" />
+            {/* Icon */}
+            <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-green-100 mx-auto animate-score-pop">
+              {completed ? (
+                <Trophy className="h-10 w-10 text-green-600" />
+              ) : (
+                <Sparkles className="h-10 w-10 text-green-600" />
+              )}
             </div>
-            <div>
+
+            <div className="animate-fade-in-up">
               <h2 className="text-2xl font-bold mb-1">
                 {completed ? 'Ünite Tamamlandı!' : 'Hazır mısın?'}
               </h2>
@@ -167,28 +178,52 @@ export default function UnitPage() {
             </div>
 
             {totalPossible > 0 && (
-              <div className="space-y-3">
-                <div className="text-5xl font-bold text-green-600">%{percentage}</div>
-                <p className="text-sm text-muted-foreground">{totalScore} / {totalPossible} doğru</p>
-                <Progress value={percentage} className="h-3 max-w-xs mx-auto" />
-                <div className="flex flex-wrap justify-center gap-2 mt-3">
-                  {Object.entries(scores).map(([type, { score, total }]) => (
-                    <Badge key={type} variant={score === total ? 'default' : 'secondary'} className="text-xs">
-                      {type === 'fillBlanks' && 'Boşluk Doldurma'}
-                      {type === 'multipleChoice' && 'Çoktan Seçmeli'}
-                      {type === 'matching' && 'Eşleştirme'}
-                      {type === 'sentenceOrder' && 'Cümle Sıralama'}
-                      {type === 'translation' && 'Çeviri'}
-                      {type === 'dialog' && 'Diyalog Dinleme'}
-                      : {score}/{total}
-                    </Badge>
-                  ))}
+              <div className="space-y-4 animate-fade-in-up">
+                {/* Big score */}
+                <div className="animate-score-pop">
+                  <div className={`text-6xl font-bold ${percentage >= 80 ? 'text-green-600' : percentage >= 50 ? 'text-amber-600' : 'text-red-500'}`}>
+                    %{percentage}
+                  </div>
+                  <p className="text-sm text-muted-foreground mt-1">{totalScore} / {totalPossible} dogru</p>
+                </div>
+
+                {/* Score bar */}
+                <Progress value={percentage} className="h-3 max-w-xs mx-auto progress-shimmer" />
+
+                {/* Score breakdown */}
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 max-w-md mx-auto mt-4">
+                  {Object.entries(scores).map(([type, { score, total }]) => {
+                    const pct = Math.round((score / total) * 100)
+                    const labels = {
+                      fillBlanks: 'Boşluk Doldurma',
+                      multipleChoice: 'Çoktan Seçmeli',
+                      matching: 'Eşleştirme',
+                      sentenceOrder: 'Cümle Sıralama',
+                      translation: 'Çeviri',
+                      dialog: 'Diyalog',
+                    }
+                    return (
+                      <div key={type} className={`rounded-xl p-3 border ${
+                        pct === 100 ? 'bg-green-50 border-green-200' : 'bg-background border-border'
+                      }`}>
+                        <p className="text-[10px] text-muted-foreground mb-1">{labels[type] || type}</p>
+                        <p className={`text-sm font-bold ${pct === 100 ? 'text-green-600' : ''}`}>{score}/{total}</p>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             )}
 
+            {/* Vocabulary badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10 text-sm">
+              <Brain className="h-4 w-4 text-primary" />
+              <span className="font-medium">{unit.vocabulary.length} yeni kelime</span>
+              <span className="text-muted-foreground">hafıza kartlarına eklendi</span>
+            </div>
+
             {!completed && (
-              <Button size="lg" onClick={handleComplete} className="bg-green-600 hover:bg-green-700 text-lg px-8 py-6">
+              <Button size="lg" onClick={handleComplete} className="bg-green-600 hover:bg-green-700 text-lg px-8 py-6 shadow-lg shadow-green-600/20">
                 <CheckCircle2 className="mr-2 h-5 w-5" />
                 Üniteyi Tamamla
               </Button>
@@ -200,7 +235,7 @@ export default function UnitPage() {
                   <RotateCcw className="mr-2 h-4 w-4" /> Tekrar Çalış
                 </Button>
                 {nextUnit && (
-                  <Button asChild>
+                  <Button asChild size="lg" className="shadow-md">
                     <Link to={`/unit/${nextUnit.id}`}>
                       Sonraki: {nextUnit.title} <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>

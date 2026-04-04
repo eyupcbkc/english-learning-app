@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import TranslationToggle from './TranslationToggle'
 
 export default function ReadingSection({ reading }) {
   const [answers, setAnswers] = useState({})
@@ -22,17 +23,25 @@ export default function ReadingSection({ reading }) {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-5">
-        {/* Text */}
+        {/* English Text */}
         <div className="rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 p-5">
-          <p className="text-sm leading-relaxed">{reading.text}</p>
+          <p className="text-sm leading-relaxed whitespace-pre-line">{reading.text}</p>
         </div>
-        <p className="text-xs text-muted-foreground italic leading-relaxed">{reading.textTr}</p>
+
+        {/* Turkish Translation - Accordion */}
+        <TranslationToggle label="Türkçe Çeviriyi Göster">
+          <div className="rounded-xl bg-muted/50 border p-4">
+            <p className="text-xs text-muted-foreground italic leading-relaxed whitespace-pre-line">{reading.textTr}</p>
+          </div>
+        </TranslationToggle>
 
         {/* Questions */}
         {reading.questions.map((q, qi) => (
           <div key={qi} className="rounded-xl border p-5 space-y-3">
             <p className="font-medium text-sm"><span className="text-primary font-bold">{qi + 1}.</span> {q.question}</p>
-            <p className="text-xs text-muted-foreground">{q.questionTr}</p>
+            <TranslationToggle label="Soruyu Türkçe Gör">
+              <p className="text-xs text-muted-foreground">{q.questionTr}</p>
+            </TranslationToggle>
             <div className="grid grid-cols-2 gap-2">
               {q.options.map((opt, oi) => {
                 let cls = 'border rounded-lg px-4 py-2.5 text-sm text-left transition-all cursor-pointer '

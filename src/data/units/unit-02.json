@@ -187,6 +187,96 @@
       "exampleTr": "Bugünün tarihi ne?",
       "extra": "The date of the meeting is March 15th.",
       "extraTr": "Toplantının tarihi 15 Mart."
+    },
+    {
+      "word": "three",
+      "pronunciation": "Trii",
+      "turkish": "üç (3)",
+      "example": "I have three children.",
+      "exampleTr": "Üç çocuğum var.",
+      "extra": "Three coffees, please.",
+      "extraTr": "Üç kahve, lütfen."
+    },
+    {
+      "word": "four",
+      "pronunciation": "for",
+      "turkish": "dört (4)",
+      "example": "There are four seasons in a year.",
+      "exampleTr": "Bir yılda dört mevsim var.",
+      "extra": "I work four days this week.",
+      "extraTr": "Bu hafta dört gün çalışıyorum."
+    },
+    {
+      "word": "seven",
+      "pronunciation": "SE-vın",
+      "turkish": "yedi (7)",
+      "example": "There are seven days in a week.",
+      "exampleTr": "Bir haftada yedi gün var.",
+      "extra": "The movie starts at seven.",
+      "extraTr": "Film yedide başlıyor."
+    },
+    {
+      "word": "Tuesday",
+      "pronunciation": "TYUUZ-dey",
+      "turkish": "Salı",
+      "example": "I have English class on Tuesday.",
+      "exampleTr": "Salı günü İngilizce dersim var.",
+      "extra": "Tuesday is the second day.",
+      "extraTr": "Salı ikinci gündür."
+    },
+    {
+      "word": "Wednesday",
+      "pronunciation": "VENZ-dey",
+      "turkish": "Çarşamba",
+      "example": "Wednesday is in the middle of the week.",
+      "exampleTr": "Çarşamba haftanın ortasındadır.",
+      "extra": "See you on Wednesday.",
+      "extraTr": "Çarşamba görüşürüz."
+    },
+    {
+      "word": "Thursday",
+      "pronunciation": "TÖRS-dey",
+      "turkish": "Perşembe",
+      "example": "Thursday is before Friday.",
+      "exampleTr": "Perşembe Cuma'dan öncedir.",
+      "extra": "We have a meeting on Thursday.",
+      "extraTr": "Perşembe toplantımız var."
+    },
+    {
+      "word": "Saturday",
+      "pronunciation": "SE-tır-dey",
+      "turkish": "Cumartesi",
+      "example": "I don't work on Saturday.",
+      "exampleTr": "Cumartesi çalışmıyorum.",
+      "extra": "Let's go shopping on Saturday.",
+      "extraTr": "Cumartesi alışverişe gidelim."
+    },
+    {
+      "word": "Sunday",
+      "pronunciation": "SAN-dey",
+      "turkish": "Pazar",
+      "example": "Sunday is a rest day.",
+      "exampleTr": "Pazar dinlenme günüdür.",
+      "extra": "I visit my family on Sunday.",
+      "extraTr": "Pazar ailemi ziyaret ederim."
+    },
+    {
+      "word": "morning",
+      "pronunciation": "MOR-ning",
+      "turkish": "sabah",
+      "example": "I wake up early in the morning.",
+      "exampleTr": "Sabah erken uyanırım.",
+      "extra": "Good morning, class!",
+      "extraTr": "Günaydın, sınıf!"
+    },
+    {
+      "word": "evening",
+      "pronunciation": "IIV-ning",
+      "turkish": "akşam",
+      "example": "I study English in the evening.",
+      "exampleTr": "Akşamları İngilizce çalışırım.",
+      "extra": "Good evening, sir.",
+      "extraTr": "İyi akşamlar, efendim."
     }
   ],
 
@@ -262,7 +352,11 @@
       { "sentence": "How ___ brothers do you have?", "answer": "many", "hint": "kaç tane" },
       { "sentence": "___ is the last month of the year.", "answer": "December", "hint": "Aralık" },
       { "sentence": "What ___ is it? It's 3 o'clock.", "answer": "time", "hint": "saat" },
-      { "sentence": "My birthday is ___ March.", "answer": "in", "hint": "ay için kullanılan edat" }
+      { "sentence": "My birthday is ___ March.", "answer": "in", "hint": "ay için kullanılan edat" },
+      { "sentence": "There are ___ seasons in a year.", "answer": "four", "hint": "4" },
+      { "sentence": "___ is in the middle of the week.", "answer": "Wednesday", "hint": "Çarşamba" },
+      { "sentence": "I don't work on ___ and Sunday.", "answer": "Saturday", "hint": "Cumartesi" },
+      { "sentence": "I wake up early in the ___.", "answer": "morning", "hint": "sabah" }
     ],
     "multipleChoice": [
       { "question": "15 İngilizce'de nasıl yazılır?", "options": ["fiveteen", "fifteen", "fiften", "fifty"], "correct": 1 },
@@ -270,7 +364,10 @@
       { "question": "\"How old are you?\" ne demek?", "options": ["Nasılsın?", "Nerelisin?", "Kaç yaşındasın?", "Kaç kardeşin var?"], "correct": 2 },
       { "question": "Yılın 6. ayı hangisi?", "options": ["May", "June", "July", "August"], "correct": 1 },
       { "question": "40 İngilizce'de hangisi?", "options": ["fourteen", "fourty", "forty", "forteen"], "correct": 2 },
-      { "question": "\"Doğum günüm Mart'ta\" nasıl söylenir?", "options": ["My birthday is at March", "My birthday is on March", "My birthday is in March", "My birthday is to March"], "correct": 2 }
+      { "question": "\"Doğum günüm Mart'ta\" nasıl söylenir?", "options": ["My birthday is at March", "My birthday is on March", "My birthday is in March", "My birthday is to March"], "correct": 2 },
+      { "question": "\"Perşembe\" İngilizce'de hangisi?", "options": ["Tuesday", "Wednesday", "Thursday", "Saturday"], "correct": 2 },
+      { "question": "There are ___ days in a week.", "options": ["five", "six", "seven", "eight"], "correct": 2 },
+      { "question": "\"Pazar\" İngilizce'de hangisi?", "options": ["Saturday", "Sunday", "Monday", "Friday"], "correct": 1 }
     ],
     "matching": [
       { "left": "Monday", "right": "Pazartesi" },
@@ -282,7 +379,12 @@
       { "left": "September", "right": "Eylül" },
       { "left": "December", "right": "Aralık" },
       { "left": "today", "right": "bugün" },
-      { "left": "tomorrow", "right": "yarın" }
+      { "left": "tomorrow", "right": "yarın" },
+      { "left": "Tuesday", "right": "Salı" },
+      { "left": "Thursday", "right": "Perşembe" },
+      { "left": "Saturday", "right": "Cumartesi" },
+      { "left": "morning", "right": "sabah" },
+      { "left": "evening", "right": "akşam" }
     ],
     "sentenceOrder": [
       { "words": ["How", "old", "are", "you"], "correct": "How old are you" },
@@ -290,14 +392,20 @@
       { "words": ["There", "are", "twelve", "months"], "correct": "There are twelve months" },
       { "words": ["My", "birthday", "is", "in", "March"], "correct": "My birthday is in March" },
       { "words": ["What", "time", "is", "it"], "correct": "What time is it" },
-      { "words": ["I", "work", "five", "days", "a", "week"], "correct": "I work five days a week" }
+      { "words": ["I", "work", "five", "days", "a", "week"], "correct": "I work five days a week" },
+      { "words": ["There", "are", "four", "seasons"], "correct": "There are four seasons" },
+      { "words": ["I", "don't", "work", "on", "Saturday"], "correct": "I don't work on Saturday" },
+      { "words": ["Good", "morning", "everyone"], "correct": "Good morning everyone" }
     ],
     "translation": [
       { "turkish": "Kaç yaşındasın?", "english": "How old are you?", "acceptAlso": ["How old are you"] },
       { "turkish": "Bugün Cuma.", "english": "Today is Friday.", "acceptAlso": ["Today is Friday"] },
       { "turkish": "Bir yılda on iki ay var.", "english": "There are twelve months in a year.", "acceptAlso": ["There are 12 months in a year"] },
       { "turkish": "Saat kaç?", "english": "What time is it?", "acceptAlso": ["What time is it"] },
-      { "turkish": "Doğum günüm Nisan'da.", "english": "My birthday is in April.", "acceptAlso": ["My birthday is in April"] }
+      { "turkish": "Doğum günüm Nisan'da.", "english": "My birthday is in April.", "acceptAlso": ["My birthday is in April"] },
+      { "turkish": "Bir yılda dört mevsim var.", "english": "There are four seasons in a year.", "acceptAlso": ["There are 4 seasons in a year"] },
+      { "turkish": "Cumartesi çalışmıyorum.", "english": "I don't work on Saturday.", "acceptAlso": ["I do not work on Saturday"] },
+      { "turkish": "Günaydın herkese!", "english": "Good morning everyone!", "acceptAlso": ["Good morning everyone", "Good morning, everyone!"] }
     ]
   },
 
