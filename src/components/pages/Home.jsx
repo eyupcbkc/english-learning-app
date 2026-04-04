@@ -3,12 +3,13 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
+import { Separator } from '@/components/ui/separator'
 import { useProgress } from '@/hooks/useProgress'
 import units from '@/data/unitIndex'
-import { BookOpen, Trophy, Brain, ArrowRight, CheckCircle } from 'lucide-react'
+import { BookOpen, Trophy, Brain, ArrowRight, CheckCircle, Flame, Target } from 'lucide-react'
 
 export default function Home() {
-  const { progress, isUnitCompleted, getScore } = useProgress()
+  const { progress, isUnitCompleted, getScore, getUnitProgress } = useProgress()
 
   const nextUnit = units.find(u => !isUnitCompleted(u.id))
   const completedCount = progress.completedUnits.length
@@ -21,59 +22,71 @@ export default function Home() {
       {/* Hero */}
       <div className="text-center py-8">
         <h1 className="text-3xl font-bold tracking-tight mb-2">English Learning Journey</h1>
-        <p className="text-muted-foreground text-lg">
-          A1'den C1'e adım adım İngilizce
-        </p>
+        <p className="text-muted-foreground text-lg">A1'den C1'e adım adım İngilizce</p>
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <Card>
-          <CardContent className="flex items-center gap-4 p-6">
-            <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
-              <Trophy className="h-6 w-6 text-primary" />
+          <CardContent className="flex items-center gap-3 p-5">
+            <div className="h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+              <Trophy className="h-5 w-5 text-primary" />
             </div>
             <div>
-              <p className="text-2xl font-bold">{progress.currentLevel}</p>
-              <p className="text-sm text-muted-foreground">Mevcut Seviye</p>
+              <p className="text-xl font-bold">{progress.currentLevel}</p>
+              <p className="text-xs text-muted-foreground">Seviye</p>
             </div>
           </CardContent>
         </Card>
         <Card>
-          <CardContent className="flex items-center gap-4 p-6">
-            <div className="h-12 w-12 rounded-xl bg-green-500/10 flex items-center justify-center">
-              <BookOpen className="h-6 w-6 text-green-600" />
+          <CardContent className="flex items-center gap-3 p-5">
+            <div className="h-10 w-10 rounded-xl bg-green-500/10 flex items-center justify-center shrink-0">
+              <BookOpen className="h-5 w-5 text-green-600" />
             </div>
             <div>
-              <p className="text-2xl font-bold">{completedCount}<span className="text-base font-normal text-muted-foreground">/{units.length}</span></p>
-              <p className="text-sm text-muted-foreground">Tamamlanan</p>
+              <p className="text-xl font-bold">{completedCount}<span className="text-sm font-normal text-muted-foreground">/{units.length}</span></p>
+              <p className="text-xs text-muted-foreground">Ünite</p>
             </div>
           </CardContent>
         </Card>
         <Card>
-          <CardContent className="flex items-center gap-4 p-6">
-            <div className="h-12 w-12 rounded-xl bg-amber-500/10 flex items-center justify-center">
-              <Brain className="h-6 w-6 text-amber-600" />
+          <CardContent className="flex items-center gap-3 p-5">
+            <div className="h-10 w-10 rounded-xl bg-amber-500/10 flex items-center justify-center shrink-0">
+              <Brain className="h-5 w-5 text-amber-600" />
             </div>
             <div>
-              <p className="text-2xl font-bold">{progress.totalWordsLearned}</p>
-              <p className="text-sm text-muted-foreground">Öğrenilen Kelime</p>
+              <p className="text-xl font-bold">{progress.totalWordsLearned}</p>
+              <p className="text-xs text-muted-foreground">Kelime</p>
+            </div>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex items-center gap-3 p-5">
+            <div className="h-10 w-10 rounded-xl bg-orange-500/10 flex items-center justify-center shrink-0">
+              <Flame className="h-5 w-5 text-orange-500" />
+            </div>
+            <div>
+              <p className="text-xl font-bold">{progress.streakDays}</p>
+              <p className="text-xs text-muted-foreground">Gün serisi</p>
             </div>
           </CardContent>
         </Card>
       </div>
 
-      {/* Progress */}
+      {/* Overall Progress */}
       {completedCount > 0 && (
         <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Genel İlerleme</CardTitle>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base flex items-center gap-2">
+              <Target className="h-4 w-4" /> Genel İlerleme
+            </CardTitle>
           </CardHeader>
           <CardContent>
-            <Progress value={(completedCount / units.length) * 100} className="h-3 mb-2" />
-            <p className="text-sm text-muted-foreground">
-              {completedCount} / {units.length} ünite tamamlandı — Ortalama skor: %{avgScore}
-            </p>
+            <Progress value={(completedCount / units.length) * 100} className="h-3 mb-3" />
+            <div className="flex justify-between text-sm text-muted-foreground">
+              <span>{completedCount} / {units.length} ünite tamamlandı</span>
+              <span>Ortalama: %{avgScore}</span>
+            </div>
           </CardContent>
         </Card>
       )}
@@ -105,19 +118,23 @@ export default function Home() {
           <CardHeader>
             <CardTitle className="text-base">Tamamlanan Üniteler</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-2">
-            {units.filter(u => isUnitCompleted(u.id)).map(unit => (
-              <Link
-                key={unit.id}
-                to={`/unit/${unit.id}`}
-                className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-accent transition-colors"
-              >
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-green-500" />
-                  <span className="text-sm font-medium">{unit.title}</span>
-                </div>
-                <Badge variant="secondary">%{getScore(unit.id)}</Badge>
-              </Link>
+          <CardContent className="space-y-1">
+            {units.filter(u => isUnitCompleted(u.id)).map((unit, i) => (
+              <div key={unit.id}>
+                {i > 0 && <Separator className="my-1" />}
+                <Link
+                  to={`/unit/${unit.id}`}
+                  className="flex items-center justify-between py-2.5 px-3 rounded-lg hover:bg-accent transition-colors"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <CheckCircle className="h-4 w-4 text-green-500 shrink-0" />
+                    <span className="text-sm font-medium">{unit.title}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Badge variant="secondary">%{getScore(unit.id)}</Badge>
+                  </div>
+                </Link>
+              </div>
             ))}
           </CardContent>
         </Card>
