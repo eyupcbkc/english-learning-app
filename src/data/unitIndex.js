@@ -23,7 +23,6 @@ import unit21 from './units/unit-21.json'
 import unit22 from './units/unit-22.json'
 import unit23 from './units/unit-23.json'
 import unit24 from './units/unit-24.json'
-
 const units = [
   unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08,
   unit09, unit10, unit11, unit12, unit13, unit14, unit15, unit16,

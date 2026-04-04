@@ -9,8 +9,8 @@ import { useFlashcards } from '@/hooks/useFlashcards'
 import { useProgress } from '@/hooks/useProgress'
 import {
   Volume2, ArrowLeft, Check, X, RotateCcw, Brain,
-  Box, ChevronRight, Layers, Trophy, Target, Sparkles,
-  Keyboard, Eye, Shuffle,
+  ChevronRight, Layers, Trophy, Target, Sparkles,
+  Keyboard, Eye, SkipForward, Timer, Clock, Zap,
 } from 'lucide-react'
 
 function speak(text) {
@@ -101,10 +101,6 @@ function BoxIndicator({ box }) {
 
 // ─── Stats Bar ───────────────────────────────────────────
 function StatsBar({ stats }) {
-  const goalProgress = stats.dailyGoal > 0
-    ? Math.min((stats.todayReviewed / stats.dailyGoal) * 100, 100)
-    : 0
-
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
       {[
@@ -150,14 +146,92 @@ function BoxDistribution({ boxCounts, totalCards }) {
   )
 }
 
+// ─── Session Result Screen (reusable) ────────────────────
+function SessionResultScreen({ results, timeElapsed, onFinish, onRetry }) {
+  const correctCount = results.filter(r => r.correct).length
+  const skippedCount = results.filter(r => r.skipped).length
+  const answeredCount = results.filter(r => !r.skipped).length
+  const pct = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0
+
+  return (
+    <div className="space-y-6 animate-fade-in-up">
+      <Card className={`border-2 ${pct >= 50 ? 'border-green-200 bg-gradient-to-b from-green-50/50 to-emerald-50/30' : 'border-red-200 bg-gradient-to-b from-red-50/50 to-orange-50/30'}`}>
+        <CardContent className="p-6 sm:p-8 text-center space-y-4">
+          <div className="text-5xl animate-score-pop">{pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '💪'}</div>
+          <p className="text-4xl font-bold animate-score-pop">{pct}%</p>
+          <div className="flex justify-center gap-4 text-sm">
+            <span className="text-green-600 font-medium">{correctCount} doğru</span>
+            <span className="text-red-500 font-medium">{answeredCount - correctCount} yanlış</span>
+            {skippedCount > 0 && <span className="text-muted-foreground">{skippedCount} pas</span>}
+          </div>
+          {timeElapsed && (
+            <p className="text-xs text-muted-foreground flex items-center justify-center gap-1">
+              <Clock className="h-3 w-3" /> {Math.floor(timeElapsed / 60)}:{String(timeElapsed % 60).padStart(2, '0')} sürdü
+            </p>
+          )}
+          {pct >= 80 && <p className="text-green-600 font-medium">Harika gidiyorsun!</p>}
+          {pct < 50 && pct > 0 && <p className="text-amber-600 font-medium">Tekrar et, gelişeceksin!</p>}
+        </CardContent>
+      </Card>
+
+      <div className="space-y-1.5 max-h-[300px] overflow-y-auto">
+        {results.map((r, i) => (
+          <div key={i} className={`flex items-center justify-between p-3 rounded-lg border ${
+            r.skipped ? 'border-border bg-muted/30' : r.correct ? 'border-green-200 bg-green-50/30' : 'border-red-200 bg-red-50/30'
+          }`}>
+            <div className="flex items-center gap-3">
+              {r.skipped ? <SkipForward className="h-4 w-4 text-muted-foreground" /> : r.correct ? <Check className="h-4 w-4 text-green-600" /> : <X className="h-4 w-4 text-red-500" />}
+              <span className="font-medium text-sm">{r.word}</span>
+              <span className="text-xs text-muted-foreground">— {r.turkish}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="flex gap-3 justify-center flex-wrap">
+        <Button variant="outline" onClick={onFinish}>
+          <ArrowLeft className="mr-2 h-4 w-4" /> Geri Dön
+        </Button>
+        <Button onClick={onRetry}>
+          <RotateCcw className="mr-2 h-4 w-4" /> Tekrar Et
+        </Button>
+      </div>
+    </div>
+  )
+}
+
+// ─── Timer Bar ───────────────────────────────────────────
+function TimerBar({ timeLeft, totalTime }) {
+  const pct = totalTime > 0 ? (timeLeft / totalTime) * 100 : 100
+  const isLow = timeLeft <= 10
+  return (
+    <div className="space-y-1">
+      <div className="flex justify-between text-xs">
+        <span className={`font-mono font-bold ${isLow ? 'text-red-500 animate-pulse' : 'text-muted-foreground'}`}>
+          {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
+        </span>
+        <span className="text-muted-foreground flex items-center gap-1"><Timer className="h-3 w-3" /> Kalan süre</span>
+      </div>
+      <div className="h-2 rounded-full bg-muted overflow-hidden">
+        <div
+          className={`h-full rounded-full transition-all duration-1000 ${isLow ? 'bg-red-500' : 'bg-primary'}`}
+          style={{ width: `${pct}%` }}
+        />
+      </div>
+    </div>
+  )
+}
+
 // ─── Review Session ──────────────────────────────────────
-// Phase state machine: 'front' → 'back' → 'answered' → 'front' (next card)
-function ReviewSession({ cards, getCardData, markAnswer, onFinish }) {
+// Supports: skip, timed mode
+function ReviewSession({ cards, getCardData, markAnswer, onFinish, timeLimit }) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [phase, setPhase] = useState('front') // 'front' | 'back' | 'answered'
-  const [lastResult, setLastResult] = useState(null) // true | false | null
+  const [phase, setPhase] = useState('front')
+  const [lastResult, setLastResult] = useState(null)
   const [sessionResults, setSessionResults] = useState([])
   const [isComplete, setIsComplete] = useState(false)
+  const [startTime] = useState(() => Date.now())
+  const [timeLeft, setTimeLeft] = useState(timeLimit || null)
 
   const shuffledCards = useMemo(() => {
     return [...cards].sort(() => Math.random() - 0.5)
@@ -168,6 +242,22 @@ function ReviewSession({ cards, getCardData, markAnswer, onFinish }) {
   const total = shuffledCards.length
   const progressPct = total > 0 ? (currentIndex / total) * 100 : 0
 
+  // Timer countdown
+  useEffect(() => {
+    if (!timeLimit || isComplete) return
+    const interval = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(interval)
+          setIsComplete(true)
+          return 0
+        }
+        return prev - 1
+      })
+    }, 1000)
+    return () => clearInterval(interval)
+  }, [timeLimit, isComplete])
+
   const handleFlip = useCallback(() => {
     if (phase === 'front') setPhase('back')
   }, [phase])
@@ -177,8 +267,23 @@ function ReviewSession({ cards, getCardData, markAnswer, onFinish }) {
     setPhase('answered')
     setLastResult(correct)
     markAnswer(currentCard.word, correct)
-    setSessionResults(prev => [...prev, { word: currentCard.word, turkish: currentCard.turkish, correct }])
+    setSessionResults(prev => [...prev, { word: currentCard.word, turkish: currentCard.turkish, correct, skipped: false }])
   }, [phase, currentCard, markAnswer])
+
+  const handleSkip = useCallback(() => {
+    if (phase !== 'front' && phase !== 'back') return
+    setSessionResults(prev => [...prev, { word: currentCard.word, turkish: currentCard.turkish, correct: false, skipped: true }])
+    if (currentIndex + 1 >= total) {
+      setIsComplete(true)
+      return
+    }
+    setPhase('transitioning')
+    setTimeout(() => {
+      setCurrentIndex(prev => prev + 1)
+      setLastResult(null)
+      setPhase('front')
+    }, 100)
+  }, [phase, currentCard, currentIndex, total])
 
   const handleNext = useCallback(() => {
     if (phase !== 'answered') return
@@ -186,7 +291,6 @@ function ReviewSession({ cards, getCardData, markAnswer, onFinish }) {
       setIsComplete(true)
       return
     }
-    // Reset to front phase, then advance index after a tick
     setPhase('transitioning')
     setTimeout(() => {
       setCurrentIndex(prev => prev + 1)
@@ -207,64 +311,35 @@ function ReviewSession({ cards, getCardData, markAnswer, onFinish }) {
         if (e.key === 'ArrowRight' || e.key === '1') handleAnswer(true)
         if (e.key === 'ArrowLeft' || e.key === '2') handleAnswer(false)
       }
+      if (e.key === 's' || e.key === 'S') {
+        if (phase === 'front' || phase === 'back') handleSkip()
+      }
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [phase, handleAnswer, handleNext])
+  }, [phase, handleAnswer, handleNext, handleSkip])
 
-  // ── Complete Screen ──
+  const timeElapsed = Math.floor((Date.now() - startTime) / 1000)
+  const resetSession = () => {
+    setCurrentIndex(0)
+    setPhase('front')
+    setLastResult(null)
+    setSessionResults([])
+    setIsComplete(false)
+    setTimeLeft(timeLimit || null)
+  }
+
   if (isComplete) {
-    const correctCount = sessionResults.filter(r => r.correct).length
-    const pct = Math.round((correctCount / sessionResults.length) * 100)
-    return (
-      <div className="space-y-6">
-        <Card className={`border-2 ${pct >= 50 ? 'border-green-200 bg-green-50/30' : 'border-red-200 bg-red-50/30'}`}>
-          <CardContent className="p-6 sm:p-8 text-center space-y-4">
-            <div className="text-5xl">{pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '💪'}</div>
-            <p className="text-3xl font-bold">{pct}%</p>
-            <p className="text-muted-foreground">
-              {sessionResults.length} karttan {correctCount} doğru
-            </p>
-            {pct >= 80 && <p className="text-green-600 font-medium">Harika gidiyorsun!</p>}
-            {pct < 50 && <p className="text-amber-600 font-medium">Tekrar et, gelişeceksin!</p>}
-          </CardContent>
-        </Card>
-
-        <div className="space-y-2">
-          {sessionResults.map((r, i) => (
-            <div key={i} className={`flex items-center justify-between p-3 rounded-lg border ${r.correct ? 'border-green-200 bg-green-50/30' : 'border-red-200 bg-red-50/30'}`}>
-              <div className="flex items-center gap-3">
-                {r.correct ? <Check className="h-4 w-4 text-green-600" /> : <X className="h-4 w-4 text-red-500" />}
-                <span className="font-medium text-sm">{r.word}</span>
-                <span className="text-xs text-muted-foreground">— {r.turkish}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="flex gap-3 justify-center flex-wrap">
-          <Button variant="outline" onClick={onFinish}>
-            <ArrowLeft className="mr-2 h-4 w-4" /> Geri Dön
-          </Button>
-          <Button onClick={() => {
-            setCurrentIndex(0)
-            setPhase('front')
-            setLastResult(null)
-            setSessionResults([])
-            setIsComplete(false)
-          }}>
-            <RotateCcw className="mr-2 h-4 w-4" /> Tekrar Et
-          </Button>
-        </div>
-      </div>
-    )
+    return <SessionResultScreen results={sessionResults} timeElapsed={timeElapsed} onFinish={onFinish} onRetry={resetSession} />
   }
 
   if (!currentCard || phase === 'transitioning') return null
 
-  // ── Card View ──
   return (
     <div className="space-y-6">
+      {/* Timer (if timed mode) */}
+      {timeLimit && timeLeft !== null && <TimerBar timeLeft={timeLeft} totalTime={timeLimit} />}
+
       {/* Progress */}
       <div className="space-y-2">
         <div className="flex justify-between text-xs text-muted-foreground">
@@ -274,74 +349,58 @@ function ReviewSession({ cards, getCardData, markAnswer, onFinish }) {
         <Progress value={progressPct} className="h-2" />
       </div>
 
-      {/* Flip Card — key forces full remount on index change */}
-      <FlipCard
-        key={currentIndex}
-        word={currentCard}
-        isFlipped={phase !== 'front'}
-        onFlip={handleFlip}
-      />
+      {/* Flip Card */}
+      <FlipCard key={currentIndex} word={currentCard} isFlipped={phase !== 'front'} onFlip={handleFlip} />
 
-      {/* Phase: FRONT — prompt to flip */}
+      {/* Phase: FRONT */}
       {phase === 'front' && (
-        <div className="flex justify-center">
-          <p className="text-sm text-muted-foreground text-center">
-            Kartı çevirmek için tıkla veya{' '}
-            <kbd className="px-1.5 py-0.5 rounded bg-muted border text-[10px] font-mono">Space</kbd> bas
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-sm text-muted-foreground">
+            <kbd className="px-1.5 py-0.5 rounded bg-muted border text-[10px] font-mono">Space</kbd> çevir
           </p>
+          <Button variant="ghost" size="sm" onClick={handleSkip} className="text-muted-foreground">
+            <SkipForward className="mr-1.5 h-3.5 w-3.5" /> Pas Geç (S)
+          </Button>
         </div>
       )}
 
       {/* Phase: BACK — answer buttons */}
       {phase === 'back' && (
         <div className="flex flex-col items-center gap-3">
-          <p className="text-xs text-muted-foreground">Bu kelimeyi biliyor musun?</p>
           <div className="flex gap-3 w-full max-w-sm">
-            <Button
-              variant="outline"
-              size="lg"
-              className="flex-1 border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300 active:scale-95 transition-all"
-              onClick={() => handleAnswer(false)}
-            >
+            <Button variant="outline" size="lg" className="flex-1 border-red-200 text-red-600 hover:bg-red-50 active:scale-95 transition-all" onClick={() => handleAnswer(false)}>
               <X className="mr-2 h-5 w-5" /> Bilmiyorum
             </Button>
-            <Button
-              size="lg"
-              className="flex-1 bg-green-600 hover:bg-green-700 active:scale-95 transition-all"
-              onClick={() => handleAnswer(true)}
-            >
+            <Button size="lg" className="flex-1 bg-green-600 hover:bg-green-700 active:scale-95 transition-all" onClick={() => handleAnswer(true)}>
               <Check className="mr-2 h-5 w-5" /> Biliyorum
             </Button>
           </div>
+          <Button variant="ghost" size="sm" onClick={handleSkip} className="text-muted-foreground">
+            <SkipForward className="mr-1.5 h-3.5 w-3.5" /> Pas Geç
+          </Button>
         </div>
       )}
 
-      {/* Phase: ANSWERED — feedback + next */}
+      {/* Phase: ANSWERED */}
       {phase === 'answered' && (
         <div className="flex flex-col items-center gap-3">
           <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium ${
-            lastResult
-              ? 'bg-green-50 text-green-700 border border-green-200'
-              : 'bg-red-50 text-red-700 border border-red-200'
+            lastResult ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'
           }`}>
-            {lastResult
-              ? <><Check className="h-4 w-4" /> Harika! Kutu yükseldi</>
-              : <><X className="h-4 w-4" /> Kutu 1'e döndü — tekrar göreceksin</>
-            }
+            {lastResult ? <><Check className="h-4 w-4" /> Kutu yükseldi</> : <><X className="h-4 w-4" /> Kutu 1'e döndü</>}
           </div>
           <Button size="lg" onClick={handleNext} className="active:scale-95 transition-all">
-            {currentIndex + 1 >= total ? 'Sonuçları Gör' : 'Sonraki Kart'}
-            <ChevronRight className="ml-2 h-4 w-4" />
+            {currentIndex + 1 >= total ? 'Sonuçları Gör' : 'Sonraki Kart'} <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
         </div>
       )}
 
       {/* Keyboard hints */}
       <div className="flex justify-center gap-3 sm:gap-4 flex-wrap text-[11px] text-muted-foreground">
-        <span className="flex items-center gap-1"><Keyboard className="h-3 w-3" /> Space: Çevir</span>
+        <span><Keyboard className="h-3 w-3 inline" /> Space: Çevir</span>
         <span>←: Bilmiyorum</span>
         <span>→: Biliyorum</span>
-        <span>Enter: Sonraki</span>
+        <span>S: Pas</span>
       </div>
     </div>
   )
@@ -515,28 +574,24 @@ function TypeSession({ cards, getCardData, markAnswer, onFinish }) {
 
 // ─── Main Page ───────────────────────────────────────────
 export default function FlashcardPage() {
-  const { progress } = useProgress()
+  useProgress() // ensure hook is loaded for auth context
   const {
-    dueCards, activeCards, allVocabulary,
+    dueCards, activeCards,
     getCardData, markAnswer, initializeAllUnits, stats,
   } = useFlashcards()
 
-  const [mode, setMode] = useState(null) // null = lobby, 'flip', 'type'
-  const [filter, setFilter] = useState('due') // 'due', 'all', 'box-1'...'box-5'
-  const [levelFilter, setLevelFilter] = useState('all') // 'all', 'A1', 'A2', 'B1'...
-  const [unitFilter, setUnitFilter] = useState('all') // 'all', 'unit-01', 'unit-02'...
+  const [mode, setMode] = useState(null) // null = lobby, 'flip', 'type', 'timed'
+  const [filter, setFilter] = useState('due')
+  const [levelFilter, setLevelFilter] = useState('all')
+  const [unitFilter, setUnitFilter] = useState('all')
   const [search, setSearch] = useState('')
+  const [timedLevel, setTimedLevel] = useState(null) // level for timed session
+  const [timedDuration, setTimedDuration] = useState(null) // seconds
 
   // Initialize words from ALL units
   useEffect(() => {
     initializeAllUnits()
   }, [initializeAllUnits])
-
-  // Available levels and units for filters
-  const availableLevels = useMemo(() => {
-    const levels = new Set(activeCards.map(v => v.level))
-    return ['all', ...Array.from(levels).sort()]
-  }, [activeCards])
 
   const availableUnits = useMemo(() => {
     let cards = activeCards
@@ -555,7 +610,6 @@ export default function FlashcardPage() {
       map[v.level].total++
       if (card?.box === 5) map[v.level].learned++
     })
-    const today = new Date().toISOString().split('T')[0]
     dueCards.forEach(v => {
       if (map[v.level]) map[v.level].due++
     })
@@ -613,7 +667,116 @@ export default function FlashcardPage() {
     )
   }
 
-  // Active session
+  // Cards for timed session (by level)
+  const timedCards = useMemo(() => {
+    if (!timedLevel) return []
+    return activeCards.filter(v => v.level === timedLevel)
+  }, [timedLevel, activeCards])
+
+  // Timed session setup screen
+  if (mode === 'timed-setup') {
+    const levels = [...new Set(activeCards.map(v => v.level))].sort()
+    const durations = [
+      { seconds: 60, label: '1 dk', icon: '⚡' },
+      { seconds: 180, label: '3 dk', icon: '🔥' },
+      { seconds: 300, label: '5 dk', icon: '💪' },
+      { seconds: 600, label: '10 dk', icon: '🧠' },
+    ]
+    return (
+      <div className="space-y-6 max-w-lg mx-auto animate-fade-in-up">
+        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="h-4 w-4" /> Geri Dön
+        </button>
+
+        <div className="text-center space-y-2">
+          <div className="inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-primary/10 mx-auto">
+            <Zap className="h-7 w-7 text-primary" />
+          </div>
+          <h2 className="text-xl font-bold">Zamanlı Oturum</h2>
+          <p className="text-sm text-muted-foreground">Seviye ve süre seç, kaç kelime bilebileceğini gör!</p>
+        </div>
+
+        {/* Level selection */}
+        <div className="space-y-3">
+          <p className="text-sm font-semibold">Seviye Seç</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            {levels.map(level => {
+              const count = activeCards.filter(v => v.level === level).length
+              return (
+                <button
+                  key={level}
+                  onClick={() => setTimedLevel(level)}
+                  className={`p-4 rounded-xl border-2 text-center transition-all ${
+                    timedLevel === level
+                      ? 'border-primary bg-primary/5 shadow-md'
+                      : 'border-border hover:border-primary/30'
+                  }`}
+                >
+                  <p className="text-lg font-bold">{level}</p>
+                  <p className="text-xs text-muted-foreground">{count} kelime</p>
+                </button>
+              )
+            })}
+          </div>
+        </div>
+
+        {/* Duration selection */}
+        {timedLevel && (
+          <div className="space-y-3 animate-fade-in-up">
+            <p className="text-sm font-semibold">Süre Seç</p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              {durations.map(d => (
+                <button
+                  key={d.seconds}
+                  onClick={() => setTimedDuration(d.seconds)}
+                  className={`p-4 rounded-xl border-2 text-center transition-all ${
+                    timedDuration === d.seconds
+                      ? 'border-primary bg-primary/5 shadow-md'
+                      : 'border-border hover:border-primary/30'
+                  }`}
+                >
+                  <p className="text-2xl mb-1">{d.icon}</p>
+                  <p className="text-sm font-bold">{d.label}</p>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Start button */}
+        {timedLevel && timedDuration && (
+          <Button
+            size="lg"
+            className="w-full text-lg py-6 animate-fade-in-up"
+            onClick={() => setMode('timed')}
+          >
+            <Timer className="mr-2 h-5 w-5" />
+            {timedLevel} — {timedDuration / 60} dakika Başla!
+          </Button>
+        )}
+      </div>
+    )
+  }
+
+  // Active timed session
+  if (mode === 'timed' && timedCards.length > 0 && timedDuration) {
+    return (
+      <div className="space-y-6 max-w-xl mx-auto">
+        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="h-4 w-4" /> Çık
+        </button>
+        <ReviewSession
+          cards={timedCards}
+          getCardData={getCardData}
+          markAnswer={markAnswer}
+          onFinish={() => { setMode(null); setTimedLevel(null); setTimedDuration(null) }}
+          timeLimit={timedDuration}
+        />
+      </div>
+    )
+  }
+
+  // Active flip session
   if (mode === 'flip' && filteredCards.length > 0) {
     return (
       <div className="space-y-6 max-w-xl mx-auto">
@@ -630,6 +793,7 @@ export default function FlashcardPage() {
     )
   }
 
+  // Active type session
   if (mode === 'type' && filteredCards.length > 0) {
     return (
       <div className="space-y-6 max-w-xl mx-auto">
@@ -714,6 +878,26 @@ export default function FlashcardPage() {
           </CardContent>
         </Card>
       )}
+
+      {/* Timed Challenge CTA */}
+      <Card className="border-2 border-amber-200 bg-gradient-to-br from-amber-50/50 to-orange-50/30 hover:shadow-lg transition-all cursor-pointer" onClick={() => setMode('timed-setup')}>
+        <CardContent className="p-5">
+          <div className="flex items-center gap-4">
+            <div className="h-12 w-12 rounded-xl bg-amber-500/10 flex items-center justify-center shrink-0">
+              <Zap className="h-6 w-6 text-amber-600" />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-base">Zamanlı Oturum</p>
+              <p className="text-sm text-muted-foreground">Seviye ve süre seç, kendini test et!</p>
+            </div>
+            <div className="flex gap-1.5">
+              {['1dk', '3dk', '5dk', '10dk'].map(t => (
+                <span key={t} className="px-2 py-1 rounded-md bg-amber-100 text-amber-700 text-[10px] font-bold">{t}</span>
+              ))}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
 
       {/* Level Overview */}
       {Object.keys(levelStats).length > 1 && (
