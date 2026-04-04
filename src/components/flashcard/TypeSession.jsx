@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useCallback, memo } from 'react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -7,7 +7,7 @@ import { Check, X, ChevronRight } from 'lucide-react'
 import BoxIndicator from './BoxIndicator'
 import SessionResult from './SessionResult'
 
-export default function TypeSession({ cards, getCardData, markAnswer, onFinish }) {
+export default memo(function TypeSession({ cards, getCardData, markAnswer, onFinish }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [answer, setAnswer] = useState('')
   const [phase, setPhase] = useState('typing')
@@ -106,4 +106,4 @@ export default function TypeSession({ cards, getCardData, markAnswer, onFinish }
       </Card>
     </div>
   )
-}
+})

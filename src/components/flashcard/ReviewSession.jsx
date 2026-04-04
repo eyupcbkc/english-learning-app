@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useCallback, memo } from 'react'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Check, X, ChevronRight, Keyboard, SkipForward } from 'lucide-react'
@@ -7,7 +7,7 @@ import BoxIndicator from './BoxIndicator'
 import SessionResult from './SessionResult'
 import TimerBar from './TimerBar'
 
-export default function ReviewSession({ cards, getCardData, markAnswer, onFinish, timeLimit }) {
+export default memo(function ReviewSession({ cards, getCardData, markAnswer, onFinish, timeLimit }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [phase, setPhase] = useState('front')
   const [lastResult, setLastResult] = useState(null)
@@ -148,4 +148,4 @@ export default function ReviewSession({ cards, getCardData, markAnswer, onFinish
       </div>
     </div>
   )
-}
+})
