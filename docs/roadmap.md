@@ -10,7 +10,7 @@
 ---
 
 ## Tamamlanan Ozellikler
-- [x] Vocabulary cards (flip + ses dinleme)
+- [x] Vocabulary cards (flip + ses + 2 ornek cumle per kelime)
 - [x] Grammar tables (Turkce aciklama)
 - [x] Reading comprehension
 - [x] Fill in the blanks
@@ -19,7 +19,8 @@
 - [x] Sentence ordering
 - [x] Translation (TR→EN)
 - [x] Text-to-Speech telaffuz (Web Speech API)
-- [x] Dialog/Conversation dinleme (erkek/kadin ses)
+- [x] Dialog/Conversation dinleme (karakter bazli ses profilleri)
+- [x] Karakter bazli ses: her karakter farkli pitch/rate (Eyup=derin erkek, Emma=parlak kadin vb.)
 - [x] Kaynak onerileri (BBC, British Council vb.)
 - [x] 7 adimli unite akisi
 - [x] Skor takibi (localStorage, exercise bazli)
@@ -50,9 +51,9 @@
 **Hedef:** Hayatta kalma Ingilizcesi — tanisma, temel sorular, gunluk hayat
 **Senaryo temalari:** Kafe, okul, sinif, market, otel, restoran
 
-- [x] Unit 01: Greetings & Introductions — *Kafede tanisma*
-- [x] Unit 02: Numbers, Days & Months — *Okul kayit ofisi*
-- [x] Unit 03: Present Simple - Be — *Sinifta insanlari anlatma*
+- [x] Unit 01: Greetings & Introductions — *Kafede tanisma* (20 kelime, 13 satirlik dialog)
+- [x] Unit 02: Numbers, Days & Months — *Okul kayit ofisi* (20 kelime, 14 satirlik dialog)
+- [x] Unit 03: Present Simple - Be — *Ofiste ilk gun* (20 kelime, 10 satirlik dialog, lojistik senaryo)
 - [ ] Unit 04: Present Simple - Do — *Markette alisveris*
 - [ ] Unit 05: Basic Questions — *Otelde check-in*
 - [ ] Unit 06: Daily Routines — *YouTube vlogger "Bir gunum"*

@@ -1,36 +1,33 @@
 # Learning Progress
 
 ## Current Level: A1
-## Completed Units: 0 (app'te localStorage ile takip ediliyor)
-## Available Units: 3
-## Next Action: Flashcard sistemi + Unit 04-08 icerikleri
+## Available Units: 3 (enriched with 20 words each, real-life dialogs)
+## Next Priority: Flashcard system → Unit 04-08
 
 ---
 
 ## App'teki Uniteler
-- [x] Unit 01: Greetings & Introductions (icerik + dialog + kaynaklar)
-- [x] Unit 02: Numbers, Days & Months (icerik + dialog + kaynaklar)
-- [x] Unit 03: Present Simple - Be (icerik + dialog + kaynaklar)
-- [ ] Unit 04: Present Simple - Do (planli: markette alisveris)
-- [ ] Unit 05: Basic Questions (planli: otelde check-in)
-- [ ] Unit 06: Daily Routines (planli: vlogger tarzi)
-- [ ] Unit 07: Food & Drinks (planli: restoranda siparis)
-- [ ] Unit 08: A1 Review & Test (planli: karma test)
+- [x] Unit 01: Greetings & Introductions — 20 kelime, 13 satirlik dialog (kafe), 5 okuma sorusu, 8+6+10+6+5 alistirma
+- [x] Unit 02: Numbers, Days & Months — 20 kelime, 14 satirlik dialog (kayit ofisi), 5 okuma sorusu, 8+6+10+6+5 alistirma
+- [x] Unit 03: Present Simple - Be — 20 kelime, 10 satirlik dialog (ofiste ilk gun), 5 okuma sorusu, 8+7+10+6+5 alistirma
+- [ ] Unit 04-08: Planli (docs/content-plan.md)
 
 ## Tamamlanan Ozellikler
-- [x] React + Vite + shadcn/ui app iskeleti
-- [x] 7 adimli unite akisi (vocab → grammar → reading → dialog → exercises → resources → complete)
-- [x] 6 alistirma tipi (fill blanks, MC, matching, ordering, translation)
-- [x] Dialog dinleme (Web Speech API, erkek/kadin ses)
-- [x] Kaynak onerileri (BBC, British Council vb.)
-- [x] localStorage ilerleme takibi (streak, skor, seviye)
-- [x] Modul aciklamalari (skills listesi)
-- [x] Design system dokumantasyonu
-- [x] GitHub repo + push
-- [x] Vercel Analytics entegrasyonu
+- React + Vite + shadcn/ui + Tailwind CSS v4
+- 7 adimli unite akisi
+- 6 alistirma tipi + skor toplama
+- Karakter bazli ses profilleri (her karakter farkli pitch/rate)
+- Vocabulary kartlari (2 ornek cumle + ses)
+- Dialog dinleme + anlama sorulari
+- Kaynak onerileri
+- localStorage ilerleme (streak, skor, seviye, exercise bazli)
+- Modul aciklamalari (expand/collapse, skills listesi)
+- Design system dokumantasyonu
+- GitHub + Vercel Analytics
 
-## Siradaki Isler (Oncelik sirasi)
-1. Flashcard / Hafiza Karti sistemi
-2. Unit 04-08 icerikleri
-3. Kelime listesi sayfasi
-4. Vocabulary Bank sayfasi
+## Siradaki (Oncelik)
+1. Flashcard / Hafiza Karti (Leitner) → docs/flashcard-system.md
+2. Unit 04-08 icerikleri → docs/content-plan.md
+3. Kelime listesi sayfasi + filtreleme
+4. Dark mode
+5. Vercel deploy
