@@ -234,5 +234,60 @@
         "acceptAlso": ["She's my friend", "He is my friend", "He's my friend"]
       }
     ]
-  }
+  },
+
+  "dialog": {
+    "title": "Meeting a New Friend",
+    "titleTr": "Yeni Bir Arkadaşla Tanışma",
+    "context": "İki kişi bir kafede ilk kez karşılaşıyor / Two people meet at a café for the first time",
+    "lines": [
+      { "speaker": "A", "speakerName": "Emma", "text": "Hello! My name is Emma.", "textTr": "Merhaba! Benim adım Emma." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi Emma! I am Eyüp. Nice to meet you!", "textTr": "Merhaba Emma! Ben Eyüp. Tanıştığıma memnun oldum!" },
+      { "speaker": "A", "speakerName": "Emma", "text": "Nice to meet you too! Where are you from?", "textTr": "Ben de memnun oldum! Nerelisin?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I am from Turkey. And you?", "textTr": "Ben Türkiye'denim. Ya sen?" },
+      { "speaker": "A", "speakerName": "Emma", "text": "I am from England. How are you today?", "textTr": "Ben İngiltere'denim. Bugün nasılsın?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I am fine, thank you! And you?", "textTr": "İyiyim, teşekkürler! Sen nasılsın?" },
+      { "speaker": "A", "speakerName": "Emma", "text": "I am good, thanks! Goodbye, Eyüp!", "textTr": "İyiyim, sağol! Hoşça kal, Eyüp!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Goodbye, Emma! See you!", "textTr": "Hoşça kal, Emma! Görüşürüz!" }
+    ],
+    "questions": [
+      {
+        "question": "Where is Emma from?",
+        "questionTr": "Emma nereli?",
+        "options": ["Turkey", "England", "America", "Germany"],
+        "correct": 1
+      },
+      {
+        "question": "How is Eyüp today?",
+        "questionTr": "Eyüp bugün nasıl?",
+        "options": ["He is sad.", "He is tired.", "He is fine.", "He is hungry."],
+        "correct": 2
+      },
+      {
+        "question": "What does Eyüp say at the end?",
+        "questionTr": "Eyüp en sonda ne diyor?",
+        "options": ["Thank you!", "Good morning!", "Goodbye, Emma!", "Please!"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "English Greetings - BBC Learning",
+      "description": "Selamlaşma kalıplarını videolarla öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1/session-1",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Introductions - British Council",
+      "description": "Kendini tanıtma alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking/introducing-yourself",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    }
+  ]
 }

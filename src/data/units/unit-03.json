@@ -282,5 +282,66 @@
         "acceptAlso": ["They aren't tired", "They're not tired"]
       }
     ]
-  }
+  },
+
+  "dialog": {
+    "title": "Describing People",
+    "titleTr": "İnsanları Tanımlama",
+    "context": "İki arkadaş sınıftaki kişileri anlatıyor / Two friends describe people in their class",
+    "lines": [
+      { "speaker": "A", "speakerName": "Zeynep", "text": "Look! Is that our new teacher?", "textTr": "Bak! O bizim yeni öğretmenimiz mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, she is. She is tall and young.", "textTr": "Evet, o. Uzun boylu ve genç." },
+      { "speaker": "A", "speakerName": "Zeynep", "text": "Is she nice?", "textTr": "İyi biri mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, she is very nice. She is not strict.", "textTr": "Evet, çok iyi. Sert değil." },
+      { "speaker": "A", "speakerName": "Zeynep", "text": "Good! Are the other students friendly?", "textTr": "İyi! Diğer öğrenciler arkadaş canlısı mı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Some are friendly. Some are quiet. But they are not unfriendly.", "textTr": "Bazıları arkadaş canlısı. Bazıları sessiz. Ama kötü değiller." },
+      { "speaker": "A", "speakerName": "Zeynep", "text": "Are you happy in this class?", "textTr": "Bu sınıfta mutlu musun?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, I am! I am not bored. The class is interesting.", "textTr": "Evet! Sıkılmıyorum. Ders ilginç." }
+    ],
+    "questions": [
+      {
+        "question": "Is the new teacher old?",
+        "questionTr": "Yeni öğretmen yaşlı mı?",
+        "options": ["Yes, she is.", "No, she isn't. She is young.", "Yes, she is old.", "No, she is a student."],
+        "correct": 1
+      },
+      {
+        "question": "Is the teacher strict?",
+        "questionTr": "Öğretmen sert mi?",
+        "options": ["Yes, she is.", "No, she isn't.", "Yes, very strict.", "She is a student."],
+        "correct": 1
+      },
+      {
+        "question": "Are all students friendly?",
+        "questionTr": "Tüm öğrenciler arkadaş canlısı mı?",
+        "options": ["Yes, all of them.", "No, some are quiet.", "No, they are unfriendly.", "They are not students."],
+        "correct": 1
+      },
+      {
+        "question": "Is Eyüp bored in class?",
+        "questionTr": "Eyüp sınıfta sıkılıyor mu?",
+        "options": ["Yes, he is.", "No, he isn't.", "Yes, very bored.", "He is not in class."],
+        "correct": 1
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Verb Be - British Council",
+      "description": "Be fiili interaktif alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-simple-be",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Describing People - BBC",
+      "description": "İnsanları tanımlama videosu",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-2/session-1",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    }
+  ]
 }

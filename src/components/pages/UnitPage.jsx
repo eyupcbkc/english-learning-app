@@ -15,13 +15,17 @@ import MultipleChoice from '../shared/MultipleChoice'
 import MatchExercise from '../shared/MatchExercise'
 import SentenceOrder from '../shared/SentenceOrder'
 import TranslationExercise from '../shared/TranslationExercise'
-import { ArrowLeft, ArrowRight, BookOpen, PenLine, CheckCircle2, Sparkles, RotateCcw, ChevronLeft, ChevronRight, Trophy } from 'lucide-react'
+import DialogListening from '../shared/DialogListening'
+import ResourcesSection from '../shared/ResourcesSection'
+import { ArrowLeft, ArrowRight, BookOpen, PenLine, CheckCircle2, Sparkles, RotateCcw, ChevronLeft, ChevronRight, Trophy, Headphones, LinkIcon } from 'lucide-react'
 
 const STEPS = [
   { key: 'vocab', label: 'Kelimeler', labelEn: 'Vocabulary', icon: BookOpen },
   { key: 'grammar', label: 'Dilbilgisi', labelEn: 'Grammar', icon: PenLine },
   { key: 'reading', label: 'Okuma', labelEn: 'Reading', icon: BookOpen },
+  { key: 'dialog', label: 'Dinleme', labelEn: 'Listening', icon: Headphones },
   { key: 'exercises', label: 'Alıştırmalar', labelEn: 'Exercises', icon: CheckCircle2 },
+  { key: 'resources', label: 'Kaynaklar', labelEn: 'Resources', icon: LinkIcon },
   { key: 'complete', label: 'Tamamla', labelEn: 'Complete', icon: Trophy },
 ]
 
@@ -132,7 +136,10 @@ export default function UnitPage() {
       {step === 0 && <VocabularyCard vocabulary={unit.vocabulary} />}
       {step === 1 && <GrammarBox grammar={unit.grammar} />}
       {step === 2 && <ReadingSection reading={unit.reading} />}
-      {step === 3 && (
+      {step === 3 && unit.dialog && (
+        <DialogListening dialog={unit.dialog} onScore={(s, t) => handleScore('dialog', s, t)} />
+      )}
+      {step === 4 && (
         <div className="space-y-6">
           <FillBlanks exercises={unit.exercises.fillBlanks} onScore={(s, t) => handleScore('fillBlanks', s, t)} />
           <MultipleChoice exercises={unit.exercises.multipleChoice} onScore={(s, t) => handleScore('multipleChoice', s, t)} />
@@ -141,7 +148,8 @@ export default function UnitPage() {
           <TranslationExercise exercises={unit.exercises.translation} onScore={(s, t) => handleScore('translation', s, t)} />
         </div>
       )}
-      {step === 4 && (
+      {step === 5 && <ResourcesSection resources={unit.resources} />}
+      {step === 6 && (
         <Card className="border-green-200 bg-green-50/50">
           <CardContent className="p-8 text-center space-y-6">
             <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-green-100 mx-auto">
@@ -171,6 +179,7 @@ export default function UnitPage() {
                       {type === 'matching' && 'Eşleştirme'}
                       {type === 'sentenceOrder' && 'Cümle Sıralama'}
                       {type === 'translation' && 'Çeviri'}
+                      {type === 'dialog' && 'Diyalog Dinleme'}
                       : {score}/{total}
                     </Badge>
                   ))}

@@ -281,5 +281,68 @@
         "acceptAlso": ["I'm twenty years old", "I am 20 years old", "I'm 20 years old"]
       }
     ]
-  }
+  },
+
+  "dialog": {
+    "title": "At the Registration Office",
+    "titleTr": "Kayıt Ofisinde",
+    "context": "Bir öğrenci okul kaydı için bilgilerini veriyor / A student gives personal info for school registration",
+    "lines": [
+      { "speaker": "A", "speakerName": "Secretary", "text": "Good morning. What is your name?", "textTr": "Günaydın. Adınız nedir?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning. My name is Eyüp.", "textTr": "Günaydın. Adım Eyüp." },
+      { "speaker": "A", "speakerName": "Secretary", "text": "How old are you?", "textTr": "Kaç yaşındasınız?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I am twenty-two years old.", "textTr": "Yirmi iki yaşındayım." },
+      { "speaker": "A", "speakerName": "Secretary", "text": "When is your birthday?", "textTr": "Doğum gününüz ne zaman?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "My birthday is in April.", "textTr": "Doğum günüm Nisan'da." },
+      { "speaker": "A", "speakerName": "Secretary", "text": "Which days do you want English class?", "textTr": "Hangi günler İngilizce dersi istiyorsunuz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Monday and Wednesday, please.", "textTr": "Pazartesi ve Çarşamba, lütfen." },
+      { "speaker": "A", "speakerName": "Secretary", "text": "OK. Your class starts on Monday. There are fifteen students.", "textTr": "Tamam. Dersiniz Pazartesi başlıyor. On beş öğrenci var." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you very much!", "textTr": "Çok teşekkür ederim!" }
+    ],
+    "questions": [
+      {
+        "question": "How old is Eyüp?",
+        "questionTr": "Eyüp kaç yaşında?",
+        "options": ["20", "21", "22", "25"],
+        "correct": 2
+      },
+      {
+        "question": "When is his birthday?",
+        "questionTr": "Doğum günü ne zaman?",
+        "options": ["March", "April", "May", "June"],
+        "correct": 1
+      },
+      {
+        "question": "Which days does he want class?",
+        "questionTr": "Hangi günler ders istiyor?",
+        "options": ["Tuesday and Thursday", "Monday and Wednesday", "Monday and Friday", "Wednesday and Friday"],
+        "correct": 1
+      },
+      {
+        "question": "How many students are in the class?",
+        "questionTr": "Sınıfta kaç öğrenci var?",
+        "options": ["10", "12", "15", "20"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Numbers 1-100 - English Speaking",
+      "description": "Sayıları doğru telaffuz etmeyi öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1/session-2",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Days & Months Practice",
+      "description": "Günler ve aylar interaktif alıştırma",
+      "url": "https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/days-months-and-seasons",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    }
+  ]
 }
