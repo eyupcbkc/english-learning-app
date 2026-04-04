@@ -4,38 +4,70 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Play, Pause, RotateCcw, Eye, EyeOff, Volume2 } from 'lucide-react'
 
+let cachedVoices = null
 function getVoices() {
   return new Promise(resolve => {
+    if (cachedVoices) return resolve(cachedVoices)
     const voices = speechSynthesis.getVoices()
-    if (voices.length) return resolve(voices)
-    speechSynthesis.onvoiceschanged = () => resolve(speechSynthesis.getVoices())
+    if (voices.length) { cachedVoices = voices; return resolve(voices) }
+    speechSynthesis.onvoiceschanged = () => {
+      cachedVoices = speechSynthesis.getVoices()
+      resolve(cachedVoices)
+    }
   })
 }
 
-async function speakLine(text, rate = 0.8, gender = 'female') {
+// Each character gets a unique voice profile based on their name
+const CHARACTER_PROFILES = {
+  // Main character - always male, deep voice
+  'Eyüp':     { gender: 'male',   pitch: 0.8,  rate: 0.8  },
+  'Mehmet':   { gender: 'male',   pitch: 0.75, rate: 0.78 },
+  'Ali':      { gender: 'male',   pitch: 0.9,  rate: 0.85 },
+
+  // Female characters
+  'Emma':     { gender: 'female', pitch: 1.15, rate: 0.82 },
+  'Ayşe':     { gender: 'female', pitch: 1.05, rate: 0.8  },
+  'Zeynep':   { gender: 'female', pitch: 1.1,  rate: 0.78 },
+
+  // Professional/authority characters
+  'Secretary':{ gender: 'female', pitch: 1.0,  rate: 0.75 },
+  'Manager':  { gender: 'male',   pitch: 0.85, rate: 0.75 },
+  'Waiter':   { gender: 'male',   pitch: 0.9,  rate: 0.8  },
+  'Teacher':  { gender: 'female', pitch: 1.05, rate: 0.72 },
+  'Doctor':   { gender: 'male',   pitch: 0.85, rate: 0.72 },
+  'Receptionist': { gender: 'female', pitch: 1.0, rate: 0.75 },
+}
+
+const DEFAULT_MALE   = { gender: 'male',   pitch: 0.85, rate: 0.8 }
+const DEFAULT_FEMALE = { gender: 'female', pitch: 1.1,  rate: 0.8 }
+
+function getCharacterProfile(speakerName, speaker, gender) {
+  if (speakerName && CHARACTER_PROFILES[speakerName]) return CHARACTER_PROFILES[speakerName]
+  if (gender === 'male') return DEFAULT_MALE
+  if (gender === 'female') return DEFAULT_FEMALE
+  return speaker === 'B' ? DEFAULT_MALE : DEFAULT_FEMALE
+}
+
+async function speakLine(text, profile) {
   return new Promise(async (resolve) => {
     speechSynthesis.cancel()
     const voices = await getVoices()
     const enVoices = voices.filter(v => v.lang.startsWith('en'))
 
     let voice = null
-    if (gender === 'male') {
-      voice = enVoices.find(v => /male|david|george|james|mark|daniel/i.test(v.name) && !/female/i.test(v.name))
+    if (profile.gender === 'male') {
+      voice = enVoices.find(v => /male|david|george|james|mark|daniel|guy/i.test(v.name) && !/female/i.test(v.name))
+      if (!voice) voice = enVoices.find(v => !/female|zira|hazel|susan|karen|samantha|fiona/i.test(v.name))
     } else {
-      voice = enVoices.find(v => /female|zira|hazel|susan|karen|samantha|fiona/i.test(v.name))
-    }
-    if (!voice && gender === 'male') {
-      // fallback: pick a different voice than default to simulate male
-      voice = enVoices.find(v => !/female|zira|hazel|susan|karen|samantha|fiona/i.test(v.name))
+      voice = enVoices.find(v => /female|zira|hazel|susan|karen|samantha|fiona|jenny/i.test(v.name))
     }
     if (!voice) voice = enVoices[0]
 
     const u = new SpeechSynthesisUtterance(text)
     u.lang = 'en-US'
-    u.rate = rate
+    u.rate = profile.rate
+    u.pitch = profile.pitch
     if (voice) u.voice = voice
-    if (gender === 'male') u.pitch = 0.85
-    else u.pitch = 1.1
     u.onend = resolve
     u.onerror = resolve
     speechSynthesis.speak(u)
@@ -67,9 +99,9 @@ export default function DialogListening({ dialog, onScore }) {
       if (stopRef.current) break
       setCurrentLine(i)
       const line = dialog.lines[i]
-      const gender = line.gender || (line.speaker === 'B' ? 'male' : 'female')
-      await speakLine(line.text, 0.8, gender)
-      await new Promise(r => setTimeout(r, 500))
+      const profile = getCharacterProfile(line.speakerName, line.speaker, line.gender)
+      await speakLine(line.text, profile)
+      await new Promise(r => setTimeout(r, 600))
     }
 
     setPlaying(false)
@@ -80,8 +112,8 @@ export default function DialogListening({ dialog, onScore }) {
     speechSynthesis.cancel()
     setCurrentLine(i)
     const line = dialog.lines[i]
-    const gender = line.gender || (line.speaker === 'B' ? 'male' : 'female')
-    await speakLine(line.text, 0.75, gender)
+    const profile = getCharacterProfile(line.speakerName, line.speaker, line.gender)
+    await speakLine(line.text, { ...profile, rate: profile.rate * 0.9 })
     setCurrentLine(-1)
   }
 
