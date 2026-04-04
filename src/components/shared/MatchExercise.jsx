@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 function shuffle(arr) {
   const a = [...arr]
@@ -17,7 +18,6 @@ export default function MatchExercise({ exercises }) {
 
   const tryMatch = (side, value) => {
     if (matched.includes(value)) return
-
     let left = selectedLeft, right = selectedRight
     if (side === 'left') left = value
     else right = value
@@ -38,44 +38,58 @@ export default function MatchExercise({ exercises }) {
   const allMatched = matched.length === exercises.length * 2
 
   return (
-    <div className="card">
-      <div className="card-title">🔗 Matching / Eşleştirme</div>
-      <p style={{ fontSize: 13, color: '#64748b', marginBottom: 16 }}>
-        Soldan bir kelime, sağdan Türkçe karşılığını seç / Click left then right to match
-      </p>
-      <div className="match-container">
-        <div>
-          {exercises.map((ex, i) => (
-            <div
-              key={i}
-              className={`match-item ${selectedLeft === ex.left ? 'selected' : ''} ${matched.includes(ex.left) ? 'matched' : ''}`}
-              onClick={() => tryMatch('left', ex.left)}
-              style={{ marginBottom: 8 }}
-            >
-              {ex.left}
-            </div>
-          ))}
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2 text-base">
+          <span>🔗</span> Matching / Eşleştirme
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        <p className="text-xs text-muted-foreground mb-4">Soldan bir kelime, sağdan Türkçe karşılığını seç</p>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="space-y-2">
+            {exercises.map((ex, i) => (
+              <button
+                key={i}
+                onClick={() => tryMatch('left', ex.left)}
+                className={`w-full text-center border rounded-lg px-4 py-3 text-sm font-medium transition-all ${
+                  matched.includes(ex.left)
+                    ? 'border-green-500 bg-green-50 text-green-700'
+                    : selectedLeft === ex.left
+                      ? 'border-primary bg-primary/5 text-primary'
+                      : 'border-border hover:border-primary/50'
+                }`}
+              >
+                {ex.left}
+              </button>
+            ))}
+          </div>
+          <div className="space-y-2">
+            {shuffledRight.map((right, i) => (
+              <button
+                key={i}
+                onClick={() => tryMatch('right', right)}
+                className={`w-full text-center border rounded-lg px-4 py-3 text-sm font-medium transition-all ${
+                  matched.includes(right)
+                    ? 'border-green-500 bg-green-50 text-green-700'
+                    : selectedRight === right
+                      ? 'border-primary bg-primary/5 text-primary'
+                      : 'border-border hover:border-primary/50'
+                }`}
+              >
+                {right}
+              </button>
+            ))}
+          </div>
         </div>
-        <div>
-          {shuffledRight.map((right, i) => (
-            <div
-              key={i}
-              className={`match-item ${selectedRight === right ? 'selected' : ''} ${matched.includes(right) ? 'matched' : ''}`}
-              onClick={() => tryMatch('right', right)}
-              style={{ marginBottom: 8 }}
-            >
-              {right}
-            </div>
-          ))}
-        </div>
-      </div>
 
-      {allMatched && (
-        <div className="score-display">
-          <div className="score-number">✓</div>
-          <div>Hepsini eşleştirdin! / All matched!</div>
-        </div>
-      )}
-    </div>
+        {allMatched && (
+          <div className="flex items-center gap-3 rounded-xl p-4 mt-4 bg-green-50 border border-green-200">
+            <span className="text-2xl">✓</span>
+            <span className="text-sm font-medium">Hepsini eşleştirdin! / All matched!</span>
+          </div>
+        )}
+      </CardContent>
+    </Card>
   )
 }

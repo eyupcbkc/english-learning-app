@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
 
 export default function TranslationExercise({ exercises }) {
   const [answers, setAnswers] = useState({})
@@ -9,59 +12,58 @@ export default function TranslationExercise({ exercises }) {
   const isCorrect = (i) => {
     const ans = normalize(answers[i] || '')
     const ex = exercises[i]
-    const accepted = [ex.english, ...(ex.acceptAlso || [])].map(normalize)
-    return accepted.includes(ans)
+    return [ex.english, ...(ex.acceptAlso || [])].map(normalize).includes(ans)
   }
 
   const score = exercises.reduce((acc, _, i) => acc + (isCorrect(i) ? 1 : 0), 0)
   const reset = () => { setAnswers({}); setChecked(false) }
 
   return (
-    <div className="card">
-      <div className="card-title">🌍 Translation / Çeviri</div>
-      <p style={{ fontSize: 13, color: '#64748b', marginBottom: 16 }}>
-        Türkçe cümleleri İngilizce'ye çevir / Translate Turkish sentences to English
-      </p>
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2 text-base">
+          <span>🌍</span> Translation / Çeviri
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <p className="text-xs text-muted-foreground">Türkçe cümleleri İngilizce'ye çevir</p>
 
-      {exercises.map((ex, i) => (
-        <div key={i} className="exercise-question">
-          <p><strong>🇹🇷</strong> {ex.turkish}</p>
-          <input
-            type="text"
-            className={`exercise-input ${checked ? (isCorrect(i) ? 'correct' : 'wrong') : ''}`}
-            value={answers[i] || ''}
-            onChange={e => setAnswers(prev => ({ ...prev, [i]: e.target.value }))}
-            placeholder="Write in English..."
-            disabled={checked}
-          />
-          {checked && !isCorrect(i) && (
-            <p style={{ color: '#ef4444', fontSize: 13, marginTop: 4 }}>
-              Doğru cevap: <strong>{ex.english}</strong>
-            </p>
-          )}
-          {checked && isCorrect(i) && (
-            <p style={{ color: '#22c55e', fontSize: 13, marginTop: 4 }}>✓ Doğru! / Correct!</p>
+        {exercises.map((ex, i) => (
+          <div key={i} className="rounded-xl border p-4 space-y-2">
+            <p className="text-sm font-medium">🇹🇷 {ex.turkish}</p>
+            <Input
+              value={answers[i] || ''}
+              onChange={e => setAnswers(prev => ({ ...prev, [i]: e.target.value }))}
+              placeholder="Write in English..."
+              disabled={checked}
+              className={checked ? (isCorrect(i) ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50') : ''}
+            />
+            {checked && !isCorrect(i) && (
+              <p className="text-xs text-red-600">Doğru cevap: <strong>{ex.english}</strong></p>
+            )}
+            {checked && isCorrect(i) && (
+              <p className="text-xs text-green-600 font-medium">✓ Doğru! / Correct!</p>
+            )}
+          </div>
+        ))}
+
+        <div className="flex gap-2 pt-2">
+          {!checked ? (
+            <Button onClick={() => setChecked(true)} disabled={Object.keys(answers).length < exercises.length}>
+              Kontrol Et / Check
+            </Button>
+          ) : (
+            <Button variant="outline" onClick={reset}>Tekrar Dene / Retry</Button>
           )}
         </div>
-      ))}
 
-      <div style={{ display: 'flex', gap: 8, marginTop: 8 }}>
-        {!checked ? (
-          <button className="btn btn-primary" onClick={() => setChecked(true)}
-            disabled={Object.keys(answers).length < exercises.length}>
-            Kontrol Et / Check
-          </button>
-        ) : (
-          <button className="btn btn-outline" onClick={reset}>Tekrar Dene / Retry</button>
+        {checked && (
+          <div className={`flex items-center gap-4 rounded-xl p-4 ${score >= exercises.length / 2 ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
+            <span className="text-3xl font-bold">{score}/{exercises.length}</span>
+            <span className="text-sm">{score === exercises.length ? 'Mükemmel! / Perfect!' : 'Tekrar dene! / Try again!'}</span>
+          </div>
         )}
-      </div>
-
-      {checked && (
-        <div className={`score-display ${score < exercises.length / 2 ? 'low' : ''}`}>
-          <div className="score-number">{score}/{exercises.length}</div>
-          <div>{score === exercises.length ? 'Mükemmel! / Perfect!' : 'Tekrar dene! / Try again!'}</div>
-        </div>
-      )}
-    </div>
+      </CardContent>
+    </Card>
   )
 }

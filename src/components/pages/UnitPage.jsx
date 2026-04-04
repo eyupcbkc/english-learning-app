@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getUnit } from '../../data/unitIndex'
-import { useProgress } from '../../hooks/useProgress'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { getUnit } from '@/data/unitIndex'
+import { useProgress } from '@/hooks/useProgress'
 import VocabularyCard from '../shared/VocabularyCard'
 import GrammarBox from '../shared/GrammarBox'
 import ReadingSection from '../shared/ReadingSection'
@@ -10,28 +14,27 @@ import MultipleChoice from '../shared/MultipleChoice'
 import MatchExercise from '../shared/MatchExercise'
 import SentenceOrder from '../shared/SentenceOrder'
 import TranslationExercise from '../shared/TranslationExercise'
-
-const TABS = [
-  { key: 'vocab', label: '📚 Kelimeler' },
-  { key: 'grammar', label: '📐 Dilbilgisi' },
-  { key: 'reading', label: '📖 Okuma' },
-  { key: 'exercises', label: '✏️ Alıştırmalar' },
-]
+import { ArrowLeft, BookOpen, PenLine, CheckCircle2 } from 'lucide-react'
 
 export default function UnitPage() {
   const { unitId } = useParams()
   const unit = getUnit(unitId)
-  const [activeTab, setActiveTab] = useState('vocab')
-  const { completeUnit, addWords } = useProgress()
+  const { completeUnit, addWords, isUnitCompleted: checkCompleted } = useProgress()
 
   if (!unit) {
     return (
-      <div className="card">
-        <h2>Ünite bulunamadı / Unit not found</h2>
-        <Link to="/" className="btn btn-outline" style={{ marginTop: 16 }}>Ana Sayfaya Dön</Link>
-      </div>
+      <Card>
+        <CardContent className="p-8 text-center">
+          <h2 className="text-xl font-semibold mb-4">Ünite bulunamadı</h2>
+          <Button variant="outline" asChild>
+            <Link to="/">Ana Sayfaya Dön</Link>
+          </Button>
+        </CardContent>
+      </Card>
     )
   }
+
+  const completed = checkCompleted(unit.id)
 
   const handleComplete = () => {
     addWords(unit.vocabulary.map(v => v.word))
@@ -39,49 +42,75 @@ export default function UnitPage() {
   }
 
   return (
-    <div>
-      <div style={{ marginBottom: 24 }}>
-        <Link to="/" style={{ fontSize: 13, color: '#64748b' }}>← Ana Sayfa</Link>
-        <h1 style={{ fontSize: 24, marginTop: 8 }}>{unit.title}</h1>
-        <p style={{ color: '#64748b' }}>{unit.descriptionTr}</p>
-        <span style={{ display: 'inline-block', marginTop: 8, padding: '4px 12px', background: '#eef2ff', color: '#4f46e5', borderRadius: 20, fontSize: 12, fontWeight: 600 }}>
-          {unit.level} — Module {unit.module}
-        </span>
+    <div className="space-y-6">
+      {/* Header */}
+      <div>
+        <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-4">
+          <ArrowLeft className="h-4 w-4" /> Ana Sayfa
+        </Link>
+        <div className="flex items-start justify-between">
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight mb-1">{unit.title}</h1>
+            <p className="text-muted-foreground">{unit.descriptionTr}</p>
+            <div className="flex gap-2 mt-3">
+              <Badge>{unit.level}</Badge>
+              <Badge variant="outline">Module {unit.module}</Badge>
+              {completed && <Badge className="bg-green-500">Tamamlandı</Badge>}
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="unit-tabs">
-        {TABS.map(tab => (
-          <button
-            key={tab.key}
-            className={`unit-tab ${activeTab === tab.key ? 'active' : ''}`}
-            onClick={() => setActiveTab(tab.key)}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
+      {/* Tabs */}
+      <Tabs defaultValue="vocab" className="w-full">
+        <TabsList className="grid w-full grid-cols-4">
+          <TabsTrigger value="vocab" className="gap-1.5">
+            <BookOpen className="h-4 w-4" />
+            <span className="hidden sm:inline">Kelimeler</span>
+          </TabsTrigger>
+          <TabsTrigger value="grammar" className="gap-1.5">
+            <PenLine className="h-4 w-4" />
+            <span className="hidden sm:inline">Dilbilgisi</span>
+          </TabsTrigger>
+          <TabsTrigger value="reading" className="gap-1.5">
+            <BookOpen className="h-4 w-4" />
+            <span className="hidden sm:inline">Okuma</span>
+          </TabsTrigger>
+          <TabsTrigger value="exercises" className="gap-1.5">
+            <CheckCircle2 className="h-4 w-4" />
+            <span className="hidden sm:inline">Alıştırmalar</span>
+          </TabsTrigger>
+        </TabsList>
 
-      {activeTab === 'vocab' && <VocabularyCard vocabulary={unit.vocabulary} />}
+        <TabsContent value="vocab" className="mt-6">
+          <VocabularyCard vocabulary={unit.vocabulary} />
+        </TabsContent>
 
-      {activeTab === 'grammar' && <GrammarBox grammar={unit.grammar} />}
+        <TabsContent value="grammar" className="mt-6">
+          <GrammarBox grammar={unit.grammar} />
+        </TabsContent>
 
-      {activeTab === 'reading' && <ReadingSection reading={unit.reading} />}
+        <TabsContent value="reading" className="mt-6">
+          <ReadingSection reading={unit.reading} />
+        </TabsContent>
 
-      {activeTab === 'exercises' && (
-        <div className="exercise-section">
+        <TabsContent value="exercises" className="mt-6 space-y-6">
           <FillBlanks exercises={unit.exercises.fillBlanks} />
           <MultipleChoice exercises={unit.exercises.multipleChoice} />
           <MatchExercise exercises={unit.exercises.matching} />
           <SentenceOrder exercises={unit.exercises.sentenceOrder} />
           <TranslationExercise exercises={unit.exercises.translation} />
 
-          <div style={{ textAlign: 'center', marginTop: 32 }}>
-            <button className="btn btn-success" onClick={handleComplete} style={{ fontSize: 16, padding: '14px 32px' }}>
-              ✅ Üniteyi Tamamla / Complete Unit
-            </button>
-          </div>
-        </div>
-      )}
+          {!completed && (
+            <div className="text-center pt-4">
+              <Button size="lg" onClick={handleComplete} className="bg-green-600 hover:bg-green-700 text-lg px-8 py-6">
+                <CheckCircle2 className="mr-2 h-5 w-5" />
+                Üniteyi Tamamla
+              </Button>
+            </div>
+          )}
+        </TabsContent>
+      </Tabs>
     </div>
   )
 }

@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom'
-import { useProgress } from '../../hooks/useProgress'
-import units from '../../data/unitIndex'
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Progress } from '@/components/ui/progress'
+import { useProgress } from '@/hooks/useProgress'
+import units from '@/data/unitIndex'
+import { BookOpen, Trophy, Brain, ArrowRight, CheckCircle } from 'lucide-react'
 
 export default function Home() {
   const { progress, isUnitCompleted, getScore } = useProgress()
@@ -12,62 +17,110 @@ export default function Home() {
     : 0
 
   return (
-    <div>
-      <div className="home-hero">
-        <h1>English Learning Journey</h1>
-        <p>A1'den C1'e adım adım İngilizce / Step by step English from A1 to C1</p>
+    <div className="space-y-6">
+      {/* Hero */}
+      <div className="text-center py-8">
+        <h1 className="text-3xl font-bold tracking-tight mb-2">English Learning Journey</h1>
+        <p className="text-muted-foreground text-lg">
+          A1'den C1'e adım adım İngilizce
+        </p>
       </div>
 
-      <div className="stats-grid">
-        <div className="stat-card">
-          <div className="stat-number">{progress.currentLevel}</div>
-          <div className="stat-label">Mevcut Seviye / Current Level</div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-number">{completedCount}/{units.length}</div>
-          <div className="stat-label">Tamamlanan / Completed</div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-number">{progress.totalWordsLearned}</div>
-          <div className="stat-label">Öğrenilen Kelime / Words Learned</div>
-        </div>
-      </div>
-
-      {completedCount > 0 && (
-        <div className="card">
-          <div className="card-title">📊 İlerleme / Progress</div>
-          <div className="progress-bar-container" style={{ marginBottom: 8 }}>
-            <div className="progress-bar-fill" style={{ width: `${(completedCount / units.length) * 100}%` }} />
-          </div>
-          <p style={{ fontSize: 13, color: '#64748b' }}>
-            {completedCount} / {units.length} ünite tamamlandı — Ortalama skor: %{avgScore}
-          </p>
-        </div>
-      )}
-
-      {nextUnit && (
-        <div className="card" style={{ borderColor: '#818cf8', background: '#eef2ff' }}>
-          <div className="card-title">🎯 Sıradaki Ünite / Next Unit</div>
-          <h3 style={{ marginBottom: 4 }}>{nextUnit.title}</h3>
-          <p style={{ fontSize: 14, color: '#64748b', marginBottom: 16 }}>{nextUnit.descriptionTr}</p>
-          <Link to={`/unit/${nextUnit.id}`} className="btn btn-primary">
-            Başla / Start →
-          </Link>
-        </div>
-      )}
-
-      {completedCount > 0 && (
-        <div className="card">
-          <div className="card-title">📋 Tamamlanan Üniteler / Completed Units</div>
-          {units.filter(u => isUnitCompleted(u.id)).map(unit => (
-            <div key={unit.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '8px 0', borderBottom: '1px solid #e2e8f0' }}>
-              <Link to={`/unit/${unit.id}`} style={{ fontSize: 14 }}>
-                ✅ {unit.title}
-              </Link>
-              <span style={{ fontSize: 13, color: '#64748b' }}>Skor: %{getScore(unit.id)}</span>
+      {/* Stats */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Card>
+          <CardContent className="flex items-center gap-4 p-6">
+            <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
+              <Trophy className="h-6 w-6 text-primary" />
             </div>
-          ))}
-        </div>
+            <div>
+              <p className="text-2xl font-bold">{progress.currentLevel}</p>
+              <p className="text-sm text-muted-foreground">Mevcut Seviye</p>
+            </div>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex items-center gap-4 p-6">
+            <div className="h-12 w-12 rounded-xl bg-green-500/10 flex items-center justify-center">
+              <BookOpen className="h-6 w-6 text-green-600" />
+            </div>
+            <div>
+              <p className="text-2xl font-bold">{completedCount}<span className="text-base font-normal text-muted-foreground">/{units.length}</span></p>
+              <p className="text-sm text-muted-foreground">Tamamlanan</p>
+            </div>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="flex items-center gap-4 p-6">
+            <div className="h-12 w-12 rounded-xl bg-amber-500/10 flex items-center justify-center">
+              <Brain className="h-6 w-6 text-amber-600" />
+            </div>
+            <div>
+              <p className="text-2xl font-bold">{progress.totalWordsLearned}</p>
+              <p className="text-sm text-muted-foreground">Öğrenilen Kelime</p>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Progress */}
+      {completedCount > 0 && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-base">Genel İlerleme</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <Progress value={(completedCount / units.length) * 100} className="h-3 mb-2" />
+            <p className="text-sm text-muted-foreground">
+              {completedCount} / {units.length} ünite tamamlandı — Ortalama skor: %{avgScore}
+            </p>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* Next Unit CTA */}
+      {nextUnit && (
+        <Card className="border-primary/30 bg-primary/5">
+          <CardHeader>
+            <div className="flex items-center gap-2 mb-1">
+              <Badge>Sıradaki</Badge>
+              <Badge variant="outline">{nextUnit.level}</Badge>
+            </div>
+            <CardTitle>{nextUnit.title}</CardTitle>
+            <CardDescription>{nextUnit.descriptionTr}</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button asChild size="lg">
+              <Link to={`/unit/${nextUnit.id}`}>
+                Başla <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* Completed units */}
+      {completedCount > 0 && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-base">Tamamlanan Üniteler</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2">
+            {units.filter(u => isUnitCompleted(u.id)).map(unit => (
+              <Link
+                key={unit.id}
+                to={`/unit/${unit.id}`}
+                className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-accent transition-colors"
+              >
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="h-4 w-4 text-green-500" />
+                  <span className="text-sm font-medium">{unit.title}</span>
+                </div>
+                <Badge variant="secondary">%{getScore(unit.id)}</Badge>
+              </Link>
+            ))}
+          </CardContent>
+        </Card>
       )}
     </div>
   )
