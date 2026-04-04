@@ -4,8 +4,8 @@
   "titleTr": "Selamlaşma ve Tanışma",
   "level": "A1",
   "module": 1,
-  "description": "Learn how to greet people and introduce yourself in English.",
-  "descriptionTr": "İngilizce'de insanları selamlama ve kendinizi tanıtma.",
+  "description": "Learn how to greet people, introduce yourself, and have your first conversation.",
+  "descriptionTr": "İnsanları selamlama, kendinizi tanıtma ve ilk sohbetinizi yapma.",
 
   "vocabulary": [
     {
@@ -13,161 +13,254 @@
       "pronunciation": "he-LOU",
       "turkish": "merhaba",
       "example": "Hello! How are you?",
-      "exampleTr": "Merhaba! Nasılsın?"
+      "exampleTr": "Merhaba! Nasılsın?",
+      "extra": "Hello, everyone! Welcome to the class.",
+      "extraTr": "Herkese merhaba! Sınıfa hoş geldiniz."
+    },
+    {
+      "word": "hi",
+      "pronunciation": "hay",
+      "turkish": "selam (samimi)",
+      "example": "Hi! What's up?",
+      "exampleTr": "Selam! Ne var ne yok?",
+      "extra": "Hi there! Long time no see!",
+      "extraTr": "Selam! Uzun zamandır görüşmedik!"
     },
     {
       "word": "goodbye",
       "pronunciation": "gud-BAY",
       "turkish": "hoşça kal",
       "example": "Goodbye! See you tomorrow.",
-      "exampleTr": "Hoşça kal! Yarın görüşürüz."
+      "exampleTr": "Hoşça kal! Yarın görüşürüz.",
+      "extra": "Goodbye, it was nice meeting you.",
+      "extraTr": "Hoşça kal, tanıştığıma memnun oldum."
+    },
+    {
+      "word": "see you",
+      "pronunciation": "sii yuu",
+      "turkish": "görüşürüz",
+      "example": "See you later!",
+      "exampleTr": "Sonra görüşürüz!",
+      "extra": "See you next week at the meeting.",
+      "extraTr": "Gelecek hafta toplantıda görüşürüz."
     },
     {
       "word": "please",
       "pronunciation": "pliiz",
       "turkish": "lütfen",
       "example": "Can I have some water, please?",
-      "exampleTr": "Biraz su alabilir miyim, lütfen?"
+      "exampleTr": "Biraz su alabilir miyim, lütfen?",
+      "extra": "Please sit down and wait here.",
+      "extraTr": "Lütfen oturun ve burada bekleyin."
     },
     {
       "word": "thank you",
       "pronunciation": "tenk yuu",
       "turkish": "teşekkür ederim",
       "example": "Thank you very much!",
-      "exampleTr": "Çok teşekkür ederim!"
+      "exampleTr": "Çok teşekkür ederim!",
+      "extra": "Thank you for your help, I really appreciate it.",
+      "extraTr": "Yardımınız için teşekkürler, gerçekten minnettarım."
+    },
+    {
+      "word": "sorry",
+      "pronunciation": "SO-ri",
+      "turkish": "özür dilerim / pardon",
+      "example": "Sorry, I don't understand.",
+      "exampleTr": "Özür dilerim, anlamıyorum.",
+      "extra": "Sorry, can you repeat that?",
+      "extraTr": "Pardon, tekrar edebilir misiniz?"
+    },
+    {
+      "word": "excuse me",
+      "pronunciation": "iks-KYUUZ mii",
+      "turkish": "affedersiniz / pardon",
+      "example": "Excuse me, where is the bathroom?",
+      "exampleTr": "Affedersiniz, tuvalet nerede?",
+      "extra": "Excuse me, is this seat taken?",
+      "extraTr": "Affedersiniz, bu koltuk dolu mu?"
     },
     {
       "word": "yes",
       "pronunciation": "yes",
       "turkish": "evet",
       "example": "Yes, I am from Turkey.",
-      "exampleTr": "Evet, ben Türkiye'denim."
+      "exampleTr": "Evet, ben Türkiye'denim.",
+      "extra": "Yes, of course! No problem.",
+      "extraTr": "Evet, tabii ki! Sorun değil."
     },
     {
       "word": "no",
       "pronunciation": "nou",
       "turkish": "hayır",
       "example": "No, I don't speak French.",
-      "exampleTr": "Hayır, Fransızca konuşmuyorum."
+      "exampleTr": "Hayır, Fransızca konuşmuyorum.",
+      "extra": "No, thank you. I'm fine.",
+      "extraTr": "Hayır, teşekkürler. İyiyim."
     },
     {
       "word": "name",
       "pronunciation": "neym",
       "turkish": "isim",
       "example": "My name is Eyüp.",
-      "exampleTr": "Benim adım Eyüp."
+      "exampleTr": "Benim adım Eyüp.",
+      "extra": "What is your name?",
+      "extraTr": "Adınız ne?"
     },
     {
       "word": "nice",
       "pronunciation": "nays",
       "turkish": "güzel, hoş",
       "example": "Nice to meet you!",
-      "exampleTr": "Tanıştığıma memnun oldum!"
+      "exampleTr": "Tanıştığıma memnun oldum!",
+      "extra": "That's a really nice jacket!",
+      "extraTr": "Bu gerçekten güzel bir ceket!"
     },
     {
       "word": "friend",
       "pronunciation": "frend",
       "turkish": "arkadaş",
-      "example": "She is my friend.",
-      "exampleTr": "O benim arkadaşım."
+      "example": "She is my best friend.",
+      "exampleTr": "O benim en iyi arkadaşım.",
+      "extra": "I made a new friend at work today.",
+      "extraTr": "Bugün iş yerinde yeni bir arkadaş edindim."
     },
     {
       "word": "morning",
       "pronunciation": "MOR-ning",
       "turkish": "sabah",
       "example": "Good morning! How are you?",
-      "exampleTr": "Günaydın! Nasılsın?"
+      "exampleTr": "Günaydın! Nasılsın?",
+      "extra": "I drink coffee every morning.",
+      "extraTr": "Her sabah kahve içerim."
+    },
+    {
+      "word": "afternoon",
+      "pronunciation": "af-tır-NUUN",
+      "turkish": "öğleden sonra",
+      "example": "Good afternoon, sir.",
+      "exampleTr": "İyi öğleden sonralar, efendim.",
+      "extra": "The meeting is in the afternoon.",
+      "extraTr": "Toplantı öğleden sonra."
     },
     {
       "word": "evening",
       "pronunciation": "IIV-ning",
       "turkish": "akşam",
       "example": "Good evening, everyone.",
-      "exampleTr": "İyi akşamlar, herkese."
+      "exampleTr": "İyi akşamlar, herkese.",
+      "extra": "I usually watch TV in the evening.",
+      "extraTr": "Akşamları genelde TV izlerim."
     },
     {
       "word": "fine",
       "pronunciation": "fayn",
       "turkish": "iyi",
       "example": "I am fine, thank you.",
-      "exampleTr": "İyiyim, teşekkürler."
+      "exampleTr": "İyiyim, teşekkürler.",
+      "extra": "The weather is fine today.",
+      "extraTr": "Hava bugün güzel."
+    },
+    {
+      "word": "how",
+      "pronunciation": "hav",
+      "turkish": "nasıl",
+      "example": "How are you doing?",
+      "exampleTr": "Nasıl gidiyor?",
+      "extra": "How do you spell your name?",
+      "extraTr": "İsmini nasıl heceliyorsun?"
+    },
+    {
+      "word": "from",
+      "pronunciation": "from",
+      "turkish": "-den / -dan",
+      "example": "Where are you from?",
+      "exampleTr": "Nerelisin?",
+      "extra": "I am from Istanbul, Turkey.",
+      "extraTr": "İstanbul, Türkiye'denim."
+    },
+    {
+      "word": "welcome",
+      "pronunciation": "VEL-kım",
+      "turkish": "hoş geldiniz / bir şey değil",
+      "example": "Welcome to our office!",
+      "exampleTr": "Ofisimize hoş geldiniz!",
+      "extra": "You're welcome! (= Bir şey değil!)",
+      "extraTr": "Rica ederim!"
     }
   ],
 
   "grammar": {
     "title": "Subject Pronouns & Verb 'Be'",
     "titleTr": "Kişi Zamirleri ve 'Be' Fiili",
-    "explanation": "In English, we use subject pronouns (I, you, he, she, it, we, they) with the verb 'be' (am, is, are) to introduce ourselves and describe people.",
-    "explanationTr": "İngilizce'de kişi zamirleri (I, you, he, she, it, we, they) ile 'be' fiili (am, is, are) kullanarak kendimizi tanıtır ve insanları tanımlarız.",
+    "explanation": "In English, we use subject pronouns (I, you, he, she, it, we, they) with the verb 'be' (am, is, are) to introduce ourselves, describe people, and talk about feelings.",
+    "explanationTr": "İngilizce'de kişi zamirleri (I, you, he, she, it, we, they) ile 'be' fiili (am, is, are) kullanarak kendimizi tanıtır, insanları tanımlar ve duygularımızdan bahsederiz.",
     "table": [
-      ["I", "am", "Ben ...yım/...yim", "I am Eyüp."],
-      ["You", "are", "Sen ...sın/...sin", "You are my friend."],
-      ["He", "is", "O (erkek) ...dır", "He is a teacher."],
-      ["She", "is", "O (kadın) ...dır", "She is from Turkey."],
-      ["It", "is", "O (cansız/hayvan) ...dır", "It is a book."],
-      ["We", "are", "Biz ...yız/...yiz", "We are students."],
-      ["They", "are", "Onlar ...dırlar", "They are happy."]
+      ["I", "am", "Ben ...yım/...yim", "I am Eyüp. I am from Turkey."],
+      ["You", "are", "Sen ...sın/...sin", "You are my friend. You are nice."],
+      ["He", "is", "O (erkek) ...dır", "He is a teacher. He is tall."],
+      ["She", "is", "O (kadın) ...dır", "She is from Istanbul. She is happy."],
+      ["It", "is", "O (cansız/hayvan) ...dır", "It is a book. It is cold today."],
+      ["We", "are", "Biz ...yız/...yiz", "We are students. We are ready."],
+      ["They", "are", "Onlar ...dırlar", "They are friends. They are from Ankara."]
     ],
     "tips": [
-      { "en": "I am = I'm", "tr": "Kısaltma: I am → I'm" },
+      { "en": "I am = I'm", "tr": "Kısaltma: I am → I'm (konuşmada çok kullanılır)" },
       { "en": "You are = You're", "tr": "Kısaltma: You are → You're" },
-      { "en": "He is = He's / She is = She's", "tr": "Kısaltma: He is → He's, She is → She's" },
-      { "en": "We are = We're / They are = They're", "tr": "Kısaltma: We are → We're, They are → They're" }
+      { "en": "He is = He's / She is = She's / It is = It's", "tr": "He's, She's, It's hep kullanılır" },
+      { "en": "We are = We're / They are = They're", "tr": "We're, They're — yazıda ve konuşmada yaygın" },
+      { "en": "My name is... = I'm...", "tr": "Tanışırken ikisi de olur: My name is Eyüp. / I'm Eyüp." },
+      { "en": "Nice to meet you! → Nice to meet you too!", "tr": "Tanışınca: Memnun oldum! → Ben de!" }
     ]
   },
 
   "reading": {
-    "text": "Hello! My name is Eyüp. I am from Turkey. I am a student. Nice to meet you! This is my friend, Ayşe. She is from Istanbul. She is very nice. We are happy to be here.",
-    "textTr": "Merhaba! Benim adım Eyüp. Ben Türkiye'denim. Ben bir öğrenciyim. Tanıştığıma memnun oldum! Bu benim arkadaşım, Ayşe. O İstanbul'dan. O çok iyi biri. Burada olmaktan mutluyuz.",
+    "text": "Hello! My name is Eyüp. I am from Turkey. I am 25 years old and I am a student. I am learning English because I want to travel and work internationally.\n\nThis is my friend Ayşe. She is from Istanbul. She is a designer and she is very creative. We are in the same English class.\n\nOur teacher is Mr. Johnson. He is from America. He is friendly and funny. There are 12 students in our class. We are all beginners, but we are excited to learn!\n\nAfter class, Ayşe and I go to a café. We practice English together. It is fun! Learning English is not easy, but it is important for our future.",
+    "textTr": "Merhaba! Benim adım Eyüp. Ben Türkiye'denim. 25 yaşındayım ve öğrenciyim. Seyahat etmek ve uluslararası çalışmak istediğim için İngilizce öğreniyorum.\n\nBu benim arkadaşım Ayşe. O İstanbul'dan. Tasarımcı ve çok yaratıcı. Aynı İngilizce sınıfındayız.\n\nÖğretmenimiz Bay Johnson. O Amerikalı. Samimi ve eğlenceli. Sınıfımızda 12 öğrenci var. Hepimiz başlangıç seviyesindeyiz ama öğrenmeye heyecanlıyız!\n\nDersten sonra Ayşe ile bir kafeye gideriz. Birlikte İngilizce pratik yaparız. Eğlenceli! İngilizce öğrenmek kolay değil ama geleceğimiz için önemli.",
     "questions": [
       {
-        "question": "Where is Eyüp from?",
-        "questionTr": "Eyüp nereden?",
-        "options": ["Turkey", "Istanbul", "London", "Germany"],
-        "correct": 0
-      },
-      {
-        "question": "Who is Ayşe?",
-        "questionTr": "Ayşe kim?",
-        "options": ["A teacher", "Eyüp's friend", "A doctor", "Eyüp's sister"],
+        "question": "Why is Eyüp learning English?",
+        "questionTr": "Eyüp neden İngilizce öğreniyor?",
+        "options": ["Because it is easy", "To travel and work internationally", "Because his friend wants to", "For fun only"],
         "correct": 1
       },
       {
-        "question": "Where is Ayşe from?",
-        "questionTr": "Ayşe nereden?",
-        "options": ["Ankara", "Turkey", "Istanbul", "London"],
+        "question": "What is Ayşe's job?",
+        "questionTr": "Ayşe'nin mesleği ne?",
+        "options": ["Teacher", "Student", "Designer", "Doctor"],
         "correct": 2
+      },
+      {
+        "question": "Where is Mr. Johnson from?",
+        "questionTr": "Bay Johnson nereli?",
+        "options": ["Turkey", "England", "America", "Germany"],
+        "correct": 2
+      },
+      {
+        "question": "How many students are in the class?",
+        "questionTr": "Sınıfta kaç öğrenci var?",
+        "options": ["10", "12", "15", "20"],
+        "correct": 1
+      },
+      {
+        "question": "What do Eyüp and Ayşe do after class?",
+        "questionTr": "Eyüp ve Ayşe dersten sonra ne yapar?",
+        "options": ["Go home", "Go to a café and practice English", "Watch TV", "Go shopping"],
+        "correct": 1
       }
     ]
   },
 
   "exercises": {
     "fillBlanks": [
-      {
-        "sentence": "Hello! My ___ is Eyüp.",
-        "answer": "name",
-        "hint": "isim"
-      },
-      {
-        "sentence": "I ___ from Turkey.",
-        "answer": "am",
-        "hint": "be fiili - I ile"
-      },
-      {
-        "sentence": "She ___ my friend.",
-        "answer": "is",
-        "hint": "be fiili - She ile"
-      },
-      {
-        "sentence": "We ___ students.",
-        "answer": "are",
-        "hint": "be fiili - We ile"
-      },
-      {
-        "sentence": "Good ___! How are you?",
-        "answer": "morning",
-        "hint": "sabah"
-      }
+      { "sentence": "Hello! My ___ is Eyüp.", "answer": "name", "hint": "isim" },
+      { "sentence": "I ___ from Turkey.", "answer": "am", "hint": "be fiili - I ile" },
+      { "sentence": "She ___ my friend.", "answer": "is", "hint": "be fiili - She ile" },
+      { "sentence": "We ___ students.", "answer": "are", "hint": "be fiili - We ile" },
+      { "sentence": "Good ___! How are you?", "answer": "morning", "hint": "sabah" },
+      { "sentence": "___ to meet you!", "answer": "Nice", "hint": "Tanıştığıma memnun oldum" },
+      { "sentence": "___ me, where is the bathroom?", "answer": "Excuse", "hint": "affedersiniz" },
+      { "sentence": "You're ___! (= Rica ederim)", "answer": "welcome", "hint": "hoş geldiniz / bir şey değil" }
     ],
     "multipleChoice": [
       {
@@ -189,6 +282,16 @@
         "question": "\"They ___ from Istanbul.\" Boşluğa ne gelir?",
         "options": ["am", "is", "are", "be"],
         "correct": 2
+      },
+      {
+        "question": "\"Affedersiniz\" İngilizce'de hangisi?",
+        "options": ["Sorry", "Excuse me", "Thank you", "Please"],
+        "correct": 1
+      },
+      {
+        "question": "\"I'm\" ne demek?",
+        "options": ["I is", "I am", "I are", "I was"],
+        "correct": 1
       }
     ],
     "matching": [
@@ -196,32 +299,26 @@
       { "left": "Goodbye", "right": "Hoşça kal" },
       { "left": "Please", "right": "Lütfen" },
       { "left": "Thank you", "right": "Teşekkür ederim" },
+      { "left": "Sorry", "right": "Özür dilerim" },
+      { "left": "Excuse me", "right": "Affedersiniz" },
       { "left": "Good morning", "right": "Günaydın" },
-      { "left": "Good evening", "right": "İyi akşamlar" }
+      { "left": "Good evening", "right": "İyi akşamlar" },
+      { "left": "See you", "right": "Görüşürüz" },
+      { "left": "Welcome", "right": "Hoş geldiniz" }
     ],
     "sentenceOrder": [
-      {
-        "words": ["My", "name", "is", "Eyüp"],
-        "correct": "My name is Eyüp"
-      },
-      {
-        "words": ["I", "am", "from", "Turkey"],
-        "correct": "I am from Turkey"
-      },
-      {
-        "words": ["She", "is", "my", "friend"],
-        "correct": "She is my friend"
-      },
-      {
-        "words": ["Nice", "to", "meet", "you"],
-        "correct": "Nice to meet you"
-      }
+      { "words": ["My", "name", "is", "Eyüp"], "correct": "My name is Eyüp" },
+      { "words": ["I", "am", "from", "Turkey"], "correct": "I am from Turkey" },
+      { "words": ["She", "is", "my", "friend"], "correct": "She is my friend" },
+      { "words": ["Nice", "to", "meet", "you"], "correct": "Nice to meet you" },
+      { "words": ["How", "are", "you", "doing"], "correct": "How are you doing" },
+      { "words": ["We", "are", "in", "the", "same", "class"], "correct": "We are in the same class" }
     ],
     "translation": [
       {
         "turkish": "Benim adım Eyüp.",
         "english": "My name is Eyüp.",
-        "acceptAlso": ["My name is Eyup"]
+        "acceptAlso": ["My name is Eyup", "I'm Eyüp", "I am Eyüp"]
       },
       {
         "turkish": "Ben Türkiye'denim.",
@@ -232,49 +329,70 @@
         "turkish": "O benim arkadaşım.",
         "english": "She is my friend.",
         "acceptAlso": ["She's my friend", "He is my friend", "He's my friend"]
+      },
+      {
+        "turkish": "Tanıştığıma memnun oldum!",
+        "english": "Nice to meet you!",
+        "acceptAlso": ["Nice to meet you"]
+      },
+      {
+        "turkish": "Affedersiniz, tuvalet nerede?",
+        "english": "Excuse me, where is the bathroom?",
+        "acceptAlso": ["Excuse me where is the bathroom"]
       }
     ]
   },
 
   "dialog": {
-    "title": "Meeting a New Friend",
-    "titleTr": "Yeni Bir Arkadaşla Tanışma",
-    "context": "İki kişi bir kafede ilk kez karşılaşıyor / Two people meet at a café for the first time",
+    "title": "Meeting a New Friend at a Café",
+    "titleTr": "Kafede Yeni Bir Arkadaşla Tanışma",
+    "context": "Eyüp bir kafede oturuyor. Yanındaki masadaki Emma ile göz göze geliyor ve sohbet başlıyor.",
     "lines": [
-      { "speaker": "A", "speakerName": "Emma", "text": "Hello! My name is Emma.", "textTr": "Merhaba! Benim adım Emma." },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi Emma! I am Eyüp. Nice to meet you!", "textTr": "Merhaba Emma! Ben Eyüp. Tanıştığıma memnun oldum!" },
+      { "speaker": "A", "speakerName": "Emma", "text": "Hi! Is this seat free?", "textTr": "Selam! Bu koltuk boş mu?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, please sit down!", "textTr": "Evet, buyurun oturun!" },
+      { "speaker": "A", "speakerName": "Emma", "text": "Thank you! My name is Emma. What's your name?", "textTr": "Teşekkürler! Benim adım Emma. Senin adın ne?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'm Eyüp. Nice to meet you, Emma!", "textTr": "Ben Eyüp. Tanıştığıma memnun oldum, Emma!" },
       { "speaker": "A", "speakerName": "Emma", "text": "Nice to meet you too! Where are you from?", "textTr": "Ben de memnun oldum! Nerelisin?" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "I am from Turkey. And you?", "textTr": "Ben Türkiye'denim. Ya sen?" },
-      { "speaker": "A", "speakerName": "Emma", "text": "I am from England. How are you today?", "textTr": "Ben İngiltere'denim. Bugün nasılsın?" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "I am fine, thank you! And you?", "textTr": "İyiyim, teşekkürler! Sen nasılsın?" },
-      { "speaker": "A", "speakerName": "Emma", "text": "I am good, thanks! Goodbye, Eyüp!", "textTr": "İyiyim, sağol! Hoşça kal, Eyüp!" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "Goodbye, Emma! See you!", "textTr": "Hoşça kal, Emma! Görüşürüz!" }
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'm from Turkey. And you?", "textTr": "Türkiye'denim. Ya sen?" },
+      { "speaker": "A", "speakerName": "Emma", "text": "I'm from Boston, in the United States. I'm here on vacation.", "textTr": "Boston'danım, Amerika. Tatil için buradayım." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That's great! How are you liking Turkey?", "textTr": "Harika! Türkiye'yi nasıl buluyorsun?" },
+      { "speaker": "A", "speakerName": "Emma", "text": "I love it! The food is amazing and people are so friendly.", "textTr": "Bayıldım! Yemekler harika ve insanlar çok samimi." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you! That's very nice. I am learning English now.", "textTr": "Teşekkürler! Bu çok güzel. Şu an İngilizce öğreniyorum." },
+      { "speaker": "A", "speakerName": "Emma", "text": "Your English is good! Keep going!", "textTr": "İngilizce'n iyi! Devam et!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you so much! It was nice meeting you. See you!", "textTr": "Çok teşekkürler! Tanıştığıma memnun oldum. Görüşürüz!" },
+      { "speaker": "A", "speakerName": "Emma", "text": "See you, Eyüp! Goodbye!", "textTr": "Görüşürüz, Eyüp! Hoşça kal!" }
     ],
     "questions": [
       {
         "question": "Where is Emma from?",
         "questionTr": "Emma nereli?",
-        "options": ["Turkey", "England", "America", "Germany"],
+        "options": ["Turkey", "Boston, USA", "London, England", "Berlin, Germany"],
         "correct": 1
       },
       {
-        "question": "How is Eyüp today?",
-        "questionTr": "Eyüp bugün nasıl?",
-        "options": ["He is sad.", "He is tired.", "He is fine.", "He is hungry."],
+        "question": "Why is Emma in Turkey?",
+        "questionTr": "Emma neden Türkiye'de?",
+        "options": ["For work", "For school", "On vacation", "To learn Turkish"],
         "correct": 2
       },
       {
-        "question": "What does Eyüp say at the end?",
-        "questionTr": "Eyüp en sonda ne diyor?",
-        "options": ["Thank you!", "Good morning!", "Goodbye, Emma!", "Please!"],
-        "correct": 2
+        "question": "What does Emma think about Turkey?",
+        "questionTr": "Emma Türkiye hakkında ne düşünüyor?",
+        "options": ["She doesn't like it", "She loves the food and people", "She thinks it's boring", "She wants to leave"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyüp doing?",
+        "questionTr": "Eyüp ne yapıyor?",
+        "options": ["Teaching English", "Learning English", "Working at the café", "On vacation"],
+        "correct": 1
       }
     ]
   },
 
   "resources": [
     {
-      "title": "English Greetings - BBC Learning",
+      "title": "English Greetings for Beginners - BBC",
       "description": "Selamlaşma kalıplarını videolarla öğren",
       "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1/session-1",
       "type": "video",
@@ -282,10 +400,18 @@
       "free": true
     },
     {
-      "title": "Introductions - British Council",
+      "title": "Introducing Yourself - British Council",
       "description": "Kendini tanıtma alıştırmaları",
       "url": "https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking/introducing-yourself",
       "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Greetings & Goodbyes - Cambridge Dictionary",
+      "description": "Selamlaşma kelimelerinin telaffuzu",
+      "url": "https://dictionary.cambridge.org/topics/greetings-and-introductions/greetings-and-introductions/",
+      "type": "article",
       "level": "A1",
       "free": true
     }

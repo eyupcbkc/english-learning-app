@@ -23,6 +23,7 @@ export default function VocabularyCard({ vocabulary }) {
         </CardTitle>
       </CardHeader>
       <CardContent>
+        <p className="text-xs text-muted-foreground mb-4">Kartlara tıklayarak anlamını ve örnekleri gör. Ses ikonuna basarak telaffuzu dinle.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {vocabulary.map((item, i) => (
             <div
@@ -44,14 +45,36 @@ export default function VocabularyCard({ vocabulary }) {
               </div>
 
               {flipped[i] ? (
-                <div className="mt-3 pt-3 border-t space-y-1.5">
-                  <p className="text-sm font-medium">{item.turkish}</p>
-                  <p className="text-sm text-muted-foreground italic">"{item.example}"</p>
-                  <p className="text-xs text-muted-foreground">{item.exampleTr}</p>
+                <div className="mt-3 pt-3 border-t space-y-2">
+                  <p className="text-sm font-semibold">{item.turkish}</p>
+
+                  {/* Example 1 */}
+                  <div className="rounded-lg bg-accent/50 p-2.5">
+                    <div className="flex items-center gap-1.5">
+                      <p className="text-sm">"{item.example}"</p>
+                      <button onClick={(e) => { e.stopPropagation(); speak(item.example) }} className="shrink-0">
+                        <Volume2 className="h-3 w-3 text-muted-foreground hover:text-primary" />
+                      </button>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-0.5">{item.exampleTr}</p>
+                  </div>
+
+                  {/* Example 2 (extra) */}
+                  {item.extra && (
+                    <div className="rounded-lg bg-accent/50 p-2.5">
+                      <div className="flex items-center gap-1.5">
+                        <p className="text-sm">"{item.extra}"</p>
+                        <button onClick={(e) => { e.stopPropagation(); speak(item.extra) }} className="shrink-0">
+                          <Volume2 className="h-3 w-3 text-muted-foreground hover:text-primary" />
+                        </button>
+                      </div>
+                      <p className="text-xs text-muted-foreground mt-0.5">{item.extraTr}</p>
+                    </div>
+                  )}
                 </div>
               ) : (
                 <p className="mt-3 pt-3 border-t text-xs text-muted-foreground italic">
-                  Çeviri için tıkla / Click to reveal
+                  Çeviri ve örnekler için tıkla
                 </p>
               )}
             </div>
