@@ -1,18 +1,36 @@
 # Learning Progress
 
 ## Current Level: A1
-## Current Unit: Unit 03 - Present Simple: Be
-## Next Action: Study Unit 03
+## Completed Units: 0 (app'te localStorage ile takip ediliyor)
+## Available Units: 3
+## Next Action: Flashcard sistemi + Unit 04-08 icerikleri
 
 ---
 
-## Available Units
-- Unit 01: Greetings & Introductions
-- Unit 02: Numbers, Days & Months
-- Unit 03: Present Simple - Be ← NEW
+## App'teki Uniteler
+- [x] Unit 01: Greetings & Introductions (icerik + dialog + kaynaklar)
+- [x] Unit 02: Numbers, Days & Months (icerik + dialog + kaynaklar)
+- [x] Unit 03: Present Simple - Be (icerik + dialog + kaynaklar)
+- [ ] Unit 04: Present Simple - Do (planli: markette alisveris)
+- [ ] Unit 05: Basic Questions (planli: otelde check-in)
+- [ ] Unit 06: Daily Routines (planli: vlogger tarzi)
+- [ ] Unit 07: Food & Drinks (planli: restoranda siparis)
+- [ ] Unit 08: A1 Review & Test (planli: karma test)
 
-## Vocabulary Bank
-Total words available: 42 (12 + 15 + 15)
+## Tamamlanan Ozellikler
+- [x] React + Vite + shadcn/ui app iskeleti
+- [x] 7 adimli unite akisi (vocab → grammar → reading → dialog → exercises → resources → complete)
+- [x] 6 alistirma tipi (fill blanks, MC, matching, ordering, translation)
+- [x] Dialog dinleme (Web Speech API, erkek/kadin ses)
+- [x] Kaynak onerileri (BBC, British Council vb.)
+- [x] localStorage ilerleme takibi (streak, skor, seviye)
+- [x] Modul aciklamalari (skills listesi)
+- [x] Design system dokumantasyonu
+- [x] GitHub repo + push
+- [x] Vercel Analytics entegrasyonu
 
-## Test Scores
-(tracked in localStorage)
+## Siradaki Isler (Oncelik sirasi)
+1. Flashcard / Hafiza Karti sistemi
+2. Unit 04-08 icerikleri
+3. Kelime listesi sayfasi
+4. Vocabulary Bank sayfasi
