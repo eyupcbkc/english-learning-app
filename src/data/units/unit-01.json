@@ -10,84 +10,84 @@
   "vocabulary": [
     {
       "word": "hello",
-      "pronunciation": "/həˈloʊ/",
+      "pronunciation": "he-LOU",
       "turkish": "merhaba",
       "example": "Hello! How are you?",
       "exampleTr": "Merhaba! Nasılsın?"
     },
     {
       "word": "goodbye",
-      "pronunciation": "/ɡʊdˈbaɪ/",
+      "pronunciation": "gud-BAY",
       "turkish": "hoşça kal",
       "example": "Goodbye! See you tomorrow.",
       "exampleTr": "Hoşça kal! Yarın görüşürüz."
     },
     {
       "word": "please",
-      "pronunciation": "/pliːz/",
+      "pronunciation": "pliiz",
       "turkish": "lütfen",
       "example": "Can I have some water, please?",
       "exampleTr": "Biraz su alabilir miyim, lütfen?"
     },
     {
       "word": "thank you",
-      "pronunciation": "/θæŋk juː/",
+      "pronunciation": "tenk yuu",
       "turkish": "teşekkür ederim",
       "example": "Thank you very much!",
       "exampleTr": "Çok teşekkür ederim!"
     },
     {
       "word": "yes",
-      "pronunciation": "/jes/",
+      "pronunciation": "yes",
       "turkish": "evet",
       "example": "Yes, I am from Turkey.",
       "exampleTr": "Evet, ben Türkiye'denim."
     },
     {
       "word": "no",
-      "pronunciation": "/noʊ/",
+      "pronunciation": "nou",
       "turkish": "hayır",
       "example": "No, I don't speak French.",
       "exampleTr": "Hayır, Fransızca konuşmuyorum."
     },
     {
       "word": "name",
-      "pronunciation": "/neɪm/",
+      "pronunciation": "neym",
       "turkish": "isim",
       "example": "My name is Eyüp.",
       "exampleTr": "Benim adım Eyüp."
     },
     {
       "word": "nice",
-      "pronunciation": "/naɪs/",
+      "pronunciation": "nays",
       "turkish": "güzel, hoş",
       "example": "Nice to meet you!",
       "exampleTr": "Tanıştığıma memnun oldum!"
     },
     {
       "word": "friend",
-      "pronunciation": "/frend/",
+      "pronunciation": "frend",
       "turkish": "arkadaş",
       "example": "She is my friend.",
       "exampleTr": "O benim arkadaşım."
     },
     {
       "word": "morning",
-      "pronunciation": "/ˈmɔːrnɪŋ/",
+      "pronunciation": "MOR-ning",
       "turkish": "sabah",
       "example": "Good morning! How are you?",
       "exampleTr": "Günaydın! Nasılsın?"
     },
     {
       "word": "evening",
-      "pronunciation": "/ˈiːvnɪŋ/",
+      "pronunciation": "IIV-ning",
       "turkish": "akşam",
       "example": "Good evening, everyone.",
       "exampleTr": "İyi akşamlar, herkese."
     },
     {
       "word": "fine",
-      "pronunciation": "/faɪn/",
+      "pronunciation": "fayn",
       "turkish": "iyi",
       "example": "I am fine, thank you.",
       "exampleTr": "İyiyim, teşekkürler."
