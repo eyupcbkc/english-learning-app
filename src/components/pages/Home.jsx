@@ -27,13 +27,13 @@ function getMotivation(streak, completed) {
 
 export default function Home() {
   const { progress, isUnitCompleted, getScore } = useProgress()
-  const { stats, initializeAllUnits } = useFlashcards()
+  const { stats, initializeAllUnits, loaded: flashcardsLoaded } = useFlashcards()
   const { user } = useAuth()
   const [expandedModule, setExpandedModule] = useState(null)
 
   useEffect(() => {
-    initializeAllUnits()
-  }, [initializeAllUnits])
+    if (flashcardsLoaded) initializeAllUnits()
+  }, [flashcardsLoaded, initializeAllUnits])
 
   const nextUnit = units.find(u => !isUnitCompleted(u.id))
   const completedCount = progress.completedUnits.length

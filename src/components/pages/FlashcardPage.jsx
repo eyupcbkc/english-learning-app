@@ -16,11 +16,11 @@ import TypeSession from '@/components/flashcard/TypeSession'
 
 export default function FlashcardPage() {
   const {
-    dueCards, activeCards,
+    dueCards, activeCards, loaded,
     getCardData, markAnswer, initializeAllUnits, stats,
   } = useFlashcards()
 
-  const [mode, setMode] = useState(null) // null | 'flip' | 'type' | 'timed-setup' | 'timed'
+  const [mode, setMode] = useState(null)
   const [filter, setFilter] = useState('due')
   const [levelFilter, setLevelFilter] = useState('all')
   const [unitFilter, setUnitFilter] = useState('all')
@@ -28,7 +28,10 @@ export default function FlashcardPage() {
   const [timedLevel, setTimedLevel] = useState(null)
   const [timedDuration, setTimedDuration] = useState(null)
 
-  useEffect(() => { initializeAllUnits() }, [initializeAllUnits])
+  // Initialize ALL unit words into flashcards — runs after Firestore data is loaded
+  useEffect(() => {
+    if (loaded) initializeAllUnits()
+  }, [loaded, initializeAllUnits])
 
   // Available units for filter
   const availableUnits = useMemo(() => {
@@ -73,8 +76,8 @@ export default function FlashcardPage() {
     return activeCards.filter(v => v.level === timedLevel)
   }, [timedLevel, activeCards])
 
-  // ── Empty State ──
-  if (activeCards.length === 0) {
+  // ── Loading State ──
+  if (!loaded) {
     return (
       <div className="space-y-6">
         <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -82,10 +85,8 @@ export default function FlashcardPage() {
         </Link>
         <Card>
           <CardContent className="p-8 text-center space-y-4">
-            <div className="text-5xl">🃏</div>
-            <p className="text-lg font-medium">Henüz flashcard yok</p>
-            <p className="text-sm text-muted-foreground">Önce bir ünite tamamla, kelimelerin otomatik olarak buraya eklenir.</p>
-            <Button asChild><Link to="/">Ünitelere Git</Link></Button>
+            <div className="h-8 w-8 mx-auto border-2 border-primary border-t-transparent rounded-full animate-spin" />
+            <p className="text-sm text-muted-foreground">Kartlar yükleniyor...</p>
           </CardContent>
         </Card>
       </div>

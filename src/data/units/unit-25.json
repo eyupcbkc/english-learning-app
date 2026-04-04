@@ -1,0 +1,182 @@
+{
+  "id": "unit-25",
+  "title": "Second Conditional",
+  "titleTr": "İkinci Koşul Cümlesi (Gerçek Dışı Durumlar)",
+  "level": "B1",
+  "module": 4,
+  "description": "Talk about hypothetical situations and unreal conditions. Evaluate job offers, discuss what you would do differently.",
+  "descriptionTr": "Varsayımsal durumlar ve gerçek dışı koşullardan bahset. İş tekliflerini değerlendir, farklı ne yapardın tartış.",
+
+  "vocabulary": [
+    { "word": "negotiate", "pronunciation": "ni-GOU-şi-eyt", "turkish": "pazarlık etmek / müzakere etmek", "example": "I would negotiate a higher salary if I got the offer.", "exampleTr": "Teklif alsam daha yüksek maaş için pazarlık yapardım.", "extra": "She negotiated a 15% raise with her manager.", "extraTr": "Müdürüyle %15 zam için pazarlık etti." },
+    { "word": "salary", "pronunciation": "SE-lı-ri", "turkish": "maaş", "example": "The salary for this position is $75,000 per year.", "exampleTr": "Bu pozisyon için maaş yıllık 75.000 dolar.", "extra": "If they offered a better salary, I would accept immediately.", "extraTr": "Daha iyi maaş teklif etseler hemen kabul ederdim." },
+    { "word": "benefits", "pronunciation": "BE-nı-fits", "turkish": "yan haklar / sosyal haklar", "example": "The company offers great benefits including health insurance.", "exampleTr": "Şirket sağlık sigortası dahil harika yan haklar sunuyor.", "extra": "Benefits are sometimes more important than salary.", "extraTr": "Yan haklar bazen maaştan daha önemlidir." },
+    { "word": "relocate", "pronunciation": "rii-LOU-keyt", "turkish": "taşınmak / yer değiştirmek", "example": "Would you relocate to another city for this job?", "exampleTr": "Bu iş için başka şehre taşınır mısın?", "extra": "If I relocated to Istanbul, I would be closer to the headquarters.", "extraTr": "İstanbul'a taşınsam merkez ofise daha yakın olurdum." },
+    { "word": "consider", "pronunciation": "kın-Sİ-dır", "turkish": "düşünmek / değerlendirmek", "example": "I would consider the offer if the terms were better.", "exampleTr": "Koşullar daha iyi olsaydı teklifi değerlendirirdim.", "extra": "Have you considered working remotely?", "extraTr": "Uzaktan çalışmayı düşündün mü?" },
+    { "word": "accept", "pronunciation": "ek-SEPT", "turkish": "kabul etmek", "example": "I accepted the job offer yesterday.", "exampleTr": "Dün iş teklifini kabul ettim.", "extra": "If the package were better, I would accept without hesitation.", "extraTr": "Paket daha iyi olsaydı tereddütsüz kabul ederdim." },
+    { "word": "reject", "pronunciation": "ri-CEKT", "turkish": "reddetmek", "example": "She rejected the offer because the salary was too low.", "exampleTr": "Maaş çok düşük olduğu için teklifi reddetti.", "extra": "I wouldn't reject an opportunity like this.", "extraTr": "Böyle bir fırsatı reddetmezdim." },
+    { "word": "counteroffer", "pronunciation": "KAUN-tır-o-fır", "turkish": "karşı teklif", "example": "I made a counteroffer asking for more vacation days.", "exampleTr": "Daha fazla izin günü isteyerek karşı teklif yaptım.", "extra": "If they reject my counteroffer, I would walk away.", "extraTr": "Karşı teklifimi reddetseler, vazgeçerdim." },
+    { "word": "compensation", "pronunciation": "kom-pen-SEY-şın", "turkish": "ücret / tazminat", "example": "Total compensation includes salary, bonus, and benefits.", "exampleTr": "Toplam ücret maaş, prim ve yan hakları kapsar.", "extra": "The compensation package was very competitive.", "extraTr": "Ücret paketi çok rekabetçiydi." },
+    { "word": "bonus", "pronunciation": "BOU-nıs", "turkish": "prim / ikramiye", "example": "Employees receive an annual performance bonus.", "exampleTr": "Çalışanlar yıllık performans primi alır.", "extra": "If I hit my targets, I would get a 20% bonus.", "extraTr": "Hedeflerimi tutturursam %20 prim alırdım." },
+    { "word": "remote", "pronunciation": "ri-MOUT", "turkish": "uzaktan", "example": "I work remote three days a week.", "exampleTr": "Haftada üç gün uzaktan çalışıyorum.", "extra": "If this job were fully remote, I would definitely apply.", "extraTr": "Bu iş tamamen uzaktan olsaydı kesinlikle başvururdun." },
+    { "word": "hybrid", "pronunciation": "HAY-brid", "turkish": "hibrit / karma", "example": "We have a hybrid work model — 3 days office, 2 days home.", "exampleTr": "Hibrit çalışma modelimiz var — 3 gün ofis, 2 gün ev.", "extra": "Most companies are switching to hybrid work.", "extraTr": "Çoğu şirket hibrit çalışmaya geçiyor." },
+    { "word": "flexible", "pronunciation": "FLEK-sı-bıl", "turkish": "esnek", "example": "The company has flexible working hours.", "exampleTr": "Şirketin esnek çalışma saatleri var.", "extra": "If the schedule were more flexible, I would be happier.", "extraTr": "Program daha esnek olsaydı daha mutlu olurdum." },
+    { "word": "commute", "pronunciation": "kı-MYUUT", "turkish": "işe gidip gelme", "example": "My daily commute takes 45 minutes each way.", "exampleTr": "Günlük işe gidiş gelişim her yön 45 dakika sürüyor.", "extra": "If I didn't have to commute, I would save 2 hours a day.", "extraTr": "İşe gidip gelmem gerekmeseydi günde 2 saat kazanırdım." },
+    { "word": "contract", "pronunciation": "KON-trekt", "turkish": "sözleşme", "example": "Please read the contract carefully before signing.", "exampleTr": "İmzalamadan önce lütfen sözleşmeyi dikkatle okuyun.", "extra": "The contract is for two years with an option to extend.", "extraTr": "Sözleşme uzatma opsiyonuyla iki yıllık." },
+    { "word": "clause", "pronunciation": "kloz", "turkish": "madde / hüküm", "example": "There is a non-compete clause in the contract.", "exampleTr": "Sözleşmede rekabet yasağı maddesi var.", "extra": "I would ask my lawyer to review this clause.", "extraTr": "Bu maddeyi avukatıma incelettirirdim." },
+    { "word": "probation", "pronunciation": "pro-BEY-şın", "turkish": "deneme süresi", "example": "The probation period is three months.", "exampleTr": "Deneme süresi üç ay.", "extra": "During probation, either side can end the contract.", "extraTr": "Deneme süresinde her iki taraf da sözleşmeyi bitirebilir." },
+    { "word": "notice period", "pronunciation": "NOU-tis PIR-i-ıd", "turkish": "ihbar süresi", "example": "I have a 30-day notice period at my current job.", "exampleTr": "Şu anki işimde 30 günlük ihbar sürem var.", "extra": "If I resigned today, I would need to work one more month.", "extraTr": "Bugün istifa etsem bir ay daha çalışmam gerekirdi." },
+    { "word": "resign", "pronunciation": "ri-ZAYN", "turkish": "istifa etmek", "example": "He resigned from his position last week.", "exampleTr": "Geçen hafta pozisyonundan istifa etti.", "extra": "I wouldn't resign without having another offer.", "extraTr": "Elimde başka bir teklif olmadan istifa etmezdim." },
+    { "word": "terminate", "pronunciation": "TÖR-mi-neyt", "turkish": "feshetmek / sonlandırmak", "example": "The company can terminate the contract with 30 days notice.", "exampleTr": "Şirket 30 gün önceden bildirerek sözleşmeyi feshedebilir.", "extra": "If performance is poor, they would terminate the employee.", "extraTr": "Performans kötüyse çalışanı işten çıkarırlar." },
+    { "word": "severance", "pronunciation": "SE-vır-ıns", "turkish": "kıdem tazminatı", "example": "The severance package includes 3 months salary.", "exampleTr": "Kıdem tazminatı paketi 3 aylık maaş içeriyor.", "extra": "If they laid me off, I would receive severance pay.", "extraTr": "İşten çıkarsalardı kıdem tazminatı alırdım." },
+    { "word": "package", "pronunciation": "PE-kic", "turkish": "paket", "example": "The total package is worth $95,000 including benefits.", "exampleTr": "Yan haklarla birlikte toplam paket 95.000 dolar değerinde.", "extra": "I would negotiate the entire package, not just salary.", "extraTr": "Sadece maaşı değil, tüm paketi müzakere ederdim." },
+    { "word": "pension", "pronunciation": "PEN-şın", "turkish": "emekli maaşı / emeklilik", "example": "The company contributes to a pension plan.", "exampleTr": "Şirket bir emeklilik planına katkı yapıyor.", "extra": "If I worked here for 20 years, I would have a good pension.", "extraTr": "Burada 20 yıl çalışsam iyi bir emekli maaşım olurdu." },
+    { "word": "healthcare", "pronunciation": "HELT-ker", "turkish": "sağlık sigortası", "example": "Healthcare benefits cover the whole family.", "exampleTr": "Sağlık sigortası tüm aileyi kapsar.", "extra": "Private healthcare is a major benefit in this role.", "extraTr": "Özel sağlık sigortası bu pozisyonda önemli bir hak." },
+    { "word": "evaluate", "pronunciation": "i-VE-lyu-eyt", "turkish": "değerlendirmek", "example": "I need time to evaluate all the options.", "exampleTr": "Tüm seçenekleri değerlendirmek için zamana ihtiyacım var.", "extra": "We evaluate employee performance every quarter.", "extraTr": "Çalışan performansını her çeyrekte değerlendiririz." },
+    { "word": "pros", "pronunciation": "proz", "turkish": "artılar / avantajlar", "example": "The pros of this job include the salary and location.", "exampleTr": "Bu işin artıları maaş ve konum.", "extra": "Let's list all the pros before making a decision.", "extraTr": "Karar vermeden önce tüm artıları listeleyelim." },
+    { "word": "cons", "pronunciation": "konz", "turkish": "eksiler / dezavantajlar", "example": "The main con is the long commute.", "exampleTr": "Ana dezavantaj uzun yol.", "extra": "There are more pros than cons in this offer.", "extraTr": "Bu teklifte eksilere göre artılar daha fazla." },
+    { "word": "weigh", "pronunciation": "vey", "turkish": "tartmak (karar)", "example": "I need to weigh the pros and cons carefully.", "exampleTr": "Artıları ve eksileri dikkatle tartmam lazım.", "extra": "If I were you, I would weigh all options before deciding.", "extraTr": "Yerinde olsam karar vermeden önce tüm seçenekleri tartardım." },
+    { "word": "opportunity", "pronunciation": "o-pır-TUU-nı-ti", "turkish": "fırsat", "example": "This is a great opportunity for career growth.", "exampleTr": "Bu kariyer büyümesi için harika bir fırsat.", "extra": "If I missed this opportunity, I would regret it.", "extraTr": "Bu fırsatı kaçırsam pişman olurdum." },
+    { "word": "promotion", "pronunciation": "prı-MOU-şın", "turkish": "terfi", "example": "She got a promotion to senior manager.", "exampleTr": "Kıdemli müdür pozisyonuna terfi etti.", "extra": "If I worked harder, I would get a promotion faster.", "extraTr": "Daha çok çalışsam daha hızlı terfi ederdim." }
+  ],
+
+  "grammar": {
+    "title": "Second Conditional — Hypothetical / Unreal Situations",
+    "titleTr": "İkinci Koşul Cümlesi — Varsayımsal / Gerçek Dışı Durumlar",
+    "explanation": "Use the Second Conditional for hypothetical or unreal situations — things that are unlikely or imaginary. Structure: If + Past Simple, would + base verb. Use 'were' instead of 'was' for all subjects in formal English.",
+    "explanationTr": "İkinci Koşul Cümlesi gerçek dışı veya varsayımsal durumlar için kullanılır — olması pek olası olmayan veya hayal edilen şeyler. Yapı: If + Geçmiş Zaman, would + yalın fiil. Resmi İngilizce'de tüm öznelerle 'was' yerine 'were' kullanılır.",
+    "table": [
+      ["If I had more time, I would learn Spanish too.", "If I didn't have this job, I would travel the world.", "What would you do if you won the lottery?", "I would buy a house."],
+      ["If she were the manager, she would change the policy.", "If he weren't so busy, he would help us.", "Would she accept the offer if it were better?", "Yes, she would."],
+      ["If we had a bigger budget, we would hire more people.", "If the salary weren't low, I wouldn't reject it.", "Would you relocate if they offered you the job?", "No, I wouldn't."],
+      ["If they offered remote work, more people would apply.", "If I were you, I would negotiate the salary.", "What would happen if we lost this client?", "We would lose 30% of revenue."],
+      ["If I spoke better English, I would get promoted.", "If it weren't raining, we would go outside.", "Would you resign if you got a better offer?", "Yes, I would."],
+      ["If the commute were shorter, I would take this job.", "If benefits weren't included, I wouldn't consider it.", "How would you feel if you got the promotion?", "I would feel proud."],
+      ["If I were rich, I would start my own company.", "If we didn't have deadlines, we would be more creative.", "Would they hire me if I applied?", "They probably would."]
+    ],
+    "tips": [
+      { "en": "Second Conditional = UNREAL now/future: 'If I were a bird, I would fly.' (I'm NOT a bird)", "tr": "İkinci Koşul = Şu an/gelecekte GERÇEK DIŞI: 'Kuş olsam uçardım.' (Kuş DEĞİLİM)" },
+      { "en": "Use 'were' for all subjects: If I were..., If he were..., If she were... (NOT 'If I was')", "tr": "Tüm öznelerde 'were' kullan: If I were..., If he were... ('If I was' YANLIŞ)" },
+      { "en": "Would + base verb (never 'would + to'): I would GO (not 'would to go')", "tr": "Would + yalın fiil: I would GO (would to go YANLIŞ)" },
+      { "en": "Could/might replace would: 'If I had time, I could/might help you.'", "tr": "Would yerine could/might kullanılabilir: 'Zamanım olsa sana yardım edebilirdim.'" },
+      { "en": "'If I were you' = giving advice: 'If I were you, I would accept the offer.'", "tr": "'If I were you' = tavsiye vermek: 'Yerinde olsam teklifi kabul ederdim.'" },
+      { "en": "1st Conditional = REAL possible: 'If it rains, I will stay home.' vs 2nd = UNREAL: 'If it rained every day, I would move.'", "tr": "1. Koşul = GERÇEK olası: 'Yağmur yağarsa evde kalırım.' vs 2. Koşul = GERÇEK DIŞI: 'Her gün yağmur yağsa taşınırdım.'" }
+    ]
+  },
+
+  "reading": {
+    "text": "Subject: Re: Logistics Manager Position — Offer Details\n\nDear Eyüp,\n\nThank you for your interest in the Logistics Manager position at GlobalShip Inc. After careful evaluation, we are pleased to offer you the role.\n\nHere are the details:\n- Base salary: $68,000/year\n- Annual performance bonus: up to 15%\n- Healthcare: Full coverage for you and your family\n- Work model: Hybrid (3 days office, 2 days remote)\n- Probation period: 3 months\n- Notice period: 30 days\n- Start date: May 1st\n\nPlease review the attached contract and let us know your decision within 7 business days.\n\n---\n\nEyüp read the email and thought about it. The salary was good but not great. If he negotiated, he could probably get $75,000. The hybrid model was nice, but he wished it were fully remote — if it were, he wouldn't need to commute at all.\n\nThe benefits were excellent. Healthcare for the whole family was important. But there was a non-compete clause that worried him. If he left the company, he wouldn't be able to work for a competitor for 12 months.\n\nHe decided to write a counteroffer. If they accepted his terms, he would sign the contract immediately.",
+    "textTr": "Konu: Re: Lojistik Müdürü Pozisyonu — Teklif Detayları\n\nSayın Eyüp,\n\nGlobalShip Inc.'deki Lojistik Müdürü pozisyonuna ilginiz için teşekkür ederiz. Dikkatli bir değerlendirmenin ardından size bu rolü teklif etmekten memnuniyet duyarız.\n\nDetaylar:\n- Baz maaş: Yıllık 68.000$\n- Yıllık performans primi: %15'e kadar\n- Sağlık sigortası: Siz ve aileniz için tam kapsam\n- Çalışma modeli: Hibrit (3 gün ofis, 2 gün uzaktan)\n- Deneme süresi: 3 ay\n- İhbar süresi: 30 gün\n- Başlangıç tarihi: 1 Mayıs\n\nLütfen ekteki sözleşmeyi inceleyin ve kararınızı 7 iş günü içinde bize bildirin.\n\n---\n\nEyüp e-postayı okudu ve düşündü. Maaş iyiydi ama harika değildi. Pazarlık yapsa muhtemelen 75.000$ alabilirdi. Hibrit model güzeldi ama tamamen uzaktan olmasını diliyordu — olsaydı hiç işe gidip gelmesi gerekmezdi.\n\nYan haklar mükemmeldi. Tüm aile için sağlık sigortası önemliydi. Ama onu endişelendiren bir rekabet yasağı maddesi vardı. Şirketten ayrılsa 12 ay boyunca bir rakipte çalışamazdı.\n\nKarşı teklif yazmaya karar verdi. Koşullarını kabul etseler sözleşmeyi hemen imzalardı.",
+    "questions": [
+      { "question": "What is the base salary offered?", "questionTr": "Teklif edilen baz maaş ne kadar?", "options": ["$55,000", "$68,000", "$75,000", "$95,000"], "correct": 1 },
+      { "question": "What work model does the company offer?", "questionTr": "Şirket hangi çalışma modelini sunuyor?", "options": ["Fully remote", "Fully office", "Hybrid", "Freelance"], "correct": 2 },
+      { "question": "What worries Eyüp about the contract?", "questionTr": "Sözleşmede Eyüp'ü ne endişelendiriyor?", "options": ["The salary", "The probation period", "The non-compete clause", "The start date"], "correct": 2 },
+      { "question": "What would Eyüp prefer about the work model?", "questionTr": "Eyüp çalışma modelinde neyi tercih ederdi?", "options": ["Fully office", "Fully remote", "4 days office", "Night shifts"], "correct": 1 },
+      { "question": "What did Eyüp decide to do?", "questionTr": "Eyüp ne yapmaya karar verdi?", "options": ["Accept immediately", "Reject the offer", "Write a counteroffer", "Ask for more time"], "correct": 2 }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "If I ___ (be) the manager, I would change the shipping process.", "answer": "were", "hint": "be fiili — second conditional" },
+      { "sentence": "She would accept the job if the salary ___ (be) higher.", "answer": "were", "hint": "be fiili — unreal" },
+      { "sentence": "If I ___ you, I would negotiate the contract.", "answer": "were", "hint": "tavsiye verme" },
+      { "sentence": "I ___ (will) relocate if they offered me the position.", "answer": "would", "hint": "sonuç cümlesi" },
+      { "sentence": "If we had more budget, we ___ hire 5 more people.", "answer": "would", "hint": "sonuç" },
+      { "sentence": "What ___ you do if you got promoted?", "answer": "would", "hint": "soru" },
+      { "sentence": "If the ___ period were longer, I would feel more comfortable.", "answer": "probation", "hint": "deneme süresi" },
+      { "sentence": "I need to ___ the pros and cons before deciding.", "answer": "weigh", "hint": "tartmak" },
+      { "sentence": "She made a ___ asking for more vacation days.", "answer": "counteroffer", "hint": "karşı teklif" },
+      { "sentence": "The total ___ includes salary and benefits.", "answer": "compensation", "hint": "ücret paketi" },
+      { "sentence": "I wouldn't ___ without having another offer.", "answer": "resign", "hint": "istifa etmek" },
+      { "sentence": "If the ___ were shorter, I would take this job.", "answer": "commute", "hint": "işe gidiş geliş" }
+    ],
+    "multipleChoice": [
+      { "question": "\"If I ___ more money, I would buy a house.\" Doğru olan?", "options": ["have", "had", "would have", "having"], "correct": 1 },
+      { "question": "\"If she were the CEO, she ___ change everything.\" Boşluğa ne gelir?", "options": ["will", "would", "is going to", "can"], "correct": 1 },
+      { "question": "Hangisi Second Conditional?", "options": ["If it rains, I will stay.", "If it rained, I would stay.", "If it rains, I stay.", "If it had rained, I would have stayed."], "correct": 1 },
+      { "question": "\"Maaş\" İngilizce'de hangisi?", "options": ["bonus", "salary", "benefits", "pension"], "correct": 1 },
+      { "question": "\"If I were you\" ne anlama gelir?", "options": ["Eğer ben olsaydım", "Yerinde olsam", "Seninle olsam", "Sana göre"], "correct": 1 },
+      { "question": "\"Karşı teklif\" İngilizce'de hangisi?", "options": ["contract", "clause", "counteroffer", "compensation"], "correct": 2 },
+      { "question": "\"She ___ accept if the package were better.\"", "options": ["will", "would", "is", "does"], "correct": 1 },
+      { "question": "\"Deneme süresi\" İngilizce'de hangisi?", "options": ["notice period", "probation", "severance", "termination"], "correct": 1 },
+      { "question": "\"If I didn't have to ___, I would save 2 hours.\" (işe gidip gelme)", "options": ["work", "commute", "negotiate", "resign"], "correct": 1 },
+      { "question": "Second Conditional'da 'be' fiili nasıl kullanılır?", "options": ["was for I/he/she", "were for all subjects", "is for present", "been for past"], "correct": 1 }
+    ],
+    "matching": [
+      { "left": "negotiate", "right": "pazarlık etmek" },
+      { "left": "salary", "right": "maaş" },
+      { "left": "benefits", "right": "yan haklar" },
+      { "left": "relocate", "right": "taşınmak" },
+      { "left": "accept", "right": "kabul etmek" },
+      { "left": "reject", "right": "reddetmek" },
+      { "left": "counteroffer", "right": "karşı teklif" },
+      { "left": "compensation", "right": "ücret paketi" },
+      { "left": "remote", "right": "uzaktan" },
+      { "left": "flexible", "right": "esnek" },
+      { "left": "commute", "right": "işe gidiş geliş" },
+      { "left": "contract", "right": "sözleşme" },
+      { "left": "probation", "right": "deneme süresi" },
+      { "left": "resign", "right": "istifa etmek" },
+      { "left": "severance", "right": "kıdem tazminatı" }
+    ],
+    "sentenceOrder": [
+      { "words": ["If", "I", "were", "you", "I", "would", "accept"], "correct": "If I were you I would accept" },
+      { "words": ["She", "would", "negotiate", "if", "she", "had", "time"], "correct": "She would negotiate if she had time" },
+      { "words": ["What", "would", "you", "do", "if", "you", "got", "promoted"], "correct": "What would you do if you got promoted" },
+      { "words": ["If", "the", "salary", "were", "higher", "I", "would", "sign"], "correct": "If the salary were higher I would sign" },
+      { "words": ["I", "wouldn't", "resign", "without", "another", "offer"], "correct": "I wouldn't resign without another offer" },
+      { "words": ["If", "we", "had", "more", "budget", "we", "would", "hire"], "correct": "If we had more budget we would hire" },
+      { "words": ["Would", "you", "relocate", "for", "this", "job"], "correct": "Would you relocate for this job" },
+      { "words": ["If", "it", "were", "fully", "remote", "I", "would", "apply"], "correct": "If it were fully remote I would apply" },
+      { "words": ["The", "benefits", "package", "is", "very", "competitive"], "correct": "The benefits package is very competitive" }
+    ],
+    "translation": [
+      { "turkish": "Yerinde olsam kabul ederdim.", "english": "If I were you, I would accept.", "acceptAlso": ["If I were you I would accept"] },
+      { "turkish": "Maaş daha yüksek olsaydı başvururdum.", "english": "If the salary were higher, I would apply.", "acceptAlso": ["If the salary was higher I would apply"] },
+      { "turkish": "Ne yapardın eğer terfi etseydin?", "english": "What would you do if you got promoted?", "acceptAlso": ["What would you do if you got a promotion"] },
+      { "turkish": "Uzaktan çalışma olsaydı işe gidip gelmem gerekmezdi.", "english": "If it were remote, I wouldn't have to commute.", "acceptAlso": ["If it was remote I wouldn't need to commute"] },
+      { "turkish": "Artıları ve eksileri tartmam lazım.", "english": "I need to weigh the pros and cons.", "acceptAlso": ["I need to weigh pros and cons"] },
+      { "turkish": "Karşı teklif yapmaya karar verdim.", "english": "I decided to make a counteroffer.", "acceptAlso": ["I decided to write a counteroffer"] },
+      { "turkish": "Başka bir teklifim olmadan istifa etmezdim.", "english": "I wouldn't resign without another offer.", "acceptAlso": ["I wouldn't resign without having another offer"] },
+      { "turkish": "Sözleşmede rekabet yasağı maddesi var.", "english": "There is a non-compete clause in the contract.", "acceptAlso": ["The contract has a non-compete clause"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Weighing a Job Offer",
+    "titleTr": "İş Teklifini Değerlendirme",
+    "context": "Eyüp, GlobalShip Inc.'den lojistik müdürü pozisyonu için iş teklifi aldı. Eşi Elif ile artıları ve eksileri tartışıyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Elif, I got the offer from GlobalShip. They're offering $68,000 with a 15% performance bonus.", "textTr": "Elif, GlobalShip'ten teklif geldi. %15 performans primiyle birlikte 68.000 dolar teklif ediyorlar." },
+      { "speaker": "A", "speakerName": "Elif", "text": "That's great news! But is that enough? If I were you, I would try to negotiate a higher base salary.", "textTr": "Harika haber! Ama yeterli mi? Yerinde olsam daha yüksek baz maaş için pazarlık yapardım.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "You're right. If I negotiated well, I could probably get $75,000. The benefits are really good though — full healthcare for the whole family.", "textTr": "Haklısın. İyi pazarlık yapsam muhtemelen 75.000 dolar alabilirim. Ama yan haklar gerçekten iyi — tüm aile için tam sağlık sigortası." },
+      { "speaker": "A", "speakerName": "Elif", "text": "That's important. What about the work model? Would you have to go to the office every day?", "textTr": "Bu önemli. Peki çalışma modeli ne? Her gün ofise gitmek zorunda mısın?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "It's hybrid — 3 days office, 2 days remote. I wish it were fully remote. If it were, I wouldn't have to commute at all.", "textTr": "Hibrit — 3 gün ofis, 2 gün uzaktan. Keşke tamamen uzaktan olsaydı. Olsaydı hiç işe gidip gelmem gerekmezdi." },
+      { "speaker": "A", "speakerName": "Elif", "text": "The commute to their office is about 40 minutes, right? If we moved closer, it would be much easier.", "textTr": "Ofislerine yol yaklaşık 40 dakika değil mi? Daha yakına taşınsak çok daha kolay olurdu.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I don't want to relocate right now. But there's something else that worries me — there's a non-compete clause.", "textTr": "Şu an taşınmak istemiyorum. Ama beni endişelendiren başka bir şey var — rekabet yasağı maddesi var." },
+      { "speaker": "A", "speakerName": "Elif", "text": "What does it say exactly?", "textTr": "Tam olarak ne diyor?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "If I left the company, I wouldn't be able to work for a competitor for 12 months. That's a long time in logistics.", "textTr": "Şirketten ayrılsam 12 ay boyunca bir rakipte çalışamazmışım. Lojistikte bu uzun bir süre." },
+      { "speaker": "A", "speakerName": "Elif", "text": "That is concerning. If I were you, I would ask them to reduce it to 6 months. What about the probation period?", "textTr": "Bu endişe verici. Yerinde olsam 6 aya düşürmelerini isterdim. Peki deneme süresi ne kadar?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "3 months. And the notice period is 30 days. Those are standard. I think the pension plan is good too.", "textTr": "3 ay. Ve ihbar süresi 30 gün. Bunlar standart. Emeklilik planı da iyi bence." },
+      { "speaker": "A", "speakerName": "Elif", "text": "Okay, so let's weigh the pros and cons. Pros: good salary potential, great benefits, hybrid work, pension. Cons: non-compete clause, commute.", "textTr": "Tamam, artıları ve eksileri tartalım. Artılar: iyi maaş potansiyeli, harika yan haklar, hibrit çalışma, emeklilik. Eksiler: rekabet yasağı, yol.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "There are definitely more pros than cons. I'll write a counteroffer — higher salary and shorter non-compete.", "textTr": "Kesinlikle artılar eksilerden fazla. Karşı teklif yazacağım — daha yüksek maaş ve daha kısa rekabet yasağı." },
+      { "speaker": "A", "speakerName": "Elif", "text": "Good plan. If they accept your terms, you should sign it. This could be a great opportunity for your career.", "textTr": "İyi plan. Koşullarını kabul ederlerse imzala. Bu kariyerin için harika bir fırsat olabilir.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Agreed. If everything goes well, I would start on May 1st. Wish me luck!", "textTr": "Anlaştık. Her şey yolunda giderse 1 Mayıs'ta başlarım. Şansımı dile!" },
+      { "speaker": "A", "speakerName": "Elif", "text": "You don't need luck — you're qualified and they're lucky to have you!", "textTr": "Şansa ihtiyacın yok — niteliklisin ve seni aldıkları için şanslılar!", "gender": "female" }
+    ],
+    "questions": [
+      { "question": "What salary did GlobalShip initially offer?", "questionTr": "GlobalShip başlangıçta ne kadar maaş teklif etti?", "options": ["$55,000", "$68,000", "$75,000", "$95,000"], "correct": 1 },
+      { "question": "What work model does the company offer?", "questionTr": "Şirket hangi çalışma modelini sunuyor?", "options": ["Fully remote", "Fully office", "Hybrid 3+2", "Hybrid 4+1"], "correct": 2 },
+      { "question": "What clause worries Eyüp?", "questionTr": "Eyüp'ü hangi madde endişelendiriyor?", "options": ["Probation clause", "Salary cap clause", "Non-compete clause", "Overtime clause"], "correct": 2 },
+      { "question": "What does Elif suggest about the non-compete?", "questionTr": "Elif rekabet yasağı hakkında ne öneriyor?", "options": ["Remove it completely", "Reduce it to 6 months", "Accept it as is", "Ask a lawyer"], "correct": 1 },
+      { "question": "What will Eyüp write to the company?", "questionTr": "Eyüp şirkete ne yazacak?", "options": ["A resignation letter", "A thank you email", "A counteroffer", "A complaint"], "correct": 2 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Second Conditional — British Council", "description": "İkinci koşul cümlesi interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-2", "type": "practice", "level": "B1", "free": true },
+    { "title": "Job Offer Negotiation — Harvard Business Review", "description": "İş teklifi müzakeresi ipuçları", "url": "https://hbr.org/2014/04/15-rules-for-negotiating-a-job-offer", "type": "article", "level": "B1", "free": true },
+    { "title": "Conditionals — BBC Learning English", "description": "Koşul cümleleri video dersleri", "url": "https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-22", "type": "video", "level": "B1", "free": true }
+  ]
+}
