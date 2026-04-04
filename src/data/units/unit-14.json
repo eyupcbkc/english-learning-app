@@ -1,0 +1,444 @@
+{
+  "id": "unit-14",
+  "title": "Adjectives & Comparatives",
+  "titleTr": "Sıfatlar ve Karşılaştırma",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn adjectives, comparatives, and superlatives. Compare products while shopping online.",
+  "descriptionTr": "Sıfatları, karşılaştırma ve üstünlük derecelerini öğren. Online alışverişte ürünleri karşılaştır.",
+
+  "vocabulary": [
+    {
+      "word": "cheap",
+      "pronunciation": "çiip",
+      "turkish": "ucuz",
+      "example": "This phone is cheap. It's only 200 dollars.",
+      "exampleTr": "Bu telefon ucuz. Sadece 200 dolar.",
+      "extra": "The cheaper option is not always the worst.",
+      "extraTr": "Daha ucuz seçenek her zaman en kötüsü değildir."
+    },
+    {
+      "word": "expensive",
+      "pronunciation": "ik-SPEN-siv",
+      "turkish": "pahalı",
+      "example": "This laptop is too expensive for me.",
+      "exampleTr": "Bu dizüstü bilgisayar benim için çok pahalı.",
+      "extra": "Expensive products are not always better.",
+      "extraTr": "Pahalı ürünler her zaman daha iyi değildir."
+    },
+    {
+      "word": "fast",
+      "pronunciation": "fest",
+      "turkish": "hızlı",
+      "example": "This computer is very fast. It opens apps in one second.",
+      "exampleTr": "Bu bilgisayar çok hızlı. Uygulamaları bir saniyede açıyor.",
+      "extra": "I want a fast delivery. I need it by Friday.",
+      "extraTr": "Hızlı teslimat istiyorum. Cuma gününe kadar lazım."
+    },
+    {
+      "word": "slow",
+      "pronunciation": "slov",
+      "turkish": "yavaş",
+      "example": "My old phone is very slow. I need a new one.",
+      "exampleTr": "Eski telefonum çok yavaş. Yenisine ihtiyacım var.",
+      "extra": "The internet is slow today. I can't watch videos.",
+      "extraTr": "Bugün internet yavaş. Video izleyemiyorum."
+    },
+    {
+      "word": "big",
+      "pronunciation": "big",
+      "turkish": "büyük",
+      "example": "I want a big screen for watching movies.",
+      "exampleTr": "Film izlemek için büyük bir ekran istiyorum.",
+      "extra": "The bigger size costs 50 dollars more.",
+      "extraTr": "Daha büyük boyut 50 dolar daha fazla."
+    },
+    {
+      "word": "small",
+      "pronunciation": "smol",
+      "turkish": "küçük",
+      "example": "This phone is small and fits in my pocket easily.",
+      "exampleTr": "Bu telefon küçük ve cebime kolayca sığıyor.",
+      "extra": "I prefer a small laptop for traveling.",
+      "extraTr": "Seyahat için küçük bir dizüstü bilgisayar tercih ederim."
+    },
+    {
+      "word": "better",
+      "pronunciation": "BE-tır",
+      "turkish": "daha iyi",
+      "example": "This camera is better than the old model.",
+      "exampleTr": "Bu kamera eski modelden daha iyi.",
+      "extra": "The reviews say Brand A is better than Brand B.",
+      "extraTr": "Yorumlar Marka A'nın Marka B'den daha iyi olduğunu söylüyor."
+    },
+    {
+      "word": "worse",
+      "pronunciation": "vörs",
+      "turkish": "daha kötü",
+      "example": "The battery life is worse than I expected.",
+      "exampleTr": "Pil ömrü beklediğimden daha kötü.",
+      "extra": "The cheap model has a worse screen quality.",
+      "extraTr": "Ucuz modelin ekran kalitesi daha kötü."
+    },
+    {
+      "word": "the best",
+      "pronunciation": "dı BEST",
+      "turkish": "en iyi",
+      "example": "This is the best phone in the store.",
+      "exampleTr": "Bu mağazadaki en iyi telefon.",
+      "extra": "Which brand has the best reviews?",
+      "extraTr": "Hangi marka en iyi yorumlara sahip?"
+    },
+    {
+      "word": "the worst",
+      "pronunciation": "dı VÖRST",
+      "turkish": "en kötü",
+      "example": "That was the worst online shopping experience ever.",
+      "exampleTr": "Bu şimdiye kadarki en kötü online alışveriş deneyimiydi.",
+      "extra": "The worst thing about this product is the delivery time.",
+      "extraTr": "Bu ürünün en kötü yanı teslimat süresi."
+    },
+    {
+      "word": "review",
+      "pronunciation": "ri-VYUU",
+      "turkish": "yorum / değerlendirme",
+      "example": "I always read reviews before I buy something online.",
+      "exampleTr": "Online bir şey almadan önce her zaman yorumları okurum.",
+      "extra": "This product has 500 positive reviews.",
+      "extraTr": "Bu ürünün 500 olumlu yorumu var."
+    },
+    {
+      "word": "rating",
+      "pronunciation": "REY-ting",
+      "turkish": "puan / derecelendirme",
+      "example": "This headphone has a 4.8 star rating.",
+      "exampleTr": "Bu kulaklığın 4.8 yıldız puanı var.",
+      "extra": "I don't buy products with a rating below 4 stars.",
+      "extraTr": "4 yıldızın altında puanı olan ürünleri almam."
+    },
+    {
+      "word": "delivery",
+      "pronunciation": "di-LIV-ri",
+      "turkish": "teslimat / kargo",
+      "example": "The delivery takes 3 to 5 business days.",
+      "exampleTr": "Teslimat 3 ile 5 iş günü sürüyor.",
+      "extra": "Is delivery free for this product?",
+      "extraTr": "Bu ürün için teslimat ücretsiz mi?"
+    },
+    {
+      "word": "quality",
+      "pronunciation": "KVA-lı-ti",
+      "turkish": "kalite",
+      "example": "The quality of this product is very good for the price.",
+      "exampleTr": "Bu ürünün kalitesi fiyatına göre çok iyi.",
+      "extra": "I prefer quality over price.",
+      "extraTr": "Fiyattan çok kaliteyi tercih ederim."
+    },
+    {
+      "word": "brand",
+      "pronunciation": "brend",
+      "turkish": "marka",
+      "example": "Samsung and Apple are popular brands.",
+      "exampleTr": "Samsung ve Apple popüler markalar.",
+      "extra": "Which brand do you prefer for laptops?",
+      "extraTr": "Dizüstü bilgisayar için hangi markayı tercih edersin?"
+    },
+    {
+      "word": "model",
+      "pronunciation": "MA-dıl",
+      "turkish": "model",
+      "example": "The new model is faster than the old one.",
+      "exampleTr": "Yeni model eskisinden daha hızlı.",
+      "extra": "This model comes in three colors: black, white, and blue.",
+      "extraTr": "Bu model üç renkte geliyor: siyah, beyaz ve mavi."
+    },
+    {
+      "word": "screen",
+      "pronunciation": "skriin",
+      "turkish": "ekran",
+      "example": "This phone has a 6.5 inch screen.",
+      "exampleTr": "Bu telefonun 6.5 inç ekranı var.",
+      "extra": "The screen is bright and colorful.",
+      "extraTr": "Ekran parlak ve renkli."
+    },
+    {
+      "word": "battery",
+      "pronunciation": "BE-tı-ri",
+      "turkish": "pil / batarya",
+      "example": "The battery lasts all day with normal use.",
+      "exampleTr": "Pil normal kullanımda bütün gün dayanıyor.",
+      "extra": "I need a phone with a strong battery.",
+      "extraTr": "Güçlü pili olan bir telefona ihtiyacım var."
+    },
+    {
+      "word": "lightweight",
+      "pronunciation": "LAYT-weyt",
+      "turkish": "hafif",
+      "example": "This laptop is very lightweight. Only 1.2 kilograms.",
+      "exampleTr": "Bu dizüstü bilgisayar çok hafif. Sadece 1.2 kilo.",
+      "extra": "I prefer a lightweight phone for everyday use.",
+      "extraTr": "Günlük kullanım için hafif bir telefon tercih ederim."
+    },
+    {
+      "word": "heavy",
+      "pronunciation": "HEV-i",
+      "turkish": "ağır",
+      "example": "This old laptop is too heavy to carry around.",
+      "exampleTr": "Bu eski dizüstü bilgisayar taşımak için çok ağır.",
+      "extra": "The heavy model has a bigger battery.",
+      "extraTr": "Ağır modelin daha büyük pili var."
+    },
+    {
+      "word": "popular",
+      "pronunciation": "PAP-yu-lır",
+      "turkish": "popüler / çok tercih edilen",
+      "example": "This is the most popular phone in Turkey right now.",
+      "exampleTr": "Bu şu anda Türkiye'de en popüler telefon.",
+      "extra": "Popular products often sell out fast.",
+      "extraTr": "Popüler ürünler genelde hızla tükenir."
+    },
+    {
+      "word": "reliable",
+      "pronunciation": "ri-LAY-ı-bıl",
+      "turkish": "güvenilir",
+      "example": "This brand is very reliable. My last phone lasted 4 years.",
+      "exampleTr": "Bu marka çok güvenilir. Son telefonum 4 yıl dayandı.",
+      "extra": "I want a reliable laptop for work.",
+      "extraTr": "İş için güvenilir bir dizüstü bilgisayar istiyorum."
+    },
+    {
+      "word": "modern",
+      "pronunciation": "MA-dırn",
+      "turkish": "modern / çağdaş",
+      "example": "The design looks very modern and stylish.",
+      "exampleTr": "Tasarım çok modern ve şık görünüyor.",
+      "extra": "I like modern technology. It makes life easier.",
+      "extraTr": "Modern teknolojiyi seviyorum. Hayatı kolaylaştırıyor."
+    },
+    {
+      "word": "useful",
+      "pronunciation": "YUUS-fıl",
+      "turkish": "faydalı / kullanışlı",
+      "example": "The reviews are very useful for choosing the right product.",
+      "exampleTr": "Yorumlar doğru ürünü seçmek için çok faydalı.",
+      "extra": "This feature is really useful for students.",
+      "extraTr": "Bu özellik öğrenciler için gerçekten faydalı."
+    },
+    {
+      "word": "comfortable",
+      "pronunciation": "KAMF-tır-bıl",
+      "turkish": "rahat",
+      "example": "These headphones are very comfortable to wear.",
+      "exampleTr": "Bu kulaklıklar takmak için çok rahat.",
+      "extra": "The keyboard is comfortable for long typing.",
+      "extraTr": "Klavye uzun yazım için rahat."
+    },
+    {
+      "word": "durable",
+      "pronunciation": "DUR-ı-bıl",
+      "turkish": "dayanıklı",
+      "example": "This phone case is very durable. It protects well.",
+      "exampleTr": "Bu telefon kılıfı çok dayanıklı. İyi koruyor.",
+      "extra": "I need a durable laptop because I travel a lot.",
+      "extraTr": "Çok seyahat ettiğim için dayanıklı bir dizüstü bilgisayara ihtiyacım var."
+    },
+    {
+      "word": "colorful",
+      "pronunciation": "KA-lır-fıl",
+      "turkish": "renkli",
+      "example": "The new phone comes in very colorful options.",
+      "exampleTr": "Yeni telefon çok renkli seçeneklerle geliyor.",
+      "extra": "Kids love colorful cases for their tablets.",
+      "extraTr": "Çocuklar tabletleri için renkli kılıfları seviyor."
+    },
+    {
+      "word": "original",
+      "pronunciation": "ı-RIC-ı-nıl",
+      "turkish": "orijinal / özgün",
+      "example": "Make sure you buy the original product, not a fake one.",
+      "exampleTr": "Sahte değil, orijinal ürünü aldığından emin ol.",
+      "extra": "The original charger is more expensive but safer.",
+      "extraTr": "Orijinal şarj aleti daha pahalı ama daha güvenli."
+    },
+    {
+      "word": "similar",
+      "pronunciation": "SIM-ı-lır",
+      "turkish": "benzer",
+      "example": "These two phones are very similar in features.",
+      "exampleTr": "Bu iki telefon özelliklerde çok benzer.",
+      "extra": "The price is similar, but the quality is different.",
+      "extraTr": "Fiyat benzer ama kalite farklı."
+    },
+    {
+      "word": "different",
+      "pronunciation": "DIF-rınt",
+      "turkish": "farklı",
+      "example": "These two models are very different from each other.",
+      "exampleTr": "Bu iki model birbirinden çok farklı.",
+      "extra": "The colors are different but the size is the same.",
+      "extraTr": "Renkler farklı ama boyut aynı."
+    }
+  ],
+
+  "grammar": {
+    "title": "Comparatives & Superlatives",
+    "titleTr": "Karşılaştırma ve Üstünlük Dereceleri",
+    "explanation": "To compare two things, use comparatives (+er or more). To say something is number one, use superlatives (+est or most). Short adjectives (1-2 syllables) add -er/-est. Long adjectives (3+ syllables) use more/most. Some adjectives are irregular (good, bad, far).",
+    "explanationTr": "İki şeyi karşılaştırmak için karşılaştırma derecesi (+er veya more) kullanılır. Bir şeyin en üstün olduğunu söylemek için üstünlük derecesi (+est veya most) kullanılır. Kısa sıfatlar (1-2 hece) -er/-est alır. Uzun sıfatlar (3+ hece) more/most ile kullanılır. Bazı sıfatlar düzensizdir (good, bad, far).",
+    "table": [
+      ["cheap → cheaper → cheapest", "This phone is cheaper than that one.", "Bu telefon şundan daha ucuz.", "Kısa sıfat: +er / +est"],
+      ["big → bigger → biggest", "The bigger screen is better for movies.", "Daha büyük ekran filmler için daha iyi.", "Tek sesli harf + tek ünsüz: ünsüz iki kez yazılır"],
+      ["expensive → more expensive → most expensive", "Apple is more expensive than Samsung.", "Apple, Samsung'dan daha pahalı.", "Uzun sıfat: more / most"],
+      ["good → better → best", "This model is better than the old one.", "Bu model eskisinden daha iyi.", "Düzensiz sıfat"],
+      ["bad → worse → worst", "The battery is worse than I expected.", "Pil beklediğimden daha kötü.", "Düzensiz sıfat"],
+      ["far → farther → farthest", "The farther warehouse has more stock.", "Daha uzak depo daha fazla stoklu.", "Düzensiz sıfat"],
+      ["as good as", "This phone is as good as that one.", "Bu telefon şunun kadar iyi.", "Eşitlik karşılaştırması: as + sıfat + as"]
+    ],
+    "tips": [
+      { "en": "Short adjectives (1-2 syllables): add -er / -est → cheap → cheaper → cheapest", "tr": "Kısa sıfatlar (1-2 hece): -er / -est eklenir → cheap → cheaper → cheapest" },
+      { "en": "Long adjectives (3+ syllables): use more / most → more expensive, most expensive", "tr": "Uzun sıfatlar (3+ hece): more / most kullanılır → more expensive, most expensive" },
+      { "en": "Irregular: good → better → best, bad → worse → worst", "tr": "Düzensiz: good → better → best, bad → worse → worst" },
+      { "en": "Use 'than' after comparatives: This is bigger THAN that one.", "tr": "Karşılaştırma derecesinden sonra 'than' kullanılır: This is bigger THAN that one." },
+      { "en": "Use 'the' before superlatives: This is THE cheapest phone.", "tr": "Üstünlük derecesinden önce 'the' kullanılır: This is THE cheapest phone." },
+      { "en": "Use 'as...as' for equal things: This phone is as fast as that one.", "tr": "Eşit şeyler için 'as...as' kullanılır: This phone is as fast as that one." }
+    ]
+  },
+
+  "reading": {
+    "text": "Phone Review: TechMax Pro vs. StarPhone X\n\nI bought both phones last month to compare them. Here is my honest review.\n\nThe TechMax Pro costs 350 dollars. It has a 6.5 inch screen and a very strong battery. The battery lasts two full days! The camera is good, but not the best. The phone is a little heavy — 210 grams. However, it is very durable and reliable. The delivery was fast — only 2 days. The rating on the website is 4.6 stars.\n\nThe StarPhone X costs 500 dollars — more expensive than the TechMax Pro. It has a bigger screen (6.7 inches) and a better camera. The photos look amazing! But the battery is worse — it only lasts one day. The phone is lighter and more modern. The delivery took 5 days — slower than the TechMax Pro. The rating is 4.4 stars.\n\nSo which one is better? If you want the best battery and a cheaper price, choose the TechMax Pro. If you want the best camera and a more modern design, choose the StarPhone X. Both phones are good, but for me, the TechMax Pro is the best choice because quality and battery life are more important than a fancy camera.",
+    "textTr": "Telefon İncelemesi: TechMax Pro vs. StarPhone X\n\nGeçen ay karşılaştırmak için iki telefonu da aldım. İşte dürüst yorumum.\n\nTechMax Pro 350 dolar. 6.5 inç ekranı ve çok güçlü bir pili var. Pil iki tam gün dayanıyor! Kamera iyi ama en iyisi değil. Telefon biraz ağır — 210 gram. Ancak çok dayanıklı ve güvenilir. Teslimat hızlıydı — sadece 2 gün. Web sitesindeki puan 4.6 yıldız.\n\nStarPhone X 500 dolar — TechMax Pro'dan daha pahalı. Daha büyük ekranı (6.7 inç) ve daha iyi kamerası var. Fotoğraflar harika görünüyor! Ama pil daha kötü — sadece bir gün dayanıyor. Telefon daha hafif ve daha modern. Teslimat 5 gün sürdü — TechMax Pro'dan daha yavaş. Puan 4.4 yıldız.\n\nPeki hangisi daha iyi? En iyi pil ve daha ucuz fiyat istiyorsanız TechMax Pro'yu seçin. En iyi kamera ve daha modern tasarım istiyorsanız StarPhone X'i seçin. İki telefon da iyi ama benim için TechMax Pro en iyi seçim çünkü kalite ve pil ömrü süslü bir kameradan daha önemli.",
+    "questions": [
+      {
+        "question": "Which phone is cheaper?",
+        "questionTr": "Hangi telefon daha ucuz?",
+        "options": ["StarPhone X", "TechMax Pro", "They cost the same", "Neither is cheap"],
+        "correct": 1
+      },
+      {
+        "question": "Which phone has a better camera?",
+        "questionTr": "Hangi telefonun kamerası daha iyi?",
+        "options": ["TechMax Pro", "StarPhone X", "Both are the same", "Neither has a good camera"],
+        "correct": 1
+      },
+      {
+        "question": "Which phone has a worse battery?",
+        "questionTr": "Hangi telefonun pili daha kötü?",
+        "options": ["TechMax Pro", "StarPhone X", "Both last one day", "Both last two days"],
+        "correct": 1
+      },
+      {
+        "question": "Which phone had faster delivery?",
+        "questionTr": "Hangi telefonun teslimatı daha hızlıydı?",
+        "options": ["StarPhone X (2 days)", "TechMax Pro (2 days)", "Both took 5 days", "StarPhone X (5 days)"],
+        "correct": 1
+      },
+      {
+        "question": "Which phone does the reviewer prefer and why?",
+        "questionTr": "Yorumcu hangi telefonu tercih ediyor ve neden?",
+        "options": ["StarPhone X — better camera", "TechMax Pro — better battery and quality", "Both are equal", "Neither — both are bad"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "This phone is ___ than that one. (ucuz)", "answer": "cheaper", "hint": "cheap → ?" },
+      { "sentence": "Apple is more ___ than Samsung. (pahalı)", "answer": "expensive", "hint": "pahalı - uzun sıfat" },
+      { "sentence": "This is the ___ phone in the store. (en iyi)", "answer": "best", "hint": "good → better → ?" },
+      { "sentence": "The battery is ___ than I expected. (daha kötü)", "answer": "worse", "hint": "bad → ?" },
+      { "sentence": "The TechMax Pro is ___ than the StarPhone X. (daha ağır)", "answer": "heavier", "hint": "heavy → ?" },
+      { "sentence": "This laptop has the ___ screen in this price range. (en büyük)", "answer": "biggest", "hint": "big → bigger → ?" },
+      { "sentence": "My old phone is ___ than my new phone. (daha yavaş)", "answer": "slower", "hint": "slow → ?" },
+      { "sentence": "This is the most ___ brand in Turkey. (popüler)", "answer": "popular", "hint": "popüler - uzun sıfat" },
+      { "sentence": "The ___ takes 3 to 5 business days. (teslimat)", "answer": "delivery", "hint": "kargo / teslimat" },
+      { "sentence": "I always read ___ before buying online. (yorumlar)", "answer": "reviews", "hint": "yorum / değerlendirme" },
+      { "sentence": "This phone is as ___ as that one. (iyi)", "answer": "good", "hint": "as ... as → sıfatın normal hali" },
+      { "sentence": "This headphone has a 4.8 star ___. (puan)", "answer": "rating", "hint": "derecelendirme" }
+    ],
+    "multipleChoice": [
+      { "question": "\"cheap\" kelimesinin karşılaştırma hali nedir?", "options": ["cheapest", "more cheap", "cheaper", "most cheap"], "correct": 2 },
+      { "question": "\"expensive\" kelimesinin karşılaştırma hali nedir?", "options": ["expensiver", "more expensive", "expensiveer", "most expensive"], "correct": 1 },
+      { "question": "\"good\" kelimesinin karşılaştırma hali nedir?", "options": ["gooder", "more good", "better", "best"], "correct": 2 },
+      { "question": "\"bad\" kelimesinin üstünlük derecesi nedir?", "options": ["worse", "baddest", "most bad", "worst"], "correct": 3 },
+      { "question": "\"This phone is ___ than that one.\" (hızlı)", "options": ["fastest", "more fast", "faster", "most fast"], "correct": 2 },
+      { "question": "\"This is the ___ laptop in the store.\" (en hafif)", "options": ["most lightweight", "lightest", "more lightweight", "lighter"], "correct": 0 },
+      { "question": "Eşitlik karşılaştırması için hangi yapı kullanılır?", "options": ["more...than", "the most", "as...as", "-er...than"], "correct": 2 },
+      { "question": "\"Daha dayanıklı\" İngilizce'de hangisi?", "options": ["durabler", "more durable", "most durable", "durablest"], "correct": 1 },
+      { "question": "\"Teslimat\" İngilizce'de hangisi?", "options": ["delivery", "review", "rating", "quality"], "correct": 0 },
+      { "question": "\"This is the ___ phone I ever had.\" (en kötü)", "options": ["worse", "bad", "baddest", "worst"], "correct": 3 }
+    ],
+    "matching": [
+      { "left": "cheap", "right": "ucuz" },
+      { "left": "expensive", "right": "pahalı" },
+      { "left": "fast", "right": "hızlı" },
+      { "left": "slow", "right": "yavaş" },
+      { "left": "better", "right": "daha iyi" },
+      { "left": "worse", "right": "daha kötü" },
+      { "left": "the best", "right": "en iyi" },
+      { "left": "review", "right": "yorum" },
+      { "left": "delivery", "right": "teslimat" },
+      { "left": "quality", "right": "kalite" },
+      { "left": "brand", "right": "marka" },
+      { "left": "screen", "right": "ekran" },
+      { "left": "battery", "right": "pil" },
+      { "left": "lightweight", "right": "hafif" },
+      { "left": "durable", "right": "dayanıklı" }
+    ],
+    "sentenceOrder": [
+      { "words": ["This", "phone", "is", "cheaper", "than", "that", "one"], "correct": "This phone is cheaper than that one" },
+      { "words": ["The", "StarPhone", "has", "a", "better", "camera"], "correct": "The StarPhone has a better camera" },
+      { "words": ["This", "is", "the", "most", "popular", "brand"], "correct": "This is the most popular brand" },
+      { "words": ["The", "battery", "is", "worse", "than", "I", "expected"], "correct": "The battery is worse than I expected" },
+      { "words": ["I", "always", "read", "reviews", "before", "buying"], "correct": "I always read reviews before buying" },
+      { "words": ["This", "laptop", "is", "as", "fast", "as", "that", "one"], "correct": "This laptop is as fast as that one" },
+      { "words": ["The", "delivery", "takes", "three", "to", "five", "days"], "correct": "The delivery takes three to five days" },
+      { "words": ["The", "bigger", "screen", "is", "better", "for", "movies"], "correct": "The bigger screen is better for movies" },
+      { "words": ["Which", "phone", "has", "the", "best", "rating"], "correct": "Which phone has the best rating" }
+    ],
+    "translation": [
+      { "turkish": "Bu telefon şundan daha ucuz.", "english": "This phone is cheaper than that one.", "acceptAlso": ["This phone is cheaper than that one"] },
+      { "turkish": "Hangi marka en iyi?", "english": "Which brand is the best?", "acceptAlso": ["Which brand is the best", "Which brand is best"] },
+      { "turkish": "Pil ömrü beklediğimden daha kötü.", "english": "The battery life is worse than I expected.", "acceptAlso": ["The battery life is worse than I expected", "Battery life is worse than I expected"] },
+      { "turkish": "Bu en pahalı model.", "english": "This is the most expensive model.", "acceptAlso": ["This is the most expensive model"] },
+      { "turkish": "Online almadan önce her zaman yorumları okurum.", "english": "I always read reviews before buying online.", "acceptAlso": ["I always read reviews before I buy online"] },
+      { "turkish": "Bu dizüstü bilgisayar o kadar hızlı değil.", "english": "This laptop is not as fast as that one.", "acceptAlso": ["This laptop isn't as fast as that one"] },
+      { "turkish": "Teslimat hızlıydı — sadece 2 gün.", "english": "The delivery was fast — only 2 days.", "acceptAlso": ["The delivery was fast, only 2 days", "Delivery was fast — only 2 days"] },
+      { "turkish": "Daha dayanıklı bir telefon istiyorum.", "english": "I want a more durable phone.", "acceptAlso": ["I want a more durable phone"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Shopping Online — Comparing Phones",
+    "titleTr": "Online Alışveriş — Telefonları Karşılaştırma",
+    "context": "Eyüp yeni bir telefon almak istiyor. Arkadaşı Selin ile birlikte online mağazada ürünleri karşılaştırıyorlar.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Selin", "text": "Hey Eyüp! Are you still looking for a new phone?", "textTr": "Hey Eyüp! Hâlâ yeni telefon mu arıyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes! My old phone is so slow. I need a faster one.", "textTr": "Evet! Eski telefonum çok yavaş. Daha hızlısına ihtiyacım var." },
+      { "speaker": "A", "speakerName": "Selin", "text": "OK, let me help you. Look, the TechMax Pro is 350 dollars and the StarPhone X is 500 dollars.", "textTr": "Tamam, sana yardım edeyim. Bak, TechMax Pro 350 dolar, StarPhone X ise 500 dolar.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "The StarPhone X is more expensive! Is it better?", "textTr": "StarPhone X daha pahalı! Daha iyi mi peki?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Well, it has a bigger screen and a better camera. But the TechMax Pro has a stronger battery.", "textTr": "Şey, daha büyük ekranı ve daha iyi kamerası var. Ama TechMax Pro'nun pili daha güçlü.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "The battery is important for me. What about the reviews?", "textTr": "Pil benim için önemli. Peki yorumlar ne diyor?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "The TechMax Pro has a 4.6 rating and the StarPhone X has 4.4. So the TechMax Pro has a higher rating.", "textTr": "TechMax Pro'nun puanı 4.6, StarPhone X'in puanı 4.4. Yani TechMax Pro'nun puanı daha yüksek.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Interesting! And which one is lighter? I don't want a heavy phone.", "textTr": "İlginç! Peki hangisi daha hafif? Ağır telefon istemiyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "The StarPhone X is lighter — 180 grams. The TechMax Pro is heavier — 210 grams. But it's more durable.", "textTr": "StarPhone X daha hafif — 180 gram. TechMax Pro daha ağır — 210 gram. Ama daha dayanıklı.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hmm, what about the delivery? I need it fast.", "textTr": "Hmm, peki teslimat ne durumda? Hızlı lazım bana." },
+      { "speaker": "A", "speakerName": "Selin", "text": "The TechMax Pro has free delivery in 2 days. The StarPhone X takes 5 days. So the TechMax is faster.", "textTr": "TechMax Pro'nun 2 günde ücretsiz teslimatı var. StarPhone X 5 gün sürüyor. Yani TechMax daha hızlı.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "OK, I think the TechMax Pro is the best choice for me. It's cheaper, more reliable, and the delivery is faster.", "textTr": "Tamam, bence TechMax Pro benim için en iyi seçim. Daha ucuz, daha güvenilir ve teslimat daha hızlı." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Good choice! And the battery is the best in this price range. You won't be disappointed!", "textTr": "İyi seçim! Ve pil bu fiyat aralığında en iyisi. Hayal kırıklığına uğramayacaksın!", "gender": "female" }
+    ],
+    "questions": [
+      { "question": "Why does Eyüp need a new phone?", "questionTr": "Eyüp neden yeni telefona ihtiyaç duyuyor?", "options": ["His phone is broken", "His phone is too slow", "He lost his phone", "He wants a bigger screen"], "correct": 1 },
+      { "question": "Which phone is more expensive?", "questionTr": "Hangi telefon daha pahalı?", "options": ["TechMax Pro", "StarPhone X", "Both cost the same", "Neither is expensive"], "correct": 1 },
+      { "question": "Which phone has a stronger battery?", "questionTr": "Hangi telefonun pili daha güçlü?", "options": ["StarPhone X", "TechMax Pro", "Both are equal", "Neither has a good battery"], "correct": 1 },
+      { "question": "Which phone is lighter?", "questionTr": "Hangi telefon daha hafif?", "options": ["TechMax Pro", "StarPhone X", "Both weigh the same", "The review doesn't say"], "correct": 1 },
+      { "question": "Which phone does Eyüp choose and why?", "questionTr": "Eyüp hangi telefonu seçiyor ve neden?", "options": ["StarPhone X — better camera", "TechMax Pro — cheaper, reliable, faster delivery", "He can't decide", "He buys both"], "correct": 1 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Comparatives & Superlatives - British Council", "description": "Karşılaştırma dereceleri interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/comparative-superlative-adjectives", "type": "practice", "level": "A1-A2", "free": true },
+    { "title": "Comparing Things in English - BBC Learning", "description": "İngilizce'de karşılaştırma yapma video dersi", "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-7/session-1", "type": "video", "level": "A2", "free": true },
+    { "title": "Shopping Vocabulary - Cambridge Dictionary", "description": "Alışveriş kelimeleri ve örnekler", "url": "https://dictionary.cambridge.org/topics/shopping/shopping-general/", "type": "article", "level": "A1-A2", "free": true }
+  ]
+}

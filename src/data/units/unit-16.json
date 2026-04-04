@@ -1,0 +1,573 @@
+{
+  "id": "unit-16",
+  "title": "A2 Level Test — Full Day Travel",
+  "titleTr": "A2 Seviye Testi — Tam Bir Seyahat Günü",
+  "level": "A2",
+  "module": 2,
+  "description": "The ultimate A2 review! A complete travel day: airport → hotel → city tour → restaurant → shopping. Test everything you learned in Units 9-15.",
+  "descriptionTr": "Büyük A2 tekrarı! Tam bir seyahat günü: havalimanı → otel → şehir turu → restoran → alışveriş. Ünite 9-15'te öğrendiğin her şeyi test et.",
+
+  "vocabulary": [
+    {
+      "word": "boarding",
+      "pronunciation": "BOR-ding",
+      "turkish": "biniş (uçağa)",
+      "example": "Boarding starts at gate 12 in twenty minutes.",
+      "exampleTr": "Biniş 12 numaralı kapıda yirmi dakika sonra başlıyor.",
+      "extra": "Please have your boarding pass ready.",
+      "extraTr": "Lütfen biniş kartınızı hazır bulundurun."
+    },
+    {
+      "word": "announcement",
+      "pronunciation": "ı-NAUNS-mınt",
+      "turkish": "anons / duyuru",
+      "example": "I missed the announcement because I was in the restroom.",
+      "exampleTr": "Anonsu kaçırdım çünkü tuvaletteydim.",
+      "extra": "Listen to the announcement carefully — our gate changed!",
+      "extraTr": "Anonsu dikkatli dinle — kapımız değişti!"
+    },
+    {
+      "word": "luggage",
+      "pronunciation": "LA-gıc",
+      "turkish": "bagaj / bavul",
+      "example": "My luggage was too heavy, so I paid extra at the airport.",
+      "exampleTr": "Bagajım çok ağırdı, bu yüzden havalimanında ekstra ödedim.",
+      "extra": "Can you help me carry my luggage to the taxi?",
+      "extraTr": "Bavulumu taksiye taşımama yardım edebilir misiniz?"
+    },
+    {
+      "word": "insurance",
+      "pronunciation": "in-ŞUR-ıns",
+      "turkish": "sigorta",
+      "example": "Travel insurance is more expensive than I thought.",
+      "exampleTr": "Seyahat sigortası düşündüğümden daha pahalı.",
+      "extra": "Do you have health insurance? You need it for the trip.",
+      "extraTr": "Sağlık sigortan var mı? Gezi için lazım."
+    },
+    {
+      "word": "deposit",
+      "pronunciation": "di-PO-zit",
+      "turkish": "depozito / kapora",
+      "example": "The hotel asked for a 50 dollar deposit at check-in.",
+      "exampleTr": "Otel giriş yapılırken 50 dolarlık depozito istedi.",
+      "extra": "You'll get your deposit back when you check out.",
+      "extraTr": "Çıkış yaptığınızda depozitonuzu geri alacaksınız."
+    },
+    {
+      "word": "spacious",
+      "pronunciation": "SPEY-şıs",
+      "turkish": "geniş / ferah",
+      "example": "The hotel room was more spacious than the pictures online.",
+      "exampleTr": "Otel odası internetteki resimlerden daha genişti.",
+      "extra": "We need a spacious apartment because we have three kids.",
+      "extraTr": "Geniş bir daireye ihtiyacımız var çünkü üç çocuğumuz var."
+    },
+    {
+      "word": "cozy",
+      "pronunciation": "KO-zi",
+      "turkish": "rahat / sıcacık",
+      "example": "The café was small but very cozy — I loved it!",
+      "exampleTr": "Kafe küçüktü ama çok rahattı — bayıldım!",
+      "extra": "This blanket makes the room feel cozy.",
+      "extraTr": "Bu battaniye odayı sıcacık yapıyor."
+    },
+    {
+      "word": "furniture",
+      "pronunciation": "FÖR-ni-çır",
+      "turkish": "mobilya",
+      "example": "The furniture in the hotel was old but clean.",
+      "exampleTr": "Oteldeki mobilya eskiydi ama temizdi.",
+      "extra": "We bought new furniture for the living room.",
+      "extraTr": "Oturma odası için yeni mobilya aldık."
+    },
+    {
+      "word": "explored",
+      "pronunciation": "iks-PLORD",
+      "turkish": "keşfetti / gezdi",
+      "example": "We explored the old town and found amazing street food.",
+      "exampleTr": "Eski şehri keşfettik ve harika sokak yemekleri bulduk.",
+      "extra": "Yesterday I explored the market near the hotel.",
+      "extraTr": "Dün otelin yakınındaki pazarı gezdim."
+    },
+    {
+      "word": "impressed",
+      "pronunciation": "im-PREST",
+      "turkish": "etkilenmiş",
+      "example": "I was really impressed by the beautiful architecture.",
+      "exampleTr": "Güzel mimariden gerçekten etkilendim.",
+      "extra": "The tour guide was impressed with my English!",
+      "extraTr": "Tur rehberi İngilizcemden etkilendi!"
+    },
+    {
+      "word": "caught",
+      "pronunciation": "kot",
+      "turkish": "yakaladı (catch'in geçmiş hali)",
+      "example": "I caught the last bus to the hotel — I was so lucky!",
+      "exampleTr": "Otele son otobüsü yakaladım — çok şanslıydım!",
+      "extra": "She caught a cold because she didn't wear a jacket.",
+      "extraTr": "Ceket giymediği için soğuk aldı."
+    },
+    {
+      "word": "drove",
+      "pronunciation": "drov",
+      "turkish": "sürdü (drive'ın geçmiş hali)",
+      "example": "The taxi driver drove us to the airport in 30 minutes.",
+      "exampleTr": "Taksici bizi 30 dakikada havalimanına götürdü.",
+      "extra": "We drove along the coast and the view was amazing.",
+      "extraTr": "Sahil boyunca sürdük ve manzara muhteşemdi."
+    },
+    {
+      "word": "flew",
+      "pronunciation": "fluu",
+      "turkish": "uçtu (fly'ın geçmiş hali)",
+      "example": "We flew from Istanbul to New York — it was a 10-hour flight.",
+      "exampleTr": "İstanbul'dan New York'a uçtuk — 10 saatlik bir uçuştu.",
+      "extra": "Time flew by because the movie on the plane was great.",
+      "extraTr": "Uçaktaki film güzel olduğu için zaman uçtu."
+    },
+    {
+      "word": "the cheapest",
+      "pronunciation": "dı ÇII-pist",
+      "turkish": "en ucuz (superlative)",
+      "example": "This is the cheapest hotel in the city, but it's still nice.",
+      "exampleTr": "Bu şehirdeki en ucuz otel ama yine de güzel.",
+      "extra": "The cheapest flight was at 6 AM — too early for me!",
+      "extraTr": "En ucuz uçuş sabah 6'daydı — benim için çok erken!"
+    },
+    {
+      "word": "more reliable",
+      "pronunciation": "mor ri-LAY-ı-bıl",
+      "turkish": "daha güvenilir (comparative)",
+      "example": "The metro is more reliable than the bus in this city.",
+      "exampleTr": "Bu şehirde metro otobüsten daha güvenilir.",
+      "extra": "My new phone is more reliable than the old one.",
+      "extraTr": "Yeni telefonum eskisinden daha güvenilir."
+    },
+    {
+      "word": "go straight",
+      "pronunciation": "go streyt",
+      "turkish": "düz git",
+      "example": "Go straight for two blocks, then turn left at the bank.",
+      "exampleTr": "İki blok düz git, sonra bankada sola dön.",
+      "extra": "Go straight ahead — the museum is at the end of the road.",
+      "extraTr": "Düz ilerle — müze yolun sonunda."
+    },
+    {
+      "word": "turn right",
+      "pronunciation": "törn rayt",
+      "turkish": "sağa dön",
+      "example": "Turn right at the traffic light and the hotel is on your left.",
+      "exampleTr": "Trafik ışığında sağa dön, otel solunda.",
+      "extra": "Don't turn right here — it's a one-way street!",
+      "extraTr": "Buradan sağa dönme — tek yönlü sokak!"
+    },
+    {
+      "word": "discount",
+      "pronunciation": "DIS-kaunt",
+      "turkish": "indirim",
+      "example": "I got a 30% discount on the tour because I booked online.",
+      "exampleTr": "Online rezervasyon yaptığım için turda yüzde 30 indirim aldım.",
+      "extra": "Is there a discount for groups larger than 5 people?",
+      "extraTr": "5 kişiden büyük gruplar için indirim var mı?"
+    },
+    {
+      "word": "refund",
+      "pronunciation": "RII-fand",
+      "turkish": "iade / geri ödeme",
+      "example": "Can I get a refund? The tour was canceled because of rain.",
+      "exampleTr": "İade alabilir miyim? Tur yağmur yüzünden iptal edildi.",
+      "extra": "They gave me a full refund within two days.",
+      "extraTr": "İki gün içinde tam iade yaptılar."
+    },
+    {
+      "word": "receipt",
+      "pronunciation": "ri-SIIT",
+      "turkish": "fiş / makbuz",
+      "example": "Keep your receipt — you need it if you want a refund.",
+      "exampleTr": "Fişini sakla — iade istersen lazım olur.",
+      "extra": "Can I have the receipt by email instead of paper?",
+      "extraTr": "Fişi kağıt yerine e-posta ile alabilir miyim?"
+    },
+    {
+      "word": "translate",
+      "pronunciation": "trens-LEYT",
+      "turkish": "tercüme etmek / çevirmek",
+      "example": "Can you translate this menu into English for me?",
+      "exampleTr": "Bu menüyü benim için İngilizce'ye çevirebilir misin?",
+      "extra": "I used my phone to translate the street signs.",
+      "extraTr": "Sokak tabelalarını çevirmek için telefonumu kullandım."
+    },
+    {
+      "word": "apologize",
+      "pronunciation": "ı-PO-lı-cayz",
+      "turkish": "özür dilemek",
+      "example": "I apologize for being late — my taxi was stuck in traffic.",
+      "exampleTr": "Geç kaldığım için özür dilerim — taksim trafiğe takıldı.",
+      "extra": "The hotel manager apologized for the noisy room.",
+      "extraTr": "Otel müdürü gürültülü oda için özür diledi."
+    },
+    {
+      "word": "pronounce",
+      "pronunciation": "prı-NAUNS",
+      "turkish": "telaffuz etmek",
+      "example": "How do you pronounce this word? I always say it wrong.",
+      "exampleTr": "Bu kelimeyi nasıl telaffuz ediyorsun? Hep yanlış söylüyorum.",
+      "extra": "It's hard to pronounce 'comfortable' — just say 'KAMF-tır-bıl'.",
+      "extraTr": "'Comfortable' kelimesini telaffuz etmek zor — sadece 'KAMF-tır-bıl' de."
+    },
+    {
+      "word": "understand",
+      "pronunciation": "an-dır-STEND",
+      "turkish": "anlamak",
+      "example": "I didn't understand the announcement at the airport.",
+      "exampleTr": "Havalimanındaki anonsu anlamadım.",
+      "extra": "Do you understand? Can you repeat that more slowly?",
+      "extraTr": "Anlıyor musun? Daha yavaş tekrar edebilir misin?"
+    },
+    {
+      "word": "explain",
+      "pronunciation": "iks-PLEYN",
+      "turkish": "açıklamak / anlatmak",
+      "example": "Can you explain how to get to the train station?",
+      "exampleTr": "Tren istasyonuna nasıl gidileceğini açıklayabilir misiniz?",
+      "extra": "The tour guide explained the history of the old castle.",
+      "extraTr": "Tur rehberi eski kalenin tarihini anlattı."
+    },
+    {
+      "word": "mistake",
+      "pronunciation": "mis-TEYK",
+      "turkish": "hata / yanlış",
+      "example": "I made a mistake on the hotel booking — I chose the wrong dates!",
+      "exampleTr": "Otel rezervasyonunda hata yaptım — yanlış tarihleri seçtim!",
+      "extra": "Don't worry about mistakes — that's how you learn!",
+      "extraTr": "Hatalar konusunda endişelenme — öğrenmenin yolu bu!"
+    },
+    {
+      "word": "improve",
+      "pronunciation": "im-PRUUV",
+      "turkish": "geliştirmek / iyileştirmek",
+      "example": "I traveled to improve my English — and it worked!",
+      "exampleTr": "İngilizcemi geliştirmek için seyahat ettim — ve işe yaradı!",
+      "extra": "The best way to improve is to practice every day.",
+      "extraTr": "Gelişmenin en iyi yolu her gün pratik yapmak."
+    },
+    {
+      "word": "practice",
+      "pronunciation": "PREK-tis",
+      "turkish": "pratik yapmak / alıştırma",
+      "example": "I practice English with tourists at the hotel every morning.",
+      "exampleTr": "Her sabah otelde turistlerle İngilizce pratik yapıyorum.",
+      "extra": "Practice makes perfect! Don't give up.",
+      "extraTr": "Pratik mükemmelleştirir! Pes etme."
+    },
+    {
+      "word": "confident",
+      "pronunciation": "KON-fi-dınt",
+      "turkish": "kendine güvenen / özgüvenli",
+      "example": "After this trip, I feel much more confident speaking English.",
+      "exampleTr": "Bu geziden sonra İngilizce konuşurken çok daha özgüvenli hissediyorum.",
+      "extra": "She is confident about the exam because she studied a lot.",
+      "extraTr": "Sınav konusunda kendine güveniyor çünkü çok çalıştı."
+    },
+    {
+      "word": "passenger",
+      "pronunciation": "PE-sın-cır",
+      "turkish": "yolcu",
+      "example": "All passengers must go to gate 7 for boarding.",
+      "exampleTr": "Tüm yolcular biniş için 7 numaralı kapıya gitmelidir.",
+      "extra": "There were 200 passengers on the flight to New York.",
+      "extraTr": "New York uçuşunda 200 yolcu vardı."
+    }
+  ],
+
+  "grammar": {
+    "title": "A2 Grammar Review",
+    "titleTr": "A2 Gramer Tekrarı",
+    "explanation": "This is a complete review of all A2 grammar topics from Units 9-15. We covered: Present Continuous, Can/Can't, There is/are, Past Simple (regular + irregular), Comparatives/Superlatives, and Imperatives. Master these and you are ready for B1!",
+    "explanationTr": "Bu, Ünite 9-15'teki tüm A2 gramer konularının tam tekrarıdır. Gördüklerimiz: Şimdiki Zaman (Present Continuous), Can/Can't, There is/are, Geçmiş Zaman (düzenli + düzensiz fiiller), Karşılaştırma/Üstünlük dereceleri ve Emir Cümleleri. Bunları öğren ve B1'e hazırsın!",
+    "table": [
+      ["Present Continuous: I am waiting for the bus.", "She isn't sleeping right now.", "Are you coming to the airport?", "am/is/are + fiil-ing → şu anda olan eylemler"],
+      ["Can/Can't: I can speak two languages.", "He can't drive yet.", "Can you help me with my luggage?", "can + fiil (yalın). Yetenek ve izin için kullanılır."],
+      ["There is/are: There is a pharmacy nearby.", "There aren't any taxis outside.", "Is there a pool at this hotel?", "There is + tekil/sayılamayan. There are + çoğul."],
+      ["Past Simple (Regular): I booked the hotel online.", "She didn't visit the museum.", "Did you enjoy the tour?", "Düzenli: fiil + -ed. Soru/olumsuz: did/didn't + yalın fiil."],
+      ["Past Simple (Irregular): I flew to Paris last week.", "We didn't catch the early flight.", "Did he drive to the airport?", "Düzensiz fiiller: go→went, fly→flew, catch→caught, drive→drove"],
+      ["Comparatives/Superlatives: This hotel is cheaper.", "New York is more expensive than Istanbul.", "It's the best restaurant in the city.", "Kısa: -er/-est. Uzun: more/most. good→better→best"],
+      ["Imperatives: Go straight and turn left.", "Don't forget your passport!", "Please sit down and fasten your seatbelt.", "Emir: fiil ile başla. Olumsuz: Don't + fiil. Kibarlık: Please ekle."]
+    ],
+    "tips": [
+      { "en": "I went to Paris. (NOT: I did go to Paris.) — Don't use 'did' in positive Past Simple sentences!", "tr": "I went to Paris. (I did go to Paris DEĞİL!) — Olumlu Geçmiş Zaman cümlelerinde 'did' kullanma!" },
+      { "en": "She is more beautiful. (NOT: She is beautifuler.) — Long adjectives use 'more', not -er!", "tr": "She is more beautiful. (She is beautifuler DEĞİL!) — Uzun sıfatlar 'more' alır, -er almaz!" },
+      { "en": "There are some chairs. There aren't any chairs. Are there any chairs? — some → olumlu, any → olumsuz/soru", "tr": "There are some chairs. There aren't any chairs. Are there any chairs? — some → olumlu, any → olumsuz/soru" },
+      { "en": "I'm studying right now. (NOT: I study right now.) — 'Right now' = Present Continuous, not Simple!", "tr": "I'm studying right now. (I study right now DEĞİL!) — 'Right now' = Şimdiki Zaman, Geniş Zaman değil!" },
+      { "en": "Did you see the museum? Yes, I did. (NOT: Yes, I saw.) — Short answers with did, not the past verb!", "tr": "Did you see the museum? Yes, I did. (Yes, I saw DEĞİL!) — Kısa cevaplarda did kullan, geçmiş fiili değil!" },
+      { "en": "Can you swim? vs. Are you swimming? — Can = ability (yetenek). Present Continuous = happening now (şu an olan).", "tr": "Can you swim? vs. Are you swimming? — Can = yetenek. Present Continuous = şu an olan eylem." }
+    ]
+  },
+
+  "reading": {
+    "text": "My First Solo Trip Abroad\n\nLast month, I took my first solo trip to Boston, USA. I was nervous but excited. I wanted to practice my English and explore a new city.\n\nI flew from Istanbul to Boston. The flight was long — about 11 hours. I caught a connecting flight in London because there was no direct flight. At the airport, I didn't understand some announcements, so I asked a passenger next to me, \"Excuse me, did they change our gate?\" She smiled and explained, \"Yes, we're moving to gate 14.\" I was impressed by how helpful people were.\n\nI took a taxi to my hotel in downtown Boston. The driver drove fast, and the city looked amazing from the car window. When I arrived, the receptionist said, \"Welcome! Can I see your ID and a credit card for the deposit?\" The room was more spacious than I expected — it had a big bed, modern furniture, and a cozy reading corner.\n\nThe next morning, I explored the city on foot. A tour guide at the information center explained, \"Go straight down this road, turn right at the library, and you'll see the historic market.\" I walked for hours and took many photos. The old buildings were the most beautiful ones I had ever seen.\n\nFor lunch, I went to a seafood restaurant near the harbor. The waiter recommended clam chowder — a famous Boston dish. It was the most delicious soup I had ever tasted! The bill was 35 dollars. I left a tip and asked for a receipt.\n\nIn the afternoon, I went shopping. I found a bookstore with a 20% discount on all English books. I bought three books to improve my reading skills. The cashier said, \"Great choices! Are you learning English?\" I said, \"Yes, I am! I'm practicing every day.\" She replied, \"You're doing great — don't worry about making mistakes!\"\n\nI also made some mistakes during the trip. I pronounced 'receipt' as 'ree-SAYP-t' and the waiter didn't understand me. I apologized and tried again. That's how you learn! By the end of the trip, I felt much more confident. I could order food, ask for directions, and have real conversations.\n\nThis trip taught me that traveling is the best way to improve your English. You can study grammar and vocabulary at home, but real practice happens when you talk to real people. I can't wait for my next adventure!",
+    "textTr": "Yurt Dışına İlk Tek Başına Gezim\n\nGeçen ay ABD'nin Boston şehrine ilk tek başına gezimi yaptım. Heyecanlıydım ama gerginlik de vardı. İngilizcemi pratik etmek ve yeni bir şehir keşfetmek istiyordum.\n\nİstanbul'dan Boston'a uçtum. Uçuş uzundu — yaklaşık 11 saat. Direkt uçuş olmadığı için Londra'da aktarmalı uçuş yakaladım. Havalimanında bazı anonsları anlamadım, bu yüzden yanımdaki yolcuya sordum: \"Affedersiniz, kapımızı değiştirdiler mi?\" Gülümsedi ve açıkladı: \"Evet, 14 numaralı kapıya geçiyoruz.\" İnsanların ne kadar yardımsever olduğundan etkilendim.\n\nBoston şehir merkezindeki otelime taksi aldım. Şoför hızlı sürdü ve şehir araba penceresinden harika görünüyordu. Vardığımda resepsiyonist dedi ki: \"Hoş geldiniz! Kimliğinizi ve depozito için bir kredi kartı görebilir miyim?\" Oda beklediğimden daha genişti — büyük bir yatak, modern mobilya ve rahat bir okuma köşesi vardı.\n\nErtesi sabah şehri yürüyerek keşfettim. Danışma merkezindeki tur rehberi açıkladı: \"Bu yoldan düz gidin, kütüphanede sağa dönün ve tarihi pazarı göreceksiniz.\" Saatlerce yürüdüm ve birçok fotoğraf çektim. Eski binalar şimdiye kadar gördüğüm en güzellerdi.\n\nÖğle yemeği için liman yakınında bir deniz ürünleri restoranına gittim. Garson clam chowder önerdi — ünlü bir Boston yemeği. Şimdiye kadar tattığım en lezzetli çorbaydı! Hesap 35 dolardı. Bahşiş bıraktım ve fiş istedim.\n\nÖğleden sonra alışverişe gittim. Tüm İngilizce kitaplarda yüzde 20 indirim olan bir kitapçı buldum. Okuma becerimi geliştirmek için üç kitap aldım. Kasiyer dedi ki: \"Harika seçimler! İngilizce mi öğreniyorsunuz?\" \"Evet! Her gün pratik yapıyorum\" dedim. \"Harika gidiyorsunuz — hata yapmaktan endişelenmeyin!\" diye cevapladı.\n\nGezi sırasında bazı hatalar da yaptım. 'Receipt' kelimesini 'rii-SEYP-t' diye telaffuz ettim ve garson beni anlamadı. Özür diledim ve tekrar denedim. Öğrenmenin yolu bu! Gezinin sonunda kendimi çok daha özgüvenli hissediyordum. Yemek sipariş edebiliyor, yol tarifi sorabiliyor ve gerçek konuşmalar yapabiliyordum.\n\nBu gezi bana seyahatin İngilizce geliştirmenin en iyi yolu olduğunu öğretti. Evde gramer ve kelime çalışabilirsiniz ama gerçek pratik gerçek insanlarla konuştuğunuzda olur. Bir sonraki maceram için sabırsızlanıyorum!",
+    "questions": [
+      {
+        "question": "Why did Eyup catch a connecting flight in London?",
+        "questionTr": "Eyup neden Londra'da aktarmalı uçuşa bindi?",
+        "options": ["Because it was cheaper", "Because there was no direct flight", "Because he wanted to visit London", "Because his flight was canceled"],
+        "correct": 1
+      },
+      {
+        "question": "What did the hotel receptionist ask for at check-in?",
+        "questionTr": "Otel resepsiyonisti giriş yaparken ne istedi?",
+        "options": ["Passport and cash", "ID and a credit card for the deposit", "Boarding pass and luggage", "Phone number and email"],
+        "correct": 1
+      },
+      {
+        "question": "What did Eyup eat for lunch and how much did it cost?",
+        "questionTr": "Eyup öğle yemeğinde ne yedi ve ne kadara geldi?",
+        "options": ["Pizza — 20 dollars", "Grilled chicken — 28 dollars", "Clam chowder — 35 dollars", "Pasta — 22 dollars"],
+        "correct": 2
+      },
+      {
+        "question": "What mistake did Eyup make during the trip?",
+        "questionTr": "Eyup gezi sırasında ne hata yaptı?",
+        "options": ["He booked the wrong hotel", "He lost his luggage", "He mispronounced 'receipt'", "He forgot to leave a tip"],
+        "correct": 2
+      },
+      {
+        "question": "What is the main lesson Eyup learned from this trip?",
+        "questionTr": "Eyup bu geziden ne öğrendi?",
+        "options": ["Boston is expensive", "Solo trips are dangerous", "Traveling is the best way to improve English", "You should always have insurance"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Eyup's Full Day Abroad",
+    "titleTr": "Eyup'un Yurt Dışında Tam Bir Günü",
+    "context": "Eyup yurt dışında tam bir gün geçiriyor. Havalimanından taksiye biniyor, otele yerleşiyor, şehir turuna çıkıyor, restoranda yemek yiyor ve alışverişe gidiyor. Birçok kişiyle İngilizce konuşuyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Airport Staff", "text": "Attention all passengers! Flight TK-204 to Boston is now boarding at gate 12. Please have your boarding pass and passport ready.", "textTr": "Tüm yolcuların dikkatine! Boston'a TK-204 sefer sayılı uçuş şu anda 12 numaralı kapıda biniş yapıyor. Lütfen biniş kartınızı ve pasaportunuzu hazır bulundurun.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Excuse me, did they say gate 12 or gate 14? I didn't understand the announcement clearly.", "textTr": "Affedersiniz, kapı 12 mi yoksa 14 mü dediler? Anonsu net anlayamadım." },
+      { "speaker": "A", "speakerName": "Passenger", "text": "Gate 12! Don't worry, I'm going there too. We can walk together. Is this your first time flying to the US?", "textTr": "Kapı 12! Merak etme, ben de oraya gidiyorum. Birlikte yürüyebiliriz. ABD'ye ilk uçuşun mu?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Yes, it is! I'm a little nervous but very excited. I flew to London last year, but this is my longest flight.", "textTr": "Evet, öyle! Biraz gerginim ama çok heyecanlıyım. Geçen yıl Londra'ya uçtum ama bu en uzun uçuşum." },
+      { "speaker": "A", "speakerName": "Taxi Driver", "text": "Hey there! Where are you heading? Need help with your luggage?", "textTr": "Selam! Nereye gidiyorsun? Bagajınla yardım lazım mı?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Yes, please! Can you take me to the Grand Park Hotel on Main Street? How long does it take?", "textTr": "Evet, lütfen! Beni Main Street'teki Grand Park Oteli'ne götürebilir misiniz? Ne kadar sürer?" },
+      { "speaker": "A", "speakerName": "Taxi Driver", "text": "About 25 minutes if there's no traffic. You picked a great hotel — it's more spacious and cheaper than the downtown ones!", "textTr": "Trafik yoksa yaklaşık 25 dakika. Harika bir otel seçmişsin — şehir merkezindekilerden daha geniş ve ucuz!", "gender": "male" },
+      { "speaker": "A", "speakerName": "Hotel Receptionist", "text": "Good afternoon! Welcome to Grand Park Hotel. Do you have a reservation?", "textTr": "İyi günler! Grand Park Oteli'ne hoş geldiniz. Rezervasyonunuz var mı?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Yes, I booked online. The name is Eyup. I reserved a room for three nights.", "textTr": "Evet, online rezervasyon yaptım. İsim Eyup. Üç gecelik oda ayırttım." },
+      { "speaker": "A", "speakerName": "Hotel Receptionist", "text": "I found your reservation. I need your ID and a credit card for the 50 dollar deposit. Your room is on the 4th floor — it has a cozy balcony with a city view!", "textTr": "Rezervasyonunuzu buldum. Kimliğiniz ve 50 dolarlık depozito için kredi kartınız lazım. Odanız 4. katta — şehir manzaralı rahat bir balkonu var!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "That sounds wonderful! Is there a city tour I can join today? I want to explore the old town.", "textTr": "Kulağa harika geliyor! Bugün katılabileceğim bir şehir turu var mı? Eski şehri keşfetmek istiyorum." },
+      { "speaker": "A", "speakerName": "Tour Guide", "text": "Welcome to our walking tour, everyone! We're going to explore the historic center. Go straight down this street and you'll see the oldest church in the city. It was built in 1720!", "textTr": "Yürüyüş turumuza hoş geldiniz millet! Tarihi merkezi keşfedeceğiz. Bu sokaktan düz gidin ve şehirdeki en eski kiliseyi göreceksiniz. 1720'de inşa edildi!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Excuse me, can you explain the history of this building? I'm really impressed by the architecture.", "textTr": "Affedersiniz, bu binanın tarihini anlatabilir misiniz? Mimariden gerçekten etkilendim." },
+      { "speaker": "A", "speakerName": "Tour Guide", "text": "Of course! This is the oldest library in the city. It opened in 1795. The furniture inside is original — more than 200 years old! Turn right here and you'll see the famous market.", "textTr": "Tabii ki! Bu şehirdeki en eski kütüphane. 1795'te açıldı. İçindeki mobilya orijinal — 200 yıldan eski! Buradan sağa dönün ve ünlü pazarı göreceksiniz.", "gender": "female" },
+      { "speaker": "A", "speakerName": "Waiter", "text": "Good evening, sir! Welcome to Harbor Grill. Table for one? Here's the menu. Our chef's special tonight is grilled salmon — it's the best dish in the house!", "textTr": "İyi akşamlar, efendim! Harbor Grill'e hoş geldiniz. Bir kişilik masa? Buyurun menü. Bu akşam şefin özel yemeği ızgara somon — mekanın en iyi yemeği!", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "I'll have the grilled salmon, please. And can I have a glass of lemonade? Also, how do you pronounce this dish — 'chow-der' or 'chow-dır'?", "textTr": "Izgara somonu alayım, lütfen. Ve bir bardak limonata alabilir miyim? Ayrıca, bu yemeği nasıl telaffuz ediyorsunuz — 'chow-der' mı yoksa 'chow-dır' mı?" },
+      { "speaker": "A", "speakerName": "Waiter", "text": "Ha! That's a great question! It's 'ÇHAU-dır'. Don't worry — even some Americans pronounce it wrong! Your English is really good, by the way.", "textTr": "Ha! Harika soru! 'ÇHAU-dır' diye söylenir. Endişelenme — bazı Amerikalılar bile yanlış telaffuz eder! Bu arada İngilizce'n gerçekten iyi.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Thank you! I'm trying to improve every day. Can I have the bill, please? And I'd like a receipt.", "textTr": "Teşekkürler! Her gün kendimi geliştirmeye çalışıyorum. Hesabı alabilir miyim, lütfen? Ve fiş istiyorum." },
+      { "speaker": "A", "speakerName": "Shop Assistant", "text": "Hi there! Are you looking for something specific? We have a 25% discount on all souvenirs this week!", "textTr": "Merhaba! Özel bir şey mi arıyorsunuz? Bu hafta tüm hediyelik eşyalarda yüzde 25 indirim var!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Great! I'm looking for gifts for my family. How much is this mug? And can I get a refund if they don't like it?", "textTr": "Harika! Ailem için hediye arıyorum. Bu kupa ne kadar? Beğenmezlerse iade alabilir miyim?" },
+      { "speaker": "A", "speakerName": "Shop Assistant", "text": "The mug is 12 dollars — with the discount, it's the cheapest souvenir in the store! Yes, you can get a refund within 30 days. Just keep the receipt.", "textTr": "Kupa 12 dolar — indirimle mağazadaki en ucuz hediyelik eşya! Evet, 30 gün içinde iade alabilirsiniz. Sadece fişi saklayın.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Perfect, I'll take three mugs and that t-shirt. I apologize, but I don't have cash — can I pay by card?", "textTr": "Mükemmel, üç kupa ve şu tişörtü alayım. Özür dilerim ama nakit yok — kartla ödeyebilir miyim?" },
+      { "speaker": "A", "speakerName": "Shop Assistant", "text": "Of course! Card is fine. Your total is 48 dollars. Here's your receipt. Have a wonderful trip!", "textTr": "Tabii ki! Kart olur. Toplamınız 48 dolar. Buyurun fişiniz. İyi geziler!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Thank you so much! This was an amazing day. I explored the city, practiced my English, and didn't make too many mistakes! I feel much more confident now.", "textTr": "Çok teşekkür ederim! Muhteşem bir gündü. Şehri keşfettim, İngilizcemi pratik ettim ve çok fazla hata yapmadım! Artık kendimi çok daha özgüvenli hissediyorum." }
+    ],
+    "questions": [
+      {
+        "question": "Why did Eyup ask about the gate number at the airport?",
+        "questionTr": "Eyup havalimanında neden kapı numarasını sordu?",
+        "options": ["He lost his boarding pass", "He didn't understand the announcement", "He was at the wrong terminal", "He wanted to talk to someone"],
+        "correct": 1
+      },
+      {
+        "question": "How did the taxi driver describe the hotel Eyup chose?",
+        "questionTr": "Taksici Eyup'un seçtiği oteli nasıl tanımladı?",
+        "options": ["Small but cozy", "Expensive but luxurious", "More spacious and cheaper than downtown hotels", "The best hotel in the city"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyup ask the tour guide about?",
+        "questionTr": "Eyup tur rehberine ne hakkında soru sordu?",
+        "options": ["The price of the tour", "The history of a building", "Where to eat lunch", "How to get back to the hotel"],
+        "correct": 1
+      },
+      {
+        "question": "What word did the waiter help Eyup pronounce?",
+        "questionTr": "Garson Eyup'a hangi kelimeyi telaffuz etmekte yardım etti?",
+        "options": ["Salmon", "Receipt", "Chowder", "Lemonade"],
+        "correct": 2
+      },
+      {
+        "question": "How much did Eyup spend at the souvenir shop?",
+        "questionTr": "Eyup hediyelik eşya dükkanında ne kadar harcadı?",
+        "options": ["36 dollars", "42 dollars", "48 dollars", "55 dollars"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ to New York last summer. It was an amazing trip!", "answer": "flew", "hint": "fly'ın geçmiş hali (düzensiz fiil)" },
+      { "sentence": "She ___ speaking on the phone right now. Please wait.", "answer": "is", "hint": "Present Continuous — she ile" },
+      { "sentence": "There ___ a nice café next to the hotel.", "answer": "is", "hint": "there is/are — tekil" },
+      { "sentence": "Istanbul is ___ expensive than my small town.", "answer": "more", "hint": "karşılaştırma — uzun sıfat" },
+      { "sentence": "This is ___ best restaurant in the whole city!", "answer": "the", "hint": "superlative — en iyi" },
+      { "sentence": "___ touch the paintings in the museum!", "answer": "Don't", "hint": "olumsuz emir cümlesi" },
+      { "sentence": "I ___ the last bus to the hotel. I was very lucky!", "answer": "caught", "hint": "catch'in geçmiş hali (düzensiz fiil)" },
+      { "sentence": "There ___ many tourists in the old town yesterday.", "answer": "were", "hint": "there is/are — geçmiş zaman, çoğul" },
+      { "sentence": "Can you ___ how to get to the train station?", "answer": "explain", "hint": "açıklamak" },
+      { "sentence": "The hotel room was more ___ than I expected.", "answer": "spacious", "hint": "geniş / ferah" },
+      { "sentence": "I ___ English every day to improve my speaking.", "answer": "practice", "hint": "pratik yapmak" },
+      { "sentence": "She ___ drive a car — she doesn't have a license.", "answer": "can't", "hint": "can'in olumsuz hali — yetenek" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"I ___ to London yesterday.\" Bosluğa ne gelir?",
+        "options": ["flied", "flyed", "flew", "fly"],
+        "correct": 2
+      },
+      {
+        "question": "\"She is ___ her luggage right now.\" Bosluğa ne gelir?",
+        "options": ["pack", "packs", "packed", "packing"],
+        "correct": 3
+      },
+      {
+        "question": "\"This hotel is ___ than the other one.\" Bosluğa ne gelir?",
+        "options": ["cheap", "cheaper", "cheapest", "the cheapest"],
+        "correct": 1
+      },
+      {
+        "question": "\"___ any restaurants near here?\" Bosluğa ne gelir?",
+        "options": ["Is there", "Are there", "There is", "There are"],
+        "correct": 1
+      },
+      {
+        "question": "\"Bagaj\" Ingilizce'de hangisi?",
+        "options": ["luggage", "language", "lounge", "lodge"],
+        "correct": 0
+      },
+      {
+        "question": "\"He ___ to the airport by taxi last night.\" Bosluğa ne gelir?",
+        "options": ["drived", "droved", "drove", "driving"],
+        "correct": 2
+      },
+      {
+        "question": "\"___ forget your passport!\" — Emir cumlesinin olumsuz hali nasıl yapılır?",
+        "options": ["Not", "Doesn't", "Don't", "Can't"],
+        "correct": 2
+      },
+      {
+        "question": "\"Can you ___ this word? I don't know how to say it.\" Bosluğa ne gelir?",
+        "options": ["explain", "pronounce", "translate", "apologize"],
+        "correct": 1
+      },
+      {
+        "question": "\"Ozur dilerim\" Ingilizce'de hangisi?",
+        "options": ["I understand", "I apologize", "I pronounce", "I improve"],
+        "correct": 1
+      },
+      {
+        "question": "\"This is the ___ museum in the country.\" Hangisi dogru superlative form?",
+        "options": ["most famous", "more famous", "famouser", "most famoust"],
+        "correct": 0
+      }
+    ],
+    "matching": [
+      { "left": "boarding", "right": "binis (ucaga)" },
+      { "left": "announcement", "right": "anons / duyuru" },
+      { "left": "luggage", "right": "bagaj / bavul" },
+      { "left": "insurance", "right": "sigorta" },
+      { "left": "deposit", "right": "depozito" },
+      { "left": "spacious", "right": "genis / ferah" },
+      { "left": "cozy", "right": "rahat / sicacik" },
+      { "left": "furniture", "right": "mobilya" },
+      { "left": "explored", "right": "kesfetti" },
+      { "left": "impressed", "right": "etkilenmis" },
+      { "left": "translate", "right": "tercume etmek" },
+      { "left": "apologize", "right": "ozur dilemek" },
+      { "left": "pronounce", "right": "telaffuz etmek" },
+      { "left": "refund", "right": "iade / geri odeme" },
+      { "left": "improve", "right": "gelistirmek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "flew", "to", "Boston", "last", "month"], "correct": "I flew to Boston last month" },
+      { "words": ["There", "is", "a", "pharmacy", "next", "to", "the", "hotel"], "correct": "There is a pharmacy next to the hotel" },
+      { "words": ["She", "is", "packing", "her", "luggage", "right", "now"], "correct": "She is packing her luggage right now" },
+      { "words": ["This", "is", "the", "cheapest", "flight", "to", "London"], "correct": "This is the cheapest flight to London" },
+      { "words": ["Don't", "forget", "your", "passport", "at", "the", "hotel"], "correct": "Don't forget your passport at the hotel" },
+      { "words": ["Can", "you", "explain", "how", "to", "get", "there"], "correct": "Can you explain how to get there" },
+      { "words": ["He", "drove", "us", "to", "the", "airport", "yesterday"], "correct": "He drove us to the airport yesterday" },
+      { "words": ["The", "hotel", "is", "more", "spacious", "than", "I", "expected"], "correct": "The hotel is more spacious than I expected" },
+      { "words": ["Go", "straight", "and", "turn", "right", "at", "the", "bank"], "correct": "Go straight and turn right at the bank" }
+    ],
+    "translation": [
+      {
+        "turkish": "Gecen yıl Londra'ya uctum ama bu sefer Boston'a gittim.",
+        "english": "I flew to London last year but this time I went to Boston.",
+        "acceptAlso": ["Last year I flew to London but this time I went to Boston"]
+      },
+      {
+        "turkish": "Bu otel sehirdeki en ucuz otel ama cok rahat.",
+        "english": "This hotel is the cheapest hotel in the city but it's very comfortable.",
+        "acceptAlso": ["This is the cheapest hotel in the city but it is very comfortable"]
+      },
+      {
+        "turkish": "Pasaportunu unutma! Havalimanında lazım olacak.",
+        "english": "Don't forget your passport! You'll need it at the airport.",
+        "acceptAlso": ["Don't forget your passport! You will need it at the airport"]
+      },
+      {
+        "turkish": "Tren istasyonuna nasıl gidileceğini acıklayabilir misiniz?",
+        "english": "Can you explain how to get to the train station?",
+        "acceptAlso": ["Can you explain how to go to the train station"]
+      },
+      {
+        "turkish": "Otelin yakınında iyi bir restoran var mı?",
+        "english": "Is there a good restaurant near the hotel?",
+        "acceptAlso": ["Are there any good restaurants near the hotel"]
+      },
+      {
+        "turkish": "Gec kaldığım icin ozur dilerim — taksim trafiğe takıldı.",
+        "english": "I apologize for being late — my taxi was stuck in traffic.",
+        "acceptAlso": ["I'm sorry for being late — my taxi was stuck in traffic", "I apologize for being late my taxi was stuck in traffic"]
+      },
+      {
+        "turkish": "Su anda bavulumu topluyorum. Bes dakikaya hazırım.",
+        "english": "I'm packing my luggage right now. I'll be ready in five minutes.",
+        "acceptAlso": ["I am packing my luggage right now. I will be ready in five minutes"]
+      },
+      {
+        "turkish": "Bu kelimeyi nasıl telaffuz ediyorsunuz? Hep yanlıs soyluyorum.",
+        "english": "How do you pronounce this word? I always say it wrong.",
+        "acceptAlso": ["How do you pronounce this word? I always pronounce it wrong"]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "A2 English Level Test - Cambridge",
+      "description": "A2 seviyeni test et — Cambridge'in ucretsiz online seviye testi",
+      "url": "https://www.cambridgeenglish.org/test-your-english/general-english/",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "A2 Grammar & Vocabulary Practice - British Council",
+      "description": "A2 gramer ve kelime alistirmalari — interaktif",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "A2 Key (KET) Practice Tests - Exam English",
+      "description": "A2 Key sinav formati ile pratik testler",
+      "url": "https://www.examenglish.com/KET/index.php",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    }
+  ]
+}

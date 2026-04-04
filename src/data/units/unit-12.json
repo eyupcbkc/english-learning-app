@@ -1,0 +1,561 @@
+{
+  "id": "unit-12",
+  "title": "Past Simple - Regular Verbs",
+  "titleTr": "Geçmiş Zaman - Düzenli Fiiller",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn to talk about past events using regular verbs with -ed. Share vacation memories and past experiences.",
+  "descriptionTr": "Düzenli fiilleri -ed ile kullanarak geçmiş olaylardan bahsetmeyi öğren. Tatil anılarını ve geçmiş deneyimlerini paylaş.",
+
+  "vocabulary": [
+    {
+      "word": "visited",
+      "pronunciation": "VİZ-ı-tid",
+      "turkish": "ziyaret etti",
+      "example": "I visited my grandparents last weekend.",
+      "exampleTr": "Geçen hafta sonu büyükanne ve büyükbabamı ziyaret ettim.",
+      "extra": "We visited three different cities during our trip.",
+      "extraTr": "Gezimiz sırasında üç farklı şehri ziyaret ettik."
+    },
+    {
+      "word": "traveled",
+      "pronunciation": "TREV-ıld",
+      "turkish": "seyahat etti",
+      "example": "She traveled to Italy last summer.",
+      "exampleTr": "Geçen yaz İtalya'ya seyahat etti.",
+      "extra": "We traveled by bus from Istanbul to Antalya.",
+      "extraTr": "İstanbul'dan Antalya'ya otobüsle seyahat ettik."
+    },
+    {
+      "word": "enjoyed",
+      "pronunciation": "en-COYD",
+      "turkish": "keyif aldı / eğlendi",
+      "example": "I really enjoyed the concert last night.",
+      "exampleTr": "Dün geceki konserden gerçekten keyif aldım.",
+      "extra": "They enjoyed the food at the restaurant.",
+      "extraTr": "Restoranda yemeklerden keyif aldılar."
+    },
+    {
+      "word": "stayed",
+      "pronunciation": "steyd",
+      "turkish": "kaldı",
+      "example": "We stayed at a nice hotel near the beach.",
+      "exampleTr": "Sahilin yakınında güzel bir otelde kaldık.",
+      "extra": "I stayed home because I was tired.",
+      "extraTr": "Evde kaldım çünkü yorgundum."
+    },
+    {
+      "word": "walked",
+      "pronunciation": "vokt",
+      "turkish": "yürüdü",
+      "example": "We walked along the beach every morning.",
+      "exampleTr": "Her sabah sahil boyunca yürüdük.",
+      "extra": "I walked to work yesterday because my car didn't start.",
+      "extraTr": "Dün işe yürüdüm çünkü arabam çalışmadı."
+    },
+    {
+      "word": "talked",
+      "pronunciation": "tokt",
+      "turkish": "konuştu",
+      "example": "I talked to my friend on the phone last night.",
+      "exampleTr": "Dün gece arkadaşımla telefonda konuştum.",
+      "extra": "They talked about their vacation plans for hours.",
+      "extraTr": "Saatlerce tatil planlarını konuştular."
+    },
+    {
+      "word": "played",
+      "pronunciation": "pleyd",
+      "turkish": "oynadı / çaldı",
+      "example": "The kids played in the pool all afternoon.",
+      "exampleTr": "Çocuklar bütün öğleden sonra havuzda oynadılar.",
+      "extra": "He played guitar at the beach party.",
+      "extraTr": "Sahil partisinde gitar çaldı."
+    },
+    {
+      "word": "watched",
+      "pronunciation": "voçt",
+      "turkish": "izledi",
+      "example": "We watched the sunset from the hotel balcony.",
+      "exampleTr": "Otel balkonundan gün batımını izledik.",
+      "extra": "I watched a movie with my family last night.",
+      "extraTr": "Dün gece ailemle bir film izledim."
+    },
+    {
+      "word": "cooked",
+      "pronunciation": "kukt",
+      "turkish": "yemek yaptı / pişirdi",
+      "example": "My mom cooked a delicious dinner for everyone.",
+      "exampleTr": "Annem herkes için lezzetli bir akşam yemeği pişirdi.",
+      "extra": "We cooked fish on the barbecue at the beach.",
+      "extraTr": "Sahilde mangalda balık pişirdik."
+    },
+    {
+      "word": "cleaned",
+      "pronunciation": "kliind",
+      "turkish": "temizledi",
+      "example": "I cleaned the house before the guests arrived.",
+      "exampleTr": "Misafirler gelmeden önce evi temizledim.",
+      "extra": "She cleaned her room yesterday morning.",
+      "extraTr": "Dün sabah odasını temizledi."
+    },
+    {
+      "word": "called",
+      "pronunciation": "kold",
+      "turkish": "aradı / telefon etti",
+      "example": "I called my mom when I arrived at the hotel.",
+      "exampleTr": "Otele vardığımda annemi aradım.",
+      "extra": "He called the restaurant to book a table.",
+      "extraTr": "Masa ayırtmak için restoranı aradı."
+    },
+    {
+      "word": "arrived",
+      "pronunciation": "ı-RAYVD",
+      "turkish": "vardı / ulaştı",
+      "example": "We arrived in Antalya at 3 o'clock.",
+      "exampleTr": "Antalya'ya saat 3'te vardık.",
+      "extra": "The plane arrived late because of the weather.",
+      "extraTr": "Uçak hava durumu yüzünden geç vardı."
+    },
+    {
+      "word": "booked",
+      "pronunciation": "bukt",
+      "turkish": "rezervasyon yaptı",
+      "example": "I booked a hotel room online two weeks ago.",
+      "exampleTr": "İki hafta önce internetten otel odası rezervasyonu yaptım.",
+      "extra": "She booked a table at the best restaurant in town.",
+      "extraTr": "Şehirdeki en iyi restoranda masa ayırttı."
+    },
+    {
+      "word": "planned",
+      "pronunciation": "plend",
+      "turkish": "planladı",
+      "example": "We planned our vacation for three months.",
+      "exampleTr": "Tatilimizi üç ay boyunca planladık.",
+      "extra": "She planned a surprise party for her husband.",
+      "extraTr": "Kocası için sürpriz parti planladı."
+    },
+    {
+      "word": "packed",
+      "pronunciation": "pekt",
+      "turkish": "bavul hazırladı / paketledi",
+      "example": "I packed my suitcase the night before the trip.",
+      "exampleTr": "Geziden önceki gece bavulumu hazırladım.",
+      "extra": "She packed too many clothes for a short vacation.",
+      "extraTr": "Kısa bir tatil için çok fazla kıyafet hazırladı."
+    },
+    {
+      "word": "explored",
+      "pronunciation": "iks-PLORD",
+      "turkish": "keşfetti",
+      "example": "We explored the old town and its narrow streets.",
+      "exampleTr": "Eski şehri ve dar sokaklarını keşfettik.",
+      "extra": "They explored the local markets and bought souvenirs.",
+      "extraTr": "Yerel pazarları keşfettiler ve hediyelik eşya aldılar."
+    },
+    {
+      "word": "relaxed",
+      "pronunciation": "ri-LEKST",
+      "turkish": "dinlendi / rahatladi",
+      "example": "I relaxed by the pool for the whole day.",
+      "exampleTr": "Bütün gün havuz kenarında dinlendim.",
+      "extra": "After the long hike, we relaxed at a café.",
+      "extraTr": "Uzun yürüyüşten sonra bir kafede dinlendik."
+    },
+    {
+      "word": "tasted",
+      "pronunciation": "TEYS-tid",
+      "turkish": "tattı / tadına baktı",
+      "example": "I tasted the local food and it was amazing!",
+      "exampleTr": "Yöresel yemekleri tattım ve harikaydı!",
+      "extra": "She tasted five different kinds of baklava in Gaziantep.",
+      "extraTr": "Gaziantep'te beş farklı çeşit baklava tattı."
+    },
+    {
+      "word": "photographed",
+      "pronunciation": "FOU-tı-graft",
+      "turkish": "fotoğrafladı",
+      "example": "I photographed the beautiful mosques in Istanbul.",
+      "exampleTr": "İstanbul'daki güzel camileri fotoğrafladım.",
+      "extra": "She photographed every dish she ate on vacation.",
+      "extraTr": "Tatilde yediği her yemeği fotoğrafladı."
+    },
+    {
+      "word": "danced",
+      "pronunciation": "denst",
+      "turkish": "dans etti",
+      "example": "We danced at the beach party until midnight.",
+      "exampleTr": "Sahil partisinde gece yarısına kadar dans ettik.",
+      "extra": "They danced traditional Turkish folk dances at the wedding.",
+      "extraTr": "Düğünde geleneksel Türk halk dansları yaptılar."
+    },
+    {
+      "word": "lasted",
+      "pronunciation": "LAS-tid",
+      "turkish": "sürdü",
+      "example": "Our vacation lasted two weeks.",
+      "exampleTr": "Tatilimiz iki hafta sürdü.",
+      "extra": "The rain lasted three days, so we stayed inside.",
+      "extraTr": "Yağmur üç gün sürdü, bu yüzden içeride kaldık."
+    },
+    {
+      "word": "returned",
+      "pronunciation": "ri-TÖRND",
+      "turkish": "döndü / geri geldi",
+      "example": "We returned home last Sunday evening.",
+      "exampleTr": "Geçen pazar akşamı eve döndük.",
+      "extra": "I returned the rental car at the airport.",
+      "extraTr": "Kiralık arabayı havalimanında iade ettim."
+    },
+    {
+      "word": "missed",
+      "pronunciation": "mist",
+      "turkish": "özledi / kaçırdı",
+      "example": "I missed my family during the trip.",
+      "exampleTr": "Gezi boyunca ailemi özledim.",
+      "extra": "He missed the bus, so he took a taxi.",
+      "extraTr": "Otobüsü kaçırdı, bu yüzden taksi tuttu."
+    },
+    {
+      "word": "rained",
+      "pronunciation": "reynd",
+      "turkish": "yağmur yağdı",
+      "example": "It rained all day yesterday.",
+      "exampleTr": "Dün bütün gün yağmur yağdı.",
+      "extra": "It rained on our last day, so we visited a museum.",
+      "extraTr": "Son günümüzde yağmur yağdı, bu yüzden müze gezdik."
+    },
+    {
+      "word": "showed",
+      "pronunciation": "şoud",
+      "turkish": "gösterdi",
+      "example": "My friend showed me around the city.",
+      "exampleTr": "Arkadaşım bana şehri gezdirdi.",
+      "extra": "I showed my vacation photos to everyone at work.",
+      "extraTr": "Tatil fotoğraflarımı işteki herkese gösterdim."
+    },
+    {
+      "word": "helped",
+      "pronunciation": "helpt",
+      "turkish": "yardım etti",
+      "example": "A kind stranger helped me find my hotel.",
+      "exampleTr": "Nazik bir yabancı otelimi bulmama yardım etti.",
+      "extra": "She helped her mother cook dinner every evening.",
+      "extraTr": "Her akşam annesine yemek yapmada yardım etti."
+    },
+    {
+      "word": "worked",
+      "pronunciation": "vörkt",
+      "turkish": "çalıştı",
+      "example": "I worked from home last Friday.",
+      "exampleTr": "Geçen cuma evden çalıştım.",
+      "extra": "He worked at a hotel during the summer.",
+      "extraTr": "Yaz boyunca bir otelde çalıştı."
+    },
+    {
+      "word": "finished",
+      "pronunciation": "FİN-işt",
+      "turkish": "bitirdi / tamamladı",
+      "example": "I finished my book on the plane.",
+      "exampleTr": "Kitabımı uçakta bitirdim.",
+      "extra": "She finished packing at midnight.",
+      "extraTr": "Gece yarısı bavul hazırlamayı bitirdi."
+    },
+    {
+      "word": "started",
+      "pronunciation": "STAR-tid",
+      "turkish": "başladı",
+      "example": "The tour started at 9 in the morning.",
+      "exampleTr": "Tur sabah 9'da başladı.",
+      "extra": "It started raining when we were at the beach.",
+      "extraTr": "Sahildeyken yağmur yağmaya başladı."
+    },
+    {
+      "word": "opened",
+      "pronunciation": "OU-pınd",
+      "turkish": "açtı",
+      "example": "I opened the window and enjoyed the sea view.",
+      "exampleTr": "Pencereyi açtım ve deniz manzarasının keyfini çıkardım.",
+      "extra": "The new restaurant opened last month near our hotel.",
+      "extraTr": "Yeni restoran geçen ay otelimizin yakınında açıldı."
+    }
+  ],
+
+  "grammar": {
+    "title": "Past Simple with Regular Verbs (-ed)",
+    "titleTr": "Geçmiş Zaman — Düzenli Fiiller (-ed)",
+    "explanation": "In English, we add -ed to regular verbs to talk about finished actions in the past. There are spelling rules and three different pronunciations for -ed. We use 'did' for questions and 'didn't' for negatives.",
+    "explanationTr": "İngilizce'de geçmişte biten eylemlerden bahsetmek için düzenli fiillere -ed eklenir. Yazım kuralları var ve -ed'nin üç farklı okunuşu var. Sorularda 'did', olumsuzda 'didn't' kullanılır.",
+    "table": [
+      ["Kural", "Fiil → Geçmiş", "Açıklama", "Örnek Cümle"],
+      ["Çoğu fiil: +ed", "walk → walked", "Sona -ed ekle", "I walked to the beach yesterday."],
+      ["-e ile biten: +d", "arrive → arrived", "Sadece -d ekle", "We arrived at the hotel at noon."],
+      ["Ünsüz+y: y→ied", "carry → carried", "y'yi sil, -ied ekle", "She carried her bags to the room."],
+      ["Kısa ünsüz: çift ünsüz+ed", "plan → planned", "Son harfi iki kez yaz, -ed ekle", "We planned the trip together."],
+      ["-ed okunuşu: /t/", "walked, talked, cooked", "\"vokt, tokt, kukt\" — son ses sert ise t gibi okunur", "I walked and talked with my friend."],
+      ["-ed okunuşu: /d/", "played, enjoyed, called", "\"pleyd, en-COYD, kold\" — son ses yumuşak ise d gibi okunur", "They played and enjoyed the party."],
+      ["-ed okunuşu: /ıd/", "visited, started, lasted", "\"VİZ-ı-tid, STAR-tid\" — t veya d ile biten fiillerde ıd gibi okunur", "I visited Istanbul and it lasted a week."]
+    ],
+    "tips": [
+      { "en": "Did + subject + base verb? → Did you visit Antalya?", "tr": "Soru: Did + kişi + fiilin yalın hali? → Did you visit Antalya?" },
+      { "en": "Subject + didn't + base verb → I didn't visit the museum.", "tr": "Olumsuz: Kişi + didn't + fiilin yalın hali → I didn't visit the museum." },
+      { "en": "Yesterday, last week, ago, in 2023 → past time words", "tr": "Zaman kelimeleri: yesterday (dün), last week (geçen hafta), ago (önce), in 2023 (2023'te)" },
+      { "en": "After did/didn't → use BASE form, NOT -ed!", "tr": "Did/didn't'tan sonra fiil -ed ALMAZ! Did you walked? ❌ → Did you walk? ✅" },
+      { "en": "Was/were is past of be. Don't mix with did!", "tr": "Was/were = be fiilinin geçmişi. Did ile karıştırma! I did was tired ❌ → I was tired ✅" },
+      { "en": "Spelling: stop → stopped (CVC = double consonant)", "tr": "Yazım: kısa sesli + ünsüz = ünsüz iki kez yazılır. stop → stopped, plan → planned" }
+    ]
+  },
+
+  "reading": {
+    "text": "Last summer, I traveled to Antalya with my family. We planned the trip for two months and I booked the hotel online. The night before, I packed my suitcase — I packed too many T-shirts!\n\nWe arrived in Antalya on Saturday morning. The hotel was beautiful and close to the beach. I opened the balcony door and enjoyed the amazing sea view.\n\nEvery day, we walked along the beach and relaxed by the pool. I explored the old town and photographed the narrow streets and colorful buildings. My mother cooked at the hotel apartment sometimes, but we also tasted local food at restaurants. The kebabs were delicious!\n\nOne evening, we watched a traditional dance show and danced with the performers. It was so much fun! On the last day, it rained, so we visited the Antalya Museum.\n\nOur vacation lasted ten days. I really enjoyed every moment. When we returned home, I showed my photos to all my friends. I already miss Antalya! I want to travel there again next summer.",
+    "textTr": "Geçen yaz ailemle Antalya'ya seyahat ettim. Geziyi iki ay boyunca planladık ve oteli internetten ayırttım. Bir önceki gece bavulumu hazırladım — çok fazla tişört koymuşum!\n\nCumartesi sabahı Antalya'ya vardık. Otel güzeldi ve sahile yakındı. Balkon kapısını açtım ve muhteşem deniz manzarasının keyfini çıkardım.\n\nHer gün sahil boyunca yürüdük ve havuz kenarında dinlendik. Eski şehri keşfettim ve dar sokakları ve renkli binaları fotoğrafladım. Annem bazen otel dairesinde yemek yaptı ama restoranlarda da yöresel yemekleri tattık. Kebaplar çok lezzetliydi!\n\nBir akşam geleneksel bir dans gösterisi izledik ve sanatçılarla birlikte dans ettik. Çok eğlenceliydi! Son gün yağmur yağdı, bu yüzden Antalya Müzesi'ni ziyaret ettik.\n\nTatilimiz on gün sürdü. Her anın keyfini gerçekten çıkardım. Eve döndüğümüzde fotoğraflarımı tüm arkadaşlarıma gösterdim. Şimdiden Antalya'yı özlüyorum! Gelecek yaz tekrar oraya seyahat etmek istiyorum.",
+    "questions": [
+      {
+        "question": "How long did they plan the trip?",
+        "questionTr": "Geziyi ne kadar süre planladılar?",
+        "options": ["One week", "Two months", "Three days", "One year"],
+        "correct": 1
+      },
+      {
+        "question": "What did Eyüp do in the old town?",
+        "questionTr": "Eyüp eski şehirde ne yaptı?",
+        "options": ["He cooked food", "He relaxed by the pool", "He explored and photographed it", "He danced"],
+        "correct": 2
+      },
+      {
+        "question": "What happened on the last day?",
+        "questionTr": "Son gün ne oldu?",
+        "options": ["They went to the beach", "It rained, so they visited a museum", "They traveled to Istanbul", "They cooked dinner"],
+        "correct": 1
+      },
+      {
+        "question": "How long did the vacation last?",
+        "questionTr": "Tatil ne kadar sürdü?",
+        "options": ["One week", "Five days", "Ten days", "Two weeks"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp do when he returned home?",
+        "questionTr": "Eyüp eve döndüğünde ne yaptı?",
+        "options": ["He cleaned the house", "He called his mother", "He showed his photos to friends", "He packed his suitcase again"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Telling a Friend About the Vacation",
+    "titleTr": "Arkadaşına Tatilden Bahsetme",
+    "context": "Eyüp tatilden döndükten sonra kafede arkadaşı Selin ile buluşuyor. Selin, Eyüp'ün tatilini merak ediyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Selin", "text": "Hey Eyüp! Welcome back! How was your vacation?", "textTr": "Hey Eyüp! Hoş geldin! Tatilin nasıldı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "It was amazing! I traveled to Antalya with my family.", "textTr": "Harikaydı! Ailemle Antalya'ya seyahat ettim." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Oh nice! How long did you stay there?", "textTr": "Aa güzel! Ne kadar kaldınız orada?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "We stayed for ten days. I booked a hotel near the beach.", "textTr": "On gün kaldık. Sahile yakın bir otel ayırttım." },
+      { "speaker": "A", "speakerName": "Selin", "text": "That sounds perfect! What did you do there?", "textTr": "Harika görünüyor! Orada ne yaptınız?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "We walked on the beach every day and I explored the old town.", "textTr": "Her gün sahilde yürüdük ve ben eski şehri keşfettim." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Did you take any photos?", "textTr": "Hiç fotoğraf çektin mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes! I photographed everything — the streets, the food, the sunsets!", "textTr": "Evet! Her şeyi fotoğrafladım — sokakları, yemekleri, gün batımlarını!" },
+      { "speaker": "A", "speakerName": "Selin", "text": "What about the food? Did you enjoy it?", "textTr": "Peki ya yemekler? Beğendin mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Oh yes! I tasted so many local dishes. The kebabs were incredible.", "textTr": "Oh evet! Çok fazla yöresel yemek tattım. Kebaplar inanılmazdı." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Did it rain at all?", "textTr": "Hiç yağmur yağdı mı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "It rained only on the last day. So we visited the Antalya Museum.", "textTr": "Sadece son gün yağmur yağdı. Bu yüzden Antalya Müzesi'ni gezdik." },
+      { "speaker": "A", "speakerName": "Selin", "text": "That's smart! Did you miss home?", "textTr": "Akıllıca! Evi özledin mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "A little. I called my mom every evening. But I enjoyed every moment!", "textTr": "Biraz. Her akşam annemi aradım. Ama her anın keyfini çıkardım!" },
+      { "speaker": "A", "speakerName": "Selin", "text": "When did you return?", "textTr": "Ne zaman döndünüz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "We returned last Sunday. I already miss Antalya!", "textTr": "Geçen pazar döndük. Şimdiden Antalya'yı özlüyorum!" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Show me your photos! I want to see everything!", "textTr": "Fotoğraflarını göster! Her şeyi görmek istiyorum!" }
+    ],
+    "questions": [
+      {
+        "question": "How long did Eyüp stay in Antalya?",
+        "questionTr": "Eyüp Antalya'da ne kadar kaldı?",
+        "options": ["Five days", "One week", "Ten days", "Two weeks"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp photograph?",
+        "questionTr": "Eyüp neleri fotoğrafladı?",
+        "options": ["Only the hotel", "Streets, food, and sunsets", "Only the beach", "His family"],
+        "correct": 1
+      },
+      {
+        "question": "When did it rain?",
+        "questionTr": "Yağmur ne zaman yağdı?",
+        "options": ["Every day", "On the first day", "On the last day", "It didn't rain"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp do every evening?",
+        "questionTr": "Eyüp her akşam ne yaptı?",
+        "options": ["He danced", "He called his mom", "He cooked dinner", "He watched TV"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ Antalya last summer.", "answer": "visited", "hint": "ziyaret etti (visit)" },
+      { "sentence": "We ___ at a beautiful hotel near the beach.", "answer": "stayed", "hint": "kaldı (stay)" },
+      { "sentence": "She ___ a hotel room online.", "answer": "booked", "hint": "rezervasyon yaptı (book)" },
+      { "sentence": "They ___ along the beach every morning.", "answer": "walked", "hint": "yürüdü (walk)" },
+      { "sentence": "I ___ the local food and it was delicious.", "answer": "tasted", "hint": "tattı (taste)" },
+      { "sentence": "It ___ all day yesterday.", "answer": "rained", "hint": "yağmur yağdı (rain)" },
+      { "sentence": "We ___ home last Sunday evening.", "answer": "returned", "hint": "döndü (return)" },
+      { "sentence": "I ___ my suitcase the night before the trip.", "answer": "packed", "hint": "bavul hazırladı (pack)" },
+      { "sentence": "The children ___ in the pool all afternoon.", "answer": "played", "hint": "oynadı (play)" },
+      { "sentence": "Our vacation ___ ten days.", "answer": "lasted", "hint": "sürdü (last)" },
+      { "sentence": "I ___ my vacation photos to all my friends.", "answer": "showed", "hint": "gösterdi (show)" },
+      { "sentence": "The tour ___ at 9 in the morning.", "answer": "started", "hint": "başladı (start)" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"I ___ to Italy last summer.\" Boşluğa ne gelir?",
+        "options": ["travel", "traveled", "traveling", "travels"],
+        "correct": 1
+      },
+      {
+        "question": "\"Did you ___ the museum?\" Boşluğa ne gelir?",
+        "options": ["visited", "visiting", "visit", "visits"],
+        "correct": 2
+      },
+      {
+        "question": "\"walked\" kelimesinde -ed nasıl okunur?",
+        "options": ["/ıd/ (vok-ıd)", "/d/ (vokd)", "/t/ (vokt)", "Okunmaz"],
+        "correct": 2
+      },
+      {
+        "question": "\"visited\" kelimesinde -ed nasıl okunur?",
+        "options": ["/t/ (vizit)", "/d/ (vizid)", "/ıd/ (viz-ı-tid)", "Okunmaz"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi doğru?",
+        "options": ["I didn't enjoyed", "I didn't enjoy", "I didn't enjoys", "I don't enjoyed"],
+        "correct": 1
+      },
+      {
+        "question": "\"plan\" fiilinin geçmiş hali hangisi?",
+        "options": ["planed", "planned", "planded", "planning"],
+        "correct": 1
+      },
+      {
+        "question": "\"Dün\" İngilizce'de hangisi?",
+        "options": ["Tomorrow", "Last", "Yesterday", "Ago"],
+        "correct": 2
+      },
+      {
+        "question": "\"She ___ her room yesterday.\" Boşluğa ne gelir?",
+        "options": ["clean", "cleaning", "cleaned", "cleans"],
+        "correct": 2
+      },
+      {
+        "question": "\"___ you travel last year?\" Başa ne gelir?",
+        "options": ["Do", "Does", "Did", "Are"],
+        "correct": 2
+      },
+      {
+        "question": "\"played\" kelimesinde -ed nasıl okunur?",
+        "options": ["/t/ (pleyt)", "/ıd/ (pley-ıd)", "/d/ (pleyd)", "Okunmaz"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "visited", "right": "ziyaret etti" },
+      { "left": "traveled", "right": "seyahat etti" },
+      { "left": "enjoyed", "right": "keyif aldı" },
+      { "left": "stayed", "right": "kaldı" },
+      { "left": "walked", "right": "yürüdü" },
+      { "left": "cooked", "right": "yemek yaptı" },
+      { "left": "booked", "right": "rezervasyon yaptı" },
+      { "left": "packed", "right": "bavul hazırladı" },
+      { "left": "explored", "right": "keşfetti" },
+      { "left": "relaxed", "right": "dinlendi" },
+      { "left": "tasted", "right": "tattı" },
+      { "left": "returned", "right": "geri döndü" },
+      { "left": "missed", "right": "özledi" },
+      { "left": "yesterday", "right": "dün" },
+      { "left": "last week", "right": "geçen hafta" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "visited", "Antalya", "last", "summer"], "correct": "I visited Antalya last summer" },
+      { "words": ["We", "stayed", "at", "a", "nice", "hotel"], "correct": "We stayed at a nice hotel" },
+      { "words": ["Did", "you", "enjoy", "the", "vacation"], "correct": "Did you enjoy the vacation" },
+      { "words": ["She", "didn't", "travel", "last", "year"], "correct": "She didn't travel last year" },
+      { "words": ["I", "packed", "my", "suitcase", "yesterday"], "correct": "I packed my suitcase yesterday" },
+      { "words": ["We", "walked", "along", "the", "beach"], "correct": "We walked along the beach" },
+      { "words": ["It", "rained", "all", "day", "yesterday"], "correct": "It rained all day yesterday" },
+      { "words": ["They", "returned", "home", "last", "Sunday"], "correct": "They returned home last Sunday" },
+      { "words": ["I", "showed", "my", "photos", "to", "my", "friends"], "correct": "I showed my photos to my friends" }
+    ],
+    "translation": [
+      {
+        "turkish": "Geçen yaz Antalya'ya seyahat ettim.",
+        "english": "I traveled to Antalya last summer.",
+        "acceptAlso": ["I travelled to Antalya last summer"]
+      },
+      {
+        "turkish": "Sahile yakın bir otelde kaldık.",
+        "english": "We stayed at a hotel near the beach.",
+        "acceptAlso": ["We stayed at a hotel close to the beach"]
+      },
+      {
+        "turkish": "Yöresel yemekleri tattın mı?",
+        "english": "Did you taste the local food?",
+        "acceptAlso": ["Did you taste local food"]
+      },
+      {
+        "turkish": "Dün bütün gün yağmur yağdı.",
+        "english": "It rained all day yesterday.",
+        "acceptAlso": ["It rained the whole day yesterday"]
+      },
+      {
+        "turkish": "Tatilden gerçekten keyif aldım.",
+        "english": "I really enjoyed the vacation.",
+        "acceptAlso": ["I really enjoyed the holiday", "I really enjoyed my vacation"]
+      },
+      {
+        "turkish": "Müzeyi ziyaret etmedik.",
+        "english": "We didn't visit the museum.",
+        "acceptAlso": ["We did not visit the museum"]
+      },
+      {
+        "turkish": "Geçen pazar eve döndük.",
+        "english": "We returned home last Sunday.",
+        "acceptAlso": ["We came back home last Sunday"]
+      },
+      {
+        "turkish": "Bavulumu dün gece hazırladım.",
+        "english": "I packed my suitcase last night.",
+        "acceptAlso": ["I packed my bag last night", "I packed my suitcase yesterday night"]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Past Simple Regular Verbs - British Council",
+      "description": "Geçmiş zaman düzenli fiiller alıştırmaları ve kuralları",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/past-simple-regular-verbs",
+      "type": "practice",
+      "level": "A1-A2",
+      "free": true
+    },
+    {
+      "title": "Past Tense -ed Pronunciation - Rachel's English",
+      "description": "-ed ekinin üç farklı okunuşunu videolarla öğren",
+      "url": "https://www.youtube.com/watch?v=kMPFZIH4MJQ",
+      "type": "video",
+      "level": "A1-A2",
+      "free": true
+    },
+    {
+      "title": "Past Simple Exercises - Perfect English Grammar",
+      "description": "Geçmiş zaman alıştırmaları — olumlu, olumsuz, soru formları",
+      "url": "https://www.perfect-english-grammar.com/past-simple-exercise-1.html",
+      "type": "practice",
+      "level": "A1-A2",
+      "free": true
+    }
+  ]
+}

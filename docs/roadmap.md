@@ -44,14 +44,18 @@
 
 ## Yapilacaklar
 - [x] 📝 Unit 04-08 icerikleri (Module 1 tamam!)
-- [ ] 📝 Unit 09-16 icerikleri (Module 2) → docs/content-plan.md
+- [x] 🚀 Vercel deploy (english-learning-app-six-cyan.vercel.app)
+- [x] 🎨 UX/UI modernizasyon (animasyonlar, responsive, student-friendly)
+- [ ] 📝 **Unit 09-16 icerikleri (Module 2: A1→A2)** ← SIRADAKI
+- [ ] 📝 Unit 17-24 icerikleri (Module 3: A2→B1)
+- [ ] 📝 Unit 25-32 icerikleri (Module 4: B1)
+- [ ] ⚡ Performans optimizasyonu (lazy loading, code splitting)
 - [ ] 📚 Kelime listesi sayfasi + filtreleme
 - [ ] 🎤 Speech-to-Text pronunciation practice
 - [ ] 📊 Seviye olcme testi (placement test)
 - [ ] 📊 Modul sonu testleri
 - [ ] 📊 Zayif nokta analizi
 - [ ] 🌙 Dark mode
-- [ ] 🚀 Vercel deploy
 
 ---
 

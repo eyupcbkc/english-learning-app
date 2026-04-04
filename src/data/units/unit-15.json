@@ -1,0 +1,561 @@
+{
+  "id": "unit-15",
+  "title": "Shopping, Money & Directions",
+  "titleTr": "Alışveriş, Para ve Yön Tarifi",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn how to ask for directions, shop at a mall, and handle money. Navigate a city with confidence.",
+  "descriptionTr": "Yön tarifi sormayı, bir AVM'de alışveriş yapmayı ve parayla ilgili konuşmayı öğren. Şehirde güvenle dolaş.",
+
+  "vocabulary": [
+    {
+      "word": "turn left",
+      "pronunciation": "törn left",
+      "turkish": "sola dön",
+      "example": "Turn left at the traffic lights.",
+      "exampleTr": "Trafik ışıklarından sola dön.",
+      "extra": "You need to turn left after the bank.",
+      "extraTr": "Bankadan sonra sola dönmen lazım."
+    },
+    {
+      "word": "turn right",
+      "pronunciation": "törn rayt",
+      "turkish": "sağa dön",
+      "example": "Turn right at the corner.",
+      "exampleTr": "Köşeden sağa dön.",
+      "extra": "Turn right here and you'll see the mall.",
+      "extraTr": "Buradan sağa dön, AVM'yi göreceksin."
+    },
+    {
+      "word": "go straight",
+      "pronunciation": "gou streyt",
+      "turkish": "düz git / ileri git",
+      "example": "Go straight for two blocks.",
+      "exampleTr": "İki blok düz git.",
+      "extra": "Go straight and the station is on your left.",
+      "extraTr": "Düz git, istasyon sol tarafında."
+    },
+    {
+      "word": "cross",
+      "pronunciation": "kros",
+      "turkish": "karşıya geçmek",
+      "example": "Cross the street at the crosswalk.",
+      "exampleTr": "Yaya geçidinden karşıya geç.",
+      "extra": "Be careful when you cross the road.",
+      "extraTr": "Yoldan geçerken dikkatli ol."
+    },
+    {
+      "word": "corner",
+      "pronunciation": "KOR-nır",
+      "turkish": "köşe",
+      "example": "The pharmacy is on the corner.",
+      "exampleTr": "Eczane köşede.",
+      "extra": "Wait for me at the corner of the street.",
+      "extraTr": "Sokağın köşesinde beni bekle."
+    },
+    {
+      "word": "block",
+      "pronunciation": "blok",
+      "turkish": "blok / sokak arası",
+      "example": "The hotel is two blocks away.",
+      "exampleTr": "Otel iki blok ileride.",
+      "extra": "Walk three blocks and you'll find it.",
+      "extraTr": "Üç blok yürü, bulursun."
+    },
+    {
+      "word": "cash",
+      "pronunciation": "keş",
+      "turkish": "nakit",
+      "example": "Do you pay with cash or card?",
+      "exampleTr": "Nakit mi yoksa kartla mı ödüyorsun?",
+      "extra": "I don't have cash. Is there an ATM near here?",
+      "extraTr": "Nakit yok. Yakınlarda ATM var mı?"
+    },
+    {
+      "word": "credit card",
+      "pronunciation": "KRE-dit kard",
+      "turkish": "kredi kartı",
+      "example": "Can I pay by credit card?",
+      "exampleTr": "Kredi kartıyla ödeyebilir miyim?",
+      "extra": "We accept all credit cards.",
+      "extraTr": "Tüm kredi kartlarını kabul ediyoruz."
+    },
+    {
+      "word": "receipt",
+      "pronunciation": "ri-SIIT",
+      "turkish": "fiş / makbuz",
+      "example": "Can I have the receipt, please?",
+      "exampleTr": "Fişi alabilir miyim, lütfen?",
+      "extra": "Keep the receipt for the refund.",
+      "extraTr": "İade için fişi sakla."
+    },
+    {
+      "word": "change",
+      "pronunciation": "çeync",
+      "turkish": "para üstü / bozuk para",
+      "example": "Here is your change — five dollars.",
+      "exampleTr": "Buyurun para üstünüz — beş dolar.",
+      "extra": "Do you have change for twenty dollars?",
+      "extraTr": "Yirmi dolarlık bozuğunuz var mı?"
+    },
+    {
+      "word": "discount",
+      "pronunciation": "DİS-kaunt",
+      "turkish": "indirim",
+      "example": "Is there a discount on this jacket?",
+      "exampleTr": "Bu cekette indirim var mı?",
+      "extra": "Students get a ten percent discount.",
+      "extraTr": "Öğrencilere yüzde on indirim var."
+    },
+    {
+      "word": "size",
+      "pronunciation": "sayz",
+      "turkish": "beden / boyut",
+      "example": "What size do you wear?",
+      "exampleTr": "Kaç beden giyiyorsun?",
+      "extra": "Do you have this in a larger size?",
+      "extraTr": "Bunun daha büyük bedeni var mı?"
+    },
+    {
+      "word": "try on",
+      "pronunciation": "tray on",
+      "turkish": "denemek (giysi)",
+      "example": "Can I try on this shirt?",
+      "exampleTr": "Bu gömleği deneyebilir miyim?",
+      "extra": "The fitting room is over there if you want to try it on.",
+      "extraTr": "Denemek isterseniz giyinme kabini şurada."
+    },
+    {
+      "word": "fit",
+      "pronunciation": "fit",
+      "turkish": "uymak (beden olarak)",
+      "example": "This dress doesn't fit me. It's too small.",
+      "exampleTr": "Bu elbise bana olmuyor. Çok küçük.",
+      "extra": "Does this jacket fit you well?",
+      "extraTr": "Bu ceket sana iyi oluyor mu?"
+    },
+    {
+      "word": "exchange",
+      "pronunciation": "iks-ÇEYNC",
+      "turkish": "değiştirmek / takas",
+      "example": "Can I exchange this for a bigger size?",
+      "exampleTr": "Bunu daha büyük bedenle değiştirebilir miyim?",
+      "extra": "You can exchange it within 30 days.",
+      "extraTr": "30 gün içinde değiştirebilirsiniz."
+    },
+    {
+      "word": "refund",
+      "pronunciation": "Rİ-fand",
+      "turkish": "iade / geri ödeme",
+      "example": "I'd like a refund, please.",
+      "exampleTr": "İade yapmak istiyorum, lütfen.",
+      "extra": "Sorry, we don't give refunds on sale items.",
+      "extraTr": "Üzgünüm, indirimli ürünlerde iade yapılmıyor."
+    },
+    {
+      "word": "mall",
+      "pronunciation": "mol",
+      "turkish": "alışveriş merkezi / AVM",
+      "example": "Let's go to the mall this weekend.",
+      "exampleTr": "Bu hafta sonu AVM'ye gidelim.",
+      "extra": "The mall opens at ten in the morning.",
+      "extraTr": "AVM sabah onda açılıyor."
+    },
+    {
+      "word": "escalator",
+      "pronunciation": "ES-kı-ley-tır",
+      "turkish": "yürüyen merdiven",
+      "example": "Take the escalator to the second floor.",
+      "exampleTr": "Yürüyen merdivenle ikinci kata çık.",
+      "extra": "The escalator is next to the elevator.",
+      "extraTr": "Yürüyen merdiven asansörün yanında."
+    },
+    {
+      "word": "entrance",
+      "pronunciation": "EN-trıns",
+      "turkish": "giriş",
+      "example": "The entrance is on the main street.",
+      "exampleTr": "Giriş ana caddede.",
+      "extra": "Wait for me at the entrance of the mall.",
+      "extraTr": "AVM'nin girişinde beni bekle."
+    },
+    {
+      "word": "exit",
+      "pronunciation": "EG-zit",
+      "turkish": "çıkış",
+      "example": "Where is the exit?",
+      "exampleTr": "Çıkış nerede?",
+      "extra": "The emergency exit is at the back.",
+      "extraTr": "Acil çıkış arkada."
+    },
+    {
+      "word": "floor",
+      "pronunciation": "flor",
+      "turkish": "kat",
+      "example": "The shoe store is on the first floor.",
+      "exampleTr": "Ayakkabı mağazası birinci katta.",
+      "extra": "This building has five floors.",
+      "extraTr": "Bu binanın beş katı var."
+    },
+    {
+      "word": "opposite",
+      "pronunciation": "OP-ı-zit",
+      "turkish": "karşısında",
+      "example": "The bank is opposite the supermarket.",
+      "exampleTr": "Banka süpermarketin karşısında.",
+      "extra": "My house is opposite the park.",
+      "extraTr": "Evim parkın karşısında."
+    },
+    {
+      "word": "between",
+      "pronunciation": "bi-TVIIN",
+      "turkish": "arasında",
+      "example": "The café is between the bank and the pharmacy.",
+      "exampleTr": "Kafe bankayla eczanenin arasında.",
+      "extra": "Sit between your mom and dad.",
+      "extraTr": "Annenle babanın arasına otur."
+    },
+    {
+      "word": "past",
+      "pronunciation": "pest",
+      "turkish": "geçerek / ötesinde",
+      "example": "Walk past the hospital and turn left.",
+      "exampleTr": "Hastaneyi geç ve sola dön.",
+      "extra": "The restaurant is just past the bridge.",
+      "extraTr": "Restoran köprüyü geçince hemen orada."
+    },
+    {
+      "word": "next to",
+      "pronunciation": "nekst tu",
+      "turkish": "yanında / bitişiğinde",
+      "example": "The bookstore is next to the coffee shop.",
+      "exampleTr": "Kitapçı kahve dükkanının yanında.",
+      "extra": "Can I sit next to you?",
+      "extraTr": "Yanına oturabilir miyim?"
+    },
+    {
+      "word": "aisle",
+      "pronunciation": "ayl",
+      "turkish": "reyonlar arası koridor",
+      "example": "The milk is in aisle three.",
+      "exampleTr": "Süt üçüncü koridorda.",
+      "extra": "Go down this aisle and you'll find the shoes.",
+      "extraTr": "Bu koridordan ilerle, ayakkabıları bulursun."
+    },
+    {
+      "word": "cashier",
+      "pronunciation": "ke-ŞIIR",
+      "turkish": "kasiyer",
+      "example": "Pay at the cashier near the exit.",
+      "exampleTr": "Çıkışın yanındaki kasiyerde öde.",
+      "extra": "The cashier gave me the wrong change.",
+      "extraTr": "Kasiyer bana yanlış para üstü verdi."
+    },
+    {
+      "word": "sale",
+      "pronunciation": "seyl",
+      "turkish": "indirim / kampanya",
+      "example": "There is a big sale at the mall today.",
+      "exampleTr": "Bugün AVM'de büyük indirim var.",
+      "extra": "I bought this bag on sale. It was fifty percent off!",
+      "extraTr": "Bu çantayı indirimde aldım. Yüzde elli indirimdi!"
+    },
+    {
+      "word": "percent",
+      "pronunciation": "pır-SENT",
+      "turkish": "yüzde",
+      "example": "You get twenty percent off today.",
+      "exampleTr": "Bugün yüzde yirmi indiriminiz var.",
+      "extra": "The tax is eight percent.",
+      "extraTr": "Vergi yüzde sekiz."
+    },
+    {
+      "word": "total",
+      "pronunciation": "TOU-tıl",
+      "turkish": "toplam",
+      "example": "Your total is forty-five dollars.",
+      "exampleTr": "Toplamınız kırk beş dolar.",
+      "extra": "What is the total with tax?",
+      "extraTr": "Vergiyle toplam ne kadar?"
+    }
+  ],
+
+  "grammar": {
+    "title": "Imperatives + How much + Prepositions of Direction",
+    "titleTr": "Emir Cümleleri + Ne kadar + Yön Edatları",
+    "explanation": "Use imperatives (commands) to give directions: Turn left, Go straight, Don't turn right. Use 'How much' to ask about prices. Use prepositions of movement (across, past, through, along, toward) to describe directions. Use this/that/these/those when pointing at things while shopping.",
+    "explanationTr": "Emir cümleleri yön tarif etmek için kullanılır: Turn left (Sola dön), Go straight (Düz git), Don't turn right (Sağa dönme). 'How much' ile fiyat sorulur. Hareket edatları (across, past, through, along, toward) yön tarifinde kullanılır. Alışverişte bir şeyi gösterirken this/that/these/those kullanılır.",
+    "table": [
+      ["Turn left.", "Sola dön.", "Emir cümlesi (olumlu)", "Turn left at the corner."],
+      ["Don't turn right.", "Sağa dönme.", "Emir cümlesi (olumsuz)", "Don't turn right here, go straight."],
+      ["How much is this?", "Bu ne kadar?", "Fiyat sorma (tekil)", "How much is this jacket?"],
+      ["How much are these?", "Bunlar ne kadar?", "Fiyat sorma (çoğul)", "How much are these shoes?"],
+      ["Walk across the street.", "Caddeyi karşıdan karşıya geç.", "across = karşıya", "Go across the bridge."],
+      ["Walk past the bank.", "Bankayı geçerek yürü.", "past = geçerek", "The shop is past the traffic lights."],
+      ["Walk along the river.", "Nehir boyunca yürü.", "along = boyunca", "Go along this road for five minutes."]
+    ],
+    "tips": [
+      { "en": "Imperatives have no subject — just start with the verb: Go! Turn! Cross!", "tr": "Emir cümlelerinde özne yok — direkt fiille başla: Go! Turn! Cross!" },
+      { "en": "Negative imperative: Don't + verb → Don't go, Don't turn", "tr": "Olumsuz emir: Don't + fiil → Don't go (Gitme), Don't turn (Dönme)" },
+      { "en": "How much is + singular: How much is this shirt?", "tr": "How much is + tekil: Bu gömlek ne kadar?" },
+      { "en": "How much are + plural: How much are these pants?", "tr": "How much are + çoğul: Bu pantolonlar ne kadar?" },
+      { "en": "this/that = tekil (this shirt, that bag) — these/those = çoğul (these shoes, those socks)", "tr": "this = bu (yakın tekil), that = şu (uzak tekil), these = bunlar (yakın çoğul), those = şunlar (uzak çoğul)" },
+      { "en": "toward = in the direction of → Walk toward the mall.", "tr": "toward = yönüne doğru → AVM'ye doğru yürü." }
+    ]
+  },
+
+  "reading": {
+    "text": "Last Saturday, I went shopping in New York City with my friend Sarah. We took the subway to Times Square and walked toward Fifth Avenue. There are so many stores there!\n\nFirst, we went to a big mall. We took the escalator to the second floor. Sarah wanted to buy a dress. She found a nice blue dress and tried it on. It fit perfectly! The dress was sixty dollars, but there was a twenty percent discount. So she paid only forty-eight dollars. She paid by credit card and got the receipt.\n\nThen, I wanted to buy sneakers. A shop assistant helped me. I asked, \"How much are these sneakers?\" She said, \"They are ninety dollars.\" That was too expensive! But she told me there was a sale on another pair — only fifty-five dollars. I tried them on and they fit great. I paid in cash and got my change.\n\nAfter shopping, we were hungry. We asked a man on the street, \"Excuse me, is there a good restaurant near here?\" He said, \"Go straight for two blocks, then turn left. There's an Italian restaurant next to the bookstore.\" We followed his directions and found it easily. The food was delicious!\n\nShopping in New York is expensive but really fun. I love the big sales!",
+    "textTr": "Geçen Cumartesi, arkadaşım Sarah ile New York'ta alışverişe gittim. Metroyla Times Square'e gidip Fifth Avenue'ye doğru yürüdük. Orada çok fazla mağaza var!\n\nÖnce büyük bir AVM'ye gittik. Yürüyen merdivenle ikinci kata çıktık. Sarah bir elbise almak istiyordu. Güzel mavi bir elbise buldu ve denedi. Tam oldu! Elbise altmış dolardı ama yüzde yirmi indirim vardı. Böylece sadece kırk sekiz dolar ödedi. Kredi kartıyla ödedi ve fişi aldı.\n\nSonra ben spor ayakkabı almak istedim. Bir mağaza görevlisi yardım etti. \"Bu spor ayakkabılar ne kadar?\" diye sordum. \"Doksan dolar\" dedi. Çok pahalıydı! Ama başka bir çiftte indirim olduğunu söyledi — sadece elli beş dolar. Denedim ve harika oldu. Nakit ödedim ve para üstümü aldım.\n\nAlışverişten sonra acıktık. Sokakta bir adama sorduk, \"Affedersiniz, yakınlarda iyi bir restoran var mı?\" \"İki blok düz gidin, sonra sola dönün. Kitapçının yanında bir İtalyan restoranı var\" dedi. Tarifini takip ettik ve kolayca bulduk. Yemekler çok lezzetliydi!\n\nNew York'ta alışveriş pahalı ama çok eğlenceli. Büyük indirimleri seviyorum!",
+    "questions": [
+      {
+        "question": "How did Eyüp and Sarah get to Times Square?",
+        "questionTr": "Eyüp ve Sarah Times Square'e nasıl gitti?",
+        "options": ["By bus", "By taxi", "By subway", "On foot"],
+        "correct": 2
+      },
+      {
+        "question": "How much did Sarah pay for the dress after the discount?",
+        "questionTr": "Sarah indirimden sonra elbiseye ne kadar ödedi?",
+        "options": ["$60", "$48", "$55", "$40"],
+        "correct": 1
+      },
+      {
+        "question": "Why didn't Eyüp buy the first pair of sneakers?",
+        "questionTr": "Eyüp ilk spor ayakkabıyı neden almadı?",
+        "options": ["They didn't fit", "They were ugly", "They were too expensive", "They were too small"],
+        "correct": 2
+      },
+      {
+        "question": "How did the man say to get to the restaurant?",
+        "questionTr": "Adam restorana nasıl gidileceğini nasıl tarif etti?",
+        "options": ["Turn right, then go straight", "Go straight for two blocks, then turn left", "Cross the street and turn right", "Take the subway two stops"],
+        "correct": 1
+      },
+      {
+        "question": "Where was the Italian restaurant?",
+        "questionTr": "İtalyan restoranı neredeydi?",
+        "options": ["Opposite the bank", "Next to the bookstore", "On the second floor", "Between two cafés"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Lost in the City & Shopping at a Store",
+    "titleTr": "Şehirde Kaybolmak ve Mağazada Alışveriş",
+    "context": "Eyüp New York'ta yol tarifi soruyor, sonra bir mağazada alışveriş yapıyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Excuse me, sir. I'm looking for the Central Mall. Can you help me?", "textTr": "Affedersiniz, beyefendi. Central AVM'yi arıyorum. Yardımcı olabilir misiniz?" },
+      { "speaker": "A", "speakerName": "Mike", "text": "Sure! Go straight for two blocks, then turn right at the corner.", "textTr": "Tabii! İki blok düz gidin, sonra köşeden sağa dönün." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Two blocks straight and then right. Got it. Is it far?", "textTr": "İki blok düz, sonra sağ. Anladım. Uzak mı?" },
+      { "speaker": "A", "speakerName": "Mike", "text": "No, it's about five minutes. You'll see it on your left, opposite the park.", "textTr": "Hayır, yaklaşık beş dakika. Solunuzda göreceksiniz, parkın karşısında." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Opposite the park. Great, thank you so much!", "textTr": "Parkın karşısında. Harika, çok teşekkürler!" },
+      { "speaker": "A", "speakerName": "Mike", "text": "You're welcome! Have a good day.", "textTr": "Rica ederim! İyi günler." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "You too! ... (Eyüp arrives at the mall and enters a shoe store)", "textTr": "Size de! ... (Eyüp AVM'ye varıyor ve bir ayakkabı mağazasına giriyor)" },
+      { "speaker": "A", "speakerName": "Lisa", "text": "Hi there! Welcome to ShoeMart. Can I help you?", "textTr": "Merhaba! ShoeMart'a hoş geldiniz. Yardımcı olabilir miyim?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi! Yes, I'm looking for sneakers. How much are those white ones?", "textTr": "Merhaba! Evet, spor ayakkabı arıyorum. Şu beyazlar ne kadar?" },
+      { "speaker": "A", "speakerName": "Lisa", "text": "Those are eighty-five dollars. But today we have a sale — twenty percent off!", "textTr": "Onlar seksen beş dolar. Ama bugün indirim var — yüzde yirmi!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Nice! Can I try them on? I'm size forty-two.", "textTr": "Güzel! Deneyebilir miyim? Kırk iki numara giyiyorum." },
+      { "speaker": "A", "speakerName": "Lisa", "text": "Of course! Here you go. The fitting area is next to the cashier.", "textTr": "Tabii! Buyurun. Deneme alanı kasiyerin yanında." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "They fit perfectly! I'll take them. Can I pay by credit card?", "textTr": "Tam oldu! Bunları alacağım. Kredi kartıyla ödeyebilir miyim?" },
+      { "speaker": "A", "speakerName": "Lisa", "text": "Absolutely! Your total is sixty-eight dollars with the discount. Here's your receipt.", "textTr": "Kesinlikle! İndirimle toplamınız altmış sekiz dolar. Buyurun fişiniz." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you! Can I exchange them if they don't fit well at home?", "textTr": "Teşekkürler! Evde iyi olmazsa değiştirebilir miyim?" },
+      { "speaker": "A", "speakerName": "Lisa", "text": "Yes, you can exchange or get a refund within fourteen days. Just keep the receipt!", "textTr": "Evet, on dört gün içinde değiştirip veya iade edebilirsiniz. Fişi saklayın yeter!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Perfect! Thank you for your help, Lisa.", "textTr": "Mükemmel! Yardımınız için teşekkürler, Lisa." },
+      { "speaker": "A", "speakerName": "Lisa", "text": "You're welcome! Enjoy your new sneakers. Have a great day!", "textTr": "Rica ederim! Yeni ayakkabılarınızın keyfini çıkarın. İyi günler!" }
+    ],
+    "questions": [
+      {
+        "question": "How does Eyüp get to the mall?",
+        "questionTr": "Eyüp AVM'ye nasıl gidiyor?",
+        "options": ["Turn left and go straight", "Go straight two blocks, then turn right", "Cross the street and turn left", "Take the escalator"],
+        "correct": 1
+      },
+      {
+        "question": "Where is the mall located?",
+        "questionTr": "AVM nerede?",
+        "options": ["Next to the bank", "Between two parks", "Opposite the park", "Past the hospital"],
+        "correct": 2
+      },
+      {
+        "question": "How much did Eyüp pay for the sneakers?",
+        "questionTr": "Eyüp spor ayakkabıya ne kadar ödedi?",
+        "options": ["$85", "$68", "$42", "$55"],
+        "correct": 1
+      },
+      {
+        "question": "How long does Eyüp have to exchange the sneakers?",
+        "questionTr": "Eyüp ayakkabıları ne kadar sürede değiştirebilir?",
+        "options": ["7 days", "14 days", "30 days", "No exchange"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "___ left at the traffic lights.", "answer": "Turn", "hint": "sola dön" },
+      { "sentence": "Go ___ for two blocks.", "answer": "straight", "hint": "düz git" },
+      { "sentence": "How ___ is this jacket?", "answer": "much", "hint": "ne kadar" },
+      { "sentence": "Can I pay by credit ___?", "answer": "card", "hint": "kredi kartı" },
+      { "sentence": "The shoe store is on the second ___.", "answer": "floor", "hint": "kat" },
+      { "sentence": "Can I ___ on this shirt?", "answer": "try", "hint": "denemek (giysi)" },
+      { "sentence": "Here is your ___ — five dollars.", "answer": "change", "hint": "para üstü" },
+      { "sentence": "The café is ___ the bank and the pharmacy.", "answer": "between", "hint": "arasında" },
+      { "sentence": "Take the ___ to the second floor.", "answer": "escalator", "hint": "yürüyen merdiven" },
+      { "sentence": "There is a big ___ today — everything is cheap!", "answer": "sale", "hint": "indirim" },
+      { "sentence": "The bank is ___ the supermarket.", "answer": "opposite", "hint": "karşısında" },
+      { "sentence": "Keep the ___ for the refund.", "answer": "receipt", "hint": "fiş / makbuz" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"Sola dön\" İngilizce'de ne demek?",
+        "options": ["Go straight", "Turn right", "Turn left", "Cross the street"],
+        "correct": 2
+      },
+      {
+        "question": "\"How much ___ these shoes?\" Boşluğa ne gelir?",
+        "options": ["is", "are", "does", "do"],
+        "correct": 1
+      },
+      {
+        "question": "\"Can I try ___ this dress?\" Boşluğa ne gelir?",
+        "options": ["in", "on", "up", "off"],
+        "correct": 1
+      },
+      {
+        "question": "\"Fiş\" İngilizce'de hangisi?",
+        "options": ["Change", "Discount", "Receipt", "Refund"],
+        "correct": 2
+      },
+      {
+        "question": "\"Don't ___ right here.\" Boşluğa ne gelir?",
+        "options": ["turning", "turns", "to turn", "turn"],
+        "correct": 3
+      },
+      {
+        "question": "\"Para üstü\" İngilizce'de hangisi?",
+        "options": ["Cash", "Credit", "Change", "Discount"],
+        "correct": 2
+      },
+      {
+        "question": "\"The store is ___ the park.\" (karşısında)",
+        "options": ["between", "next to", "opposite", "past"],
+        "correct": 2
+      },
+      {
+        "question": "\"Walk ___ the hospital and turn left.\" (hastaneyi geçerek)",
+        "options": ["between", "next to", "toward", "past"],
+        "correct": 3
+      },
+      {
+        "question": "\"İade\" İngilizce'de hangisi?",
+        "options": ["Exchange", "Refund", "Discount", "Receipt"],
+        "correct": 1
+      },
+      {
+        "question": "\"___ is the total?\" — Toplam ne kadar?",
+        "options": ["How many", "How much", "How long", "How far"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "turn left", "right": "sola dön" },
+      { "left": "turn right", "right": "sağa dön" },
+      { "left": "go straight", "right": "düz git" },
+      { "left": "cross", "right": "karşıya geçmek" },
+      { "left": "cash", "right": "nakit" },
+      { "left": "credit card", "right": "kredi kartı" },
+      { "left": "receipt", "right": "fiş / makbuz" },
+      { "left": "change", "right": "para üstü" },
+      { "left": "discount", "right": "indirim" },
+      { "left": "try on", "right": "denemek (giysi)" },
+      { "left": "exchange", "right": "değiştirmek" },
+      { "left": "refund", "right": "iade" },
+      { "left": "opposite", "right": "karşısında" },
+      { "left": "between", "right": "arasında" },
+      { "left": "cashier", "right": "kasiyer" }
+    ],
+    "sentenceOrder": [
+      { "words": ["Turn", "left", "at", "the", "corner"], "correct": "Turn left at the corner" },
+      { "words": ["How", "much", "is", "this", "shirt"], "correct": "How much is this shirt" },
+      { "words": ["Can", "I", "try", "on", "these", "shoes"], "correct": "Can I try on these shoes" },
+      { "words": ["Go", "straight", "for", "two", "blocks"], "correct": "Go straight for two blocks" },
+      { "words": ["The", "mall", "is", "opposite", "the", "park"], "correct": "The mall is opposite the park" },
+      { "words": ["Don't", "turn", "right", "here"], "correct": "Don't turn right here" },
+      { "words": ["Can", "I", "pay", "by", "credit", "card"], "correct": "Can I pay by credit card" },
+      { "words": ["The", "café", "is", "next", "to", "the", "bank"], "correct": "The café is next to the bank" },
+      { "words": ["How", "much", "are", "these", "sneakers"], "correct": "How much are these sneakers" }
+    ],
+    "translation": [
+      {
+        "turkish": "Sola dön ve düz git.",
+        "english": "Turn left and go straight.",
+        "acceptAlso": ["Turn left and go straight"]
+      },
+      {
+        "turkish": "Bu ceket ne kadar?",
+        "english": "How much is this jacket?",
+        "acceptAlso": ["How much is this jacket"]
+      },
+      {
+        "turkish": "Kredi kartıyla ödeyebilir miyim?",
+        "english": "Can I pay by credit card?",
+        "acceptAlso": ["Can I pay by credit card", "Can I pay with credit card?", "Can I pay with a credit card?"]
+      },
+      {
+        "turkish": "Bu gömleği deneyebilir miyim?",
+        "english": "Can I try on this shirt?",
+        "acceptAlso": ["Can I try this shirt on?", "Can I try on this shirt"]
+      },
+      {
+        "turkish": "AVM parkın karşısında.",
+        "english": "The mall is opposite the park.",
+        "acceptAlso": ["The mall is opposite the park", "The mall is across from the park."]
+      },
+      {
+        "turkish": "Bugün büyük indirim var.",
+        "english": "There is a big sale today.",
+        "acceptAlso": ["There's a big sale today.", "There is a big sale today"]
+      },
+      {
+        "turkish": "İade yapmak istiyorum, lütfen.",
+        "english": "I'd like a refund, please.",
+        "acceptAlso": ["I would like a refund please", "I want a refund please", "I'd like a refund please"]
+      },
+      {
+        "turkish": "Fişi sakla.",
+        "english": "Keep the receipt.",
+        "acceptAlso": ["Keep the receipt"]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Shopping English - BBC Learning English",
+      "description": "Alışverişte kullanılan İngilizce ifadeler ve diyaloglar",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-11/session-1",
+      "type": "video",
+      "level": "A1-A2",
+      "free": true
+    },
+    {
+      "title": "Asking for and Giving Directions - British Council",
+      "description": "Yön tarifi sorma ve verme alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking/asking-for-directions",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Shopping Vocabulary - ISL Collective",
+      "description": "Alışveriş kelimeleri çalışma sayfaları ve oyunlar",
+      "url": "https://en.islcollective.com/english-esl-worksheets/vocabulary/shopping",
+      "type": "practice",
+      "level": "A1-A2",
+      "free": true
+    }
+  ]
+}

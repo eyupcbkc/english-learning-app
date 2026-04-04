@@ -1,0 +1,444 @@
+{
+  "id": "unit-10",
+  "title": "Can / Can't",
+  "titleTr": "Can / Can't - Yapabilmek / Yapamamak",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn to talk about abilities, make requests, and ask for permission using can and can't. Practice in a car rental scenario.",
+  "descriptionTr": "Can ve can't kullanarak yeteneklerden bahsetmeyi, istekte bulunmayı ve izin istemeyi öğren. Araç kiralama senaryosunda pratik yap.",
+
+  "vocabulary": [
+    {
+      "word": "drive",
+      "pronunciation": "drayv",
+      "turkish": "araba sürmek",
+      "example": "I can drive automatic cars, but I can't drive manual.",
+      "exampleTr": "Otomatik araba sürebilirim ama düz vites süremem.",
+      "extra": "Can you drive me to the airport tomorrow?",
+      "extraTr": "Yarın beni havalimanına bırakabilir misin?"
+    },
+    {
+      "word": "license",
+      "pronunciation": "LAY-sıns",
+      "turkish": "ehliyet / lisans",
+      "example": "Can I see your driver's license, please?",
+      "exampleTr": "Ehliyetinizi görebilir miyim, lütfen?",
+      "extra": "I got my license last year. Now I can drive anywhere!",
+      "extraTr": "Ehliyetimi geçen yıl aldım. Artık her yere gidebilirim!"
+    },
+    {
+      "word": "insurance",
+      "pronunciation": "in-ŞUR-ıns",
+      "turkish": "sigorta",
+      "example": "The insurance covers all damage to the car.",
+      "exampleTr": "Sigorta arabadaki tüm hasarı karşılıyor.",
+      "extra": "Can I add extra insurance for the trip?",
+      "extraTr": "Yolculuk için ekstra sigorta ekleyebilir miyim?"
+    },
+    {
+      "word": "automatic",
+      "pronunciation": "o-tı-ME-tik",
+      "turkish": "otomatik (vites)",
+      "example": "I want an automatic car because I can't drive manual.",
+      "exampleTr": "Otomatik araba istiyorum çünkü düz vites süremiyorum.",
+      "extra": "Most rental cars in America are automatic.",
+      "extraTr": "Amerika'daki kiralık arabaların çoğu otomatik."
+    },
+    {
+      "word": "manual",
+      "pronunciation": "MEN-yu-ıl",
+      "turkish": "manuel / düz vites",
+      "example": "Can you drive a manual car?",
+      "exampleTr": "Düz vites araba sürebilir misin?",
+      "extra": "Manual cars are cheaper to rent, but harder to drive.",
+      "extraTr": "Düz vites arabalar kiralamak için daha ucuz ama sürmek daha zor."
+    },
+    {
+      "word": "GPS",
+      "pronunciation": "cii-pii-es",
+      "turkish": "navigasyon / GPS",
+      "example": "Can I get a GPS with the car? I don't know the roads.",
+      "exampleTr": "Arabayla birlikte GPS alabilir miyim? Yolları bilmiyorum.",
+      "extra": "You can use your phone as a GPS.",
+      "extraTr": "Telefonunu GPS olarak kullanabilirsin."
+    },
+    {
+      "word": "fill up",
+      "pronunciation": "fil ap",
+      "turkish": "depoyu doldurmak / yakıt almak",
+      "example": "You can fill up the tank at any gas station.",
+      "exampleTr": "Depoyu herhangi bir benzin istasyonunda doldurabilirsiniz.",
+      "extra": "Please fill up the car before you return it.",
+      "extraTr": "Lütfen arabayı iade etmeden önce depoyu doldurun."
+    },
+    {
+      "word": "gas station",
+      "pronunciation": "ges STEY-şın",
+      "turkish": "benzin istasyonu",
+      "example": "Is there a gas station near the airport?",
+      "exampleTr": "Havalimanının yakınında bir benzin istasyonu var mı?",
+      "extra": "You can find a gas station on the highway easily.",
+      "extraTr": "Otoyolda kolayca bir benzin istasyonu bulabilirsin."
+    },
+    {
+      "word": "return",
+      "pronunciation": "ri-TÖRN",
+      "turkish": "iade etmek / geri vermek",
+      "example": "Can I return the car at a different location?",
+      "exampleTr": "Arabayı farklı bir yerde iade edebilir miyim?",
+      "extra": "You need to return the car before 5 PM.",
+      "extraTr": "Arabayı saat 17:00'den önce iade etmeniz gerekiyor."
+    },
+    {
+      "word": "damage",
+      "pronunciation": "DE-mic",
+      "turkish": "hasar",
+      "example": "Please check the car for any damage before you drive.",
+      "exampleTr": "Lütfen sürmeden önce arabada hasar olup olmadığını kontrol edin.",
+      "extra": "If there is damage, the insurance can cover it.",
+      "extraTr": "Hasar varsa sigorta karşılayabilir."
+    },
+    {
+      "word": "rent",
+      "pronunciation": "rent",
+      "turkish": "kiralamak / kira",
+      "example": "I want to rent a car for three days.",
+      "exampleTr": "Üç günlüğüne araba kiralamak istiyorum.",
+      "extra": "Can I rent a bigger car? This one is too small.",
+      "extraTr": "Daha büyük bir araba kiralayabilir miyim? Bu çok küçük."
+    },
+    {
+      "word": "deposit",
+      "pronunciation": "di-PO-zit",
+      "turkish": "depozito / güvence bedeli",
+      "example": "You need to pay a $200 deposit for the car.",
+      "exampleTr": "Araba için 200 dolar depozito ödemeniz gerekiyor.",
+      "extra": "Can I pay the deposit with a credit card?",
+      "extraTr": "Depozitoyu kredi kartıyla ödeyebilir miyim?"
+    },
+    {
+      "word": "mileage",
+      "pronunciation": "MAY-lic",
+      "turkish": "kilometre / mesafe",
+      "example": "Is the mileage unlimited or limited?",
+      "exampleTr": "Kilometre sınırsız mı yoksa sınırlı mı?",
+      "extra": "You can drive 300 miles per day with this plan.",
+      "extraTr": "Bu planla günde 300 mil sürebilirsiniz."
+    },
+    {
+      "word": "speed",
+      "pronunciation": "spiid",
+      "turkish": "hız",
+      "example": "You can't go over the speed limit on this road.",
+      "exampleTr": "Bu yolda hız sınırını aşamazsın.",
+      "extra": "The speed limit on the highway is 65 miles per hour.",
+      "extraTr": "Otoyoldaki hız sınırı saatte 65 mil."
+    },
+    {
+      "word": "highway",
+      "pronunciation": "HAY-vey",
+      "turkish": "otoyol",
+      "example": "Can I take the highway to get to the city center?",
+      "exampleTr": "Şehir merkezine gitmek için otoyolu kullanabilir miyim?",
+      "extra": "The highway is faster, but there is a toll.",
+      "extraTr": "Otoyol daha hızlı ama geçiş ücreti var."
+    },
+    {
+      "word": "traffic",
+      "pronunciation": "TRE-fik",
+      "turkish": "trafik",
+      "example": "I can't drive fast because of the heavy traffic.",
+      "exampleTr": "Yoğun trafik yüzünden hızlı süremiyorum.",
+      "extra": "Traffic is always bad in the morning.",
+      "extraTr": "Sabahları trafik her zaman kötü."
+    },
+    {
+      "word": "park",
+      "pronunciation": "park",
+      "turkish": "park etmek",
+      "example": "Can I park the car here?",
+      "exampleTr": "Arabayı buraya park edebilir miyim?",
+      "extra": "You can't park on this street after 6 PM.",
+      "extraTr": "Bu sokakta saat 18:00'den sonra park yapamazsın."
+    },
+    {
+      "word": "accident",
+      "pronunciation": "EK-si-dınt",
+      "turkish": "kaza",
+      "example": "If you have an accident, call the insurance company.",
+      "exampleTr": "Kaza yaparsanız sigorta şirketini arayın.",
+      "extra": "There was a big accident on the highway yesterday.",
+      "extraTr": "Dün otoyolda büyük bir kaza oldu."
+    },
+    {
+      "word": "engine",
+      "pronunciation": "EN-cin",
+      "turkish": "motor",
+      "example": "The engine sounds strange. Can you check it?",
+      "exampleTr": "Motor garip ses çıkarıyor. Kontrol edebilir misiniz?",
+      "extra": "This car has a powerful engine.",
+      "extraTr": "Bu arabanın güçlü bir motoru var."
+    },
+    {
+      "word": "brake",
+      "pronunciation": "breyk",
+      "turkish": "fren",
+      "example": "You need to press the brake slowly.",
+      "exampleTr": "Frene yavaşça basmanız gerekiyor.",
+      "extra": "The brakes on this car are very good.",
+      "extraTr": "Bu arabanın frenleri çok iyi."
+    },
+    {
+      "word": "mirror",
+      "pronunciation": "MIR-ır",
+      "turkish": "ayna",
+      "example": "Always check your mirror before you change lanes.",
+      "exampleTr": "Şerit değiştirmeden önce her zaman aynana bak.",
+      "extra": "Can you adjust the side mirrors for me?",
+      "extraTr": "Yan aynaları benim için ayarlayabilir misiniz?"
+    },
+    {
+      "word": "comfortable",
+      "pronunciation": "KAMF-tır-bıl",
+      "turkish": "rahat / konforlu",
+      "example": "This car is very comfortable for long trips.",
+      "exampleTr": "Bu araba uzun yolculuklar için çok rahat.",
+      "extra": "Can I get a more comfortable car?",
+      "extraTr": "Daha rahat bir araba alabilir miyim?"
+    },
+    {
+      "word": "directions",
+      "pronunciation": "di-REK-şınz",
+      "turkish": "yol tarifi",
+      "example": "Can you give me directions to the hotel?",
+      "exampleTr": "Otele giden yol tarifini verebilir misiniz?",
+      "extra": "I can't find the way. I need directions.",
+      "extraTr": "Yolu bulamıyorum. Yol tarifine ihtiyacım var."
+    },
+    {
+      "word": "map",
+      "pronunciation": "mep",
+      "turkish": "harita",
+      "example": "Can I get a map of the city?",
+      "exampleTr": "Şehrin haritasını alabilir miyim?",
+      "extra": "You can use Google Maps on your phone.",
+      "extraTr": "Telefonunda Google Maps kullanabilirsin."
+    },
+    {
+      "word": "charge",
+      "pronunciation": "çarc",
+      "turkish": "ücret / şarj etmek",
+      "example": "Is there an extra charge for the GPS?",
+      "exampleTr": "GPS için ekstra ücret var mı?",
+      "extra": "They can charge the fee to your credit card.",
+      "extraTr": "Ücreti kredi kartınıza yansıtabilirler."
+    },
+    {
+      "word": "upgrade",
+      "pronunciation": "ap-GREYD",
+      "turkish": "yükseltme / üst modele geçiş",
+      "example": "Can I upgrade to a bigger car?",
+      "exampleTr": "Daha büyük bir arabaya yükseltme yapabilir miyim?",
+      "extra": "The upgrade is only $10 more per day.",
+      "extraTr": "Yükseltme günlük sadece 10 dolar fazla."
+    },
+    {
+      "word": "sign",
+      "pronunciation": "sayn",
+      "turkish": "imzalamak",
+      "example": "Can you sign this rental agreement, please?",
+      "exampleTr": "Bu kiralama sözleşmesini imzalayabilir misiniz, lütfen?",
+      "extra": "Please sign here and here.",
+      "extraTr": "Lütfen buraya ve buraya imzalayın."
+    },
+    {
+      "word": "policy",
+      "pronunciation": "PO-lı-si",
+      "turkish": "poliçe / kural",
+      "example": "Our policy says you can't smoke in the car.",
+      "exampleTr": "Kurallarımıza göre arabada sigara içemezsiniz.",
+      "extra": "Can you explain the fuel policy?",
+      "extraTr": "Yakıt kuralını açıklayabilir misiniz?"
+    },
+    {
+      "word": "available",
+      "pronunciation": "ı-VEY-lı-bıl",
+      "turkish": "müsait / mevcut",
+      "example": "Is there a car available for this weekend?",
+      "exampleTr": "Bu hafta sonu için müsait bir araba var mı?",
+      "extra": "Sorry, SUVs are not available right now.",
+      "extraTr": "Üzgünüm, SUV'lar şu an mevcut değil."
+    },
+    {
+      "word": "pick up",
+      "pronunciation": "pik ap",
+      "turkish": "teslim almak / almak",
+      "example": "Where can I pick up the car?",
+      "exampleTr": "Arabayı nereden teslim alabilirim?",
+      "extra": "You can pick up the car at the airport counter.",
+      "extraTr": "Arabayı havalimanı gişesinden teslim alabilirsiniz."
+    }
+  ],
+
+  "grammar": {
+    "title": "Can / Can't — Abilities, Requests, Permission & Offers",
+    "titleTr": "Can / Can't — Yetenekler, İstekler, İzin ve Teklifler",
+    "explanation": "We use 'can' to talk about abilities (what we are able to do), to make requests (asking someone to do something), to ask for permission, and to make offers. 'Can' is always followed by the base form of the verb (no -s, no -ing, no 'to'). The negative is 'can't' (cannot).",
+    "explanationTr": "'Can' kullanarak yeteneklerden (yapabildiğimiz şeyler), isteklerden (birinden bir şey yapmasını istemek), izin istemekten ve teklif yapmaktan bahsederiz. 'Can' her zaman fiilin yalın haliyle kullanılır (-s, -ing, 'to' olmaz). Olumsuzu 'can't' (cannot) şeklindedir.",
+    "table": [
+      ["Ability (+)", "I can drive.", "Araba sürebilirim.", "can + fiil (yalın hal)"],
+      ["Ability (−)", "I can't drive manual.", "Düz vites süremem.", "can't (cannot) + fiil"],
+      ["Ability (?)", "Can you drive?", "Araba sürebilir misin?", "Can + özne + fiil?"],
+      ["Request", "Can you help me?", "Bana yardım edebilir misin?", "Can you + fiil?"],
+      ["Permission", "Can I park here?", "Buraya park edebilir miyim?", "Can I + fiil?"],
+      ["Offer", "I can pick you up.", "Seni alabilirim.", "I can + fiil"],
+      ["Short answer", "Yes, I can. / No, I can't.", "Evet, yapabilirim. / Hayır, yapamam.", "Yes/No + can/can't"]
+    ],
+    "tips": [
+      { "en": "Can + base verb (no 'to'!): I can drive. NOT: I can to drive.", "tr": "Can + yalın fiil ('to' olmaz!): I can drive. YANLIŞ: I can to drive." },
+      { "en": "Can is the same for all persons: I can, you can, he can, she can, we can, they can.", "tr": "Can tüm kişilerde aynı: I can, you can, he can, she can, we can, they can." },
+      { "en": "Can't = cannot (one word!). Pronunciation: kent (Amerikan).", "tr": "Can't = cannot (tek kelime!). Okunuşu: kent (Amerikan)." },
+      { "en": "Can you...? = request (polite). Can I...? = permission.", "tr": "Can you...? = rica/istek (kibar). Can I...? = izin isteme." },
+      { "en": "Short answers: Yes, I can. / No, I can't. (Never: Yes, I can drive.)", "tr": "Kısa cevap: Yes, I can. / No, I can't. (Asla: Yes, I can drive. olmaz kısa cevapta)" },
+      { "en": "Don't add -s: He can drive. NOT: He cans drive.", "tr": "-s ekleme: He can drive. YANLIŞ: He cans drive." }
+    ]
+  },
+
+  "reading": {
+    "text": "Last month, I rented a car in Antalya for a family vacation. I can drive automatic, but I can't drive manual, so I asked for an automatic car. The agent was very helpful.\n\nFirst, she asked for my driver's license and passport. Then she explained the insurance policy. I picked the full insurance because I can't be sure about other drivers on the road!\n\nThe car was a white SUV — very comfortable for a family of four. It had GPS, so I didn't need a map. I could find every restaurant and beach easily.\n\nThe rental company said I can return the car with a full tank or pay extra. I found a gas station near the airport and filled up the tank. That was cheaper!\n\nOne problem: I couldn't find parking at popular places. Turkish parking lots are always full in summer! But I can say the car made our vacation much better. We could visit small villages and hidden beaches that you can't reach by bus.\n\nCan I recommend renting a car on vacation? Absolutely! But make sure you can read the rental agreement carefully before you sign it.",
+    "textTr": "Geçen ay aile tatili için Antalya'da araba kiraladım. Otomatik sürebiliyorum ama düz vites süremiyorum, bu yüzden otomatik araba istedim. Görevli çok yardımcı oldu.\n\nÖnce ehliyetimi ve pasaportumu istedi. Sonra sigorta kurallarını açıkladı. Tam sigorta seçtim çünkü yoldaki diğer şoförlerden emin olamam!\n\nAraba beyaz bir SUV'du — dörtlük bir aile için çok rahat. GPS vardı, bu yüzden haritaya ihtiyacım olmadı. Her restoranı ve plajı kolayca bulabildim.\n\nKiralama şirketi arabayı dolu depoyla iade edebileceğimi ya da ekstra ödeyebileceğimi söyledi. Havalimanı yakınında bir benzin istasyonu buldum ve depoyu doldurdum. O daha ucuzdu!\n\nBir sorun: Popüler yerlerde park yeri bulamadım. Türk otoparklari yazın hep dolu! Ama şunu söyleyebilirim ki araba tatilimizi çok daha iyi yaptı. Otobüsle ulaşamayacağınız küçük köyleri ve gizli plajları ziyaret edebildik.\n\nTatilde araba kiralamayı tavsiye edebilir miyim? Kesinlikle! Ama imzalamadan önce kiralama sözleşmesini dikkatli okuyabildiğinizden emin olun.",
+    "questions": [
+      {
+        "question": "Why did the writer ask for an automatic car?",
+        "questionTr": "Yazar neden otomatik araba istedi?",
+        "options": ["Automatic is cheaper", "He can't drive manual", "Manual was not available", "He likes automatic better"],
+        "correct": 1
+      },
+      {
+        "question": "What kind of insurance did he pick?",
+        "questionTr": "Hangi sigortayı seçti?",
+        "options": ["No insurance", "Basic insurance", "Full insurance", "Premium insurance"],
+        "correct": 2
+      },
+      {
+        "question": "How did he find restaurants and beaches?",
+        "questionTr": "Restoranları ve plajları nasıl buldu?",
+        "options": ["He asked people", "He used a paper map", "He used the GPS in the car", "He followed other cars"],
+        "correct": 2
+      },
+      {
+        "question": "What was the parking problem?",
+        "questionTr": "Park sorunu neydi?",
+        "options": ["Parking was very expensive", "He couldn't find parking at popular places", "His car was too big", "There were no parking lots"],
+        "correct": 1
+      },
+      {
+        "question": "What does the writer recommend before signing?",
+        "questionTr": "Yazar imzalamadan önce ne tavsiye ediyor?",
+        "options": ["Take photos of the car", "Read the rental agreement carefully", "Ask for a discount", "Check the engine"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ drive automatic, but I can't drive manual.", "answer": "can", "hint": "yapabilmek - olumlu" },
+      { "sentence": "Can I ___ your driver's license, please?", "answer": "see", "hint": "görmek" },
+      { "sentence": "You ___ park on this street. It's not allowed.", "answer": "can't", "hint": "yapamamak - olumsuz" },
+      { "sentence": "She ___ speak three languages: Turkish, English, and German.", "answer": "can", "hint": "yapabilmek - yetenek" },
+      { "sentence": "___ you help me with the GPS?", "answer": "Can", "hint": "rica - soru" },
+      { "sentence": "We ___ return the car at the airport or downtown.", "answer": "can", "hint": "yapabilmek - seçenek" },
+      { "sentence": "He ___ find the gas station. He needs directions.", "answer": "can't", "hint": "yapamamak - sorun" },
+      { "sentence": "Can I ___ up to a bigger car?", "answer": "upgrade", "hint": "yükseltme yapmak" },
+      { "sentence": "Please ___ the rental agreement before you leave.", "answer": "sign", "hint": "imzalamak" },
+      { "sentence": "The ___ covers all damage to the car.", "answer": "insurance", "hint": "sigorta" },
+      { "sentence": "You need to fill ___ the tank before returning the car.", "answer": "up", "hint": "depoyu doldurmak - fill ___" },
+      { "sentence": "Is there a car ___ for this weekend?", "answer": "available", "hint": "müsait / mevcut" }
+    ],
+    "multipleChoice": [
+      { "question": "\"I ___ drive.\" Doğru olan hangisi?", "options": ["can to drive", "can drive", "can drives", "cans drive"], "correct": 1 },
+      { "question": "\"Can you drive?\" sorusuna kısa cevap:", "options": ["Yes, I can drive.", "Yes, I can.", "Yes, I do.", "Yes, I am."], "correct": 1 },
+      { "question": "\"Buraya park edebilir miyim?\" İngilizce'de hangisi?", "options": ["Do I park here?", "Am I park here?", "Can I park here?", "I can park here?"], "correct": 2 },
+      { "question": "\"can not\" doğru yazılışı nedir?", "options": ["can not", "cannot", "can't", "Hem 'cannot' hem 'can't' doğru"], "correct": 3 },
+      { "question": "\"Düz vites süremem\" İngilizce'de hangisi?", "options": ["I don't can drive manual.", "I can't drive manual.", "I am not can drive manual.", "I can not to drive manual."], "correct": 1 },
+      { "question": "\"Ehliyet\" İngilizce'de hangisi?", "options": ["insurance", "policy", "license", "deposit"], "correct": 2 },
+      { "question": "He ___ speak French. He only speaks Turkish.", "options": ["can", "can't", "cans", "don't can"], "correct": 1 },
+      { "question": "\"Depozito\" İngilizce'de hangisi?", "options": ["charge", "mileage", "deposit", "damage"], "correct": 2 },
+      { "question": "\"___ I help you?\" Bu cümle ne anlama gelir?", "options": ["İzin isteme", "Yetenek", "Teklif / Yardım teklifi", "Olumsuz cümle"], "correct": 2 },
+      { "question": "\"Kaza\" İngilizce'de hangisi?", "options": ["engine", "brake", "accident", "damage"], "correct": 2 }
+    ],
+    "matching": [
+      { "left": "drive", "right": "araba sürmek" },
+      { "left": "license", "right": "ehliyet" },
+      { "left": "insurance", "right": "sigorta" },
+      { "left": "automatic", "right": "otomatik vites" },
+      { "left": "GPS", "right": "navigasyon" },
+      { "left": "fill up", "right": "depoyu doldurmak" },
+      { "left": "gas station", "right": "benzin istasyonu" },
+      { "left": "return", "right": "iade etmek" },
+      { "left": "damage", "right": "hasar" },
+      { "left": "rent", "right": "kiralamak" },
+      { "left": "deposit", "right": "depozito" },
+      { "left": "highway", "right": "otoyol" },
+      { "left": "accident", "right": "kaza" },
+      { "left": "engine", "right": "motor" },
+      { "left": "brake", "right": "fren" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "can", "drive", "automatic", "cars"], "correct": "I can drive automatic cars" },
+      { "words": ["Can", "I", "see", "your", "license"], "correct": "Can I see your license" },
+      { "words": ["You", "can't", "park", "on", "this", "street"], "correct": "You can't park on this street" },
+      { "words": ["Can", "you", "help", "me", "with", "the", "GPS"], "correct": "Can you help me with the GPS" },
+      { "words": ["She", "can", "speak", "three", "languages"], "correct": "She can speak three languages" },
+      { "words": ["I", "can't", "find", "the", "gas", "station"], "correct": "I can't find the gas station" },
+      { "words": ["Can", "I", "return", "the", "car", "tomorrow"], "correct": "Can I return the car tomorrow" },
+      { "words": ["We", "can", "pick", "up", "the", "car", "at", "the", "airport"], "correct": "We can pick up the car at the airport" },
+      { "words": ["He", "can't", "drive", "on", "the", "highway"], "correct": "He can't drive on the highway" }
+    ],
+    "translation": [
+      { "turkish": "Araba sürebilir misin?", "english": "Can you drive?", "acceptAlso": ["Can you drive a car?", "Can you drive a car"] },
+      { "turkish": "Buraya park edemezsin.", "english": "You can't park here.", "acceptAlso": ["You cannot park here.", "You can't park here"] },
+      { "turkish": "Ehliyetinizi görebilir miyim?", "english": "Can I see your license?", "acceptAlso": ["Can I see your driver's license?", "Can I see your license"] },
+      { "turkish": "Düz vites süremem.", "english": "I can't drive manual.", "acceptAlso": ["I cannot drive manual.", "I can't drive manual"] },
+      { "turkish": "Arabayı havalimanında iade edebilirsiniz.", "english": "You can return the car at the airport.", "acceptAlso": ["You can return the car at the airport"] },
+      { "turkish": "Daha büyük bir arabaya yükseltme yapabilir miyim?", "english": "Can I upgrade to a bigger car?", "acceptAlso": ["Can I upgrade to a bigger car"] },
+      { "turkish": "Bana yol tarifi verebilir misiniz?", "english": "Can you give me directions?", "acceptAlso": ["Can you give me directions"] },
+      { "turkish": "Bu hafta sonu müsait araba var mı?", "english": "Is there a car available this weekend?", "acceptAlso": ["Is there an available car this weekend?", "Is there a car available for this weekend?"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "At the Rent-A-Car Office",
+    "titleTr": "Araç Kiralama Ofisinde",
+    "context": "Eyüp tatil için Antalya'ya geldi ve havalimanındaki araç kiralama ofisine gidiyor. Görevli kadın ona yardım ediyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Agent", "text": "Good morning! Welcome to SunRent Car Rental. How can I help you?", "textTr": "Günaydın! SunRent Araç Kiralama'ya hoş geldiniz. Size nasıl yardımcı olabilirim?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning! I want to rent a car for five days. Do you have anything available?", "textTr": "Günaydın! Beş günlüğüne araba kiralamak istiyorum. Müsait arabanız var mı?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "Sure! Can you drive manual or automatic?", "textTr": "Tabii! Düz vites mi otomatik mi sürebiliyorsunuz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I can drive automatic, but I can't drive manual, unfortunately.", "textTr": "Otomatik sürebiliyorum ama maalesef düz vites süremiyorum." },
+      { "speaker": "A", "speakerName": "Agent", "text": "No problem! We have a nice automatic sedan. Or I can upgrade you to an SUV for just $10 more per day.", "textTr": "Sorun değil! Güzel bir otomatik sedan var. Ya da günlük sadece 10 dolar fazlasına sizi SUV'a yükseltebilirim." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "An SUV sounds great! My family is with me, so we need a comfortable car. Can I also get a GPS?", "textTr": "SUV harika olur! Ailem de yanımda, o yüzden rahat bir araba lazım. GPS de alabilir miyim?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "Of course! The GPS is free with the SUV. Can I see your driver's license and passport, please?", "textTr": "Tabii ki! SUV ile GPS ücretsiz. Ehliyetinizi ve pasaportunuzu görebilir miyim, lütfen?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Here you go. Do I need insurance?", "textTr": "Buyurun. Sigortaya ihtiyacım var mı?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "I strongly recommend full insurance. It covers all damage. You can't be too careful on vacation!", "textTr": "Tam sigortayı kesinlikle tavsiye ederim. Tüm hasarı karşılıyor. Tatilde çok dikkatli olmak lazım!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Okay, I'll take the full insurance. What about the fuel policy?", "textTr": "Tamam, tam sigortayı alayım. Yakıt kuralı ne peki?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "You can return the car with a full tank, or we can charge you for the gas. Filling up yourself is cheaper. There is a gas station five minutes from the airport.", "textTr": "Arabayı dolu depoyla iade edebilirsiniz ya da benzin ücretini biz yansıtabiliriz. Kendiniz doldurmanız daha ucuz. Havalimanından beş dakika uzaklıkta benzin istasyonu var." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I can fill up before returning, no problem. Where can I pick up the car?", "textTr": "İade etmeden önce doldurabilirim, sorun değil. Arabayı nereden teslim alabilirim?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "The parking lot is right outside. Just sign here, please. And here is your key! You can't miss it — it's the white SUV in row B. Drive safely and enjoy your vacation!", "textTr": "Otopark tam dışarıda. Buraya imzalayın lütfen. Ve işte anahtarınız! Kaçırmazsınız — B sırasındaki beyaz SUV. Güvenli sürün ve tatilin tadını çıkarın!" }
+    ],
+    "questions": [
+      { "question": "How many days does Eyüp want to rent the car?", "questionTr": "Eyüp kaç gün araba kiralamak istiyor?", "options": ["Three days", "Four days", "Five days", "One week"], "correct": 2 },
+      { "question": "Can Eyüp drive manual?", "questionTr": "Eyüp düz vites sürebilir mi?", "options": ["Yes, he can", "No, he can't", "Yes, but he prefers automatic", "He didn't say"], "correct": 1 },
+      { "question": "Why does Eyüp choose an SUV?", "questionTr": "Eyüp neden SUV seçiyor?", "options": ["It's cheaper", "His family is with him", "It's the only available car", "He likes fast cars"], "correct": 1 },
+      { "question": "How much extra is the GPS?", "questionTr": "GPS ne kadar ekstra?", "options": ["$5 per day", "$10 per day", "It's free with the SUV", "$20 total"], "correct": 2 },
+      { "question": "What does the agent recommend about fuel?", "questionTr": "Görevli yakıt konusunda ne tavsiye ediyor?", "options": ["Pay the company for gas", "Fill up yourself — it's cheaper", "Don't worry about gas", "Use electric charging"], "correct": 1 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Can/Can't - British Council", "description": "Can/can't interaktif alıştırmalar ve açıklamalar", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/can-cant", "type": "practice", "level": "A1", "free": true },
+    { "title": "Can for Ability - BBC Learning English", "description": "Video ile can/can't kullanımı", "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1/session-3", "type": "video", "level": "A1-A2", "free": true },
+    { "title": "Car Rental Vocabulary - ESL", "description": "Araç kiralama kelimeleri ve diyaloglar", "url": "https://www.eslfast.com/robot/topics/carrent/carrent.htm", "type": "article", "level": "A1-A2", "free": true }
+  ]
+}

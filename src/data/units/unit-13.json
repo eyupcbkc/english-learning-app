@@ -1,0 +1,560 @@
+{
+  "id": "unit-13",
+  "title": "Past Simple - Irregular Verbs (Top 30)",
+  "titleTr": "Geçmiş Zaman - Düzensiz Fiiller (En Önemli 30)",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn the 30 most common irregular verbs in past simple through a travel blog about Istanbul.",
+  "descriptionTr": "İstanbul hakkında bir seyahat blogu üzerinden en yaygın 30 düzensiz fiilin geçmiş zamanını öğren.",
+
+  "vocabulary": [
+    {
+      "word": "go → went",
+      "pronunciation": "VENT",
+      "turkish": "gitmek → gitti",
+      "example": "I went to Istanbul last summer.",
+      "exampleTr": "Geçen yaz İstanbul'a gittim.",
+      "extra": "We went to the Grand Bazaar on Saturday.",
+      "extraTr": "Cumartesi günü Kapalıçarşı'ya gittik."
+    },
+    {
+      "word": "see → saw",
+      "pronunciation": "SOO",
+      "turkish": "görmek → gördü",
+      "example": "I saw the Blue Mosque for the first time.",
+      "exampleTr": "Sultanahmet Camii'ni ilk kez gördüm.",
+      "extra": "We saw beautiful sunsets from the Bosphorus.",
+      "extraTr": "Boğaz'dan güzel gün batımları gördük."
+    },
+    {
+      "word": "eat → ate",
+      "pronunciation": "EYT",
+      "turkish": "yemek → yedi",
+      "example": "I ate the best kebab in Sultanahmet.",
+      "exampleTr": "Sultanahmet'te en iyi kebabı yedim.",
+      "extra": "We ate fresh fish at the Galata Bridge.",
+      "extraTr": "Galata Köprüsü'nde taze balık yedik."
+    },
+    {
+      "word": "drink → drank",
+      "pronunciation": "DRENK",
+      "turkish": "içmek → içti",
+      "example": "I drank Turkish tea everywhere I went.",
+      "exampleTr": "Gittiğim her yerde Türk çayı içtim.",
+      "extra": "She drank fresh pomegranate juice at the bazaar.",
+      "extraTr": "Çarşıda taze nar suyu içti."
+    },
+    {
+      "word": "buy → bought",
+      "pronunciation": "BOOT",
+      "turkish": "satın almak → satın aldı",
+      "example": "I bought a beautiful carpet in Istanbul.",
+      "exampleTr": "İstanbul'da güzel bir halı satın aldım.",
+      "extra": "She bought Turkish delight for her family.",
+      "extraTr": "Ailesi için lokum satın aldı."
+    },
+    {
+      "word": "take → took",
+      "pronunciation": "TUUK",
+      "turkish": "almak / çekmek → aldı / çekti",
+      "example": "I took many photos of the Hagia Sophia.",
+      "exampleTr": "Ayasofya'nın çok fotoğrafını çektim.",
+      "extra": "We took a boat tour on the Bosphorus.",
+      "extraTr": "Boğaz'da tekne turu yaptık."
+    },
+    {
+      "word": "make → made",
+      "pronunciation": "MEYD",
+      "turkish": "yapmak → yaptı",
+      "example": "I made new friends during my trip.",
+      "exampleTr": "Seyahatim sırasında yeni arkadaşlar edindim.",
+      "extra": "She made a reservation at the hotel.",
+      "extraTr": "Otelde rezervasyon yaptı."
+    },
+    {
+      "word": "come → came",
+      "pronunciation": "KEYM",
+      "turkish": "gelmek → geldi",
+      "example": "My friend Jake came to Istanbul with me.",
+      "exampleTr": "Arkadaşım Jake benimle İstanbul'a geldi.",
+      "extra": "Many tourists came to Turkey last year.",
+      "extraTr": "Geçen yıl birçok turist Türkiye'ye geldi."
+    },
+    {
+      "word": "have → had",
+      "pronunciation": "HED",
+      "turkish": "sahip olmak → sahip oldu",
+      "example": "We had an amazing time in Istanbul.",
+      "exampleTr": "İstanbul'da harika vakit geçirdik.",
+      "extra": "I had breakfast at the hotel every morning.",
+      "extraTr": "Her sabah otelde kahvaltı yaptım."
+    },
+    {
+      "word": "get → got",
+      "pronunciation": "GAT",
+      "turkish": "almak / elde etmek → aldı",
+      "example": "I got a taxi from the airport.",
+      "exampleTr": "Havalimanından taksi tuttum.",
+      "extra": "We got lost in the old streets of Balat.",
+      "extraTr": "Balat'ın eski sokaklarında kaybolduk."
+    },
+    {
+      "word": "know → knew",
+      "pronunciation": "NYUU",
+      "turkish": "bilmek → bildi",
+      "example": "I knew nothing about Istanbul before my trip.",
+      "exampleTr": "Seyahatimden önce İstanbul hakkında hiçbir şey bilmiyordum.",
+      "extra": "She knew the best restaurants in the city.",
+      "extraTr": "Şehirdeki en iyi restoranları biliyordu."
+    },
+    {
+      "word": "think → thought",
+      "pronunciation": "TOOT",
+      "turkish": "düşünmek → düşündü",
+      "example": "I thought the food was incredible.",
+      "exampleTr": "Yemeklerin inanılmaz olduğunu düşündüm.",
+      "extra": "We thought the bazaar would be small, but it was huge!",
+      "extraTr": "Çarşının küçük olacağını düşündük ama devasa çıktı!"
+    },
+    {
+      "word": "find → found",
+      "pronunciation": "FAUND",
+      "turkish": "bulmak → buldu",
+      "example": "I found a great little café near Taksim.",
+      "exampleTr": "Taksim yakınında harika küçük bir kafe buldum.",
+      "extra": "We found cheap souvenirs at the Spice Bazaar.",
+      "extraTr": "Mısır Çarşısı'nda ucuz hediyelikler bulduk."
+    },
+    {
+      "word": "give → gave",
+      "pronunciation": "GEYV",
+      "turkish": "vermek → verdi",
+      "example": "The waiter gave us free tea after dinner.",
+      "exampleTr": "Garson bize yemekten sonra bedava çay verdi.",
+      "extra": "I gave my friend a Turkish coffee set as a gift.",
+      "extraTr": "Arkadaşıma hediye olarak Türk kahvesi seti verdim."
+    },
+    {
+      "word": "tell → told",
+      "pronunciation": "TOLD",
+      "turkish": "söylemek / anlatmak → söyledi / anlattı",
+      "example": "I told Jake about the best places to visit.",
+      "exampleTr": "Jake'e gezilecek en iyi yerleri anlattım.",
+      "extra": "The tour guide told us the history of Topkapı Palace.",
+      "extraTr": "Tur rehberi bize Topkapı Sarayı'nın tarihini anlattı."
+    },
+    {
+      "word": "leave → left",
+      "pronunciation": "LEFT",
+      "turkish": "ayrılmak / bırakmak → ayrıldı",
+      "example": "We left Istanbul on Sunday morning.",
+      "exampleTr": "Pazar sabahı İstanbul'dan ayrıldık.",
+      "extra": "I left my heart in Istanbul!",
+      "extraTr": "Kalbimi İstanbul'da bıraktım!"
+    },
+    {
+      "word": "feel → felt",
+      "pronunciation": "FELT",
+      "turkish": "hissetmek → hissetti",
+      "example": "I felt so happy when I visited the Bosphorus.",
+      "exampleTr": "Boğaz'ı ziyaret ettiğimde çok mutlu hissettim.",
+      "extra": "We felt tired after walking all day.",
+      "extraTr": "Bütün gün yürüdükten sonra yorgun hissettik."
+    },
+    {
+      "word": "become → became",
+      "pronunciation": "bi-KEYM",
+      "turkish": "olmak / haline gelmek → oldu",
+      "example": "Istanbul became my favorite city.",
+      "exampleTr": "İstanbul en sevdiğim şehir oldu.",
+      "extra": "The weather became cold in the evening.",
+      "extraTr": "Akşam hava soğudu."
+    },
+    {
+      "word": "run → ran",
+      "pronunciation": "REN",
+      "turkish": "koşmak → koştu",
+      "example": "We ran to catch the ferry.",
+      "exampleTr": "Vapuru yakalamak için koştuk.",
+      "extra": "I ran along the Bosphorus every morning.",
+      "extraTr": "Her sabah Boğaz boyunca koştum."
+    },
+    {
+      "word": "write → wrote",
+      "pronunciation": "ROUT",
+      "turkish": "yazmak → yazdı",
+      "example": "I wrote a blog post about my Istanbul trip.",
+      "exampleTr": "İstanbul seyahatim hakkında bir blog yazısı yazdım.",
+      "extra": "She wrote postcards to her friends back home.",
+      "extraTr": "Evdeki arkadaşlarına kartpostal yazdı."
+    },
+    {
+      "word": "read → read",
+      "pronunciation": "RED",
+      "turkish": "okumak → okudu",
+      "example": "I read about Istanbul's history before my trip.",
+      "exampleTr": "Seyahatimden önce İstanbul'un tarihi hakkında okudum.",
+      "extra": "She read the menu in Turkish — very impressive!",
+      "extraTr": "Menüyü Türkçe okudu — çok etkileyici!"
+    },
+    {
+      "word": "speak → spoke",
+      "pronunciation": "SPOUK",
+      "turkish": "konuşmak → konuştu",
+      "example": "I spoke a little Turkish at the market.",
+      "exampleTr": "Pazarda biraz Türkçe konuştum.",
+      "extra": "The hotel manager spoke perfect English.",
+      "extraTr": "Otel müdürü mükemmel İngilizce konuştu."
+    },
+    {
+      "word": "meet → met",
+      "pronunciation": "MET",
+      "turkish": "tanışmak / buluşmak → tanıştı",
+      "example": "I met many kind people in Istanbul.",
+      "exampleTr": "İstanbul'da birçok iyi insanla tanıştım.",
+      "extra": "We met our tour guide at the hotel lobby.",
+      "extraTr": "Tur rehberimizle otel lobisinde buluştuk."
+    },
+    {
+      "word": "pay → paid",
+      "pronunciation": "PEYD",
+      "turkish": "ödemek → ödedi",
+      "example": "I paid 50 lira for the boat tour.",
+      "exampleTr": "Tekne turu için 50 lira ödedim.",
+      "extra": "We paid with credit card at the restaurant.",
+      "extraTr": "Restoranda kredi kartıyla ödedik."
+    },
+    {
+      "word": "sell → sold",
+      "pronunciation": "SOLD",
+      "turkish": "satmak → sattı",
+      "example": "The man sold handmade jewelry at the bazaar.",
+      "exampleTr": "Adam çarşıda el yapımı takı sattı.",
+      "extra": "They sold out all the baklava before noon.",
+      "extraTr": "Öğleden önce tüm baklavayı sattılar."
+    },
+    {
+      "word": "send → sent",
+      "pronunciation": "SENT",
+      "turkish": "göndermek → gönderdi",
+      "example": "I sent photos to my family every day.",
+      "exampleTr": "Aileme her gün fotoğraf gönderdim.",
+      "extra": "She sent a postcard from Istanbul.",
+      "extraTr": "İstanbul'dan kartpostal gönderdi."
+    },
+    {
+      "word": "catch → caught",
+      "pronunciation": "KOOT",
+      "turkish": "yakalamak / yetişmek → yakaladı",
+      "example": "We caught the last ferry to Kadıköy.",
+      "exampleTr": "Kadıköy'e son vapura yetiştik.",
+      "extra": "I almost didn't catch my flight home.",
+      "extraTr": "Eve dönüş uçağıma neredeyse yetişemiyordum."
+    },
+    {
+      "word": "fly → flew",
+      "pronunciation": "FLUU",
+      "turkish": "uçmak → uçtu",
+      "example": "I flew from Ankara to Istanbul.",
+      "exampleTr": "Ankara'dan İstanbul'a uçtum.",
+      "extra": "We flew Turkish Airlines — great service!",
+      "extraTr": "Türk Hava Yolları ile uçtuk — harika hizmet!"
+    },
+    {
+      "word": "drive → drove",
+      "pronunciation": "DROUV",
+      "turkish": "sürmek → sürdü",
+      "example": "We drove along the coast to the Black Sea.",
+      "exampleTr": "Karadeniz'e sahil boyunca araba sürdük.",
+      "extra": "He drove us to the airport early in the morning.",
+      "extraTr": "Bizi sabah erkenden havalimanına götürdü."
+    },
+    {
+      "word": "lose → lost",
+      "pronunciation": "LOST",
+      "turkish": "kaybetmek → kaybetti",
+      "example": "I lost my map in the Grand Bazaar.",
+      "exampleTr": "Kapalıçarşı'da haritamı kaybettim.",
+      "extra": "She lost her phone on the bus, but someone returned it.",
+      "extraTr": "Otobüste telefonunu kaybetti ama biri geri getirdi."
+    }
+  ],
+
+  "grammar": {
+    "title": "Past Simple — Irregular Verbs + Was/Were",
+    "titleTr": "Geçmiş Zaman — Düzensiz Fiiller + Was/Were",
+    "explanation": "Some verbs don't add -ed in the past. They change completely! You must memorize each one. The verb 'be' becomes 'was' (I/he/she/it) or 'were' (you/we/they). Questions and negatives still use 'did/didn't' + base form — just like regular verbs.",
+    "explanationTr": "Bazı fiiller geçmiş zamanda -ed almaz. Tamamen değişirler! Her birini ezberlemen gerekir. 'Be' fiili 'was' (I/he/she/it) veya 'were' (you/we/they) olur. Sorular ve olumsuz cümleler hala 'did/didn't' + yalın fiil kullanır — tıpkı düzenli fiiller gibi.",
+    "table": [
+      ["I went / I saw", "Ben gittim / Ben gördüm", "Olumlu: özne + düzensiz fiil (V2)", "I ate fish. She bought a bag."],
+      ["I didn't go / I didn't see", "Gitmedim / Görmedim", "Olumsuz: özne + didn't + yalın fiil (V1)", "I didn't eat meat. She didn't buy it."],
+      ["Did you go? / Did she see?", "Gittin mi? / Gördü mü?", "Soru: Did + özne + yalın fiil (V1)?", "Did you eat? Did she buy a carpet?"],
+      ["I was / He was / She was", "Ben ...dım / O ...dı", "Was → I, he, she, it ile kullanılır", "I was tired. She was happy."],
+      ["You were / We were / They were", "Sen ...dın / Biz ...dık", "Were → you, we, they ile kullanılır", "You were great. We were at the hotel."],
+      ["Was he...? / Were they...?", "O ...mıydı? / Onlar ...mıydı?", "Soru: Was/Were + özne?", "Was he at home? Were they happy?"],
+      ["He wasn't / They weren't", "O değildi / Onlar değildi", "Olumsuz: wasn't / weren't", "He wasn't late. They weren't bored."]
+    ],
+    "tips": [
+      { "en": "go → went, come → came, become → became", "tr": "Bu üçlü benzer değişim gösterir — hepsinin sonu '-ame/-ent' gibi" },
+      { "en": "think → thought, buy → bought, catch → caught", "tr": "'ought' grubu: düşünmek, satın almak, yakalamak — hepsi '-ought/-aught' olur" },
+      { "en": "feel → felt, leave → left, meet → met", "tr": "Kısa değişim grubu: sadece son harfler değişir" },
+      { "en": "Did you go? (NOT: Did you went?)", "tr": "Soru ve olumsuzda ASLA V2 kullanma! Did + V1 (yalın fiil)" },
+      { "en": "read → read (same spelling, different sound!)", "tr": "'read' yazılışı aynı kalır ama okunuşu değişir: 'riid' → 'red'" },
+      { "en": "I was happy. NOT: I were happy.", "tr": "'I' ile her zaman 'was' kullan, 'were' değil!" }
+    ]
+  },
+
+  "reading": {
+    "text": "Last summer, I went to Istanbul for five days. It was my first time there, and I had an amazing experience!\n\nOn the first day, I took a taxi from the airport to my hotel in Sultanahmet. I saw the Blue Mosque from the car window — it was beautiful! I felt so excited.\n\nThe next morning, I ate a traditional Turkish breakfast at a small café. I drank three cups of tea! Then I went to the Grand Bazaar and bought souvenirs for my family. I found beautiful handmade ceramics and paid only 80 lira.\n\nOn day three, I met a local guide named Ahmet. He told me many stories about Istanbul's history. We went to Topkapı Palace and I saw where the sultans lived. I took over 200 photos!\n\nI also flew to the Asian side by ferry — well, I didn't fly, I took the ferry! I ate fresh fish at Kadıköy market and drank fresh pomegranate juice. The food was incredible.\n\nOn my last day, I wrote postcards and sent them to my friends. I left Istanbul with a heavy heart. I thought about my trip all the way home. Istanbul became my favorite city in the world. I lost my heart there, and I knew I would come back!",
+    "textTr": "Geçen yaz beş günlüğüne İstanbul'a gittim. İlk kez gidiyordum ve harika bir deneyim yaşadım!\n\nİlk gün havalimanından Sultanahmet'teki otelime taksi tuttum. Araba camından Sultanahmet Camii'ni gördüm — çok güzeldi! Çok heyecanlı hissettim.\n\nErtesi sabah küçük bir kafede geleneksel Türk kahvaltısı yaptım. Üç fincan çay içtim! Sonra Kapalıçarşı'ya gittim ve aileme hediyelik eşyalar aldım. Güzel el yapımı seramikler buldum ve sadece 80 lira ödedim.\n\nÜçüncü gün Ahmet adında yerel bir rehberle tanıştım. Bana İstanbul'un tarihi hakkında birçok hikaye anlattı. Topkapı Sarayı'na gittik ve sultanların yaşadığı yeri gördüm. 200'den fazla fotoğraf çektim!\n\nAyrıca Anadolu yakasına vapurla geçtim — yani uçmadım, vapur aldım! Kadıköy pazarında taze balık yedim ve taze nar suyu içtim. Yemekler inanılmazdı.\n\nSon günümde kartpostal yazdım ve arkadaşlarıma gönderdim. İstanbul'dan ağır bir kalple ayrıldım. Eve dönüş boyunca seyahatimi düşündüm. İstanbul dünyadaki en sevdiğim şehir oldu. Kalbimi orada kaybettim ve geri döneceğimi biliyordum!",
+    "questions": [
+      {
+        "question": "How many days did the writer spend in Istanbul?",
+        "questionTr": "Yazar İstanbul'da kaç gün geçirdi?",
+        "options": ["Three days", "Five days", "One week", "Ten days"],
+        "correct": 1
+      },
+      {
+        "question": "What did the writer buy at the Grand Bazaar?",
+        "questionTr": "Yazar Kapalıçarşı'dan ne aldı?",
+        "options": ["Clothes", "Jewelry", "Handmade ceramics", "Books"],
+        "correct": 2
+      },
+      {
+        "question": "Who told the writer about Istanbul's history?",
+        "questionTr": "Yazara İstanbul'un tarihini kim anlattı?",
+        "options": ["A friend", "A taxi driver", "A local guide named Ahmet", "A hotel manager"],
+        "correct": 2
+      },
+      {
+        "question": "What did the writer eat at Kadıköy market?",
+        "questionTr": "Yazar Kadıköy pazarında ne yedi?",
+        "options": ["Kebab", "Fresh fish", "Baklava", "Lahmacun"],
+        "correct": 1
+      },
+      {
+        "question": "How did the writer feel about leaving Istanbul?",
+        "questionTr": "Yazar İstanbul'dan ayrılırken nasıl hissetti?",
+        "options": ["Happy to leave", "Bored", "Sad — left with a heavy heart", "Angry"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "What Did You Do in Istanbul?",
+    "titleTr": "İstanbul'da Ne Yaptın?",
+    "context": "Eyüp, Amerikalı arkadaşı Jake ile video arama yapıyor. Jake, Eyüp'ün İstanbul seyahatini merak ediyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Jake", "text": "Hey Eyüp! So, how was your Istanbul trip?", "textTr": "Hey Eyüp! İstanbul seyahatin nasıldı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "It was amazing, Jake! I had the best time.", "textTr": "Harikaydı, Jake! En güzel zamanı geçirdim." },
+      { "speaker": "A", "speakerName": "Jake", "text": "Awesome! What did you do on the first day?", "textTr": "Harika! İlk gün ne yaptın?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I went to the Blue Mosque and I saw the Hagia Sophia. They were incredible!", "textTr": "Sultanahmet Camii'ne gittim ve Ayasofya'yı gördüm. İnanılmazdılar!" },
+      { "speaker": "A", "speakerName": "Jake", "text": "Did you take a lot of photos?", "textTr": "Çok fotoğraf çektin mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes! I took over 500 photos. My phone ran out of storage!", "textTr": "Evet! 500'den fazla fotoğraf çektim. Telefonumun hafızası doldu!" },
+      { "speaker": "A", "speakerName": "Jake", "text": "Ha! What about the food? Did you eat anything special?", "textTr": "Ha! Peki yemekler? Özel bir şey yedin mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Oh man, I ate so much! I had kebab, fresh fish, and baklava. I drank Turkish tea everywhere.", "textTr": "Aman tanrım, çok yedim! Kebap, taze balık ve baklava yedim. Her yerde Türk çayı içtim." },
+      { "speaker": "A", "speakerName": "Jake", "text": "That sounds delicious. Did you buy anything at the bazaar?", "textTr": "Çok lezzetli görünüyor. Çarşıda bir şey aldın mı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I bought a carpet and some spices. I also found beautiful ceramics and I sent some to my mom.", "textTr": "Bir halı ve biraz baharat aldım. Ayrıca güzel seramikler buldum ve anneme gönderdim." },
+      { "speaker": "A", "speakerName": "Jake", "text": "Nice! Did you meet any interesting people?", "textTr": "Güzel! İlginç insanlarla tanıştın mı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, I met a tour guide named Ahmet. He told me amazing stories about the city.", "textTr": "Evet, Ahmet adında bir tur rehberiyle tanıştım. Bana şehir hakkında harika hikayeler anlattı." },
+      { "speaker": "A", "speakerName": "Jake", "text": "Did you go to the Asian side too?", "textTr": "Anadolu yakasına da gittin mi?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes! I took the ferry to Kadıköy. I felt like a real İstanbullu on that boat.", "textTr": "Evet! Kadıköy'e vapurla gittim. O vapurda kendimi gerçek bir İstanbullu gibi hissettim." },
+      { "speaker": "A", "speakerName": "Jake", "text": "When did you come back home?", "textTr": "Eve ne zaman döndün?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I flew back on Sunday. I left Istanbul with a heavy heart. I wrote a blog post about it!", "textTr": "Pazar günü uçtum. İstanbul'dan ağır kalple ayrıldım. Hakkında bir blog yazısı yazdım!" },
+      { "speaker": "A", "speakerName": "Jake", "text": "I read your blog! It was great. Now I want to go to Istanbul too!", "textTr": "Blogunu okudum! Harikaydı. Şimdi ben de İstanbul'a gitmek istiyorum!" }
+    ],
+    "questions": [
+      {
+        "question": "How many photos did Eyüp take?",
+        "questionTr": "Eyüp kaç fotoğraf çekti?",
+        "options": ["100", "200", "Over 500", "1000"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp buy at the bazaar?",
+        "questionTr": "Eyüp çarşıdan ne aldı?",
+        "options": ["Only spices", "A carpet and spices", "Clothes", "Books"],
+        "correct": 1
+      },
+      {
+        "question": "How did Eyüp go to Kadıköy?",
+        "questionTr": "Eyüp Kadıköy'e nasıl gitti?",
+        "options": ["By bus", "By taxi", "By ferry", "He walked"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp do after his trip?",
+        "questionTr": "Eyüp seyahatinden sonra ne yaptı?",
+        "options": ["He forgot about it", "He wrote a blog post", "He went again", "He called Ahmet"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ to Istanbul last summer. (go)", "answer": "went", "hint": "go → ?" },
+      { "sentence": "She ___ beautiful photos of the mosque. (take)", "answer": "took", "hint": "take → ?" },
+      { "sentence": "We ___ fresh fish at the market. (eat)", "answer": "ate", "hint": "eat → ?" },
+      { "sentence": "He ___ me about Istanbul's history. (tell)", "answer": "told", "hint": "tell → ?" },
+      { "sentence": "I ___ a carpet at the Grand Bazaar. (buy)", "answer": "bought", "hint": "buy → ?" },
+      { "sentence": "They ___ Turkish tea at every café. (drink)", "answer": "drank", "hint": "drink → ?" },
+      { "sentence": "We ___ many kind people on the trip. (meet)", "answer": "met", "hint": "meet → ?" },
+      { "sentence": "She ___ postcards to her friends. (send)", "answer": "sent", "hint": "send → ?" },
+      { "sentence": "I ___ a blog post about my trip. (write)", "answer": "wrote", "hint": "write → ?" },
+      { "sentence": "We ___ the last ferry to Kadıköy. (catch)", "answer": "caught", "hint": "catch → ?" },
+      { "sentence": "He ___ from Ankara to Istanbul. (fly)", "answer": "flew", "hint": "fly → ?" },
+      { "sentence": "I ___ my phone on the bus. (lose)", "answer": "lost", "hint": "lose → ?" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "'go' fiilinin geçmiş zaman hali (past simple) nedir?",
+        "options": ["goed", "gone", "went", "going"],
+        "correct": 2
+      },
+      {
+        "question": "\"I ___ a great time in Istanbul.\" Boşluğa ne gelir?",
+        "options": ["have", "has", "had", "having"],
+        "correct": 2
+      },
+      {
+        "question": "\"Did you ___ any souvenirs?\" Boşluğa ne gelir?",
+        "options": ["bought", "buy", "buyed", "buying"],
+        "correct": 1
+      },
+      {
+        "question": "'eat' fiilinin geçmiş zaman hali nedir?",
+        "options": ["eated", "eaten", "ate", "eating"],
+        "correct": 2
+      },
+      {
+        "question": "\"She ___ English very well.\" (geçmiş zaman — speak)",
+        "options": ["speaked", "spoken", "spoke", "speaking"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi doğru?",
+        "options": ["I were tired.", "I was tired.", "I am was tired.", "I did was tired."],
+        "correct": 1
+      },
+      {
+        "question": "\"They ___ to the hotel at midnight.\" (come)",
+        "options": ["comed", "camed", "come", "came"],
+        "correct": 3
+      },
+      {
+        "question": "Olumsuz cümle hangisi doğru?",
+        "options": ["I didn't went.", "I didn't go.", "I not went.", "I don't went."],
+        "correct": 1
+      },
+      {
+        "question": "'think' fiilinin geçmiş zaman hali nedir?",
+        "options": ["thinked", "thought", "thinkt", "thinking"],
+        "correct": 1
+      },
+      {
+        "question": "\"___ you see the Blue Mosque?\" Boşluğa ne gelir?",
+        "options": ["Do", "Are", "Did", "Was"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "go", "right": "went" },
+      { "left": "see", "right": "saw" },
+      { "left": "eat", "right": "ate" },
+      { "left": "drink", "right": "drank" },
+      { "left": "buy", "right": "bought" },
+      { "left": "take", "right": "took" },
+      { "left": "make", "right": "made" },
+      { "left": "come", "right": "came" },
+      { "left": "have", "right": "had" },
+      { "left": "get", "right": "got" },
+      { "left": "know", "right": "knew" },
+      { "left": "think", "right": "thought" },
+      { "left": "find", "right": "found" },
+      { "left": "give", "right": "gave" },
+      { "left": "tell", "right": "told" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "went", "to", "Istanbul", "last", "summer"], "correct": "I went to Istanbul last summer" },
+      { "words": ["She", "bought", "a", "carpet", "at", "the", "bazaar"], "correct": "She bought a carpet at the bazaar" },
+      { "words": ["Did", "you", "eat", "fresh", "fish"], "correct": "Did you eat fresh fish" },
+      { "words": ["We", "took", "the", "ferry", "to", "Kadıköy"], "correct": "We took the ferry to Kadıköy" },
+      { "words": ["He", "told", "me", "about", "the", "history"], "correct": "He told me about the history" },
+      { "words": ["I", "didn't", "lose", "my", "phone"], "correct": "I didn't lose my phone" },
+      { "words": ["They", "flew", "from", "Ankara", "to", "Istanbul"], "correct": "They flew from Ankara to Istanbul" },
+      { "words": ["We", "met", "many", "kind", "people"], "correct": "We met many kind people" },
+      { "words": ["I", "wrote", "a", "blog", "post", "about", "my", "trip"], "correct": "I wrote a blog post about my trip" }
+    ],
+    "translation": [
+      {
+        "turkish": "Geçen yaz İstanbul'a gittim.",
+        "english": "I went to Istanbul last summer.",
+        "acceptAlso": ["I went to Istanbul last summer", "Last summer I went to Istanbul"]
+      },
+      {
+        "turkish": "Sultanahmet Camii'ni gördüm.",
+        "english": "I saw the Blue Mosque.",
+        "acceptAlso": ["I saw the Blue Mosque"]
+      },
+      {
+        "turkish": "Çarşıda güzel bir halı satın aldım.",
+        "english": "I bought a beautiful carpet at the bazaar.",
+        "acceptAlso": ["I bought a beautiful carpet at the bazaar", "I bought a nice carpet at the bazaar"]
+      },
+      {
+        "turkish": "Her yerde Türk çayı içtim.",
+        "english": "I drank Turkish tea everywhere.",
+        "acceptAlso": ["I drank Turkish tea everywhere"]
+      },
+      {
+        "turkish": "Kadıköy'e vapurla gittik.",
+        "english": "We took the ferry to Kadıköy.",
+        "acceptAlso": ["We went to Kadıköy by ferry", "We took the ferry to Kadikoy"]
+      },
+      {
+        "turkish": "500'den fazla fotoğraf çektim.",
+        "english": "I took over 500 photos.",
+        "acceptAlso": ["I took more than 500 photos"]
+      },
+      {
+        "turkish": "İstanbul en sevdiğim şehir oldu.",
+        "english": "Istanbul became my favorite city.",
+        "acceptAlso": ["Istanbul became my favourite city"]
+      },
+      {
+        "turkish": "Seyahatim hakkında bir blog yazısı yazdım.",
+        "english": "I wrote a blog post about my trip.",
+        "acceptAlso": ["I wrote a blog post about my trip"]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Irregular Verbs List with Pronunciation - BBC Learning English",
+      "description": "En yaygın düzensiz fiillerin listesi ve telaffuzu",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-3/session-1",
+      "type": "video",
+      "level": "A1-A2",
+      "free": true
+    },
+    {
+      "title": "Past Simple: Irregular Verbs - British Council",
+      "description": "Düzensiz fiiller için interaktif alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/past-simple-irregular-verbs",
+      "type": "practice",
+      "level": "A1-A2",
+      "free": true
+    },
+    {
+      "title": "Irregular Verbs Song - Fluency MC",
+      "description": "Düzensiz fiilleri rap şarkısıyla ezberle (YouTube)",
+      "url": "https://www.youtube.com/watch?v=e0q0EiLGlio",
+      "type": "video",
+      "level": "A1-A2",
+      "free": true
+    }
+  ]
+}

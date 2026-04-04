@@ -7,8 +7,19 @@ import unit05 from './units/unit-05.json'
 import unit06 from './units/unit-06.json'
 import unit07 from './units/unit-07.json'
 import unit08 from './units/unit-08.json'
+import unit09 from './units/unit-09.json'
+import unit10 from './units/unit-10.json'
+import unit11 from './units/unit-11.json'
+import unit12 from './units/unit-12.json'
+import unit13 from './units/unit-13.json'
+import unit14 from './units/unit-14.json'
+import unit15 from './units/unit-15.json'
+import unit16 from './units/unit-16.json'
 
-const units = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08]
+const units = [
+  unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08,
+  unit09, unit10, unit11, unit12, unit13, unit14, unit15, unit16,
+]
 
 export default units
 

@@ -1,0 +1,524 @@
+{
+  "id": "unit-09",
+  "title": "Present Continuous",
+  "titleTr": "Şimdiki Zaman (Present Continuous)",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn Present Continuous tense to talk about things happening right now. Practice at the airport — what are you doing?",
+  "descriptionTr": "Şu anda olan şeyleri anlatmak için Şimdiki Zaman'ı öğren. Havalimanında pratik yap — ne yapıyorsun?",
+
+  "vocabulary": [
+    {
+      "word": "waiting",
+      "pronunciation": "VEY-ting",
+      "turkish": "beklemek / bekliyor",
+      "example": "I'm waiting for my flight at the gate.",
+      "exampleTr": "Kapıda uçuşumu bekliyorum.",
+      "extra": "We are waiting in a long line at security.",
+      "extraTr": "Güvenlikte uzun bir kuyrukta bekliyoruz."
+    },
+    {
+      "word": "boarding",
+      "pronunciation": "BOR-ding",
+      "turkish": "uçağa binme / biniş",
+      "example": "They are boarding the plane now.",
+      "exampleTr": "Şimdi uçağa biniyorlar.",
+      "extra": "Boarding starts in 10 minutes.",
+      "extraTr": "Biniş 10 dakika içinde başlıyor."
+    },
+    {
+      "word": "flying",
+      "pronunciation": "FLAY-ing",
+      "turkish": "uçmak / uçuyor",
+      "example": "We are flying to London today.",
+      "exampleTr": "Bugün Londra'ya uçuyoruz.",
+      "extra": "I'm flying for the first time and I'm a little nervous.",
+      "extraTr": "İlk kez uçuyorum ve biraz gerginim."
+    },
+    {
+      "word": "landing",
+      "pronunciation": "LEN-ding",
+      "turkish": "iniş / iniyor",
+      "example": "The plane is landing in 5 minutes.",
+      "exampleTr": "Uçak 5 dakika içinde iniyor.",
+      "extra": "Please stay in your seat. We are landing soon.",
+      "extraTr": "Lütfen koltuğunuzda kalın. Yakında iniyoruz."
+    },
+    {
+      "word": "luggage",
+      "pronunciation": "LA-gıc",
+      "turkish": "bavul / bagaj",
+      "example": "I'm carrying my luggage to the check-in counter.",
+      "exampleTr": "Bavulumu check-in bankonuna taşıyorum.",
+      "extra": "My luggage is very heavy. It's 23 kilos!",
+      "extraTr": "Bavulum çok ağır. 23 kilo!"
+    },
+    {
+      "word": "gate",
+      "pronunciation": "geyt",
+      "turkish": "kapı (havalimanı)",
+      "example": "Our gate is B12. Are you going to the right gate?",
+      "exampleTr": "Kapımız B12. Doğru kapıya mı gidiyorsun?",
+      "extra": "They are changing the gate! It's now C5.",
+      "extraTr": "Kapıyı değiştiriyorlar! Artık C5."
+    },
+    {
+      "word": "passport",
+      "pronunciation": "PAS-port",
+      "turkish": "pasaport",
+      "example": "I'm showing my passport at the control.",
+      "exampleTr": "Kontrolde pasaportumu gösteriyorum.",
+      "extra": "Don't forget your passport! You can't fly without it.",
+      "extraTr": "Pasaportunu unutma! Onsuz uçamazsın."
+    },
+    {
+      "word": "control",
+      "pronunciation": "kın-TROL",
+      "turkish": "kontrol",
+      "example": "We are going through passport control now.",
+      "exampleTr": "Şimdi pasaport kontrolünden geçiyoruz.",
+      "extra": "The security control is very busy today.",
+      "extraTr": "Güvenlik kontrolü bugün çok kalabalık."
+    },
+    {
+      "word": "delay",
+      "pronunciation": "di-LEY",
+      "turkish": "gecikme / rötar",
+      "example": "There is a 2-hour delay on our flight.",
+      "exampleTr": "Uçuşumuzda 2 saatlik bir gecikme var.",
+      "extra": "The flight is delayed because of bad weather.",
+      "extraTr": "Uçuş kötü hava yüzünden ertelendi."
+    },
+    {
+      "word": "announcement",
+      "pronunciation": "ı-NAUNS-mınt",
+      "turkish": "anons / duyuru",
+      "example": "They are making an announcement about our flight.",
+      "exampleTr": "Uçuşumuz hakkında anons yapıyorlar.",
+      "extra": "Listen! The announcement is saying gate B7.",
+      "extraTr": "Dinle! Anons kapı B7 diyor."
+    },
+    {
+      "word": "seat",
+      "pronunciation": "siit",
+      "turkish": "koltuk",
+      "example": "I'm looking for my seat. It's 14A.",
+      "exampleTr": "Koltuğumu arıyorum. 14A.",
+      "extra": "Is this seat taken? Can I sit here?",
+      "extraTr": "Bu koltuk dolu mu? Buraya oturabilir miyim?"
+    },
+    {
+      "word": "belt",
+      "pronunciation": "belt",
+      "turkish": "kemer",
+      "example": "Please fasten your seat belt. We are taking off.",
+      "exampleTr": "Lütfen emniyet kemerinizi bağlayın. Kalkıyoruz.",
+      "extra": "The sign says: fasten your seat belt.",
+      "extraTr": "Tabela diyor ki: emniyet kemerinizi bağlayın."
+    },
+    {
+      "word": "ticket",
+      "pronunciation": "TI-kit",
+      "turkish": "bilet",
+      "example": "I'm checking my ticket online right now.",
+      "exampleTr": "Şu anda biletimi online kontrol ediyorum.",
+      "extra": "Do you have your ticket and passport ready?",
+      "extraTr": "Biletin ve pasaportun hazır mı?"
+    },
+    {
+      "word": "terminal",
+      "pronunciation": "TÖR-mi-nıl",
+      "turkish": "terminal",
+      "example": "Which terminal are you going to?",
+      "exampleTr": "Hangi terminale gidiyorsun?",
+      "extra": "The international terminal is very big.",
+      "extraTr": "Uluslararası terminal çok büyük."
+    },
+    {
+      "word": "departure",
+      "pronunciation": "di-PAR-çır",
+      "turkish": "kalkış",
+      "example": "The departure time is 3:30 PM.",
+      "exampleTr": "Kalkış saati 15:30.",
+      "extra": "We are going to the departure area now.",
+      "extraTr": "Şimdi kalkış alanına gidiyoruz."
+    },
+    {
+      "word": "arrival",
+      "pronunciation": "ı-RAY-vıl",
+      "turkish": "varış",
+      "example": "The arrival time is 7 PM local time.",
+      "exampleTr": "Varış saati yerel saatle 19:00.",
+      "extra": "I'm checking the arrival board for my friend's flight.",
+      "extraTr": "Arkadaşımın uçuşu için varış panosuna bakıyorum."
+    },
+    {
+      "word": "carry",
+      "pronunciation": "KE-ri",
+      "turkish": "taşımak",
+      "example": "I'm carrying a small backpack and a suitcase.",
+      "exampleTr": "Küçük bir sırt çantası ve bir bavul taşıyorum.",
+      "extra": "You can carry one bag on the plane.",
+      "extraTr": "Uçağa bir çanta taşıyabilirsin."
+    },
+    {
+      "word": "pack",
+      "pronunciation": "pek",
+      "turkish": "bavul hazırlamak / paketlemek",
+      "example": "I'm packing my suitcase for the trip.",
+      "exampleTr": "Gezi için bavulumu hazırlıyorum.",
+      "extra": "Are you packing warm clothes? It's cold there!",
+      "extraTr": "Kalın kıyafet mi koyuyorsun? Orada soğuk!"
+    },
+    {
+      "word": "security",
+      "pronunciation": "si-KYUR-ı-ti",
+      "turkish": "güvenlik",
+      "example": "We are going through security right now.",
+      "exampleTr": "Şu anda güvenlikten geçiyoruz.",
+      "extra": "Security is checking all the bags.",
+      "extraTr": "Güvenlik tüm çantaları kontrol ediyor."
+    },
+    {
+      "word": "check",
+      "pronunciation": "çek",
+      "turkish": "kontrol etmek",
+      "example": "I'm checking the departure board for my flight.",
+      "exampleTr": "Uçuşum için kalkış panosunu kontrol ediyorum.",
+      "extra": "Can you check the gate number on your ticket?",
+      "extraTr": "Biletindeki kapı numarasını kontrol edebilir misin?"
+    },
+    {
+      "word": "baggage",
+      "pronunciation": "BE-gıc",
+      "turkish": "bagaj",
+      "example": "I'm waiting at baggage claim for my suitcase.",
+      "exampleTr": "Bavulum için bagaj teslim alanında bekliyorum.",
+      "extra": "The baggage is coming on belt number 3.",
+      "extraTr": "Bagajlar 3 numaralı banttan geliyor."
+    },
+    {
+      "word": "claim",
+      "pronunciation": "kleym",
+      "turkish": "talep / teslim alma",
+      "example": "I'm going to baggage claim to get my suitcase.",
+      "exampleTr": "Bavulumu almak için bagaj teslim alanına gidiyorum.",
+      "extra": "The baggage claim area is downstairs.",
+      "extraTr": "Bagaj teslim alanı alt katta."
+    },
+    {
+      "word": "taxi",
+      "pronunciation": "TEK-si",
+      "turkish": "taksi",
+      "example": "I'm taking a taxi from the airport to the hotel.",
+      "exampleTr": "Havalimanından otele taksi alıyorum.",
+      "extra": "The taxi is waiting outside the terminal.",
+      "extraTr": "Taksi terminalin dışında bekliyor."
+    },
+    {
+      "word": "pick up",
+      "pronunciation": "pik ap",
+      "turkish": "almak (birini araçla)",
+      "example": "My brother is picking me up from the airport.",
+      "exampleTr": "Ağabeyim beni havalimanından alıyor.",
+      "extra": "Can you pick me up at 8 PM?",
+      "extraTr": "Beni akşam 8'de alabilir misin?"
+    },
+    {
+      "word": "drop off",
+      "pronunciation": "drop of",
+      "turkish": "bırakmak (birini bir yere)",
+      "example": "My friend is dropping me off at the airport.",
+      "exampleTr": "Arkadaşım beni havalimanına bırakıyor.",
+      "extra": "Can you drop me off at the terminal entrance?",
+      "extraTr": "Beni terminal girişine bırakabilir misin?"
+    },
+    {
+      "word": "charge",
+      "pronunciation": "çarc",
+      "turkish": "şarj etmek",
+      "example": "I'm charging my phone at the airport.",
+      "exampleTr": "Havalimanında telefonumu şarj ediyorum.",
+      "extra": "My phone is dying! I need to charge it now.",
+      "extraTr": "Telefonum bitiyor! Şimdi şarj etmem lazım."
+    },
+    {
+      "word": "download",
+      "pronunciation": "DAUN-lod",
+      "turkish": "indirmek",
+      "example": "I'm downloading a movie for the flight.",
+      "exampleTr": "Uçuş için bir film indiriyorum.",
+      "extra": "Are you downloading the airline app?",
+      "extraTr": "Havayolu uygulamasını mı indiriyorsun?"
+    },
+    {
+      "word": "connect",
+      "pronunciation": "kı-NEKT",
+      "turkish": "bağlanmak",
+      "example": "I'm connecting to the airport wifi.",
+      "exampleTr": "Havalimanı wifi'sine bağlanıyorum.",
+      "extra": "I can't connect to the internet. The wifi is slow.",
+      "extraTr": "İnternete bağlanamıyorum. Wifi yavaş."
+    },
+    {
+      "word": "text",
+      "pronunciation": "tekst",
+      "turkish": "mesaj atmak",
+      "example": "I'm texting my mom that I'm at the airport.",
+      "exampleTr": "Anneme havalimanında olduğumu mesaj atıyorum.",
+      "extra": "She is texting her friend about the delay.",
+      "extraTr": "Arkadaşına gecikme hakkında mesaj atıyor."
+    },
+    {
+      "word": "hurry",
+      "pronunciation": "HA-ri",
+      "turkish": "acele etmek",
+      "example": "Hurry up! They are closing the gate!",
+      "exampleTr": "Acele et! Kapıyı kapatıyorlar!",
+      "extra": "We are hurrying because our flight is in 20 minutes.",
+      "extraTr": "Acele ediyoruz çünkü uçuşumuz 20 dakika sonra."
+    }
+  ],
+
+  "grammar": {
+    "title": "Present Continuous (am/is/are + -ing)",
+    "titleTr": "Şimdiki Zaman (am/is/are + fiil-ing)",
+    "explanation": "We use Present Continuous to talk about things happening RIGHT NOW, temporary situations, and near future plans. Formula: Subject + am/is/are + verb-ing. Spelling rules: most verbs just add -ing (wait→waiting), verbs ending in -e drop the e (make→making), short verbs with consonant-vowel-consonant double the last letter (run→running, sit→sitting).",
+    "explanationTr": "Şimdiki Zaman'ı ŞU ANDA olan şeyler, geçici durumlar ve yakın gelecek planları için kullanırız. Formül: Özne + am/is/are + fiil-ing. Yazım kuralları: çoğu fiile -ing eklenir (wait→waiting), -e ile biten fiillerde e düşer (make→making), kısa fiillerde son harf çiftlenir (run→running, sit→sitting).",
+    "table": [
+      ["I am waiting. (I'm waiting.)", "I am not waiting. (I'm not waiting.)", "Am I waiting?", "Yes, I am. / No, I'm not."],
+      ["You are flying. (You're flying.)", "You are not flying. (You aren't flying.)", "Are you flying?", "Yes, I am. / No, I'm not."],
+      ["He is boarding. (He's boarding.)", "He is not boarding. (He isn't boarding.)", "Is he boarding?", "Yes, he is. / No, he isn't."],
+      ["She is packing. (She's packing.)", "She is not packing. (She isn't packing.)", "Is she packing?", "Yes, she is. / No, she isn't."],
+      ["It is landing. (It's landing.)", "It is not landing. (It isn't landing.)", "Is it landing?", "Yes, it is. / No, it isn't."],
+      ["We are hurrying. (We're hurrying.)", "We are not hurrying. (We aren't hurrying.)", "Are we hurrying?", "Yes, we are. / No, we aren't."],
+      ["They are checking. (They're checking.)", "They are not checking. (They aren't checking.)", "Are they checking?", "Yes, they are. / No, they aren't."]
+    ],
+    "tips": [
+      { "en": "Right now = Present Continuous: I'm waiting for my flight RIGHT NOW.", "tr": "Şu anda = Şimdiki Zaman: Şu anda uçuşumu bekliyorum." },
+      { "en": "Spelling: -e drops → make → making, come → coming", "tr": "Yazım: -e düşer → make → making, come → coming" },
+      { "en": "Spelling: double letter → run → running, sit → sitting, stop → stopping", "tr": "Yazım: son harf çiftlenir → run → running, sit → sitting, stop → stopping" },
+      { "en": "Near future: I'm flying to London TOMORROW. (plan)", "tr": "Yakın gelecek: YARIN Londra'ya uçuyorum. (plan)" },
+      { "en": "Present Simple = always/every day. Present Continuous = now/at the moment.", "tr": "Present Simple = her zaman/her gün. Present Continuous = şu anda/şu an." },
+      { "en": "Some verbs don't use -ing: know, want, like, love, need, have (possession)", "tr": "Bazı fiiller -ing almaz: know, want, like, love, need, have (sahip olmak)" }
+    ]
+  },
+
+  "reading": {
+    "text": "Hey everyone! I'm writing this from Istanbul Airport right now. It's 6 AM and I'm sitting at Gate B14. I'm flying to Berlin for a business meeting!\n\nThe airport is very busy this morning. People are running to their gates, children are crying, and the coffee shops are full. I'm drinking a Turkish tea and I'm eating a simit while I'm waiting.\n\nMy flight is delayed 45 minutes because of fog. So I'm using the airport wifi and I'm downloading a podcast for the flight. My phone battery is low, so I'm also charging it at the charging station.\n\nI can see a family next to me. The mother is reading a book, the father is checking the departure board, and their two kids are playing a game on a tablet. Everyone is doing something different!\n\nOh wait — they are making an announcement! \"Passengers flying to Berlin, your gate is changing from B14 to C2.\" Great, now I'm hurrying to the new gate with my luggage. Airport life is never boring!\n\nOkay, they are starting boarding now. I'm turning off my phone. Wish me luck! I'm landing in Berlin at 9 AM. My colleague is picking me up from the airport. See you from Berlin!",
+    "textTr": "Herkese merhaba! Bunu şu anda İstanbul Havalimanı'ndan yazıyorum. Saat sabah 6 ve B14 kapısında oturuyorum. İş toplantısı için Berlin'e uçuyorum!\n\nBu sabah havalimanı çok kalabalık. İnsanlar kapılarına koşuyor, çocuklar ağlıyor ve kahve dükkanları dolu. Beklerken Türk çayı içiyorum ve simit yiyorum.\n\nUçuşum sis yüzünden 45 dakika gecikti. Bu yüzden havalimanı wifi'sini kullanıyorum ve uçuş için bir podcast indiriyorum. Telefon pili azaldı, o yüzden şarj istasyonunda şarj da ediyorum.\n\nYanımda bir aile görebiliyorum. Anne kitap okuyor, baba kalkış panosunu kontrol ediyor ve iki çocukları tablette oyun oynuyor. Herkes farklı bir şey yapıyor!\n\nBir dakika — anons yapıyorlar! \"Berlin'e uçan yolcular, kapınız B14'ten C2'ye değişiyor.\" Harika, şimdi bavulumla yeni kapıya acele ediyorum. Havalimanı hayatı asla sıkıcı değil!\n\nTamam, şimdi binişe başlıyorlar. Telefonumu kapatıyorum. Bana şans dileyin! Sabah 9'da Berlin'e iniyorum. Meslektaşım beni havalimanından alıyor. Berlin'den görüşürüz!",
+    "questions": [
+      {
+        "question": "Where is Eyüp right now?",
+        "questionTr": "Eyüp şu anda nerede?",
+        "options": ["In Berlin", "At Istanbul Airport", "On the plane", "At home"],
+        "correct": 1
+      },
+      {
+        "question": "Why is the flight delayed?",
+        "questionTr": "Uçuş neden gecikti?",
+        "options": ["Bad traffic", "A broken plane", "Fog", "Too many passengers"],
+        "correct": 2
+      },
+      {
+        "question": "What is Eyüp doing while waiting?",
+        "questionTr": "Eyüp beklerken ne yapıyor?",
+        "options": ["Sleeping", "Drinking tea, eating simit, and downloading a podcast", "Shopping", "Reading a book"],
+        "correct": 1
+      },
+      {
+        "question": "What is happening to the gate?",
+        "questionTr": "Kapıya ne oluyor?",
+        "options": ["It's closing", "It's changing from B14 to C2", "It's open for boarding", "It's broken"],
+        "correct": 1
+      },
+      {
+        "question": "Who is picking Eyüp up from Berlin airport?",
+        "questionTr": "Berlin havalimanından Eyüp'ü kim alıyor?",
+        "options": ["His brother", "A taxi driver", "His colleague", "His friend"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Calling a Friend from the Airport",
+    "titleTr": "Havalimanından Arkadaşını Aramak",
+    "context": "Eyüp havalimanında uçuşunu beklerken arkadaşı Selin'i arıyor. Uçuş gecikmiş ve Eyüp biraz sıkılıyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Selin", "text": "Hey Eyüp! What's up? Where are you?", "textTr": "Hey Eyüp! Ne var ne yok? Neredesin?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hey Selin! I'm at the airport. I'm waiting for my flight to Berlin.", "textTr": "Hey Selin! Havalimanındayım. Berlin uçuşumu bekliyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Oh nice! Are you boarding soon?", "textTr": "Oh güzel! Yakında mı biniyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "No, unfortunately. The flight is delayed. I'm sitting at the gate and I'm drinking coffee.", "textTr": "Hayır, maalesef. Uçuş gecikti. Kapıda oturuyorum ve kahve içiyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Oh no! How long is the delay? What are you doing to pass the time?", "textTr": "Olamaz! Gecikme ne kadar? Vakit geçirmek için ne yapıyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "About an hour. I'm charging my phone and I'm downloading some movies for the flight.", "textTr": "Yaklaşık bir saat. Telefonumu şarj ediyorum ve uçuş için film indiriyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Smart! Is the airport crowded right now?", "textTr": "Akıllıca! Havalimanı şu anda kalabalık mı?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Very! People are running everywhere. A family next to me is eating breakfast and their kids are playing loudly.", "textTr": "Çok! İnsanlar her yerde koşuyor. Yanımdaki aile kahvaltı yapıyor ve çocukları yüksek sesle oynuyor." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Ha ha! That sounds like a normal airport morning. Are you traveling alone?", "textTr": "Ha ha! Tipik bir havalimanı sabahına benziyor. Yalnız mı seyahat ediyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, it's a business trip. My colleague is meeting me in Berlin. She is picking me up from the airport.", "textTr": "Evet, iş seyahati. Meslektaşım Berlin'de benimle buluşuyor. Beni havalimanından alıyor." },
+      { "speaker": "A", "speakerName": "Selin", "text": "That's great! Are you staying at a hotel?", "textTr": "Harika! Otelde mi kalıyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, near the city center. Oh wait — they are making an announcement! I think they are starting boarding!", "textTr": "Evet, şehir merkezine yakın. Bir dakika — anons yapıyorlar! Sanırım binişe başlıyorlar!" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Okay, hurry! Don't forget your passport! Text me when you are landing!", "textTr": "Tamam, acele et! Pasaportunu unutma! İnerken bana mesaj at!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I won't! I'm grabbing my bag and I'm going to the gate now. Talk to you later!", "textTr": "Unutmam! Çantamı alıyorum ve şimdi kapıya gidiyorum. Sonra konuşuruz!" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Have a safe flight, Eyüp! Send me a photo from Berlin!", "textTr": "Güvenli uçuşlar, Eyüp! Berlin'den fotoğraf gönder!", "gender": "female" }
+    ],
+    "questions": [
+      {
+        "question": "Where is Eyüp calling from?",
+        "questionTr": "Eyüp nereden arıyor?",
+        "options": ["From the plane", "From the airport", "From Berlin", "From home"],
+        "correct": 1
+      },
+      {
+        "question": "Why is Eyüp's flight delayed?",
+        "questionTr": "Eyüp'ün uçuşu neden gecikti?",
+        "options": ["The plane is broken", "Bad weather", "It's not mentioned — just delayed", "Too many passengers"],
+        "correct": 2
+      },
+      {
+        "question": "What is Eyüp doing while waiting?",
+        "questionTr": "Eyüp beklerken ne yapıyor?",
+        "options": ["Sleeping", "Charging his phone and downloading movies", "Shopping at duty-free", "Reading a book"],
+        "correct": 1
+      },
+      {
+        "question": "Is Eyüp traveling alone?",
+        "questionTr": "Eyüp yalnız mı seyahat ediyor?",
+        "options": ["No, with Selin", "No, with his family", "Yes, but his colleague is meeting him in Berlin", "Yes, completely alone"],
+        "correct": 2
+      },
+      {
+        "question": "What does Selin ask Eyüp to do?",
+        "questionTr": "Selin Eyüp'ten ne yapmasını istiyor?",
+        "options": ["Call her from Berlin", "Text her when landing and send a photo", "Buy something from duty-free", "Take a taxi"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ waiting for my flight at the gate.", "answer": "am", "hint": "be fiili - I ile" },
+      { "sentence": "She ___ boarding the plane right now.", "answer": "is", "hint": "be fiili - She ile" },
+      { "sentence": "They ___ checking the departure board.", "answer": "are", "hint": "be fiili - They ile" },
+      { "sentence": "We are ___ to Berlin today.", "answer": "flying", "hint": "uçmak (-ing)" },
+      { "sentence": "He is ___ his suitcase for the trip.", "answer": "packing", "hint": "bavul hazırlamak (-ing)" },
+      { "sentence": "The plane is ___ in 10 minutes.", "answer": "landing", "hint": "iniş (-ing)" },
+      { "sentence": "I'm ___ my phone at the charging station.", "answer": "charging", "hint": "şarj etmek (-ing)" },
+      { "sentence": "Are you ___ for the airport wifi?", "answer": "connecting", "hint": "bağlanmak (-ing)" },
+      { "sentence": "She is ___ a movie for the flight.", "answer": "downloading", "hint": "indirmek (-ing)" },
+      { "sentence": "We ___ not hurrying. We have time.", "answer": "are", "hint": "be fiili - We ile" },
+      { "sentence": "My brother is ___ me up from the airport.", "answer": "picking", "hint": "almak (araçla) (-ing)" },
+      { "sentence": "I'm ___ my mom that I'm at the airport.", "answer": "texting", "hint": "mesaj atmak (-ing)" }
+    ],
+    "multipleChoice": [
+      { "question": "\"I ___ waiting for my flight.\" Boşluğa ne gelir?", "options": ["is", "are", "am", "do"], "correct": 2 },
+      { "question": "\"She ___ boarding the plane.\" Boşluğa ne gelir?", "options": ["am", "is", "are", "does"], "correct": 1 },
+      { "question": "\"They ___ flying to London.\" Boşluğa ne gelir?", "options": ["is", "am", "are", "do"], "correct": 2 },
+      { "question": "\"run\" fiilinin -ing hali nedir?", "options": ["runing", "running", "runeing", "runnning"], "correct": 1 },
+      { "question": "\"make\" fiilinin -ing hali nedir?", "options": ["makeing", "makking", "making", "makining"], "correct": 2 },
+      { "question": "\"Uçuşumu bekliyorum\" İngilizce'de nasıl söylenir?", "options": ["I wait my flight.", "I'm waiting for my flight.", "I waiting my flight.", "I am wait for my flight."], "correct": 1 },
+      { "question": "\"Bagaj\" İngilizce'de hangisi?", "options": ["ticket", "luggage", "passport", "gate"], "correct": 1 },
+      { "question": "\"Are they ___?\" — \"Biniyorlar mı?\"", "options": ["board", "boarded", "boarding", "boards"], "correct": 2 },
+      { "question": "\"Gecikme\" İngilizce'de hangisi?", "options": ["departure", "arrival", "delay", "announcement"], "correct": 2 },
+      { "question": "\"She isn't packing.\" ne demek?", "options": ["Bavulunu hazırlamıyor.", "Bavulunu hazırlıyor.", "Bavulunu hazırladı.", "Bavulunu hazırlayacak."], "correct": 0 }
+    ],
+    "matching": [
+      { "left": "waiting", "right": "bekliyor" },
+      { "left": "boarding", "right": "uçağa biniyor" },
+      { "left": "flying", "right": "uçuyor" },
+      { "left": "landing", "right": "iniyor" },
+      { "left": "luggage", "right": "bavul" },
+      { "left": "gate", "right": "kapı" },
+      { "left": "passport", "right": "pasaport" },
+      { "left": "delay", "right": "gecikme" },
+      { "left": "seat", "right": "koltuk" },
+      { "left": "ticket", "right": "bilet" },
+      { "left": "departure", "right": "kalkış" },
+      { "left": "arrival", "right": "varış" },
+      { "left": "pick up", "right": "almak (araçla)" },
+      { "left": "charge", "right": "şarj etmek" },
+      { "left": "hurry", "right": "acele etmek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "am", "waiting", "for", "my", "flight"], "correct": "I am waiting for my flight" },
+      { "words": ["She", "is", "boarding", "the", "plane", "now"], "correct": "She is boarding the plane now" },
+      { "words": ["Are", "you", "flying", "to", "Berlin"], "correct": "Are you flying to Berlin" },
+      { "words": ["They", "are", "not", "hurrying"], "correct": "They are not hurrying" },
+      { "words": ["He", "is", "charging", "his", "phone"], "correct": "He is charging his phone" },
+      { "words": ["The", "plane", "is", "landing", "now"], "correct": "The plane is landing now" },
+      { "words": ["We", "are", "going", "through", "security"], "correct": "We are going through security" },
+      { "words": ["Is", "he", "picking", "you", "up"], "correct": "Is he picking you up" },
+      { "words": ["I", "am", "texting", "my", "mom", "right", "now"], "correct": "I am texting my mom right now" }
+    ],
+    "translation": [
+      {
+        "turkish": "Uçuşumu bekliyorum.",
+        "english": "I am waiting for my flight.",
+        "acceptAlso": ["I'm waiting for my flight.", "I'm waiting for my flight"]
+      },
+      {
+        "turkish": "O uçağa biniyor.",
+        "english": "She is boarding the plane.",
+        "acceptAlso": ["She's boarding the plane.", "She's boarding the plane", "He is boarding the plane."]
+      },
+      {
+        "turkish": "Berlin'e uçuyor musun?",
+        "english": "Are you flying to Berlin?",
+        "acceptAlso": ["Are you flying to Berlin"]
+      },
+      {
+        "turkish": "Uçak şimdi iniyor.",
+        "english": "The plane is landing now.",
+        "acceptAlso": ["The plane is landing now"]
+      },
+      {
+        "turkish": "Telefonumu şarj ediyorum.",
+        "english": "I am charging my phone.",
+        "acceptAlso": ["I'm charging my phone.", "I'm charging my phone"]
+      },
+      {
+        "turkish": "Onlar acele etmiyor.",
+        "english": "They are not hurrying.",
+        "acceptAlso": ["They aren't hurrying.", "They're not hurrying.", "They aren't hurrying", "They're not hurrying"]
+      },
+      {
+        "turkish": "Ağabeyim beni havalimanından alıyor.",
+        "english": "My brother is picking me up from the airport.",
+        "acceptAlso": ["My brother is picking me up from the airport"]
+      },
+      {
+        "turkish": "Anneme mesaj atıyorum.",
+        "english": "I am texting my mom.",
+        "acceptAlso": ["I'm texting my mom.", "I'm texting my mom", "I'm texting my mother."]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Present Continuous - British Council",
+      "description": "Şimdiki Zaman interaktif alıştırmalar ve açıklamalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-continuous",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Present Continuous vs Present Simple - BBC",
+      "description": "İki zaman arasındaki farkı videolarla öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-3/session-1",
+      "type": "video",
+      "level": "A1-A2",
+      "free": true
+    },
+    {
+      "title": "Airport Vocabulary - Cambridge Dictionary",
+      "description": "Havalimanı kelimelerinin telaffuzu ve anlamları",
+      "url": "https://dictionary.cambridge.org/topics/transport-travel-and-tourism/airports/",
+      "type": "article",
+      "level": "A1-A2",
+      "free": true
+    }
+  ]
+}

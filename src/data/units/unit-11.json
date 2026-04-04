@@ -1,0 +1,560 @@
+{
+  "id": "unit-11",
+  "title": "There is / There are + Prepositions",
+  "titleTr": "There is / There are + Edatlar",
+  "level": "A1",
+  "module": 2,
+  "description": "Learn to describe places and rooms using 'there is / there are' and prepositions of place.",
+  "descriptionTr": "Mekanları ve odaları 'there is / there are' ve yer edatlarıyla tanımlamayı öğren.",
+
+  "vocabulary": [
+    {
+      "word": "kitchen",
+      "pronunciation": "KİÇ-ın",
+      "turkish": "mutfak",
+      "example": "The kitchen is very clean and modern.",
+      "exampleTr": "Mutfak çok temiz ve modern.",
+      "extra": "There is a big kitchen in the house.",
+      "extraTr": "Evde büyük bir mutfak var."
+    },
+    {
+      "word": "bathroom",
+      "pronunciation": "BETH-ruum",
+      "turkish": "banyo",
+      "example": "The bathroom is next to the bedroom.",
+      "exampleTr": "Banyo yatak odasının yanında.",
+      "extra": "There are two bathrooms in this apartment.",
+      "extraTr": "Bu dairede iki banyo var."
+    },
+    {
+      "word": "bedroom",
+      "pronunciation": "BED-ruum",
+      "turkish": "yatak odası",
+      "example": "There are three bedrooms in the house.",
+      "exampleTr": "Evde üç yatak odası var.",
+      "extra": "My bedroom is on the second floor.",
+      "extraTr": "Yatak odam ikinci katta."
+    },
+    {
+      "word": "living room",
+      "pronunciation": "LİV-ing ruum",
+      "turkish": "oturma odası",
+      "example": "The living room is spacious and bright.",
+      "exampleTr": "Oturma odası geniş ve aydınlık.",
+      "extra": "We watch TV in the living room every evening.",
+      "extraTr": "Her akşam oturma odasında TV izleriz."
+    },
+    {
+      "word": "balcony",
+      "pronunciation": "BEL-kı-ni",
+      "turkish": "balkon",
+      "example": "There is a small balcony with a nice view.",
+      "exampleTr": "Güzel manzaralı küçük bir balkon var.",
+      "extra": "I drink my coffee on the balcony every morning.",
+      "extraTr": "Her sabah kahvemi balkonda içerim."
+    },
+    {
+      "word": "parking",
+      "pronunciation": "PAR-king",
+      "turkish": "otopark",
+      "example": "Is there free parking near the house?",
+      "exampleTr": "Evin yakınında ücretsiz otopark var mı?",
+      "extra": "The parking is behind the building.",
+      "extraTr": "Otopark binanın arkasında."
+    },
+    {
+      "word": "garden",
+      "pronunciation": "GAR-dın",
+      "turkish": "bahçe",
+      "example": "There is a beautiful garden in front of the house.",
+      "exampleTr": "Evin önünde güzel bir bahçe var.",
+      "extra": "The kids play in the garden after school.",
+      "extraTr": "Çocuklar okuldan sonra bahçede oynar."
+    },
+    {
+      "word": "furniture",
+      "pronunciation": "FÖR-ni-çır",
+      "turkish": "mobilya",
+      "example": "The furniture in the apartment is new.",
+      "exampleTr": "Dairenin mobilyası yeni.",
+      "extra": "There is modern furniture in every room.",
+      "extraTr": "Her odada modern mobilya var."
+    },
+    {
+      "word": "towel",
+      "pronunciation": "TAV-ıl",
+      "turkish": "havlu",
+      "example": "There are clean towels in the bathroom.",
+      "exampleTr": "Banyoda temiz havlular var.",
+      "extra": "Can you put extra towels in the bedroom, please?",
+      "extraTr": "Yatak odasına ekstra havlu koyar mısınız, lütfen?"
+    },
+    {
+      "word": "blanket",
+      "pronunciation": "BLENK-ıt",
+      "turkish": "battaniye",
+      "example": "There is an extra blanket in the closet.",
+      "exampleTr": "Dolapta ekstra bir battaniye var.",
+      "extra": "It's cold at night. I need another blanket.",
+      "extraTr": "Geceleri soğuk oluyor. Bir battaniye daha lazım."
+    },
+    {
+      "word": "pillow",
+      "pronunciation": "PİL-ou",
+      "turkish": "yastık",
+      "example": "There are two pillows on each bed.",
+      "exampleTr": "Her yatakta iki yastık var.",
+      "extra": "The pillows are very soft and comfortable.",
+      "extraTr": "Yastıklar çok yumuşak ve rahat."
+    },
+    {
+      "word": "shower",
+      "pronunciation": "ŞAV-ır",
+      "turkish": "duş",
+      "example": "There is a hot shower in the bathroom.",
+      "exampleTr": "Banyoda sıcak su duş var.",
+      "extra": "I take a shower every morning before work.",
+      "extraTr": "Her sabah işten önce duş alırım."
+    },
+    {
+      "word": "fridge",
+      "pronunciation": "friç",
+      "turkish": "buzdolabı",
+      "example": "There is a fridge in the kitchen.",
+      "exampleTr": "Mutfakta bir buzdolabı var.",
+      "extra": "You can keep your food in the fridge.",
+      "extraTr": "Yiyeceklerinizi buzdolabında saklayabilirsiniz."
+    },
+    {
+      "word": "microwave",
+      "pronunciation": "MAY-kro-weyv",
+      "turkish": "mikrodalga",
+      "example": "There is a microwave on the kitchen counter.",
+      "exampleTr": "Mutfak tezgahında bir mikrodalga var.",
+      "extra": "You can heat your food in the microwave.",
+      "extraTr": "Yemeğinizi mikrodalgada ısıtabilirsiniz."
+    },
+    {
+      "word": "oven",
+      "pronunciation": "AV-ın",
+      "turkish": "fırın",
+      "example": "There is an oven next to the fridge.",
+      "exampleTr": "Buzdolabının yanında bir fırın var.",
+      "extra": "I bake bread in the oven on weekends.",
+      "extraTr": "Hafta sonları fırında ekmek yaparım."
+    },
+    {
+      "word": "washing machine",
+      "pronunciation": "VAŞ-ing mı-ŞİİN",
+      "turkish": "çamaşır makinesi",
+      "example": "Is there a washing machine in the apartment?",
+      "exampleTr": "Dairede çamaşır makinesi var mı?",
+      "extra": "The washing machine is in the bathroom.",
+      "extraTr": "Çamaşır makinesi banyoda."
+    },
+    {
+      "word": "couch",
+      "pronunciation": "kavç",
+      "turkish": "kanepe",
+      "example": "There is a big couch in the living room.",
+      "exampleTr": "Oturma odasında büyük bir kanepe var.",
+      "extra": "The couch is very comfortable for watching movies.",
+      "extraTr": "Kanepe film izlemek için çok rahat."
+    },
+    {
+      "word": "table",
+      "pronunciation": "TEY-bıl",
+      "turkish": "masa",
+      "example": "There is a dining table in the kitchen.",
+      "exampleTr": "Mutfakta bir yemek masası var.",
+      "extra": "The keys are on the table near the door.",
+      "extraTr": "Anahtarlar kapının yanındaki masanın üzerinde."
+    },
+    {
+      "word": "chair",
+      "pronunciation": "çer",
+      "turkish": "sandalye",
+      "example": "There are four chairs around the table.",
+      "exampleTr": "Masanın etrafında dört sandalye var.",
+      "extra": "Please sit on the chair next to the window.",
+      "extraTr": "Lütfen pencerenin yanındaki sandalyeye oturun."
+    },
+    {
+      "word": "stairs",
+      "pronunciation": "sterz",
+      "turkish": "merdivenler",
+      "example": "The stairs are between the kitchen and the living room.",
+      "exampleTr": "Merdivenler mutfak ile oturma odası arasında.",
+      "extra": "Be careful on the stairs, they are steep.",
+      "extraTr": "Merdivenlerde dikkatli ol, dik."
+    },
+    {
+      "word": "floor",
+      "pronunciation": "flor",
+      "turkish": "kat / zemin",
+      "example": "The apartment is on the third floor.",
+      "exampleTr": "Daire üçüncü katta.",
+      "extra": "There is a carpet on the floor in the bedroom.",
+      "extraTr": "Yatak odasının zemininde bir halı var."
+    },
+    {
+      "word": "roof",
+      "pronunciation": "ruuf",
+      "turkish": "çatı",
+      "example": "There is a terrace on the roof.",
+      "exampleTr": "Çatıda bir teras var.",
+      "extra": "You can see the sea from the roof.",
+      "extraTr": "Çatıdan denizi görebilirsiniz."
+    },
+    {
+      "word": "neighbor",
+      "pronunciation": "NEY-bır",
+      "turkish": "komşu",
+      "example": "The neighbors are very friendly and quiet.",
+      "exampleTr": "Komşular çok samimi ve sessiz.",
+      "extra": "Our neighbor lives on the second floor.",
+      "extraTr": "Komşumuz ikinci katta oturuyor."
+    },
+    {
+      "word": "quiet",
+      "pronunciation": "KVAY-ıt",
+      "turkish": "sessiz / sakin",
+      "example": "The neighborhood is very quiet at night.",
+      "exampleTr": "Mahalle geceleri çok sessiz.",
+      "extra": "I want a quiet room, please.",
+      "extraTr": "Sessiz bir oda istiyorum, lütfen."
+    },
+    {
+      "word": "noisy",
+      "pronunciation": "NOY-zi",
+      "turkish": "gürültülü",
+      "example": "The street is noisy during the day.",
+      "exampleTr": "Sokak gündüz gürültülü.",
+      "extra": "Is the apartment noisy at night?",
+      "extraTr": "Daire geceleri gürültülü mü?"
+    },
+    {
+      "word": "spacious",
+      "pronunciation": "SPEY-şıs",
+      "turkish": "geniş / ferah",
+      "example": "The living room is very spacious.",
+      "exampleTr": "Oturma odası çok geniş.",
+      "extra": "We need a spacious apartment for our family.",
+      "extraTr": "Ailemiz için geniş bir daire lazım."
+    },
+    {
+      "word": "cozy",
+      "pronunciation": "KOU-zi",
+      "turkish": "sıcak / samimi / rahat",
+      "example": "The bedroom is small but very cozy.",
+      "exampleTr": "Yatak odası küçük ama çok rahat.",
+      "extra": "This is a cozy place. I feel at home here.",
+      "extraTr": "Burası sıcak bir yer. Kendimi evimde gibi hissediyorum."
+    },
+    {
+      "word": "view",
+      "pronunciation": "vyuu",
+      "turkish": "manzara",
+      "example": "There is a beautiful sea view from the balcony.",
+      "exampleTr": "Balkondan güzel bir deniz manzarası var.",
+      "extra": "The view from the roof is amazing at sunset.",
+      "extraTr": "Çatıdan gün batımında manzara muhteşem."
+    },
+    {
+      "word": "air conditioning",
+      "pronunciation": "er kın-Dİ-şı-ning",
+      "turkish": "klima",
+      "example": "Is there air conditioning in the bedroom?",
+      "exampleTr": "Yatak odasında klima var mı?",
+      "extra": "The air conditioning works very well in summer.",
+      "extraTr": "Klima yazın çok iyi çalışıyor."
+    },
+    {
+      "word": "heater",
+      "pronunciation": "Hİİ-tır",
+      "turkish": "ısıtıcı / kalorifer",
+      "example": "There is a heater in every room.",
+      "exampleTr": "Her odada bir ısıtıcı var.",
+      "extra": "Turn on the heater, please. It's cold.",
+      "extraTr": "Isıtıcıyı aç, lütfen. Soğuk."
+    }
+  ],
+
+  "grammar": {
+    "title": "There is / There are + Prepositions of Place",
+    "titleTr": "There is / There are + Yer Edatları",
+    "explanation": "We use 'there is' for singular (one thing) and 'there are' for plural (more than one). We use prepositions of place (in, on, under, next to, between, behind, in front of, above, near) to say WHERE something is.",
+    "explanationTr": "'There is' tekil (bir şey) için, 'there are' çoğul (birden fazla) için kullanılır. Yer edatları (in, on, under, next to, between, behind, in front of, above, near) bir şeyin NEREDE olduğunu söylemek için kullanılır.",
+    "table": [
+      ["There is (There's)", "+", "Tekil → bir şey var", "There is a fridge in the kitchen."],
+      ["There are", "+", "Çoğul → birden fazla şey var", "There are two bathrooms in the house."],
+      ["There isn't", "−", "Tekil olumsuz → yok", "There isn't a garden."],
+      ["There aren't", "−", "Çoğul olumsuz → yok", "There aren't any towels."],
+      ["Is there...?", "?", "Tekil soru → var mı?", "Is there a balcony?"],
+      ["Are there...?", "?", "Çoğul soru → var mı?", "Are there enough chairs?"],
+      ["Prepositions", "📍", "in / on / under / next to / between / behind / in front of / above / near", "The microwave is on the counter. The cat is under the table."]
+    ],
+    "tips": [
+      { "en": "There is = There's (short form)", "tr": "Kısaltma: There is → There's (konuşmada çok kullanılır)" },
+      { "en": "in = inside something: in the kitchen, in the box", "tr": "in = bir şeyin içinde: mutfakta, kutuda" },
+      { "en": "on = touching the surface: on the table, on the wall", "tr": "on = yüzeyde: masanın üstünde, duvarda" },
+      { "en": "next to = beside: The couch is next to the window.", "tr": "next to = yanında: Kanepe pencerenin yanında." },
+      { "en": "between = in the middle of two things: between the fridge and the oven", "tr": "between = iki şeyin arasında: buzdolabı ve fırın arasında" },
+      { "en": "There is + uncountable nouns too: There is water in the fridge.", "tr": "Sayılamayan isimlerle de 'there is' kullanılır: Buzdolabında su var." }
+    ]
+  },
+
+  "reading": {
+    "text": "Welcome to our cozy apartment in Antalya! This is the perfect place for your holiday.\n\nThere are two bedrooms in the apartment. The main bedroom is spacious with a big bed and a beautiful sea view from the window. There is air conditioning in both bedrooms. The second bedroom is smaller but very cozy. There are extra blankets and pillows in the closet.\n\nThe kitchen is modern and fully equipped. There is a fridge, a microwave, and an oven. There are plates, glasses, and everything you need for cooking. The living room is next to the kitchen. There is a comfortable couch and a big TV.\n\nThere is one bathroom with a hot shower and clean towels. The washing machine is also in the bathroom.\n\nThere is a small balcony with two chairs and a table. The view is amazing — you can see the sea! The neighborhood is very quiet and safe. There is free parking in front of the building.\n\n⭐ Guest review by Marco: \"Great apartment! Everything is clean and the location is perfect. The kitchen is well-equipped and the bed is very comfortable. The only problem — there isn't a heater, so it was a little cold in December. But the host is very friendly and helpful. I definitely recommend this place!\"",
+    "textTr": "Antalya'daki rahat dairemize hoş geldiniz! Burası tatiliniz için mükemmel bir yer.\n\nDairede iki yatak odası var. Ana yatak odası geniş, büyük bir yatağı ve pencereden güzel bir deniz manzarası var. Her iki yatak odasında da klima var. İkinci yatak odası daha küçük ama çok rahat. Dolapta ekstra battaniye ve yastık var.\n\nMutfak modern ve tam donanımlı. Buzdolabı, mikrodalga ve fırın var. Tabak, bardak ve yemek yapmak için ihtiyacınız olan her şey var. Oturma odası mutfağın yanında. Rahat bir kanepe ve büyük bir TV var.\n\nSıcak suyu olan bir duş ve temiz havluları olan bir banyo var. Çamaşır makinesi de banyoda.\n\nİki sandalye ve bir masalı küçük bir balkon var. Manzara harika — denizi görebilirsiniz! Mahalle çok sessiz ve güvenli. Binanın önünde ücretsiz otopark var.\n\n⭐ Misafir yorumu — Marco: \"Harika daire! Her şey temiz ve konum mükemmel. Mutfak iyi donanımlı ve yatak çok rahat. Tek sorun — ısıtıcı yok, bu yüzden Aralık'ta biraz soğuktu. Ama ev sahibi çok samimi ve yardımsever. Bu yeri kesinlikle tavsiye ediyorum!\"",
+    "questions": [
+      {
+        "question": "How many bedrooms are there in the apartment?",
+        "questionTr": "Dairede kaç yatak odası var?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correct": 1
+      },
+      {
+        "question": "Where is the washing machine?",
+        "questionTr": "Çamaşır makinesi nerede?",
+        "options": ["In the kitchen", "In the bedroom", "In the bathroom", "On the balcony"],
+        "correct": 2
+      },
+      {
+        "question": "What can you see from the balcony?",
+        "questionTr": "Balkondan ne görebilirsiniz?",
+        "options": ["Mountains", "A park", "The sea", "The city center"],
+        "correct": 2
+      },
+      {
+        "question": "What was Marco's only problem?",
+        "questionTr": "Marco'nun tek sorunu neydi?",
+        "options": ["The kitchen was small", "There wasn't a heater", "The neighbors were noisy", "There wasn't parking"],
+        "correct": 1
+      },
+      {
+        "question": "Where is the parking?",
+        "questionTr": "Otopark nerede?",
+        "options": ["Behind the building", "Next to the garden", "In front of the building", "Under the building"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Calling the Airbnb Host",
+    "titleTr": "Airbnb Ev Sahibini Arama",
+    "context": "Eyüp, Antalya'da bir Airbnb kiralamak istiyor. Ev sahibi Sarah'ı arayıp ev hakkında sorular soruyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Sarah", "text": "Hello! This is Sarah. How can I help you?", "textTr": "Merhaba! Ben Sarah. Size nasıl yardımcı olabilirim?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi Sarah! I'm Eyüp. I'm interested in your apartment in Antalya. Can I ask some questions?", "textTr": "Merhaba Sarah! Ben Eyüp. Antalya'daki dairenizle ilgileniyorum. Birkaç soru sorabilir miyim?" },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Of course! Go ahead.", "textTr": "Tabii ki! Buyurun." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "How many bedrooms are there?", "textTr": "Kaç yatak odası var?" },
+      { "speaker": "A", "speakerName": "Sarah", "text": "There are two bedrooms. The main bedroom has a sea view and the second one is smaller but cozy.", "textTr": "İki yatak odası var. Ana yatak odasının deniz manzarası var ve ikincisi daha küçük ama rahat." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Great! Is there air conditioning? It's very hot in summer.", "textTr": "Harika! Klima var mı? Yazın çok sıcak oluyor." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Yes, there is air conditioning in both bedrooms and in the living room.", "textTr": "Evet, her iki yatak odasında ve oturma odasında klima var." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Perfect. Is there a washing machine? I'm staying for two weeks.", "textTr": "Mükemmel. Çamaşır makinesi var mı? İki hafta kalacağım." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Yes, there is a washing machine in the bathroom. And there are clean towels and extra blankets in the closet.", "textTr": "Evet, banyoda bir çamaşır makinesi var. Ve dolapta temiz havlular ve ekstra battaniyeler var." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "What about the kitchen? Is there a microwave and an oven?", "textTr": "Mutfak ne durumda? Mikrodalga ve fırın var mı?" },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Yes! The kitchen is fully equipped. There is a fridge, a microwave, an oven, and everything for cooking.", "textTr": "Evet! Mutfak tam donanımlı. Buzdolabı, mikrodalga, fırın ve yemek yapmak için her şey var." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Is there parking near the building? I'm coming by car.", "textTr": "Binanın yakınında otopark var mı? Arabayla geliyorum." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Yes, there is free parking in front of the building. No problem!", "textTr": "Evet, binanın önünde ücretsiz otopark var. Sorun değil!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "One more question — is the neighborhood quiet or noisy?", "textTr": "Bir soru daha — mahalle sessiz mi yoksa gürültülü mü?" },
+      { "speaker": "A", "speakerName": "Sarah", "text": "It's very quiet and safe. The neighbors are friendly too. You'll love it!", "textTr": "Çok sessiz ve güvenli. Komşular da samimi. Bayılacaksınız!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That sounds wonderful! I want to book it. Thank you so much, Sarah!", "textTr": "Kulağa harika geliyor! Rezervasyon yapmak istiyorum. Çok teşekkür ederim, Sarah!" },
+      { "speaker": "A", "speakerName": "Sarah", "text": "You're welcome, Eyüp! I'll send you the details. See you soon!", "textTr": "Rica ederim, Eyüp! Detayları göndereceğim. Yakında görüşürüz!" }
+    ],
+    "questions": [
+      {
+        "question": "Why is Eyüp calling Sarah?",
+        "questionTr": "Eyüp neden Sarah'ı arıyor?",
+        "options": ["To complain about noise", "To ask about the apartment", "To cancel a booking", "To ask for directions"],
+        "correct": 1
+      },
+      {
+        "question": "How long is Eyüp staying?",
+        "questionTr": "Eyüp ne kadar kalacak?",
+        "options": ["One week", "Two weeks", "One month", "Three days"],
+        "correct": 1
+      },
+      {
+        "question": "Where is the air conditioning?",
+        "questionTr": "Klima nerede?",
+        "options": ["Only in the living room", "Only in the bedrooms", "In both bedrooms and the living room", "There is no air conditioning"],
+        "correct": 2
+      },
+      {
+        "question": "How is Eyüp coming to Antalya?",
+        "questionTr": "Eyüp Antalya'ya nasıl geliyor?",
+        "options": ["By plane", "By bus", "By car", "By train"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "There ___ a big kitchen in the apartment.", "answer": "is", "hint": "tekil → is" },
+      { "sentence": "There ___ three bedrooms in the house.", "answer": "are", "hint": "çoğul → are" },
+      { "sentence": "There ___ a balcony with a sea view.", "answer": "is", "hint": "tekil → is" },
+      { "sentence": "___ there a washing machine?", "answer": "Is", "hint": "tekil soru" },
+      { "sentence": "___ there any towels in the bathroom?", "answer": "Are", "hint": "çoğul soru" },
+      { "sentence": "There ___ any parking near the building.", "answer": "isn't", "hint": "tekil olumsuz" },
+      { "sentence": "The fridge is ___ the kitchen.", "answer": "in", "hint": "içinde" },
+      { "sentence": "The keys are ___ the table.", "answer": "on", "hint": "üstünde" },
+      { "sentence": "The couch is ___ the window.", "answer": "next to", "hint": "yanında" },
+      { "sentence": "The parking is ___ the building.", "answer": "in front of", "hint": "önünde" },
+      { "sentence": "The oven is ___ the fridge and the counter.", "answer": "between", "hint": "arasında" },
+      { "sentence": "There ___ extra blankets in the closet.", "answer": "are", "hint": "çoğul → are" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"Mutfakta bir buzdolabı var.\" İngilizce'de hangisi?",
+        "options": ["There are a fridge in the kitchen.", "There is a fridge in the kitchen.", "It is a fridge in the kitchen.", "A fridge is there in the kitchen."],
+        "correct": 1
+      },
+      {
+        "question": "\"Balkon var mı?\" İngilizce'de hangisi?",
+        "options": ["There is a balcony?", "Is there a balcony?", "Are there a balcony?", "Does there a balcony?"],
+        "correct": 1
+      },
+      {
+        "question": "\"There ___ two bathrooms.\" Boşluğa ne gelir?",
+        "options": ["is", "are", "be", "has"],
+        "correct": 1
+      },
+      {
+        "question": "\"The cat is ___ the table.\" (masanın altında)",
+        "options": ["on", "in", "under", "above"],
+        "correct": 2
+      },
+      {
+        "question": "\"Bahçe yok.\" İngilizce'de hangisi?",
+        "options": ["There is a garden.", "There aren't a garden.", "There isn't a garden.", "There not a garden."],
+        "correct": 2
+      },
+      {
+        "question": "\"next to\" ne demek?",
+        "options": ["arkasında", "yanında", "üstünde", "altında"],
+        "correct": 1
+      },
+      {
+        "question": "\"There ___ any chairs in the room.\" (sandalye yok)",
+        "options": ["isn't", "aren't", "is", "not"],
+        "correct": 1
+      },
+      {
+        "question": "\"spacious\" ne demek?",
+        "options": ["gürültülü", "küçük", "geniş / ferah", "karanlık"],
+        "correct": 2
+      },
+      {
+        "question": "\"The picture is ___ the couch.\" (kanepenin üzerinde, duvarda)",
+        "options": ["under", "next to", "above", "between"],
+        "correct": 2
+      },
+      {
+        "question": "\"cozy\" ne demek?",
+        "options": ["soğuk", "sıcak / samimi / rahat", "gürültülü", "pahalı"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "kitchen", "right": "mutfak" },
+      { "left": "bathroom", "right": "banyo" },
+      { "left": "bedroom", "right": "yatak odası" },
+      { "left": "living room", "right": "oturma odası" },
+      { "left": "balcony", "right": "balkon" },
+      { "left": "garden", "right": "bahçe" },
+      { "left": "towel", "right": "havlu" },
+      { "left": "blanket", "right": "battaniye" },
+      { "left": "pillow", "right": "yastık" },
+      { "left": "fridge", "right": "buzdolabı" },
+      { "left": "couch", "right": "kanepe" },
+      { "left": "stairs", "right": "merdivenler" },
+      { "left": "neighbor", "right": "komşu" },
+      { "left": "spacious", "right": "geniş / ferah" },
+      { "left": "heater", "right": "ısıtıcı" }
+    ],
+    "sentenceOrder": [
+      { "words": ["There", "is", "a", "fridge", "in", "the", "kitchen"], "correct": "There is a fridge in the kitchen" },
+      { "words": ["Are", "there", "two", "bathrooms", "in", "the", "house"], "correct": "Are there two bathrooms in the house" },
+      { "words": ["There", "isn't", "a", "garden", "in", "the", "apartment"], "correct": "There isn't a garden in the apartment" },
+      { "words": ["The", "couch", "is", "next", "to", "the", "window"], "correct": "The couch is next to the window" },
+      { "words": ["Is", "there", "air", "conditioning", "in", "the", "bedroom"], "correct": "Is there air conditioning in the bedroom" },
+      { "words": ["There", "are", "clean", "towels", "in", "the", "bathroom"], "correct": "There are clean towels in the bathroom" },
+      { "words": ["The", "parking", "is", "in", "front", "of", "the", "building"], "correct": "The parking is in front of the building" },
+      { "words": ["There", "aren't", "any", "chairs", "on", "the", "balcony"], "correct": "There aren't any chairs on the balcony" },
+      { "words": ["The", "microwave", "is", "on", "the", "kitchen", "counter"], "correct": "The microwave is on the kitchen counter" }
+    ],
+    "translation": [
+      {
+        "turkish": "Mutfakta bir buzdolabı var.",
+        "english": "There is a fridge in the kitchen.",
+        "acceptAlso": ["There's a fridge in the kitchen."]
+      },
+      {
+        "turkish": "Evde kaç yatak odası var?",
+        "english": "How many bedrooms are there in the house?",
+        "acceptAlso": ["How many bedrooms are there?"]
+      },
+      {
+        "turkish": "Banyoda temiz havlular var.",
+        "english": "There are clean towels in the bathroom.",
+        "acceptAlso": ["There're clean towels in the bathroom."]
+      },
+      {
+        "turkish": "Balkon var mı?",
+        "english": "Is there a balcony?",
+        "acceptAlso": ["Is there a balcony"]
+      },
+      {
+        "turkish": "Kanepe pencerenin yanında.",
+        "english": "The couch is next to the window.",
+        "acceptAlso": ["The sofa is next to the window."]
+      },
+      {
+        "turkish": "Bahçe yok.",
+        "english": "There isn't a garden.",
+        "acceptAlso": ["There is no garden.", "There's no garden."]
+      },
+      {
+        "turkish": "Binanın önünde otopark var.",
+        "english": "There is parking in front of the building.",
+        "acceptAlso": ["There's parking in front of the building."]
+      },
+      {
+        "turkish": "Her odada klima var.",
+        "english": "There is air conditioning in every room.",
+        "acceptAlso": ["There's air conditioning in every room."]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "There is / There are - British Council",
+      "description": "There is / There are yapısını alıştırmalarla öğren",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/there-is-there-are",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Prepositions of Place - BBC Learning English",
+      "description": "Yer edatlarını videolarla öğren (in, on, under, next to...)",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-6/session-1",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Describing a Room - ESL Vocabulary",
+      "description": "Ev ve oda kelimelerini resimlerle öğren",
+      "url": "https://www.esleschool.com/rooms-in-a-house-vocabulary/",
+      "type": "article",
+      "level": "A1",
+      "free": true
+    }
+  ]
+}
