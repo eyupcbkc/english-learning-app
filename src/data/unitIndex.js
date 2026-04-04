@@ -1,4 +1,4 @@
-// Central registry of all units - add new units here
+// Central registry of all units
 import unit01 from './units/unit-01.json'
 import unit02 from './units/unit-02.json'
 import unit03 from './units/unit-03.json'
@@ -31,12 +31,30 @@ import unit29 from './units/unit-29.json'
 import unit30 from './units/unit-30.json'
 import unit31 from './units/unit-31.json'
 import unit32 from './units/unit-32.json'
+import unit33 from './units/unit-33.json'
+import unit34 from './units/unit-34.json'
+import unit35 from './units/unit-35.json'
+import unit36 from './units/unit-36.json'
+import unit37 from './units/unit-37.json'
+import unit38 from './units/unit-38.json'
+import unit39 from './units/unit-39.json'
+import unit40 from './units/unit-40.json'
+import unit41 from './units/unit-41.json'
+import unit42 from './units/unit-42.json'
+import unit43 from './units/unit-43.json'
+import unit44 from './units/unit-44.json'
+import unit45 from './units/unit-45.json'
+import unit46 from './units/unit-46.json'
+import unit47 from './units/unit-47.json'
+import unit48 from './units/unit-48.json'
 
 const units = [
   unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08,
   unit09, unit10, unit11, unit12, unit13, unit14, unit15, unit16,
   unit17, unit18, unit19, unit20, unit21, unit22, unit23, unit24,
   unit25, unit26, unit27, unit28, unit29, unit30, unit31, unit32,
+  unit33, unit34, unit35, unit36, unit37, unit38, unit39, unit40,
+  unit41, unit42, unit43, unit44, unit45, unit46, unit47, unit48,
 ]
 
 export default units

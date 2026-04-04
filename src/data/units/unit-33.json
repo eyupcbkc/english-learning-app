@@ -1,0 +1,601 @@
+{
+  "id": "unit-33",
+  "title": "Past Perfect — The Plan That Wasn't Executed",
+  "titleTr": "Past Perfect — Uygulanmayan Plan",
+  "level": "B1",
+  "module": 5,
+  "description": "Master the Past Perfect tense (had + past participle) to describe actions that happened before another past action. Analyze what went wrong in a failed logistics project through a realistic retrospective meeting.",
+  "descriptionTr": "Gecmisteki baska bir eylemden once gerceklesen eylemleri anlatmak icin Past Perfect zamani (had + past participle) ogren. Basarisiz bir lojistik projeyi gercekci bir retrospektif toplantida analiz et.",
+
+  "vocabulary": [
+    {
+      "word": "had done",
+      "pronunciation": "hed-DAN",
+      "turkish": "yapmisti",
+      "example": "By the time we realized the error, the team had done everything wrong.",
+      "exampleTr": "Hatayi fark ettigimizde, ekip her seyi yanlis yapmisti.",
+      "extra": "She said she had done her best, but the deadline was too tight.",
+      "extraTr": "Elinden geleni yaptigini soyledi ama son tarih cok sikiydi."
+    },
+    {
+      "word": "had finished",
+      "pronunciation": "hed-Fi-nisht",
+      "turkish": "bitirmisti",
+      "example": "The warehouse team had finished packing before the truck arrived.",
+      "exampleTr": "Depo ekibi kamyon gelmeden once paketlemeyi bitirmisti.",
+      "extra": "We discovered the problem after the supplier had finished shipping.",
+      "extraTr": "Tedarikci gonderimi bitirdikten sonra sorunu kesfettik."
+    },
+    {
+      "word": "had already",
+      "pronunciation": "hed-ol-RE-di",
+      "turkish": "coktan yapmisti",
+      "example": "The client had already cancelled the order when we called back.",
+      "exampleTr": "Biz geri aradigimizda musteri siparisi coktan iptal etmisti.",
+      "extra": "By Friday, the damage had already been done — we couldn't fix it.",
+      "extraTr": "Cuma'ya kadar hasar coktan olmustu — duzeltmesi mumkun degildi."
+    },
+    {
+      "word": "had never",
+      "pronunciation": "hed-NE-vir",
+      "turkish": "hic yapmamisti",
+      "example": "The new manager had never handled a project of this scale before.",
+      "exampleTr": "Yeni mudur daha once bu olcekte bir projeyle hic ilgilenmemisti.",
+      "extra": "We had never experienced such a massive supply chain failure.",
+      "extraTr": "Bu kadar buyuk bir tedarik zinciri basarisizligi hic yasamamistik."
+    },
+    {
+      "word": "had been",
+      "pronunciation": "hed-BIN",
+      "turkish": "olmust / bulunmustu",
+      "example": "The shipment had been delayed three times before it finally arrived.",
+      "exampleTr": "Gonderi sonunda ulasmadan once uc kez ertelenmisti.",
+      "extra": "The warehouse had been understaffed for months before the collapse.",
+      "extraTr": "Depo cokmeden aylar once yetersiz kadroyla calisiyordu."
+    },
+    {
+      "word": "before",
+      "pronunciation": "bi-FOR",
+      "turkish": "oncesinde / -den once",
+      "example": "The team had reviewed the plan before the meeting started.",
+      "exampleTr": "Ekip toplanti baslamadan once plani incelemisti.",
+      "extra": "Before we signed the contract, we had checked every detail.",
+      "extraTr": "Sozlesmeyi imzalamadan once her detayi kontrol etmistik."
+    },
+    {
+      "word": "after",
+      "pronunciation": "EF-tir",
+      "turkish": "sonrasinda / -den sonra",
+      "example": "After the client had complained, we changed the entire process.",
+      "exampleTr": "Musteri sikayet ettikten sonra tum sureci degistirdik.",
+      "extra": "The team realized the mistake after the shipment had left the warehouse.",
+      "extraTr": "Ekip, gonderi depodan ciktiktan sonra hatayi fark etti."
+    },
+    {
+      "word": "by the time",
+      "pronunciation": "bay-dı-TAYM",
+      "turkish": "-e kadar / -diginda",
+      "example": "By the time the backup plan was ready, it was too late.",
+      "exampleTr": "Yedek plan hazir oldugunda, cok gec olmustu.",
+      "extra": "By the time management intervened, the project had already failed.",
+      "extraTr": "Yonetim mudahale ettiginde, proje coktan basarisiz olmustu."
+    },
+    {
+      "word": "until",
+      "pronunciation": "an-TIL",
+      "turkish": "-e kadar / -ene kadar",
+      "example": "We hadn't noticed the error until the client called us.",
+      "exampleTr": "Musteri bizi arayana kadar hatayi fark etmemistik.",
+      "extra": "The team worked overtime until they had resolved every issue.",
+      "extraTr": "Ekip her sorunu cozene kadar fazla mesai yapti."
+    },
+    {
+      "word": "once",
+      "pronunciation": "VANS",
+      "turkish": "bir kere / -dikten sonra",
+      "example": "Once we had identified the root cause, fixing it was easy.",
+      "exampleTr": "Temel nedeni belirledikten sonra, duzeltmek kolay oldu.",
+      "extra": "Once the report had been submitted, there was nothing more to do.",
+      "extraTr": "Rapor gonderildikten sonra, yapacak baska bir sey kalmadi."
+    },
+    {
+      "word": "previously",
+      "pronunciation": "PRII-vi-ıs-li",
+      "turkish": "daha once / onceden",
+      "example": "The risk had been previously identified but was ignored.",
+      "exampleTr": "Risk daha once tespit edilmisti ama gormezden gelindi.",
+      "extra": "She had previously warned the team about the tight deadline.",
+      "extraTr": "Ekibi daha once siki son tarih konusunda uyarmisti."
+    },
+    {
+      "word": "prior to",
+      "pronunciation": "PRAY-ır tu",
+      "turkish": "-den once / oncesinde (resmi)",
+      "example": "Prior to the launch, the team had tested the system twice.",
+      "exampleTr": "Lansmandan once ekip sistemi iki kez test etmisti.",
+      "extra": "Prior to joining this company, I had worked in international logistics for five years.",
+      "extraTr": "Bu sirkete katilmadan once, bes yil uluslararasi lojistikte calismistim."
+    },
+    {
+      "word": "deadline",
+      "pronunciation": "DED-layn",
+      "turkish": "son teslim tarihi / son tarih",
+      "example": "The team had missed the deadline because of poor planning.",
+      "exampleTr": "Ekip kotu planlama yuzunden son teslim tarihini kacirmisti.",
+      "extra": "We had set an unrealistic deadline and paid the price for it.",
+      "extraTr": "Gercekci olmayan bir son tarih belirledigimiz icin bedelini odedik."
+    },
+    {
+      "word": "delay",
+      "pronunciation": "di-LEY",
+      "turkish": "gecikme / geciktirmek",
+      "example": "The delay had caused a chain reaction across all departments.",
+      "exampleTr": "Gecikme tum departmanlarda zincirleme bir reaksiyona neden olmustu.",
+      "extra": "By the time we addressed the delay, the client had already found another supplier.",
+      "extraTr": "Gecikmeyi ele aldigimizda musteri coktan baska bir tedarikci bulmustu."
+    },
+    {
+      "word": "failure",
+      "pronunciation": "FEYL-yır",
+      "turkish": "basarisizlik / ariza",
+      "example": "The project failure was caused by multiple factors.",
+      "exampleTr": "Proje basarisizligi birden fazla faktorden kaynaklaniyordu.",
+      "extra": "After the system failure, we realized we had never tested the backup.",
+      "extraTr": "Sistem arizasindan sonra yedegi hic test etmedigimizi fark ettik."
+    },
+    {
+      "word": "oversight",
+      "pronunciation": "O-vır-sayt",
+      "turkish": "gozden kacirma / ihmal",
+      "example": "The oversight had led to a $50,000 loss for the company.",
+      "exampleTr": "Bu gozden kacirma sirketin 50.000 dolar zarar etmesine neden olmustu.",
+      "extra": "It was a simple oversight, but it had serious consequences.",
+      "extraTr": "Basit bir ihmaldu ama ciddi sonuclari oldu."
+    },
+    {
+      "word": "miscommunication",
+      "pronunciation": "mis-kı-myu-ni-KEY-sın",
+      "turkish": "yanlis iletisim / iletisim hatasi",
+      "example": "The miscommunication between teams had caused the wrong shipment to be sent.",
+      "exampleTr": "Ekipler arasi yanlis iletisim yanlis gonderinin gonderilmesine neden olmustu.",
+      "extra": "We discovered that a miscommunication had occurred between sales and logistics.",
+      "extraTr": "Satis ve lojistik arasinda bir iletisim hatasi oldugunu kesfettik."
+    },
+    {
+      "word": "underestimate",
+      "pronunciation": "an-dır-ES-tı-meyt",
+      "turkish": "hafife almak / kucumsemek",
+      "example": "We had underestimated the complexity of the project.",
+      "exampleTr": "Projenin karmasikligini hafife almistik.",
+      "extra": "The team had underestimated how long the customs process would take.",
+      "extraTr": "Ekip gumruk surecinin ne kadar surecegini hafife almisti."
+    },
+    {
+      "word": "overbudget",
+      "pronunciation": "o-vır-BA-cit",
+      "turkish": "butce asimi / butceyi asmis",
+      "example": "The project had gone overbudget by 40% before anyone noticed.",
+      "exampleTr": "Kimse fark etmeden proje butceyi %40 asmisti.",
+      "extra": "We realized we had been overbudget since the second month.",
+      "extraTr": "Ikinci aydan beri butceyi astigimizi fark ettik."
+    },
+    {
+      "word": "contingency",
+      "pronunciation": "kın-TIN-cın-si",
+      "turkish": "acil durum plani / olasilik",
+      "example": "We had no contingency plan when the main supplier failed.",
+      "exampleTr": "Ana tedarikci basarisiz oldugunda acil durum planimiz yoktu.",
+      "extra": "If we had prepared a contingency, the damage would have been minimal.",
+      "extraTr": "Bir acil durum plani hazirlasaydik, hasar minimum olurdu."
+    },
+    {
+      "word": "accountable",
+      "pronunciation": "ı-KAUN-tı-bıl",
+      "turkish": "sorumlu / hesap verebilir",
+      "example": "Nobody had been held accountable for the failure.",
+      "exampleTr": "Basarisizlik icin kimse sorumlu tutulmamisti.",
+      "extra": "The manager who had been accountable for the project resigned.",
+      "extraTr": "Projeden sorumlu olan mudur istifa etti."
+    },
+    {
+      "word": "outcome",
+      "pronunciation": "AUT-kam",
+      "turkish": "sonuc / cikti",
+      "example": "The outcome was much worse than we had expected.",
+      "exampleTr": "Sonuc bekledigimizden cok daha kotu oldu.",
+      "extra": "Had we acted sooner, the outcome would have been different.",
+      "extraTr": "Daha erken hareket etseydik, sonuc farkli olurdu."
+    },
+    {
+      "word": "consequence",
+      "pronunciation": "KON-sı-kwens",
+      "turkish": "sonuc / yaptirm",
+      "example": "The consequence of the delay was a lost contract worth $200,000.",
+      "exampleTr": "Gecikmenin sonucu 200.000 dolar degerinde kaybedilmis bir sozlesmeydi.",
+      "extra": "Every decision has consequences — we had learned that the hard way.",
+      "extraTr": "Her kararin sonuclari vardir — bunu zor yoldan ogrenmistik."
+    },
+    {
+      "word": "root cause",
+      "pronunciation": "RUUT koz",
+      "turkish": "temel neden / kok neden",
+      "example": "The root cause of the failure had been poor communication.",
+      "exampleTr": "Basarisizligin temel nedeni kotu iletisimdi.",
+      "extra": "Once we had found the root cause, we could prevent it from happening again.",
+      "extraTr": "Temel nedeni buldugumuzda, tekrar olmasini engelleyebildik."
+    },
+    {
+      "word": "retrospective",
+      "pronunciation": "ret-ro-SPEK-tiv",
+      "turkish": "geriye donuk degerlendirme",
+      "example": "We held a retrospective meeting to analyze what had gone wrong.",
+      "exampleTr": "Neyin yanlis gittigini analiz etmek icin geriye donuk bir toplanti yaptik.",
+      "extra": "The retrospective revealed issues that had been hidden for months.",
+      "extraTr": "Geriye donuk degerlendirme aylardir gizlenen sorunlari ortaya cikardi."
+    },
+    {
+      "word": "lesson learned",
+      "pronunciation": "LE-sın LORND",
+      "turkish": "alinan ders / ogrenilen ders",
+      "example": "The biggest lesson learned was to always have a backup plan.",
+      "exampleTr": "Alinan en buyuk ders her zaman bir yedek plana sahip olmakti.",
+      "extra": "We documented all lessons learned so future teams wouldn't repeat our mistakes.",
+      "extraTr": "Gelecekteki ekiplerin hatalarimizi tekrarlamamasi icin tum alinan dersleri belgeledik."
+    },
+    {
+      "word": "prevent",
+      "pronunciation": "pri-VENT",
+      "turkish": "onlemek / engellemek",
+      "example": "Better planning could have prevented the entire disaster.",
+      "exampleTr": "Daha iyi planlama tum felaketi onleyebilirdi.",
+      "extra": "We had failed to prevent the problem because we hadn't monitored the process.",
+      "extraTr": "Sureci izlemedigimiz icin sorunu onleyemedik."
+    },
+    {
+      "word": "foresee",
+      "pronunciation": "for-SII",
+      "turkish": "onceden gormek / ongormek",
+      "example": "Nobody had foreseen that the supplier would go bankrupt.",
+      "exampleTr": "Kimse tedarikcinin iflas edecegini ongormemisti.",
+      "extra": "If we had foreseen the risk, we would have chosen a different partner.",
+      "extraTr": "Riski ongorseydik, farkli bir partner secerdik."
+    },
+    {
+      "word": "anticipate",
+      "pronunciation": "en-TI-sı-peyt",
+      "turkish": "ongormek / beklemek / tahmin etmek",
+      "example": "The team had not anticipated such a high volume of returns.",
+      "exampleTr": "Ekip bu kadar yuksek iade hacmini ongorememisti.",
+      "extra": "Had we anticipated the demand, we would have ordered more stock.",
+      "extraTr": "Talebi ongorseydik, daha fazla stok siparis ederdik."
+    },
+    {
+      "word": "rectify",
+      "pronunciation": "REK-tı-fay",
+      "turkish": "duzeltmek / telafi etmek",
+      "example": "The error was rectified after the client had filed a complaint.",
+      "exampleTr": "Musteri sikayet ettikten sonra hata duzeltildi.",
+      "extra": "We should have rectified the issue before it escalated.",
+      "extraTr": "Sorun tirmandmadan once duzeltmeliydik."
+    }
+  ],
+
+  "grammar": {
+    "title": "Past Perfect — Had + Past Participle",
+    "titleTr": "Past Perfect — Had + Gecmis Ortac (Past Participle)",
+    "explanation": "The Past Perfect describes an action that happened BEFORE another action in the past. Think of it as 'the past of the past.' Use 'had + past participle' for the earlier action and Past Simple for the later action. Time markers like 'before, after, by the time, until, once, previously, prior to' help signal Past Perfect.",
+    "explanationTr": "Past Perfect, gecmiste baska bir eylemden ONCE gerceklesen bir eylemi anlatir. Bunu 'gecmisin gecmisi' olarak dusun. Onceki eylem icin 'had + past participle', sonraki eylem icin Past Simple kullan. 'before, after, by the time, until, once, previously, prior to' gibi zaman belirtecleri Past Perfect sinyali verir.",
+    "table": [
+      ["Positive: Subject + had + past participle", "The team had finished the report before the meeting.", "They had already shipped the order when we called.", "Gecmisteki bir eylemden ONCE tamamlanan eylem icin kullan."],
+      ["Negative: Subject + had not (hadn't) + past participle", "We hadn't checked the quality before shipping.", "The manager hadn't approved the budget yet.", "Gecmiste bir sey YAPILMAMIS oldugunu gosterir."],
+      ["Question: Had + subject + past participle?", "Had you reviewed the contract before signing it?", "Had the team finished testing before launch?", "Gecmisteki sira hakkinda soru sormak icin kullan."],
+      ["Before / After signals", "Before the truck arrived, we had loaded everything. / After we had loaded everything, the truck arrived.", "Before = Past Perfect first, then Past Simple. After = Past Perfect action, then result.", "Before → had + PP, sonra Past Simple. After → had + PP, sonra sonuc."],
+      ["By the time / Until signals", "By the time the manager arrived, the team had already left. / We hadn't noticed until the client called.", "By the time = one event was already done. Until = something hadn't happened yet.", "By the time = bir sey coktan olmustu. Until = bir sey henuz olmamisti."],
+      ["Once / Previously / Prior to signals", "Once we had identified the problem, we fixed it quickly. / The issue had previously been reported. / Prior to the merger, they had operated independently.", "These markers show the time relationship between past events.", "Bu belirtecler gecmis olaylar arasindaki zaman iliskisini gosterir."],
+      ["Common mistake: Don't confuse with Present Perfect", "WRONG: 'By the time he arrived, I have finished.' CORRECT: 'By the time he arrived, I had finished.'", "Present Perfect = past connected to NOW. Past Perfect = past connected to ANOTHER PAST.", "Present Perfect = gecmis + simdi. Past Perfect = gecmis + BASKA BIR GECMIS."]
+    ],
+    "tips": [
+      { "en": "Think of Past Perfect as 'the earlier past.' If two things happened in the past, the EARLIER one gets 'had': 'When I arrived (later), they had already left (earlier).'", "tr": "Past Perfect'i 'daha onceki gecmis' olarak dusun. Gecmiste iki sey olduysa, ONCE olan 'had' alir: 'Vardigimda (sonra), coktan gitmislerdi (once).'" },
+      { "en": "'By the time' almost always needs Past Perfect: 'By the time we noticed, the damage had already been done.'", "tr": "'By the time' neredeyse her zaman Past Perfect gerektirir: 'Fark ettigimizde, hasar coktan olmustu.'" },
+      { "en": "In retrospective/post-mortem meetings, Past Perfect is essential: 'What had gone wrong? What had we missed? What had caused the failure?'", "tr": "Geriye donuk degerlendirme toplatilarinda Past Perfect sart: 'Ne yanlis gitmisti? Neyi kacirmistik? Basarisizliga ne neden olmustu?'" },
+      { "en": "Use 'had never' for first-time experiences in the past: 'We had never dealt with such a large order before.'", "tr": "'Had never' gecmisteki ilk deneyimler icin kullan: 'Daha once bu kadar buyuk bir siparise hic rastlamamistik.'" },
+      { "en": "With 'already' and 'just,' place them between 'had' and the past participle: 'had already finished,' 'had just arrived.'", "tr": "'Already' ve 'just' kelimelerini 'had' ile past participle arasina yerlestir: 'had already finished,' 'had just arrived.'" },
+      { "en": "In reported speech, Past Simple becomes Past Perfect: Direct: 'I finished the report.' → Reported: 'He said he had finished the report.'", "tr": "Dolayli anlatimda Past Simple, Past Perfect olur: Dogrudan: 'Raporu bitirdim.' → Dolayli: 'Raporu bitirdigini soyledi.'" }
+    ]
+  },
+
+  "reading": {
+    "text": "POST-MORTEM REPORT: Project Atlas — Regional Distribution Center Expansion\n\nProject Atlas was supposed to be our company's biggest achievement this year. The goal was to open a new regional distribution center in Izmir within six months. However, the project failed, and this report analyzes what had gone wrong.\n\nFirst, the planning phase had been rushed. The project manager had underestimated the construction timeline by two months. Prior to approving the budget, the finance team had not conducted a proper cost analysis. By the time they realized the budget was insufficient, $120,000 had already been spent on equipment that wasn't compatible with the new facility.\n\nSecond, there had been a serious miscommunication between the logistics and IT departments. The IT team had assumed that the warehouse management system would be ready by March, but no one had actually confirmed this with the software vendor. Once the logistics team had arrived in Izmir to set up operations, they discovered that the system hadn't been installed yet.\n\nThird, we had no contingency plan. When the main construction contractor went bankrupt in April, the project came to a complete stop. The project manager hadn't foreseen this risk because he had never checked the contractor's financial health. Previously, this same contractor had failed to deliver on time for another client, but we hadn't known about it.\n\nThe consequences were severe. The company lost $340,000 in total, three key clients had already moved to competitors by the time we announced the delay, and team morale dropped significantly. The root cause was a combination of poor planning, lack of communication, and failure to anticipate risks.\n\nLessons learned: Always verify vendor reliability prior to signing contracts. Never underestimate timelines. Have a contingency plan ready. Hold weekly check-ins so problems are identified before they become disasters. Every team member must be held accountable for their responsibilities.",
+    "textTr": "OLUM-SONRASI RAPOR: Proje Atlas — Bolgesel Dagitim Merkezi Genislemesi\n\nProje Atlas bu yilin en buyuk basarimiz olacakti. Hedef, alti ay icinde Izmir'de yeni bir bolgesel dagitim merkezi acmakti. Ancak proje basarisiz oldu ve bu rapor neyin yanlis gittigini analiz ediyor.\n\nIlk olarak, planlama asamasi aceleye getirilmisti. Proje muduru insaat zaman cizelgesini iki ay hafife almisti. Butceyi onaylamadan once, finans ekibi uygun bir maliyet analizi yapmamisti. Butcenin yetersiz oldugunu fark ettiklerinde, yeni tesise uygun olmayan ekipmana coktan 120.000 dolar harcanmisti.\n\nIkinci olarak, lojistik ve IT departmanlari arasinda ciddi bir iletisim hatasi olmustu. IT ekibi depo yonetim sisteminin Mart'a kadar hazir olacagini varsaymisti, ama kimse bunu yazilim tedarikcisiyle teyit etmemisti. Lojistik ekibi operasyonlari kurmak icin Izmir'e vardiginda, sistemin henuz kurulmadigini kesfetti.\n\nUcuncu olarak, acil durum planimiz yoktu. Ana insaat muteahhidi Nisan'da iflas ettiginde, proje tamamen durdu. Proje muduru bu riski ongorememisti cunku muteahhidin mali durumunu hic kontrol etmemisti. Daha once ayni muteahhit baska bir musteri icin zamaninda teslim edememisti ama biz bunu bilmiyorduk.\n\nSonuclari agirdi. Sirket toplam 340.000 dolar kaybetti, gecikmeyi duyurdugumuzda uc onemli musteri coktan rakiplere gecmisti ve ekip morali onemli olcude dustu. Temel neden, kotu planlama, iletisim eksikligi ve riskleri ongorememe kombinasyonuydu.\n\nAlinan dersler: Sozlesme imzalamadan once tedarikci guvenilirligini her zaman dogrulayin. Zaman cizelgelerini asla hafife almayin. Acil durum plani hazir bulundurun. Sorunlar felaket haline gelmeden tespit edilmesi icin haftalik kontrol toplantilari yapin. Her ekip uyesi sorumluluklarindan hesap verebilir olmalidir.",
+    "questions": [
+      {
+        "question": "What was the goal of Project Atlas?",
+        "questionTr": "Proje Atlas'in hedefi neydi?",
+        "options": ["Open a new headquarters in Istanbul", "Open a regional distribution center in Izmir", "Merge with a competitor", "Launch a new software system"],
+        "correct": 1
+      },
+      {
+        "question": "What had the project manager underestimated?",
+        "questionTr": "Proje muduru neyi hafife almisti?",
+        "options": ["The number of employees needed", "The construction timeline", "The distance to Izmir", "The cost of software"],
+        "correct": 1
+      },
+      {
+        "question": "What happened when the logistics team arrived in Izmir?",
+        "questionTr": "Lojistik ekibi Izmir'e vardiginda ne oldu?",
+        "options": ["Everything was ready", "The building hadn't been constructed", "The warehouse system hadn't been installed", "The contractor was waiting for them"],
+        "correct": 2
+      },
+      {
+        "question": "Why hadn't the project manager foreseen the contractor risk?",
+        "questionTr": "Proje muduru muteahhit riskini neden ongorememisti?",
+        "options": ["He was on vacation", "He had never checked the contractor's financial health", "He didn't know about the contractor", "The contractor had hidden the information"],
+        "correct": 1
+      },
+      {
+        "question": "How much money did the company lose in total?",
+        "questionTr": "Sirket toplam ne kadar para kaybetti?",
+        "options": ["$120,000", "$200,000", "$340,000", "$500,000"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Retrospective Meeting — What Went Wrong?",
+    "titleTr": "Geriye Donuk Degerlendirme Toplantisi — Ne Yanlis Gitti?",
+    "context": "Eyup lojistik muduru olarak, basarisiz Proje Atlas hakkinda ekip uyesi Ayse ve ust yonetici Mr. Harrison ile retrospektif toplantida. Neden basarisiz oldugunu analiz ediyorlar ve gelecek icin dersler cikariyorlar.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "Alright, team. Let's start this retrospective. Project Atlas has been officially closed. We need to understand what had gone wrong and make sure it never happens again.", "textTr": "Pekala, ekip. Bu geriye donuk degerlendirmeyi baslatalim. Proje Atlas resmi olarak kapatildi. Neyin yanlis gittigini anlamamiz ve bir daha tekrarlanmamasini saglamamiz gerekiyor.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Thank you, Mr. Harrison. I've prepared a timeline of events. The first problem was that the planning phase had been rushed. We had approved the timeline without verifying it with the construction team.", "textTr": "Tesekkurler Mr. Harrison. Olaylarin bir zaman cizelgesini hazirladim. Ilk sorun planlama asamasinin aceleye getirilmesiydi. Zaman cizelgesini insaat ekibiyle dogrulamadan onaylamistik." },
+      { "speaker": "A", "speakerName": "Ayse", "text": "That's correct. I had raised concerns about the timeline in February, but by that time, the budget had already been approved and nobody wanted to change it.", "textTr": "Bu dogru. Subat'ta zaman cizelgesi hakkinda endiselerimi dile getirmistim ama o zamana kadar butce coktan onaylanmisti ve kimse degistirmek istemedi.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "You're right, Ayse. That was an oversight on my part. I should have listened to your concerns before we moved forward.", "textTr": "Haklisin Ayse. Bu benim tarafimdan bir ihmaldu. Ilerlmeden once endiselerini dinlemeliydim." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "What about the IT situation? I heard there had been a major miscommunication between departments.", "textTr": "IT durumu ne oldu? Departmanlar arasinda buyuk bir iletisim hatasi oldugunu duydum.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Yes. The IT team had assumed the warehouse management system would be ready by March. But they had never actually confirmed the delivery date with the software vendor.", "textTr": "Evet. IT ekibi depo yonetim sisteminin Mart'a kadar hazir olacagini varsaymisti. Ama teslim tarihini yazilim tedarikcisiyle hic teyit etmemislerdi." },
+      { "speaker": "A", "speakerName": "Ayse", "text": "When we arrived in Izmir to start operations, we discovered that the system hadn't been installed yet. We had wasted two weeks waiting and couldn't do anything.", "textTr": "Operasyonlari baslatmak icin Izmir'e vardigimizda, sistemin henuz kurulmadigini kesfettik. Iki hafta bekleyerek harcadik ve hicbir sey yapamadik.", "gender": "female" },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "Had anyone checked the vendor's track record prior to signing the contract?", "textTr": "Sozlesme imzalamadan once tedarikcinin gecmis performansini kimse kontrol etmis miydi?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "No, and that was another failure. We later found out that the vendor had previously missed deadlines for two other companies. We hadn't done our due diligence.", "textTr": "Hayir, ve bu baska bir basarisizlikti. Daha sonra tedarikcinin daha once iki baska sirket icin son tarihleri kacirdigini ogrendik. Gerekli ozeni gostermemistik." },
+      { "speaker": "A", "speakerName": "Ayse", "text": "And then the contractor went bankrupt in April. Had we anticipated that risk, we could have had a backup contractor ready.", "textTr": "Ve sonra muteahhit Nisan'da iflas etti. O riski ongorseydik, yedek bir muteahhit hazir bulundurabilirdik.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Exactly. We had no contingency plan at all. Once the contractor had failed, the entire project stopped. We hadn't prepared for any worst-case scenario.", "textTr": "Aynen. Hicbir acil durum planimiz yoktu. Muteahhit basarisiz olduktan sonra tum proje durdu. Hicbir en kotu senaryo icin hazirlk yapmamistik." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "By the time I was informed about the problems, the project had already gone overbudget by 40%. Why hadn't anyone escalated this earlier?", "textTr": "Sorunlar hakkinda bilgilendirildigimde proje butceyi coktan %40 asmisti. Kimse bunu neden daha once ust kademeye iletmemisti?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "That's a fair question. The project manager had underestimated the costs and kept hoping things would improve. He hadn't reported the true numbers until it was too late.", "textTr": "Adil bir soru. Proje muduru maliyetleri hafife almisti ve islerin duzlecegini umut etmeye devam etti. Cok gec olana kadar gercek rakamlari bildirmemisti." },
+      { "speaker": "A", "speakerName": "Ayse", "text": "I think nobody had been held accountable during the project. If we had assigned clear ownership from the beginning, problems would have been caught earlier.", "textTr": "Bence proje suresince kimse sorumlu tutulmamisti. Basindan itibaren net sorumluluk ataseydik, sorunlar daha erken yakalanirdi.", "gender": "female" },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "So what are the lessons learned? I want to hear concrete actions, not just observations.", "textTr": "Peki alinan dersler ne? Sadece gozlemler degil, somut eylemler duymak istiyorum.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "First, we need to verify all vendor and contractor reliability prior to signing any contract. We should have done that for Project Atlas.", "textTr": "Birincisi, herhangi bir sozlesme imzalamadan once tum tedarikci ve muteahhit guvenilirligini dogrulamamiz gerekiyor. Bunu Proje Atlas icin yapmalyidik." },
+      { "speaker": "A", "speakerName": "Ayse", "text": "Second, every project must have a contingency plan. If we had had one for Atlas, we could have rectified the situation when the contractor failed.", "textTr": "Ikincisi, her projenin bir acil durum plani olmali. Atlas icin olsaydi, muteahhit basarisiz oldugunda durumu duzeltebilirdik.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Third, weekly progress reports with honest numbers. Previously, the project manager had hidden the real budget figures. That must never happen again.", "textTr": "Ucuncusu, duruat rakamlarla haftalik ilerleme raporlari. Daha once proje muduru gercek butce rakamlarini gizlemisti. Bu bir daha asla olmamali." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "Good. I want these documented and shared with every department. The consequence of ignoring these lessons will be severe. We lost $340,000 — that's the price of not being prepared.", "textTr": "Iyi. Bunlarin belgelenmesini ve her departmanla paylasilmasini istiyorum. Bu dersleri gormezden gelmenin sonucu agir olacak. 340.000 dolar kaybettik — bu hazirliksiz olmanin bedeli.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Understood, Mr. Harrison. I'll prepare the final retrospective document by Friday. We'll make sure every lesson learned from this failure is used to prevent future mistakes.", "textTr": "Anladim Mr. Harrison. Cuma'ya kadar nihai geriye donuk degerlendirme belgesini hazirlayacagim. Bu basarisizliktan alinan her dersin gelecek hatalari onlemek icin kullanilmasini saglayacagiz." },
+      { "speaker": "A", "speakerName": "Ayse", "text": "And I'll create a risk assessment checklist that every project team must complete before kickoff. We should have had this process in place long ago.", "textTr": "Ve ben de her proje ekibinin baslangic oncesi tamamlamasi gereken bir risk degerlendirme kontrol listesi olusturacagim. Bu sureci cok once yerine koymus olmamiz gerekirdi.", "gender": "female" }
+    ],
+    "questions": [
+      {
+        "question": "What was the first problem identified in the retrospective?",
+        "questionTr": "Geriye donuk degerlendirmede belirlenen ilk sorun neydi?",
+        "options": ["The IT system crashed", "The planning phase had been rushed", "The contractor was expensive", "The team was too small"],
+        "correct": 1
+      },
+      {
+        "question": "What had Ayse done in February?",
+        "questionTr": "Ayse Subat'ta ne yapmisti?",
+        "options": ["She had resigned", "She had raised concerns about the timeline", "She had approved the budget", "She had contacted the vendor"],
+        "correct": 1
+      },
+      {
+        "question": "Why hadn't the budget problems been reported earlier?",
+        "questionTr": "Butce sorunlari neden daha erken rapor edilmemisti?",
+        "options": ["The system was broken", "The project manager had hidden the real numbers", "Nobody had access to the data", "The finance team was on vacation"],
+        "correct": 1
+      },
+      {
+        "question": "How much money was lost in total?",
+        "questionTr": "Toplam ne kadar para kaybedildi?",
+        "options": ["$120,000", "$200,000", "$340,000", "$500,000"],
+        "correct": 2
+      },
+      {
+        "question": "What will Ayse create as a preventive measure?",
+        "questionTr": "Ayse onlem olarak ne olusturacak?",
+        "options": ["A new budget plan", "A risk assessment checklist", "A training program", "A vendor database"],
+        "correct": 1
+      },
+      {
+        "question": "What does Eyup promise to deliver by Friday?",
+        "questionTr": "Eyup Cuma'ya kadar ne teslim edecegini soz veriyor?",
+        "options": ["A new project plan", "The final retrospective document", "Budget approval", "Vendor contracts"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "By the time we arrived, the team ___ already left.", "answer": "had", "hint": "Past Perfect — had + past participle" },
+      { "sentence": "The project manager ___ underestimated the timeline by two months.", "answer": "had", "hint": "Past Perfect — hafife almak" },
+      { "sentence": "We hadn't noticed the error ___ the client called us.", "answer": "until", "hint": "Zaman belirteci — -e kadar" },
+      { "sentence": "Prior ___ signing the contract, we should have checked the vendor.", "answer": "to", "hint": "Prior to — -den once (resmi)" },
+      { "sentence": "Nobody ___ been held accountable for the failure.", "answer": "had", "hint": "Past Perfect — sorumlu tutulmak" },
+      { "sentence": "The miscommunication ___ caused the wrong shipment to be sent.", "answer": "had", "hint": "Past Perfect — neden olmak" },
+      { "sentence": "Once we ___ found the root cause, we could fix it.", "answer": "had", "hint": "Past Perfect — once + had" },
+      { "sentence": "The risk had been ___ identified but was ignored.", "answer": "previously", "hint": "Zaman zarfi — daha once" },
+      { "sentence": "___ the time management intervened, it was too late.", "answer": "By", "hint": "By the time — -e kadar" },
+      { "sentence": "If we had prepared a ___ plan, the damage would have been minimal.", "answer": "contingency", "hint": "Acil durum plani" },
+      { "sentence": "The contractor had ___ delivered on time for any client.", "answer": "never", "hint": "Had never — hic yapmamisti" },
+      { "sentence": "The ___ of the delay was a lost contract worth $200,000.", "answer": "consequence", "hint": "Sonuc / yaptirm" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"By the time the manager arrived, the team ___ already left.\" Bosluga ne gelir?",
+        "options": ["has", "have", "had", "having"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi dogru Past Perfect cumlesidir?",
+        "options": ["I have finished before he arrived.", "I had finished before he arrived.", "I finished before he had arrive.", "I had finish before he arrived."],
+        "correct": 1
+      },
+      {
+        "question": "\"We ___ the error until the client called.\" Dogru olan?",
+        "options": ["didn't notice", "hadn't noticed", "haven't noticed", "don't notice"],
+        "correct": 1
+      },
+      {
+        "question": "\"Root cause\" ne anlama gelir?",
+        "options": ["Agac koku", "Temel neden", "Sonuc", "Gecikme"],
+        "correct": 1
+      },
+      {
+        "question": "\"Retrospective\" ne anlama gelir?",
+        "options": ["Ileri planlama toplantisi", "Geriye donuk degerlendirme", "Butce toplantisi", "Yeni proje sunumu"],
+        "correct": 1
+      },
+      {
+        "question": "\"Prior to\" hangi anlama gelir?",
+        "options": ["-den sonra", "-den once (resmi)", "Surasinda", "Boyunca"],
+        "correct": 1
+      },
+      {
+        "question": "\"The team had ___ anticipated such a large volume of returns.\" Bosluga ne gelir?",
+        "options": ["no", "not", "never", "none"],
+        "correct": 1
+      },
+      {
+        "question": "\"Contingency plan\" ne demek?",
+        "options": ["Pazarlama plani", "Acil durum plani", "Is plani", "Butce plani"],
+        "correct": 1
+      },
+      {
+        "question": "Hangisi Past Perfect degil, Present Perfect?",
+        "options": ["I had finished the report.", "She had left before I arrived.", "They have completed the project.", "We had never seen that before."],
+        "correct": 2
+      },
+      {
+        "question": "\"Accountable\" ne anlama gelir?",
+        "options": ["Muhasebeci", "Hesap verebilir / sorumlu", "Sayilabilir", "Kabul edilebilir"],
+        "correct": 1
+      },
+      {
+        "question": "\"Once we ___ identified the problem, we fixed it.\" Dogru olan?",
+        "options": ["have", "has", "had", "having"],
+        "correct": 2
+      },
+      {
+        "question": "\"Foresee\" ne anlama gelir?",
+        "options": ["Gormezden gelmek", "Onceden gormek / ongormek", "Geride kalmak", "Iptal etmek"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "had done", "right": "yapmisti" },
+      { "left": "had finished", "right": "bitirmisti" },
+      { "left": "deadline", "right": "son teslim tarihi" },
+      { "left": "delay", "right": "gecikme" },
+      { "left": "failure", "right": "basarisizlik" },
+      { "left": "oversight", "right": "gozden kacirma / ihmal" },
+      { "left": "miscommunication", "right": "iletisim hatasi" },
+      { "left": "underestimate", "right": "hafife almak" },
+      { "left": "overbudget", "right": "butce asimi" },
+      { "left": "contingency", "right": "acil durum plani" },
+      { "left": "accountable", "right": "sorumlu / hesap verebilir" },
+      { "left": "outcome", "right": "sonuc / cikti" },
+      { "left": "consequence", "right": "sonuc / yaptirm" },
+      { "left": "root cause", "right": "temel neden" },
+      { "left": "retrospective", "right": "geriye donuk degerlendirme" },
+      { "left": "lesson learned", "right": "alinan ders" },
+      { "left": "prevent", "right": "onlemek" },
+      { "left": "foresee", "right": "onceden gormek" },
+      { "left": "anticipate", "right": "ongormek / tahmin etmek" },
+      { "left": "rectify", "right": "duzeltmek" },
+      { "left": "previously", "right": "daha once" },
+      { "left": "prior to", "right": "-den once (resmi)" },
+      { "left": "by the time", "right": "-e kadar / -diginda" },
+      { "left": "once", "right": "-dikten sonra" },
+      { "left": "before", "right": "-den once" },
+      { "left": "after", "right": "-den sonra" },
+      { "left": "until", "right": "-e kadar / -ene kadar" },
+      { "left": "had already", "right": "coktan yapmisti" },
+      { "left": "had never", "right": "hic yapmamisti" },
+      { "left": "had been", "right": "olmust / bulunmustu" }
+    ],
+    "sentenceOrder": [
+      { "words": ["By", "the", "time", "we", "arrived", "the", "team", "had", "already", "left"], "correct": "By the time we arrived the team had already left" },
+      { "words": ["The", "project", "had", "gone", "overbudget", "before", "anyone", "noticed"], "correct": "The project had gone overbudget before anyone noticed" },
+      { "words": ["We", "hadn't", "checked", "the", "vendor", "prior", "to", "signing"], "correct": "We hadn't checked the vendor prior to signing" },
+      { "words": ["Once", "we", "had", "found", "the", "root", "cause", "we", "fixed", "it"], "correct": "Once we had found the root cause we fixed it" },
+      { "words": ["The", "team", "had", "never", "handled", "a", "project", "this", "large"], "correct": "The team had never handled a project this large" },
+      { "words": ["Nobody", "had", "been", "held", "accountable", "for", "the", "failure"], "correct": "Nobody had been held accountable for the failure" },
+      { "words": ["The", "miscommunication", "had", "caused", "serious", "delays", "in", "the", "project"], "correct": "The miscommunication had caused serious delays in the project" },
+      { "words": ["We", "hadn't", "noticed", "the", "error", "until", "the", "client", "called"], "correct": "We hadn't noticed the error until the client called" },
+      { "words": ["She", "had", "previously", "warned", "the", "team", "about", "the", "deadline"], "correct": "She had previously warned the team about the deadline" }
+    ],
+    "translation": [
+      {
+        "turkish": "Vardigimizda ekip coktan gitmisti.",
+        "english": "By the time we arrived, the team had already left.",
+        "acceptAlso": ["When we arrived, the team had already left."]
+      },
+      {
+        "turkish": "Proje muduru zaman cizelgesini hafife almisti.",
+        "english": "The project manager had underestimated the timeline.",
+        "acceptAlso": ["The project manager had underestimated the schedule."]
+      },
+      {
+        "turkish": "Kimse bu riski ongorememisti.",
+        "english": "Nobody had foreseen this risk.",
+        "acceptAlso": ["No one had foreseen this risk.", "Nobody had anticipated this risk."]
+      },
+      {
+        "turkish": "Sozlesme imzalamadan once tedarikcyi kontrol etmeliydik.",
+        "english": "We should have checked the vendor prior to signing the contract.",
+        "acceptAlso": ["We should have checked the vendor before signing the contract."]
+      },
+      {
+        "turkish": "Musteri sikayet edene kadar hatayi fark etmemistik.",
+        "english": "We hadn't noticed the error until the client complained.",
+        "acceptAlso": ["We had not noticed the error until the client complained."]
+      },
+      {
+        "turkish": "Acil durum planimiz olmadigi icin proje durdu.",
+        "english": "The project stopped because we had no contingency plan.",
+        "acceptAlso": ["The project stopped because we hadn't had a contingency plan."]
+      },
+      {
+        "turkish": "Temel nedeni bulduktan sonra sorunu hizla duzeltik.",
+        "english": "Once we had found the root cause, we rectified the problem quickly.",
+        "acceptAlso": ["After we had found the root cause, we fixed the problem quickly."]
+      },
+      {
+        "turkish": "Basarisizlik icin kimse sorumlu tutulmamisti.",
+        "english": "Nobody had been held accountable for the failure.",
+        "acceptAlso": ["No one had been held accountable for the failure."]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Past Perfect Tense - English with Lucy",
+      "description": "Past Perfect zamani detayli aciklama ve orneklerle ogrenin",
+      "url": "https://www.youtube.com/watch?v=hW4nB7ZRVOQ",
+      "type": "video",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Past Perfect Exercises - Perfect English Grammar",
+      "description": "Past Perfect zaman icin interaktif alistirmalar",
+      "url": "https://www.perfect-english-grammar.com/past-perfect-exercise-1.html",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Post-Mortem Analysis in Project Management - Harvard Business Review",
+      "description": "Proje basarisizliklarini analiz etme ve dersler cikarma rehberi",
+      "url": "https://hbr.org/topic/project-management",
+      "type": "article",
+      "level": "B1-B2",
+      "free": true
+    }
+  ]
+}

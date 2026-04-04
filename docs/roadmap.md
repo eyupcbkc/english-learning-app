@@ -51,7 +51,7 @@
 - [x] 🃏 Flashcard sistemi refactor (8 modüler bileşen, zamanlı oturum, pas geçme, seviye filtresi)
 - [x] ⚡ Performans: anında kart yükleme, React.memo, Firestore modern API
 - [x] 📝 Unit 25-32 icerikleri (Module 4 tamam! B1)
-- [ ] 📝 **Unit 33-48 icerikleri (Module 5-6: B1→B2)** ← SIRADAKI
+- [ ] 📝 Unit 33-48 icerikleri (Module 5-6 tamam! B1→B2)
 - [ ] 📝 Unit 49-64 icerikleri (Module 7-8: B2→C1)
 - [ ] 📚 Kelime listesi sayfasi + filtreleme
 - [ ] 🎤 Speech-to-Text pronunciation practice
@@ -125,25 +125,25 @@
 
 ### Module 5: Complex Grammar (B1 → B2)
 **Hedef:** Karmasik gramer — gecmis analizi, koşullar, idiomlar
-- [ ] Unit 33: Past Perfect — *Gecmiste yapilmayan is plani*
-- [ ] Unit 34: Third Conditional — *Kacirilmis firsatlar*
-- [ ] Unit 35: Mixed Conditionals — *Kariyer planlama*
-- [ ] Unit 36: Gerunds vs Infinitives — *Proje yonetimi*
-- [ ] Unit 37: Advanced Passive — *Sirket surecleri*
-- [ ] Unit 38: Collocations Set 1 — *Is dunyasi collocations*
-- [ ] Unit 39: Idioms & Expressions Set 1 — *Ofis hayati*
-- [ ] Unit 40: B2 Entry Test
+- [x] Unit - [ ] Unit 33: Past Perfect — *Gecmiste yapilmayan is plani*
+- [x] Unit - [ ] Unit 34: Third Conditional — *Kacirilmis firsatlar*
+- [x] Unit - [ ] Unit 35: Mixed Conditionals — *Kariyer planlama*
+- [x] Unit - [ ] Unit 36: Gerunds vs Infinitives — *Proje yonetimi*
+- [x] Unit - [ ] Unit 37: Advanced Passive — *Sirket surecleri*
+- [x] Unit - [ ] Unit 38: Collocations Set 1 — *Is dunyasi collocations*
+- [x] Unit - [ ] Unit 39: Idioms & Expressions Set 1 — *Ofis hayati*
+- [x] Unit 40: B2 Entry Test
 
 ### Module 6: Fluency Building (B2)
 **Hedef:** Akicilik — tartisma, essay, haber, formal/informal
-- [ ] Unit 41: Wish & If only
-- [ ] Unit 42: Formal vs Informal register
-- [ ] Unit 43: Essay structure & Opinion writing
-- [ ] Unit 44: Phrasal Verbs Set 3
-- [ ] Unit 45: Debate & Argumentation
-- [ ] Unit 46: News & Media vocabulary
-- [ ] Unit 47: Collocations Set 2
-- [ ] Unit 48: B2 Level Test
+- [x] Unit - [ ] Unit 41: Wish & If only
+- [x] Unit - [ ] Unit 42: Formal vs Informal register
+- [x] Unit - [ ] Unit 43: Essay structure & Opinion writing
+- [x] Unit - [ ] Unit 44: Phrasal Verbs Set 3
+- [x] Unit - [ ] Unit 45: Debate & Argumentation
+- [x] Unit - [ ] Unit 46: News & Media vocabulary
+- [x] Unit - [ ] Unit 47: Collocations Set 2
+- [x] Unit - [ ] Unit 48: B2 Level Test
 
 ---
 

@@ -1,0 +1,601 @@
+{
+  "id": "unit-34",
+  "title": "Third Conditional — Missed Opportunities",
+  "titleTr": "Ucuncu Kosul — Kacirilan Firsatlar",
+  "level": "B1",
+  "module": 5,
+  "description": "Learn the Third Conditional (If + Past Perfect, would have + past participle) to talk about hypothetical past situations and missed opportunities. Reflect on career decisions through a realistic mentoring conversation.",
+  "descriptionTr": "Varsayimsal gecmis durumlar ve kacirilan firsatlar hakkinda konusmak icin Ucuncu Kosul'u (If + Past Perfect, would have + past participle) ogren. Gercekci bir mentorluk konusmasiyla kariyer kararlari uzerine dusun.",
+
+  "vocabulary": [
+    {
+      "word": "would have",
+      "pronunciation": "vud-hev",
+      "turkish": "-misti olurdu / -ecekti",
+      "example": "If we had invested earlier, we would have doubled our revenue.",
+      "exampleTr": "Daha erken yatirim yapsaydik, gelirimizi ikiye katlardik.",
+      "extra": "She would have been promoted if she had stayed at the company.",
+      "extraTr": "Sirkette kalsaydi terfi ederdi."
+    },
+    {
+      "word": "could have",
+      "pronunciation": "kud-hev",
+      "turkish": "-ebilirdi / -mesi mumkundu",
+      "example": "We could have expanded to Europe if we had secured the funding.",
+      "exampleTr": "Finansmani saglasaydik Avrupa'ya genisleyebilirdik.",
+      "extra": "The project could have succeeded if the team had communicated better.",
+      "extraTr": "Ekip daha iyi iletisim kursaydı proje basarili olabilirdi."
+    },
+    {
+      "word": "might have",
+      "pronunciation": "mayt-hev",
+      "turkish": "-mis olabilirdi (belirsiz)",
+      "example": "If they had launched six months earlier, they might have captured the market.",
+      "exampleTr": "Alti ay once lansman yapsalardi pazari ele gecirebilirlerdi.",
+      "extra": "We might have avoided the lawsuit if we had read the contract more carefully.",
+      "extraTr": "Sozlesmeyi daha dikkatli okusaydik davadan kurtulmus olabilirdik."
+    },
+    {
+      "word": "should have",
+      "pronunciation": "sud-hev",
+      "turkish": "-meliydi / -masi gerekirdi",
+      "example": "We should have hired more experienced people from the beginning.",
+      "exampleTr": "Basindan beri daha deneyimli insanlar ise almalydik.",
+      "extra": "The CEO should have listened to the advisory board's warning.",
+      "extraTr": "CEO danisma kurulunun uyarisini dinlemeliydi."
+    },
+    {
+      "word": "regret",
+      "pronunciation": "ri-GRET",
+      "turkish": "pismanlik / pisman olmak",
+      "example": "My biggest regret is not pursuing the partnership with that Japanese company.",
+      "exampleTr": "En buyuk pismanligim o Japon sirketi ile ortakligi takip etmememdir.",
+      "extra": "He regrets not having taken the risk when he had the chance.",
+      "extraTr": "Firsat varken riski almadigi icin pisman."
+    },
+    {
+      "word": "opportunity",
+      "pronunciation": "op-ır-TU-nı-ti",
+      "turkish": "firsat",
+      "example": "The opportunity would have been life-changing if we had taken it.",
+      "exampleTr": "Onu alsaydik hayat degistiren bir firsat olurdu.",
+      "extra": "In business, missed opportunities often teach more than successes.",
+      "extraTr": "Is hayatinda kacirilan firsatlar cogu zaman basarilardan daha cok sey ogretir."
+    },
+    {
+      "word": "decision",
+      "pronunciation": "di-SI-jın",
+      "turkish": "karar",
+      "example": "Every decision we make has long-term consequences.",
+      "exampleTr": "Aldigimiz her kararin uzun vadeli sonuclari vardir.",
+      "extra": "If she had made a different decision, the company might have survived.",
+      "extraTr": "Farkli bir karar verseydi sirket ayakta kalabilirdi."
+    },
+    {
+      "word": "consequence",
+      "pronunciation": "KON-sı-kwens",
+      "turkish": "sonuc / yaptirm",
+      "example": "The consequence of that decision was a $2 million loss.",
+      "exampleTr": "O kararin sonucu 2 milyon dolarlik kayip oldu.",
+      "extra": "If we had thought about the consequences, we wouldn't have rushed.",
+      "extraTr": "Sonuclarini dusunseydik acele etmezdik."
+    },
+    {
+      "word": "alternative",
+      "pronunciation": "ol-TOR-nı-tiv",
+      "turkish": "alternatif / secenek",
+      "example": "We should have explored alternative solutions before committing.",
+      "exampleTr": "Karar vermeden once alternatif cozumleri arastirmalydik.",
+      "extra": "If there had been an alternative, we would have chosen it.",
+      "extraTr": "Bir alternatif olsaydi onu secerdik."
+    },
+    {
+      "word": "hindsight",
+      "pronunciation": "HAYND-sayt",
+      "turkish": "geriye bakinca / sonradan anlama",
+      "example": "In hindsight, we should have invested in automation much earlier.",
+      "exampleTr": "Geriye bakinca, otomasyona cok daha erken yatirim yapmalydik.",
+      "extra": "Hindsight is 20/20 — everything looks clear after the fact.",
+      "extraTr": "Geriye bakinca her sey net gorunur — olay gerceklestikten sonra her sey acik."
+    },
+    {
+      "word": "realize",
+      "pronunciation": "RII-ı-layz",
+      "turkish": "fark etmek / farkina varmak",
+      "example": "I didn't realize the opportunity until it was too late.",
+      "exampleTr": "Cok gec olana kadar firsatin farkina varmadim.",
+      "extra": "She realized she should have accepted the offer when she saw the competitor's success.",
+      "extraTr": "Rakibin basarisini gordiginde teklifi kabul etmesi gerektigini fark etti."
+    },
+    {
+      "word": "succeed",
+      "pronunciation": "sık-SIID",
+      "turkish": "basarmak / basarili olmak",
+      "example": "The project would have succeeded if we had allocated more resources.",
+      "exampleTr": "Daha fazla kaynak ayirsaydik proje basarili olurdu.",
+      "extra": "Very few startups succeed on their first try.",
+      "extraTr": "Cok az startup ilk denemede basarili olur."
+    },
+    {
+      "word": "fail",
+      "pronunciation": "FEYL",
+      "turkish": "basarisiz olmak / basaramamak",
+      "example": "The business failed because they hadn't adapted to market changes.",
+      "exampleTr": "Is basarisiz oldu cunku pazar degisikliklerine uyum saglayamamislardi.",
+      "extra": "If we had failed, we would have lost everything we had built.",
+      "extraTr": "Basarisiz olsaydik, insa ettigimiz her seyi kaybederdik."
+    },
+    {
+      "word": "risk",
+      "pronunciation": "RISK",
+      "turkish": "risk / risk almak",
+      "example": "If I had taken that risk, I might have become a partner by now.",
+      "exampleTr": "O riski alsaydim simdi ortak olmus olabilirdim.",
+      "extra": "Sometimes the biggest risk is not taking any risk at all.",
+      "extraTr": "Bazen en buyuk risk hicbir risk almamaktir."
+    },
+    {
+      "word": "invest",
+      "pronunciation": "in-VEST",
+      "turkish": "yatirim yapmak",
+      "example": "If we had invested in that startup, we would have made millions.",
+      "exampleTr": "O startup'a yatirim yapsaydik milyonlar kazanrdik.",
+      "extra": "They regret not having invested in digital transformation earlier.",
+      "extraTr": "Dijital donusume daha erken yatirim yapmadiklari icin pismanlar."
+    },
+    {
+      "word": "expand",
+      "pronunciation": "iks-PEND",
+      "turkish": "genislemek / buyumek",
+      "example": "We could have expanded into Asia if we had found the right partner.",
+      "exampleTr": "Dogru partneri bulsaydik Asya'ya genisleyebilirdik.",
+      "extra": "The company expanded to 15 countries in just three years.",
+      "extraTr": "Sirket sadece uc yilda 15 ulkeye genisledi."
+    },
+    {
+      "word": "partnership",
+      "pronunciation": "PART-nır-sip",
+      "turkish": "ortaklik / is birligi",
+      "example": "If we had formed that partnership, our logistics network would have been stronger.",
+      "exampleTr": "O ortakligi kursaydik lojistik agimiz daha guclu olurdu.",
+      "extra": "The partnership with the German firm could have changed everything.",
+      "extraTr": "Alman firmasiyla ortaklik her seyi degistirebilirdi."
+    },
+    {
+      "word": "merger",
+      "pronunciation": "MOR-cır",
+      "turkish": "birlesme / sirket birlesmesi",
+      "example": "The merger would have made us the biggest company in the region.",
+      "exampleTr": "Birlesme bizi bolgenin en buyuk sirketi yapardi.",
+      "extra": "If the merger had gone through, 200 jobs would have been saved.",
+      "extraTr": "Birlesme gerceklesseydi 200 is kurtulurdu."
+    },
+    {
+      "word": "acquisition",
+      "pronunciation": "ek-wı-ZI-sın",
+      "turkish": "satin alma / devralma",
+      "example": "The acquisition of that small tech company could have been our breakthrough.",
+      "exampleTr": "O kucuk teknoloji sirketinin satin alinmasi atilimimiz olabilirdi.",
+      "extra": "If we had completed the acquisition, we would have owned the patent.",
+      "extraTr": "Satin almayi tamamlasaydik patentin sahibi olurduk."
+    },
+    {
+      "word": "venture",
+      "pronunciation": "VEN-cır",
+      "turkish": "girisim / risk sermayesi",
+      "example": "The joint venture would have opened doors to the Chinese market.",
+      "exampleTr": "Ortak girisim Cin pazarina kapilar acardi.",
+      "extra": "If he had joined the venture, he might have become a millionaire.",
+      "extraTr": "Girisime katilsaydi milyoner olabilirdi."
+    },
+    {
+      "word": "startup",
+      "pronunciation": "START-ap",
+      "turkish": "startup / yeni girisim",
+      "example": "If I had invested $10,000 in that startup, it would have been worth $2 million today.",
+      "exampleTr": "O startup'a 10.000 dolar yatirim yapsaydim bugun 2 milyon dolar degerinde olurdu.",
+      "extra": "She left her corporate job to join a startup and never looked back.",
+      "extraTr": "Kurumsal isini birakip bir startup'a katildi ve hic arkasina bakmadi."
+    },
+    {
+      "word": "innovation",
+      "pronunciation": "in-ı-VEY-sın",
+      "turkish": "yenilik / inovasyon",
+      "example": "If we had embraced innovation earlier, we wouldn't have fallen behind competitors.",
+      "exampleTr": "Inovasyonu daha erken benimsseydik rakiplerin gerisinde kalmazdik.",
+      "extra": "Innovation is what separates market leaders from followers.",
+      "extraTr": "Inovasyon, pazar liderlerini takipcilerden ayiran seydir."
+    },
+    {
+      "word": "pivot",
+      "pronunciation": "PI-vıt",
+      "turkish": "yon degistirmek / strateji degistirmek",
+      "example": "If we had pivoted to e-commerce in 2019, we would have been ready for the pandemic.",
+      "exampleTr": "2019'da e-ticarete donseydik pandemiye hazir olurduk.",
+      "extra": "The company decided to pivot from hardware to software services.",
+      "extraTr": "Sirket donanmdan yazilim hizmetlerine donmeye karar verdi."
+    },
+    {
+      "word": "strategy",
+      "pronunciation": "STRE-tı-ci",
+      "turkish": "strateji / plan",
+      "example": "A different strategy could have saved the company from bankruptcy.",
+      "exampleTr": "Farkli bir strateji sirketi iflastan kurtarabilirdi.",
+      "extra": "If we had followed the original strategy, the outcome might have been better.",
+      "extraTr": "Orijinal stratejiyi takip etseydik sonuc daha iyi olabilirdi."
+    },
+    {
+      "word": "market",
+      "pronunciation": "MAR-kit",
+      "turkish": "pazar / piyasa",
+      "example": "If we had entered the market a year earlier, we would have had a huge advantage.",
+      "exampleTr": "Pazara bir yil once girseydik buyuk avantajimiz olurdu.",
+      "extra": "The market was ready for our product, but we were too slow.",
+      "extraTr": "Pazar uruumuze hazirdi ama biz cok yavas kaldik."
+    },
+    {
+      "word": "competitor",
+      "pronunciation": "kım-PE-tı-tır",
+      "turkish": "rakip",
+      "example": "Our competitor would have failed if they hadn't received that investment.",
+      "exampleTr": "Rakibimiz o yatirimi almasaydi basarisiz olurdu.",
+      "extra": "We should have studied our competitors more carefully before launching.",
+      "extraTr": "Lansmandan once rakiplerimizi daha dikkatli incelemeliydik."
+    },
+    {
+      "word": "advantage",
+      "pronunciation": "ıd-VEN-tıc",
+      "turkish": "avantaj / ustunluk",
+      "example": "If we had moved faster, we would have had a first-mover advantage.",
+      "exampleTr": "Daha hizli hareket etseydik ilk hareket eden avantajina sahip olurduk.",
+      "extra": "Our advantage would have been lost if we had waited any longer.",
+      "extraTr": "Daha fazla beklseydik avantajimizi kaybederdik."
+    },
+    {
+      "word": "breakthrough",
+      "pronunciation": "BREYK-truu",
+      "turkish": "atilim / cigirlk acici gelisme",
+      "example": "The acquisition could have been our biggest breakthrough.",
+      "exampleTr": "Satin alma en buyuk atilimimiz olabilirdi.",
+      "extra": "If we had invested in R&D, we might have achieved a breakthrough.",
+      "extraTr": "Ar-Ge'ye yatirim yapsaydik bir atilim elde edebilirdik."
+    },
+    {
+      "word": "setback",
+      "pronunciation": "SET-bek",
+      "turkish": "aksama / gerileme / engel",
+      "example": "The failed merger was a major setback for the company.",
+      "exampleTr": "Basarisiz birlesme sirket icin buyuk bir aksamaydi.",
+      "extra": "Every setback is a setup for a comeback — if you learn from it.",
+      "extraTr": "Her aksama bir geri donus icin hazirlik — ondan ders alirsan."
+    },
+    {
+      "word": "turnaround",
+      "pronunciation": "TORN-ı-raund",
+      "turkish": "donus / iylesme / toparlanma",
+      "example": "If we had hired the right CEO, the turnaround would have happened two years ago.",
+      "exampleTr": "Dogru CEO'yu ise alsaydik toparlanma iki yil once gerceklesirdi.",
+      "extra": "The company's turnaround was remarkable — from near-bankruptcy to record profits.",
+      "extraTr": "Sirketin toparlanmasi dikkat cekiciydi — neredeyse iflastan rekor karlara."
+    }
+  ],
+
+  "grammar": {
+    "title": "Third Conditional — If + Past Perfect, Would Have + Past Participle",
+    "titleTr": "Ucuncu Kosul — If + Past Perfect, Would Have + Past Participle",
+    "explanation": "The Third Conditional is used to talk about hypothetical situations in the PAST — things that did NOT happen and their imagined results. The structure is: If + Past Perfect (had + past participle), would/could/might have + past participle. It's the grammar of regret, missed opportunities, and 'what ifs.'",
+    "explanationTr": "Ucuncu Kosul, GECMISTE varsayimsal durumlar hakkinda konusmak icin kullanilir — gerceklesmeyen seyler ve hayal edilen sonuclari. Yapisi: If + Past Perfect (had + past participle), would/could/might have + past participle. Pismanlik, kacirilan firsatlar ve 'ya olsaydi' dilbilgisidir.",
+    "table": [
+      ["If + had + PP, would have + PP", "If we had invested earlier, we would have made a profit.", "If she had accepted the offer, she would have become CEO.", "Sonucu kesin oldugunu dusunuyorsan 'would have' kullan."],
+      ["If + had + PP, could have + PP", "If they had secured funding, they could have expanded to Asia.", "If I had studied harder, I could have passed the exam.", "Sonuc MUMKUN ama garanti degil oldugunda 'could have' kullan."],
+      ["If + had + PP, might have + PP", "If we had launched earlier, we might have captured the market.", "If he had taken the risk, he might have become rich.", "Sonuc BELIRSIZ oldugunda 'might have' kullan — en az kesin olan."],
+      ["Negative: If + hadn't + PP, would have + PP", "If we hadn't made that mistake, we would have won the contract.", "If she hadn't left the company, she would have been promoted.", "Yapilan bir seyin YAPILMAMASINI varsay."],
+      ["Inverted (formal): Had + subject + PP, would have + PP", "Had we known about the risk, we would have prepared better.", "Had they invested, they would have succeeded.", "Resmi/yazili Ingilizce'de 'if' kaldirip 'had' one alinir."],
+      ["Should have + PP (regret/advice)", "We should have hired more staff. / You should have told me earlier.", "She shouldn't have rejected the partnership offer.", "Gecmisteki pismanlik veya yapilmasi gereken sey icin kullan."],
+      ["Mixed: Third Conditional + result clause variations", "If we had pivoted in 2019, we would be market leaders NOW. (past condition → present result)", "If I had studied medicine, I would be a doctor today.", "Gecmis kosul + SIMDIKI sonuc olabilir — buna Mixed Conditional denir."]
+    ],
+    "tips": [
+      { "en": "Third Conditional = UNREAL PAST. It DIDN'T happen. 'If I had known' means 'I didn't know.' 'If we had invested' means 'we didn't invest.'", "tr": "Ucuncu Kosul = GERCEK OLMAYAN GECMIS. OLMADI. 'If I had known' = 'bilmiyordum.' 'If we had invested' = 'yatirim yapmadik.'" },
+      { "en": "Would have = certain result, Could have = possible result, Might have = uncertain result. Choose based on how sure the outcome is.", "tr": "Would have = kesin sonuc, Could have = mumkun sonuc, Might have = belirsiz sonuc. Sonucun ne kadar kesin olduguna gore sec." },
+      { "en": "Contractions are very common in speech: 'If I'd known...' (= If I had known), 'We would've succeeded...' (= We would have succeeded).", "tr": "Kisaltmalar konusmada cok yaygin: 'If I'd known...' (= If I had known), 'We would've succeeded...' (= We would have succeeded)." },
+      { "en": "'Should have' expresses regret without 'if': 'I should have taken that opportunity.' = 'I regret not taking that opportunity.'", "tr": "'Should have' 'if' olmadan pismanlik ifade eder: 'O firsati almalydim.' = 'O firsati almadgm icin pismanim.'" },
+      { "en": "In business meetings, use Third Conditional for post-mortem analysis: 'If we had tested the product more, we could have avoided the recall.'", "tr": "Is toplantlarinda olum-sonrasi analiz icin Ucuncu Kosul kullan: 'Urunu daha fazla test etseydik geri cagrmayi onleyebilirdik.'" },
+      { "en": "Don't confuse: Second Conditional (If I had money, I WOULD buy it — unreal NOW) vs Third Conditional (If I had HAD money, I WOULD HAVE bought it — unreal PAST).", "tr": "Karistirma: Ikinci Kosul (Param olsa alirdim — simdi gercek degil) vs Ucuncu Kosul (Param olsaydi alirdim — gecmiste gercek degil)." }
+    ]
+  },
+
+  "reading": {
+    "text": "INTERVIEW: FROM SETBACKS TO SUCCESS — A CEO'S REFLECTION ON MISSED OPPORTUNITIES\n\nInterviewer: Mr. Kaplan, you're now the CEO of one of Turkey's largest logistics companies. But I hear the journey wasn't always smooth. Can you tell us about the opportunities you missed along the way?\n\nMr. Kaplan: Absolutely. If I hadn't experienced those failures, I wouldn't be the leader I am today. My biggest regret is from 2015. A German logistics company offered us a partnership to enter the European market. We had all the resources we needed, but I was too cautious. I turned it down. If I had accepted that partnership, we could have expanded into Europe five years earlier than we eventually did.\n\nInterviewer: That must have been a difficult realization.\n\nMr. Kaplan: It was. In hindsight, I should have taken the risk. Our competitor accepted a similar offer and became the market leader in Eastern Europe. If we had been the ones to take that deal, we would have been in their position today. That's a billion-dollar lesson.\n\nInterviewer: Were there other missed opportunities?\n\nMr. Kaplan: In 2018, we had the chance to acquire a small tech startup that had developed an AI-powered supply chain platform. The asking price was $3 million. My board said it was too expensive and too risky. If we had completed that acquisition, the technology would have saved us $20 million in operational costs over the next four years. The startup was later acquired by our biggest competitor for $45 million.\n\nInterviewer: What about the 2020 pivot to e-commerce logistics?\n\nMr. Kaplan: That's another one. Several advisors had told me to pivot our strategy toward e-commerce fulfillment in 2019, before the pandemic. I hesitated. If we had pivoted six months earlier, we would have been perfectly positioned when online shopping exploded. Instead, we scrambled to adapt while our competitors thrived. We should have listened to the data instead of relying on gut feeling.\n\nInterviewer: So what did you learn from all these missed opportunities?\n\nMr. Kaplan: Three things. First, calculated risks are not dangers — they're investments. If I had understood that earlier, the company might have grown twice as fast. Second, speed matters more than perfection. If we had moved quickly on the startup acquisition, we wouldn't have lost it to our competitor. Third, surround yourself with people who challenge your thinking. If I had had a more diverse advisory board, they might have pushed me to take bolder decisions. Every setback taught me something. And now, those lessons drive every decision I make.",
+    "textTr": "ROPORTAJ: AKSILIKLERDEN BASARIYA — BIR CEO'NUN KACIRILMIS FIRSATLAR UZERINE DUSUNCESI\n\nMuhabir: Bay Kaplan, artik Turkiye'nin en buyuk lojistik sirketlerinden birinin CEO'susunuz. Ama yolculugun her zaman pur zuz olmadgni duydum. Yol boyunca kacirdiginiz firsatlardan bahsedebilir misiniz?\n\nBay Kaplan: Kesinlikle. O basarisizliklari yasmasaydim bugun oldugum lider olamazdim. En buyuk pismanligm 2015'ten. Bir Alman lojistik sirketi bize Avrupa pazarina girmek icin ortaklik teklif etti. Ihtiyacimiz olan tum kaynaklara sahiptik ama cok temkinliydim. Reddettim. O ortakligi kabul etseydim, sonunda yaptigimizdan bes yil once Avrupa'ya genisleyebilirdik.\n\nMuhabir: Bu zor bir farkindalik olmus olmali.\n\nBay Kaplan: Oyledi. Geriye bakinca riski almalydim. Rakibimiz benzer bir teklif kabul etti ve Dogu Avrupa'da pazar lideri oldu. O anlasmayi biz yapssaydik bugun onlarin pozisyonunda olurduk. Bu milyar dolarlik bir ders.\n\nMuhabir: Baska kacirilan firsatlar oldu mu?\n\nBay Kaplan: 2018'de yapay zeka destekli bir tedarik zinciri platformu gelistirmis kucuk bir teknoloji startup'ini satin alma firsatimiz vardi. Istenen fiyat 3 milyon dolardi. Yonetim kurulm cok pahali ve cok riskli dediler. O satin almayi tamamlasaydik, teknoloji bize sonraki dort yil icinde 20 milyon dolar operasyonel maliyet tasarrufu saglardi. Startup daha sonra en buyuk rakibimiz tarafndan 45 milyon dolara satin alindi.\n\nMuhabir: 2020'de e-ticaret lojistigine gecis ne oldu?\n\nBay Kaplan: O da baska bir tanesi. Birckk danisman bana 2019'da, pandemiden once stratejimizi e-ticaret lojistigine kaydirmami soylemisti. Tereddut ettim. Alti ay once donseydik, online alisveris patldiginda mukemmel konumlanmis olurduk. Bunun yerine rakiplerimiz buyurken biz uyum saglamaya calistik. Ic guduye guvenemek yerine verileri dinlemeliydik.\n\nMuhabir: Peki tum bu kacirilan firsatlardan ne ogrenidiniz?\n\nBay Kaplan: Uc sey. Birincisi, hesplanmis riskler tehlike degil — yatirimdir. Bunu daha erken anlasaydim sirket iki kat daha hizli buyuyebilirdi. Ikincisi, hiz mukemmelikten daha onemlidir. Startup satin almasi icin hizli hareket etseydik, onu rakibimize kaptirmazdik. Ucuncusu, dusunce yapiznizi zorlayan insanlarla cevreleyin. Daha cesitli bir danisma kurulm olsaydi beni daha cesur kararlar almaya itebilirlerdi. Her aksama bana bir sey ogretti. Ve simdi o dersler aldigim her karari yonlendiriyor.",
+    "questions": [
+      {
+        "question": "What did Mr. Kaplan turn down in 2015?",
+        "questionTr": "Bay Kaplan 2015'te neyi reddetti?",
+        "options": ["A merger with a Turkish company", "A partnership with a German logistics company", "An investment from a bank", "A government contract"],
+        "correct": 1
+      },
+      {
+        "question": "How much was the startup's asking price in 2018?",
+        "questionTr": "2018'de startup'in istenen fiyati ne kadardi?",
+        "options": ["$1 million", "$3 million", "$20 million", "$45 million"],
+        "correct": 1
+      },
+      {
+        "question": "What happened to the startup after Mr. Kaplan's company didn't buy it?",
+        "questionTr": "Bay Kaplan'in sirketi satin almadiktan sonra startup'a ne oldu?",
+        "options": ["It went bankrupt", "It was acquired by their competitor for $45 million", "It merged with another startup", "It stayed independent"],
+        "correct": 1
+      },
+      {
+        "question": "What should Mr. Kaplan have done in 2019 according to his advisors?",
+        "questionTr": "Danismnlarina gore Bay Kaplan 2019'da ne yapmaliyd?",
+        "options": ["Close the company", "Pivot to e-commerce logistics", "Hire more staff", "Invest in real estate"],
+        "correct": 1
+      },
+      {
+        "question": "What is the first lesson Mr. Kaplan learned?",
+        "questionTr": "Bay Kaplan'in ogrndigi ilk ders nedir?",
+        "options": ["Never trust your board", "Calculated risks are investments, not dangers", "Always wait for the perfect moment", "Don't listen to advisors"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Career 'What Ifs' — Mentoring Session",
+    "titleTr": "Kariyer 'Ya Olsaydi' — Mentorluk Oturumu",
+    "context": "Eyup kariyerinde donum noktalarini ve kacirilan firsatlari deneyimli mentor Mrs. Anderson ile tartiyor. Gecmis kararlar hakkinda dusunuyor ve gelecek icin dersler cikariyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "So Eyup, you mentioned you wanted to discuss some career decisions you've been thinking about. Let's start — what's been on your mind?", "textTr": "Eyup, dusundugun bazi kariyer kararlari hakkinda konusmak istedigini soyledin. Baslayalim — aklinda ne var?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Thank you, Mrs. Anderson. Lately, I've been reflecting on some decisions I made in the past. I keep thinking: what if I had done things differently?", "textTr": "Tesekkurler Mrs. Anderson. Son zamanlarda gecmiste aldigim bazi kararlar uzerine dusunuyorum. Surekli dusunuyorum: ya farkli yapssaydim?" },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "That's very natural at this stage of your career. Tell me about the first one. What decision do you regret the most?", "textTr": "Kariyerinin bu asamasinda cok dogal. Bana ilkini anlat. En cok hangi karar icin pisman oluyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Two years ago, my manager offered me a chance to lead a new logistics project with an international team. I turned it down because I thought my English wasn't good enough. If I had accepted that opportunity, I would have gained incredible experience.", "textTr": "Iki yil once mudrum bana uluslararasi bir ekiple yeni bir lojistik projesini yonetme sansi teklif etti. Ingilizcemmin yeterli olmdigini dusundugun icin reddettim. O firsati kabul etseydim inanilmaz deneyim kazanrdim." },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "That's a classic fear-based decision. If you had taken that role, you would have improved your English much faster too. Sometimes the best way to learn is by doing.", "textTr": "Bu klasik bir korku temelli karar. O rolu alsaydin Ingilizceni de cok daha hizli gelistirirdin. Bazen ogrenmein en iyi yolu yaparak ogrenektir.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Exactly. The colleague who took the position instead of me got promoted six months later. If I had said yes, that promotion could have been mine.", "textTr": "Aynen. Yerime pozisyonu alan meslektasim alti ay sonra terfi etti. Evet deseydim o terfi benim olabilirdi." },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "What about business opportunities? Any 'what ifs' there?", "textTr": "Peki is firsatlari? Orada 'ya olsaydi'lar var mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Yes, a big one. In 2022, a friend asked me to invest in his e-commerce startup. He only needed $5,000 from me. I thought it was too risky and said no. If I had invested that money, it would have been worth $80,000 today.", "textTr": "Evet, buyuk bir tane. 2022'de bir arkadasim e-ticaret startup'ina yatirim yapmami istedi. Benden sadece 5.000 dolar istedi. Cok riskli buldugumu dusundum ve hayir dedim. O parayi yatirsaydim bugun 80.000 dolar degerinde olurdu." },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "That's a tough one. But hindsight is 20/20. You couldn't have known the startup would succeed. The question is: what did you learn from it?", "textTr": "Zor bir durum. Ama geriye bakinca her sey net gorunur. Startup'in basarili olacagini bilemezdin. Soru su: bundan ne ogrendin?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "I learned that I should have done more research before making a decision. If I had studied the market and the business plan, I might have seen the potential.", "textTr": "Karar vermeden once daha fazla arastirma yapmam gerektigini ogrendim. Pazari ve is planini incelseydim potansiyeli gorebilirdim." },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "Good. Now let me share something. Early in my career, I was offered a position at a startup in Silicon Valley. I turned it down because I didn't want to leave Istanbul. That startup became one of the biggest tech companies in the world. If I had taken that job, I might have become a VP there.", "textTr": "Iyi. Simdi ben de bir sey paylasayim. Kariyerimin baslarinda bana Silicon Valley'de bir startup'ta pozisyon teklif edildi. Istanbul'u terk etmek istemedgm icin reddettim. O startup dunyanin en buyuk teknoloji sirketlerinden biri oldu. O isi alsaydim orada baskan yardimcisi olabilirdim.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Wow, that's a huge missed opportunity. Do you regret it?", "textTr": "Vay, bu buyuk bir kacirilmis firsat. Pisman misiniz?" },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "I used to. But if I had moved to California, I wouldn't have met my husband, and I wouldn't have started my consulting business. Sometimes what feels like a setback leads to a different kind of success.", "textTr": "Eskiden pismanm. Ama Kaliforniya'ya tasinsaydim esimle tanismazdim ve danismanlik isimi kurmazdim. Bazen aksama gibi gorunen sey farkli bir tur basariya yol acar.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "That's a great perspective. So you're saying we shouldn't only focus on regret? What matters more is the lesson?", "textTr": "Harika bir bakis acisi. Yani sadece pismanlik uzerine odaklanmamamiz gerektigini mi soyluyorsunuz? Onemli olan ders mi?" },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "Exactly. If I could give my younger self one piece of advice, I would have said: 'Take more risks, but calculated ones.' If I had been bolder in my 30s, I could have achieved my goals much earlier.", "textTr": "Kesinlikle. Genc kendime bir tavsiye verebilseydim derdim ki: 'Daha fazla risk al, ama hesplanmis.' 30'larimda daha cesur olsaydim hedeflerime cok daha erken ulasabilirdim.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Speaking of risks — I've been thinking about proposing a new digital transformation strategy at my company. But I'm afraid they might reject it. Should I go for it?", "textTr": "Risklerden bahsetmisken — sirketimde yeni bir dijital donusum stratejisi onermeyi dusunuyorum. Ama reddedebileceklerinden korkuyorum. Yapmalym mi?" },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "Let me put it this way: if you don't propose it and a competitor implements the same idea, how would you feel? You would say 'I should have proposed it when I had the chance.'", "textTr": "Soyle soyleyeyim: eger sen onermezsen ve bir rakip ayni fikri uygularsa nasil hissedersin? 'Firsatim varken onermeliydim' dersin.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "You're absolutely right. If I don't take this chance now, I'll regret it later. I don't want to look back in five years and say 'I should have done it.'", "textTr": "Tamamen haklisiniz. Bu sansi simdi almazsam daha sonra pisman olurum. Bes yil sonra geriye bakip 'yapmalydim' demek istemiyorum." },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "That's the right mindset, Eyup. Remember: the only opportunities we truly regret are the ones we never tried. Could have, should have, would have — those are the most expensive words in business.", "textTr": "Dogru zihniyet bu Eyup. Unutma: gercekten pisman oldugumuz firsatlar hic denemedigimiz firsatlardir. Could have, should have, would have — bunlar is hayatindaki en pahali kelimeler.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Thank you, Mrs. Anderson. This conversation has been incredibly valuable. I'm going to prepare that proposal this week. No more 'what ifs' — it's time for action.", "textTr": "Tesekkurler Mrs. Anderson. Bu konusma inanilmaz degerli oldu. Bu hafta o teklifi hazirlayacagim. Artik 'ya olsaydi' yok — harekete gecme zamani." },
+      { "speaker": "A", "speakerName": "Mrs. Anderson", "text": "That's what I like to hear. And Eyup — your English has improved tremendously. If someone had told me a year ago that you'd be discussing complex business strategy in English, I might not have believed it. You should be proud.", "textTr": "Duymak istedigim sey bu. Ve Eyup — Ingilizcesin muazzam gelistdi. Bir yil once birisi bana Ingilizce karmasik is stratejisi tartisacagini soylseydi inanmayabilirdim. Gurur duymalisin.", "gender": "female" }
+    ],
+    "questions": [
+      {
+        "question": "Why did Eyup turn down the international project?",
+        "questionTr": "Eyup uluslararasi projeyi neden reddetti?",
+        "options": ["He was too busy", "He thought his English wasn't good enough", "He didn't like the manager", "He wanted more money"],
+        "correct": 1
+      },
+      {
+        "question": "How much would Eyup's $5,000 investment have been worth?",
+        "questionTr": "Eyup'un 5.000 dolarlik yatirimi ne kadar degerinde olurdu?",
+        "options": ["$20,000", "$50,000", "$80,000", "$100,000"],
+        "correct": 2
+      },
+      {
+        "question": "What opportunity did Mrs. Anderson miss early in her career?",
+        "questionTr": "Mrs. Anderson kariyerinin baslarinda hangi firsati kacirdi?",
+        "options": ["A partnership in London", "A position at a Silicon Valley startup", "A merger opportunity", "A government job"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyup planning to do at his company?",
+        "questionTr": "Eyup sirketinde ne yapmayi planliyor?",
+        "options": ["Resign", "Propose a digital transformation strategy", "Ask for a raise", "Start his own business"],
+        "correct": 1
+      },
+      {
+        "question": "According to Mrs. Anderson, what are 'the most expensive words in business'?",
+        "questionTr": "Mrs. Anderson'a gore 'is hayatindaki en pahali kelimeler' neler?",
+        "options": ["profit, loss, bankruptcy", "could have, should have, would have", "risk, failure, setback", "invest, expand, merge"],
+        "correct": 1
+      },
+      {
+        "question": "What lesson does Mrs. Anderson give about setbacks?",
+        "questionTr": "Mrs. Anderson aksamalar hakkinda ne ders veriyor?",
+        "options": ["They always lead to failure", "They should be avoided at all costs", "They can lead to a different kind of success", "They mean you made the wrong decision"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "If we had invested earlier, we ___ have doubled our revenue.", "answer": "would", "hint": "Third Conditional — kesin sonuc" },
+      { "sentence": "If I ___ accepted that opportunity, I would have gained incredible experience.", "answer": "had", "hint": "Third Conditional — if + had + PP" },
+      { "sentence": "We ___ have expanded to Europe if we had secured the funding.", "answer": "could", "hint": "Third Conditional — mumkun sonuc" },
+      { "sentence": "If they had launched earlier, they ___ have captured the market.", "answer": "might", "hint": "Third Conditional — belirsiz sonuc" },
+      { "sentence": "I ___ have taken that risk when I had the chance.", "answer": "should", "hint": "Pismanlik — -meliydim" },
+      { "sentence": "In ___, we should have invested in automation much earlier.", "answer": "hindsight", "hint": "Geriye bakinca" },
+      { "sentence": "If we had ___ to e-commerce in 2019, we would have been ready.", "answer": "pivoted", "hint": "Yon degistirmek / strateji degistirmek" },
+      { "sentence": "The failed merger was a major ___ for the company.", "answer": "setback", "hint": "Aksama / gerileme" },
+      { "sentence": "If the ___ had gone through, 200 jobs would have been saved.", "answer": "merger", "hint": "Sirket birlesmesi" },
+      { "sentence": "A different ___ could have saved the company from bankruptcy.", "answer": "strategy", "hint": "Strateji / plan" },
+      { "sentence": "Every ___ we make has long-term consequences.", "answer": "decision", "hint": "Karar" },
+      { "sentence": "The company's ___ was remarkable — from near-bankruptcy to record profits.", "answer": "turnaround", "hint": "Donus / toparlanma" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"If I ___ studied harder, I would have passed the exam.\" Dogru olan?",
+        "options": ["have", "has", "had", "would"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi dogru Third Conditional cumlesidir?",
+        "options": ["If I had known, I would go.", "If I knew, I would have gone.", "If I had known, I would have gone.", "If I know, I would have gone."],
+        "correct": 2
+      },
+      {
+        "question": "\"We ___ have avoided the problem if we had planned better.\" Bosluga ne gelir?",
+        "options": ["will", "would", "can", "shall"],
+        "correct": 1
+      },
+      {
+        "question": "\"Hindsight\" ne anlama gelir?",
+        "options": ["Ileri gorush", "Geriye bakinca / sonradan anlama", "Kor nokta", "Yan gorush"],
+        "correct": 1
+      },
+      {
+        "question": "\"Pivot\" is baglaminda ne anlama gelir?",
+        "options": ["Donmek (fiziksel)", "Yon / strateji degistirmek", "Iptal etmek", "Geciktirmek"],
+        "correct": 1
+      },
+      {
+        "question": "Ikinci ve Ucuncu Kosul arasindaki fark nedir?",
+        "options": ["Fark yoktur", "2. Kosul simdiki gercek degil, 3. Kosul gecmis gercek degil", "2. Kosul gecmis, 3. Kosul gelecek", "2. Kosul resmi, 3. Kosul gayri resmi"],
+        "correct": 1
+      },
+      {
+        "question": "\"Should have + past participle\" ne ifade eder?",
+        "options": ["Gelecek plan", "Gecmis pismanlik veya tavsiye", "Simdiki durum", "Kesin sonuc"],
+        "correct": 1
+      },
+      {
+        "question": "\"Acquisition\" ne anlama gelir?",
+        "options": ["Iflas", "Satin alma / devralma", "Ortaklik", "Rakip"],
+        "correct": 1
+      },
+      {
+        "question": "\"If we had moved faster, we ___ have had a first-mover advantage.\" Bosluga ne gelir?",
+        "options": ["will", "should", "would", "can"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi 'might have' ifade eder?",
+        "options": ["Kesin sonuc", "Mumkun sonuc", "Belirsiz sonuc", "Imkansiz sonuc"],
+        "correct": 2
+      },
+      {
+        "question": "\"Setback\" ne anlama gelir?",
+        "options": ["Basari", "Aksama / gerileme", "Ilerleme", "Karar"],
+        "correct": 1
+      },
+      {
+        "question": "\"Had we known about the risk, we would have prepared better.\" Bu cumle ne tur?",
+        "options": ["Second Conditional", "Third Conditional (inverted/formal)", "Past Perfect", "Reported Speech"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "would have", "right": "-misti olurdu (kesin)" },
+      { "left": "could have", "right": "-ebilirdi (mumkun)" },
+      { "left": "might have", "right": "-mis olabilirdi (belirsiz)" },
+      { "left": "should have", "right": "-meliydi (pismanlik)" },
+      { "left": "regret", "right": "pismanlik" },
+      { "left": "opportunity", "right": "firsat" },
+      { "left": "decision", "right": "karar" },
+      { "left": "consequence", "right": "sonuc" },
+      { "left": "alternative", "right": "alternatif / secenek" },
+      { "left": "hindsight", "right": "geriye bakinca" },
+      { "left": "succeed", "right": "basarmak" },
+      { "left": "fail", "right": "basarisiz olmak" },
+      { "left": "risk", "right": "risk" },
+      { "left": "invest", "right": "yatirim yapmak" },
+      { "left": "expand", "right": "genislemek" },
+      { "left": "partnership", "right": "ortaklik" },
+      { "left": "merger", "right": "sirket birlesmesi" },
+      { "left": "acquisition", "right": "satin alma / devralma" },
+      { "left": "venture", "right": "girisim" },
+      { "left": "startup", "right": "yeni girisim" },
+      { "left": "innovation", "right": "yenilik / inovasyon" },
+      { "left": "pivot", "right": "yon degistirmek" },
+      { "left": "strategy", "right": "strateji / plan" },
+      { "left": "market", "right": "pazar / piyasa" },
+      { "left": "competitor", "right": "rakip" },
+      { "left": "advantage", "right": "avantaj / ustunluk" },
+      { "left": "breakthrough", "right": "atilim" },
+      { "left": "setback", "right": "aksama / gerileme" },
+      { "left": "turnaround", "right": "toparlanma" },
+      { "left": "realize", "right": "fark etmek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["If", "I", "had", "accepted", "the", "offer", "I", "would", "have", "been", "promoted"], "correct": "If I had accepted the offer I would have been promoted" },
+      { "words": ["We", "could", "have", "expanded", "if", "we", "had", "found", "the", "right", "partner"], "correct": "We could have expanded if we had found the right partner" },
+      { "words": ["She", "should", "have", "taken", "the", "risk", "when", "she", "had", "the", "chance"], "correct": "She should have taken the risk when she had the chance" },
+      { "words": ["If", "we", "had", "pivoted", "earlier", "we", "would", "have", "been", "ready"], "correct": "If we had pivoted earlier we would have been ready" },
+      { "words": ["The", "merger", "would", "have", "made", "us", "the", "biggest", "company"], "correct": "The merger would have made us the biggest company" },
+      { "words": ["In", "hindsight", "we", "should", "have", "invested", "in", "automation"], "correct": "In hindsight we should have invested in automation" },
+      { "words": ["If", "they", "had", "launched", "earlier", "they", "might", "have", "captured", "the", "market"], "correct": "If they had launched earlier they might have captured the market" },
+      { "words": ["A", "different", "strategy", "could", "have", "saved", "the", "company"], "correct": "A different strategy could have saved the company" },
+      { "words": ["Every", "setback", "taught", "me", "something", "valuable", "about", "business"], "correct": "Every setback taught me something valuable about business" }
+    ],
+    "translation": [
+      {
+        "turkish": "O firsati kabul etseydim terfi ederdim.",
+        "english": "If I had accepted that opportunity, I would have been promoted.",
+        "acceptAlso": ["If I had taken that opportunity, I would have been promoted."]
+      },
+      {
+        "turkish": "Daha erken yatirim yapsaydik gelirimizi ikiye katlardik.",
+        "english": "If we had invested earlier, we would have doubled our revenue.",
+        "acceptAlso": ["If we had invested sooner, we would have doubled our revenue."]
+      },
+      {
+        "turkish": "Geriye bakinca, o riski almalydim.",
+        "english": "In hindsight, I should have taken that risk.",
+        "acceptAlso": ["Looking back, I should have taken that risk."]
+      },
+      {
+        "turkish": "Dogru partneri bulsaydik Asya'ya genisleyebilirdik.",
+        "english": "If we had found the right partner, we could have expanded to Asia.",
+        "acceptAlso": ["We could have expanded to Asia if we had found the right partner."]
+      },
+      {
+        "turkish": "Birlesme gerceklesseydi 200 is kurtulurdu.",
+        "english": "If the merger had gone through, 200 jobs would have been saved.",
+        "acceptAlso": ["200 jobs would have been saved if the merger had gone through."]
+      },
+      {
+        "turkish": "Farkli bir strateji sirketi iflastan kurtarabilirdi.",
+        "english": "A different strategy could have saved the company from bankruptcy.",
+        "acceptAlso": ["The company could have been saved from bankruptcy with a different strategy."]
+      },
+      {
+        "turkish": "E-ticarete daha erken donseydik pandemiye hazir olurduk.",
+        "english": "If we had pivoted to e-commerce earlier, we would have been ready for the pandemic.",
+        "acceptAlso": ["We would have been ready for the pandemic if we had pivoted to e-commerce earlier."]
+      },
+      {
+        "turkish": "O startup'a yatirim yapmadigi icin pisman.",
+        "english": "He regrets not having invested in that startup.",
+        "acceptAlso": ["He regrets not investing in that startup."]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Third Conditional Explained - English with Lucy",
+      "description": "Ucuncu Kosul'u detayli orneklerle ogrenin",
+      "url": "https://www.youtube.com/watch?v=2bP_dEfNbvQ",
+      "type": "video",
+      "level": "B1-B2",
+      "free": true
+    },
+    {
+      "title": "Third Conditional Exercises - Perfect English Grammar",
+      "description": "Ucuncu Kosul icin interaktif alistirmalar",
+      "url": "https://www.perfect-english-grammar.com/third-conditional-exercise-1.html",
+      "type": "practice",
+      "level": "B1-B2",
+      "free": true
+    },
+    {
+      "title": "Business Decision Making - Harvard Business Review",
+      "description": "Is kararlari ve firsatlari degerlendirme uzerine makaleler",
+      "url": "https://hbr.org/topic/decision-making",
+      "type": "article",
+      "level": "B2",
+      "free": true
+    }
+  ]
+}
