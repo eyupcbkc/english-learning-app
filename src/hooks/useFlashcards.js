@@ -39,14 +39,15 @@ function addDays(dateStr, days) {
 export function useFlashcards() {
   const { user } = useAuth()
   const [data, setData] = useState(defaultData)
-  const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(true) // Start as true — cards init immediately
   const saveTimeoutRef = useRef(null)
+  const firestoreLoadedRef = useRef(false)
 
-  // Load from Firestore on mount / user change
+  // Load from Firestore in background — merge when ready
   useEffect(() => {
     if (!user) {
       setData(defaultData)
-      setLoaded(false)
+      firestoreLoadedRef.current = false
       return
     }
 
@@ -56,7 +57,6 @@ export function useFlashcards() {
         const snap = await getDoc(ref)
         if (snap.exists()) {
           const parsed = snap.data()
-          // Reset today counter if new day
           const today = getToday()
           if (parsed.stats.todayDate !== today) {
             parsed.stats.todayReviewed = 0
@@ -64,7 +64,7 @@ export function useFlashcards() {
           }
           setData(parsed)
         } else {
-          // First time — check if there's localStorage data to migrate
+          // First time — check localStorage migration
           const localData = localStorage.getItem('english-flashcards')
           if (localData) {
             const parsed = JSON.parse(localData)
@@ -75,15 +75,12 @@ export function useFlashcards() {
             }
             setData(parsed)
             await setDoc(ref, parsed)
-          } else {
-            setData(defaultData)
           }
         }
       } catch (err) {
         console.warn('Firestore flashcards load failed:', err)
-        setData(defaultData)
       }
-      setLoaded(true)
+      firestoreLoadedRef.current = true
     }
 
     load()
