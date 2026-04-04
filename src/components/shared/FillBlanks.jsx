@@ -1,14 +1,21 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 
-export default function FillBlanks({ exercises }) {
+export default function FillBlanks({ exercises, onScore }) {
   const [answers, setAnswers] = useState({})
   const [checked, setChecked] = useState(false)
 
   const isCorrect = (i) => answers[i]?.trim().toLowerCase() === exercises[i].answer.toLowerCase()
   const score = exercises.reduce((acc, _, i) => acc + (isCorrect(i) ? 1 : 0), 0)
+
+  const check = () => {
+    setChecked(true)
+    const s = exercises.reduce((acc, _, i) => acc + (answers[i]?.trim().toLowerCase() === exercises[i].answer.toLowerCase() ? 1 : 0), 0)
+    onScore?.(s, exercises.length)
+  }
+
   const reset = () => { setAnswers({}); setChecked(false) }
 
   return (
@@ -35,21 +42,17 @@ export default function FillBlanks({ exercises }) {
             )}
           </div>
         ))}
-
         <div className="flex gap-2 pt-2">
           {!checked ? (
-            <Button onClick={() => setChecked(true)} disabled={Object.keys(answers).length < exercises.length}>
-              Kontrol Et / Check
-            </Button>
+            <Button onClick={check} disabled={Object.keys(answers).length < exercises.length}>Kontrol Et</Button>
           ) : (
-            <Button variant="outline" onClick={reset}>Tekrar Dene / Retry</Button>
+            <Button variant="outline" onClick={reset}>Tekrar Dene</Button>
           )}
         </div>
-
         {checked && (
           <div className={`flex items-center gap-4 rounded-xl p-4 ${score >= exercises.length / 2 ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
             <span className="text-3xl font-bold">{score}/{exercises.length}</span>
-            <span className="text-sm">{score === exercises.length ? 'Harika! / Excellent!' : 'Pratik yap! / Keep practicing!'}</span>
+            <span className="text-sm">{score === exercises.length ? 'Harika!' : 'Pratik yap!'}</span>
           </div>
         )}
       </CardContent>
