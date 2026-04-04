@@ -1,6 +1,8 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
+import { doc, getDoc, setDoc } from 'firebase/firestore'
+import { db } from '@/firebase/config'
+import { useAuth } from '@/contexts/AuthContext'
 
-const STORAGE_KEY = 'english-learning-progress'
 const VERSION = 2
 
 const LEVEL_THRESHOLDS = {
@@ -41,19 +43,74 @@ function calculateLevel(completedCount) {
 }
 
 export function useProgress() {
-  const [progress, setProgress] = useState(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY)
-      if (saved) return migrate(JSON.parse(saved))
-    } catch {}
-    return defaultProgress
-  })
+  const { user } = useAuth()
+  const [progress, setProgress] = useState(defaultProgress)
+  const [loaded, setLoaded] = useState(false)
+  const saveTimeoutRef = useRef(null)
 
+  // Firestore document reference for this user
+  const getDocRef = useCallback(() => {
+    if (!user) return null
+    return doc(db, 'users', user.uid, 'data', 'progress')
+  }, [user])
+
+  // Load from Firestore on mount / user change
   useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
-    } catch {}
-  }, [progress])
+    if (!user) {
+      setProgress(defaultProgress)
+      setLoaded(false)
+      return
+    }
+
+    async function load() {
+      try {
+        const ref = doc(db, 'users', user.uid, 'data', 'progress')
+        const snap = await getDoc(ref)
+        if (snap.exists()) {
+          setProgress(migrate(snap.data()))
+        } else {
+          // First time — check if there's localStorage data to migrate
+          const localData = localStorage.getItem('english-learning-progress')
+          if (localData) {
+            const parsed = migrate(JSON.parse(localData))
+            setProgress(parsed)
+            // Save migrated data to Firestore
+            await setDoc(ref, parsed)
+          } else {
+            setProgress(defaultProgress)
+          }
+        }
+      } catch (err) {
+        console.warn('Firestore load failed, using defaults:', err)
+        setProgress(defaultProgress)
+      }
+      setLoaded(true)
+    }
+
+    load()
+  }, [user])
+
+  // Debounced save to Firestore on progress change
+  useEffect(() => {
+    if (!user || !loaded) return
+
+    // Clear previous timeout
+    if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current)
+
+    // Debounce: save after 500ms of no changes
+    saveTimeoutRef.current = setTimeout(async () => {
+      try {
+        const ref = doc(db, 'users', user.uid, 'data', 'progress')
+        await setDoc(ref, progress)
+      } catch (err) {
+        console.warn('Firestore save failed:', err)
+      }
+    }, 500)
+
+    return () => {
+      if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current)
+    }
+  }, [progress, user, loaded])
 
   const updateStreak = useCallback(() => {
     const today = new Date().toISOString().split('T')[0]
@@ -129,6 +186,7 @@ export function useProgress() {
 
   return {
     progress,
+    loaded,
     completeUnit,
     saveExerciseScore,
     addWords,
