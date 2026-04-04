@@ -1,95 +1,124 @@
 # Roadmap: A1 → C1 English Learning Journey
 
 ## Yaklasim
-- Her unite: Konu Anlatimi → Pratik → Test → Interaktif Alistirmalar
-- Spaced repetition ile kelime tekrari
+- Her unite 7 adimli: Kelimeler → Dilbilgisi → Okuma → Dinleme → Alistirmalar → Kaynaklar → Tamamla
+- Spaced repetition (Leitner) ile kelime tekrari
+- Gercek hayat senaryolari (restoran, otel, is gorusmesi, e-ticaret, lojistik...)
+- Amerikan aksani (en-US), erkek/kadin ses ayirt etme
 - Seviye sonu test ile gecis onaylanir
-- Sesli telaffuz (Web Speech API - free, browser built-in)
-- Dialog/Conversation practice (ileride)
 
 ---
 
-## Planlanan Ozellikler (Features Backlog)
-- [x] Vocabulary cards (flip to reveal)
-- [x] Grammar tables with Turkish explanations
+## Tamamlanan Ozellikler
+- [x] Vocabulary cards (flip + ses dinleme)
+- [x] Grammar tables (Turkce aciklama)
 - [x] Reading comprehension
 - [x] Fill in the blanks
 - [x] Multiple choice
 - [x] Matching exercise
 - [x] Sentence ordering
 - [x] Translation (TR→EN)
-- [ ] 🔊 Text-to-Speech telaffuz (Web Speech API - free)
-- [ ] 🎤 Speech-to-Text pronunciation practice (Web Speech API - free)
-- [ ] 💬 Dialog/Conversation practice (role-play scenarios)
+- [x] Text-to-Speech telaffuz (Web Speech API)
+- [x] Dialog/Conversation dinleme (erkek/kadin ses)
+- [x] Kaynak onerileri (BBC, British Council vb.)
+- [x] 7 adimli unite akisi
+- [x] Skor takibi (localStorage, exercise bazli)
+- [x] Streak (gun serisi) takibi
+- [x] Otomatik seviye hesaplama
+- [x] Modul aciklamalari (skills listesi)
+- [x] Design system dokumantasyonu
+- [x] Vercel Analytics + Speed Insights
+- [x] GitHub entegrasyonu
+
+## Yapilacaklar
+- [ ] 🃏 Flashcard / Hafiza Karti (Leitner system) → docs/flashcard-system.md
+- [ ] 📝 Unit 04-08 icerikleri → docs/content-plan.md
+- [ ] 📚 Kelime listesi sayfasi + filtreleme
+- [ ] 🎤 Speech-to-Text pronunciation practice
 - [ ] 📊 Seviye olcme testi (placement test)
-- [ ] 📊 Modul sonu testi (module tests)
-- [ ] 📊 Detayli skor takibi ve zayif nokta analizi
-- [ ] 🔄 Spaced repetition algoritmasi (Leitner system)
-- [ ] 🎧 Listening exercises (audio clips)
+- [ ] 📊 Modul sonu testleri
+- [ ] 📊 Zayif nokta analizi
+- [ ] 🌙 Dark mode
+- [ ] 🚀 Vercel deploy
+- [ ] 📱 Mobile responsive iyilestirmeler
 
 ---
 
 ## STAGE 1: A1 → A2 (Temel Iletisim)
 
-### Module 1: First Steps (A1 Core)
-- [ ] Unit 01: Greetings & Introductions ← MEVCUT
-- [ ] Unit 02: Numbers, Days, Months, Time
-- [ ] Unit 03: Present Simple - Be (I am, You are)
-- [ ] Unit 04: Present Simple - Do (I like, I work)
-- [ ] Unit 05: Basic Questions (What, Where, When, Who, How)
-- [ ] Unit 06: Daily Routines
-- [ ] Unit 07: Food & Drinks
-- [ ] Unit 08: A1 Core Review & Level Test
+### Module 1: First Steps (A1 Core) 🌱
+**Hedef:** Hayatta kalma Ingilizcesi — tanisma, temel sorular, gunluk hayat
+**Senaryo temalari:** Kafe, okul, sinif, market, otel, restoran
 
-### Module 2: Expanding Basics (A1 → A2)
-- [ ] Unit 09: Present Continuous (I am doing)
-- [ ] Unit 10: Can / Can't (abilities & requests)
-- [ ] Unit 11: There is / There are + Prepositions
-- [ ] Unit 12: Past Simple - Regular verbs
-- [ ] Unit 13: Past Simple - Irregular verbs (top 40)
-- [ ] Unit 14: Adjectives & Comparatives
-- [ ] Unit 15: Shopping, Money, Directions
-- [ ] Unit 16: A2 Level Test
+- [x] Unit 01: Greetings & Introductions — *Kafede tanisma*
+- [x] Unit 02: Numbers, Days & Months — *Okul kayit ofisi*
+- [x] Unit 03: Present Simple - Be — *Sinifta insanlari anlatma*
+- [ ] Unit 04: Present Simple - Do — *Markette alisveris*
+- [ ] Unit 05: Basic Questions — *Otelde check-in*
+- [ ] Unit 06: Daily Routines — *YouTube vlogger "Bir gunum"*
+- [ ] Unit 07: Food & Drinks — *Restoranda siparis verme*
+- [ ] Unit 08: A1 Core Review & Test — *Karma senaryo testi*
+
+### Module 2: Expanding Basics (A1 → A2) 🌿
+**Hedef:** Gunluk hayat — seyahat, alisveris, gecmis zaman
+**Senaryo temalari:** Havaalani, araba kiralama, Airbnb, online alisveris, sehir turu
+
+- [ ] Unit 09: Present Continuous — *Havalimaninda bekleme*
+- [ ] Unit 10: Can / Can't — *Araba kiralama*
+- [ ] Unit 11: There is / There are — *Airbnb evi tarifi*
+- [ ] Unit 12: Past Simple (Regular) — *Tatil anisi anlatma*
+- [ ] Unit 13: Past Simple (Irregular top 40) — *Istanbul seyahat blogu*
+- [ ] Unit 14: Adjectives & Comparatives — *Online urun karsilastirma*
+- [ ] Unit 15: Shopping, Money, Directions — *Sehirde kaybolma + alisveris*
+- [ ] Unit 16: A2 Level Test — *1 gunluk seyahat senaryosu*
 
 ---
 
 ## STAGE 2: A2 → B1 (Bagimsiz Iletisim)
 
-### Module 3: Grammar Expansion
-- [ ] Unit 17: Future (will & going to)
-- [ ] Unit 18: Present Perfect (I have done)
-- [ ] Unit 19: Present Perfect vs Past Simple
-- [ ] Unit 20: First Conditional (If + present → will)
-- [ ] Unit 21: Modal verbs (must, should, might, could)
-- [ ] Unit 22: Adverbs & Frequency
-- [ ] Unit 23: Phrasal Verbs Set 1 (top 25)
-- [ ] Unit 24: B1 Entry Test
+### Module 3: Grammar Expansion (A2 → B1) 🌳
+**Hedef:** Is dunyasina giris — CV, gorusme, freelance, startup
+**Senaryo temalari:** Is gorusmesi, LinkedIn, e-ticaret, lojistik, freelancing, startup
 
-### Module 4: Real Communication (B1)
-- [ ] Unit 25: Second Conditional (If + past → would)
-- [ ] Unit 26: Passive Voice
-- [ ] Unit 27: Reported Speech
-- [ ] Unit 28: Relative Clauses (who, which, that)
-- [ ] Unit 29: Connectors (however, although, because, so)
-- [ ] Unit 30: Email & Formal Writing
-- [ ] Unit 31: Phrasal Verbs Set 2
-- [ ] Unit 32: B1 Level Test
+- [ ] Unit 17: Future (will & going to) — *Is gorusmesine hazirlik*
+- [ ] Unit 18: Present Perfect — *CV ve is deneyimi anlatma*
+- [ ] Unit 19: Present Perfect vs Past Simple — *LinkedIn profili yazma*
+- [ ] Unit 20: First Conditional — *E-ticaret siparis problemi*
+- [ ] Unit 21: Modal Verbs — *Lojistik kargo takibi*
+- [ ] Unit 22: Adverbs & Frequency — *Freelancer gunlugu*
+- [ ] Unit 23: Phrasal Verbs Set 1 — *Startup kurma hikayesi*
+- [ ] Unit 24: B1 Entry Test — *Is dunyasi karma testi*
+
+### Module 4: Real Communication (B1) 🌲
+**Hedef:** Profesyonel iletisim — e-posta, toplanti, sunum, musteri
+**Senaryo temalari:** Is teklifi, urun iade, toplanti, sirket yazismasi, musteri sikayeti
+
+- [ ] Unit 25: Second Conditional — *Is teklifi degerlendirme*
+- [ ] Unit 26: Passive Voice — *Urun iade sureci*
+- [ ] Unit 27: Reported Speech — *Toplanti ozeti*
+- [ ] Unit 28: Relative Clauses — *Musteriye e-posta*
+- [ ] Unit 29: Connectors — *Sunum yapma*
+- [ ] Unit 30: Email & Formal Writing — *Sirket yazismasi*
+- [ ] Unit 31: Phrasal Verbs Set 2 — *Musteri sikayeti cozme*
+- [ ] Unit 32: B1 Level Test — *Profesyonel iletisim testi*
 
 ---
 
 ## STAGE 3: B1 → B2 (Akici Iletisim)
 
-### Module 5: Complex Grammar
-- [ ] Unit 33: Past Perfect
-- [ ] Unit 34: Third Conditional
-- [ ] Unit 35: Mixed Conditionals
-- [ ] Unit 36: Gerunds vs Infinitives
-- [ ] Unit 37: Advanced Passive
-- [ ] Unit 38: Collocations Set 1
-- [ ] Unit 39: Idioms & Expressions Set 1
+### Module 5: Complex Grammar (B1 → B2)
+**Hedef:** Karmasik gramer — gecmis analizi, koşullar, idiomlar
+- [ ] Unit 33: Past Perfect — *Gecmiste yapilmayan is plani*
+- [ ] Unit 34: Third Conditional — *Kacirilmis firsatlar*
+- [ ] Unit 35: Mixed Conditionals — *Kariyer planlama*
+- [ ] Unit 36: Gerunds vs Infinitives — *Proje yonetimi*
+- [ ] Unit 37: Advanced Passive — *Sirket surecleri*
+- [ ] Unit 38: Collocations Set 1 — *Is dunyasi collocations*
+- [ ] Unit 39: Idioms & Expressions Set 1 — *Ofis hayati*
 - [ ] Unit 40: B2 Entry Test
 
 ### Module 6: Fluency Building (B2)
+**Hedef:** Akicilik — tartisma, essay, haber, formal/informal
 - [ ] Unit 41: Wish & If only
 - [ ] Unit 42: Formal vs Informal register
 - [ ] Unit 43: Essay structure & Opinion writing
@@ -103,19 +132,21 @@
 
 ## STAGE 4: B2 → C1 (Ileri Seviye)
 
-### Module 7: Advanced Grammar
-- [ ] Unit 49: Inversion
-- [ ] Unit 50: Cleft sentences
-- [ ] Unit 51: Advanced modals
-- [ ] Unit 52: Participle clauses
+### Module 7: Advanced Grammar (B2 → C1)
+**Hedef:** Akademik/profesyonel yeterlilik
+- [ ] Unit 49: Inversion — *TED Talk tarzi sunum*
+- [ ] Unit 50: Cleft sentences — *Haber analizi*
+- [ ] Unit 51: Advanced modals — *Gecmis hatalari analiz*
+- [ ] Unit 52: Participle clauses — *Rapor yazma*
 - [ ] Unit 53: Ellipsis & Substitution
 - [ ] Unit 54: Academic vocabulary
 - [ ] Unit 55: Idioms & Expressions Set 2
 - [ ] Unit 56: C1 Entry Test
 
 ### Module 8: Proficiency (C1)
-- [ ] Unit 57: Nuance & Tone
-- [ ] Unit 58: Hedging language
+**Hedef:** Ustaca Ingilizce — nüans, ton, diplomatik dil
+- [ ] Unit 57: Nuance & Tone — *Diplomatik dil*
+- [ ] Unit 58: Hedging language — *Akademik tartisma*
 - [ ] Unit 59: Advanced discourse markers
 - [ ] Unit 60: Formal report writing
 - [ ] Unit 61: Phrasal Verbs mastery
@@ -125,10 +156,11 @@
 
 ---
 
-## Her Unite Yapisi
-1. **Konu Anlatimi** (Vocabulary + Grammar + Turkce aciklama)
-2. **Okuma Parcasi** (Reading + comprehension questions)
-3. **Interaktif Alistirmalar** (Fill blanks, MC, Matching, Ordering, Translation)
-4. **Test** (Unite sonu skor)
-5. **Kelime Tekrari** (Spaced repetition)
-6. *(Ileride)* Sesli telaffuz + Dialog practice
+## Her Unite Standart Yapisi (7 Adim)
+1. **Kelimeler** — 12-15 kelime, Turkce okunus, ornek cumle, ses butonu
+2. **Dilbilgisi** — Kural + tablo + ipuclari + Turkce aciklama
+3. **Okuma** — Gercek hayat metni + anlama sorulari
+4. **Dinleme** — Sesli diyalog (erkek/kadin ses) + anlama sorulari
+5. **Alistirmalar** — 5 tip: bosluk, coktan secmeli, eslestirme, siralama, ceviri
+6. **Kaynaklar** — Ucretsiz dis kaynaklar (BBC, British Council vb.)
+7. **Tamamla** — Skor ozeti + sonraki uniteye gecis
