@@ -1,15 +1,17 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
-import { Separator } from '@/components/ui/separator'
 import { useProgress } from '@/hooks/useProgress'
 import units from '@/data/unitIndex'
-import { BookOpen, Trophy, Brain, ArrowRight, CheckCircle, Flame, Lock, Play } from 'lucide-react'
+import moduleInfo from '@/data/moduleInfo'
+import { BookOpen, Trophy, Brain, ArrowRight, CheckCircle, Flame, Play, ChevronDown, ChevronUp, Sparkles } from 'lucide-react'
 
 export default function Home() {
   const { progress, isUnitCompleted, getScore } = useProgress()
+  const [expandedModule, setExpandedModule] = useState(null)
 
   const nextUnit = units.find(u => !isUnitCompleted(u.id))
   const completedCount = progress.completedUnits.length
@@ -24,60 +26,38 @@ export default function Home() {
     modules[u.module].units.push(u)
   })
 
+  const toggleModule = (num) => {
+    setExpandedModule(prev => prev === num ? null : num)
+  }
+
   return (
     <div className="space-y-8">
-      {/* Hero - compact */}
+      {/* Hero */}
       <div className="text-center pt-4 pb-2">
         <h1 className="text-2xl font-bold tracking-tight mb-1">English Learning Journey</h1>
         <p className="text-muted-foreground">A1'den C1'e adım adım İngilizce</p>
       </div>
 
-      {/* Stats row */}
+      {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-        <Card>
-          <CardContent className="flex items-center gap-3 p-4">
-            <div className="h-9 w-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-              <Trophy className="h-4 w-4 text-primary" />
-            </div>
-            <div>
-              <p className="text-lg font-bold leading-none">{progress.currentLevel}</p>
-              <p className="text-[11px] text-muted-foreground mt-0.5">Seviye</p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="flex items-center gap-3 p-4">
-            <div className="h-9 w-9 rounded-lg bg-green-500/10 flex items-center justify-center shrink-0">
-              <BookOpen className="h-4 w-4 text-green-600" />
-            </div>
-            <div>
-              <p className="text-lg font-bold leading-none">{completedCount}<span className="text-xs font-normal text-muted-foreground">/{units.length}</span></p>
-              <p className="text-[11px] text-muted-foreground mt-0.5">Ünite</p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="flex items-center gap-3 p-4">
-            <div className="h-9 w-9 rounded-lg bg-amber-500/10 flex items-center justify-center shrink-0">
-              <Brain className="h-4 w-4 text-amber-600" />
-            </div>
-            <div>
-              <p className="text-lg font-bold leading-none">{progress.totalWordsLearned}</p>
-              <p className="text-[11px] text-muted-foreground mt-0.5">Kelime</p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="flex items-center gap-3 p-4">
-            <div className="h-9 w-9 rounded-lg bg-orange-500/10 flex items-center justify-center shrink-0">
-              <Flame className="h-4 w-4 text-orange-500" />
-            </div>
-            <div>
-              <p className="text-lg font-bold leading-none">{progress.streakDays}</p>
-              <p className="text-[11px] text-muted-foreground mt-0.5">Gün serisi</p>
-            </div>
-          </CardContent>
-        </Card>
+        {[
+          { icon: Trophy, value: progress.currentLevel, label: 'Seviye', color: 'bg-primary/10 text-primary' },
+          { icon: BookOpen, value: `${completedCount}/${units.length}`, label: 'Ünite', color: 'bg-green-500/10 text-green-600' },
+          { icon: Brain, value: progress.totalWordsLearned, label: 'Kelime', color: 'bg-amber-500/10 text-amber-600' },
+          { icon: Flame, value: progress.streakDays, label: 'Gün serisi', color: 'bg-orange-500/10 text-orange-500' },
+        ].map(({ icon: Icon, value, label, color }) => (
+          <Card key={label}>
+            <CardContent className="flex items-center gap-3 p-4">
+              <div className={`h-9 w-9 rounded-lg flex items-center justify-center shrink-0 ${color}`}>
+                <Icon className="h-4 w-4" />
+              </div>
+              <div>
+                <p className="text-lg font-bold leading-none">{value}</p>
+                <p className="text-[11px] text-muted-foreground mt-0.5">{label}</p>
+              </div>
+            </CardContent>
+          </Card>
+        ))}
       </div>
 
       {/* Progress bar */}
@@ -112,20 +92,90 @@ export default function Home() {
         </Card>
       )}
 
-      {/* All Units by Module */}
+      {/* Modules & Units */}
       {Object.entries(modules).map(([modNum, mod]) => {
+        const info = moduleInfo[modNum]
         const modCompleted = mod.units.filter(u => isUnitCompleted(u.id)).length
-        return (
-          <div key={modNum}>
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <h2 className="text-sm font-semibold">Module {modNum}</h2>
-                <Badge variant="outline" className="text-[10px]">{mod.level}</Badge>
-              </div>
-              <span className="text-xs text-muted-foreground">{modCompleted}/{mod.units.length} tamamlandı</span>
-            </div>
+        const isExpanded = expandedModule === Number(modNum)
+        const modProgress = (modCompleted / mod.units.length) * 100
 
-            <div className="grid grid-cols-1 gap-2">
+        return (
+          <div key={modNum} className="space-y-3">
+            {/* Module Header */}
+            <button
+              onClick={() => toggleModule(Number(modNum))}
+              className="w-full text-left"
+            >
+              <Card className={`transition-all hover:shadow-md ${modCompleted === mod.units.length ? 'border-green-200 bg-green-50/20' : ''}`}>
+                <CardContent className="p-5">
+                  <div className="flex items-start gap-4">
+                    {/* Module emoji */}
+                    <div className="h-12 w-12 rounded-xl bg-primary/5 flex items-center justify-center shrink-0 text-2xl">
+                      {info?.emoji || '📘'}
+                    </div>
+
+                    <div className="flex-1 min-w-0">
+                      {/* Title row */}
+                      <div className="flex items-center gap-2 mb-1">
+                        <h2 className="text-sm font-bold">Module {modNum}</h2>
+                        <Badge variant="outline" className="text-[10px]">{info?.level || mod.level}</Badge>
+                        {modCompleted === mod.units.length && mod.units.length > 0 && (
+                          <Badge className="bg-green-600 text-white text-[10px]">Tamamlandı</Badge>
+                        )}
+                        <span className="ml-auto text-xs text-muted-foreground">{modCompleted}/{mod.units.length}</span>
+                      </div>
+
+                      {/* Module name */}
+                      <p className="font-semibold text-sm mb-0.5">
+                        {info?.titleTr || `Module ${modNum}`}
+                        {info?.title && <span className="text-muted-foreground font-normal"> — {info.title}</span>}
+                      </p>
+
+                      {/* Summary */}
+                      <p className="text-xs text-muted-foreground">{info?.summary}</p>
+
+                      {/* Progress bar */}
+                      <div className="mt-3">
+                        <Progress value={modProgress} className="h-1.5" />
+                      </div>
+                    </div>
+
+                    {/* Expand arrow */}
+                    <div className="shrink-0 pt-1">
+                      {isExpanded ? (
+                        <ChevronUp className="h-4 w-4 text-muted-foreground" />
+                      ) : (
+                        <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Expanded: module description + skills */}
+                  {isExpanded && info && (
+                    <div className="mt-4 pt-4 border-t space-y-3">
+                      <p className="text-sm text-muted-foreground">{info.description}</p>
+                      <div>
+                        <p className="text-xs font-semibold mb-2 flex items-center gap-1.5">
+                          <Sparkles className="h-3 w-3 text-primary" />
+                          Bu modülde neler yapabileceksin:
+                        </p>
+                        <ul className="space-y-1.5">
+                          {info.skills.map((skill, i) => (
+                            <li key={i} className="flex items-start gap-2 text-xs text-muted-foreground">
+                              <CheckCircle className="h-3 w-3 text-green-500 mt-0.5 shrink-0" />
+                              {skill}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            </button>
+
+            {/* Unit List */}
+            <div className="grid grid-cols-1 gap-2 pl-2">
               {mod.units.map((unit, i) => {
                 const done = isUnitCompleted(unit.id)
                 const isNext = nextUnit?.id === unit.id
@@ -143,7 +193,7 @@ export default function Home() {
                           : 'border-border hover:border-primary/30 hover:bg-accent/50'
                     }`}
                   >
-                    {/* Number */}
+                    {/* Icon */}
                     <div className={`h-10 w-10 rounded-xl flex items-center justify-center shrink-0 text-sm font-bold ${
                       done
                         ? 'bg-green-100 text-green-600'
@@ -160,14 +210,10 @@ export default function Home() {
                       <p className="text-xs text-muted-foreground truncate">{unit.descriptionTr}</p>
                     </div>
 
-                    {/* Right side */}
+                    {/* Right */}
                     <div className="flex items-center gap-2 shrink-0">
-                      {done && score && (
-                        <Badge variant="secondary" className="text-xs">%{score}</Badge>
-                      )}
-                      {isNext && (
-                        <Badge className="text-xs">Başla</Badge>
-                      )}
+                      {done && score && <Badge variant="secondary" className="text-xs">%{score}</Badge>}
+                      {isNext && <Badge className="text-xs">Başla</Badge>}
                       <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
                     </div>
                   </Link>

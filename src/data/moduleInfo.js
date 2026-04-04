@@ -1,0 +1,65 @@
+const moduleInfo = {
+  1: {
+    title: "First Steps",
+    titleTr: "İlk Adımlar",
+    level: "A1",
+    summary: "Temel İngilizce iletişim",
+    description: "Bu modülü tamamladığında kendinizi tanıtabilir, basit sorular sorup cevaplayabilir, günlük rutininizi anlatabilirsiniz.",
+    skills: [
+      "Kendini tanıtma (isim, yaş, nereli olduğun)",
+      "Selamlaşma ve vedalaşma",
+      "Sayıları, günleri ve ayları söyleme",
+      "Basit cümleler kurma (I am, You are, He is...)",
+      "Temel soruları anlama ve cevaplama",
+      "Günlük hayattaki basit diyalogları takip etme",
+    ],
+    emoji: "🌱",
+  },
+  2: {
+    title: "Expanding Basics",
+    titleTr: "Temelleri Genişletme",
+    level: "A1 → A2",
+    summary: "Günlük hayatta iletişim",
+    description: "Bu modülü tamamladığında şimdiki ve geçmiş zamanda konuşabilir, alışveriş yapabilir, yön tarif edebilirsiniz.",
+    skills: [
+      "Şu an ne yaptığını anlatma (I am doing...)",
+      "Yapabildiğin şeyleri söyleme (I can...)",
+      "Geçmişte ne yaptığını anlatma (I went, I saw...)",
+      "Kıyaslama yapma (bigger, the best...)",
+      "Alışveriş ve yön tarifi",
+      "Basit hikayeler anlatma",
+    ],
+    emoji: "🌿",
+  },
+  3: {
+    title: "Grammar Expansion",
+    titleTr: "Gramer Genişletme",
+    level: "A2 → B1",
+    summary: "Fikirlerini ifade etme",
+    description: "Bu modülü tamamladığında gelecekten bahsedebilir, deneyimlerini paylaşabilir, tavsiye verebilirsiniz.",
+    skills: [
+      "Gelecek planlarından bahsetme (will, going to)",
+      "Deneyimlerini paylaşma (I have been to...)",
+      "Zorunluluk ve tavsiye verme (must, should)",
+      "Phrasal verb'leri anlama (look up, give up...)",
+      "İş ve kariyer hakkında konuşma",
+    ],
+    emoji: "🌳",
+  },
+  4: {
+    title: "Real Communication",
+    titleTr: "Gerçek İletişim",
+    level: "B1",
+    summary: "Bağımsız iletişim",
+    description: "Bu modülü tamamladığında e-posta yazabilir, fikirlerinizi bağlayıcılarla ifade edebilir, resmi/gayri resmi dil farkını anlarsınız.",
+    skills: [
+      "Koşullu cümleler (If I had time...)",
+      "Dolaylı anlatım (He said that...)",
+      "E-posta ve resmi yazışma",
+      "Fikirlerini bağlayıcılarla birleştirme (however, although...)",
+    ],
+    emoji: "🌲",
+  },
+}
+
+export default moduleInfo
