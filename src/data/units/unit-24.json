@@ -1,0 +1,577 @@
+{
+  "id": "unit-24",
+  "title": "B1 Entry Test",
+  "titleTr": "B1 Giriş Testi",
+  "level": "B1",
+  "module": 3,
+  "description": "Comprehensive review of A2 skills and introduction to B1 level. Mixed business scenarios testing future forms, present perfect, conditionals, modals, and phrasal verbs.",
+  "descriptionTr": "A2 becerilerinin kapsamlı tekrarı ve B1 seviyesine giriş. Gelecek zamanlar, present perfect, koşul cümleleri, modal fiiller ve öbek fiilleri test eden karma iş senaryoları.",
+
+  "vocabulary": [
+    {
+      "word": "negotiate",
+      "pronunciation": "ni-GO-şi-eyt",
+      "turkish": "müzakere etmek, pazarlık etmek",
+      "example": "We need to negotiate better prices with the supplier.",
+      "exampleTr": "Tedarikçiyle daha iyi fiyatlar müzakere etmemiz lazım.",
+      "extra": "She negotiated a 20% discount on the contract.",
+      "extraTr": "Sözleşmede %20 indirim için pazarlık etti."
+    },
+    {
+      "word": "proposal",
+      "pronunciation": "prı-PO-zıl",
+      "turkish": "teklif, öneri",
+      "example": "I've prepared a proposal for the new project.",
+      "exampleTr": "Yeni proje için bir teklif hazırladım.",
+      "extra": "The client rejected our first proposal, so we made a new one.",
+      "extraTr": "Müşteri ilk teklifimizi reddetti, bu yüzden yenisini yaptık."
+    },
+    {
+      "word": "contract",
+      "pronunciation": "KON-trekt",
+      "turkish": "sözleşme, kontrat",
+      "example": "We've signed a contract with the new client.",
+      "exampleTr": "Yeni müşteriyle bir sözleşme imzaladık.",
+      "extra": "Read the contract carefully before you sign it.",
+      "extraTr": "İmzalamadan önce sözleşmeyi dikkatlice oku."
+    },
+    {
+      "word": "budget",
+      "pronunciation": "BA-cit",
+      "turkish": "bütçe",
+      "example": "Our marketing budget is $50,000 this quarter.",
+      "exampleTr": "Bu çeyrek pazarlama bütçemiz 50.000 dolar.",
+      "extra": "We've already gone over budget on this project.",
+      "extraTr": "Bu projede bütçeyi çoktan aştık."
+    },
+    {
+      "word": "revenue",
+      "pronunciation": "RE-vı-nuu",
+      "turkish": "gelir, hasılat",
+      "example": "Our revenue has increased by 30% this year.",
+      "exampleTr": "Bu yıl gelirimiz %30 arttı.",
+      "extra": "If we expand to new markets, our revenue will grow.",
+      "extraTr": "Yeni pazarlara açılırsak gelirimiz artacak."
+    },
+    {
+      "word": "profit",
+      "pronunciation": "PRO-fit",
+      "turkish": "kar, kazanç",
+      "example": "The company made a $2 million profit last year.",
+      "exampleTr": "Şirket geçen yıl 2 milyon dolar kar etti.",
+      "extra": "We haven't made any profit yet, but we will next quarter.",
+      "extraTr": "Henüz kar etmedik ama gelecek çeyrekte edeceğiz."
+    },
+    {
+      "word": "expand",
+      "pronunciation": "iks-PEND",
+      "turkish": "genişlemek, büyümek",
+      "example": "We're planning to expand into the European market.",
+      "exampleTr": "Avrupa pazarına genişlemeyi planlıyoruz.",
+      "extra": "The company has expanded from 10 to 50 employees.",
+      "extraTr": "Şirket 10'dan 50 çalışana büyüdü."
+    },
+    {
+      "word": "strategy",
+      "pronunciation": "STRE-tı-ci",
+      "turkish": "strateji, plan",
+      "example": "We need a better marketing strategy to reach more customers.",
+      "exampleTr": "Daha fazla müşteriye ulaşmak için daha iyi bir pazarlama stratejisine ihtiyacımız var.",
+      "extra": "Our strategy has worked well so far.",
+      "extraTr": "Stratejimiz şimdiye kadar iyi çalıştı."
+    },
+    {
+      "word": "priority",
+      "pronunciation": "pray-O-rı-ti",
+      "turkish": "öncelik",
+      "example": "Customer satisfaction should be our top priority.",
+      "exampleTr": "Müşteri memnuniyeti en büyük önceliğimiz olmalı.",
+      "extra": "My priority this week is finishing the report.",
+      "extraTr": "Bu hafta önceliğim raporu bitirmek."
+    },
+    {
+      "word": "flexible",
+      "pronunciation": "FLEK-sı-bıl",
+      "turkish": "esnek",
+      "example": "We offer flexible working hours for our employees.",
+      "exampleTr": "Çalışanlarımıza esnek çalışma saatleri sunuyoruz.",
+      "extra": "You should be more flexible with your schedule.",
+      "extraTr": "Programın konusunda daha esnek olmalısın."
+    },
+    {
+      "word": "deadline",
+      "pronunciation": "DED-layn",
+      "turkish": "son teslim tarihi",
+      "example": "The deadline for the proposal is next Friday.",
+      "exampleTr": "Teklifin son teslim tarihi gelecek cuma.",
+      "extra": "We've never missed a deadline before.",
+      "extraTr": "Daha önce hiç son teslim tarihini kaçırmadık."
+    },
+    {
+      "word": "launch",
+      "pronunciation": "lonç",
+      "turkish": "piyasaya sürmek, başlatmak",
+      "example": "We're going to launch the new product next month.",
+      "exampleTr": "Gelecek ay yeni ürünü piyasaya süreceğiz.",
+      "extra": "They've already launched their app in three countries.",
+      "extraTr": "Uygulamalarını çoktan üç ülkede başlattılar."
+    },
+    {
+      "word": "investment",
+      "pronunciation": "in-VEST-mınt",
+      "turkish": "yatırım",
+      "example": "We need more investment to grow the company.",
+      "exampleTr": "Şirketi büyütmek için daha fazla yatırıma ihtiyacımız var.",
+      "extra": "This has been our best investment so far.",
+      "extraTr": "Bu şimdiye kadarki en iyi yatırımımız oldu."
+    },
+    {
+      "word": "compete",
+      "pronunciation": "kım-PIIT",
+      "turkish": "rekabet etmek, yarışmak",
+      "example": "We must compete with much bigger companies.",
+      "exampleTr": "Çok daha büyük şirketlerle rekabet etmemiz gerekiyor.",
+      "extra": "If we don't improve our product, we won't be able to compete.",
+      "extraTr": "Ürünümüzü geliştirmezsek rekabet edemeyiz."
+    },
+    {
+      "word": "achieve",
+      "pronunciation": "ı-ÇIIV",
+      "turkish": "başarmak, elde etmek",
+      "example": "We've achieved all our targets this quarter.",
+      "exampleTr": "Bu çeyrekte tüm hedeflerimizi başardık.",
+      "extra": "If you work hard, you will achieve your goals.",
+      "extraTr": "Çok çalışırsan hedeflerine ulaşırsın."
+    },
+    {
+      "word": "opportunity",
+      "pronunciation": "o-pır-TUU-nı-ti",
+      "turkish": "fırsat",
+      "example": "This is a great opportunity for our business.",
+      "exampleTr": "Bu işimiz için harika bir fırsat.",
+      "extra": "You shouldn't miss this opportunity.",
+      "extraTr": "Bu fırsatı kaçırmamalısın."
+    },
+    {
+      "word": "efficient",
+      "pronunciation": "i-FI-şınt",
+      "turkish": "verimli, etkin",
+      "example": "We need to find a more efficient way to ship products.",
+      "exampleTr": "Ürünleri göndermek için daha verimli bir yol bulmamız lazım.",
+      "extra": "The new system is much more efficient than the old one.",
+      "extraTr": "Yeni sistem eskisinden çok daha verimli."
+    },
+    {
+      "word": "challenge",
+      "pronunciation": "ÇE-linc",
+      "turkish": "zorluk, meydan okuma",
+      "example": "Starting a business in a new country is a big challenge.",
+      "exampleTr": "Yeni bir ülkede iş kurmak büyük bir zorluk.",
+      "extra": "We've faced many challenges, but we've overcome them all.",
+      "extraTr": "Birçok zorlukla karşılaştık ama hepsinin üstesinden geldik."
+    },
+    {
+      "word": "appointment",
+      "pronunciation": "ı-POYNT-mınt",
+      "turkish": "randevu",
+      "example": "I have an appointment with the bank manager at 3 PM.",
+      "exampleTr": "Saat 3'te banka müdürüyle randevum var.",
+      "extra": "Can we set up an appointment for next week?",
+      "extraTr": "Gelecek hafta için bir randevu ayarlayabilir miyiz?"
+    },
+    {
+      "word": "recommend",
+      "pronunciation": "re-kı-MEND",
+      "turkish": "tavsiye etmek, önermek",
+      "example": "I would recommend starting with a small budget.",
+      "exampleTr": "Küçük bir bütçeyle başlamayı tavsiye ederim.",
+      "extra": "She recommended this supplier and they've been great.",
+      "extraTr": "Bu tedarikçiyi tavsiye etti ve gerçekten harikaydılar."
+    },
+    {
+      "word": "approve",
+      "pronunciation": "ı-PRUUV",
+      "turkish": "onaylamak",
+      "example": "The manager has approved our new marketing plan.",
+      "exampleTr": "Müdür yeni pazarlama planımızı onayladı.",
+      "extra": "If the board approves the budget, we'll start next week.",
+      "extraTr": "Yönetim kurulu bütçeyi onaylarsa gelecek hafta başlayacağız."
+    },
+    {
+      "word": "estimate",
+      "pronunciation": "ES-tı-meyt",
+      "turkish": "tahmin etmek, tahmini değer",
+      "example": "We estimate the project will take about six months.",
+      "exampleTr": "Projenin yaklaşık altı ay süreceğini tahmin ediyoruz.",
+      "extra": "The cost estimate was higher than we expected.",
+      "extraTr": "Maliyet tahmini beklediğimizden yüksekti."
+    },
+    {
+      "word": "feedback",
+      "pronunciation": "FIID-bek",
+      "turkish": "geri bildirim",
+      "example": "We've received positive feedback from our customers.",
+      "exampleTr": "Müşterilerimizden olumlu geri bildirim aldık.",
+      "extra": "Could you give me some feedback on my presentation?",
+      "extraTr": "Sunumum hakkında biraz geri bildirim verir misin?"
+    },
+    {
+      "word": "forecast",
+      "pronunciation": "FOR-kest",
+      "turkish": "tahmin, öngörü",
+      "example": "The sales forecast for next quarter looks promising.",
+      "exampleTr": "Gelecek çeyrek için satış tahmini umut verici görünüyor.",
+      "extra": "We should update the revenue forecast before the meeting.",
+      "extraTr": "Toplantıdan önce gelir tahminini güncellemeliyiz."
+    },
+    {
+      "word": "supply",
+      "pronunciation": "sı-PLAY",
+      "turkish": "tedarik etmek, arz",
+      "example": "We supply products to over 200 stores in Turkey.",
+      "exampleTr": "Türkiye'de 200'den fazla mağazaya ürün tedarik ediyoruz.",
+      "extra": "If the supply runs out, we'll have to find a new source.",
+      "extraTr": "Tedarik tükenirse yeni bir kaynak bulmamız gerekecek."
+    },
+    {
+      "word": "warehouse",
+      "pronunciation": "VER-haus",
+      "turkish": "depo",
+      "example": "We've just opened a new warehouse in Ankara.",
+      "exampleTr": "Ankara'da yeni bir depo açtık.",
+      "extra": "The products will be shipped from our main warehouse.",
+      "extraTr": "Ürünler ana depomuzdan gönderilecek."
+    },
+    {
+      "word": "export",
+      "pronunciation": "iks-PORT",
+      "turkish": "ihracat yapmak, ihracat",
+      "example": "Turkey exports a lot of textiles to Europe.",
+      "exampleTr": "Türkiye Avrupa'ya çok tekstil ihraç ediyor.",
+      "extra": "We're going to start exporting to the US next year.",
+      "extraTr": "Gelecek yıl ABD'ye ihracat yapmaya başlayacağız."
+    },
+    {
+      "word": "import",
+      "pronunciation": "im-PORT",
+      "turkish": "ithalat yapmak, ithalat",
+      "example": "We import raw materials from China.",
+      "exampleTr": "Hammaddeleri Çin'den ithal ediyoruz.",
+      "extra": "Import costs have gone up because of the exchange rate.",
+      "extraTr": "Kur yüzünden ithalat maliyetleri arttı."
+    },
+    {
+      "word": "outcome",
+      "pronunciation": "AUT-kam",
+      "turkish": "sonuç",
+      "example": "The outcome of the negotiation was positive for us.",
+      "exampleTr": "Müzakerenin sonucu bizim için olumlu oldu.",
+      "extra": "We can't predict the outcome, but we should prepare well.",
+      "extraTr": "Sonucu tahmin edemeyiz ama iyi hazırlanmalıyız."
+    },
+    {
+      "word": "milestone",
+      "pronunciation": "MAYL-ston",
+      "turkish": "dönüm noktası, kilometre taşı",
+      "example": "Reaching 10,000 customers was a huge milestone for us.",
+      "exampleTr": "10.000 müşteriye ulaşmak bizim için büyük bir dönüm noktasıydı.",
+      "extra": "We've hit every milestone ahead of schedule.",
+      "extraTr": "Her dönüm noktasına plandan önce ulaştık."
+    }
+  ],
+
+  "grammar": {
+    "title": "A2→B1 Comprehensive Review",
+    "titleTr": "A2→B1 Kapsamlı Tekrar",
+    "explanation": "This is a full review of the key grammar structures you've learned: Future forms (will / going to), Present Perfect (have/has + past participle), First Conditional (If + present, will + verb), Modal verbs (can, could, should, must, might, have to), and Phrasal Verbs. At B1 level, you need to use all of these naturally.",
+    "explanationTr": "Bu, öğrendiğiniz temel dilbilgisi yapılarının kapsamlı tekrarıdır: Gelecek zamanlar (will / going to), Present Perfect (have/has + geçmiş zaman ortacı), Birinci Koşul (If + geniş zaman, will + fiil), Modal fiiller (can, could, should, must, might, have to) ve Öbek Fiiller. B1 seviyesinde bunların hepsini doğal şekilde kullanmanız gerekir.",
+    "table": [
+      ["Future: will", "Spontaneous decisions, promises, predictions", "I'll send you the report tonight. Revenue will grow next year.", "Anlık kararlar, vaatler, tahminler"],
+      ["Future: going to", "Plans, intentions, evidence-based predictions", "We're going to launch the app in May. It's going to rain.", "Planlar, niyetler, kanıta dayalı tahminler"],
+      ["Present Perfect", "Past actions with present relevance, experience, unfinished time", "I've signed the contract. She has never exported before. We've sold 500 units this month.", "Şimdiki zamana etkisi olan geçmiş, deneyim, bitmemiş zaman"],
+      ["First Conditional", "Real/possible future situations", "If we reduce costs, we will make more profit. If you don't hurry, you'll miss the meeting.", "Gerçek/olası gelecek durumları"],
+      ["Modals", "Ability, advice, obligation, possibility", "Can you finish today? You should negotiate harder. We must meet the deadline. It might take longer.", "Yetenek, tavsiye, zorunluluk, olasılık"],
+      ["Phrasal Verbs", "Verb + particle combinations", "Set up a company. Give up on a dream. Figure out a problem. Come up with an idea.", "Fiil + edat birleşimleri"]
+    ],
+    "tips": [
+      { "en": "Will vs Going to: 'I'll help you' (spontaneous) vs 'I'm going to study tonight' (planned)", "tr": "Will vs Going to: 'I'll help you' (anlık) vs 'I'm going to study tonight' (planlı)" },
+      { "en": "Present Perfect: Use 'ever/never/already/yet/just' — Have you ever negotiated a big deal?", "tr": "Present Perfect: 'ever/never/already/yet/just' kullan — Hiç büyük bir anlaşma müzakere ettin mi?" },
+      { "en": "First Conditional: If + present simple, ... will + base verb. NOT: If I will go... ✗", "tr": "Birinci Koşul: If + geniş zaman, ... will + yalın fiil. 'If I will go...' YANLIŞ ✗" },
+      { "en": "Should = advice, Must = strong obligation, Might = possibility", "tr": "Should = tavsiye, Must = güçlü zorunluluk, Might = olasılık" },
+      { "en": "Present Perfect vs Past Simple: 'I've lived here for 3 years' (still here) vs 'I lived there for 3 years' (not anymore)", "tr": "Present Perfect vs Past Simple: 'I've lived here for 3 years' (hala burada) vs 'I lived there for 3 years' (artık değil)" },
+      { "en": "B1 Challenge: Combine structures! 'If we come up with a good strategy, we'll achieve our targets.'", "tr": "B1 Hedef: Yapıları birleştir! 'If we come up with a good strategy, we'll achieve our targets.'" }
+    ]
+  },
+
+  "reading": {
+    "text": "My name is Eyüp and this has been the most incredible year of my life. Twelve months ago, I set up a small logistics company with my friend Selin. We didn't have much money, but we had a great strategy.\n\nIn the beginning, we went through many challenges. We had to figure out how to compete with bigger companies. Our budget was tight — we couldn't afford a warehouse, so we worked from Selin's garage. I've never worked so hard in my life!\n\nOur first milestone was signing a contract with a local e-commerce store. They needed someone to handle their deliveries, and we showed up with a professional proposal. The store owner said, 'If you can deliver within 24 hours, I'll give you the contract.' We said, 'We will!' And we did.\n\nAfter three months, we had already expanded to five clients. Our revenue was growing, but we hadn't made any profit yet because we were investing everything back into the business. I told Selin, 'If we keep up with this pace, we'll break even by month six.'\n\nThe biggest challenge came in month four. Our main delivery van broke down, and we ran out of options. We had to negotiate a deal with a rental company — they gave us a flexible payment plan. That experience taught me that you should always have a backup plan.\n\nBy month eight, something amazing happened. A big company approached us with an investment offer. They had checked out our service and were impressed. We negotiated carefully — Selin is an incredible negotiator — and we ended up getting $100,000 in funding.\n\nNow, twelve months later, we have ten employees, two warehouses, and we export products to three countries. We've achieved things I never thought possible. My advice to anyone who wants to start a business: don't put off your dreams. If you come up with a good idea and you don't give up, anything is possible. You might face challenges, but you must carry on. The outcome will be worth it.",
+    "textTr": "Benim adım Eyüp ve bu hayatımın en inanılmaz yılı oldu. On iki ay önce, arkadaşım Selin ile küçük bir lojistik şirketi kurdum. Çok paramız yoktu ama harika bir stratejimiz vardı.\n\nBaşlangıçta birçok zorluk yaşadık. Daha büyük şirketlerle nasıl rekabet edeceğimizi çözmemiz gerekiyordu. Bütçemiz kısıtlıydı — bir depo kiralayamıyorduk, bu yüzden Selin'in garajında çalıştık. Hayatımda hiç bu kadar çok çalışmamıştım!\n\nİlk dönüm noktamız yerel bir e-ticaret mağazasıyla sözleşme imzalamaktı. Teslimatlarını halledecek birine ihtiyaçları vardı ve biz profesyonel bir teklifle geldik. Mağaza sahibi dedi ki, 'Eğer 24 saat içinde teslim edebilirseniz, sözleşmeyi size veririm.' Biz de 'Ederiz!' dedik. Ve ettik.\n\nÜç ay sonra, zaten beş müşteriye ulaşmıştık. Gelirimiz büyüyordu ama henüz kar etmemiştik çünkü her şeyi işe geri yatırıyorduk. Selin'e dedim ki, 'Bu tempoya ayak uydurursak altıncı ayda başa baş noktasına ulaşırız.'\n\nEn büyük zorluk dördüncü ayda geldi. Ana teslimat aracımız bozuldu ve seçeneklerimiz tükendi. Bir kiralama şirketiyle anlaşma müzakere etmek zorunda kaldık — bize esnek bir ödeme planı verdiler. Bu deneyim bana her zaman bir yedek planın olması gerektiğini öğretti.\n\nSekizinci ayda harika bir şey oldu. Büyük bir şirket bize yatırım teklifiyle yaklaştı. Hizmetimizi incelemişler ve etkilenmişlerdi. Dikkatli müzakere ettik — Selin inanılmaz bir müzakerecidir — ve sonunda 100.000 dolar fon aldık.\n\nŞimdi, on iki ay sonra, on çalışanımız, iki depomuz var ve üç ülkeye ürün ihraç ediyoruz. Hiç mümkün olmadığını düşündüğüm şeyleri başardık. İş kurmak isteyen herkese tavsiyem: hayallerinizi ertelemeyin. İyi bir fikir bulursanız ve vazgeçmezseniz her şey mümkün. Zorluklarla karşılaşabilirsiniz ama devam etmelisiniz. Sonuç buna değecek.",
+    "questions": [
+      {
+        "question": "Where did Eyüp and Selin work in the beginning?",
+        "questionTr": "Eyüp ve Selin başlangıçta nerede çalıştı?",
+        "options": ["In a big office", "In Selin's garage", "In a co-working space", "In a warehouse"],
+        "correct": 1
+      },
+      {
+        "question": "What was the condition for their first contract?",
+        "questionTr": "İlk sözleşmeleri için koşul neydi?",
+        "options": ["Lowest price in the market", "Deliver within 24 hours", "Have 10 delivery vans", "Work on weekends"],
+        "correct": 1
+      },
+      {
+        "question": "What happened in month four?",
+        "questionTr": "Dördüncü ayda ne oldu?",
+        "options": ["They made a big profit", "They got an investment", "Their delivery van broke down", "They expanded to new countries"],
+        "correct": 2
+      },
+      {
+        "question": "How much funding did they receive from the investment?",
+        "questionTr": "Yatırımdan ne kadar fon aldılar?",
+        "options": ["$10,000", "$50,000", "$100,000", "$1,000,000"],
+        "correct": 2
+      },
+      {
+        "question": "What is Eyüp's main advice?",
+        "questionTr": "Eyüp'ün ana tavsiyesi ne?",
+        "options": ["Save a lot of money first", "Don't put off your dreams and don't give up", "Work alone, don't have partners", "Always accept investment offers"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "We ___ already ___ a contract with the new client.", "answer": "have signed", "hint": "Present Perfect — imzalamak" },
+      { "sentence": "If we reduce costs, we ___ make more profit.", "answer": "will", "hint": "First Conditional — gelecek sonuç" },
+      { "sentence": "We're ___ ___ launch the product next month.", "answer": "going to", "hint": "Future plan — going to" },
+      { "sentence": "You ___ always read the contract before signing it.", "answer": "should", "hint": "Modal — tavsiye" },
+      { "sentence": "Our revenue ___ increased by 30% this year.", "answer": "has", "hint": "Present Perfect — yardımcı fiil" },
+      { "sentence": "I ___ never ___ with such a big company before.", "answer": "have negotiated", "hint": "Present Perfect — deneyim" },
+      { "sentence": "If the budget isn't approved, we ___ start the project.", "answer": "won't", "hint": "First Conditional — olumsuz sonuç" },
+      { "sentence": "You ___ miss this opportunity. It's very important!", "answer": "mustn't", "hint": "Modal — güçlü yasak" },
+      { "sentence": "We need to come ___ ___ a new strategy.", "answer": "up with", "hint": "Phrasal verb — fikir bulmak" },
+      { "sentence": "It ___ take longer than we expected.", "answer": "might", "hint": "Modal — olasılık" },
+      { "sentence": "She has ___ set up appointments with three clients.", "answer": "already", "hint": "Present Perfect sinyal kelimesi" },
+      { "sentence": "If you don't ___ up with the market, you'll fall behind.", "answer": "keep", "hint": "Phrasal verb — ayak uydurmak" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"We ___ the contract yesterday.\" Hangisi doğru?",
+        "options": ["have signed", "signed", "have sign", "signing"],
+        "correct": 1
+      },
+      {
+        "question": "\"I've ___ been to America.\" Boşluğa ne gelir?",
+        "options": ["ever", "never", "already", "Hepsi olabilir"],
+        "correct": 3
+      },
+      {
+        "question": "\"If the client ___ our proposal, we'll start next week.\" Hangisi doğru?",
+        "options": ["will approve", "approves", "approved", "has approved"],
+        "correct": 1
+      },
+      {
+        "question": "\"We're going to expand\" ne zaman kullanılır?",
+        "options": ["Anlık karar", "Planlı gelecek", "Geçmiş olay", "Şimdiki zaman"],
+        "correct": 1
+      },
+      {
+        "question": "\"You ___ negotiate better prices.\" (tavsiye)",
+        "options": ["must", "might", "should", "can"],
+        "correct": 2
+      },
+      {
+        "question": "\"The delivery van has ___ down.\" Boşluğa ne gelir?",
+        "options": ["broke", "break", "broken", "breaking"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi 'First Conditional' yapısına uyar?",
+        "options": ["If I will go, I see you.", "If I go, I will see you.", "If I went, I will see you.", "If I go, I saw you."],
+        "correct": 1
+      },
+      {
+        "question": "\"Kar\" İngilizce'de hangisi?",
+        "options": ["Revenue", "Budget", "Profit", "Investment"],
+        "correct": 2
+      },
+      {
+        "question": "\"We ___ to meet this deadline. There's no choice.\" Hangisi doğru?",
+        "options": ["should", "might", "could", "have to"],
+        "correct": 3
+      },
+      {
+        "question": "\"Müzakere etmek\" İngilizce'de hangisi?",
+        "options": ["negotiate", "estimate", "forecast", "recommend"],
+        "correct": 0
+      },
+      {
+        "question": "\"I've worked here ___ three years.\" Boşluğa ne gelir?",
+        "options": ["since", "for", "ago", "before"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "negotiate", "right": "müzakere etmek" },
+      { "left": "proposal", "right": "teklif" },
+      { "left": "contract", "right": "sözleşme" },
+      { "left": "budget", "right": "bütçe" },
+      { "left": "revenue", "right": "gelir" },
+      { "left": "profit", "right": "kar" },
+      { "left": "expand", "right": "genişlemek" },
+      { "left": "strategy", "right": "strateji" },
+      { "left": "priority", "right": "öncelik" },
+      { "left": "flexible", "right": "esnek" },
+      { "left": "milestone", "right": "dönüm noktası" },
+      { "left": "warehouse", "right": "depo" },
+      { "left": "deadline", "right": "son teslim tarihi" },
+      { "left": "feedback", "right": "geri bildirim" },
+      { "left": "outcome", "right": "sonuç" }
+    ],
+    "sentenceOrder": [
+      { "words": ["We've", "already", "signed", "the", "contract"], "correct": "We've already signed the contract" },
+      { "words": ["If", "we", "expand", "we", "will", "need", "more", "staff"], "correct": "If we expand we will need more staff" },
+      { "words": ["I'm", "going", "to", "negotiate", "a", "better", "price"], "correct": "I'm going to negotiate a better price" },
+      { "words": ["You", "should", "check", "out", "the", "competition"], "correct": "You should check out the competition" },
+      { "words": ["She", "has", "never", "missed", "a", "deadline"], "correct": "She has never missed a deadline" },
+      { "words": ["We", "must", "come", "up", "with", "a", "new", "strategy"], "correct": "We must come up with a new strategy" },
+      { "words": ["Revenue", "might", "decrease", "if", "we", "don't", "act", "now"], "correct": "Revenue might decrease if we don't act now" },
+      { "words": ["The", "company", "has", "expanded", "to", "three", "countries"], "correct": "The company has expanded to three countries" },
+      { "words": ["I'll", "send", "you", "the", "proposal", "tonight"], "correct": "I'll send you the proposal tonight" }
+    ],
+    "translation": [
+      {
+        "turkish": "Bu yıl gelirimiz %30 arttı.",
+        "english": "Our revenue has increased by 30% this year.",
+        "acceptAlso": ["Our revenue has grown by 30% this year"]
+      },
+      {
+        "turkish": "Maliyetleri düşürürsek daha fazla kar ederiz.",
+        "english": "If we reduce costs, we will make more profit.",
+        "acceptAlso": ["If we cut down costs, we'll make more profit", "If we reduce costs we'll make more profit"]
+      },
+      {
+        "turkish": "Gelecek ay yeni ürünü piyasaya süreceğiz.",
+        "english": "We're going to launch the new product next month.",
+        "acceptAlso": ["We are going to launch the new product next month", "We will launch the new product next month"]
+      },
+      {
+        "turkish": "Daha iyi fiyatlar müzakere etmelisin.",
+        "english": "You should negotiate better prices.",
+        "acceptAlso": ["You should negotiate better prices"]
+      },
+      {
+        "turkish": "Daha önce hiç ihracat yapmadık.",
+        "english": "We have never exported before.",
+        "acceptAlso": ["We've never exported before"]
+      },
+      {
+        "turkish": "Bu fırsatı kaçırmamalısın.",
+        "english": "You shouldn't miss this opportunity.",
+        "acceptAlso": ["You should not miss this opportunity", "You mustn't miss this opportunity"]
+      },
+      {
+        "turkish": "Sözleşmeyi imzalamadan önce dikkatlice oku.",
+        "english": "Read the contract carefully before you sign it.",
+        "acceptAlso": ["Read the contract carefully before signing it"]
+      },
+      {
+        "turkish": "Projenin altı ay süreceğini tahmin ediyoruz.",
+        "english": "We estimate the project will take about six months.",
+        "acceptAlso": ["We estimate that the project will take about six months"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Eyüp's Business Day",
+    "titleTr": "Eyüp'ün İş Günü",
+    "context": "Eyüp'ün yoğun bir iş günü: sabah ekip toplantısı, öğleden sonra müşteri görüşmesi ve akşam yeni strateji planlaması. Birden fazla konuşmacı var.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Selin (Manager)", "text": "Good morning, team. We have a lot to go through today. First, I want to bring up our Q2 targets.", "textTr": "Günaydın ekip. Bugün incelememiz gereken çok şey var. Önce Q2 hedeflerimizi gündeme getirmek istiyorum.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning! I've already prepared the logistics report. Our delivery times have improved by 15%.", "textTr": "Günaydın! Lojistik raporunu çoktan hazırladım. Teslimat sürelerimiz %15 iyileşti." },
+      { "speaker": "A", "speakerName": "Selin (Manager)", "text": "Excellent! That's a great milestone. But we haven't achieved our revenue target yet. We need to come up with new ideas.", "textTr": "Mükemmel! Bu harika bir dönüm noktası. Ama gelir hedefimize henüz ulaşamadık. Yeni fikirler bulmamız lazım.", "gender": "female" },
+      { "speaker": "A", "speakerName": "Kerem (Sales)", "text": "I've been looking into the European market. If we start exporting to Germany, our revenue will increase significantly.", "textTr": "Avrupa pazarını araştırıyordum. Almanya'ya ihracat yapmaya başlarsak gelirimiz önemli ölçüde artacak.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That's a good idea, but we'll need a bigger warehouse. We might run out of space with the current one.", "textTr": "İyi fikir ama daha büyük bir depoya ihtiyacımız olacak. Mevcut depoyla yerimiz tükenebilir." },
+      { "speaker": "A", "speakerName": "Selin (Manager)", "text": "I've already checked out a few locations. There's a great warehouse near the port. We should set up a meeting with the owner.", "textTr": "Birkaç lokasyona çoktan baktım. Limanın yakınında harika bir depo var. Sahibiyle bir toplantı ayarlamalıyız.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'll call them today and set it up. Now, about the client meeting this afternoon — are we ready?", "textTr": "Bugün arayıp ayarlarım. Şimdi, bu öğleden sonraki müşteri toplantısı hakkında — hazır mıyız?" },
+      { "speaker": "A", "speakerName": "Kerem (Sales)", "text": "Almost. I've prepared the proposal, but I haven't finished the budget estimates yet. I need another hour.", "textTr": "Neredeyse. Teklifi hazırladım ama bütçe tahminlerini henüz bitirmedim. Bir saat daha lazım.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Selin (Manager)", "text": "Don't put it off, Kerem. The client is very strict about deadlines. If we're not prepared, we'll lose the contract.", "textTr": "Erteleme Kerem. Müşteri son teslim tarihleri konusunda çok katı. Hazır olmazsak sözleşmeyi kaybederiz.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I can help with the numbers. I've worked with this client before — they always negotiate hard on prices.", "textTr": "Rakamlarla yardım edebilirim. Bu müşteriyle daha önce çalıştım — fiyat konusunda her zaman sert müzakere ederler." },
+      { "speaker": "A", "speakerName": "Kerem (Sales)", "text": "Great, thanks! We should probably offer a flexible payment plan. That might make them sign faster.", "textTr": "Harika, teşekkürler! Muhtemelen esnek bir ödeme planı sunmalıyız. Bu onları daha hızlı imzalatabilir.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Client (Mr. Davis)", "text": "Good afternoon. Thank you for the proposal. I've gone through it, and I have some concerns about the timeline.", "textTr": "İyi günler. Teklif için teşekkürler. İnceledim ve zaman çizelgesi hakkında bazı endişelerim var.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "We understand your concerns, Mr. Davis. If you need faster delivery, we can set up a dedicated team for your account.", "textTr": "Endişelerinizi anlıyoruz Bay Davis. Daha hızlı teslimat istiyorsanız hesabınıza özel bir ekip kurabiliriz." },
+      { "speaker": "A", "speakerName": "Client (Mr. Davis)", "text": "That sounds interesting. But I must be honest — your competitors have offered lower prices. Can you match them?", "textTr": "Kulağa ilginç geliyor. Ama dürüst olmalıyım — rakipleriniz daha düşük fiyat teklif etti. Onlarla eşleşebilir misiniz?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "We might not be the cheapest, but we've never missed a deadline. If you check out our customer feedback, you'll see our 98% satisfaction rate.", "textTr": "En ucuz olmayabiliriz ama hiçbir zaman son teslim tarihini kaçırmadık. Müşteri geri bildirimlerimize bakarsanız %98 memnuniyet oranımızı göreceksiniz." },
+      { "speaker": "A", "speakerName": "Client (Mr. Davis)", "text": "Impressive. I'll discuss this with my board. If they approve the budget, we'll sign the contract by Friday.", "textTr": "Etkileyici. Bunu yönetim kurulumla görüşeceğim. Bütçeyi onaylarlarsa cuma gününe kadar sözleşmeyi imzalarız.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That would be great, Mr. Davis. We're confident this partnership will work out for both of us.", "textTr": "Harika olur Bay Davis. Bu ortaklığın her iki taraf için de iyi sonuçlanacağından eminiz." },
+      { "speaker": "A", "speakerName": "Selin (Manager)", "text": "Well done, team! If this deal goes through, it will be our biggest contract yet. Let's not give up until we sign it!", "textTr": "Aferin ekip! Bu anlaşma olursa şimdiye kadarki en büyük sözleşmemiz olacak. İmzalayana kadar vazgeçmeyelim!", "gender": "female" }
+    ],
+    "questions": [
+      {
+        "question": "How much have delivery times improved?",
+        "questionTr": "Teslimat süreleri ne kadar iyileşti?",
+        "options": ["5%", "10%", "15%", "20%"],
+        "correct": 2
+      },
+      {
+        "question": "What hasn't the team achieved yet?",
+        "questionTr": "Ekip henüz neyi başaramadı?",
+        "options": ["Delivery improvement", "Revenue target", "Client meeting", "Hiring new staff"],
+        "correct": 1
+      },
+      {
+        "question": "What does Kerem suggest about the European market?",
+        "questionTr": "Kerem Avrupa pazarı hakkında ne öneriyor?",
+        "options": ["Close the European office", "Start exporting to Germany", "Import from Germany", "Hire European staff"],
+        "correct": 1
+      },
+      {
+        "question": "What is Mr. Davis's concern about the proposal?",
+        "questionTr": "Bay Davis'in teklif hakkındaki endişesi ne?",
+        "options": ["The quality", "The timeline", "The team size", "The company location"],
+        "correct": 1
+      },
+      {
+        "question": "What is the company's customer satisfaction rate?",
+        "questionTr": "Şirketin müşteri memnuniyet oranı kaç?",
+        "options": ["85%", "90%", "95%", "98%"],
+        "correct": 3
+      },
+      {
+        "question": "When will Mr. Davis sign the contract if the budget is approved?",
+        "questionTr": "Bütçe onaylanırsa Bay Davis sözleşmeyi ne zaman imzalayacak?",
+        "options": ["Today", "Tomorrow", "By Friday", "Next month"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "B1 Grammar Review - British Council",
+      "description": "B1 seviyesi dilbilgisi tekrarı ve alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Business English - BBC Learning English",
+      "description": "İş İngilizcesi kelime ve diyaloglar",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/english-you-need/unit-1",
+      "type": "video",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Cambridge B1 Preliminary Practice Tests",
+      "description": "B1 seviye sınav pratik testleri",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/preliminary/preparation/",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    }
+  ]
+}

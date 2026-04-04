@@ -523,22 +523,72 @@ export default function FlashcardPage() {
 
   const [mode, setMode] = useState(null) // null = lobby, 'flip', 'type'
   const [filter, setFilter] = useState('due') // 'due', 'all', 'box-1'...'box-5'
+  const [levelFilter, setLevelFilter] = useState('all') // 'all', 'A1', 'A2', 'B1'...
+  const [unitFilter, setUnitFilter] = useState('all') // 'all', 'unit-01', 'unit-02'...
+  const [search, setSearch] = useState('')
 
   // Initialize words from ALL units
   useEffect(() => {
     initializeAllUnits()
   }, [initializeAllUnits])
 
-  // Get cards based on filter
-  const filteredCards = useMemo(() => {
-    if (filter === 'due') return dueCards
-    if (filter === 'all') return activeCards
-    const boxNum = parseInt(filter.split('-')[1])
-    return activeCards.filter(v => {
+  // Available levels and units for filters
+  const availableLevels = useMemo(() => {
+    const levels = new Set(activeCards.map(v => v.level))
+    return ['all', ...Array.from(levels).sort()]
+  }, [activeCards])
+
+  const availableUnits = useMemo(() => {
+    let cards = activeCards
+    if (levelFilter !== 'all') cards = cards.filter(v => v.level === levelFilter)
+    const unitSet = new Map()
+    cards.forEach(v => { if (!unitSet.has(v.unitId)) unitSet.set(v.unitId, v.unitTitle) })
+    return [['all', 'Tüm Üniteler'], ...Array.from(unitSet.entries())]
+  }, [activeCards, levelFilter])
+
+  // Level/unit stats
+  const levelStats = useMemo(() => {
+    const map = {}
+    activeCards.forEach(v => {
       const card = getCardData(v.word)
-      return card && card.box === boxNum
+      if (!map[v.level]) map[v.level] = { total: 0, learned: 0, due: 0 }
+      map[v.level].total++
+      if (card?.box === 5) map[v.level].learned++
     })
-  }, [filter, dueCards, activeCards, getCardData])
+    const today = new Date().toISOString().split('T')[0]
+    dueCards.forEach(v => {
+      if (map[v.level]) map[v.level].due++
+    })
+    return map
+  }, [activeCards, dueCards, getCardData])
+
+  // Get cards based on all filters
+  const filteredCards = useMemo(() => {
+    let cards
+    if (filter === 'due') cards = dueCards
+    else if (filter === 'all') cards = activeCards
+    else {
+      const boxNum = parseInt(filter.split('-')[1])
+      cards = activeCards.filter(v => {
+        const card = getCardData(v.word)
+        return card && card.box === boxNum
+      })
+    }
+
+    // Apply level filter
+    if (levelFilter !== 'all') cards = cards.filter(v => v.level === levelFilter)
+
+    // Apply unit filter
+    if (unitFilter !== 'all') cards = cards.filter(v => v.unitId === unitFilter)
+
+    // Apply search
+    if (search.trim()) {
+      const q = search.trim().toLowerCase()
+      cards = cards.filter(v => v.word.toLowerCase().includes(q) || v.turkish.toLowerCase().includes(q))
+    }
+
+    return cards
+  }, [filter, levelFilter, unitFilter, search, dueCards, activeCards, getCardData])
 
   // No cards state
   if (activeCards.length === 0) {
@@ -665,20 +715,74 @@ export default function FlashcardPage() {
         </Card>
       )}
 
-      {/* Filter & Practice */}
-      <div>
-        <h2 className="text-sm font-semibold mb-3">Pratik Yap</h2>
-        <div className="flex gap-1.5 p-1 rounded-lg bg-muted">
+      {/* Level Overview */}
+      {Object.keys(levelStats).length > 1 && (
+        <div>
+          <h2 className="text-sm font-semibold mb-3">Seviye Bazlı İlerleme</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            {Object.entries(levelStats).sort().map(([level, s]) => (
+              <button
+                key={level}
+                onClick={() => { setLevelFilter(level === levelFilter ? 'all' : level); setUnitFilter('all') }}
+                className={`p-3 rounded-xl border text-left transition-all ${
+                  levelFilter === level
+                    ? 'border-primary bg-primary/5 shadow-sm'
+                    : 'hover:border-primary/30 hover:bg-accent/50'
+                }`}
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <Badge variant={levelFilter === level ? 'default' : 'outline'} className="text-[10px]">{level}</Badge>
+                  <span className="text-[10px] text-muted-foreground">{s.total} kelime</span>
+                </div>
+                <Progress value={(s.learned / s.total) * 100} className="h-1.5 mb-1" />
+                <div className="flex justify-between text-[10px] text-muted-foreground">
+                  <span>{s.learned} öğrenildi</span>
+                  {s.due > 0 && <span className="text-orange-600 font-medium">{s.due} bekliyor</span>}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Advanced Filters */}
+      <div className="space-y-3">
+        <h2 className="text-sm font-semibold">Filtrele ve Pratik Yap</h2>
+
+        {/* Search */}
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="Kelime veya anlam ara..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full h-9 px-3 rounded-lg border bg-background text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring/50"
+          />
+          {search && (
+            <button
+              onClick={() => setSearch('')}
+              className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+            >
+              <X className="h-3.5 w-3.5" />
+            </button>
+          )}
+        </div>
+
+        {/* Box filter row */}
+        <div className="flex gap-1.5 p-1 rounded-lg bg-muted overflow-x-auto">
           {[
             { key: 'due', label: `Bekleyen (${dueCards.length})` },
             { key: 'all', label: `Tümü (${activeCards.length})` },
-            { key: 'box-1', label: `Kutu 1 (${stats.boxCounts[1] || 0})` },
-            { key: 'box-5', label: `Kutu 5 (${stats.boxCounts[5] || 0})` },
+            { key: 'box-1', label: `Kutu 1` },
+            { key: 'box-2', label: `Kutu 2` },
+            { key: 'box-3', label: `Kutu 3` },
+            { key: 'box-4', label: `Kutu 4` },
+            { key: 'box-5', label: `Kutu 5` },
           ].map(f => (
             <button
               key={f.key}
               onClick={() => setFilter(f.key)}
-              className={`flex-1 px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${
+              className={`shrink-0 px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${
                 filter === f.key
                   ? 'bg-background text-foreground shadow-sm'
                   : 'text-muted-foreground hover:text-foreground'
@@ -689,44 +793,72 @@ export default function FlashcardPage() {
           ))}
         </div>
 
-        {/* Filtered card list */}
-        <div className="mt-4 space-y-2 max-h-[400px] overflow-y-auto">
+        {/* Unit filter — only show if level selected or many units */}
+        {availableUnits.length > 2 && (
+          <div className="flex gap-1.5 overflow-x-auto pb-1">
+            {availableUnits.map(([key, label]) => (
+              <button
+                key={key}
+                onClick={() => setUnitFilter(key)}
+                className={`shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] font-medium border transition-all ${
+                  unitFilter === key
+                    ? 'border-primary bg-primary/5 text-primary'
+                    : 'border-transparent text-muted-foreground hover:bg-accent'
+                }`}
+              >
+                {key === 'all' ? 'Tüm Üniteler' : label}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Results header + actions */}
+        <div className="flex items-center justify-between">
+          <p className="text-xs text-muted-foreground">
+            {filteredCards.length} kelime bulundu
+            {levelFilter !== 'all' && ` · ${levelFilter}`}
+            {unitFilter !== 'all' && ` · ${availableUnits.find(u => u[0] === unitFilter)?.[1]}`}
+          </p>
+          {filteredCards.length > 0 && (
+            <div className="flex gap-2">
+              <Button size="sm" onClick={() => setMode('flip')}>
+                <Eye className="mr-1.5 h-3.5 w-3.5" /> Çevir ({filteredCards.length})
+              </Button>
+              <Button size="sm" variant="outline" onClick={() => setMode('type')}>
+                <Keyboard className="mr-1.5 h-3.5 w-3.5" /> Yaz
+              </Button>
+            </div>
+          )}
+        </div>
+
+        {/* Card list */}
+        <div className="space-y-1.5 max-h-[500px] overflow-y-auto">
           {filteredCards.length === 0 ? (
-            <p className="text-sm text-muted-foreground text-center py-6">Bu filtrede kart yok</p>
+            <p className="text-sm text-muted-foreground text-center py-8">Bu filtrede kart yok</p>
           ) : (
-            <>
-              <div className="flex gap-2 mb-3">
-                <Button size="sm" onClick={() => setMode('flip')}>
-                  <Eye className="mr-1.5 h-3.5 w-3.5" /> Çevir ({filteredCards.length})
-                </Button>
-                <Button size="sm" variant="outline" onClick={() => setMode('type')}>
-                  <Keyboard className="mr-1.5 h-3.5 w-3.5" /> Yaz ({filteredCards.length})
-                </Button>
-              </div>
-              {filteredCards.map((v, i) => {
-                const card = getCardData(v.word)
-                return (
-                  <div key={i} className="flex items-center justify-between p-3 rounded-lg border hover:border-primary/30 transition-colors">
-                    <div className="flex items-center gap-3">
-                      <button
-                        onClick={() => speak(v.word)}
-                        className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors shrink-0"
-                      >
-                        <Volume2 className="h-3.5 w-3.5 text-primary" />
-                      </button>
-                      <div>
-                        <p className="text-sm font-medium">{v.word}</p>
-                        <p className="text-xs text-muted-foreground">{v.turkish}</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      {card && <BoxIndicator box={card.box} />}
-                      <Badge variant="outline" className="text-[10px]">{v.unitTitle}</Badge>
+            filteredCards.map((v, i) => {
+              const card = getCardData(v.word)
+              return (
+                <div key={i} className="flex items-center justify-between p-3 rounded-xl border hover:border-primary/30 hover:shadow-sm transition-all group">
+                  <div className="flex items-center gap-3">
+                    <button
+                      onClick={() => speak(v.word)}
+                      className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 active:scale-95 transition-all shrink-0"
+                    >
+                      <Volume2 className="h-3.5 w-3.5 text-primary" />
+                    </button>
+                    <div>
+                      <p className="text-sm font-medium group-hover:text-primary transition-colors">{v.word}</p>
+                      <p className="text-xs text-muted-foreground">{v.turkish}</p>
                     </div>
                   </div>
-                )
-              })}
-            </>
+                  <div className="flex items-center gap-2">
+                    {card && <BoxIndicator box={card.box} />}
+                    <Badge variant="outline" className="text-[10px] hidden sm:flex">{v.level}</Badge>
+                  </div>
+                </div>
+              )
+            })
           )}
         </div>
       </div>

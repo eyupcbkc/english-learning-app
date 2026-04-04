@@ -1,0 +1,564 @@
+{
+  "id": "unit-19",
+  "title": "Present Perfect vs Past Simple",
+  "titleTr": "Present Perfect ve Past Simple Karşılaştırması",
+  "level": "A2",
+  "module": 3,
+  "description": "Learn when to use Present Perfect and Past Simple. Write a professional LinkedIn profile and talk about your career.",
+  "descriptionTr": "Present Perfect ve Past Simple'ı ne zaman kullanacağını öğren. Profesyonel bir LinkedIn profili yaz ve kariyerinden bahset.",
+
+  "vocabulary": [
+    {
+      "word": "profile",
+      "pronunciation": "PRO-fayl",
+      "turkish": "profil",
+      "example": "I have updated my LinkedIn profile recently.",
+      "exampleTr": "LinkedIn profilimi yakın zamanda güncelledim.",
+      "extra": "Your profile looks very professional.",
+      "extraTr": "Profilin çok profesyonel görünüyor."
+    },
+    {
+      "word": "connect",
+      "pronunciation": "kı-NEKT",
+      "turkish": "bağlantı kurmak",
+      "example": "I have connected with 200 people on LinkedIn.",
+      "exampleTr": "LinkedIn'de 200 kişiyle bağlantı kurdum.",
+      "extra": "Let's connect online and stay in touch.",
+      "extraTr": "Online bağlantı kuralım ve iletişimde kalalım."
+    },
+    {
+      "word": "network",
+      "pronunciation": "NET-vörk",
+      "turkish": "ağ / iletişim ağı",
+      "example": "She has built a strong professional network.",
+      "exampleTr": "Güçlü bir profesyonel ağ kurdu.",
+      "extra": "Networking is important for finding a good job.",
+      "extraTr": "İletişim ağı kurmak iyi bir iş bulmak için önemli."
+    },
+    {
+      "word": "industry",
+      "pronunciation": "IN-dıs-tri",
+      "turkish": "sektör / endüstri",
+      "example": "I have worked in the tech industry for five years.",
+      "exampleTr": "Beş yıldır teknoloji sektöründe çalışıyorum.",
+      "extra": "The fashion industry changes very fast.",
+      "extraTr": "Moda sektörü çok hızlı değişiyor."
+    },
+    {
+      "word": "role",
+      "pronunciation": "rol",
+      "turkish": "rol / görev / pozisyon",
+      "example": "I started a new role last month.",
+      "exampleTr": "Geçen ay yeni bir pozisyona başladım.",
+      "extra": "What is your role in the company?",
+      "extraTr": "Şirketteki görevin ne?"
+    },
+    {
+      "word": "team",
+      "pronunciation": "tiim",
+      "turkish": "ekip / takım",
+      "example": "I have worked with amazing teams throughout my career.",
+      "exampleTr": "Kariyerim boyunca harika ekiplerle çalıştım.",
+      "extra": "Our team has grown to 15 people this year.",
+      "extraTr": "Bu yıl ekibimiz 15 kişiye büyüdü."
+    },
+    {
+      "word": "lead",
+      "pronunciation": "liid",
+      "turkish": "yönetmek / liderlik etmek",
+      "example": "She has led many successful projects.",
+      "exampleTr": "Birçok başarılı projeye liderlik etti.",
+      "extra": "I led a team of 10 people at my last job.",
+      "extraTr": "Son işimde 10 kişilik bir ekibi yönettim."
+    },
+    {
+      "word": "manage",
+      "pronunciation": "ME-nic",
+      "turkish": "yönetmek / idare etmek",
+      "example": "I have managed budgets of over $1 million.",
+      "exampleTr": "1 milyon doların üzerinde bütçe yönettim.",
+      "extra": "He managed the Istanbul office from 2019 to 2022.",
+      "extraTr": "2019'dan 2022'ye kadar İstanbul ofisini yönetti."
+    },
+    {
+      "word": "develop",
+      "pronunciation": "di-VE-lıp",
+      "turkish": "geliştirmek",
+      "example": "We have developed a new marketing strategy.",
+      "exampleTr": "Yeni bir pazarlama stratejisi geliştirdik.",
+      "extra": "She developed the company's first mobile app in 2021.",
+      "extraTr": "2021'de şirketin ilk mobil uygulamasını geliştirdi."
+    },
+    {
+      "word": "launch",
+      "pronunciation": "lonç",
+      "turkish": "başlatmak / piyasaya sürmek",
+      "example": "We have launched three new products this year.",
+      "exampleTr": "Bu yıl üç yeni ürün piyasaya sürdük.",
+      "extra": "They launched their online store in March.",
+      "extraTr": "Online mağazalarını Mart'ta açtılar."
+    },
+    {
+      "word": "grow",
+      "pronunciation": "grou",
+      "turkish": "büyümek / büyütmek",
+      "example": "The company has grown rapidly since 2020.",
+      "exampleTr": "Şirket 2020'den beri hızla büyüdü.",
+      "extra": "I grew the sales team from 3 to 12 people.",
+      "extraTr": "Satış ekibini 3'ten 12 kişiye büyüttüm."
+    },
+    {
+      "word": "strategy",
+      "pronunciation": "STRE-tı-ci",
+      "turkish": "strateji",
+      "example": "I have created a new digital strategy for the brand.",
+      "exampleTr": "Marka için yeni bir dijital strateji oluşturdum.",
+      "extra": "Our marketing strategy worked very well last year.",
+      "extraTr": "Pazarlama stratejimiz geçen yıl çok iyi işledi."
+    },
+    {
+      "word": "experience",
+      "pronunciation": "iks-PIR-i-ıns",
+      "turkish": "deneyim / tecrübe",
+      "example": "I have five years of experience in e-commerce.",
+      "exampleTr": "E-ticarette beş yıllık deneyimim var.",
+      "extra": "She gained valuable experience at her first job.",
+      "extraTr": "İlk işinde değerli deneyim kazandı."
+    },
+    {
+      "word": "background",
+      "pronunciation": "BEK-graund",
+      "turkish": "geçmiş / özgeçmiş",
+      "example": "My background is in logistics and supply chain.",
+      "exampleTr": "Geçmişim lojistik ve tedarik zincirinde.",
+      "extra": "Can you tell me about your professional background?",
+      "extraTr": "Profesyonel geçmişinden bahseder misin?"
+    },
+    {
+      "word": "currently",
+      "pronunciation": "KAR-ınt-li",
+      "turkish": "şu anda / halen",
+      "example": "I am currently working as a project manager.",
+      "exampleTr": "Şu anda proje müdürü olarak çalışıyorum.",
+      "extra": "She is currently looking for a new opportunity.",
+      "extraTr": "Şu anda yeni bir fırsat arıyor."
+    },
+    {
+      "word": "previously",
+      "pronunciation": "PRII-vi-ıs-li",
+      "turkish": "daha önce / önceden",
+      "example": "I previously worked at a logistics company.",
+      "exampleTr": "Daha önce bir lojistik şirketinde çalıştım.",
+      "extra": "She previously managed a team of 20 people.",
+      "extraTr": "Daha önce 20 kişilik bir ekibi yönetti."
+    },
+    {
+      "word": "responsible",
+      "pronunciation": "ri-SPON-sı-bıl",
+      "turkish": "sorumlu",
+      "example": "I am responsible for the social media accounts.",
+      "exampleTr": "Sosyal medya hesaplarından sorumluyum.",
+      "extra": "She was responsible for hiring new employees.",
+      "extraTr": "Yeni çalışanları işe almaktan sorumluydu."
+    },
+    {
+      "word": "supervise",
+      "pronunciation": "SUU-pır-vayz",
+      "turkish": "denetlemek / gözetmek",
+      "example": "I have supervised interns and junior staff.",
+      "exampleTr": "Stajyerleri ve yeni personeli denetledim.",
+      "extra": "He supervised the construction project last summer.",
+      "extraTr": "Geçen yaz inşaat projesini denetledi."
+    },
+    {
+      "word": "collaborate",
+      "pronunciation": "kı-LE-bı-reyt",
+      "turkish": "iş birliği yapmak",
+      "example": "I have collaborated with international teams.",
+      "exampleTr": "Uluslararası ekiplerle iş birliği yaptım.",
+      "extra": "We collaborated with a design agency on the project.",
+      "extraTr": "Projede bir tasarım ajansıyla iş birliği yaptık."
+    },
+    {
+      "word": "brand",
+      "pronunciation": "brend",
+      "turkish": "marka",
+      "example": "I have helped build the brand from zero.",
+      "exampleTr": "Markayı sıfırdan kurmaya yardım ettim.",
+      "extra": "They launched a new brand for young people.",
+      "extraTr": "Gençler için yeni bir marka çıkardılar."
+    },
+    {
+      "word": "content",
+      "pronunciation": "KON-tent",
+      "turkish": "içerik",
+      "example": "I have created content for social media channels.",
+      "exampleTr": "Sosyal medya kanalları için içerik oluşturdum.",
+      "extra": "The content on this website is very useful.",
+      "extraTr": "Bu web sitesindeki içerik çok faydalı."
+    },
+    {
+      "word": "platform",
+      "pronunciation": "PLET-form",
+      "turkish": "platform",
+      "example": "LinkedIn is the best platform for professional networking.",
+      "exampleTr": "LinkedIn profesyonel ağ kurmak için en iyi platform.",
+      "extra": "We sell products on multiple e-commerce platforms.",
+      "extraTr": "Ürünleri birden fazla e-ticaret platformunda satıyoruz."
+    },
+    {
+      "word": "digital",
+      "pronunciation": "DI-ci-tıl",
+      "turkish": "dijital",
+      "example": "I have worked in digital marketing since 2018.",
+      "exampleTr": "2018'den beri dijital pazarlamada çalışıyorum.",
+      "extra": "Digital skills are very important today.",
+      "extraTr": "Dijital beceriler bugün çok önemli."
+    },
+    {
+      "word": "analytics",
+      "pronunciation": "e-nı-LI-tiks",
+      "turkish": "analitik / veri analizi",
+      "example": "I have used analytics to improve our campaigns.",
+      "exampleTr": "Kampanyalarımızı iyileştirmek için analitik kullandım.",
+      "extra": "She studied the website analytics every week.",
+      "extraTr": "Her hafta web sitesi analitiğini inceledi."
+    },
+    {
+      "word": "campaign",
+      "pronunciation": "kem-PEYN",
+      "turkish": "kampanya",
+      "example": "We have run five successful campaigns this quarter.",
+      "exampleTr": "Bu çeyrekte beş başarılı kampanya yürüttük.",
+      "extra": "The email campaign increased sales by 30%.",
+      "extraTr": "E-posta kampanyası satışları %30 artırdı."
+    },
+    {
+      "word": "engage",
+      "pronunciation": "in-GEYC",
+      "turkish": "etkileşime geçmek / ilgisini çekmek",
+      "example": "We have engaged thousands of followers online.",
+      "exampleTr": "Online binlerce takipçiyle etkileşime geçtik.",
+      "extra": "The video engaged a lot of customers on Instagram.",
+      "extraTr": "Video Instagram'da birçok müşteriyle etkileşim sağladı."
+    },
+    {
+      "word": "target",
+      "pronunciation": "TAR-git",
+      "turkish": "hedef / hedeflemek",
+      "example": "We have targeted young professionals in our campaign.",
+      "exampleTr": "Kampanyamızda genç profesyonelleri hedefledik.",
+      "extra": "Our target market is people aged 25-40.",
+      "extraTr": "Hedef pazarımız 25-40 yaş arası insanlar."
+    },
+    {
+      "word": "audience",
+      "pronunciation": "O-di-ıns",
+      "turkish": "hedef kitle / izleyici",
+      "example": "We have reached a wider audience this year.",
+      "exampleTr": "Bu yıl daha geniş bir kitleye ulaştık.",
+      "extra": "Know your audience before writing content.",
+      "extraTr": "İçerik yazmadan önce hedef kitleni tanı."
+    },
+    {
+      "word": "performance",
+      "pronunciation": "pır-FOR-mıns",
+      "turkish": "performans",
+      "example": "My team's performance has improved a lot.",
+      "exampleTr": "Ekibimin performansı çok gelişti.",
+      "extra": "The company reviewed employee performance every quarter.",
+      "extraTr": "Şirket çalışan performansını her çeyrek değerlendirdi."
+    },
+    {
+      "word": "impact",
+      "pronunciation": "IM-pekt",
+      "turkish": "etki",
+      "example": "My work has had a positive impact on sales.",
+      "exampleTr": "Çalışmam satışlar üzerinde olumlu etki yaptı.",
+      "extra": "The new strategy made a big impact on the company.",
+      "extraTr": "Yeni strateji şirket üzerinde büyük etki yarattı."
+    }
+  ],
+
+  "grammar": {
+    "title": "Present Perfect vs Past Simple",
+    "titleTr": "Present Perfect ve Past Simple Karşılaştırması",
+    "explanation": "Use Past Simple for finished actions at a specific time in the past (yesterday, in 2020, last year). Use Present Perfect for experiences or actions connected to the present (ever, never, already, yet, since, for). LinkedIn profiles use both: Past Simple for previous jobs, Present Perfect for current achievements.",
+    "explanationTr": "Past Simple'ı geçmişte belirli bir zamanda biten eylemler için kullan (dün, 2020'de, geçen yıl). Present Perfect'i deneyimler veya şu ana bağlı eylemler için kullan (hiç, asla, zaten, henüz, ...den beri, ...dır). LinkedIn profilleri ikisini de kullanır: Önceki işler için Past Simple, mevcut başarılar için Present Perfect.",
+    "table": [
+      ["Past Simple", "I worked at ABC company in 2020.", "2020'de ABC şirketinde çalıştım.", "Belirli zaman: in 2020"],
+      ["Past Simple", "She launched a product last year.", "Geçen yıl bir ürün çıkardı.", "Belirli zaman: last year"],
+      ["Past Simple", "He managed a team from 2018 to 2021.", "2018'den 2021'e bir ekip yönetti.", "Belirli zaman: 2018-2021"],
+      ["Present Perfect", "I have worked in digital marketing for 5 years.", "5 yıldır dijital pazarlamada çalışıyorum.", "Şu ana bağlı: for 5 years"],
+      ["Present Perfect", "She has launched three campaigns this year.", "Bu yıl üç kampanya başlattı.", "Henüz bitmemiş dönem: this year"],
+      ["Present Perfect", "He has managed teams of up to 20 people.", "20 kişiye kadar ekipler yönetti.", "Deneyim: hayatı boyunca"],
+      ["Present Perfect", "Have you ever led a project?", "Hiç proje yönettin mi?", "Deneyim sorusu: ever"]
+    ],
+    "tips": [
+      { "en": "Past Simple signals: yesterday, last week, in 2020, ago, when I was...", "tr": "Past Simple ipuçları: yesterday, last week, in 2020, ago, when I was..." },
+      { "en": "Present Perfect signals: already, yet, just, ever, never, since, for, this year, recently", "tr": "Present Perfect ipuçları: already, yet, just, ever, never, since, for, this year, recently" },
+      { "en": "have/has + past participle (V3): I have worked, She has managed", "tr": "have/has + geçmiş ortaç (V3): I have worked, She has managed" },
+      { "en": "LinkedIn tip: 'I have 5 years of experience' (Present Perfect — still relevant now)", "tr": "LinkedIn ipucu: 'I have 5 years of experience' (Present Perfect — hala geçerli)" },
+      { "en": "LinkedIn tip: 'I worked at XYZ from 2018 to 2020' (Past Simple — finished job)", "tr": "LinkedIn ipucu: 'I worked at XYZ from 2018 to 2020' (Past Simple — bitmiş iş)" },
+      { "en": "Don't use Present Perfect with specific past times: NOT 'I have worked there in 2020'", "tr": "Present Perfect'i belirli geçmiş zamanlarla KULLANMA: 'I have worked there in 2020' YANLIŞ" }
+    ]
+  },
+
+  "reading": {
+    "text": "Here are two LinkedIn profiles. Which one is better?\n\nProfile A — Mehmet Kaya\n\"I work in marketing. I did many things. I was at some companies. I know social media.\"\n\nProfile B — Ayşe Demir\n\"I am a Digital Marketing Specialist with 6 years of experience. I currently work at TechBrand as a Senior Marketing Manager. I have managed campaigns that reached over 2 million people. Previously, I worked at MediaPlus from 2018 to 2021, where I developed content strategies for 15 international brands. I launched the company's first influencer program in 2020, which increased engagement by 40%. I have collaborated with teams across Europe and Asia. I am passionate about data-driven marketing and I have recently completed a Google Analytics certification.\"\n\nProfile B is much better! Ayşe uses specific numbers, action verbs, and the right tenses. She uses Present Perfect for current achievements (\"I have managed\", \"I have collaborated\") and Past Simple for finished experiences at specific times (\"I worked at MediaPlus from 2018 to 2021\", \"I launched... in 2020\").",
+    "textTr": "İşte iki LinkedIn profili. Hangisi daha iyi?\n\nProfil A — Mehmet Kaya\n\"Pazarlamada çalışıyorum. Çok şey yaptım. Bazı şirketlerde çalıştım. Sosyal medyayı biliyorum.\"\n\nProfil B — Ayşe Demir\n\"6 yıllık deneyime sahip bir Dijital Pazarlama Uzmanıyım. Şu anda TechBrand'de Kıdemli Pazarlama Müdürü olarak çalışıyorum. 2 milyondan fazla kişiye ulaşan kampanyalar yönettim. Daha önce 2018'den 2021'e kadar MediaPlus'ta çalıştım ve 15 uluslararası marka için içerik stratejileri geliştirdim. 2020'de şirketin ilk influencer programını başlattım ve etkileşimi %40 artırdı. Avrupa ve Asya'daki ekiplerle iş birliği yaptım. Veri odaklı pazarlama konusunda tutkuluyum ve yakın zamanda Google Analytics sertifikasını tamamladım.\"\n\nProfil B çok daha iyi! Ayşe belirli rakamlar, eylem fiilleri ve doğru zamanlar kullanıyor. Mevcut başarılar için Present Perfect (\"I have managed\", \"I have collaborated\"), belirli zamanlardaki bitmiş deneyimler için Past Simple (\"I worked at MediaPlus from 2018 to 2021\", \"I launched... in 2020\") kullanıyor.",
+    "questions": [
+      {
+        "question": "Why is Profile B better than Profile A?",
+        "questionTr": "Profil B neden Profil A'dan daha iyi?",
+        "options": ["It is longer", "It uses specific numbers and action verbs", "It has a photo", "It is in Turkish"],
+        "correct": 1
+      },
+      {
+        "question": "Where does Ayşe currently work?",
+        "questionTr": "Ayşe şu anda nerede çalışıyor?",
+        "options": ["MediaPlus", "Google", "TechBrand", "LinkedIn"],
+        "correct": 2
+      },
+      {
+        "question": "When did Ayşe work at MediaPlus?",
+        "questionTr": "Ayşe MediaPlus'ta ne zaman çalıştı?",
+        "options": ["2015 to 2018", "2018 to 2021", "2020 to 2023", "2021 to 2024"],
+        "correct": 1
+      },
+      {
+        "question": "Why does Ayşe use Past Simple for 'I launched the program in 2020'?",
+        "questionTr": "Ayşe neden 'I launched the program in 2020' için Past Simple kullanıyor?",
+        "options": ["Because it sounds better", "Because it is a finished action at a specific time", "Because she doesn't know Present Perfect", "Because it is a question"],
+        "correct": 1
+      },
+      {
+        "question": "What certification has Ayşe recently completed?",
+        "questionTr": "Ayşe yakın zamanda hangi sertifikayı tamamladı?",
+        "options": ["Facebook Ads", "Google Analytics", "LinkedIn Marketing", "HubSpot"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ (work) in digital marketing for 5 years.", "answer": "have worked", "hint": "Present Perfect — for 5 years" },
+      { "sentence": "She ___ (launch) a new product last month.", "answer": "launched", "hint": "Past Simple — last month" },
+      { "sentence": "We ___ (develop) three new campaigns this year.", "answer": "have developed", "hint": "Present Perfect — this year" },
+      { "sentence": "He ___ (manage) the Istanbul office from 2019 to 2022.", "answer": "managed", "hint": "Past Simple — belirli tarih aralığı" },
+      { "sentence": "I ___ never ___ (lead) a team of more than 10 people.", "answer": "have, led", "hint": "Present Perfect — never" },
+      { "sentence": "They ___ (grow) the company a lot since 2020.", "answer": "have grown", "hint": "Present Perfect — since 2020" },
+      { "sentence": "She ___ (collaborate) with our team two years ago.", "answer": "collaborated", "hint": "Past Simple — two years ago" },
+      { "sentence": "I ___ already ___ (update) my LinkedIn profile.", "answer": "have, updated", "hint": "Present Perfect — already" },
+      { "sentence": "He ___ (start) his career in 2015.", "answer": "started", "hint": "Past Simple — in 2015" },
+      { "sentence": "We ___ (not, finish) the campaign yet.", "answer": "haven't finished", "hint": "Present Perfect — yet" },
+      { "sentence": "___ you ever ___ (work) in the tech industry?", "answer": "Have, worked", "hint": "Present Perfect — ever (deneyim sorusu)" },
+      { "sentence": "I ___ (create) 50 social media posts last week.", "answer": "created", "hint": "Past Simple — last week" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"I ___ in marketing for 3 years.\" Doğru olan hangisi?",
+        "options": ["worked", "have worked", "was work", "am worked"],
+        "correct": 1
+      },
+      {
+        "question": "\"She ___ the project in 2021.\" Doğru olan hangisi?",
+        "options": ["has launched", "have launched", "launched", "is launched"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi Present Perfect sinyalidir?",
+        "options": ["yesterday", "last week", "in 2020", "since"],
+        "correct": 3
+      },
+      {
+        "question": "\"Have you ever ___ a team?\" Boşluğa ne gelir?",
+        "options": ["lead", "led", "leading", "leads"],
+        "correct": 1
+      },
+      {
+        "question": "\"I ___ at that company from 2018 to 2020.\" Doğru olan hangisi?",
+        "options": ["have worked", "worked", "has worked", "working"],
+        "correct": 1
+      },
+      {
+        "question": "\"Deneyim\" İngilizce'de hangisi?",
+        "options": ["experience", "experiment", "expertise", "exposure"],
+        "correct": 0
+      },
+      {
+        "question": "\"They have ___ the brand since 2019.\" Boşluğa ne gelir?",
+        "options": ["grow", "grew", "grown", "growing"],
+        "correct": 2
+      },
+      {
+        "question": "\"Şu anda\" İngilizce'de hangisi?",
+        "options": ["previously", "currently", "recently", "already"],
+        "correct": 1
+      },
+      {
+        "question": "Hangisi YANLIŞ?",
+        "options": ["I worked there in 2020.", "I have worked there since 2020.", "I have worked there in 2020.", "I worked there last year."],
+        "correct": 2
+      },
+      {
+        "question": "\"Hedef kitle\" İngilizce'de hangisi?",
+        "options": ["platform", "network", "audience", "content"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "profile", "right": "profil" },
+      { "left": "connect", "right": "bağlantı kurmak" },
+      { "left": "network", "right": "iletişim ağı" },
+      { "left": "industry", "right": "sektör" },
+      { "left": "role", "right": "pozisyon / görev" },
+      { "left": "lead", "right": "liderlik etmek" },
+      { "left": "manage", "right": "yönetmek" },
+      { "left": "develop", "right": "geliştirmek" },
+      { "left": "launch", "right": "piyasaya sürmek" },
+      { "left": "strategy", "right": "strateji" },
+      { "left": "currently", "right": "şu anda" },
+      { "left": "previously", "right": "daha önce" },
+      { "left": "collaborate", "right": "iş birliği yapmak" },
+      { "left": "campaign", "right": "kampanya" },
+      { "left": "impact", "right": "etki" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "have", "worked", "in", "marketing", "for", "5", "years"], "correct": "I have worked in marketing for 5 years" },
+      { "words": ["She", "launched", "a", "new", "product", "last", "month"], "correct": "She launched a new product last month" },
+      { "words": ["Have", "you", "ever", "managed", "a", "team"], "correct": "Have you ever managed a team" },
+      { "words": ["He", "has", "collaborated", "with", "international", "teams"], "correct": "He has collaborated with international teams" },
+      { "words": ["I", "worked", "at", "MediaPlus", "from", "2018", "to", "2021"], "correct": "I worked at MediaPlus from 2018 to 2021" },
+      { "words": ["We", "have", "not", "finished", "the", "campaign", "yet"], "correct": "We have not finished the campaign yet" },
+      { "words": ["She", "has", "already", "updated", "her", "profile"], "correct": "She has already updated her profile" },
+      { "words": ["I", "developed", "a", "content", "strategy", "in", "2020"], "correct": "I developed a content strategy in 2020" },
+      { "words": ["They", "have", "grown", "the", "brand", "since", "2019"], "correct": "They have grown the brand since 2019" }
+    ],
+    "translation": [
+      {
+        "turkish": "5 yıldır dijital pazarlamada çalışıyorum.",
+        "english": "I have worked in digital marketing for 5 years.",
+        "acceptAlso": ["I've worked in digital marketing for 5 years", "I have worked in digital marketing for five years"]
+      },
+      {
+        "turkish": "Geçen yıl yeni bir ürün çıkardık.",
+        "english": "We launched a new product last year.",
+        "acceptAlso": ["We launched a new product last year"]
+      },
+      {
+        "turkish": "Hiç bir ekip yönettin mi?",
+        "english": "Have you ever managed a team?",
+        "acceptAlso": ["Have you ever managed a team"]
+      },
+      {
+        "turkish": "2018'den 2021'e kadar o şirkette çalıştım.",
+        "english": "I worked at that company from 2018 to 2021.",
+        "acceptAlso": ["I worked at that company from 2018 to 2021"]
+      },
+      {
+        "turkish": "Profilimi henüz güncellemedim.",
+        "english": "I haven't updated my profile yet.",
+        "acceptAlso": ["I have not updated my profile yet"]
+      },
+      {
+        "turkish": "O uluslararası ekiplerle iş birliği yaptı.",
+        "english": "She has collaborated with international teams.",
+        "acceptAlso": ["She's collaborated with international teams"]
+      },
+      {
+        "turkish": "Şu anda proje müdürü olarak çalışıyorum.",
+        "english": "I am currently working as a project manager.",
+        "acceptAlso": ["I'm currently working as a project manager", "I currently work as a project manager"]
+      },
+      {
+        "turkish": "Bu yıl üç kampanya başlattık.",
+        "english": "We have launched three campaigns this year.",
+        "acceptAlso": ["We've launched three campaigns this year", "We have launched 3 campaigns this year"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Helping a Friend Write a LinkedIn Profile",
+    "titleTr": "Bir Arkadaşına LinkedIn Profili Yazmada Yardım Etmek",
+    "context": "Eyüp'ün arkadaşı Selin yeni bir iş arıyor ve LinkedIn profilini güncellemek istiyor. Eyüp ona yardım ediyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Selin", "text": "Eyüp, can you help me with my LinkedIn profile? I need a new job.", "textTr": "Eyüp, LinkedIn profilimle bana yardım edebilir misin? Yeni bir işe ihtiyacım var." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Sure! Let me see your profile. Hmm, it says 'I work in marketing.' That's too simple.", "textTr": "Tabii! Profiline bakayım. Hmm, 'Pazarlamada çalışıyorum' yazıyor. Bu çok basit." },
+      { "speaker": "A", "speakerName": "Selin", "text": "What should I write instead?", "textTr": "Onun yerine ne yazmalıyım?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Start with your title and experience. How long have you worked in marketing?", "textTr": "Unvanın ve deneyiminle başla. Ne kadar süredir pazarlamada çalışıyorsun?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "I have worked in digital marketing for four years.", "textTr": "Dört yıldır dijital pazarlamada çalışıyorum." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Great! Write that. Now, where did you work before?", "textTr": "Harika! Onu yaz. Şimdi, daha önce nerede çalıştın?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "I worked at BrandUp Agency from 2020 to 2022. I managed social media campaigns there.", "textTr": "2020'den 2022'ye kadar BrandUp Agency'de çalıştım. Orada sosyal medya kampanyaları yönettim." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Perfect. Use Past Simple for that because it's a finished job. What about your current role?", "textTr": "Mükemmel. Bunun için Past Simple kullan çünkü bitmiş bir iş. Şu anki görevin ne?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "I currently work at DigiTech as a content manager. I have created over 200 social media posts this year.", "textTr": "Şu anda DigiTech'te içerik yöneticisi olarak çalışıyorum. Bu yıl 200'den fazla sosyal medya paylaşımı oluşturdum." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That's impressive! Use Present Perfect for those achievements — they're still relevant.", "textTr": "Bu etkileyici! Bu başarılar için Present Perfect kullan — hala geçerli." },
+      { "speaker": "A", "speakerName": "Selin", "text": "I have also collaborated with influencers and I have grown our Instagram audience by 50%.", "textTr": "Ayrıca influencer'larla iş birliği yaptım ve Instagram kitlemizi %50 büyüttüm." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Excellent! Add numbers — they make a big impact. Have you completed any certifications?", "textTr": "Mükemmel! Rakam ekle — büyük etki yaratır. Hiç sertifika tamamladın mı?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Yes! I completed a Google Analytics course last month.", "textTr": "Evet! Geçen ay bir Google Analytics kursu tamamladım." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Add that too! 'I completed' because it was last month — Past Simple. Your profile looks much better now!", "textTr": "Onu da ekle! 'I completed' çünkü geçen aydı — Past Simple. Profilin şimdi çok daha iyi görünüyor!" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Thank you so much, Eyüp! I have never written a good profile before. This is amazing!", "textTr": "Çok teşekkür ederim, Eyüp! Daha önce hiç iyi bir profil yazmamıştım. Bu harika!" }
+    ],
+    "questions": [
+      {
+        "question": "Why does Selin need help with her LinkedIn profile?",
+        "questionTr": "Selin neden LinkedIn profiliyle yardım istiyor?",
+        "options": ["She wants more friends", "She needs a new job", "She is bored", "Her boss asked her to"],
+        "correct": 1
+      },
+      {
+        "question": "How long has Selin worked in digital marketing?",
+        "questionTr": "Selin ne kadar süredir dijital pazarlamada çalışıyor?",
+        "options": ["2 years", "3 years", "4 years", "5 years"],
+        "correct": 2
+      },
+      {
+        "question": "Why should Selin use Past Simple for 'I worked at BrandUp Agency from 2020 to 2022'?",
+        "questionTr": "Selin neden 'I worked at BrandUp Agency from 2020 to 2022' için Past Simple kullanmalı?",
+        "options": ["Because it sounds better", "Because it is a finished job with specific dates", "Because she didn't like the job", "Because it is a question"],
+        "correct": 1
+      },
+      {
+        "question": "How much has Selin grown the Instagram audience?",
+        "questionTr": "Selin Instagram kitlesini ne kadar büyüttü?",
+        "options": ["20%", "30%", "40%", "50%"],
+        "correct": 3
+      },
+      {
+        "question": "What course did Selin complete?",
+        "questionTr": "Selin hangi kursu tamamladı?",
+        "options": ["Facebook Ads", "HubSpot Marketing", "Google Analytics", "LinkedIn Learning"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Present Perfect vs Past Simple - BBC Learning English",
+      "description": "Present Perfect ve Past Simple arasındaki farkı videolarla öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-7/session-1",
+      "type": "video",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Present Perfect - British Council",
+      "description": "Present Perfect interaktif alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-perfect",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "How to Write a LinkedIn Profile - Indeed",
+      "description": "Profesyonel LinkedIn profili yazma rehberi",
+      "url": "https://www.indeed.com/career-advice/resumes-cover-letters/linkedin-profile-tips",
+      "type": "article",
+      "level": "A2-B1",
+      "free": true
+    }
+  ]
+}

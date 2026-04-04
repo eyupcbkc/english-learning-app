@@ -1,4 +1,5 @@
 {
+  "alias": ["english-learning-special.vercel.app"],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]

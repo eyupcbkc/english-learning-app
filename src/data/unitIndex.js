@@ -15,10 +15,19 @@ import unit13 from './units/unit-13.json'
 import unit14 from './units/unit-14.json'
 import unit15 from './units/unit-15.json'
 import unit16 from './units/unit-16.json'
+import unit17 from './units/unit-17.json'
+import unit18 from './units/unit-18.json'
+import unit19 from './units/unit-19.json'
+import unit20 from './units/unit-20.json'
+import unit21 from './units/unit-21.json'
+import unit22 from './units/unit-22.json'
+import unit23 from './units/unit-23.json'
+import unit24 from './units/unit-24.json'
 
 const units = [
   unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08,
   unit09, unit10, unit11, unit12, unit13, unit14, unit15, unit16,
+  unit17, unit18, unit19, unit20, unit21, unit22, unit23, unit24,
 ]
 
 export default units

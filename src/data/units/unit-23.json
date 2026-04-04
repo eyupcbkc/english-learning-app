@@ -1,0 +1,556 @@
+{
+  "id": "unit-23",
+  "title": "Phrasal Verbs Set 1",
+  "titleTr": "Öbek Fiiller Set 1",
+  "level": "A2",
+  "module": 3,
+  "description": "Learn 30 essential phrasal verbs through a startup story. Understand separable vs inseparable phrasal verbs.",
+  "descriptionTr": "Bir startup hikayesi üzerinden 30 temel öbek fiili öğren. Ayrılabilir ve ayrılamaz öbek fiilleri anla.",
+
+  "vocabulary": [
+    {
+      "word": "set up",
+      "pronunciation": "set AP",
+      "turkish": "kurmak, ayarlamak",
+      "example": "I want to set up my own business next year.",
+      "exampleTr": "Gelecek yıl kendi işimi kurmak istiyorum.",
+      "extra": "Can you help me set up this computer?",
+      "extraTr": "Bu bilgisayarı kurmama yardım eder misin?"
+    },
+    {
+      "word": "give up",
+      "pronunciation": "giv AP",
+      "turkish": "vazgeçmek, bırakmak",
+      "example": "Don't give up! Your idea is great.",
+      "exampleTr": "Vazgeçme! Fikrin harika.",
+      "extra": "He gave up smoking last month.",
+      "extraTr": "Geçen ay sigarayı bıraktı."
+    },
+    {
+      "word": "pick up",
+      "pronunciation": "pik AP",
+      "turkish": "almak, toplamak, öğrenmek",
+      "example": "I picked up some new skills at work.",
+      "exampleTr": "İşte bazı yeni beceriler edindim.",
+      "extra": "Can you pick up the package from the office?",
+      "extraTr": "Paketi ofisten alabilir misin?"
+    },
+    {
+      "word": "turn on",
+      "pronunciation": "törn ON",
+      "turkish": "açmak (cihaz)",
+      "example": "Turn on the laptop and check your email.",
+      "exampleTr": "Laptopı aç ve e-postanı kontrol et.",
+      "extra": "She turned on the lights in the meeting room.",
+      "extraTr": "Toplantı odasının ışıklarını açtı."
+    },
+    {
+      "word": "turn off",
+      "pronunciation": "törn OF",
+      "turkish": "kapatmak (cihaz)",
+      "example": "Please turn off your phone during the meeting.",
+      "exampleTr": "Toplantı sırasında lütfen telefonunuzu kapatın.",
+      "extra": "I always turn off the computer before I leave.",
+      "extraTr": "Çıkmadan önce bilgisayarı her zaman kapatırım."
+    },
+    {
+      "word": "look for",
+      "pronunciation": "luk FOR",
+      "turkish": "aramak",
+      "example": "We are looking for a new investor.",
+      "exampleTr": "Yeni bir yatırımcı arıyoruz.",
+      "extra": "What kind of job are you looking for?",
+      "extraTr": "Ne tür bir iş arıyorsun?"
+    },
+    {
+      "word": "look up",
+      "pronunciation": "luk AP",
+      "turkish": "aramak (sözlük/internet), araştırmak",
+      "example": "I looked up the company online before the meeting.",
+      "exampleTr": "Toplantıdan önce şirketi internetten araştırdım.",
+      "extra": "If you don't know a word, look it up in the dictionary.",
+      "extraTr": "Bir kelimeyi bilmiyorsan, sözlükten bak."
+    },
+    {
+      "word": "find out",
+      "pronunciation": "faynd AUT",
+      "turkish": "öğrenmek, keşfetmek",
+      "example": "I found out that our competitor has a new product.",
+      "exampleTr": "Rakibimizin yeni bir ürünü olduğunu öğrendim.",
+      "extra": "How did you find out about this event?",
+      "extraTr": "Bu etkinliği nasıl öğrendin?"
+    },
+    {
+      "word": "figure out",
+      "pronunciation": "FIG-yır aut",
+      "turkish": "çözmek, anlamak",
+      "example": "We need to figure out a better marketing strategy.",
+      "exampleTr": "Daha iyi bir pazarlama stratejisi bulmamız lazım.",
+      "extra": "I can't figure out how to use this software.",
+      "extraTr": "Bu yazılımı nasıl kullanacağımı çözemiyorum."
+    },
+    {
+      "word": "work out",
+      "pronunciation": "vörk AUT",
+      "turkish": "sonuçlanmak, çözmek, spor yapmak",
+      "example": "I hope the deal works out for both sides.",
+      "exampleTr": "Umarım anlaşma iki taraf için de iyi sonuçlanır.",
+      "extra": "We worked out the problems with the website.",
+      "extraTr": "Web sitesindeki sorunları çözdük."
+    },
+    {
+      "word": "come up with",
+      "pronunciation": "kam AP vid",
+      "turkish": "bulmak, üretmek (fikir)",
+      "example": "She came up with an amazing idea for the app.",
+      "exampleTr": "Uygulama için harika bir fikir buldu.",
+      "extra": "We need to come up with a name for the company.",
+      "extraTr": "Şirket için bir isim bulmamız lazım."
+    },
+    {
+      "word": "run out of",
+      "pronunciation": "ran AUT ov",
+      "turkish": "tükenmek, bitmek",
+      "example": "We are running out of time before the deadline.",
+      "exampleTr": "Son teslim tarihinden önce zamanımız tükeniyor.",
+      "extra": "The startup ran out of money after six months.",
+      "extraTr": "Startup altı ay sonra parasını tüketti."
+    },
+    {
+      "word": "get along with",
+      "pronunciation": "get ı-LONG vid",
+      "turkish": "iyi geçinmek",
+      "example": "I get along with my business partner very well.",
+      "exampleTr": "İş ortağımla çok iyi geçiniyorum.",
+      "extra": "Do you get along with your colleagues?",
+      "extraTr": "Meslektaşlarınla iyi geçiniyor musun?"
+    },
+    {
+      "word": "keep up with",
+      "pronunciation": "kiip AP vid",
+      "turkish": "ayak uydurmak, takip etmek",
+      "example": "It's hard to keep up with new technology.",
+      "exampleTr": "Yeni teknolojiye ayak uydurmak zor.",
+      "extra": "I can't keep up with all these emails!",
+      "extraTr": "Bunca e-postaya yetişemiyorum!"
+    },
+    {
+      "word": "put off",
+      "pronunciation": "put OF",
+      "turkish": "ertelemek",
+      "example": "Don't put off your business plan. Start today!",
+      "exampleTr": "İş planını erteleme. Bugün başla!",
+      "extra": "We put off the meeting until next week.",
+      "extraTr": "Toplantıyı gelecek haftaya erteledik."
+    },
+    {
+      "word": "bring up",
+      "pronunciation": "bring AP",
+      "turkish": "gündeme getirmek, bahsetmek",
+      "example": "She brought up a good point at the meeting.",
+      "exampleTr": "Toplantıda güzel bir noktaya dikkat çekti.",
+      "extra": "I don't want to bring up this topic again.",
+      "extraTr": "Bu konuyu tekrar gündeme getirmek istemiyorum."
+    },
+    {
+      "word": "carry on",
+      "pronunciation": "KE-ri on",
+      "turkish": "devam etmek",
+      "example": "Even when things were difficult, we carried on.",
+      "exampleTr": "İşler zor olduğunda bile devam ettik.",
+      "extra": "Carry on with your work, I'll wait.",
+      "extraTr": "İşine devam et, ben beklerim."
+    },
+    {
+      "word": "break down",
+      "pronunciation": "breyk DAUN",
+      "turkish": "bozulmak, arızalanmak, parçalara ayırmak",
+      "example": "Our delivery truck broke down on the highway.",
+      "exampleTr": "Teslimat kamyonumuz otoyolda bozuldu.",
+      "extra": "Let me break down the costs for you.",
+      "extraTr": "Maliyetleri senin için parçalara ayırayım."
+    },
+    {
+      "word": "take over",
+      "pronunciation": "teyk O-vır",
+      "turkish": "devralmak, yönetimi almak",
+      "example": "A bigger company wants to take over our startup.",
+      "exampleTr": "Daha büyük bir şirket startup'ımızı devralmak istiyor.",
+      "extra": "Can you take over this project while I'm away?",
+      "extraTr": "Ben yokken bu projeyi devralabilir misin?"
+    },
+    {
+      "word": "fill in",
+      "pronunciation": "fil IN",
+      "turkish": "doldurmak (form), bilgilendirmek",
+      "example": "Please fill in this registration form.",
+      "exampleTr": "Lütfen bu kayıt formunu doldurun.",
+      "extra": "Can you fill me in on what happened at the meeting?",
+      "extraTr": "Toplantıda ne olduğu hakkında beni bilgilendirir misin?"
+    },
+    {
+      "word": "sign up",
+      "pronunciation": "sayn AP",
+      "turkish": "kayıt olmak, üye olmak",
+      "example": "Over 500 users signed up in the first week.",
+      "exampleTr": "İlk haftada 500'den fazla kullanıcı kayıt oldu.",
+      "extra": "You should sign up for this free online course.",
+      "extraTr": "Bu ücretsiz online kursa kayıt olmalısın."
+    },
+    {
+      "word": "log in",
+      "pronunciation": "log IN",
+      "turkish": "giriş yapmak",
+      "example": "Log in to your account to see your dashboard.",
+      "exampleTr": "Kontrol panelinizi görmek için hesabınıza giriş yapın.",
+      "extra": "I can't log in. I forgot my password.",
+      "extraTr": "Giriş yapamıyorum. Şifremi unuttum."
+    },
+    {
+      "word": "check out",
+      "pronunciation": "çek AUT",
+      "turkish": "incelemek, bakmak, ödeme yapmak",
+      "example": "Check out our new website! It looks amazing.",
+      "exampleTr": "Yeni web sitemize bir bak! Harika görünüyor.",
+      "extra": "I checked out the competition and we are ahead.",
+      "extraTr": "Rekabeti inceledim ve önde gidiyoruz."
+    },
+    {
+      "word": "drop out",
+      "pronunciation": "drop AUT",
+      "turkish": "bırakmak (okul/program), ayrılmak",
+      "example": "He dropped out of college to start his company.",
+      "exampleTr": "Şirketini kurmak için üniversiteyi bıraktı.",
+      "extra": "Many famous entrepreneurs dropped out of school.",
+      "extraTr": "Birçok ünlü girişimci okulu bıraktı."
+    },
+    {
+      "word": "show up",
+      "pronunciation": "şov AP",
+      "turkish": "gelmek, ortaya çıkmak",
+      "example": "Only three investors showed up at our presentation.",
+      "exampleTr": "Sunumumuza sadece üç yatırımcı geldi.",
+      "extra": "He always shows up late to meetings.",
+      "extraTr": "Toplantılara her zaman geç gelir."
+    },
+    {
+      "word": "stand out",
+      "pronunciation": "stend AUT",
+      "turkish": "öne çıkmak, farklı olmak",
+      "example": "Your product needs to stand out from the competition.",
+      "exampleTr": "Ürününüz rekabetten öne çıkmalı.",
+      "extra": "What makes your startup stand out?",
+      "extraTr": "Startup'ınızı öne çıkaran ne?"
+    },
+    {
+      "word": "end up",
+      "pronunciation": "end AP",
+      "turkish": "sonunda ... olmak",
+      "example": "I ended up working 16 hours a day in the first year.",
+      "exampleTr": "İlk yılda günde 16 saat çalışır hale geldim.",
+      "extra": "We ended up choosing a different supplier.",
+      "extraTr": "Sonunda farklı bir tedarikçi seçtik."
+    },
+    {
+      "word": "go through",
+      "pronunciation": "go TRUU",
+      "turkish": "yaşamak, geçirmek, incelemek",
+      "example": "We went through many difficulties in the beginning.",
+      "exampleTr": "Başlangıçta birçok zorluk yaşadık.",
+      "extra": "Let's go through the business plan together.",
+      "extraTr": "İş planını birlikte inceleyelim."
+    },
+    {
+      "word": "cut down",
+      "pronunciation": "kat DAUN",
+      "turkish": "azaltmak, kısmak",
+      "example": "We need to cut down our expenses this quarter.",
+      "exampleTr": "Bu çeyrekte harcamalarımızı azaltmamız lazım.",
+      "extra": "I'm trying to cut down on coffee. I drink too much.",
+      "extraTr": "Kahveyi azaltmaya çalışıyorum. Çok fazla içiyorum."
+    },
+    {
+      "word": "make up",
+      "pronunciation": "meyk AP",
+      "turkish": "uydurmak, oluşturmak, barışmak",
+      "example": "Don't make up excuses. Just do the work!",
+      "exampleTr": "Bahane uydurma. Sadece işini yap!",
+      "extra": "Women make up 60% of our customers.",
+      "extraTr": "Kadınlar müşterilerimizin %60'ını oluşturuyor."
+    }
+  ],
+
+  "grammar": {
+    "title": "Phrasal Verbs — Separable vs Inseparable",
+    "titleTr": "Öbek Fiiller — Ayrılabilir ve Ayrılamaz",
+    "explanation": "Phrasal verbs are verbs with a particle (up, down, on, off, out, in, etc.). Some phrasal verbs are SEPARABLE — the object can go between the verb and the particle. Some are INSEPARABLE — the object must go after the particle. With pronouns (him, it, them), separable phrasal verbs MUST be separated.",
+    "explanationTr": "Öbek fiiller, bir fiil ve bir edattan (up, down, on, off, out, in vb.) oluşur. Bazı öbek fiiller AYRILABİLİR — nesne fiil ile edat arasına girebilir. Bazıları AYRILAMAZ — nesne mutlaka edattan sonra gelmelidir. Zamirlerle (him, it, them) kullanıldığında, ayrılabilir öbek fiiller MUTLAKA ayrılmalıdır.",
+    "table": [
+      ["Separable (Ayrılabilir)", "Turn on the light. = Turn the light on. = Turn IT on.", "✓ Nesne araya girebilir", "turn on, turn off, pick up, set up, fill in, bring up, put off, look up, figure out, cut down, make up"],
+      ["Inseparable (Ayrılamaz)", "Look for a job. = Look for IT. (NOT: Look IT for ✗)", "✗ Nesne araya GİREMEZ", "look for, get along with, keep up with, come up with, run out of, go through, end up, show up, stand out, drop out"],
+      ["Pronoun Rule (Zamir Kuralı)", "Turn it on. (NOT: Turn on it ✗)", "Zamirle ayrılabilir fiiller MUTLAKA ayrılır", "Pick it up. / Fill it in. / Turn them off."],
+      ["3-Word Phrasal Verbs", "Come up with an idea. Run out of money.", "Genellikle ayrılamazlar", "come up with, get along with, keep up with, run out of"]
+    ],
+    "tips": [
+      { "en": "Turn on the TV. = Turn the TV on. = Turn IT on.", "tr": "Ayrılabilir: Her 3 form da doğru, ama zamirle MUTLAKA ayır" },
+      { "en": "Look for a job. (NOT: Look a job for ✗)", "tr": "Ayrılamaz: Nesne her zaman edattan SONRA gelir" },
+      { "en": "I figured out the problem. = I figured the problem out. = I figured IT out.", "tr": "Separable: 'figure out' ayrılabilir bir phrasal verb" },
+      { "en": "She came up with a great idea. (NOT: came a great idea up with ✗)", "tr": "3 kelimelik phrasal verb'ler genellikle ayrılamaz" },
+      { "en": "He ended up in Istanbul. / She showed up late.", "tr": "Bazı phrasal verb'ler nesne almaz (intransitive)" },
+      { "en": "The meaning often changes with different particles: look up ≠ look for ≠ look after", "tr": "Farklı edatlarla anlam tamamen değişir: look up ≠ look for ≠ look after" }
+    ]
+  },
+
+  "reading": {
+    "text": "My name is Deniz and I want to tell you my startup story. Two years ago, I came up with an idea for a food delivery app. Everyone told me to give up, but I didn't listen.\n\nFirst, I had to figure out how to build the app. I signed up for an online coding course and picked up the basics in three months. Then I set up a small office in my apartment and started working.\n\nIn the beginning, everything went wrong. My laptop broke down twice. I ran out of money after four months. But I carried on because I believed in my idea.\n\nI looked for investors everywhere. Only two showed up at my presentation, but one of them loved my app. He brought up some problems with the design, and I worked them out in one week.\n\nSix months later, 10,000 users signed up for the app. I couldn't keep up with all the orders! I had to take over the customer service myself because we didn't have enough staff.\n\nWhat made us stand out was our fast delivery. We never put off a delivery. If something went wrong, we found out immediately and fixed it.\n\nI ended up working 80 hours a week, but it was worth it. My advice? Don't give up on your dreams. Check out your competition, cut down unnecessary costs, and come up with something that stands out. The journey is hard, but if you carry on, things will work out!",
+    "textTr": "Benim adım Deniz ve size startup hikayemi anlatmak istiyorum. İki yıl önce, bir yemek teslimat uygulaması fikri buldum. Herkes bana vazgeçmemi söyledi ama dinlemedim.\n\nÖnce uygulamayı nasıl yapacağımı çözmem gerekiyordu. Bir online kodlama kursuna kayıt oldum ve üç ayda temel bilgileri öğrendim. Sonra dairemdeki küçük bir ofis kurdum ve çalışmaya başladım.\n\nBaşlangıçta her şey ters gitti. Laptopum iki kez bozuldu. Dört ay sonra param bitti. Ama fikrimin gücüne inandığım için devam ettim.\n\nHer yerde yatırımcı aradım. Sunumuma sadece ikisi geldi ama biri uygulamamı çok beğendi. Tasarımla ilgili bazı sorunları gündeme getirdi ve ben bunları bir haftada çözdüm.\n\nAltı ay sonra 10.000 kullanıcı uygulamaya kayıt oldu. Tüm siparişlere yetişemiyordum! Yeterli personelimiz olmadığı için müşteri hizmetlerini kendim devralmak zorunda kaldım.\n\nBizi öne çıkaran hızlı teslimatımızdı. Hiçbir teslimatı ertelemezdik. Bir şeyler ters giderse hemen öğrenirdik ve düzeltirdik.\n\nSonunda haftada 80 saat çalışır hale geldim ama buna değdi. Tavsiyem? Hayallerinizden vazgeçmeyin. Rekabetinizi inceleyin, gereksiz masrafları azaltın ve öne çıkan bir şey bulun. Yolculuk zor ama devam ederseniz işler yoluna girer!",
+    "questions": [
+      {
+        "question": "What kind of app did Deniz create?",
+        "questionTr": "Deniz ne tür bir uygulama yaptı?",
+        "options": ["A social media app", "A food delivery app", "A language learning app", "A fitness app"],
+        "correct": 1
+      },
+      {
+        "question": "How did Deniz learn to code?",
+        "questionTr": "Deniz kodlamayı nasıl öğrendi?",
+        "options": ["He went to university", "His friend taught him", "He signed up for an online course", "He already knew how to code"],
+        "correct": 2
+      },
+      {
+        "question": "How many investors showed up at his presentation?",
+        "questionTr": "Sunumuna kaç yatırımcı geldi?",
+        "options": ["None", "Two", "Five", "Ten"],
+        "correct": 1
+      },
+      {
+        "question": "What made Deniz's app stand out?",
+        "questionTr": "Deniz'in uygulamasını öne çıkaran neydi?",
+        "options": ["Low prices", "Fast delivery", "Celebrity marketing", "Free food"],
+        "correct": 1
+      },
+      {
+        "question": "What is Deniz's advice?",
+        "questionTr": "Deniz'in tavsiyesi ne?",
+        "options": ["Give up if things are hard", "Don't start a business", "Don't give up, check competition, cut costs, stand out", "Work alone and save money"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I want to ___ ___ my own company.", "answer": "set up", "hint": "kurmak" },
+      { "sentence": "Don't ___ ___! Keep trying.", "answer": "give up", "hint": "vazgeçmek" },
+      { "sentence": "We need to ___ ___ a solution.", "answer": "come up with", "hint": "bulmak (fikir)" },
+      { "sentence": "Please ___ ___ your phone during the meeting.", "answer": "turn off", "hint": "kapatmak (cihaz)" },
+      { "sentence": "I'm ___ ___ a new apartment.", "answer": "looking for", "hint": "aramak" },
+      { "sentence": "We ___ ___ ___ coffee. Can you buy some?", "answer": "ran out of", "hint": "tükenmek" },
+      { "sentence": "Over 1,000 people ___ ___ for our service.", "answer": "signed up", "hint": "kayıt olmak" },
+      { "sentence": "I need to ___ ___ how this works.", "answer": "figure out", "hint": "çözmek" },
+      { "sentence": "She ___ ___ a very important issue at the meeting.", "answer": "brought up", "hint": "gündeme getirmek" },
+      { "sentence": "He ___ ___ of university to start a business.", "answer": "dropped out", "hint": "bırakmak (okul)" },
+      { "sentence": "We need to ___ ___ our expenses.", "answer": "cut down", "hint": "azaltmak" },
+      { "sentence": "___ ___ our new website! It's amazing.", "answer": "Check out", "hint": "incelemek, bakmak" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"Turn on the computer\" — Zamirle nasıl söylenir?",
+        "options": ["Turn on it", "Turn it on", "Turn it up", "Turn on this"],
+        "correct": 1
+      },
+      {
+        "question": "\"I'm looking for a job.\" — 'look for' ne tür bir phrasal verb?",
+        "options": ["Separable (ayrılabilir)", "Inseparable (ayrılamaz)", "Both", "Neither"],
+        "correct": 1
+      },
+      {
+        "question": "\"Vazgeçme!\" İngilizce'de hangisi?",
+        "options": ["Don't put off!", "Don't give up!", "Don't break down!", "Don't drop out!"],
+        "correct": 1
+      },
+      {
+        "question": "Hangisi doğrudur?",
+        "options": ["Look a job for", "Look for a job", "Look job for a", "A job look for"],
+        "correct": 1
+      },
+      {
+        "question": "\"Sonunda İstanbul'da yaşar oldum.\" İngilizce'de hangisi?",
+        "options": ["I gave up in Istanbul.", "I ended up living in Istanbul.", "I set up in Istanbul.", "I showed up in Istanbul."],
+        "correct": 1
+      },
+      {
+        "question": "\"She came up with a great idea.\" Ne anlama gelir?",
+        "options": ["Harika bir fikirden vazgeçti", "Harika bir fikir buldu", "Harika bir fikri erteledi", "Harika bir fikri inceledi"],
+        "correct": 1
+      },
+      {
+        "question": "\"Fill ___ this form, please.\" Boşluğa ne gelir?",
+        "options": ["up", "out", "in", "on"],
+        "correct": 2
+      },
+      {
+        "question": "\"We ran out of time.\" Ne anlama gelir?",
+        "options": ["Zamanımız çoğaldı", "Zamana ayak uydurduk", "Zamanımız tükendi", "Zamanı erteledik"],
+        "correct": 2
+      },
+      {
+        "question": "\"Pick it up\" — 'it' neden arada?",
+        "options": ["Çünkü 'pick up' ayrılamaz", "Çünkü İngilizce'de hep böyle", "Çünkü 'pick up' ayrılabilir ve zamirle MUTLAKA ayrılır", "Çünkü 'it' her zaman fiilden sonra gelir"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "set up", "right": "kurmak" },
+      { "left": "give up", "right": "vazgeçmek" },
+      { "left": "pick up", "right": "almak / öğrenmek" },
+      { "left": "turn on", "right": "açmak (cihaz)" },
+      { "left": "turn off", "right": "kapatmak (cihaz)" },
+      { "left": "look for", "right": "aramak" },
+      { "left": "find out", "right": "öğrenmek / keşfetmek" },
+      { "left": "figure out", "right": "çözmek" },
+      { "left": "come up with", "right": "fikir bulmak" },
+      { "left": "run out of", "right": "tükenmek" },
+      { "left": "put off", "right": "ertelemek" },
+      { "left": "carry on", "right": "devam etmek" },
+      { "left": "break down", "right": "bozulmak" },
+      { "left": "take over", "right": "devralmak" },
+      { "left": "stand out", "right": "öne çıkmak" }
+    ],
+    "sentenceOrder": [
+      { "words": ["Don't", "give", "up", "on", "your", "dreams"], "correct": "Don't give up on your dreams" },
+      { "words": ["I", "need", "to", "figure", "out", "this", "problem"], "correct": "I need to figure out this problem" },
+      { "words": ["She", "came", "up", "with", "a", "great", "idea"], "correct": "She came up with a great idea" },
+      { "words": ["Please", "turn", "off", "your", "phone"], "correct": "Please turn off your phone" },
+      { "words": ["We", "ran", "out", "of", "money"], "correct": "We ran out of money" },
+      { "words": ["He", "signed", "up", "for", "the", "course"], "correct": "He signed up for the course" },
+      { "words": ["I", "ended", "up", "working", "very", "late"], "correct": "I ended up working very late" },
+      { "words": ["Can", "you", "fill", "in", "this", "form"], "correct": "Can you fill in this form" },
+      { "words": ["Our", "product", "needs", "to", "stand", "out"], "correct": "Our product needs to stand out" }
+    ],
+    "translation": [
+      {
+        "turkish": "Kendi işimi kurmak istiyorum.",
+        "english": "I want to set up my own business.",
+        "acceptAlso": ["I want to set my own business up"]
+      },
+      {
+        "turkish": "Vazgeçme! Devam et!",
+        "english": "Don't give up! Carry on!",
+        "acceptAlso": ["Don't give up! Keep going!", "Do not give up! Carry on!"]
+      },
+      {
+        "turkish": "Yeni bir iş arıyorum.",
+        "english": "I'm looking for a new job.",
+        "acceptAlso": ["I am looking for a new job"]
+      },
+      {
+        "turkish": "Bunu nasıl çözeceğimi bulamıyorum.",
+        "english": "I can't figure out how to solve this.",
+        "acceptAlso": ["I cannot figure out how to solve this"]
+      },
+      {
+        "turkish": "Paramız tükendi.",
+        "english": "We ran out of money.",
+        "acceptAlso": ["We have run out of money"]
+      },
+      {
+        "turkish": "Lütfen formu doldurun.",
+        "english": "Please fill in the form.",
+        "acceptAlso": ["Please fill the form in", "Fill in the form please"]
+      },
+      {
+        "turkish": "Sonunda İstanbul'a taşındım.",
+        "english": "I ended up moving to Istanbul.",
+        "acceptAlso": ["I ended up moving to İstanbul"]
+      },
+      {
+        "turkish": "Masrafları azaltmamız lazım.",
+        "english": "We need to cut down our expenses.",
+        "acceptAlso": ["We need to cut down costs", "We have to cut down our expenses"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Talking to a Startup Founder",
+    "titleTr": "Bir Startup Kurucusuyla Sohbet",
+    "context": "Eyüp bir iş etkinliğinde startup kurucusu Mert ile tanışıyor. Mert, online e-ticaret platformunun hikayesini anlatıyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi Mert! I heard you set up your own company. That's amazing!", "textTr": "Selam Mert! Kendi şirketini kurduğunu duydum. Harika!" },
+      { "speaker": "A", "speakerName": "Mert", "text": "Thanks! Yeah, I set it up about two years ago. It was really hard in the beginning.", "textTr": "Teşekkürler! Evet, yaklaşık iki yıl önce kurdum. Başlangıçta gerçekten zordu.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "How did you come up with the idea?", "textTr": "Fikri nasıl buldun?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "I was looking for a good e-commerce platform for small businesses and I couldn't find one. So I decided to build one myself.", "textTr": "Küçük işletmeler için iyi bir e-ticaret platformu arıyordum ama bulamadım. Ben de kendim yapmaya karar verdim.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Did you ever want to give up?", "textTr": "Hiç vazgeçmek istedin mi?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "Many times! We ran out of money after six months. My laptop broke down. Some days, nobody showed up at the office.", "textTr": "Defalarca! Altı ay sonra paramız tükendi. Laptopum bozuldu. Bazı günler ofise kimse gelmedi.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "But you carried on. What kept you going?", "textTr": "Ama devam ettin. Seni devam ettiren ne oldu?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "I found out that 500 people signed up for the beta version. That gave me energy to keep going.", "textTr": "500 kişinin beta versiyona kayıt olduğunu öğrendim. Bu bana devam etme enerjisi verdi.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That's great! How did you stand out from the competition?", "textTr": "Harika! Rekabetten nasıl öne çıktınız?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "We figured out that small businesses need simple tools. We cut down all the unnecessary features and made it super easy.", "textTr": "Küçük işletmelerin basit araçlara ihtiyacı olduğunu çözdük. Gereksiz özellikleri azalttık ve çok kolay hale getirdik.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Smart! I heard a big company wanted to take over your platform?", "textTr": "Akıllıca! Büyük bir şirketin platformunuzu devralmak istediğini duydum?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "Yes, they brought up a big offer, but I turned it down. I want to keep building.", "textTr": "Evet, büyük bir teklif gündeme getirdiler ama reddettim. Kurmaya devam etmek istiyorum.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'm thinking about starting something too. I want to look into e-commerce logistics.", "textTr": "Ben de bir şeyler başlamayı düşünüyorum. E-ticaret lojistiğine bakmak istiyorum." },
+      { "speaker": "A", "speakerName": "Mert", "text": "Go for it! Don't put it off. Look up the market, check out your competition, and just start.", "textTr": "Hadi başla! Erteleme. Pazarı araştır, rekabeti incele ve başla.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thanks, Mert. I need to figure out a business plan first, but I won't give up!", "textTr": "Teşekkürler, Mert. Önce bir iş planı çözmem lazım ama vazgeçmeyeceğim!" }
+    ],
+    "questions": [
+      {
+        "question": "When did Mert set up his company?",
+        "questionTr": "Mert şirketini ne zaman kurdu?",
+        "options": ["Last month", "About two years ago", "Five years ago", "Last week"],
+        "correct": 1
+      },
+      {
+        "question": "What happened after six months?",
+        "questionTr": "Altı ay sonra ne oldu?",
+        "options": ["He became rich", "He ran out of money", "He sold the company", "He gave up"],
+        "correct": 1
+      },
+      {
+        "question": "How many people signed up for the beta?",
+        "questionTr": "Beta versiyona kaç kişi kayıt oldu?",
+        "options": ["50", "100", "500", "5,000"],
+        "correct": 2
+      },
+      {
+        "question": "Did Mert accept the big company's offer?",
+        "questionTr": "Mert büyük şirketin teklifini kabul etti mi?",
+        "options": ["Yes, he sold everything", "No, he turned it down", "Yes, they took over", "He is still thinking about it"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyüp interested in starting?",
+        "questionTr": "Eyüp ne başlamakla ilgileniyor?",
+        "options": ["A restaurant", "E-commerce logistics", "A coding school", "A food delivery app"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Phrasal Verbs for Business - BBC Learning English",
+      "description": "İş dünyasında kullanılan phrasal verb'ler",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/upper-intermediate/unit-5/session-1",
+      "type": "video",
+      "level": "A2-B1",
+      "free": true
+    },
+    {
+      "title": "Phrasal Verbs List - Cambridge Dictionary",
+      "description": "Yaygın phrasal verb'ler ve anlamları",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/phrasal-verbs",
+      "type": "article",
+      "level": "A2-B1",
+      "free": true
+    },
+    {
+      "title": "Separable vs Inseparable Phrasal Verbs - British Council",
+      "description": "Ayrılabilir ve ayrılamaz phrasal verb'ler interaktif alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/phrasal-verbs",
+      "type": "practice",
+      "level": "A2-B1",
+      "free": true
+    }
+  ]
+}

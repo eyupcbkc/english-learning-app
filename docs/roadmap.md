@@ -46,8 +46,8 @@
 - [x] 📝 Unit 04-08 icerikleri (Module 1 tamam!)
 - [x] 🚀 Vercel deploy (english-learning-app-six-cyan.vercel.app)
 - [x] 🎨 UX/UI modernizasyon (animasyonlar, responsive, student-friendly)
-- [ ] 📝 **Unit 09-16 icerikleri (Module 2: A1→A2)** ← SIRADAKI
-- [ ] 📝 Unit 17-24 icerikleri (Module 3: A2→B1)
+- [x] 📝 Unit 09-16 icerikleri (Module 2 tamam! A1→A2)
+- [ ] 📝 **Unit 17-24 icerikleri (Module 3: A2→B1)** ← SIRADAKI
 - [ ] 📝 Unit 25-32 icerikleri (Module 4: B1)
 - [ ] ⚡ Performans optimizasyonu (lazy loading, code splitting)
 - [ ] 📚 Kelime listesi sayfasi + filtreleme
@@ -78,14 +78,14 @@
 **Hedef:** Gunluk hayat — seyahat, alisveris, gecmis zaman
 **Senaryo temalari:** Havaalani, araba kiralama, Airbnb, online alisveris, sehir turu
 
-- [ ] Unit 09: Present Continuous — *Havalimaninda bekleme*
-- [ ] Unit 10: Can / Can't — *Araba kiralama*
-- [ ] Unit 11: There is / There are — *Airbnb evi tarifi*
-- [ ] Unit 12: Past Simple (Regular) — *Tatil anisi anlatma*
-- [ ] Unit 13: Past Simple (Irregular top 40) — *Istanbul seyahat blogu*
-- [ ] Unit 14: Adjectives & Comparatives — *Online urun karsilastirma*
-- [ ] Unit 15: Shopping, Money, Directions — *Sehirde kaybolma + alisveris*
-- [ ] Unit 16: A2 Level Test — *1 gunluk seyahat senaryosu*
+- [x] Unit 09: Present Continuous — *Havalimaninda bekleme* (30 kelime)
+- [x] Unit 10: Can / Can't — *Araba kiralama* (30 kelime)
+- [x] Unit 11: There is / There are — *Airbnb evi tarifi* (30 kelime)
+- [x] Unit 12: Past Simple (Regular) — *Tatil anisi anlatma* (30 kelime)
+- [x] Unit 13: Past Simple (Irregular top 30) — *Istanbul seyahat blogu* (30 kelime)
+- [x] Unit 14: Adjectives & Comparatives — *Online urun karsilastirma* (30 kelime)
+- [x] Unit 15: Shopping, Money, Directions — *Sehirde kaybolma + alisveris* (30 kelime)
+- [x] Unit 16: A2 Level Test — *1 gunluk seyahat senaryosu* (30 kelime)
 
 ---
 

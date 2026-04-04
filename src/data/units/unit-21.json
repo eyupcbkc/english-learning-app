@@ -1,0 +1,558 @@
+{
+  "id": "unit-21",
+  "title": "Modal Verbs (must, should, might, could)",
+  "titleTr": "Kiplik Fiiller (must, should, might, could)",
+  "level": "A2",
+  "module": 3,
+  "description": "Learn how to express obligation, advice, possibility, and requests using modal verbs in logistics and cargo tracking contexts.",
+  "descriptionTr": "Lojistik ve kargo takibi bağlamında zorunluluk, tavsiye, olasılık ve rica ifade etmeyi öğren.",
+
+  "vocabulary": [
+    {
+      "word": "must",
+      "pronunciation": "mast",
+      "turkish": "zorunda olmak / -meli",
+      "example": "You must check the cargo before shipping.",
+      "exampleTr": "Kargoyu göndermeden önce kontrol etmelisin.",
+      "extra": "We must deliver the order by Friday.",
+      "extraTr": "Siparişi Cuma gününe kadar teslim etmeliyiz."
+    },
+    {
+      "word": "should",
+      "pronunciation": "şud",
+      "turkish": "-meli / tavsiye",
+      "example": "You should contact the customer about the delay.",
+      "exampleTr": "Gecikme hakkında müşteriyle iletişime geçmelisin.",
+      "extra": "We should update the tracking information now.",
+      "extraTr": "Takip bilgilerini şimdi güncellememiz lazım."
+    },
+    {
+      "word": "might",
+      "pronunciation": "mayt",
+      "turkish": "belki / olabilir",
+      "example": "The shipment might arrive tomorrow morning.",
+      "exampleTr": "Gönderi yarın sabah gelebilir.",
+      "extra": "There might be a problem with customs.",
+      "extraTr": "Gümrükte bir sorun olabilir."
+    },
+    {
+      "word": "could",
+      "pronunciation": "kud",
+      "turkish": "yapabilir / rica (olasılık)",
+      "example": "Could you check the warehouse for me?",
+      "exampleTr": "Benim için depoyu kontrol edebilir misin?",
+      "extra": "The package could be in the wrong container.",
+      "extraTr": "Paket yanlış konteynerde olabilir."
+    },
+    {
+      "word": "would",
+      "pronunciation": "vud",
+      "turkish": "-ir / rica (kibar)",
+      "example": "Would you like express or standard delivery?",
+      "exampleTr": "Ekspres mi yoksa standart teslimat mı istersiniz?",
+      "extra": "I would prefer to send it by air cargo.",
+      "extraTr": "Hava kargosuyla göndermeyi tercih ederim."
+    },
+    {
+      "word": "shipment",
+      "pronunciation": "ŞİP-mınt",
+      "turkish": "gönderi / sevkiyat",
+      "example": "Your shipment is on the way to Istanbul.",
+      "exampleTr": "Gönderiniz İstanbul'a yolda.",
+      "extra": "We have three shipments going out today.",
+      "extraTr": "Bugün çıkacak üç gönderimiz var."
+    },
+    {
+      "word": "warehouse",
+      "pronunciation": "VER-havs",
+      "turkish": "depo",
+      "example": "The products are stored in our warehouse.",
+      "exampleTr": "Ürünler depomuzda saklanıyor.",
+      "extra": "The warehouse is full. We need more space.",
+      "extraTr": "Depo dolu. Daha fazla alana ihtiyacımız var."
+    },
+    {
+      "word": "inventory",
+      "pronunciation": "İN-vın-to-ri",
+      "turkish": "envanter / stok",
+      "example": "We must check the inventory every Monday.",
+      "exampleTr": "Her pazartesi envanteri kontrol etmeliyiz.",
+      "extra": "The inventory system shows 200 items in stock.",
+      "extraTr": "Envanter sistemi stokta 200 ürün gösteriyor."
+    },
+    {
+      "word": "supply",
+      "pronunciation": "sı-PLAY",
+      "turkish": "tedarik / arz",
+      "example": "We supply electronic products to 15 countries.",
+      "exampleTr": "15 ülkeye elektronik ürün tedarik ediyoruz.",
+      "extra": "The supply chain is very important for our business.",
+      "extraTr": "Tedarik zinciri işimiz için çok önemli."
+    },
+    {
+      "word": "demand",
+      "pronunciation": "di-MEND",
+      "turkish": "talep",
+      "example": "There is a high demand for this product in summer.",
+      "exampleTr": "Yazın bu ürüne yüksek talep var.",
+      "extra": "When demand is high, we must work faster.",
+      "extraTr": "Talep yüksek olduğunda daha hızlı çalışmalıyız."
+    },
+    {
+      "word": "cargo",
+      "pronunciation": "KAR-go",
+      "turkish": "kargo / yük",
+      "example": "The cargo ship will arrive at the port next week.",
+      "exampleTr": "Kargo gemisi gelecek hafta limana varacak.",
+      "extra": "We should inspect the cargo before loading.",
+      "extraTr": "Yüklemeden önce kargoyu kontrol etmeliyiz."
+    },
+    {
+      "word": "container",
+      "pronunciation": "kın-TEY-nır",
+      "turkish": "konteyner",
+      "example": "Each container holds about 500 boxes.",
+      "exampleTr": "Her konteyner yaklaşık 500 kutu alıyor.",
+      "extra": "The container might be damaged during shipping.",
+      "extraTr": "Konteyner nakliye sırasında hasar görmüş olabilir."
+    },
+    {
+      "word": "customs",
+      "pronunciation": "KAS-tımz",
+      "turkish": "gümrük",
+      "example": "The package is stuck at customs.",
+      "exampleTr": "Paket gümrükte takılı kaldı.",
+      "extra": "You must fill out the customs form correctly.",
+      "extraTr": "Gümrük formunu doğru doldurmalısın."
+    },
+    {
+      "word": "import",
+      "pronunciation": "İM-port",
+      "turkish": "ithalat / ithal etmek",
+      "example": "Turkey imports a lot of electronics from Asia.",
+      "exampleTr": "Türkiye Asya'dan çok fazla elektronik ithal ediyor.",
+      "extra": "We must have a license to import these goods.",
+      "extraTr": "Bu malları ithal etmek için lisansa sahip olmalıyız."
+    },
+    {
+      "word": "export",
+      "pronunciation": "EKS-port",
+      "turkish": "ihracat / ihraç etmek",
+      "example": "We export textiles to Germany and France.",
+      "exampleTr": "Almanya ve Fransa'ya tekstil ihraç ediyoruz.",
+      "extra": "The company should export to more countries.",
+      "extraTr": "Şirket daha fazla ülkeye ihracat yapmalı."
+    },
+    {
+      "word": "delivery",
+      "pronunciation": "di-LİV-ri",
+      "turkish": "teslimat",
+      "example": "The delivery will be at your door by 5 PM.",
+      "exampleTr": "Teslimat saat 17:00'ye kadar kapınızda olacak.",
+      "extra": "Could you arrange a same-day delivery?",
+      "extraTr": "Aynı gün teslimat ayarlayabilir misiniz?"
+    },
+    {
+      "word": "urgent",
+      "pronunciation": "ÖR-cınt",
+      "turkish": "acil",
+      "example": "This order is urgent. We must send it today!",
+      "exampleTr": "Bu sipariş acil. Bugün göndermeliyiz!",
+      "extra": "I have an urgent message from the customer.",
+      "extraTr": "Müşteriden acil bir mesaj var."
+    },
+    {
+      "word": "priority",
+      "pronunciation": "pray-OR-ı-ti",
+      "turkish": "öncelik",
+      "example": "Customer satisfaction is our number one priority.",
+      "exampleTr": "Müşteri memnuniyeti bir numaralı önceliğimiz.",
+      "extra": "This shipment has high priority status.",
+      "extraTr": "Bu gönderinin yüksek öncelik durumu var."
+    },
+    {
+      "word": "standard",
+      "pronunciation": "STEN-dırd",
+      "turkish": "standart",
+      "example": "Standard delivery takes 3-5 business days.",
+      "exampleTr": "Standart teslimat 3-5 iş günü sürer.",
+      "extra": "We should follow the standard procedures.",
+      "extraTr": "Standart prosedürleri takip etmeliyiz."
+    },
+    {
+      "word": "estimate",
+      "pronunciation": "ES-tı-meyt",
+      "turkish": "tahmin / tahmin etmek",
+      "example": "Can you give me a delivery time estimate?",
+      "exampleTr": "Bana bir teslimat süresi tahmini verebilir misin?",
+      "extra": "We estimate the cost at about $500.",
+      "extraTr": "Maliyeti yaklaşık 500 dolar olarak tahmin ediyoruz."
+    },
+    {
+      "word": "confirm",
+      "pronunciation": "kın-FÖRM",
+      "turkish": "onaylamak / teyit etmek",
+      "example": "Could you confirm the delivery address?",
+      "exampleTr": "Teslimat adresini onaylayabilir misiniz?",
+      "extra": "I need to confirm the order before we ship it.",
+      "extraTr": "Göndermeden önce siparişi teyit etmem gerekiyor."
+    },
+    {
+      "word": "notify",
+      "pronunciation": "NO-tı-fay",
+      "turkish": "bilgilendirmek / haber vermek",
+      "example": "We should notify the customer about the delay.",
+      "exampleTr": "Gecikme hakkında müşteriyi bilgilendirmeliyiz.",
+      "extra": "Please notify me when the package arrives.",
+      "extraTr": "Paket geldiğinde lütfen beni bilgilendirin."
+    },
+    {
+      "word": "inspect",
+      "pronunciation": "in-SPEKT",
+      "turkish": "denetlemek / incelemek",
+      "example": "We must inspect all containers at the port.",
+      "exampleTr": "Limandaki tüm konteynerleri denetlemeliyiz.",
+      "extra": "Could you inspect the products for damage?",
+      "extraTr": "Ürünleri hasar açısından inceleyebilir misiniz?"
+    },
+    {
+      "word": "approve",
+      "pronunciation": "ı-PRUUV",
+      "turkish": "onaylamak",
+      "example": "The manager must approve the shipment first.",
+      "exampleTr": "Müdür önce gönderiyi onaylamalı.",
+      "extra": "I can't send it until my boss approves it.",
+      "extraTr": "Patronum onaylayana kadar gönderemem."
+    },
+    {
+      "word": "delay",
+      "pronunciation": "di-LEY",
+      "turkish": "gecikme / geciktirmek",
+      "example": "There is a two-day delay because of bad weather.",
+      "exampleTr": "Kötü hava nedeniyle iki günlük gecikme var.",
+      "extra": "Sorry for the delay. Your order is on its way.",
+      "extraTr": "Gecikme için özür dileriz. Siparişiniz yolda."
+    },
+    {
+      "word": "track",
+      "pronunciation": "trek",
+      "turkish": "takip etmek / izlemek",
+      "example": "You can track your package with this number.",
+      "exampleTr": "Paketinizi bu numarayla takip edebilirsiniz.",
+      "extra": "We should track every shipment in real time.",
+      "extraTr": "Her gönderiyi gerçek zamanlı takip etmeliyiz."
+    },
+    {
+      "word": "status",
+      "pronunciation": "STEY-tıs",
+      "turkish": "durum",
+      "example": "What is the status of my order?",
+      "exampleTr": "Siparişimin durumu nedir?",
+      "extra": "The status shows 'in transit' right now.",
+      "extraTr": "Durum şu anda 'yolda' gösteriyor."
+    },
+    {
+      "word": "update",
+      "pronunciation": "ap-DEYT",
+      "turkish": "güncelleme / güncellemek",
+      "example": "I'll send you an update by email.",
+      "exampleTr": "Size e-posta ile güncelleme göndereceğim.",
+      "extra": "Could you update the tracking information?",
+      "extraTr": "Takip bilgilerini güncelleyebilir misiniz?"
+    },
+    {
+      "word": "schedule",
+      "pronunciation": "SKE-cül",
+      "turkish": "program / planlamak",
+      "example": "We should schedule the delivery for Tuesday.",
+      "exampleTr": "Teslimatı Salı gününe planlamalıyız.",
+      "extra": "What does the shipping schedule look like this week?",
+      "extraTr": "Bu haftanın nakliye programı nasıl görünüyor?"
+    },
+    {
+      "word": "deadline",
+      "pronunciation": "DED-layn",
+      "turkish": "son tarih / teslim tarihi",
+      "example": "The deadline for this order is next Monday.",
+      "exampleTr": "Bu siparişin son tarihi gelecek pazartesi.",
+      "extra": "We must meet the deadline or the client will cancel.",
+      "extraTr": "Son tarihe yetişmeliyiz yoksa müşteri iptal eder."
+    }
+  ],
+
+  "grammar": {
+    "title": "Modal Verbs — Obligation, Advice, Possibility & Requests",
+    "titleTr": "Kiplik Fiiller — Zorunluluk, Tavsiye, Olasılık ve Rica",
+    "explanation": "Modal verbs come before the main verb (base form, no 'to'). They don't change with he/she/it. Must = strong obligation, Should = advice, Might/Could = possibility, Would/Could = polite requests.",
+    "explanationTr": "Kiplik fiiller ana fiilden önce gelir (yalın hali, 'to' olmadan). He/she/it ile değişmez. Must = güçlü zorunluluk, Should = tavsiye, Might/Could = olasılık, Would/Could = kibar rica.",
+    "table": [
+      ["must + fiil", "Zorunluluk (güçlü)", "You must check the cargo.", "Kargoyu kontrol etmelisin."],
+      ["must not (mustn't)", "Yasak", "You mustn't open the container.", "Konteyneri açmamalısın."],
+      ["should + fiil", "Tavsiye", "You should call the customer.", "Müşteriyi aramalısın."],
+      ["shouldn't + fiil", "Tavsiye (olumsuz)", "You shouldn't send it late.", "Geç göndermemelisin."],
+      ["might + fiil", "Olasılık (belirsiz)", "The shipment might be delayed.", "Gönderi gecikebilir."],
+      ["could + fiil", "Olasılık / Rica", "Could you check the status?", "Durumu kontrol edebilir misiniz?"],
+      ["would + fiil", "Kibar rica / Tercih", "Would you like express delivery?", "Ekspres teslimat ister misiniz?"]
+    ],
+    "tips": [
+      { "en": "Modal + base verb (no -s, no -ing, no 'to')", "tr": "Modal + yalın fiil: He must go (must goes DEĞİL!)" },
+      { "en": "must = you have no choice, should = it's a good idea", "tr": "must = seçeneğin yok, should = iyi bir fikir" },
+      { "en": "might = maybe (50/50), could = it's possible", "tr": "might = belki (%50), could = mümkün" },
+      { "en": "Could you...? / Would you...? = polite requests", "tr": "Could you...? / Would you...? = kibar rica kalıpları" },
+      { "en": "mustn't = forbidden, don't have to = not necessary", "tr": "mustn't = yasak, don't have to = gerekli değil (farklı!)" },
+      { "en": "Should I...? = asking for advice", "tr": "Should I...? = tavsiye isteme: Should I call him? (Onu aramalı mıyım?)" }
+    ]
+  },
+
+  "reading": {
+    "text": "Subject: Shipment Update — Order #4582\n\nDear Mr. Yılmaz,\n\nI am writing to update you about the status of your shipment. Unfortunately, there is a delay with Order #4582.\n\nThe cargo left our warehouse in Shanghai on March 15th. It should have arrived at Istanbul port by March 28th. However, the container ship had to stop at a different port because of bad weather. We estimate that the new arrival date might be April 2nd.\n\nI must inform you that customs inspection could take an additional 2-3 days. You should prepare your import documents as soon as possible. Our team will notify you immediately when the cargo arrives at port.\n\nIf you need urgent delivery, we could arrange air freight for part of your order, but the cost would be higher. Would you like us to look into this option?\n\nYou can track your shipment at: www.globalship.com/track/4582\n\nPlease don't hesitate to contact me if you have any questions. I must apologize for the inconvenience.\n\nBest regards,\nSarah Chen\nGlobal Shipping Solutions\nCustomer Service Manager",
+    "textTr": "Konu: Gönderi Güncellemesi — Sipariş #4582\n\nSayın Bay Yılmaz,\n\nGönderinizin durumu hakkında sizi bilgilendirmek için yazıyorum. Maalesef, Sipariş #4582 ile ilgili bir gecikme var.\n\nKargo 15 Mart'ta Şanghay'daki depomuzdan çıktı. 28 Mart'a kadar İstanbul limanına varmış olması gerekiyordu. Ancak, konteyner gemisi kötü hava nedeniyle farklı bir limanda durmak zorunda kaldı. Yeni varış tarihinin 2 Nisan olabileceğini tahmin ediyoruz.\n\nGümrük denetiminin ek 2-3 gün sürebileceğini bildirmem gerekiyor. İthalat belgelerinizi en kısa sürede hazırlamalısınız. Kargo limana vardığında ekibimiz sizi hemen bilgilendirecek.\n\nAcil teslimata ihtiyacınız varsa, siparişinizin bir kısmı için hava taşımacılığı ayarlayabiliriz, ancak maliyeti daha yüksek olur. Bu seçeneği incelememizi ister misiniz?\n\nGönderiinizi şu adresten takip edebilirsiniz: www.globalship.com/track/4582\n\nHerhangi bir sorunuz varsa benimle iletişime geçmekten çekinmeyin. Yaşanan rahatsızlık için özür dilemeliyim.\n\nSaygılarımla,\nSarah Chen\nGlobal Shipping Solutions\nMüşteri Hizmetleri Müdürü",
+    "questions": [
+      {
+        "question": "Why is the shipment delayed?",
+        "questionTr": "Gönderi neden gecikti?",
+        "options": ["The warehouse was closed", "Bad weather stopped the ship", "Customs rejected the cargo", "The order was cancelled"],
+        "correct": 1
+      },
+      {
+        "question": "When might the cargo arrive at Istanbul port?",
+        "questionTr": "Kargo İstanbul limanına ne zaman varabilir?",
+        "options": ["March 15th", "March 28th", "April 2nd", "April 10th"],
+        "correct": 2
+      },
+      {
+        "question": "What should Mr. Yılmaz do?",
+        "questionTr": "Bay Yılmaz ne yapmalı?",
+        "options": ["Cancel the order", "Prepare import documents", "Go to Shanghai", "Call the ship captain"],
+        "correct": 1
+      },
+      {
+        "question": "What alternative does Sarah offer for urgent delivery?",
+        "questionTr": "Sarah acil teslimat için ne alternatif sunuyor?",
+        "options": ["Free express shipping", "Air freight for part of the order", "A different ship", "Truck delivery"],
+        "correct": 1
+      },
+      {
+        "question": "How long could customs inspection take?",
+        "questionTr": "Gümrük denetimi ne kadar sürebilir?",
+        "options": ["1 day", "2-3 days", "1 week", "2 weeks"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "You ___ check the cargo before shipping.", "answer": "must", "hint": "zorunluluk (güçlü)" },
+      { "sentence": "The shipment ___ arrive tomorrow.", "answer": "might", "hint": "olasılık (belki)" },
+      { "sentence": "___ you confirm the delivery address?", "answer": "Could", "hint": "kibar rica" },
+      { "sentence": "We ___ notify the customer about the delay.", "answer": "should", "hint": "tavsiye" },
+      { "sentence": "You ___ open the container without permission.", "answer": "mustn't", "hint": "yasak" },
+      { "sentence": "___ you like express or standard delivery?", "answer": "Would", "hint": "kibar soru" },
+      { "sentence": "The package ___ be in the wrong warehouse.", "answer": "could", "hint": "olasılık (mümkün)" },
+      { "sentence": "We ___ meet the deadline or we'll lose the client.", "answer": "must", "hint": "zorunluluk" },
+      { "sentence": "You ___ prepare your import documents early.", "answer": "should", "hint": "tavsiye" },
+      { "sentence": "The delivery ___ be delayed because of the storm.", "answer": "might", "hint": "olasılık" },
+      { "sentence": "I ___ to inspect the products for damage.", "answer": "need", "hint": "ihtiyaç (-mek zorunda)" },
+      { "sentence": "The manager ___ approve it before we can ship.", "answer": "must", "hint": "zorunluluk" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"Kargoyu kontrol etmelisin\" (zorunluluk) hangisi?",
+        "options": ["You might check the cargo.", "You should check the cargo.", "You must check the cargo.", "You could check the cargo."],
+        "correct": 2
+      },
+      {
+        "question": "\"Gönderi gecikebilir\" hangisi?",
+        "options": ["The shipment must be delayed.", "The shipment might be delayed.", "The shipment should be delayed.", "The shipment would be delayed."],
+        "correct": 1
+      },
+      {
+        "question": "\"Durumu kontrol edebilir misiniz?\" (kibar rica) hangisi?",
+        "options": ["Must you check the status?", "Should you check the status?", "Could you check the status?", "Might you check the status?"],
+        "correct": 2
+      },
+      {
+        "question": "\"mustn't\" ne anlama gelir?",
+        "options": ["Gerekli değil", "Yasak", "Belki", "Tavsiye"],
+        "correct": 1
+      },
+      {
+        "question": "\"We ___ deliver it by Friday.\" (Cuma'ya kadar teslim etmeliyiz — zorunlu)",
+        "options": ["might", "could", "should", "must"],
+        "correct": 3
+      },
+      {
+        "question": "\"Gümrük\" İngilizce'de hangisi?",
+        "options": ["cargo", "customs", "container", "warehouse"],
+        "correct": 1
+      },
+      {
+        "question": "\"Envanter\" İngilizce'de hangisi?",
+        "options": ["shipment", "supply", "inventory", "demand"],
+        "correct": 2
+      },
+      {
+        "question": "\"Would you like...?\" ne tür bir cümledir?",
+        "options": ["Zorunluluk", "Tavsiye", "Olasılık", "Kibar soru / rica"],
+        "correct": 3
+      },
+      {
+        "question": "Hangisi doğru? (Modal + fiil kuralı)",
+        "options": ["He must goes.", "He must to go.", "He must go.", "He musts go."],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "must", "right": "zorunda olmak" },
+      { "left": "should", "right": "tavsiye (-meli)" },
+      { "left": "might", "right": "belki / olabilir" },
+      { "left": "could", "right": "yapabilir / rica" },
+      { "left": "shipment", "right": "gönderi" },
+      { "left": "warehouse", "right": "depo" },
+      { "left": "customs", "right": "gümrük" },
+      { "left": "cargo", "right": "yük / kargo" },
+      { "left": "delivery", "right": "teslimat" },
+      { "left": "urgent", "right": "acil" },
+      { "left": "deadline", "right": "son tarih" },
+      { "left": "track", "right": "takip etmek" },
+      { "left": "delay", "right": "gecikme" },
+      { "left": "confirm", "right": "onaylamak" },
+      { "left": "estimate", "right": "tahmin etmek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["You", "must", "check", "the", "cargo"], "correct": "You must check the cargo" },
+      { "words": ["The", "shipment", "might", "arrive", "tomorrow"], "correct": "The shipment might arrive tomorrow" },
+      { "words": ["Could", "you", "confirm", "the", "delivery", "address"], "correct": "Could you confirm the delivery address" },
+      { "words": ["We", "should", "notify", "the", "customer"], "correct": "We should notify the customer" },
+      { "words": ["Would", "you", "like", "express", "delivery"], "correct": "Would you like express delivery" },
+      { "words": ["The", "cargo", "could", "be", "at", "customs"], "correct": "The cargo could be at customs" },
+      { "words": ["You", "mustn't", "open", "the", "container"], "correct": "You mustn't open the container" },
+      { "words": ["We", "must", "meet", "the", "deadline"], "correct": "We must meet the deadline" },
+      { "words": ["Should", "I", "schedule", "the", "delivery", "for", "Tuesday"], "correct": "Should I schedule the delivery for Tuesday" }
+    ],
+    "translation": [
+      {
+        "turkish": "Kargoyu bugün göndermeliyiz.",
+        "english": "We must send the cargo today.",
+        "acceptAlso": ["We must ship the cargo today"]
+      },
+      {
+        "turkish": "Gönderi yarın gelebilir.",
+        "english": "The shipment might arrive tomorrow.",
+        "acceptAlso": ["The shipment could arrive tomorrow"]
+      },
+      {
+        "turkish": "Durumu kontrol edebilir misiniz?",
+        "english": "Could you check the status?",
+        "acceptAlso": ["Can you check the status"]
+      },
+      {
+        "turkish": "Müşteriyi bilgilendirmeliyiz.",
+        "english": "We should notify the customer.",
+        "acceptAlso": ["We should inform the customer"]
+      },
+      {
+        "turkish": "Ekspres teslimat ister misiniz?",
+        "english": "Would you like express delivery?",
+        "acceptAlso": ["Would you like express shipping"]
+      },
+      {
+        "turkish": "Konteyneri açmamalısın.",
+        "english": "You mustn't open the container.",
+        "acceptAlso": ["You must not open the container"]
+      },
+      {
+        "turkish": "Gümrükte bir sorun olabilir.",
+        "english": "There might be a problem at customs.",
+        "acceptAlso": ["There could be a problem at customs"]
+      },
+      {
+        "turkish": "Son tarihe yetişmeliyiz.",
+        "english": "We must meet the deadline.",
+        "acceptAlso": ["We have to meet the deadline"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Handling a Delayed Shipment",
+    "titleTr": "Geciken Bir Gönderiyi Yönetmek",
+    "context": "Eyüp bir lojistik şirketinde müdür olarak çalışıyor. Depodaki çalışanı Ahmet'le geciken bir gönderi hakkında konuşuyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Ahmet, I need to talk to you. What is the status of Shipment #2750?", "textTr": "Ahmet, seninle konuşmam lazım. Gönderi #2750'nin durumu nedir?" },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "Well, there might be a problem. The cargo hasn't left the warehouse yet.", "textTr": "Şey, bir sorun olabilir. Kargo henüz depodan çıkmadı.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "What? The deadline is tomorrow! We must ship it today.", "textTr": "Ne? Son tarih yarın! Bugün göndermeliyiz." },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "I know, but we couldn't find the right container. The inventory system shows it's available, but it might be in the wrong section.", "textTr": "Biliyorum ama doğru konteyneri bulamadık. Envanter sistemi müsait gösteriyor ama yanlış bölümde olabilir.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "You should check Section B. I think they moved some containers last week.", "textTr": "B Bölümünü kontrol etmelisin. Geçen hafta bazı konteynerleri taşıdılar sanırım." },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "Good idea. Should I also inspect the cargo for any damage?", "textTr": "İyi fikir. Kargoyu hasar açısından da denetlemeli miyim?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, you must inspect everything. The customer ordered priority delivery, so we can't make any mistakes.", "textTr": "Evet, her şeyi denetlemelisin. Müşteri öncelikli teslimat sipariş etti, bu yüzden hata yapamayız." },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "Understood. Could you approve the shipping documents while I find the container?", "textTr": "Anlaşıldı. Ben konteyneri bulurken siz sevkiyat belgelerini onaylayabilir misiniz?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Of course. I'll approve them right away. We should also notify the customer about the possible delay.", "textTr": "Tabii. Hemen onaylayacağım. Ayrıca olası gecikme hakkında müşteriyi bilgilendirmeliyiz." },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "Would you like me to send the update email, or should I focus on the warehouse?", "textTr": "Güncelleme e-postasını ben mi göndereyim yoksa depoya mı odaklanayım?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "You should focus on the warehouse. I'll contact the customer myself. The shipment could still make it if we work fast.", "textTr": "Depoya odaklan. Müşteriyle ben iletişime geçeceğim. Hızlı çalışırsak gönderi yine de yetişebilir." },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "Got it. I might need help from the evening shift team. Could I call them in early?", "textTr": "Anladım. Akşam vardiyası ekibinden yardıma ihtiyacım olabilir. Onları erken çağırabilir miyim?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, do that. We must meet this deadline. Update me in one hour.", "textTr": "Evet, öyle yap. Bu son tarihe yetişmeliyiz. Bir saat içinde beni bilgilendir." },
+      { "speaker": "A", "speakerName": "Ahmet", "text": "Will do, boss. I'll track the progress and give you a full status update.", "textTr": "Yaparım, patron. İlerlemeyi takip edip size tam bir durum güncellemesi veririm.", "gender": "male" }
+    ],
+    "questions": [
+      {
+        "question": "Why hasn't the cargo left the warehouse?",
+        "questionTr": "Kargo neden depodan çıkmadı?",
+        "options": ["The truck broke down", "They couldn't find the right container", "The customer cancelled", "Customs rejected it"],
+        "correct": 1
+      },
+      {
+        "question": "What type of delivery did the customer order?",
+        "questionTr": "Müşteri hangi teslimat türünü sipariş etti?",
+        "options": ["Standard delivery", "Priority delivery", "Free delivery", "Next-week delivery"],
+        "correct": 1
+      },
+      {
+        "question": "What does Eyüp ask Ahmet to inspect?",
+        "questionTr": "Eyüp, Ahmet'ten neyi denetlemesini istiyor?",
+        "options": ["The truck", "The documents", "The cargo for damage", "The inventory system"],
+        "correct": 2
+      },
+      {
+        "question": "Who will contact the customer?",
+        "questionTr": "Müşteriyle kim iletişime geçecek?",
+        "options": ["Ahmet", "Eyüp", "The evening shift team", "The manager's assistant"],
+        "correct": 1
+      },
+      {
+        "question": "What extra help might Ahmet need?",
+        "questionTr": "Ahmet'in ne tür ek yardıma ihtiyacı olabilir?",
+        "options": ["A new computer", "The evening shift team", "A bigger warehouse", "More containers"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Modal Verbs - British Council",
+      "description": "Must, should, might, could alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/modals-can-could-must-should",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Modal Verbs Explained - BBC Learning English",
+      "description": "Kiplik fiiller video anlatım",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-3/session-1",
+      "type": "video",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Logistics Vocabulary - Cambridge Dictionary",
+      "description": "Lojistik terimleri sözlüğü",
+      "url": "https://dictionary.cambridge.org/topics/transport/sending-and-transporting-goods/",
+      "type": "article",
+      "level": "A2",
+      "free": true
+    }
+  ]
+}

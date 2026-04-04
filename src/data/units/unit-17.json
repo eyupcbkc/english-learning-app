@@ -1,0 +1,563 @@
+{
+  "id": "unit-17",
+  "title": "Future (Will & Going To)",
+  "titleTr": "Gelecek Zaman (Will & Going To)",
+  "level": "A2",
+  "module": 3,
+  "description": "Learn to talk about future plans, make promises, and discuss predictions using 'will' and 'going to'.",
+  "descriptionTr": "Gelecek planlarından bahsetmeyi, söz vermeyi ve tahminlerde bulunmayı 'will' ve 'going to' ile öğren.",
+
+  "vocabulary": [
+    {
+      "word": "interview",
+      "pronunciation": "IN-tır-vyuu",
+      "turkish": "mülakat / görüşme",
+      "example": "I have a job interview tomorrow morning.",
+      "exampleTr": "Yarın sabah iş mülakatım var.",
+      "extra": "The interview is going to be at 10 o'clock.",
+      "extraTr": "Mülakat saat 10'da olacak."
+    },
+    {
+      "word": "apply",
+      "pronunciation": "ı-PLAY",
+      "turkish": "başvurmak",
+      "example": "I'm going to apply for a new job next week.",
+      "exampleTr": "Gelecek hafta yeni bir işe başvuracağım.",
+      "extra": "She applied to five different companies last month.",
+      "extraTr": "Geçen ay beş farklı şirkete başvurdu."
+    },
+    {
+      "word": "resume",
+      "pronunciation": "RE-zu-mey",
+      "turkish": "özgeçmiş",
+      "example": "I will update my resume before the interview.",
+      "exampleTr": "Mülakatten önce özgeçmişimi güncelleyeceğim.",
+      "extra": "Your resume looks very professional.",
+      "extraTr": "Özgeçmişin çok profesyonel görünüyor."
+    },
+    {
+      "word": "position",
+      "pronunciation": "pı-ZI-şın",
+      "turkish": "pozisyon / görev",
+      "example": "I'm applying for the marketing position.",
+      "exampleTr": "Pazarlama pozisyonuna başvuruyorum.",
+      "extra": "This position requires two years of experience.",
+      "extraTr": "Bu pozisyon iki yıl deneyim gerektiriyor."
+    },
+    {
+      "word": "salary",
+      "pronunciation": "SE-lı-ri",
+      "turkish": "maaş",
+      "example": "The salary is going to be discussed in the second interview.",
+      "exampleTr": "Maaş ikinci mülakatta konuşulacak.",
+      "extra": "I hope they will offer a good salary.",
+      "extraTr": "Umarım iyi bir maaş teklif ederler."
+    },
+    {
+      "word": "experience",
+      "pronunciation": "iks-PIR-i-ıns",
+      "turkish": "deneyim / tecrübe",
+      "example": "I have three years of experience in logistics.",
+      "exampleTr": "Lojistikte üç yıllık deneyimim var.",
+      "extra": "This experience will help me in my career.",
+      "extraTr": "Bu deneyim kariyerimde bana yardımcı olacak."
+    },
+    {
+      "word": "skill",
+      "pronunciation": "skil",
+      "turkish": "beceri / yetenek",
+      "example": "Communication is an important skill for this job.",
+      "exampleTr": "İletişim bu iş için önemli bir beceri.",
+      "extra": "I'm going to improve my English skills this year.",
+      "extraTr": "Bu yıl İngilizce becerilerimi geliştireceğim."
+    },
+    {
+      "word": "hire",
+      "pronunciation": "HAY-ır",
+      "turkish": "işe almak",
+      "example": "They are going to hire five new people next month.",
+      "exampleTr": "Gelecek ay beş yeni kişi işe alacaklar.",
+      "extra": "I hope they will hire me after the interview.",
+      "extraTr": "Umarım mülakatten sonra beni işe alırlar."
+    },
+    {
+      "word": "offer",
+      "pronunciation": "O-fır",
+      "turkish": "teklif / teklif etmek",
+      "example": "The company will offer you a great package.",
+      "exampleTr": "Şirket sana harika bir paket teklif edecek.",
+      "extra": "I received a job offer yesterday!",
+      "extraTr": "Dün bir iş teklifi aldım!"
+    },
+    {
+      "word": "career",
+      "pronunciation": "kı-RIIR",
+      "turkish": "kariyer",
+      "example": "I want to build a career in international trade.",
+      "exampleTr": "Uluslararası ticarette bir kariyer kurmak istiyorum.",
+      "extra": "A good career takes time and hard work.",
+      "extraTr": "İyi bir kariyer zaman ve çok çalışma gerektirir."
+    },
+    {
+      "word": "opportunity",
+      "pronunciation": "op-ır-TUU-nı-ti",
+      "turkish": "fırsat",
+      "example": "This job is a great opportunity for me.",
+      "exampleTr": "Bu iş benim için harika bir fırsat.",
+      "extra": "New opportunities will come if you work hard.",
+      "extraTr": "Çok çalışırsan yeni fırsatlar gelecek."
+    },
+    {
+      "word": "goal",
+      "pronunciation": "gol",
+      "turkish": "hedef / amaç",
+      "example": "My goal is to become a manager in two years.",
+      "exampleTr": "Hedefim iki yıl içinde müdür olmak.",
+      "extra": "Setting goals will help you stay focused.",
+      "extraTr": "Hedef belirlemek odaklanmanıza yardımcı olacak."
+    },
+    {
+      "word": "plan",
+      "pronunciation": "plen",
+      "turkish": "plan / planlamak",
+      "example": "I'm going to plan everything before the meeting.",
+      "exampleTr": "Toplantıdan önce her şeyi planlayacağım.",
+      "extra": "What are your plans for the future?",
+      "extraTr": "Gelecek için planların ne?"
+    },
+    {
+      "word": "company",
+      "pronunciation": "KAM-pı-ni",
+      "turkish": "şirket",
+      "example": "I want to work for an international company.",
+      "exampleTr": "Uluslararası bir şirkette çalışmak istiyorum.",
+      "extra": "The company is going to open a new office in Istanbul.",
+      "extraTr": "Şirket İstanbul'da yeni bir ofis açacak."
+    },
+    {
+      "word": "department",
+      "pronunciation": "di-PART-mınt",
+      "turkish": "departman / bölüm",
+      "example": "I will work in the sales department.",
+      "exampleTr": "Satış departmanında çalışacağım.",
+      "extra": "Our department is going to grow next year.",
+      "extraTr": "Departmanımız gelecek yıl büyüyecek."
+    },
+    {
+      "word": "colleague",
+      "pronunciation": "KO-liig",
+      "turkish": "iş arkadaşı / meslektaş",
+      "example": "My colleague will help me with the project.",
+      "exampleTr": "İş arkadaşım projede bana yardım edecek.",
+      "extra": "I'm going to meet my new colleagues on Monday.",
+      "extraTr": "Pazartesi yeni iş arkadaşlarımla tanışacağım."
+    },
+    {
+      "word": "deadline",
+      "pronunciation": "DED-layn",
+      "turkish": "son tarih / teslim tarihi",
+      "example": "The deadline for the application is next Friday.",
+      "exampleTr": "Başvurunun son tarihi gelecek cuma.",
+      "extra": "We will finish the report before the deadline.",
+      "extraTr": "Raporu son tarihten önce bitireceğiz."
+    },
+    {
+      "word": "project",
+      "pronunciation": "PRO-cekt",
+      "turkish": "proje",
+      "example": "I'm going to start a new project next month.",
+      "exampleTr": "Gelecek ay yeni bir projeye başlayacağım.",
+      "extra": "This project will take about three months.",
+      "extraTr": "Bu proje yaklaşık üç ay sürecek."
+    },
+    {
+      "word": "meeting",
+      "pronunciation": "MII-ting",
+      "turkish": "toplantı",
+      "example": "We have a team meeting every Monday morning.",
+      "exampleTr": "Her pazartesi sabah ekip toplantımız var.",
+      "extra": "The meeting will start at 2 PM.",
+      "extraTr": "Toplantı saat 2'de başlayacak."
+    },
+    {
+      "word": "schedule",
+      "pronunciation": "SKE-cul",
+      "turkish": "program / takvim",
+      "example": "I will check my schedule and get back to you.",
+      "exampleTr": "Programımı kontrol edip size dönüş yapacağım.",
+      "extra": "My schedule is going to be very busy next week.",
+      "extraTr": "Gelecek hafta programım çok yoğun olacak."
+    },
+    {
+      "word": "ambitious",
+      "pronunciation": "em-BI-şıs",
+      "turkish": "hırslı / azimli",
+      "example": "She is very ambitious and always sets big goals.",
+      "exampleTr": "Çok hırslı ve her zaman büyük hedefler koyar.",
+      "extra": "Ambitious people will always find a way to succeed.",
+      "extraTr": "Hırslı insanlar her zaman başarmanın bir yolunu bulacak."
+    },
+    {
+      "word": "qualified",
+      "pronunciation": "KVO-lı-fayd",
+      "turkish": "nitelikli / yeterli",
+      "example": "You are qualified for this position.",
+      "exampleTr": "Bu pozisyon için yeterlisin.",
+      "extra": "We need a qualified person for the manager role.",
+      "extraTr": "Müdür rolü için nitelikli bir kişiye ihtiyacımız var."
+    },
+    {
+      "word": "professional",
+      "pronunciation": "prı-FE-şı-nıl",
+      "turkish": "profesyonel",
+      "example": "He is a very professional person.",
+      "exampleTr": "O çok profesyonel bir kişi.",
+      "extra": "Your professional attitude will impress them.",
+      "extraTr": "Profesyonel tavrın onları etkileyecek."
+    },
+    {
+      "word": "promote",
+      "pronunciation": "prı-MOUT",
+      "turkish": "terfi ettirmek",
+      "example": "They are going to promote her to team leader.",
+      "exampleTr": "Onu takım liderine terfi ettirecekler.",
+      "extra": "If you work hard, the company will promote you.",
+      "extraTr": "Çok çalışırsan şirket seni terfi ettirir."
+    },
+    {
+      "word": "responsibility",
+      "pronunciation": "ris-pon-sı-BI-lı-ti",
+      "turkish": "sorumluluk",
+      "example": "This job has a lot of responsibility.",
+      "exampleTr": "Bu işin çok fazla sorumluluğu var.",
+      "extra": "I'm ready to take on more responsibility.",
+      "extraTr": "Daha fazla sorumluluk almaya hazırım."
+    },
+    {
+      "word": "achieve",
+      "pronunciation": "ı-ÇIIV",
+      "turkish": "başarmak / elde etmek",
+      "example": "I will achieve my goals step by step.",
+      "exampleTr": "Hedeflerimi adım adım başaracağım.",
+      "extra": "She achieved great things in her career.",
+      "extraTr": "Kariyerinde harika şeyler başardı."
+    },
+    {
+      "word": "improve",
+      "pronunciation": "im-PRUUV",
+      "turkish": "geliştirmek / iyileştirmek",
+      "example": "I'm going to improve my English every day.",
+      "exampleTr": "Her gün İngilizcemi geliştireceğim.",
+      "extra": "Practice will improve your speaking skills.",
+      "extraTr": "Pratik konuşma becerilerini geliştirecek."
+    },
+    {
+      "word": "develop",
+      "pronunciation": "di-VE-lıp",
+      "turkish": "geliştirmek / büyütmek",
+      "example": "We are going to develop a new training program.",
+      "exampleTr": "Yeni bir eğitim programı geliştireceğiz.",
+      "extra": "The company will develop new products next year.",
+      "extraTr": "Şirket gelecek yıl yeni ürünler geliştirecek."
+    },
+    {
+      "word": "graduate",
+      "pronunciation": "GRE-cu-eyt",
+      "turkish": "mezun olmak",
+      "example": "I'm going to graduate from university in June.",
+      "exampleTr": "Haziran'da üniversiteden mezun olacağım.",
+      "extra": "After I graduate, I will look for a good job.",
+      "extraTr": "Mezun olduktan sonra iyi bir iş arayacağım."
+    },
+    {
+      "word": "success",
+      "pronunciation": "sık-SES",
+      "turkish": "başarı",
+      "example": "Hard work is the key to success.",
+      "exampleTr": "Çok çalışmak başarının anahtarıdır.",
+      "extra": "I believe your interview will be a success!",
+      "extraTr": "Mülakatının başarılı olacağına inanıyorum!"
+    }
+  ],
+
+  "grammar": {
+    "title": "Will vs Going To - Future Tense",
+    "titleTr": "Will ve Going To - Gelecek Zaman",
+    "explanation": "We use 'will' for spontaneous decisions, promises, offers, and general predictions. We use 'going to' for planned intentions and evidence-based predictions. Both talk about the future, but the meaning is slightly different.",
+    "explanationTr": "'Will' ani kararlar, sözler, teklifler ve genel tahminler için kullanılır. 'Going to' planlanmış niyetler ve kanıta dayalı tahminler için kullanılır. İkisi de gelecekten bahseder ama anlam biraz farklıdır.",
+    "table": [
+      ["Will — Spontaneous decision", "The phone is ringing. I'll answer it.", "Telefon çalıyor. Ben açarım.", "Ani karar: O anda karar veriyorsun"],
+      ["Will — Promise", "I will always help you.", "Her zaman sana yardım edeceğim.", "Söz verme: will + fiil"],
+      ["Will — Offer", "You look tired. I'll carry your bag.", "Yorgun görünüyorsun. Çantanı taşırım.", "Teklif: I'll... / Shall I...?"],
+      ["Will — Prediction (opinion)", "I think she will get the job.", "Bence işi o alacak.", "Tahmin: I think / I believe + will"],
+      ["Going to — Planned intention", "I'm going to apply for that job.", "O işe başvuracağım.", "Plan: Önceden karar verilmiş"],
+      ["Going to — Evidence-based prediction", "Look at the dark clouds. It's going to rain.", "Kara bulutlara bak. Yağmur yağacak.", "Kanıt var: Görerek tahmin ediyorsun"],
+      ["Shall I...? / Shall we...?", "Shall I open the window? Shall we start?", "Pencereyi açayım mı? Başlayalım mı?", "Teklif/Öneri: Sadece I ve we ile"]
+    ],
+    "tips": [
+      { "en": "will + base verb: I will go, She will come", "tr": "will + yalın fiil: I will go, She will come (fiil değişmez!)" },
+      { "en": "will not = won't: I won't be late.", "tr": "will not = won't (kısaltma): Geç kalmayacağım." },
+      { "en": "going to = gonna (spoken): I'm gonna call him.", "tr": "going to = gonna (konuşmada): I'm gonna call him. (Yazıda going to yaz!)" },
+      { "en": "Time expressions: tomorrow, next week, in 2 years, soon, later", "tr": "Zaman ifadeleri: tomorrow (yarın), next week (gelecek hafta), in 2 years (2 yıl içinde), soon (yakında)" },
+      { "en": "I think + will: I think it will be easy.", "tr": "I think + will: Bence kolay olacak. (Düşünce/tahmin)" },
+      { "en": "Don't say: I will going to... ✗ Say: I will go / I'm going to go ✓", "tr": "YANLIŞ: I will going to... ✗ DOĞRU: I will go / I'm going to go ✓" }
+    ]
+  },
+
+  "reading": {
+    "text": "Preparing for My First Job Interview\n\nHello! My name is Eyüp and I'm going to tell you about my first job interview experience.\n\nLast week, I saw a job posting for a logistics coordinator position at an international company. The salary was good and the company looked professional. I decided to apply immediately. I updated my resume, wrote a cover letter, and sent my application.\n\nTwo days later, they called me! The HR manager said: \"We liked your resume. We'd like to invite you for an interview next Monday.\" I was so excited but also very nervous.\n\nNow I'm preparing for the interview. I'm going to research the company this weekend. I'm going to practice common interview questions with my friend. I think they will ask me about my experience and my future goals.\n\nMy plan is clear: I'm going to arrive early, dress professionally, and be confident. I will answer every question honestly. I won't be nervous — I'll be myself!\n\nMy goal is to get this job because it will be a great opportunity for my career. I believe hard work and good preparation will lead to success. Wish me luck!",
+    "textTr": "İlk İş Mülakatıma Hazırlanmak\n\nMerhaba! Benim adım Eyüp ve size ilk iş mülakatı deneyimimden bahsedeceğim.\n\nGeçen hafta uluslararası bir şirkette lojistik koordinatörü pozisyonu için bir iş ilanı gördüm. Maaş iyiydi ve şirket profesyonel görünüyordu. Hemen başvurmaya karar verdim. Özgeçmişimi güncelledim, bir ön yazı yazdım ve başvurumu gönderdim.\n\nİki gün sonra beni aradılar! İK müdürü dedi ki: \"Özgeçmişinizi beğendik. Sizi gelecek pazartesi bir mülakata davet etmek istiyoruz.\" Çok heyecanlıydım ama aynı zamanda çok gergindim.\n\nŞimdi mülakata hazırlanıyorum. Bu hafta sonu şirketi araştıracağım. Arkadaşımla yaygın mülakat sorularını pratik edeceğim. Bence bana deneyimimi ve gelecek hedeflerimi soracaklar.\n\nPlanım net: Erken varacağım, profesyonel giyineceğim ve kendime güveneceğim. Her soruyu dürüstçe cevaplayacağım. Gergin olmayacağım — kendim olacağım!\n\nHedefim bu işi almak çünkü kariyerim için harika bir fırsat olacak. Çok çalışmanın ve iyi hazırlığın başarıya götüreceğine inanıyorum. Bana şans dileyin!",
+    "questions": [
+      {
+        "question": "What position did Eyüp apply for?",
+        "questionTr": "Eyüp hangi pozisyona başvurdu?",
+        "options": ["Marketing manager", "Logistics coordinator", "Sales assistant", "Software developer"],
+        "correct": 1
+      },
+      {
+        "question": "How did Eyüp feel when they called him?",
+        "questionTr": "Onu aradıklarında Eyüp nasıl hissetti?",
+        "options": ["Only nervous", "Excited but also nervous", "Only happy", "Angry and confused"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyüp going to do this weekend?",
+        "questionTr": "Eyüp bu hafta sonu ne yapacak?",
+        "options": ["Go on vacation", "Research the company and practice questions", "Update his resume", "Call the HR manager"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyüp's plan for the interview day?",
+        "questionTr": "Eyüp'ün mülakat günü planı ne?",
+        "options": ["Arrive late and be casual", "Arrive early, dress professionally, be confident", "Bring his friend with him", "Ask about salary first"],
+        "correct": 1
+      },
+      {
+        "question": "Why does Eyüp want this job?",
+        "questionTr": "Eyüp bu işi neden istiyor?",
+        "options": ["Only for the money", "It's close to his home", "It will be a great opportunity for his career", "His friend works there"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ help you with your resume. Don't worry!", "answer": "will", "hint": "söz verme (promise)" },
+      { "sentence": "She is ___ to apply for the marketing position.", "answer": "going", "hint": "planlanmış niyet" },
+      { "sentence": "I think the interview ___ go well.", "answer": "will", "hint": "tahmin (prediction)" },
+      { "sentence": "We are going ___ start a new project next month.", "answer": "to", "hint": "going to + fiil" },
+      { "sentence": "I ___ be late for the meeting. I promise!", "answer": "won't", "hint": "will not kısaltma - söz" },
+      { "sentence": "Look at his resume! He is going to ___ the job.", "answer": "get", "hint": "kanıta dayalı tahmin + yalın fiil" },
+      { "sentence": "___ I carry that box for you?", "answer": "Shall", "hint": "teklif - I ile" },
+      { "sentence": "They ___ going to hire three new people.", "answer": "are", "hint": "going to - they ile" },
+      { "sentence": "I will ___ my English skills this year.", "answer": "improve", "hint": "geliştirmek" },
+      { "sentence": "She ___ going to graduate in June.", "answer": "is", "hint": "going to - she ile" },
+      { "sentence": "Don't worry, I ___ finish the report before the deadline.", "answer": "will", "hint": "söz verme" },
+      { "sentence": "We are going to ___ a team meeting tomorrow.", "answer": "have", "hint": "planlanmış toplantı" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"Yarın sana yardım edeceğim.\" İngilizce'de hangisi?",
+        "options": ["I going to help you tomorrow.", "I will help you tomorrow.", "I am help you tomorrow.", "I helped you tomorrow."],
+        "correct": 1
+      },
+      {
+        "question": "Ani karar için hangisini kullanırız?",
+        "options": ["going to", "will", "shall not", "was going to"],
+        "correct": 1
+      },
+      {
+        "question": "\"She ___ going to start a new job.\" Boşluğa ne gelir?",
+        "options": ["will", "is", "are", "do"],
+        "correct": 1
+      },
+      {
+        "question": "\"will not\" kısaltması nedir?",
+        "options": ["willn't", "won't", "wouldn't", "will't"],
+        "correct": 1
+      },
+      {
+        "question": "Önceden planlanmış bir niyet için hangisi doğru?",
+        "options": ["I will travel to London.", "I'm going to travel to London.", "I traveled to London.", "I travel to London."],
+        "correct": 1
+      },
+      {
+        "question": "\"Pencereyi açayım mı?\" İngilizce'de hangisi?",
+        "options": ["Will I open the window?", "Do I open the window?", "Shall I open the window?", "Am I going to open the window?"],
+        "correct": 2
+      },
+      {
+        "question": "\"Mülakat\" İngilizce'de hangisi?",
+        "options": ["resume", "interview", "salary", "position"],
+        "correct": 1
+      },
+      {
+        "question": "\"Bence yağmur yağacak.\" → Hangi yapı doğru?",
+        "options": ["I think it rains.", "I think it going to rain.", "I think it will rain.", "I think it is raining."],
+        "correct": 2
+      },
+      {
+        "question": "\"Özgeçmiş\" İngilizce'de hangisi?",
+        "options": ["career", "salary", "resume", "skill"],
+        "correct": 2
+      },
+      {
+        "question": "\"Kara bulutlara bak! Yağmur yağacak.\" → Hangisi doğru?",
+        "options": ["It will rain.", "It's going to rain.", "It rains.", "It rained."],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "interview", "right": "mülakat" },
+      { "left": "apply", "right": "başvurmak" },
+      { "left": "resume", "right": "özgeçmiş" },
+      { "left": "position", "right": "pozisyon" },
+      { "left": "salary", "right": "maaş" },
+      { "left": "experience", "right": "deneyim" },
+      { "left": "skill", "right": "beceri" },
+      { "left": "hire", "right": "işe almak" },
+      { "left": "opportunity", "right": "fırsat" },
+      { "left": "goal", "right": "hedef" },
+      { "left": "deadline", "right": "son tarih" },
+      { "left": "colleague", "right": "iş arkadaşı" },
+      { "left": "promote", "right": "terfi ettirmek" },
+      { "left": "achieve", "right": "başarmak" },
+      { "left": "success", "right": "başarı" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "will", "help", "you", "tomorrow"], "correct": "I will help you tomorrow" },
+      { "words": ["She", "is", "going", "to", "apply", "for", "the", "job"], "correct": "She is going to apply for the job" },
+      { "words": ["We", "won't", "be", "late", "for", "the", "meeting"], "correct": "We won't be late for the meeting" },
+      { "words": ["Shall", "I", "open", "the", "door", "for", "you"], "correct": "Shall I open the door for you" },
+      { "words": ["They", "are", "going", "to", "hire", "new", "people"], "correct": "They are going to hire new people" },
+      { "words": ["I", "think", "he", "will", "get", "the", "job"], "correct": "I think he will get the job" },
+      { "words": ["I'm", "going", "to", "improve", "my", "English"], "correct": "I'm going to improve my English" },
+      { "words": ["The", "meeting", "will", "start", "at", "two"], "correct": "The meeting will start at two" },
+      { "words": ["She", "will", "not", "forget", "the", "deadline"], "correct": "She will not forget the deadline" }
+    ],
+    "translation": [
+      {
+        "turkish": "Yarın iş mülakatım var.",
+        "english": "I have a job interview tomorrow.",
+        "acceptAlso": ["I have an interview tomorrow", "I've got a job interview tomorrow"]
+      },
+      {
+        "turkish": "Sana yardım edeceğim, söz veriyorum.",
+        "english": "I will help you, I promise.",
+        "acceptAlso": ["I'll help you, I promise", "I promise I will help you"]
+      },
+      {
+        "turkish": "Gelecek yıl yeni bir işe başvuracağım.",
+        "english": "I'm going to apply for a new job next year.",
+        "acceptAlso": ["I am going to apply for a new job next year"]
+      },
+      {
+        "turkish": "Bence mülakat iyi geçecek.",
+        "english": "I think the interview will go well.",
+        "acceptAlso": ["I think the interview is going to go well"]
+      },
+      {
+        "turkish": "Seni terfi ettirecekler.",
+        "english": "They are going to promote you.",
+        "acceptAlso": ["They're going to promote you", "They will promote you"]
+      },
+      {
+        "turkish": "Toplantıya geç kalmayacağım.",
+        "english": "I won't be late for the meeting.",
+        "acceptAlso": ["I will not be late for the meeting", "I'm not going to be late for the meeting"]
+      },
+      {
+        "turkish": "Pencereyi açayım mı?",
+        "english": "Shall I open the window?",
+        "acceptAlso": ["Should I open the window"]
+      },
+      {
+        "turkish": "Hedefim bu pozisyonu almak.",
+        "english": "My goal is to get this position.",
+        "acceptAlso": ["My goal is getting this position"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Job Interview at an International Company",
+    "titleTr": "Uluslararası Bir Şirkette İş Mülakatı",
+    "context": "Eyüp, uluslararası bir lojistik şirketinde iş mülakatına gidiyor. İK müdürü Ms. Carter ile görüşüyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Good morning! You must be Eyüp. Please, have a seat.", "textTr": "Günaydın! Eyüp olmalısınız. Lütfen oturun." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning, Ms. Carter! Thank you. I'm very happy to be here.", "textTr": "Günaydın, Ms. Carter! Teşekkürler. Burada olmaktan çok mutluyum." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "So, tell me — why are you applying for this position?", "textTr": "Peki, söyleyin bakalım — neden bu pozisyona başvuruyorsunuz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'm going to be honest — this company is perfect for my career goals. I want to work in international logistics and I believe this is a great opportunity.", "textTr": "Dürüst olacağım — bu şirket kariyer hedeflerim için mükemmel. Uluslararası lojistikte çalışmak istiyorum ve bunun harika bir fırsat olduğuna inanıyorum." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "That sounds great. What experience do you have?", "textTr": "Kulağa harika geliyor. Ne tür deneyiminiz var?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I have two years of experience in shipping and delivery. I also improved my English skills because I knew I was going to need them for international work.", "textTr": "Kargo ve teslimat alanında iki yıllık deneyimim var. Ayrıca İngilizce becerilerimi geliştirdim çünkü uluslararası iş için ihtiyacım olacağını biliyordum." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Impressive! Where do you see yourself in five years?", "textTr": "Etkileyici! Beş yıl sonra kendinizi nerede görüyorsunuz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "In five years, I'm going to be a team leader. I will develop my management skills and I'm going to take on more responsibility.", "textTr": "Beş yıl içinde takım lideri olacağım. Yönetim becerilerimi geliştireceğim ve daha fazla sorumluluk alacağım." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "You seem very ambitious! That's exactly what we're looking for. Can you start next Monday?", "textTr": "Çok hırslı görünüyorsunuz! Tam da aradığımız bu. Gelecek pazartesi başlayabilir misiniz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Really? Yes, absolutely! I will be here on Monday at 8 AM sharp!", "textTr": "Gerçekten mi? Evet, kesinlikle! Pazartesi sabah tam 8'de burada olacağım!" },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Perfect. We're going to offer you the logistics coordinator position. Your salary will be discussed with the HR department.", "textTr": "Mükemmel. Size lojistik koordinatörü pozisyonunu teklif edeceğiz. Maaşınız İK departmanıyla görüşülecek." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you so much, Ms. Carter! I won't let you down. I promise I will work hard and achieve great results!", "textTr": "Çok teşekkür ederim, Ms. Carter! Sizi hayal kırıklığına uğratmayacağım. Çok çalışacağıma ve harika sonuçlar elde edeceğime söz veriyorum!" },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "I believe you will! Welcome to the team, Eyüp. We'll send you all the details by email.", "textTr": "Başaracağınıza inanıyorum! Ekibe hoş geldiniz, Eyüp. Tüm detayları e-postayla göndereceğiz." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "This is amazing! I'm going to celebrate tonight. Thank you for this opportunity!", "textTr": "Bu harika! Bu gece kutlama yapacağım. Bu fırsat için teşekkürler!" }
+    ],
+    "questions": [
+      {
+        "question": "What position is Eyüp applying for?",
+        "questionTr": "Eyüp hangi pozisyona başvuruyor?",
+        "options": ["Marketing manager", "Software developer", "Logistics coordinator", "HR assistant"],
+        "correct": 2
+      },
+      {
+        "question": "How much experience does Eyüp have?",
+        "questionTr": "Eyüp'ün ne kadar deneyimi var?",
+        "options": ["No experience", "One year", "Two years", "Five years"],
+        "correct": 2
+      },
+      {
+        "question": "Where does Eyüp see himself in five years?",
+        "questionTr": "Eyüp beş yıl sonra kendini nerede görüyor?",
+        "options": ["Same position", "Team leader", "CEO", "Retired"],
+        "correct": 1
+      },
+      {
+        "question": "Did Eyüp get the job?",
+        "questionTr": "Eyüp işi aldı mı?",
+        "options": ["No, they rejected him", "Yes, they offered him the position", "They said maybe", "They will call him later"],
+        "correct": 1
+      },
+      {
+        "question": "When will Eyüp start working?",
+        "questionTr": "Eyüp ne zaman işe başlayacak?",
+        "options": ["Tomorrow", "Next Monday", "Next month", "In two weeks"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Will vs Going To - BBC Learning English",
+      "description": "Will ve Going To arasındaki farkı videolarla öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-6/session-1",
+      "type": "video",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Future Tense Practice - British Council",
+      "description": "Gelecek zaman interaktif alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/going-to",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Job Interview English - Oxford Online English",
+      "description": "İş mülakatı için İngilizce ifadeler ve pratik",
+      "url": "https://www.oxfordonlineenglish.com/job-interview-english",
+      "type": "video",
+      "level": "A2-B1",
+      "free": true
+    }
+  ]
+}

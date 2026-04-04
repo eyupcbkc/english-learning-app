@@ -1,0 +1,558 @@
+{
+  "id": "unit-22",
+  "title": "Adverbs & Frequency",
+  "titleTr": "Zarflar ve Sıklık",
+  "level": "A2",
+  "module": 3,
+  "description": "Learn frequency adverbs, manner adverbs, and degree adverbs to describe your daily habits and routines as a freelancer.",
+  "descriptionTr": "Freelancer olarak günlük alışkanlıklarını ve rutinlerini anlatmak için sıklık zarfları, durum zarfları ve derece zarflarını öğren.",
+
+  "vocabulary": [
+    {
+      "word": "always",
+      "pronunciation": "OL-veyz",
+      "turkish": "her zaman",
+      "example": "I always start my day with a cup of coffee.",
+      "exampleTr": "Günüme her zaman bir fincan kahveyle başlarım.",
+      "extra": "She always meets her deadlines on time.",
+      "extraTr": "O her zaman teslim tarihlerine zamanında yetişir."
+    },
+    {
+      "word": "usually",
+      "pronunciation": "YUU-ju-ı-li",
+      "turkish": "genellikle",
+      "example": "I usually work from home on Mondays.",
+      "exampleTr": "Pazartesileri genellikle evden çalışırım.",
+      "extra": "Freelancers usually set their own schedules.",
+      "extraTr": "Freelancerlar genellikle kendi programlarını belirler."
+    },
+    {
+      "word": "often",
+      "pronunciation": "OF-ın",
+      "turkish": "sık sık",
+      "example": "I often work late when I have a big project.",
+      "exampleTr": "Büyük bir proje olduğunda sık sık geç saatlere kadar çalışırım.",
+      "extra": "How often do you check your email?",
+      "extraTr": "E-postanı ne sıklıkla kontrol edersin?"
+    },
+    {
+      "word": "sometimes",
+      "pronunciation": "SAM-taymz",
+      "turkish": "bazen",
+      "example": "Sometimes I work from a café for a change.",
+      "exampleTr": "Bazen değişiklik olsun diye bir kafeden çalışırım.",
+      "extra": "I sometimes forget to take a lunch break.",
+      "extraTr": "Bazen öğle molası vermeyi unuturum."
+    },
+    {
+      "word": "rarely",
+      "pronunciation": "RER-li",
+      "turkish": "nadiren",
+      "example": "I rarely work on weekends anymore.",
+      "exampleTr": "Artık nadiren hafta sonları çalışırım.",
+      "extra": "She rarely takes a vacation because she loves her job.",
+      "extraTr": "İşini sevdiği için nadiren tatile çıkar."
+    },
+    {
+      "word": "never",
+      "pronunciation": "NEV-ır",
+      "turkish": "asla / hiçbir zaman",
+      "example": "I never work without listening to music.",
+      "exampleTr": "Müzik dinlemeden asla çalışmam.",
+      "extra": "He never misses a client meeting.",
+      "extraTr": "O hiçbir zaman müşteri toplantısını kaçırmaz."
+    },
+    {
+      "word": "frequently",
+      "pronunciation": "FRİİ-kvınt-li",
+      "turkish": "sıklıkla",
+      "example": "I frequently update my portfolio with new projects.",
+      "exampleTr": "Portfolyomu sıklıkla yeni projelerle güncelerim.",
+      "extra": "Clients frequently ask about my availability.",
+      "extraTr": "Müşteriler sıklıkla müsaitliğimi sorar."
+    },
+    {
+      "word": "occasionally",
+      "pronunciation": "ı-KEY-jı-nı-li",
+      "turkish": "ara sıra",
+      "example": "I occasionally take on a project outside my comfort zone.",
+      "exampleTr": "Ara sıra konfor alanımın dışında bir proje alırım.",
+      "extra": "We occasionally meet in person to discuss the project.",
+      "extraTr": "Projeyi görüşmek için ara sıra yüz yüze buluşuruz."
+    },
+    {
+      "word": "constantly",
+      "pronunciation": "KON-stınt-li",
+      "turkish": "sürekli",
+      "example": "Technology is constantly changing in our industry.",
+      "exampleTr": "Sektörümüzde teknoloji sürekli değişiyor.",
+      "extra": "I'm constantly learning new skills to stay competitive.",
+      "extraTr": "Rekabetçi kalmak için sürekli yeni beceriler öğreniyorum."
+    },
+    {
+      "word": "regularly",
+      "pronunciation": "REG-yu-lır-li",
+      "turkish": "düzenli olarak",
+      "example": "I regularly exercise in the morning before work.",
+      "exampleTr": "İşten önce sabahları düzenli olarak egzersiz yaparım.",
+      "extra": "You should regularly back up your files.",
+      "extraTr": "Dosyalarını düzenli olarak yedeklemelisin."
+    },
+    {
+      "word": "daily",
+      "pronunciation": "DEY-li",
+      "turkish": "günlük / her gün",
+      "example": "I write a daily to-do list every morning.",
+      "exampleTr": "Her sabah günlük yapılacaklar listesi yazarım.",
+      "extra": "Our daily standup meeting is at 9 AM.",
+      "extraTr": "Günlük kısa toplantımız sabah 9'da."
+    },
+    {
+      "word": "weekly",
+      "pronunciation": "VIIK-li",
+      "turkish": "haftalık / her hafta",
+      "example": "I send a weekly report to my clients.",
+      "exampleTr": "Müşterilerime haftalık rapor gönderirim.",
+      "extra": "We have a weekly video call with the team.",
+      "extraTr": "Ekiple haftalık video görüşmemiz var."
+    },
+    {
+      "word": "monthly",
+      "pronunciation": "MANTH-li",
+      "turkish": "aylık / her ay",
+      "example": "I send monthly invoices to all my clients.",
+      "exampleTr": "Tüm müşterilerime aylık fatura gönderirim.",
+      "extra": "My monthly income varies a lot as a freelancer.",
+      "extraTr": "Freelancer olarak aylık gelirim çok değişiyor."
+    },
+    {
+      "word": "quickly",
+      "pronunciation": "KVİK-li",
+      "turkish": "hızlıca / çabucak",
+      "example": "I need to finish this project quickly.",
+      "exampleTr": "Bu projeyi hızlıca bitirmem gerekiyor.",
+      "extra": "She responds to emails very quickly.",
+      "extraTr": "E-postalara çok çabuk cevap verir."
+    },
+    {
+      "word": "slowly",
+      "pronunciation": "SLOU-li",
+      "turkish": "yavaşça",
+      "example": "The internet is working slowly today.",
+      "exampleTr": "Bugün internet yavaş çalışıyor.",
+      "extra": "Can you speak more slowly, please?",
+      "extraTr": "Daha yavaş konuşabilir misiniz, lütfen?"
+    },
+    {
+      "word": "carefully",
+      "pronunciation": "KER-fıl-i",
+      "turkish": "dikkatli bir şekilde",
+      "example": "I always read contracts carefully before signing.",
+      "exampleTr": "Sözleşmeleri imzalamadan önce her zaman dikkatli okurum.",
+      "extra": "You should plan your budget carefully.",
+      "extraTr": "Bütçeni dikkatli planlamalısın."
+    },
+    {
+      "word": "easily",
+      "pronunciation": "İİZ-ı-li",
+      "turkish": "kolayca",
+      "example": "You can easily find freelance jobs online.",
+      "exampleTr": "İnternette kolayca freelance iş bulabilirsin.",
+      "extra": "This software is easily the best tool for designers.",
+      "extraTr": "Bu yazılım tasarımcılar için kolayca en iyi araç."
+    },
+    {
+      "word": "immediately",
+      "pronunciation": "i-MII-di-ıt-li",
+      "turkish": "hemen / derhal",
+      "example": "I responded to the client immediately.",
+      "exampleTr": "Müşteriye hemen cevap verdim.",
+      "extra": "If there's a problem, contact me immediately.",
+      "extraTr": "Bir sorun olursa benimle hemen iletişime geç."
+    },
+    {
+      "word": "eventually",
+      "pronunciation": "i-VEN-çu-ı-li",
+      "turkish": "sonunda / eninde sonunda",
+      "example": "I eventually learned how to manage my time better.",
+      "exampleTr": "Sonunda zamanımı daha iyi yönetmeyi öğrendim.",
+      "extra": "If you keep practicing, you'll eventually get better.",
+      "extraTr": "Pratik yapmaya devam edersen sonunda daha iyi olursun."
+    },
+    {
+      "word": "recently",
+      "pronunciation": "RII-sınt-li",
+      "turkish": "son zamanlarda",
+      "example": "I recently started a new project for a big company.",
+      "exampleTr": "Son zamanlarda büyük bir şirket için yeni bir projeye başladım.",
+      "extra": "Have you seen any good movies recently?",
+      "extraTr": "Son zamanlarda güzel bir film izledin mi?"
+    },
+    {
+      "word": "currently",
+      "pronunciation": "KAR-ınt-li",
+      "turkish": "şu anda / şu an itibariyle",
+      "example": "I'm currently working on three different projects.",
+      "exampleTr": "Şu anda üç farklı proje üzerinde çalışıyorum.",
+      "extra": "She's currently not available for new work.",
+      "extraTr": "Şu an yeni iş için müsait değil."
+    },
+    {
+      "word": "probably",
+      "pronunciation": "PROB-ıb-li",
+      "turkish": "muhtemelen",
+      "example": "I'll probably finish the design by Thursday.",
+      "exampleTr": "Tasarımı muhtemelen Perşembe'ye kadar bitiririm.",
+      "extra": "The meeting will probably be online.",
+      "extraTr": "Toplantı muhtemelen online olacak."
+    },
+    {
+      "word": "definitely",
+      "pronunciation": "DEF-ı-nıt-li",
+      "turkish": "kesinlikle",
+      "example": "I will definitely send the file before midnight.",
+      "exampleTr": "Dosyayı kesinlikle gece yarısından önce göndereceğim.",
+      "extra": "This is definitely the best café to work from.",
+      "extraTr": "Burası kesinlikle çalışmak için en iyi kafe."
+    },
+    {
+      "word": "certainly",
+      "pronunciation": "SÖR-tın-li",
+      "turkish": "elbette / kesinlikle",
+      "example": "I can certainly help you with that project.",
+      "exampleTr": "O projede sana elbette yardım edebilirim.",
+      "extra": "Freelancing is certainly not easy, but it's rewarding.",
+      "extraTr": "Freelancing kesinlikle kolay değil ama ödüllendirici."
+    },
+    {
+      "word": "fortunately",
+      "pronunciation": "FOR-çı-nıt-li",
+      "turkish": "neyse ki / şans eseri",
+      "example": "Fortunately, the client loved my design.",
+      "exampleTr": "Neyse ki müşteri tasarımımı çok beğendi.",
+      "extra": "Fortunately, I saved a backup of all my work.",
+      "extraTr": "Neyse ki tüm işlerimin yedeğini almıştım."
+    },
+    {
+      "word": "unfortunately",
+      "pronunciation": "an-FOR-çı-nıt-li",
+      "turkish": "maalesef / ne yazık ki",
+      "example": "Unfortunately, the project was cancelled.",
+      "exampleTr": "Maalesef proje iptal edildi.",
+      "extra": "Unfortunately, I can't lower my price.",
+      "extraTr": "Maalesef fiyatımı düşüremem."
+    },
+    {
+      "word": "basically",
+      "pronunciation": "BEY-sik-li",
+      "turkish": "temelde / aslında",
+      "example": "Basically, I work when I want and where I want.",
+      "exampleTr": "Temelde istediğim zaman, istediğim yerde çalışırım.",
+      "extra": "The job is basically the same as my last one.",
+      "extraTr": "İş temelde bir öncekiyle aynı."
+    },
+    {
+      "word": "obviously",
+      "pronunciation": "OB-vi-ıs-li",
+      "turkish": "açıkça / belli ki",
+      "example": "Obviously, good communication is important with clients.",
+      "exampleTr": "Açıkça, müşterilerle iyi iletişim önemli.",
+      "extra": "She's obviously very talented at graphic design.",
+      "extraTr": "Grafik tasarımda belli ki çok yetenekli."
+    },
+    {
+      "word": "generally",
+      "pronunciation": "CEN-rı-li",
+      "turkish": "genel olarak",
+      "example": "I generally prefer to work in the morning.",
+      "exampleTr": "Genel olarak sabah çalışmayı tercih ederim.",
+      "extra": "Freelancers generally have more flexible schedules.",
+      "extraTr": "Freelancerlar genel olarak daha esnek programlara sahiptir."
+    },
+    {
+      "word": "extremely",
+      "pronunciation": "iks-TRIIM-li",
+      "turkish": "son derece / aşırı",
+      "example": "This week has been extremely busy.",
+      "exampleTr": "Bu hafta son derece yoğun geçti.",
+      "extra": "The client was extremely happy with the results.",
+      "extraTr": "Müşteri sonuçlardan son derece memnundu."
+    }
+  ],
+
+  "grammar": {
+    "title": "Frequency Adverbs, Manner Adverbs (-ly) & Degree Adverbs",
+    "titleTr": "Sıklık Zarfları, Durum Zarfları (-ly) ve Derece Zarfları",
+    "explanation": "Frequency adverbs tell us how often (always, usually, often, sometimes, rarely, never). They go BEFORE the main verb but AFTER 'be'. Manner adverbs (-ly) tell us HOW something happens. Degree adverbs (very, quite, extremely) tell us HOW MUCH.",
+    "explanationTr": "Sıklık zarfları ne sıklıkla olduğunu söyler (always, usually, often, sometimes, rarely, never). Ana fiilden ÖNCE ama 'be' fiilinden SONRA gelir. Durum zarfları (-ly) bir şeyin NASIL olduğunu söyler. Derece zarfları (very, quite, extremely) NE KADAR olduğunu söyler.",
+    "table": [
+      ["always (100%)", "Fiilden ÖNCE", "I always wake up at 7 AM.", "Her zaman sabah 7'de kalkarım."],
+      ["usually (80%)", "Fiilden ÖNCE", "She usually works from home.", "Genellikle evden çalışır."],
+      ["often (60%)", "Fiilden ÖNCE", "We often have video meetings.", "Sık sık video toplantımız olur."],
+      ["sometimes (40%)", "Fiilden ÖNCE veya cümle başı", "Sometimes I work late.", "Bazen geç saate kadar çalışırım."],
+      ["rarely (10%)", "Fiilden ÖNCE", "He rarely takes a break.", "Nadiren mola verir."],
+      ["never (0%)", "Fiilden ÖNCE", "I never work on Sundays.", "Pazar günleri asla çalışmam."],
+      ["carefully, quickly (-ly)", "Fiilden SONRA", "She writes carefully.", "Dikkatli yazar."]
+    ],
+    "tips": [
+      { "en": "Frequency adverb + main verb: I always work.", "tr": "Sıklık zarfı + ana fiil: I always work. (I work always DEĞİL!)" },
+      { "en": "Be + frequency adverb: I am always busy.", "tr": "Be + sıklık zarfı: I am always busy. (I always am busy DEĞİL!)" },
+      { "en": "sometimes / usually can start a sentence", "tr": "sometimes / usually cümle başına da gelebilir: Sometimes I work late." },
+      { "en": "never = negative meaning (don't use 'not' with never)", "tr": "never = olumsuz anlam ('not' ile kullanma: I never go, I don't never go DEĞİL!)" },
+      { "en": "Adjective + -ly = Adverb: slow → slowly, careful → carefully", "tr": "Sıfat + -ly = Zarf: slow → slowly, careful → carefully" },
+      { "en": "very / quite / extremely + adjective/adverb", "tr": "very / quite / extremely + sıfat/zarf: very quickly, extremely busy" }
+    ]
+  },
+
+  "reading": {
+    "text": "A Week in My Freelance Life\n\nHi, I'm Deniz! I'm a freelance graphic designer from Antalya. People often ask me: \"What's it like working for yourself?\" Well, let me tell you about a typical week.\n\nI usually wake up at 8 AM — definitely later than my friends who work in offices! I always start with coffee and I quickly check my emails. I currently have four regular clients, so I'm extremely busy most weeks.\n\nOn Mondays, I generally plan my whole week. I carefully write a to-do list and prioritize my tasks. I frequently use project management tools to stay organized.\n\nI sometimes work from a café, but I usually prefer my home office. I rarely go to a coworking space because it's quite expensive. I never work without music — it helps me concentrate.\n\nUnfortunately, I occasionally have to work late at night when deadlines are tight. But fortunately, I can easily take a break during the day to exercise or cook lunch.\n\nThe best part? I'm basically my own boss. I can certainly say that freelancing has changed my life. Obviously, it's not always easy — the income isn't always regular, and I constantly need to find new clients. But I would definitely not go back to a regular office job!",
+    "textTr": "Freelance Hayatımdan Bir Hafta\n\nMerhaba, ben Deniz! Antalya'dan freelance grafik tasarımcısıyım. İnsanlar sık sık soruyor: \"Kendi işini yapmak nasıl bir şey?\" Peki, tipik bir haftamı anlatayım.\n\nGenellikle sabah 8'de kalkarım — ofiste çalışan arkadaşlarımdan kesinlikle daha geç! Her zaman kahveyle başlarım ve hızlıca e-postalarımı kontrol ederim. Şu anda dört düzenli müşterim var, bu yüzden çoğu hafta son derece meşgulüm.\n\nPazartesileri genel olarak tüm haftamı planlarım. Dikkatli bir şekilde yapılacaklar listesi yazarım ve görevlerimi önceliklendiririm. Organize kalmak için sıklıkla proje yönetim araçları kullanırım.\n\nBazen bir kafeden çalışırım ama genellikle ev ofisimi tercih ederim. Nadiren ortak çalışma alanına giderim çünkü oldukça pahalı. Müzik olmadan asla çalışmam — konsantre olmama yardımcı olur.\n\nMaalesef, son tarihler sıkışık olduğunda ara sıra gece geç saatlere kadar çalışmak zorunda kalırım. Ama neyse ki, gün içinde egzersiz yapmak veya öğle yemeği pişirmek için kolayca mola verebilirim.\n\nEn iyi kısmı mı? Temelde kendi patronumuyum. Freelancing'in hayatımı değiştirdiğini kesinlikle söyleyebilirim. Açıkça, her zaman kolay değil — gelir her zaman düzenli değil ve sürekli yeni müşteri bulmam gerekiyor. Ama kesinlikle normal bir ofis işine geri dönmezdim!",
+    "questions": [
+      {
+        "question": "What time does Deniz usually wake up?",
+        "questionTr": "Deniz genellikle saat kaçta kalkar?",
+        "options": ["6 AM", "7 AM", "8 AM", "9 AM"],
+        "correct": 2
+      },
+      {
+        "question": "Where does Deniz rarely go to work?",
+        "questionTr": "Deniz çalışmak için nadiren nereye gider?",
+        "options": ["A café", "Home office", "A coworking space", "A library"],
+        "correct": 2
+      },
+      {
+        "question": "What does Deniz never work without?",
+        "questionTr": "Deniz neyi olmadan asla çalışmaz?",
+        "options": ["Coffee", "Music", "Her phone", "A to-do list"],
+        "correct": 1
+      },
+      {
+        "question": "How many regular clients does Deniz currently have?",
+        "questionTr": "Deniz'in şu anda kaç düzenli müşterisi var?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correct": 2
+      },
+      {
+        "question": "Would Deniz go back to a regular office job?",
+        "questionTr": "Deniz normal bir ofis işine geri döner mi?",
+        "options": ["Yes, she misses it", "Maybe, if the pay is good", "Definitely not", "She's thinking about it"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ start my day with coffee. (her zaman)", "answer": "always", "hint": "100% sıklık" },
+      { "sentence": "She ___ works from home on Fridays. (genellikle)", "answer": "usually", "hint": "80% sıklık" },
+      { "sentence": "I ___ work on weekends. (asla)", "answer": "never", "hint": "0% sıklık" },
+      { "sentence": "He ___ takes a lunch break. (nadiren)", "answer": "rarely", "hint": "10% sıklık" },
+      { "sentence": "Please speak more ___. (yavaşça)", "answer": "slowly", "hint": "slow + -ly" },
+      { "sentence": "She reads contracts very ___. (dikkatli)", "answer": "carefully", "hint": "careful + -ly" },
+      { "sentence": "This week has been ___ busy. (son derece)", "answer": "extremely", "hint": "derece zarfı" },
+      { "sentence": "___, the project was cancelled. (maalesef)", "answer": "Unfortunately", "hint": "ne yazık ki" },
+      { "sentence": "I'm ___ working on a new project. (şu anda)", "answer": "currently", "hint": "şu an" },
+      { "sentence": "The meeting will ___ be online. (muhtemelen)", "answer": "probably", "hint": "tahmin" },
+      { "sentence": "I ___ forget to take breaks. (bazen)", "answer": "sometimes", "hint": "40% sıklık" },
+      { "sentence": "She responds to emails very ___. (hızlıca)", "answer": "quickly", "hint": "quick + -ly" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "Sıklık zarfı hangi sıraya gelir? \"I ___ work from home.\"",
+        "options": ["I work usually from home.", "I usually work from home.", "Usually I from home work.", "I work from home usually."],
+        "correct": 1
+      },
+      {
+        "question": "\"Be\" fiili ile sıklık zarfı sırası hangisi doğru?",
+        "options": ["I always am busy.", "Always I am busy.", "I am always busy.", "Busy always I am."],
+        "correct": 2
+      },
+      {
+        "question": "\"Nadiren\" İngilizce'de hangisi?",
+        "options": ["never", "rarely", "sometimes", "often"],
+        "correct": 1
+      },
+      {
+        "question": "\"careful\" kelimesinin zarf hali nedir?",
+        "options": ["carefuler", "careless", "carefully", "carefuly"],
+        "correct": 2
+      },
+      {
+        "question": "\"Son derece meşgul\" İngilizce'de hangisi?",
+        "options": ["always busy", "very never busy", "extremely busy", "busy extremely"],
+        "correct": 2
+      },
+      {
+        "question": "\"Neyse ki\" İngilizce'de hangisi?",
+        "options": ["Unfortunately", "Fortunately", "Obviously", "Basically"],
+        "correct": 1
+      },
+      {
+        "question": "\"I ___ go to the gym.\" (hiçbir zaman) — Hangisi doğru?",
+        "options": ["I don't never go", "I never go", "I go never", "I never don't go"],
+        "correct": 1
+      },
+      {
+        "question": "\"Muhtemelen\" İngilizce'de hangisi?",
+        "options": ["definitely", "certainly", "probably", "obviously"],
+        "correct": 2
+      },
+      {
+        "question": "\"Şu anda\" İngilizce'de hangisi?",
+        "options": ["recently", "eventually", "currently", "finally"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "always", "right": "her zaman" },
+      { "left": "usually", "right": "genellikle" },
+      { "left": "sometimes", "right": "bazen" },
+      { "left": "rarely", "right": "nadiren" },
+      { "left": "never", "right": "asla" },
+      { "left": "quickly", "right": "hızlıca" },
+      { "left": "slowly", "right": "yavaşça" },
+      { "left": "carefully", "right": "dikkatli bir şekilde" },
+      { "left": "extremely", "right": "son derece" },
+      { "left": "unfortunately", "right": "maalesef" },
+      { "left": "fortunately", "right": "neyse ki" },
+      { "left": "probably", "right": "muhtemelen" },
+      { "left": "definitely", "right": "kesinlikle" },
+      { "left": "currently", "right": "şu anda" },
+      { "left": "recently", "right": "son zamanlarda" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "always", "start", "with", "coffee"], "correct": "I always start with coffee" },
+      { "words": ["She", "usually", "works", "from", "home"], "correct": "She usually works from home" },
+      { "words": ["I", "never", "work", "on", "Sundays"], "correct": "I never work on Sundays" },
+      { "words": ["Sometimes", "I", "work", "from", "a", "café"], "correct": "Sometimes I work from a café" },
+      { "words": ["He", "is", "always", "busy", "on", "Mondays"], "correct": "He is always busy on Mondays" },
+      { "words": ["She", "writes", "emails", "very", "carefully"], "correct": "She writes emails very carefully" },
+      { "words": ["I", "am", "currently", "working", "on", "a", "project"], "correct": "I am currently working on a project" },
+      { "words": ["Unfortunately", "the", "project", "was", "cancelled"], "correct": "Unfortunately the project was cancelled" },
+      { "words": ["The", "client", "was", "extremely", "happy"], "correct": "The client was extremely happy" }
+    ],
+    "translation": [
+      {
+        "turkish": "Her zaman kahveyle başlarım.",
+        "english": "I always start with coffee.",
+        "acceptAlso": ["I always start with a coffee"]
+      },
+      {
+        "turkish": "Genellikle evden çalışırım.",
+        "english": "I usually work from home.",
+        "acceptAlso": ["Usually I work from home"]
+      },
+      {
+        "turkish": "Pazar günleri asla çalışmam.",
+        "english": "I never work on Sundays.",
+        "acceptAlso": ["I don't work on Sundays"]
+      },
+      {
+        "turkish": "Bazen bir kafeden çalışırım.",
+        "english": "Sometimes I work from a café.",
+        "acceptAlso": ["I sometimes work from a cafe", "Sometimes I work from a cafe"]
+      },
+      {
+        "turkish": "Bu hafta son derece yoğun geçti.",
+        "english": "This week has been extremely busy.",
+        "acceptAlso": ["This week was extremely busy"]
+      },
+      {
+        "turkish": "Maalesef proje iptal edildi.",
+        "english": "Unfortunately, the project was cancelled.",
+        "acceptAlso": ["Unfortunately the project was cancelled", "Unfortunately, the project was canceled"]
+      },
+      {
+        "turkish": "Şu anda üç proje üzerinde çalışıyorum.",
+        "english": "I'm currently working on three projects.",
+        "acceptAlso": ["I am currently working on three projects", "Currently I'm working on three projects"]
+      },
+      {
+        "turkish": "E-postalara çok hızlı cevap verir.",
+        "english": "She responds to emails very quickly.",
+        "acceptAlso": ["She replies to emails very quickly"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Talking About Freelance Life",
+    "titleTr": "Freelance Hayatı Hakkında Sohbet",
+    "context": "Eyüp bir kafede eski arkadaşı Selin ile karşılaşıyor. Selin freelance tasarımcı olarak çalışıyor ve iş alışkanlıkları hakkında sohbet ediyorlar.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Selin! I haven't seen you recently. How are you?", "textTr": "Selin! Son zamanlarda seni görmedim. Nasılsın?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Eyüp! I'm great, thanks! I've been extremely busy lately. I'm currently working as a freelance designer.", "textTr": "Eyüp! Harikayım, teşekkürler! Son zamanlarda son derece yoğundum. Şu anda freelance tasarımcı olarak çalışıyorum.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Really? That's amazing! Do you usually work from home?", "textTr": "Gerçekten mi? Harika! Genellikle evden mi çalışıyorsun?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Yes, I usually work from my home office. But I sometimes come to cafés like this for a change. I rarely go to coworking spaces — they're quite expensive.", "textTr": "Evet, genellikle ev ofisimden çalışırım. Ama bazen böyle kafelere değişiklik olsun diye gelirim. Nadiren ortak çalışma alanlarına giderim — oldukça pahalılar.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "How do you organize your day? I always struggle with time management.", "textTr": "Günü nasıl organize ediyorsun? Ben her zaman zaman yönetimiyle zorlanırım." },
+      { "speaker": "A", "speakerName": "Selin", "text": "I always wake up early and quickly check my emails. Then I carefully plan my tasks for the day. I generally do the hardest work in the morning.", "textTr": "Her zaman erken kalkarım ve hızlıca e-postalarımı kontrol ederim. Sonra günün görevlerini dikkatli bir şekilde planlarım. Genel olarak en zor işi sabah yaparım.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Do you often work late at night?", "textTr": "Sık sık gece geç saatlere kadar çalışır mısın?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Unfortunately, yes. I occasionally have to work until midnight when deadlines are tight. But fortunately, I can easily take breaks during the day.", "textTr": "Maalesef, evet. Son tarihler sıkışık olduğunda ara sıra gece yarısına kadar çalışmak zorunda kalırım. Ama neyse ki gün içinde kolayca mola verebilirim.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Is the income regular? I'm thinking about freelancing too.", "textTr": "Gelir düzenli mi? Ben de freelancing düşünüyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Honestly, the income isn't always regular. I constantly need to find new clients. But I definitely earn more than my old office job.", "textTr": "Dürüst olmak gerekirse, gelir her zaman düzenli değil. Sürekli yeni müşteri bulmam gerekiyor. Ama eski ofis işimden kesinlikle daha fazla kazanıyorum.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That's really interesting. Do you ever miss working in an office?", "textTr": "Gerçekten ilginç. Ofiste çalışmayı hiç özlüyor musun?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Never! I'm basically my own boss now. I can certainly say it was the best decision I ever made. Obviously, it takes discipline — you can't just watch TV all day!", "textTr": "Asla! Artık temelde kendi patronumuyum. Aldığım en iyi karar olduğunu kesinlikle söyleyebilirim. Açıkça, disiplin gerektirir — bütün gün TV izleyemezsin!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "You're probably right. I should definitely think about it more carefully.", "textTr": "Muhtemelen haklısın. Bunu kesinlikle daha dikkatli düşünmeliyim." },
+      { "speaker": "A", "speakerName": "Selin", "text": "You should! And if you eventually decide to try it, I can definitely help you get started.", "textTr": "Düşünmelisin! Ve sonunda denemeye karar verirsen, başlaman için sana kesinlikle yardım edebilirim.", "gender": "female" }
+    ],
+    "questions": [
+      {
+        "question": "Where does Selin usually work?",
+        "questionTr": "Selin genellikle nerede çalışır?",
+        "options": ["At a café", "At a coworking space", "At her home office", "At a company office"],
+        "correct": 2
+      },
+      {
+        "question": "When does Selin generally do the hardest work?",
+        "questionTr": "Selin genel olarak en zor işi ne zaman yapar?",
+        "options": ["In the afternoon", "In the morning", "At night", "On weekends"],
+        "correct": 1
+      },
+      {
+        "question": "Does Selin miss working in an office?",
+        "questionTr": "Selin ofiste çalışmayı özlüyor mu?",
+        "options": ["Yes, always", "Sometimes", "Rarely", "Never"],
+        "correct": 3
+      },
+      {
+        "question": "What does Selin constantly need to do?",
+        "questionTr": "Selin'in sürekli ne yapması gerekiyor?",
+        "options": ["Update her software", "Find new clients", "Go to meetings", "Learn new skills"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyüp thinking about doing?",
+        "questionTr": "Eyüp ne yapmayı düşünüyor?",
+        "options": ["Getting an office job", "Moving to a new city", "Trying freelancing", "Going back to school"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Adverbs of Frequency - British Council",
+      "description": "Sıklık zarfları alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/adverbs-of-frequency",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Adverbs - BBC Learning English",
+      "description": "Zarf türleri video anlatım",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-5/session-1",
+      "type": "video",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Frequency Adverbs - Cambridge Dictionary",
+      "description": "Sıklık zarfları sözlüğü ve kullanım",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/adverbs-of-frequency",
+      "type": "article",
+      "level": "A2",
+      "free": true
+    }
+  ]
+}

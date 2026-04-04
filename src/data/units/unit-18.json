@@ -1,0 +1,447 @@
+{
+  "id": "unit-18",
+  "title": "Present Perfect",
+  "titleTr": "Present Perfect (Yakın Geçmiş / Deneyim Zamanı)",
+  "level": "A2",
+  "module": 3,
+  "description": "Talk about your life experiences, work history, and achievements using the Present Perfect tense.",
+  "descriptionTr": "Present Perfect zamanıyla hayat deneyimlerini, iş geçmişini ve başarılarını anlat.",
+
+  "vocabulary": [
+    {
+      "word": "have/has",
+      "pronunciation": "hev / hez",
+      "turkish": "yardımcı fiil (Present Perfect için)",
+      "example": "I have worked in logistics for five years.",
+      "exampleTr": "Beş yıldır lojistikte çalıştım.",
+      "extra": "She has lived in three different countries.",
+      "extraTr": "Üç farklı ülkede yaşadı."
+    },
+    {
+      "word": "worked",
+      "pronunciation": "vörkt",
+      "turkish": "çalıştı (work fiilinin past participle hali)",
+      "example": "I have worked with international clients before.",
+      "exampleTr": "Daha önce uluslararası müşterilerle çalıştım.",
+      "extra": "He has worked at this company since 2018.",
+      "extraTr": "2018'den beri bu şirkette çalışıyor."
+    },
+    {
+      "word": "lived",
+      "pronunciation": "livd",
+      "turkish": "yaşadı (live fiilinin past participle hali)",
+      "example": "I have lived in Istanbul my whole life.",
+      "exampleTr": "Hayatım boyunca İstanbul'da yaşadım.",
+      "extra": "She has lived abroad for two years.",
+      "extraTr": "İki yıldır yurt dışında yaşıyor."
+    },
+    {
+      "word": "been",
+      "pronunciation": "bin",
+      "turkish": "olmuş / gitmiş (be fiilinin past participle hali)",
+      "example": "Have you ever been to the United States?",
+      "exampleTr": "Hiç Amerika'ya gittin mi?",
+      "extra": "I have been very busy this week.",
+      "extraTr": "Bu hafta çok meşgul oldum."
+    },
+    {
+      "word": "visited",
+      "pronunciation": "VIZ-i-tid",
+      "turkish": "ziyaret etti",
+      "example": "I have visited Germany twice for business.",
+      "exampleTr": "İş için Almanya'yı iki kez ziyaret ettim.",
+      "extra": "She has visited over twenty countries.",
+      "extraTr": "Yirmiden fazla ülke ziyaret etti."
+    },
+    {
+      "word": "studied",
+      "pronunciation": "STAD-id",
+      "turkish": "çalıştı / okudu (eğitim)",
+      "example": "I have studied English for six months.",
+      "exampleTr": "Altı aydır İngilizce çalışıyorum.",
+      "extra": "He has studied business administration at university.",
+      "extraTr": "Üniversitede işletme okudu."
+    },
+    {
+      "word": "learned",
+      "pronunciation": "lörnd",
+      "turkish": "öğrendi",
+      "example": "I have learned a lot about e-commerce this year.",
+      "exampleTr": "Bu yıl e-ticaret hakkında çok şey öğrendim.",
+      "extra": "She has learned three languages so far.",
+      "extraTr": "Şimdiye kadar üç dil öğrendi."
+    },
+    {
+      "word": "managed",
+      "pronunciation": "ME-nicд",
+      "turkish": "yönetti / başardı",
+      "example": "I have managed a team of ten people.",
+      "exampleTr": "On kişilik bir ekibi yönettim.",
+      "extra": "She has managed big projects for international clients.",
+      "extraTr": "Uluslararası müşteriler için büyük projeler yönetti."
+    },
+    {
+      "word": "created",
+      "pronunciation": "kri-EY-tid",
+      "turkish": "oluşturdu / yarattı",
+      "example": "I have created my own online store.",
+      "exampleTr": "Kendi online mağazamı oluşturdum.",
+      "extra": "He has created a portfolio website for his work.",
+      "extraTr": "İşleri için bir portfolyo web sitesi oluşturdu."
+    },
+    {
+      "word": "completed",
+      "pronunciation": "kım-PLİİ-tid",
+      "turkish": "tamamladı",
+      "example": "I have completed three online courses this year.",
+      "exampleTr": "Bu yıl üç online kurs tamamladım.",
+      "extra": "She has completed her degree in marketing.",
+      "extraTr": "Pazarlama diplomasını tamamladı."
+    },
+    {
+      "word": "ever",
+      "pronunciation": "EV-ır",
+      "turkish": "hiç (soru cümlelerinde)",
+      "example": "Have you ever worked in a startup?",
+      "exampleTr": "Hiç bir startup'ta çalıştın mı?",
+      "extra": "Have you ever given a presentation in English?",
+      "extraTr": "Hiç İngilizce sunum yaptın mı?"
+    },
+    {
+      "word": "never",
+      "pronunciation": "NEV-ır",
+      "turkish": "hiç / asla (olumsuz)",
+      "example": "I have never been to Japan.",
+      "exampleTr": "Hiç Japonya'ya gitmedim.",
+      "extra": "He has never worked for a big company.",
+      "extraTr": "Hiç büyük bir şirkette çalışmadı."
+    },
+    {
+      "word": "already",
+      "pronunciation": "ol-RED-i",
+      "turkish": "çoktan / zaten",
+      "example": "I have already sent my CV to three companies.",
+      "exampleTr": "CV'mi çoktan üç şirkete gönderdim.",
+      "extra": "She has already finished the project.",
+      "extraTr": "Projeyi çoktan bitirdi."
+    },
+    {
+      "word": "yet",
+      "pronunciation": "yet",
+      "turkish": "henüz / daha (olumsuz ve sorularda)",
+      "example": "I haven't received a reply yet.",
+      "exampleTr": "Henüz bir cevap almadım.",
+      "extra": "Have you finished the report yet?",
+      "extraTr": "Raporu daha bitirdin mi?"
+    },
+    {
+      "word": "just",
+      "pronunciation": "cast",
+      "turkish": "az önce / henüz",
+      "example": "I have just started a new job.",
+      "exampleTr": "Az önce yeni bir işe başladım.",
+      "extra": "She has just come back from London.",
+      "extraTr": "Londra'dan henüz döndü."
+    },
+    {
+      "word": "since",
+      "pronunciation": "sins",
+      "turkish": "-den beri (belirli bir zaman noktası)",
+      "example": "I have worked here since 2020.",
+      "exampleTr": "2020'den beri burada çalışıyorum.",
+      "extra": "She has lived in Ankara since she was a child.",
+      "extraTr": "Çocukluğundan beri Ankara'da yaşıyor."
+    },
+    {
+      "word": "for",
+      "pronunciation": "for",
+      "turkish": "-dir / boyunca (süre belirtir)",
+      "example": "I have studied English for six months.",
+      "exampleTr": "Altı aydır İngilizce çalışıyorum.",
+      "extra": "They have lived in this city for ten years.",
+      "extraTr": "On yıldır bu şehirde yaşıyorlar."
+    },
+    {
+      "word": "recently",
+      "pronunciation": "RII-sınt-li",
+      "turkish": "son zamanlarda",
+      "example": "I have recently changed my career path.",
+      "exampleTr": "Son zamanlarda kariyer yolumu değiştirdim.",
+      "extra": "He has recently moved to a new city.",
+      "extraTr": "Son zamanlarda yeni bir şehre taşındı."
+    },
+    {
+      "word": "abroad",
+      "pronunciation": "ıb-ROOD",
+      "turkish": "yurt dışı / yurt dışında",
+      "example": "I have never traveled abroad for work.",
+      "exampleTr": "İş için hiç yurt dışına seyahat etmedim.",
+      "extra": "She has studied abroad in Canada.",
+      "extraTr": "Kanada'da yurt dışında okudu."
+    },
+    {
+      "word": "fluent",
+      "pronunciation": "FLUU-ınt",
+      "turkish": "akıcı (dil konuşma)",
+      "example": "She is fluent in English and German.",
+      "exampleTr": "İngilizce ve Almanca'yı akıcı konuşuyor.",
+      "extra": "I want to become fluent in English.",
+      "extraTr": "İngilizce'de akıcı olmak istiyorum."
+    },
+    {
+      "word": "degree",
+      "pronunciation": "dıg-RII",
+      "turkish": "diploma / lisans derecesi",
+      "example": "I have a degree in business administration.",
+      "exampleTr": "İşletme diplomam var.",
+      "extra": "She has completed her degree in marketing.",
+      "extraTr": "Pazarlama alanında diplomasını tamamladı."
+    },
+    {
+      "word": "certificate",
+      "pronunciation": "sır-TIF-i-kıt",
+      "turkish": "sertifika",
+      "example": "I have earned a certificate in digital marketing.",
+      "exampleTr": "Dijital pazarlama sertifikası aldım.",
+      "extra": "He has three certificates from online courses.",
+      "extraTr": "Online kurslardan üç sertifikası var."
+    },
+    {
+      "word": "internship",
+      "pronunciation": "IN-tırn-şip",
+      "turkish": "staj",
+      "example": "I have done an internship at a logistics company.",
+      "exampleTr": "Bir lojistik şirketinde staj yaptım.",
+      "extra": "She has completed her internship successfully.",
+      "extraTr": "Stajını başarıyla tamamladı."
+    },
+    {
+      "word": "freelance",
+      "pronunciation": "FRII-lens",
+      "turkish": "serbest çalışan / freelance",
+      "example": "I have worked as a freelance designer for two years.",
+      "exampleTr": "İki yıldır serbest tasarımcı olarak çalıştım.",
+      "extra": "He has been freelance since he left his last job.",
+      "extraTr": "Son işinden ayrıldığından beri serbest çalışıyor."
+    },
+    {
+      "word": "client",
+      "pronunciation": "KLAY-ınt",
+      "turkish": "müşteri (iş/hizmet)",
+      "example": "I have worked with clients from ten different countries.",
+      "exampleTr": "On farklı ülkeden müşteriyle çalıştım.",
+      "extra": "She has just met with a new client.",
+      "extraTr": "Az önce yeni bir müşteriyle görüştü."
+    },
+    {
+      "word": "portfolio",
+      "pronunciation": "port-FOL-i-ou",
+      "turkish": "portfolyo (iş dosyası)",
+      "example": "I have updated my portfolio with new projects.",
+      "exampleTr": "Portfolyomu yeni projelerle güncelledim.",
+      "extra": "Have you seen his portfolio? It's impressive!",
+      "extraTr": "Portfolyosunu gördün mü? Etkileyici!"
+    },
+    {
+      "word": "reference",
+      "pronunciation": "REF-rıns",
+      "turkish": "referans",
+      "example": "I have two references from my previous jobs.",
+      "exampleTr": "Önceki işlerimden iki referansım var.",
+      "extra": "Can I use you as a reference?",
+      "extraTr": "Seni referans olarak kullanabilir miyim?"
+    },
+    {
+      "word": "achievement",
+      "pronunciation": "ıç-IIV-mınt",
+      "turkish": "başarı / kazanım",
+      "example": "My biggest achievement has been building my own business.",
+      "exampleTr": "En büyük başarım kendi işimi kurmak oldu.",
+      "extra": "She has many achievements in her career.",
+      "extraTr": "Kariyerinde birçok başarısı var."
+    },
+    {
+      "word": "promotion",
+      "pronunciation": "prı-MOU-şın",
+      "turkish": "terfi",
+      "example": "I have received a promotion this year.",
+      "exampleTr": "Bu yıl terfi aldım.",
+      "extra": "She has worked hard and earned a promotion.",
+      "extraTr": "Çok çalıştı ve terfi kazandı."
+    },
+    {
+      "word": "training",
+      "pronunciation": "TREYN-ing",
+      "turkish": "eğitim / kurs",
+      "example": "I have completed a training course in leadership.",
+      "exampleTr": "Liderlik eğitim kursunu tamamladım.",
+      "extra": "He has attended several training programs this year.",
+      "extraTr": "Bu yıl birkaç eğitim programına katıldı."
+    }
+  ],
+
+  "grammar": {
+    "title": "Present Perfect: have/has + past participle",
+    "titleTr": "Present Perfect: have/has + geçmiş zaman ortacı (V3)",
+    "explanation": "Present Perfect tense is used for life experiences, actions that started in the past and continue now, and recently completed actions. Form: subject + have/has + past participle (V3). Use 'have' with I/you/we/they and 'has' with he/she/it.",
+    "explanationTr": "Present Perfect zamanı hayat deneyimleri, geçmişte başlayıp hâlâ devam eden eylemler ve yakın zamanda tamamlanan işler için kullanılır. Yapı: özne + have/has + fiilin üçüncü hali (V3). I/you/we/they ile 'have', he/she/it ile 'has' kullanılır.",
+    "table": [
+      ["I have visited London.", "I have not (haven't) visited London.", "Have I visited London?", "Deneyim: Hayatımda bir noktada"],
+      ["She has worked here since 2020.", "She has not (hasn't) worked here since 2020.", "Has she worked here since 2020?", "since = belirli bir zamandan beri"],
+      ["We have lived here for 5 years.", "We have not (haven't) lived here for 5 years.", "Have we lived here for 5 years?", "for = bir süre boyunca"],
+      ["He has already finished.", "He hasn't finished yet.", "Has he finished yet?", "already (olumlu), yet (olumsuz/soru)"],
+      ["I have just arrived.", "I haven't just arrived.", "Have you just arrived?", "just = az önce, henüz"],
+      ["Have you ever been abroad?", "I have never been abroad.", "Ever = hiç (soruda)", "never = hiç / asla (olumsuzda)"],
+      ["I went to Paris in 2019. (Past Simple)", "I have been to Paris. (Present Perfect)", "Past Simple = belirli zaman", "Present Perfect = zaman belirtilmez"]
+    ],
+    "tips": [
+      { "en": "have not = haven't, has not = hasn't", "tr": "Kısaltma: have not → haven't, has not → hasn't" },
+      { "en": "Use 'since' for a point in time: since 2020, since Monday, since I was a child", "tr": "'since' belirli bir zaman noktası için: 2020'den beri, Pazartesi'den beri, çocukluğumdan beri" },
+      { "en": "Use 'for' for a duration: for 5 years, for 3 months, for a long time", "tr": "'for' bir süre için: 5 yıldır, 3 aydır, uzun zamandır" },
+      { "en": "'already' goes between have/has and the verb: I have already sent it.", "tr": "'already' have/has ile fiil arasına gelir: I have already sent it." },
+      { "en": "'yet' goes at the end of the sentence: I haven't done it yet. / Have you done it yet?", "tr": "'yet' cümle sonuna gelir: I haven't done it yet. / Have you done it yet?" },
+      { "en": "Past Simple uses specific time (yesterday, in 2019, last week). Present Perfect does NOT: I have been to Paris. (when? not important)", "tr": "Past Simple belirli zaman kullanır (dün, 2019'da). Present Perfect'te zaman belirtilmez: I have been to Paris. (ne zaman? önemli değil)" }
+    ]
+  },
+
+  "reading": {
+    "text": "My name is Eyüp and I want to share my professional journey with you.\n\nI have worked in logistics and e-commerce for several years. I started as an intern at a small shipping company, and since then, I have gained a lot of experience. I have managed shipments to over fifteen countries and I have worked with clients from Europe, Asia, and the Middle East.\n\nI have also improved my skills over the years. I have completed three online courses in digital marketing, and I have recently earned a certificate in supply chain management. I haven't finished my English course yet, but I have already learned a lot!\n\nI have never worked abroad, but I have traveled to Germany and Bulgaria for business meetings. I have always wanted to work with international teams, and now I have that opportunity.\n\nMy biggest achievement has been building my own online store. I have created it from scratch, and it has grown every month since I launched it. I haven't received a promotion at my day job yet, but I have gained something better — I have become my own boss on the side!\n\nWhat about you? What have you achieved so far?",
+    "textTr": "Benim adım Eyüp ve profesyonel yolculuğumu sizinle paylaşmak istiyorum.\n\nBirkaç yıldır lojistik ve e-ticaret alanında çalışıyorum. Küçük bir kargo şirketinde stajyer olarak başladım ve o zamandan beri çok fazla deneyim kazandım. On beşten fazla ülkeye sevkiyat yönettim ve Avrupa, Asya ve Orta Doğu'dan müşterilerle çalıştım.\n\nYıllar içinde becerilerimi de geliştirdim. Dijital pazarlama alanında üç online kurs tamamladım ve yakın zamanda tedarik zinciri yönetimi sertifikası aldım. İngilizce kursumu henüz bitirmedim ama çoktan çok şey öğrendim!\n\nHiç yurt dışında çalışmadım ama iş toplantıları için Almanya ve Bulgaristan'a seyahat ettim. Her zaman uluslararası ekiplerle çalışmak istemişimdir ve şimdi bu fırsata sahibim.\n\nEn büyük başarım kendi online mağazamı kurmak oldu. Sıfırdan oluşturdum ve onu açtığımdan beri her ay büyüyor. Asıl işimde henüz terfi almadım ama daha iyi bir şey kazandım — yan tarafta kendi patronum oldum!\n\nPeki ya sen? Şimdiye kadar neler başardın?",
+    "questions": [
+      {
+        "question": "How long has Eyüp worked in logistics and e-commerce?",
+        "questionTr": "Eyüp ne kadar süredir lojistik ve e-ticarette çalışıyor?",
+        "options": ["One year", "Several years", "Ten years", "Six months"],
+        "correct": 1
+      },
+      {
+        "question": "Has Eyüp ever worked abroad?",
+        "questionTr": "Eyüp hiç yurt dışında çalıştı mı?",
+        "options": ["Yes, in Germany", "Yes, in Bulgaria", "No, never", "Yes, in Europe"],
+        "correct": 2
+      },
+      {
+        "question": "What certificate has Eyüp recently earned?",
+        "questionTr": "Eyüp yakın zamanda hangi sertifikayı aldı?",
+        "options": ["Digital marketing", "English language", "Supply chain management", "E-commerce"],
+        "correct": 2
+      },
+      {
+        "question": "What is Eyüp's biggest achievement?",
+        "questionTr": "Eyüp'ün en büyük başarısı ne?",
+        "options": ["Getting a promotion", "Working abroad", "Building his own online store", "Learning English"],
+        "correct": 2
+      },
+      {
+        "question": "Has Eyüp finished his English course?",
+        "questionTr": "Eyüp İngilizce kursunu bitirdi mi?",
+        "options": ["Yes, he has", "No, not yet", "He hasn't started", "He never studied English"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Networking at a Business Conference",
+    "titleTr": "İş Konferansında Tanışma",
+    "context": "Eyüp bir iş konferansında. Mert adında biriyle tanışıyor. İkisi de iş deneyimlerini ve başarılarını paylaşıyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Mert", "text": "Hi there! I'm Mert. I don't think we've met before. Is this your first time at this conference?", "textTr": "Merhaba! Ben Mert. Daha önce tanışmadık sanırım. Bu konferansa ilk kez mi geliyorsun?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi Mert! I'm Eyüp. Yes, this is my first time. I've just started networking at events like this.", "textTr": "Merhaba Mert! Ben Eyüp. Evet, ilk kez geliyorum. Bu tür etkinliklerde yeni yeni tanışmalar kurmaya başladım." },
+      { "speaker": "A", "speakerName": "Mert", "text": "Nice to meet you, Eyüp! So, what do you do? Have you worked in e-commerce for long?", "textTr": "Tanıştığıma memnun oldum Eyüp! Peki, ne iş yapıyorsun? Uzun süredir e-ticarette mi çalışıyorsun?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I've worked in logistics and e-commerce for several years. I've also created my own online store recently.", "textTr": "Birkaç yıldır lojistik ve e-ticarette çalışıyorum. Ayrıca yakın zamanda kendi online mağazamı kurdum." },
+      { "speaker": "A", "speakerName": "Mert", "text": "That's impressive! Have you ever managed international shipments?", "textTr": "Etkileyici! Hiç uluslararası sevkiyat yönettin mi?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, I have. I've managed shipments to over fifteen countries. I've worked with clients from Europe and Asia.", "textTr": "Evet, yönettim. On beşten fazla ülkeye sevkiyat yönettim. Avrupa ve Asya'dan müşterilerle çalıştım." },
+      { "speaker": "A", "speakerName": "Mert", "text": "That's great experience. Have you ever lived abroad?", "textTr": "Bu harika bir deneyim. Hiç yurt dışında yaşadın mı?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "No, I've never lived abroad, but I've traveled to Germany and Bulgaria for business. What about you?", "textTr": "Hayır, hiç yurt dışında yaşamadım ama iş için Almanya ve Bulgaristan'a seyahat ettim. Peki ya sen?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "I've lived in Dubai for three years. I've worked in supply chain management since 2017.", "textTr": "Üç yıl Dubai'de yaşadım. 2017'den beri tedarik zinciri yönetiminde çalışıyorum.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Wow, that's amazing! Have you learned Arabic while you were there?", "textTr": "Vay, harika! Oradayken Arapça öğrendin mi?" },
+      { "speaker": "A", "speakerName": "Mert", "text": "I've learned some basic Arabic, but I'm not fluent yet. I've already completed a course, though. Have you studied any languages besides English?", "textTr": "Biraz temel Arapça öğrendim ama henüz akıcı değilim. Yine de bir kurs tamamladım. İngilizce dışında dil çalıştın mı?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I haven't studied other languages yet. I've focused on English because it's essential for international trade.", "textTr": "Henüz başka dil çalışmadım. Uluslararası ticaret için şart olduğu için İngilizce'ye odaklandım." },
+      { "speaker": "A", "speakerName": "Mert", "text": "That makes sense. Have you earned any certificates recently?", "textTr": "Mantıklı. Son zamanlarda sertifika aldın mı?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes! I've just earned a certificate in supply chain management, and I've completed three digital marketing courses.", "textTr": "Evet! Az önce tedarik zinciri yönetimi sertifikası aldım ve üç dijital pazarlama kursu tamamladım." },
+      { "speaker": "A", "speakerName": "Mert", "text": "We should definitely stay in touch. I've been looking for someone with your experience. Here's my card!", "textTr": "Kesinlikle iletişimde kalmalıyız. Senin deneyimine sahip birini arıyordum. Al, kartvizitim!", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you, Mert! I've really enjoyed talking to you. Let's connect on LinkedIn too!", "textTr": "Teşekkürler Mert! Seninle konuşmak çok keyifliydi. LinkedIn'den de bağlantı kuralım!" }
+    ],
+    "questions": [
+      { "question": "How long has Eyüp worked in logistics and e-commerce?", "questionTr": "Eyüp ne kadar süredir lojistik ve e-ticarette çalışıyor?", "options": ["One year", "Several years", "Since last month", "Ten years"], "correct": 1 },
+      { "question": "Where has Mert lived abroad?", "questionTr": "Mert yurt dışında nerede yaşadı?", "options": ["Germany", "Bulgaria", "Dubai", "London"], "correct": 2 },
+      { "question": "Has Mert become fluent in Arabic?", "questionTr": "Mert Arapça'da akıcı oldu mu?", "options": ["Yes, he is fluent", "No, not yet", "He never studied Arabic", "Yes, he completed a degree"], "correct": 1 },
+      { "question": "What certificate has Eyüp just earned?", "questionTr": "Eyüp en son hangi sertifikayı aldı?", "options": ["English language", "Digital marketing", "Supply chain management", "Business administration"], "correct": 2 },
+      { "question": "Why does Mert want to stay in touch with Eyüp?", "questionTr": "Mert neden Eyüp ile iletişimde kalmak istiyor?", "options": ["They are old friends", "He needs a new job", "He's been looking for someone with Eyüp's experience", "He wants to learn Turkish"], "correct": 2 }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ worked in logistics for five years.", "answer": "have", "hint": "I ile kullanılan yardımcı fiil" },
+      { "sentence": "She ___ visited Germany twice.", "answer": "has", "hint": "She ile kullanılan yardımcı fiil" },
+      { "sentence": "Have you ___ been to the United States?", "answer": "ever", "hint": "hiç (soru cümlesinde)" },
+      { "sentence": "I have ___ traveled abroad.", "answer": "never", "hint": "hiç / asla (olumsuz)" },
+      { "sentence": "He has ___ finished the report.", "answer": "already", "hint": "çoktan / zaten" },
+      { "sentence": "I haven't received a reply ___.", "answer": "yet", "hint": "henüz (cümle sonunda)" },
+      { "sentence": "She has ___ arrived at the office.", "answer": "just", "hint": "az önce / henüz" },
+      { "sentence": "I have worked here ___ 2020.", "answer": "since", "hint": "-den beri (belirli zaman noktası)" },
+      { "sentence": "They have lived in Istanbul ___ ten years.", "answer": "for", "hint": "boyunca / -dir (süre)" },
+      { "sentence": "I have ___ a lot about e-commerce this year.", "answer": "learned", "hint": "öğrenmek - V3" },
+      { "sentence": "She has ___ her degree in marketing.", "answer": "completed", "hint": "tamamlamak - V3" },
+      { "sentence": "Have you ___ any certificates recently?", "answer": "earned", "hint": "kazanmak / almak - V3" }
+    ],
+    "multipleChoice": [
+      { "question": "\"I ___ visited London twice.\" Boşluğa ne gelir?", "options": ["has", "have", "had", "am"], "correct": 1 },
+      { "question": "\"She ___ worked here since 2018.\" Boşluğa ne gelir?", "options": ["have", "has", "had", "is"], "correct": 1 },
+      { "question": "\"Have you ___ been to Japan?\" Boşluğa ne gelir?", "options": ["never", "already", "ever", "yet"], "correct": 2 },
+      { "question": "\"I haven't finished the project ___.\" Boşluğa ne gelir?", "options": ["already", "ever", "just", "yet"], "correct": 3 },
+      { "question": "\"I have lived here ___ five years.\" Hangisi doğru?", "options": ["since", "for", "from", "ago"], "correct": 1 },
+      { "question": "\"I have worked here ___ 2019.\" Hangisi doğru?", "options": ["for", "since", "from", "ago"], "correct": 1 },
+      { "question": "Hangisi Present Perfect?", "options": ["I went to Paris.", "I have been to Paris.", "I was in Paris.", "I go to Paris."], "correct": 1 },
+      { "question": "\"hasn't\" neyin kısaltmasıdır?", "options": ["has not", "have not", "had not", "has never"], "correct": 0 },
+      { "question": "\"Hiç yurt dışında çalıştın mı?\" İngilizce'si hangisi?", "options": ["Did you work abroad?", "Have you ever worked abroad?", "Do you work abroad?", "Are you working abroad?"], "correct": 1 },
+      { "question": "\"I have ___ started a new job.\" (az önce)", "options": ["yet", "already", "just", "ever"], "correct": 2 }
+    ],
+    "matching": [
+      { "left": "have/has", "right": "yardımcı fiil (Present Perfect)" },
+      { "left": "ever", "right": "hiç (sorularda)" },
+      { "left": "never", "right": "hiç / asla" },
+      { "left": "already", "right": "çoktan / zaten" },
+      { "left": "yet", "right": "henüz / daha" },
+      { "left": "just", "right": "az önce" },
+      { "left": "since", "right": "-den beri" },
+      { "left": "for", "right": "boyunca / -dir" },
+      { "left": "abroad", "right": "yurt dışında" },
+      { "left": "fluent", "right": "akıcı" },
+      { "left": "degree", "right": "diploma" },
+      { "left": "certificate", "right": "sertifika" },
+      { "left": "internship", "right": "staj" },
+      { "left": "achievement", "right": "başarı / kazanım" },
+      { "left": "promotion", "right": "terfi" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "have", "worked", "here", "since", "2020"], "correct": "I have worked here since 2020" },
+      { "words": ["She", "has", "never", "been", "to", "Japan"], "correct": "She has never been to Japan" },
+      { "words": ["Have", "you", "ever", "lived", "abroad"], "correct": "Have you ever lived abroad" },
+      { "words": ["He", "has", "already", "finished", "the", "project"], "correct": "He has already finished the project" },
+      { "words": ["I", "haven't", "received", "a", "reply", "yet"], "correct": "I haven't received a reply yet" },
+      { "words": ["They", "have", "lived", "here", "for", "ten", "years"], "correct": "They have lived here for ten years" },
+      { "words": ["She", "has", "just", "started", "a", "new", "job"], "correct": "She has just started a new job" },
+      { "words": ["I", "have", "completed", "three", "online", "courses"], "correct": "I have completed three online courses" },
+      { "words": ["Have", "you", "earned", "any", "certificates", "recently"], "correct": "Have you earned any certificates recently" }
+    ],
+    "translation": [
+      { "turkish": "Beş yıldır burada çalışıyorum.", "english": "I have worked here for five years.", "acceptAlso": ["I've worked here for five years", "I have worked here for 5 years", "I've worked here for 5 years"] },
+      { "turkish": "Hiç yurt dışına gittin mi?", "english": "Have you ever been abroad?", "acceptAlso": ["Have you ever traveled abroad", "Have you ever gone abroad"] },
+      { "turkish": "O hiç Japonya'ya gitmedi.", "english": "He has never been to Japan.", "acceptAlso": ["He's never been to Japan", "She has never been to Japan", "She's never been to Japan"] },
+      { "turkish": "Raporu çoktan bitirdim.", "english": "I have already finished the report.", "acceptAlso": ["I've already finished the report", "I have already completed the report"] },
+      { "turkish": "Henüz cevap almadım.", "english": "I haven't received a reply yet.", "acceptAlso": ["I have not received a reply yet", "I haven't received an answer yet", "I haven't got a reply yet"] },
+      { "turkish": "O 2017'den beri bu şirkette çalışıyor.", "english": "She has worked at this company since 2017.", "acceptAlso": ["She's worked at this company since 2017", "He has worked at this company since 2017"] },
+      { "turkish": "Üç online kurs tamamladım.", "english": "I have completed three online courses.", "acceptAlso": ["I've completed three online courses", "I have completed 3 online courses"] },
+      { "turkish": "Az önce yeni bir işe başladım.", "english": "I have just started a new job.", "acceptAlso": ["I've just started a new job"] }
+    ]
+  },
+
+  "resources": [
+    { "title": "Present Perfect - British Council", "description": "Present Perfect interaktif alıştırmalar ve açıklamalar", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-perfect", "type": "practice", "level": "A2", "free": true },
+    { "title": "Present Perfect vs Past Simple - BBC Learning English", "description": "Present Perfect ve Past Simple farkını öğren", "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-5/session-1", "type": "video", "level": "A2", "free": true },
+    { "title": "For & Since Practice - Perfect English Grammar", "description": "For ve since kullanımı alıştırmaları", "url": "https://www.perfect-english-grammar.com/present-perfect-with-for-and-since.html", "type": "practice", "level": "A2", "free": true }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "id": "unit-20",
+  "title": "First Conditional",
+  "titleTr": "Birinci Koşul Cümlesi (First Conditional)",
+  "level": "A2",
+  "module": 3,
+  "description": "Learn the First Conditional (If + Present Simple, will + base verb) for real and possible situations. Handle e-commerce order problems like a pro.",
+  "descriptionTr": "Gerçek ve olası durumlar için Birinci Koşul Cümlesini (If + Present Simple, will + base verb) öğren. E-ticaret sipariş sorunlarını profesyonelce çöz.",
+
+  "vocabulary": [
+    {
+      "word": "order",
+      "pronunciation": "OR-dır",
+      "turkish": "sipariş / sipariş vermek",
+      "example": "I ordered a laptop online but it hasn't arrived yet.",
+      "exampleTr": "Online bir laptop sipariş ettim ama henüz gelmedi.",
+      "extra": "If you order before 3 PM, it will arrive tomorrow.",
+      "extraTr": "Saat 3'ten önce sipariş verirsen, yarın gelir."
+    },
+    {
+      "word": "deliver",
+      "pronunciation": "di-LI-vır",
+      "turkish": "teslim etmek",
+      "example": "They will deliver the package to your door.",
+      "exampleTr": "Paketi kapına teslim edecekler.",
+      "extra": "If the address is wrong, they won't deliver it.",
+      "extraTr": "Adres yanlışsa, teslim etmezler."
+    },
+    {
+      "word": "package",
+      "pronunciation": "PE-kic",
+      "turkish": "paket / koli",
+      "example": "My package arrived damaged.",
+      "exampleTr": "Paketim hasarlı geldi.",
+      "extra": "If the package is damaged, we will send a new one.",
+      "extraTr": "Paket hasarlıysa, yeni bir tane göndeririz."
+    },
+    {
+      "word": "track",
+      "pronunciation": "trek",
+      "turkish": "takip etmek / izlemek",
+      "example": "You can track your order on our website.",
+      "exampleTr": "Siparişinizi web sitemizden takip edebilirsiniz.",
+      "extra": "If you click this link, you will see the tracking information.",
+      "extraTr": "Bu linke tıklarsan, takip bilgisini görürsün."
+    },
+    {
+      "word": "refund",
+      "pronunciation": "RI-fand",
+      "turkish": "iade / geri ödeme",
+      "example": "I want a full refund for this product.",
+      "exampleTr": "Bu ürün için tam iade istiyorum.",
+      "extra": "If you're not satisfied, we will give you a refund.",
+      "extraTr": "Memnun değilseniz, iade yapacağız."
+    },
+    {
+      "word": "replace",
+      "pronunciation": "ri-PLEYS",
+      "turkish": "değiştirmek / yerine yenisini göndermek",
+      "example": "We will replace the damaged item for free.",
+      "exampleTr": "Hasarlı ürünü ücretsiz değiştireceğiz.",
+      "extra": "If the product is broken, they will replace it.",
+      "extraTr": "Ürün kırıksa, değiştirecekler."
+    },
+    {
+      "word": "complaint",
+      "pronunciation": "kım-PLEYNT",
+      "turkish": "şikayet",
+      "example": "I need to make a complaint about my order.",
+      "exampleTr": "Siparişimle ilgili şikayette bulunmam gerekiyor.",
+      "extra": "If you have a complaint, please contact customer support.",
+      "extraTr": "Şikayetiniz varsa, lütfen müşteri desteğiyle iletişime geçin."
+    },
+    {
+      "word": "customer",
+      "pronunciation": "KAS-tı-mır",
+      "turkish": "müşteri",
+      "example": "The customer is always right.",
+      "exampleTr": "Müşteri her zaman haklıdır.",
+      "extra": "If a customer is unhappy, we will try to help immediately.",
+      "extraTr": "Bir müşteri mutsuzsa, hemen yardım etmeye çalışırız."
+    },
+    {
+      "word": "support",
+      "pronunciation": "sı-PORT",
+      "turkish": "destek",
+      "example": "Please call customer support for help.",
+      "exampleTr": "Yardım için lütfen müşteri desteğini arayın.",
+      "extra": "If you need support, you can chat with us online.",
+      "extraTr": "Desteğe ihtiyacınız varsa, online sohbet edebilirsiniz."
+    },
+    {
+      "word": "agent",
+      "pronunciation": "EY-cınt",
+      "turkish": "temsilci / müşteri hizmetleri elemanı",
+      "example": "The customer support agent was very helpful.",
+      "exampleTr": "Müşteri hizmetleri temsilcisi çok yardımcı oldu.",
+      "extra": "If the agent can't help, they will transfer you to a manager.",
+      "extraTr": "Temsilci yardım edemezse, sizi bir müdüre aktaracak."
+    },
+    {
+      "word": "solve",
+      "pronunciation": "solv",
+      "turkish": "çözmek",
+      "example": "We need to solve this problem quickly.",
+      "exampleTr": "Bu sorunu hızlıca çözmemiz gerekiyor.",
+      "extra": "If we work together, we will solve the issue.",
+      "extraTr": "Birlikte çalışırsak, sorunu çözeriz."
+    },
+    {
+      "word": "issue",
+      "pronunciation": "I-şuu",
+      "turkish": "sorun / problem",
+      "example": "There is an issue with my order.",
+      "exampleTr": "Siparişimde bir sorun var.",
+      "extra": "If there is an issue, please let us know.",
+      "extraTr": "Bir sorun varsa, lütfen bize bildirin."
+    },
+    {
+      "word": "broken",
+      "pronunciation": "BRO-kın",
+      "turkish": "kırık / bozuk",
+      "example": "The screen was broken when I opened the box.",
+      "exampleTr": "Kutuyu açtığımda ekran kırıktı.",
+      "extra": "If the item is broken, take a photo and send it to us.",
+      "extraTr": "Ürün kırıksa, fotoğraf çek ve bize gönder."
+    },
+    {
+      "word": "damaged",
+      "pronunciation": "DE-micd",
+      "turkish": "hasarlı / zarar görmüş",
+      "example": "The product arrived damaged.",
+      "exampleTr": "Ürün hasarlı geldi.",
+      "extra": "If the package looks damaged, don't accept it.",
+      "extraTr": "Paket hasarlı görünüyorsa, kabul etme."
+    },
+    {
+      "word": "wrong",
+      "pronunciation": "rong",
+      "turkish": "yanlış",
+      "example": "They sent me the wrong product!",
+      "exampleTr": "Bana yanlış ürün gönderdiler!",
+      "extra": "If we send the wrong item, we will fix it immediately.",
+      "extraTr": "Yanlış ürün gönderirsek, hemen düzeltiriz."
+    },
+    {
+      "word": "missing",
+      "pronunciation": "MI-sing",
+      "turkish": "eksik / kayıp",
+      "example": "Two items are missing from my order.",
+      "exampleTr": "Siparişimden iki ürün eksik.",
+      "extra": "If anything is missing, contact us within 48 hours.",
+      "extraTr": "Eksik bir şey varsa, 48 saat içinde bize ulaşın."
+    },
+    {
+      "word": "shipping",
+      "pronunciation": "ŞI-ping",
+      "turkish": "kargo / nakliye",
+      "example": "Shipping is free for orders over $50.",
+      "exampleTr": "50 doların üzeri siparişlerde kargo ücretsiz.",
+      "extra": "If you choose express shipping, it will arrive in 2 days.",
+      "extraTr": "Hızlı kargo seçersen, 2 günde gelir."
+    },
+    {
+      "word": "delay",
+      "pronunciation": "di-LEY",
+      "turkish": "gecikme / erteleme",
+      "example": "There is a delay with your shipment.",
+      "exampleTr": "Gönderinizde bir gecikme var.",
+      "extra": "If there is a delay, we will notify you by email.",
+      "extraTr": "Gecikme olursa, sizi e-posta ile bilgilendiririz."
+    },
+    {
+      "word": "policy",
+      "pronunciation": "PO-lı-si",
+      "turkish": "politika / kural",
+      "example": "Our return policy allows 30-day returns.",
+      "exampleTr": "İade politikamız 30 gün içinde iadeye izin verir.",
+      "extra": "If you read our policy, you will understand the rules.",
+      "extraTr": "Politikamızı okursan, kuralları anlarsın."
+    },
+    {
+      "word": "guarantee",
+      "pronunciation": "ge-rın-TII",
+      "turkish": "garanti",
+      "example": "This product has a two-year guarantee.",
+      "exampleTr": "Bu ürünün iki yıl garantisi var.",
+      "extra": "If the product breaks within the guarantee period, we will fix it.",
+      "extraTr": "Ürün garanti süresi içinde bozulursa, tamir edeceğiz."
+    },
+    {
+      "word": "exchange",
+      "pronunciation": "iks-ÇEYNC",
+      "turkish": "değiştirmek / takas",
+      "example": "Can I exchange this for a different size?",
+      "exampleTr": "Bunu farklı bir bedenle değiştirebilir miyim?",
+      "extra": "If the size is wrong, you can exchange it at any store.",
+      "extraTr": "Beden yanlışsa, herhangi bir mağazada değiştirebilirsin."
+    },
+    {
+      "word": "charge",
+      "pronunciation": "çarc",
+      "turkish": "ücret / ücret almak",
+      "example": "They charged me twice for the same order!",
+      "exampleTr": "Aynı sipariş için benden iki kez ücret aldılar!",
+      "extra": "If there is an extra charge, we will explain why.",
+      "extraTr": "Ekstra ücret varsa, nedenini açıklayacağız."
+    },
+    {
+      "word": "account",
+      "pronunciation": "ı-KAUNT",
+      "turkish": "hesap",
+      "example": "Please log in to your account to see order details.",
+      "exampleTr": "Sipariş detaylarını görmek için hesabınıza giriş yapın.",
+      "extra": "If you create an account, you will get 10% off your first order.",
+      "extraTr": "Hesap oluşturursan, ilk siparişinde %10 indirim alırsın."
+    },
+    {
+      "word": "confirm",
+      "pronunciation": "kın-FÖRM",
+      "turkish": "onaylamak / doğrulamak",
+      "example": "Can you confirm that my order has been shipped?",
+      "exampleTr": "Siparişimin kargoya verildiğini onaylayabilir misiniz?",
+      "extra": "If you confirm your email, you will receive the tracking number.",
+      "extraTr": "E-postanı onaylarsan, takip numarasını alacaksın."
+    },
+    {
+      "word": "update",
+      "pronunciation": "ap-DEYT",
+      "turkish": "güncellemek / güncelleme",
+      "example": "I will update you when the package is sent.",
+      "exampleTr": "Paket gönderildiğinde sizi bilgilendireceğim.",
+      "extra": "If there is any update, we will send you a notification.",
+      "extraTr": "Herhangi bir güncelleme olursa, size bildirim göndeririz."
+    },
+    {
+      "word": "response",
+      "pronunciation": "ri-SPONS",
+      "turkish": "yanıt / cevap",
+      "example": "I'm waiting for a response from customer support.",
+      "exampleTr": "Müşteri desteğinden yanıt bekliyorum.",
+      "extra": "If you don't get a response within 24 hours, call us.",
+      "extraTr": "24 saat içinde yanıt almazsan, bizi ara."
+    },
+    {
+      "word": "apologize",
+      "pronunciation": "ı-PO-lı-cayz",
+      "turkish": "özür dilemek",
+      "example": "We apologize for the inconvenience.",
+      "exampleTr": "Yaşanan rahatsızlık için özür dileriz.",
+      "extra": "If we make a mistake, we will apologize and fix it.",
+      "extraTr": "Hata yaparsak, özür diler ve düzeltiriz."
+    },
+    {
+      "word": "investigate",
+      "pronunciation": "in-VES-ti-geyt",
+      "turkish": "araştırmak / soruşturmak",
+      "example": "We will investigate the problem and get back to you.",
+      "exampleTr": "Sorunu araştırıp size döneceğiz.",
+      "extra": "If you file a complaint, we will investigate it within 48 hours.",
+      "extraTr": "Şikayette bulunursan, 48 saat içinde araştıracağız."
+    },
+    {
+      "word": "process",
+      "pronunciation": "PRO-ses",
+      "turkish": "işlemek / süreç",
+      "example": "We will process your refund within 5 business days.",
+      "exampleTr": "İadenizi 5 iş günü içinde işleme alacağız.",
+      "extra": "If you return the item, we will process the exchange.",
+      "extraTr": "Ürünü iade edersen, değişimi işleme alacağız."
+    },
+    {
+      "word": "resolve",
+      "pronunciation": "ri-ZOLV",
+      "turkish": "çözmek / sonuçlandırmak",
+      "example": "I hope we can resolve this issue quickly.",
+      "exampleTr": "Umarım bu sorunu hızlıca çözebiliriz.",
+      "extra": "If you cooperate with us, we will resolve the problem today.",
+      "extraTr": "Bizimle iş birliği yaparsan, sorunu bugün çözeriz."
+    }
+  ],
+
+  "grammar": {
+    "title": "First Conditional (If + Present Simple, will + base verb)",
+    "titleTr": "Birinci Koşul Cümlesi (If + Geniş Zaman, will + fiil)",
+    "explanation": "Use the First Conditional to talk about real and possible situations in the future. The 'if' clause uses Present Simple, and the main clause uses 'will + base verb'. You can also start with the main clause — in that case, no comma is needed.",
+    "explanationTr": "Birinci Koşul Cümlesini gelecekte gerçek ve olası durumlar hakkında konuşmak için kullan. 'If' cümlesi Geniş Zaman (Present Simple) kullanır, ana cümle 'will + fiil' kullanır. Ana cümleyle de başlayabilirsin — bu durumda virgül gerekmez.",
+    "table": [
+      ["If + Present Simple", "will + base verb", "Türkçe", "Açıklama"],
+      ["If you order today,", "it will arrive tomorrow.", "Bugün sipariş verirsen, yarın gelir.", "Olası durum"],
+      ["If the product is broken,", "we will replace it.", "Ürün kırıksa, değiştiririz.", "Vaat / söz"],
+      ["If you don't like it,", "you will get a refund.", "Beğenmezsen, iade alırsın.", "Olumsuz koşul"],
+      ["If I call now,", "will they answer?", "Şimdi ararsam, cevap verirler mi?", "Soru"],
+      ["If there is a delay,", "we will notify you.", "Gecikme olursa, sizi bilgilendiririz.", "Bilgilendirme"],
+      ["You will save money", "if you buy two items.", "İki ürün alırsan, para biriktirirsin.", "Ana cümle önce"]
+    ],
+    "tips": [
+      { "en": "If clause = Present Simple (NOT will): If you order... (NOT: If you will order...)", "tr": "If cümlesi = Geniş Zaman (will KULLANMA): If you order... (If you will order... YANLIŞ)" },
+      { "en": "Main clause = will + base verb: ...it will arrive tomorrow.", "tr": "Ana cümle = will + fiil: ...it will arrive tomorrow." },
+      { "en": "Comma rule: If clause first → comma. Main clause first → no comma.", "tr": "Virgül kuralı: If cümlesi öndeyse → virgül koy. Ana cümle öndeyse → virgül yok." },
+      { "en": "Negative: If you don't pay, they won't deliver.", "tr": "Olumsuz: If you don't pay, they won't deliver. (won't = will not)" },
+      { "en": "Question: What will happen if I return the product?", "tr": "Soru: What will happen if I return the product?" },
+      { "en": "Use for: promises, warnings, predictions, plans with conditions", "tr": "Kullanım: vaatler, uyarılar, tahminler, koşullu planlar" }
+    ]
+  },
+
+  "reading": {
+    "text": "From: customer.support@shopzone.com\nTo: eyup.k@email.com\nSubject: Re: Order #78542 — Wrong Product Received\n\nDear Eyüp,\n\nThank you for contacting ShopZone Customer Support. We are sorry to hear that you received the wrong product.\n\nWe have investigated your complaint and we can confirm that there was a mistake in our warehouse. You ordered a black wireless keyboard, but we sent you a white mouse instead. We sincerely apologize for this error.\n\nHere is what we will do: If you return the wrong item, we will send the correct product within 2 business days. We will also give you free express shipping. If you prefer a full refund instead, we will process it within 5 business days after we receive the returned item.\n\nPlease use the return label that we have attached to this email. If you have any other questions, don't hesitate to contact us. We will do our best to resolve this issue as quickly as possible.\n\nIf you are not satisfied with our solution, you can escalate your complaint to our Customer Relations Manager.\n\nBest regards,\nAylin Korkmaz\nCustomer Support Agent\nShopZone",
+    "textTr": "Gönderen: customer.support@shopzone.com\nAlıcı: eyup.k@email.com\nKonu: Re: Sipariş #78542 — Yanlış Ürün Alındı\n\nSayın Eyüp,\n\nShopZone Müşteri Desteğine ulaştığınız için teşekkür ederiz. Yanlış ürün aldığınızı duyduğumuz için üzgünüz.\n\nŞikayetinizi araştırdık ve depomuzda bir hata olduğunu doğrulayabiliriz. Siyah kablosuz klavye sipariş ettiniz, ama biz size beyaz bir fare gönderdik. Bu hata için içtenlikle özür dileriz.\n\nYapacağımız şey şu: Yanlış ürünü iade ederseniz, doğru ürünü 2 iş günü içinde göndereceğiz. Ayrıca ücretsiz hızlı kargo vereceğiz. Bunun yerine tam iade tercih ederseniz, iade edilen ürünü aldıktan sonra 5 iş günü içinde işleme alacağız.\n\nLütfen bu e-postaya eklediğimiz iade etiketini kullanın. Başka sorularınız varsa, bizimle iletişime geçmekten çekinmeyin. Bu sorunu mümkün olan en kısa sürede çözmek için elimizden geleni yapacağız.\n\nÇözümümüzden memnun değilseniz, şikayetinizi Müşteri İlişkileri Müdürümüze iletebilirsiniz.\n\nSaygılarımızla,\nAylin Korkmaz\nMüşteri Destek Temsilcisi\nShopZone",
+    "questions": [
+      {
+        "question": "What was the problem with Eyüp's order?",
+        "questionTr": "Eyüp'ün siparişindeki sorun neydi?",
+        "options": ["The product was damaged", "He received the wrong product", "The order was late", "The package was missing"],
+        "correct": 1
+      },
+      {
+        "question": "What will happen if Eyüp returns the wrong item?",
+        "questionTr": "Eyüp yanlış ürünü iade ederse ne olacak?",
+        "options": ["He will get a discount", "He will get the correct product in 2 business days", "He will get store credit", "Nothing will happen"],
+        "correct": 1
+      },
+      {
+        "question": "How long will the refund take?",
+        "questionTr": "İade ne kadar sürecek?",
+        "options": ["1 business day", "3 business days", "5 business days", "10 business days"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp order?",
+        "questionTr": "Eyüp ne sipariş etti?",
+        "options": ["A white mouse", "A black wireless keyboard", "A laptop", "A monitor"],
+        "correct": 1
+      },
+      {
+        "question": "What can Eyüp do if he is not satisfied with the solution?",
+        "questionTr": "Eyüp çözümden memnun kalmazsa ne yapabilir?",
+        "options": ["Call the police", "Write a bad review", "Escalate to the Customer Relations Manager", "Cancel his account"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "If you ___ (order) today, it will arrive by Friday.", "answer": "order", "hint": "If cümlesi = Present Simple" },
+      { "sentence": "If the product is damaged, we ___ (replace) it for free.", "answer": "will replace", "hint": "Ana cümle = will + fiil" },
+      { "sentence": "If you ___ (not, return) the item, you won't get a refund.", "answer": "don't return", "hint": "If cümlesi olumsuz = don't + fiil" },
+      { "sentence": "They ___ (send) a new package if you file a complaint.", "answer": "will send", "hint": "Ana cümle = will + fiil" },
+      { "sentence": "If I ___ (call) customer support now, will they answer?", "answer": "call", "hint": "If cümlesi = Present Simple" },
+      { "sentence": "You ___ (not, get) free shipping if you spend less than $50.", "answer": "won't get", "hint": "Ana cümle olumsuz = won't + fiil" },
+      { "sentence": "If there ___ (be) a delay, we will notify you.", "answer": "is", "hint": "If cümlesi = Present Simple (be → is)" },
+      { "sentence": "If you ___ (choose) express shipping, the package will arrive in 2 days.", "answer": "choose", "hint": "If cümlesi = Present Simple" },
+      { "sentence": "We ___ (process) the refund if you return the wrong item.", "answer": "will process", "hint": "Ana cümle = will + fiil" },
+      { "sentence": "If the agent ___ (not, help) you, ask for a manager.", "answer": "doesn't help", "hint": "If cümlesi olumsuz = doesn't + fiil" },
+      { "sentence": "What ___ (happen) if I cancel my order?", "answer": "will happen", "hint": "Soru = What will happen if...?" },
+      { "sentence": "If you ___ (have) a complaint, please email us.", "answer": "have", "hint": "If cümlesi = Present Simple" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"If you order today, it ___ arrive tomorrow.\" Boşluğa ne gelir?",
+        "options": ["does", "is", "will", "can't"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi DOĞRU?",
+        "options": ["If you will call, I answer.", "If you call, I will answer.", "If you called, I will answer.", "If you call, I answered."],
+        "correct": 1
+      },
+      {
+        "question": "\"İade\" İngilizce'de hangisi?",
+        "options": ["refund", "replace", "resolve", "return"],
+        "correct": 0
+      },
+      {
+        "question": "\"If there ___ a problem, we will fix it.\" Boşluğa ne gelir?",
+        "options": ["will be", "is", "was", "were"],
+        "correct": 1
+      },
+      {
+        "question": "\"won't\" ne demek?",
+        "options": ["will", "will not", "would not", "was not"],
+        "correct": 1
+      },
+      {
+        "question": "\"Şikayet\" İngilizce'de hangisi?",
+        "options": ["customer", "complaint", "charge", "confirm"],
+        "correct": 1
+      },
+      {
+        "question": "Hangisi YANLIŞ?",
+        "options": ["If you return it, you will get a refund.", "If it rains, I will take an umbrella.", "If you will pay, we send the product.", "If he calls, I will answer."],
+        "correct": 2
+      },
+      {
+        "question": "\"Hasarlı\" İngilizce'de hangisi?",
+        "options": ["broken", "wrong", "damaged", "missing"],
+        "correct": 2
+      },
+      {
+        "question": "\"If I return the product, ___ I get a refund?\" Boşluğa ne gelir?",
+        "options": ["do", "am", "will", "did"],
+        "correct": 2
+      },
+      {
+        "question": "\"Araştırmak\" İngilizce'de hangisi?",
+        "options": ["apologize", "investigate", "process", "resolve"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "order", "right": "sipariş" },
+      { "left": "deliver", "right": "teslim etmek" },
+      { "left": "package", "right": "paket" },
+      { "left": "refund", "right": "geri ödeme" },
+      { "left": "replace", "right": "değiştirmek" },
+      { "left": "complaint", "right": "şikayet" },
+      { "left": "broken", "right": "kırık" },
+      { "left": "damaged", "right": "hasarlı" },
+      { "left": "wrong", "right": "yanlış" },
+      { "left": "missing", "right": "eksik" },
+      { "left": "shipping", "right": "kargo" },
+      { "left": "delay", "right": "gecikme" },
+      { "left": "guarantee", "right": "garanti" },
+      { "left": "apologize", "right": "özür dilemek" },
+      { "left": "resolve", "right": "çözmek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["If", "you", "order", "today", "it", "will", "arrive", "tomorrow"], "correct": "If you order today it will arrive tomorrow" },
+      { "words": ["We", "will", "replace", "the", "product", "if", "it", "is", "broken"], "correct": "We will replace the product if it is broken" },
+      { "words": ["If", "there", "is", "a", "delay", "we", "will", "notify", "you"], "correct": "If there is a delay we will notify you" },
+      { "words": ["You", "will", "get", "a", "refund", "if", "you", "return", "the", "item"], "correct": "You will get a refund if you return the item" },
+      { "words": ["If", "you", "don't", "pay", "they", "won't", "deliver"], "correct": "If you don't pay they won't deliver" },
+      { "words": ["What", "will", "happen", "if", "I", "cancel", "my", "order"], "correct": "What will happen if I cancel my order" },
+      { "words": ["If", "the", "package", "is", "damaged", "take", "a", "photo"], "correct": "If the package is damaged take a photo" },
+      { "words": ["We", "will", "investigate", "the", "issue", "if", "you", "file", "a", "complaint"], "correct": "We will investigate the issue if you file a complaint" },
+      { "words": ["If", "you", "need", "help", "please", "contact", "customer", "support"], "correct": "If you need help please contact customer support" }
+    ],
+    "translation": [
+      {
+        "turkish": "Bugün sipariş verirsen, yarın gelir.",
+        "english": "If you order today, it will arrive tomorrow.",
+        "acceptAlso": ["If you order today it will arrive tomorrow"]
+      },
+      {
+        "turkish": "Ürün hasarlıysa, değiştireceğiz.",
+        "english": "If the product is damaged, we will replace it.",
+        "acceptAlso": ["If the product is damaged we will replace it", "We will replace it if the product is damaged"]
+      },
+      {
+        "turkish": "Siparişimi iptal edersem ne olur?",
+        "english": "What will happen if I cancel my order?",
+        "acceptAlso": ["What will happen if I cancel my order"]
+      },
+      {
+        "turkish": "Memnun değilseniz, iade yapacağız.",
+        "english": "If you are not satisfied, we will give you a refund.",
+        "acceptAlso": ["If you're not satisfied, we will give you a refund", "If you are not satisfied we will give you a refund"]
+      },
+      {
+        "turkish": "İade etmezsen, geri ödeme alamazsın.",
+        "english": "If you don't return it, you won't get a refund.",
+        "acceptAlso": ["If you don't return it you won't get a refund", "If you do not return it, you will not get a refund"]
+      },
+      {
+        "turkish": "Gecikme olursa, sizi bilgilendireceğiz.",
+        "english": "If there is a delay, we will notify you.",
+        "acceptAlso": ["If there is a delay we will notify you", "We will notify you if there is a delay"]
+      },
+      {
+        "turkish": "Yardıma ihtiyacınız varsa, müşteri desteğini arayın.",
+        "english": "If you need help, call customer support.",
+        "acceptAlso": ["If you need help call customer support", "Call customer support if you need help"]
+      },
+      {
+        "turkish": "Yaşanan rahatsızlık için özür dileriz.",
+        "english": "We apologize for the inconvenience.",
+        "acceptAlso": ["We apologize for the inconvenience"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Calling Customer Service About a Wrong Product",
+    "titleTr": "Yanlış Ürün İçin Müşteri Hizmetlerini Aramak",
+    "context": "Eyüp online bir mağazadan siyah kablosuz klavye sipariş etti ama beyaz bir fare geldi. Müşteri hizmetlerini arıyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Agent", "text": "Thank you for calling ShopZone Customer Support. My name is Lisa. How can I help you today?", "textTr": "ShopZone Müşteri Desteğini aradığınız için teşekkürler. Benim adım Lisa. Bugün size nasıl yardımcı olabilirim?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hi Lisa. I have a problem with my order. I ordered a black wireless keyboard, but I received a white mouse instead.", "textTr": "Merhaba Lisa. Siparişimde bir sorun var. Siyah kablosuz klavye sipariş ettim ama onun yerine beyaz bir fare geldi." },
+      { "speaker": "A", "speakerName": "Agent", "text": "I'm sorry to hear that! Can you give me your order number, please?", "textTr": "Bunu duyduğuma üzüldüm! Sipariş numaranızı verebilir misiniz lütfen?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, it's 78542.", "textTr": "Evet, 78542." },
+      { "speaker": "A", "speakerName": "Agent", "text": "Let me check... Yes, I can see the order. I apologize for this mistake. If you return the wrong item, we will send the correct product within 2 business days.", "textTr": "Kontrol edeyim... Evet, siparişi görebiliyorum. Bu hata için özür dilerim. Yanlış ürünü iade ederseniz, doğru ürünü 2 iş günü içinde göndereceğiz." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That sounds good. Will I have to pay for shipping?", "textTr": "İyi görünüyor. Kargo ücreti ödemem gerekecek mi?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "No, if you use the return label we send you, shipping will be completely free.", "textTr": "Hayır, size gönderdiğimiz iade etiketini kullanırsanız, kargo tamamen ücretsiz olacak." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "What if I don't want the keyboard anymore? Can I get a refund instead?", "textTr": "Ya klavyeyi artık istemiyorsam? Bunun yerine iade alabilir miyim?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "Of course! If you prefer a refund, we will process it within 5 business days after we receive the returned item.", "textTr": "Tabii ki! İade tercih ederseniz, iade edilen ürünü aldıktan sonra 5 iş günü içinde işleme alacağız." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I think I'll go with the replacement. I still need the keyboard.", "textTr": "Sanırım değişimi tercih edeceğim. Klavyeye hala ihtiyacım var." },
+      { "speaker": "A", "speakerName": "Agent", "text": "Good choice! If you send the return by tomorrow, you will receive the keyboard by Friday.", "textTr": "İyi seçim! İadeyi yarına kadar gönderirseniz, klavyeyi Cuma'ya kadar alırsınız." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Perfect. Will you send me a confirmation email?", "textTr": "Mükemmel. Bana bir onay e-postası gönderecek misiniz?" },
+      { "speaker": "A", "speakerName": "Agent", "text": "Yes! If you check your inbox in a few minutes, you will find the return label and the confirmation.", "textTr": "Evet! Birkaç dakika içinde gelen kutunuzu kontrol ederseniz, iade etiketini ve onayı bulacaksınız." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you so much, Lisa. You've been very helpful!", "textTr": "Çok teşekkür ederim, Lisa. Çok yardımcı oldunuz!" },
+      { "speaker": "A", "speakerName": "Agent", "text": "You're welcome! If you have any other questions, don't hesitate to call us. Have a great day!", "textTr": "Rica ederim! Başka sorunuz olursa, bizi aramaktan çekinmeyin. İyi günler!" }
+    ],
+    "questions": [
+      {
+        "question": "What did Eyüp receive instead of a keyboard?",
+        "questionTr": "Eyüp klavye yerine ne aldı?",
+        "options": ["A black mouse", "A white mouse", "A white keyboard", "A laptop"],
+        "correct": 1
+      },
+      {
+        "question": "What will happen if Eyüp returns the wrong item?",
+        "questionTr": "Eyüp yanlış ürünü iade ederse ne olacak?",
+        "options": ["He will get a discount", "He will get the correct product in 2 days", "He will get store credit", "Nothing"],
+        "correct": 1
+      },
+      {
+        "question": "Does Eyüp choose a refund or a replacement?",
+        "questionTr": "Eyüp iade mi yoksa değişim mi seçiyor?",
+        "options": ["Refund", "Replacement", "Store credit", "Neither"],
+        "correct": 1
+      },
+      {
+        "question": "Will Eyüp pay for return shipping?",
+        "questionTr": "Eyüp iade kargo ücreti ödeyecek mi?",
+        "options": ["Yes, $5", "Yes, full price", "No, it's free", "Yes, half price"],
+        "correct": 2
+      },
+      {
+        "question": "When will Eyüp receive the keyboard if he sends the return by tomorrow?",
+        "questionTr": "Eyüp iadeyi yarın gönderirse klavyeyi ne zaman alacak?",
+        "options": ["Monday", "Wednesday", "Thursday", "Friday"],
+        "correct": 3
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "First Conditional - BBC Learning English",
+      "description": "First Conditional kurallarını ve kullanımını videolarla öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-10/session-1",
+      "type": "video",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "First Conditional - British Council",
+      "description": "First Conditional interaktif alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/first-conditional",
+      "type": "practice",
+      "level": "A2",
+      "free": true
+    },
+    {
+      "title": "Customer Service English Vocabulary - FluentU",
+      "description": "Müşteri hizmetleri İngilizcesi kelimeleri ve ifadeleri",
+      "url": "https://www.fluentu.com/blog/english/customer-service-english/",
+      "type": "article",
+      "level": "A2-B1",
+      "free": true
+    }
+  ]
+}
