@@ -1,0 +1,285 @@
+{
+  "id": "unit-02",
+  "title": "Numbers, Days & Months",
+  "titleTr": "Sayılar, Günler ve Aylar",
+  "level": "A1",
+  "module": 1,
+  "description": "Learn numbers 1-100, days of the week, and months of the year.",
+  "descriptionTr": "1'den 100'e sayılar, haftanın günleri ve yılın aylarını öğren.",
+
+  "vocabulary": [
+    {
+      "word": "one",
+      "pronunciation": "van",
+      "turkish": "bir (1)",
+      "example": "I have one brother.",
+      "exampleTr": "Bir erkek kardeşim var."
+    },
+    {
+      "word": "two",
+      "pronunciation": "tuu",
+      "turkish": "iki (2)",
+      "example": "There are two cats.",
+      "exampleTr": "İki kedi var."
+    },
+    {
+      "word": "three",
+      "pronunciation": "trii",
+      "turkish": "üç (3)",
+      "example": "I have three friends.",
+      "exampleTr": "Üç arkadaşım var."
+    },
+    {
+      "word": "ten",
+      "pronunciation": "ten",
+      "turkish": "on (10)",
+      "example": "There are ten students in the class.",
+      "exampleTr": "Sınıfta on öğrenci var."
+    },
+    {
+      "word": "twenty",
+      "pronunciation": "TVEN-ti",
+      "turkish": "yirmi (20)",
+      "example": "I am twenty years old.",
+      "exampleTr": "Yirmi yaşındayım."
+    },
+    {
+      "word": "hundred",
+      "pronunciation": "HAN-dred",
+      "turkish": "yüz (100)",
+      "example": "There are one hundred pages.",
+      "exampleTr": "Yüz sayfa var."
+    },
+    {
+      "word": "Monday",
+      "pronunciation": "MAN-dey",
+      "turkish": "Pazartesi",
+      "example": "I go to school on Monday.",
+      "exampleTr": "Pazartesi okula giderim."
+    },
+    {
+      "word": "Friday",
+      "pronunciation": "FRAY-dey",
+      "turkish": "Cuma",
+      "example": "Friday is my favorite day.",
+      "exampleTr": "Cuma benim favori günüm."
+    },
+    {
+      "word": "weekend",
+      "pronunciation": "VIIK-end",
+      "turkish": "hafta sonu",
+      "example": "I rest on the weekend.",
+      "exampleTr": "Hafta sonu dinlenirim."
+    },
+    {
+      "word": "January",
+      "pronunciation": "CEN-yu-eri",
+      "turkish": "Ocak",
+      "example": "January is the first month.",
+      "exampleTr": "Ocak ilk aydır."
+    },
+    {
+      "word": "month",
+      "pronunciation": "manth",
+      "turkish": "ay",
+      "example": "There are twelve months in a year.",
+      "exampleTr": "Bir yılda on iki ay var."
+    },
+    {
+      "word": "year",
+      "pronunciation": "yiir",
+      "turkish": "yıl",
+      "example": "This year is 2026.",
+      "exampleTr": "Bu yıl 2026."
+    },
+    {
+      "word": "today",
+      "pronunciation": "tu-DEY",
+      "turkish": "bugün",
+      "example": "Today is Friday.",
+      "exampleTr": "Bugün Cuma."
+    },
+    {
+      "word": "tomorrow",
+      "pronunciation": "tu-MO-rou",
+      "turkish": "yarın",
+      "example": "Tomorrow is Saturday.",
+      "exampleTr": "Yarın Cumartesi."
+    },
+    {
+      "word": "yesterday",
+      "pronunciation": "YES-tır-dey",
+      "turkish": "dün",
+      "example": "Yesterday was Thursday.",
+      "exampleTr": "Dün Perşembeydi."
+    }
+  ],
+
+  "grammar": {
+    "title": "Numbers & 'How many / How old'",
+    "titleTr": "Sayılar ve 'Kaç tane / Kaç yaşında' Soruları",
+    "explanation": "In English, we use 'How many' to ask about quantity and 'How old' to ask about age. Numbers follow the same pattern: one, two, three... For bigger numbers: twenty-one (21), thirty-five (35), one hundred (100).",
+    "explanationTr": "İngilizce'de 'How many' miktar sormak için, 'How old' yaş sormak için kullanılır. Büyük sayılar: twenty-one (21), thirty-five (35), one hundred (100) şeklinde yazılır.",
+    "table": [
+      ["1-5", "one, two, three, four, five", "bir, iki, üç, dört, beş", "I have five books."],
+      ["6-10", "six, seven, eight, nine, ten", "altı, yedi, sekiz, dokuz, on", "There are ten chairs."],
+      ["11-20", "eleven, twelve, ... twenty", "on bir, on iki, ... yirmi", "She is twenty years old."],
+      ["30-100", "thirty, forty, fifty ... hundred", "otuz, kırk, elli ... yüz", "There are fifty students."],
+      ["How many?", "How many + plural noun", "Kaç tane?", "How many books do you have?"],
+      ["How old?", "How old + are/is + subject", "Kaç yaşında?", "How old are you?"]
+    ],
+    "tips": [
+      { "en": "11 = eleven, 12 = twelve (special!)", "tr": "11 ve 12 özel isimler: eleven, twelve" },
+      { "en": "13-19: thirteen, fourteen... (+ teen)", "tr": "13-19 arası -teen ile biter" },
+      { "en": "20, 30, 40... twenty, thirty, forty (+ ty)", "tr": "Onluklar -ty ile biter" },
+      { "en": "Days & months always start with CAPITAL letter", "tr": "Günler ve aylar her zaman BÜYÜK harfle başlar" }
+    ]
+  },
+
+  "reading": {
+    "text": "My name is Ayşe. I am twenty-three years old. My birthday is in March. Today is Monday. I go to English class on Monday and Wednesday. There are fifteen students in my class. On the weekend, I like to read books. I have thirty books at home!",
+    "textTr": "Benim adım Ayşe. Yirmi üç yaşındayım. Doğum günüm Mart'ta. Bugün Pazartesi. Pazartesi ve Çarşamba İngilizce dersine giderim. Sınıfımda on beş öğrenci var. Hafta sonu kitap okumayı severim. Evde otuz kitabım var!",
+    "questions": [
+      {
+        "question": "How old is Ayşe?",
+        "questionTr": "Ayşe kaç yaşında?",
+        "options": ["20", "23", "25", "30"],
+        "correct": 1
+      },
+      {
+        "question": "When is her birthday?",
+        "questionTr": "Doğum günü ne zaman?",
+        "options": ["January", "February", "March", "April"],
+        "correct": 2
+      },
+      {
+        "question": "How many students are in her class?",
+        "questionTr": "Sınıfında kaç öğrenci var?",
+        "options": ["10", "12", "15", "20"],
+        "correct": 2
+      },
+      {
+        "question": "How many books does she have?",
+        "questionTr": "Kaç kitabı var?",
+        "options": ["13", "20", "25", "30"],
+        "correct": 3
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      {
+        "sentence": "There are ___ days in a week.",
+        "answer": "seven",
+        "hint": "7"
+      },
+      {
+        "sentence": "There are ___ months in a year.",
+        "answer": "twelve",
+        "hint": "12"
+      },
+      {
+        "sentence": "___ is the first day of the week in English.",
+        "answer": "Monday",
+        "hint": "Pazartesi"
+      },
+      {
+        "sentence": "I am twenty-five ___ old.",
+        "answer": "years",
+        "hint": "yıl/yaş"
+      },
+      {
+        "sentence": "How ___ brothers do you have?",
+        "answer": "many",
+        "hint": "kaç tane"
+      },
+      {
+        "sentence": "___ is the last month of the year.",
+        "answer": "December",
+        "hint": "Aralık"
+      }
+    ],
+    "multipleChoice": [
+      {
+        "question": "15 İngilizce'de nasıl yazılır?",
+        "options": ["fiveteen", "fifteen", "fiften", "fifty"],
+        "correct": 1
+      },
+      {
+        "question": "\"Çarşamba\" İngilizce'de hangisi?",
+        "options": ["Tuesday", "Thursday", "Wednesday", "Monday"],
+        "correct": 2
+      },
+      {
+        "question": "\"How old are you?\" ne demek?",
+        "options": ["Nasılsın?", "Nerelisin?", "Kaç yaşındasın?", "Kaç kardeşin var?"],
+        "correct": 2
+      },
+      {
+        "question": "Hangi ay yılın 6. ayıdır?",
+        "options": ["May", "June", "July", "August"],
+        "correct": 1
+      },
+      {
+        "question": "40 İngilizce'de hangisi?",
+        "options": ["fourteen", "fourty", "forty", "forteen"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "Monday", "right": "Pazartesi" },
+      { "left": "Wednesday", "right": "Çarşamba" },
+      { "left": "Friday", "right": "Cuma" },
+      { "left": "Sunday", "right": "Pazar" },
+      { "left": "January", "right": "Ocak" },
+      { "left": "March", "right": "Mart" },
+      { "left": "September", "right": "Eylül" },
+      { "left": "December", "right": "Aralık" }
+    ],
+    "sentenceOrder": [
+      {
+        "words": ["How", "old", "are", "you"],
+        "correct": "How old are you"
+      },
+      {
+        "words": ["Today", "is", "Monday"],
+        "correct": "Today is Monday"
+      },
+      {
+        "words": ["There", "are", "twelve", "months"],
+        "correct": "There are twelve months"
+      },
+      {
+        "words": ["My", "birthday", "is", "in", "March"],
+        "correct": "My birthday is in March"
+      },
+      {
+        "words": ["How", "many", "students", "are", "there"],
+        "correct": "How many students are there"
+      }
+    ],
+    "translation": [
+      {
+        "turkish": "Kaç yaşındasın?",
+        "english": "How old are you?",
+        "acceptAlso": ["How old are you"]
+      },
+      {
+        "turkish": "Bugün Cuma.",
+        "english": "Today is Friday.",
+        "acceptAlso": ["Today is Friday"]
+      },
+      {
+        "turkish": "Bir yılda on iki ay var.",
+        "english": "There are twelve months in a year.",
+        "acceptAlso": ["There are 12 months in a year"]
+      },
+      {
+        "turkish": "Ben yirmi yaşındayım.",
+        "english": "I am twenty years old.",
+        "acceptAlso": ["I'm twenty years old", "I am 20 years old", "I'm 20 years old"]
+      }
+    ]
+  }
+}
