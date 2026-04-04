@@ -16,9 +16,8 @@ export default function ReviewSession({ cards, getCardData, markAnswer, onFinish
   const [startTime] = useState(() => Date.now())
   const [timeLeft, setTimeLeft] = useState(timeLimit || null)
 
-  const shuffledCards = useMemo(() => {
-    return [...cards].sort(() => Math.random() - 0.5)
-  }, [cards])
+  // Shuffle ONCE at session start — don't re-shuffle on parent re-renders
+  const [shuffledCards] = useState(() => [...cards].sort(() => Math.random() - 0.5))
 
   const currentCard = shuffledCards[currentIndex]
   const cardData = currentCard ? getCardData(currentCard.word) : null

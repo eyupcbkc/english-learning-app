@@ -16,7 +16,7 @@ export default function TypeSession({ cards, getCardData, markAnswer, onFinish }
   const [isComplete, setIsComplete] = useState(false)
   const [startTime] = useState(() => Date.now())
 
-  const shuffledCards = useMemo(() => [...cards].sort(() => Math.random() - 0.5), [cards])
+  const [shuffledCards] = useState(() => [...cards].sort(() => Math.random() - 0.5))
   const currentCard = shuffledCards[currentIndex]
   const total = shuffledCards.length
 
