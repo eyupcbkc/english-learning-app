@@ -1,0 +1,582 @@
+{
+  "id": "unit-31",
+  "title": "Phrasal Verbs Set 2 — Customer Complaint Resolution",
+  "titleTr": "Phrasal Verbs Set 2 — Musteri Sikayeti Cozumu",
+  "level": "B1",
+  "module": 4,
+  "description": "Master 30 essential phrasal verbs for handling customer complaints. Learn separable vs inseparable phrasal verbs and their formal equivalents used in professional logistics contexts.",
+  "descriptionTr": "Musteri sikayetlerini yonetmek icin 30 temel phrasal verb ogren. Ayrilabilir ve ayrilamaz phrasal verb'leri ve profesyonel lojistik baglaminda kullanilan resmi karsiliklari ogren.",
+
+  "vocabulary": [
+    {
+      "word": "look into",
+      "pronunciation": "LUK in-tu",
+      "turkish": "arastirmak, incelemek",
+      "example": "We'll look into the shipping delay right away.",
+      "exampleTr": "Gonderim gecikmesini hemen arastiracagiz.",
+      "extra": "I've asked the team to look into why the package was damaged.",
+      "extraTr": "Paketin neden hasarli oldugunu arastirmalari icin ekibe soyldedim."
+    },
+    {
+      "word": "deal with",
+      "pronunciation": "DIIL vid",
+      "turkish": "ilgilenmek, halletmek",
+      "example": "I'll deal with this complaint personally.",
+      "exampleTr": "Bu sikayetle kisisel olarak ilgilenecegim.",
+      "extra": "Our customer service team deals with over 200 complaints a week.",
+      "extraTr": "Musteri hizmetleri ekibimiz haftada 200'den fazla sikayetle ilgileniyor."
+    },
+    {
+      "word": "get back to",
+      "pronunciation": "GET bek tu",
+      "turkish": "geri donmek, geri donus yapmak",
+      "example": "I'll get back to you with an update by 3 PM.",
+      "exampleTr": "Saat 3'e kadar bir guncellemeyle size geri donecegim.",
+      "extra": "Can you get back to the client about their refund request?",
+      "extraTr": "Musteriye iade talebi hakkinda geri donus yapabilir misin?"
+    },
+    {
+      "word": "follow up",
+      "pronunciation": "FA-lo ap",
+      "turkish": "takip etmek, devamini getirmek",
+      "example": "I need to follow up on the missing shipment.",
+      "exampleTr": "Kayip gonderiyi takip etmem gerekiyor.",
+      "extra": "She always follows up with customers after resolving their issues.",
+      "extraTr": "Sorunlarini cozdukten sonra musterilerle her zaman takip yapar."
+    },
+    {
+      "word": "sort out",
+      "pronunciation": "SORT aut",
+      "turkish": "cozmek, halletmek, duzene sokmak",
+      "example": "Don't worry, we'll sort out the delivery problem today.",
+      "exampleTr": "Endiselenmeyin, teslimat sorununu bugun halledecegiz.",
+      "extra": "It took us two days to sort the billing error out.",
+      "extraTr": "Faturalama hatasini cozmemiz iki gun surdu."
+    },
+    {
+      "word": "point out",
+      "pronunciation": "POYNT aut",
+      "turkish": "belirtmek, dikkat cekmek",
+      "example": "The client pointed out several errors in the invoice.",
+      "exampleTr": "Musteri faturadaki birkac hatayi belirtti.",
+      "extra": "I'd like to point out that we've already offered a discount.",
+      "extraTr": "Zaten bir indirim sundugumuzu belirtmek isterim."
+    },
+    {
+      "word": "hand over",
+      "pronunciation": "HEND o-vir",
+      "turkish": "devretmek, teslim etmek",
+      "example": "I'll hand the case over to the senior manager.",
+      "exampleTr": "Konuyu ust yoneticiye devredecegim.",
+      "extra": "Before I leave, I need to hand over all my files to the new person.",
+      "extraTr": "Ayrilmadan once tum dosyalarimi yeni kisiye devretmem gerekiyor."
+    },
+    {
+      "word": "take on",
+      "pronunciation": "TEYK on",
+      "turkish": "ustlenmek, is olarak almak",
+      "example": "We've taken on too many orders this month.",
+      "exampleTr": "Bu ay cok fazla siparis ustlendik.",
+      "extra": "Are you sure you want to take on another project right now?",
+      "extraTr": "Su an baska bir projeyi daha ustlenmek istedigin emin misin?"
+    },
+    {
+      "word": "put through",
+      "pronunciation": "PUT truu",
+      "turkish": "baglamak (telefon), aktarmak",
+      "example": "I'll put you through to the complaints department.",
+      "exampleTr": "Sizi sikayet departmanina baglayacagim.",
+      "extra": "Hold on, I'm putting you through to my supervisor now.",
+      "extraTr": "Bir dakika, sizi simdi amirime bagliyorum."
+    },
+    {
+      "word": "hold on",
+      "pronunciation": "HOLD on",
+      "turkish": "beklemek, hatta kalmak",
+      "example": "Hold on a moment, let me check the tracking number.",
+      "exampleTr": "Bir dakika bekleyin, takip numarasini kontrol edeyim.",
+      "extra": "Could you hold on while I pull up your order details?",
+      "extraTr": "Siparis detaylarinizi acacagim, bekleyebilir misiniz?"
+    },
+    {
+      "word": "hang up",
+      "pronunciation": "HENG ap",
+      "turkish": "telefonu kapatmak",
+      "example": "The customer was so angry that she hung up on me.",
+      "exampleTr": "Musteri o kadar kizgindi ki telefonu yuzume kapatti.",
+      "extra": "Don't hang up — I have one more update about your delivery.",
+      "extraTr": "Kapatmayin — teslimatiniz hakkinda bir guncelleme daha var."
+    },
+    {
+      "word": "pass on",
+      "pronunciation": "PES on",
+      "turkish": "iletmek, aktarmak",
+      "example": "I'll pass on your feedback to the warehouse team.",
+      "exampleTr": "Geri bildiriminizi depo ekibine iletecegim.",
+      "extra": "Can you pass this message on to the logistics manager?",
+      "extraTr": "Bu mesaji lojistik mudurune iletebilir misin?"
+    },
+    {
+      "word": "bring forward",
+      "pronunciation": "BRING for-vird",
+      "turkish": "one almak, erkene cekmek",
+      "example": "We need to bring forward the delivery date by two days.",
+      "exampleTr": "Teslimat tarihini iki gun one almamiz gerekiyor.",
+      "extra": "The meeting has been brought forward to Monday.",
+      "extraTr": "Toplanti pazartesi gunune alindi."
+    },
+    {
+      "word": "push back",
+      "pronunciation": "PUS bek",
+      "turkish": "ertelemek, geri itmek",
+      "example": "The client wants to push back the deadline to next week.",
+      "exampleTr": "Musteri son teslim tarihini gelecek haftaya ertelemek istiyor.",
+      "extra": "We can't keep pushing back the launch date — we'll lose customers.",
+      "extraTr": "Lansman tarihini surekli erteleyemeyiz — musteri kaybederiz."
+    },
+    {
+      "word": "call off",
+      "pronunciation": "KOL of",
+      "turkish": "iptal etmek",
+      "example": "They called off the order because of the quality issues.",
+      "exampleTr": "Kalite sorunlari nedeniyle siparisi iptal ettiler.",
+      "extra": "If the supplier doesn't deliver on time, we'll have to call off the deal.",
+      "extraTr": "Tedarikci zamaninda teslim etmezse anlasmay iptal etmek zorunda kalacagiz."
+    },
+    {
+      "word": "put forward",
+      "pronunciation": "PUT for-vird",
+      "turkish": "one surmek, teklif etmek",
+      "example": "I'd like to put forward a solution for the shipping problem.",
+      "exampleTr": "Gonderim sorunu icin bir cozum one surmek istiyorum.",
+      "extra": "Murat put forward an idea to reduce complaint response times.",
+      "extraTr": "Murat sikayet yanit surelerini azaltmak icin bir fikir one surdu."
+    },
+    {
+      "word": "lay off",
+      "pronunciation": "LEY of",
+      "turkish": "isten cikarmak (ekonomik nedenle)",
+      "example": "The company had to lay off 50 workers due to low demand.",
+      "exampleTr": "Sirket dusuk talep nedeniyle 50 isciy isten cikarmak zorunda kaldi.",
+      "extra": "If sales don't improve, they might lay off more staff.",
+      "extraTr": "Satislar iyilesmezse daha fazla personeli isten cikarabilirler."
+    },
+    {
+      "word": "step down",
+      "pronunciation": "STEP daun",
+      "turkish": "istifa etmek, gorevden cekilmek",
+      "example": "The director stepped down after the major logistics failure.",
+      "exampleTr": "Direktor buyuk lojistik basarisizligin ardindan gorevden cekildi.",
+      "extra": "She decided to step down from her position as team lead.",
+      "extraTr": "Takim lideri pozisyonundan cekilmeye karar verdi."
+    },
+    {
+      "word": "take over",
+      "pronunciation": "TEYK o-vir",
+      "turkish": "devralmak, kontrolu ele almak",
+      "example": "I'll take over the complaint case from here.",
+      "exampleTr": "Sikayet dosyasini buradan devralirim.",
+      "extra": "When the manager is on leave, the assistant takes over.",
+      "extraTr": "Mudur izindeyken asistan devralir."
+    },
+    {
+      "word": "hand in",
+      "pronunciation": "HEND in",
+      "turkish": "teslim etmek (belge, rapor)",
+      "example": "Please hand in the incident report by end of day.",
+      "exampleTr": "Lutfen olay raporunu gun sonuna kadar teslim edin.",
+      "extra": "Have you handed in the complaint summary to the director?",
+      "extraTr": "Sikayet ozetini direktore teslim ettin mi?"
+    },
+    {
+      "word": "draw up",
+      "pronunciation": "DRO ap",
+      "turkish": "hazirlamak, duzenlemek (belge)",
+      "example": "We need to draw up a new refund policy.",
+      "exampleTr": "Yeni bir iade politikasi hazirlamaiz gerekiyor.",
+      "extra": "The legal team has drawn up a revised contract.",
+      "extraTr": "Hukuk ekibi revize edilmis bir sozlesme hazirladi."
+    },
+    {
+      "word": "turn down",
+      "pronunciation": "TORN daun",
+      "turkish": "reddetmek",
+      "example": "We had to turn down the client's unreasonable request.",
+      "exampleTr": "Musterinin mantik disi talebini reddetmek zorunda kaldik.",
+      "extra": "They turned down our compensation offer and asked for a full refund.",
+      "extraTr": "Tazminat teklifimizi reddettiler ve tam iade istediler."
+    },
+    {
+      "word": "come across",
+      "pronunciation": "KAM ı-KROS",
+      "turkish": "rastlamak, karsilasmak; izlenim birakmak",
+      "example": "I came across this issue while reviewing the complaints log.",
+      "exampleTr": "Sikayet kaydini incelerken bu sorunla karsilastim.",
+      "extra": "You need to come across as professional when handling complaints.",
+      "extraTr": "Sikayetleri ele alirken profesyonel bir izlenim birakmaniz gerekir."
+    },
+    {
+      "word": "run into",
+      "pronunciation": "RAN in-tu",
+      "turkish": "bir sorunla karsilasmak, rastlamak",
+      "example": "We've run into a problem with the warehouse inventory.",
+      "exampleTr": "Depo envanteriyle ilgili bir sorunla karsilastik.",
+      "extra": "If you run into any issues, contact the support team immediately.",
+      "extraTr": "Herhangi bir sorunla karsilasirsan hemen destek ekibiyle iletisime gec."
+    },
+    {
+      "word": "fall behind",
+      "pronunciation": "FOL bi-HAYND",
+      "turkish": "geride kalmak, geri kalmak",
+      "example": "We've fallen behind on order processing this week.",
+      "exampleTr": "Bu hafta siparis isleme konusunda geride kaldik.",
+      "extra": "If we fall behind schedule, the client will file a complaint.",
+      "extraTr": "Programin gerisine dusersek musteri sikayet edecek."
+    },
+    {
+      "word": "catch up",
+      "pronunciation": "KEÇ ap",
+      "turkish": "yetismek, gecikmesi kapatmak",
+      "example": "We need to catch up on the delayed shipments.",
+      "exampleTr": "Geciken gonderileri yetistirmemiz gerekiyor.",
+      "extra": "The night shift is working overtime to catch up with orders.",
+      "extraTr": "Gece vardiyasi siparislere yetismek icin fazla mesai yapiyor."
+    },
+    {
+      "word": "pull off",
+      "pronunciation": "PUL of",
+      "turkish": "basarmak (zor bir seyi)",
+      "example": "We managed to pull off the delivery despite the storm.",
+      "exampleTr": "Firtinaya ragmen teslimat basardik.",
+      "extra": "I can't believe we pulled that off — the client is happy again!",
+      "extraTr": "Bunu basardigimiza inanamiyorum — musteri tekrar mutlu!"
+    },
+    {
+      "word": "wrap up",
+      "pronunciation": "REP ap",
+      "turkish": "bitirmek, sonlandirmak, tamamlamak",
+      "example": "Let's wrap up this meeting and start working on the solution.",
+      "exampleTr": "Bu toplantiyi bitirelim ve cozum uzerinde calismaya baslayalim.",
+      "extra": "I need to wrap up the complaint report before I leave today.",
+      "extraTr": "Bugun ayrilmadan once sikayet raporunu tamamlamam gerekiyor."
+    },
+    {
+      "word": "break into",
+      "pronunciation": "BREYK in-tu",
+      "turkish": "girmek, nufuz etmek (pazar)",
+      "example": "We're trying to break into the Middle Eastern logistics market.",
+      "exampleTr": "Orta Dogu lojistik pazarina girmeye calisiyoruz.",
+      "extra": "It's hard to break into a new market without local contacts.",
+      "extraTr": "Yerel baglantilar olmadan yeni bir pazara girmek zor."
+    },
+    {
+      "word": "phase out",
+      "pronunciation": "FEYZ aut",
+      "turkish": "asamali olarak kaldirmak, sonlandirmak",
+      "example": "We're phasing out the old tracking system by December.",
+      "exampleTr": "Eski takip sistemini Aralik ayina kadar asamali olarak kaldiriyoruz.",
+      "extra": "The company is phasing out paper invoices and switching to digital.",
+      "extraTr": "Sirket kagit faturalari asamali olarak kaldirip dijitale geciyor."
+    }
+  ],
+
+  "grammar": {
+    "title": "Phrasal Verbs in Professional Context",
+    "titleTr": "Profesyonel Baglamda Phrasal Verb'ler",
+    "explanation": "Phrasal verbs are verb + particle combinations. In professional English, they are very common — but in formal writing, we often use their one-word formal alternatives. There are two main types: Separable (you can put the object between the verb and particle) and Inseparable (the verb and particle must stay together). Knowing the difference is essential for B1 level.",
+    "explanationTr": "Phrasal verb'ler fiil + edat birlesimlerdir. Profesyonel Ingilizce'de cok yaygindir — ama resmi yazismada genellikle tek kelimelik resmi karsiliklari kullanilir. Iki ana tur vardir: Ayrilabilir (nesneyi fiil ve edat arasina koyabilirsiniz) ve Ayrilamaz (fiil ve edat birlikte kalmalidir). Farki bilmek B1 seviyesi icin onemlidir.",
+    "table": [
+      ["Separable", "sort out, point out, hand over, call off, turn down, draw up, phase out", "You can put the object between: 'sort the problem out' or 'sort out the problem'. With pronouns, you MUST separate: 'sort it out' (NOT 'sort out it')", "Nesneyi araya koyabilirsin. Zamirle MUTLAKA ayir: 'sort it out'"],
+      ["Inseparable", "look into, deal with, get back to, come across, run into", "The object ALWAYS goes after the particle: 'look into the issue' (NOT 'look the issue into')", "Nesne HER ZAMAN edattan sonra gelir: 'look into the issue'"],
+      ["Three-word (Inseparable)", "follow up on, catch up with, come up with, get back to", "These have two particles — never separate them: 'follow up on the complaint'", "Iki edat var — asla ayirma: 'follow up on the complaint'"],
+      ["Formal Alternative", "look into = investigate, deal with = handle, sort out = resolve, turn down = reject", "In emails and reports, use formal alternatives: 'We will investigate the issue' instead of 'We'll look into it'", "E-posta ve raporlarda resmi karsiliklari kullan"],
+      ["Intransitive", "hold on, hang up, step down, catch up", "These don't take a direct object: 'Please hold on.' 'He stepped down.'", "Bunlar dogrudan nesne almaz: 'Please hold on.' 'He stepped down.'"],
+      ["Pronoun Rule", "All separable phrasal verbs", "With pronouns, ALWAYS separate: 'hand it over' NOT 'hand over it'. 'Call it off' NOT 'call off it'.", "Zamirlerle HER ZAMAN ayir: 'hand it over', 'call it off'"],
+      ["Register Shift", "Informal → Formal", "Speaking: 'I'll look into it.' Writing: 'I will investigate the matter.' Both are correct — context decides.", "Konusma: 'I'll look into it.' Yazisma: 'I will investigate the matter.' Ikisi de dogru — baglam belirler."]
+    ],
+    "tips": [
+      { "en": "Separable test: If you can say 'sort the problem out', it's separable. If 'look the issue into' sounds wrong, it's inseparable.", "tr": "Ayrilabilirlik testi: 'sort the problem out' diyebiliyorsan ayrilabilir. 'look the issue into' kulaga yanlis geliyorsa ayrilamaz." },
+      { "en": "Pronoun rule is strict: 'I'll sort IT out' (correct) vs 'I'll sort out IT' (wrong). Always separate with pronouns!", "tr": "Zamir kurali kesindir: 'I'll sort IT out' (dogru) vs 'I'll sort out IT' (yanlis). Zamirlerle her zaman ayir!" },
+      { "en": "In formal emails, replace phrasal verbs: 'look into' → 'investigate', 'sort out' → 'resolve', 'put forward' → 'propose'", "tr": "Resmi e-postalarda phrasal verb'leri degistir: 'look into' → 'investigate', 'sort out' → 'resolve', 'put forward' → 'propose'" },
+      { "en": "Three-word phrasal verbs are ALWAYS inseparable: 'follow up on', 'get back to', 'catch up with' — keep them together!", "tr": "Uc kelimelik phrasal verb'ler HER ZAMAN ayrilamazdir: 'follow up on', 'get back to', 'catch up with' — birlikte tut!" },
+      { "en": "Context matters: 'run into' can mean 'meet by chance' (I ran into Ali) or 'encounter a problem' (We ran into difficulties).", "tr": "Baglam onemli: 'run into' 'tesadufen karsilasmak' (Ali'ye rastladim) veya 'sorunla karsilasmak' (Zorlukla karsilastik) anlamina gelebilir." },
+      { "en": "Learn phrasal verbs in pairs: 'bring forward' (erkene al) vs 'push back' (ertele), 'take on' (ustlen) vs 'hand over' (devret)", "tr": "Phrasal verb'leri ciftler halinde ogren: 'bring forward' vs 'push back', 'take on' vs 'hand over'" }
+    ]
+  },
+
+  "reading": {
+    "text": "Last month, our logistics company received a serious complaint from one of our biggest clients, GreenTech Electronics. They pointed out that three shipments in a row had arrived late, and two of them had damaged packaging. The client was ready to call off the entire contract.\n\nAs the logistics manager, I had to deal with the situation immediately. First, I asked my team to look into what had gone wrong. It turned out that we had fallen behind on order processing because we had taken on too many new clients without hiring extra staff. Our warehouse team was struggling to catch up with the increased volume.\n\nI got back to the client within 24 hours and put forward a detailed action plan. We would sort out the packaging issue by switching to a stronger material, and we would bring forward the delivery schedule by adding an extra shipping route. I also offered a 15% discount on their next three orders as compensation.\n\nThe client didn't turn down our offer, but Mrs. Collins, their procurement manager, pointed out that words weren't enough — she wanted to see results. I handed the case over to Murat, my most experienced team member, and asked him to follow up on every single shipment personally.\n\nWithin two weeks, Murat had pulled off something remarkable. All deliveries arrived on time, the packaging was perfect, and Mrs. Collins called to say she was impressed. We managed to wrap up the complaint case successfully. The experience taught us an important lesson: don't take on more than you can handle, and always follow up on problems before they get bigger.",
+    "textTr": "Gecen ay lojistik sirketimiz en buyuk musterilerimizden biri olan GreenTech Electronics'ten ciddi bir sikayet aldi. Ust uste uc gonderinin gec geldigini ve ikisinin ambalajinin hasarli oldugunu belirttiler. Musteri tum sozlesmeyi iptal etmeye hazirdi.\n\nLojistik muduru olarak durumla hemen ilgilenmem gerekiyordu. Ilk olarak ekibime neyin yanlis gittigini arastirmalarini soyledim. Ek personel almadan cok fazla yeni musteri ustlendigimiz icin siparis islemede geride kaldigimiz ortaya cikti. Depo ekibimiz artan hacme yetismeye ugrasiyordu.\n\n24 saat icinde musteriye geri donus yaptim ve detayli bir eylem plani one surdum. Daha guclu bir malzemeye gecerek ambalaj sorununu cozecektik ve ekstra bir gonderim rotasi ekleyerek teslimat programini one alacaktik. Ayrica tazminat olarak sonraki uc siparislerinde %15 indirim teklif ettim.\n\nMusteri teklifimizi reddetmedi ama satin alma muduru Mrs. Collins, sozlerin yeterli olmadigini belirtti — sonuc gormek istiyordu. Konuyu en deneyimli ekip uyem Murat'a devrettim ve her bir gonderiyi kisisel olarak takip etmesini istedim.\n\nIki hafta icinde Murat dikkat cekici bir basari elde etti. Tum teslimatlar zamaninda geldi, ambalaj mukemmeldi ve Mrs. Collins arayip etkilendigini soyledi. Sikayet dosyasini basariyla tamamlamayi basardik. Bu deneyim bize onemli bir ders verdi: kaldirabileceginden fazlasini ustlenme ve sorunlar buyumeden once takip et.",
+    "questions": [
+      {
+        "question": "What did GreenTech Electronics complain about?",
+        "questionTr": "GreenTech Electronics neden sikayet etti?",
+        "options": ["High prices", "Late shipments and damaged packaging", "Rude customer service", "Wrong products delivered"],
+        "correct": 1
+      },
+      {
+        "question": "Why had the company fallen behind on order processing?",
+        "questionTr": "Sirket neden siparis islemede geride kaldi?",
+        "options": ["Equipment failure", "Bad weather conditions", "Too many new clients without extra staff", "A warehouse fire"],
+        "correct": 2
+      },
+      {
+        "question": "What compensation did the logistics manager offer?",
+        "questionTr": "Lojistik muduru ne tazminat teklif etti?",
+        "options": ["Free shipping for a year", "15% discount on next three orders", "A full refund", "A new contract with better terms"],
+        "correct": 1
+      },
+      {
+        "question": "Who was assigned to follow up on the shipments?",
+        "questionTr": "Gonderileri takip etmekle kim gorevlendirildi?",
+        "options": ["Mrs. Collins", "The warehouse manager", "Murat", "A new hire"],
+        "correct": 2
+      },
+      {
+        "question": "What lesson did the experience teach them?",
+        "questionTr": "Bu deneyim onlara ne ders verdi?",
+        "options": ["Always offer discounts to angry clients", "Don't take on more than you can handle", "Never accept big clients", "Hire more staff every month"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Complaint Escalation Meeting",
+    "titleTr": "Sikayet Tirmandirma Toplantisi",
+    "context": "Eyup lojistik muduru olarak, ekip uyesi Murat ve sikayetci musteri Mrs. Collins ile geciken ve hasarli gonderiler hakkinda toplanti yapiyor. Once ekip icinde planlama, sonra musteriye cozum sunma.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyup", "text": "Murat, we need to talk about the GreenTech complaint. Mrs. Collins called again this morning — she's very upset." , "textTr": "Murat, GreenTech sikayeti hakkinda konusmamiz lazim. Mrs. Collins bu sabah tekrar aradi — cok uzgun." },
+      { "speaker": "A", "speakerName": "Murat", "text": "I know. I've been looking into the issue since yesterday. It turns out we fell behind on their orders because the new tracking system crashed twice last week.", "textTr": "Biliyorum. Dunden beri konuyu arastiriyorum. Yeni takip sistemi gecen hafta iki kez coktu icin siparislerinde geride kaldigimiz ortaya cikti.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "That explains the delays. But what about the damaged packaging? We need to sort that out too.", "textTr": "Bu gecikmeleri acikliyor. Peki hasarli ambalaj? Onu da halletmemiz gerekiyor." },
+      { "speaker": "A", "speakerName": "Murat", "text": "I've already dealt with that. I spoke to the warehouse team and they've switched to reinforced boxes. We should also phase out the old packaging material completely.", "textTr": "Onunla zaten ilgilendim. Depo ekibiyle konustum ve guclendirilmis kutulara gectiler. Ayrica eski ambalaj malzemesini tamamen kaldirmamiz lazim.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Good. I want to put forward a compensation plan before we call Mrs. Collins. What if we offer 15% off their next three orders?", "textTr": "Iyi. Mrs. Collins'i aramadan once bir tazminat plani one surmek istiyorum. Sonraki uc siparislerinde %15 indirim teklif etsek?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "That's reasonable. I can also draw up a new delivery schedule that brings forward their shipments by one day.", "textTr": "Makul. Ayrica gonderilerini bir gun one alan yeni bir teslimat programi hazirlayabilirim.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Perfect. Let me call her now. Can you hold on for a minute while I get her on the line?", "textTr": "Mukemmel. Simdi onu arayayim. Onu hatta alirken bir dakika bekleyebilir misin?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "Sure. I'll pull up the shipment records so we have all the details ready.", "textTr": "Tabii. Gonderi kayitlarini acarim, tum detaylar hazir olsun.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Mrs. Collins", "text": "Hello? This is Sarah Collins from GreenTech. I hope you have some good news for me.", "textTr": "Alo? Ben GreenTech'ten Sarah Collins. Umarim benim icin iyi haberleriniz vardir.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Good morning, Mrs. Collins. Thank you for your patience. We've looked into the problems thoroughly and I'd like to walk you through our action plan.", "textTr": "Gunaydin Mrs. Collins. Sabiriniz icin tesekkurler. Sorunlari kapsamli sekilde arastirdik ve eylem planimizi sizinle paylassmak istiyorum." },
+      { "speaker": "A", "speakerName": "Mrs. Collins", "text": "I have to point out that this is the third time we've had issues. I was about to call off our contract.", "textTr": "Sorun yasadigimiz ucuncu seferin bu oldugunu belirtmeliyim. Sozlesmemizi iptal etmek uzereydim.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "I completely understand, and I take full responsibility. We've already sorted out the packaging problem — we've switched to reinforced materials. And we've brought forward your delivery schedule by one day.", "textTr": "Tamamen anliyorum ve tam sorumluluk aliyorum. Ambalaj sorununu coktan cozdum — guclendirilmis malzemelere gectik. Ve teslimat programinizi bir gun one aldik." },
+      { "speaker": "A", "speakerName": "Mrs. Collins", "text": "That sounds better. But how do I know this won't happen again? I've run into the same promises from other suppliers before.", "textTr": "Kulaga daha iyi geliyor. Ama bunun tekrarlanmayacagini nasil bilebilirim? Daha once diger tedarikcilerden de ayni vaatlerle karsilastim.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "I'm handing this case over to Murat, my senior logistics coordinator. He'll follow up on every single shipment personally. Murat, would you like to introduce yourself?", "textTr": "Bu konuyu kidemli lojistik koordinatorum Murat'a devrediyorum. Her bir gonderiyi kisisel olarak takip edecek. Murat, kendini tanitmak ister misin?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "Hello, Mrs. Collins. I'll be your dedicated contact from now on. I'll get back to you with tracking updates every morning before 10 AM.", "textTr": "Merhaba Mrs. Collins. Bundan sonra sizin ozel iletisim kisiniiz olacagim. Her sabah saat 10'dan once takip guncellemeleriyle size geri donus yapacagim.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Mrs. Collins", "text": "I appreciate that. What about compensation for the damaged goods? We can't just pass on the losses to our customers.", "textTr": "Bunu takdir ediyorum. Peki hasarli mallar icin tazminat? Kayiplari musterilerimize aktaramayiz.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Absolutely. We're offering a 15% discount on your next three orders. And if any shipment arrives late or damaged, we'll provide a full refund for that order.", "textTr": "Kesinlikle. Sonraki uc siparislerinizde %15 indirim sunuyoruz. Ve herhangi bir gonderi gec veya hasarli gelirse, o siparis icin tam iade saglayacagiz." },
+      { "speaker": "A", "speakerName": "Mrs. Collins", "text": "That's a fair offer. I won't turn it down. But I'm putting you on notice — if we run into the same issues again, we'll have to look into other suppliers.", "textTr": "Adil bir teklif. Reddetmeyecegim. Ama sizi uyariyorum — ayni sorunlarla tekrar karsilassirsak, baska tedarikcileri arastirmak zorunda kalacagiz.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "Understood, Mrs. Collins. We won't let you down. Murat will wrap up the compensation paperwork today and pass on the new delivery schedule to your team.", "textTr": "Anladim Mrs. Collins. Sizi hayal kirikligina ugratmayacagiz. Murat bugun tazminat evraklarini tamamlayacak ve yeni teslimat programini ekibinize iletecek." },
+      { "speaker": "A", "speakerName": "Murat", "text": "I'll have everything ready by 5 PM. I'll also catch up on the two pending orders and make sure they ship out tonight.", "textTr": "Saat 5'e kadar her sey hazir olacak. Ayrica bekleyen iki siparisi yetistirecek ve bu gece gonderilmesini saglayacagim.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Mrs. Collins", "text": "Thank you both. I hope we can pull this off and save our partnership. I'll be watching closely.", "textTr": "Ikinize de tesekkurler. Umarim bunu basarabilir ve ortakligimizi kurtarabiliriz. Yakindan izleyecegim.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyup", "text": "We'll make it right, Mrs. Collins. Thank you for giving us another chance. We'll get back to you first thing tomorrow morning.", "textTr": "Düzelteceğiz Mrs. Collins. Bize bir sans daha verdiginiz icin tesekkurler. Yarin sabah ilk is size geri donus yapacagiz." }
+    ],
+    "questions": [
+      {
+        "question": "What caused the delivery delays?",
+        "questionTr": "Teslimat gecikmelerine ne sebep oldu?",
+        "options": ["Staff shortage", "The tracking system crashed twice", "Bad weather", "Truck breakdown"],
+        "correct": 1
+      },
+      {
+        "question": "How did they fix the packaging issue?",
+        "questionTr": "Ambalaj sorununu nasil cozdiler?",
+        "options": ["Hired new packers", "Switched to reinforced boxes", "Used smaller boxes", "Changed the warehouse"],
+        "correct": 1
+      },
+      {
+        "question": "What role will Murat take in the solution?",
+        "questionTr": "Murat cozumde ne rol alacak?",
+        "options": ["He'll quit the company", "He'll be Mrs. Collins's dedicated contact", "He'll manage the warehouse", "He'll negotiate prices"],
+        "correct": 1
+      },
+      {
+        "question": "What compensation was offered?",
+        "questionTr": "Ne tazminat teklif edildi?",
+        "options": ["10% discount on one order", "15% discount on next three orders + full refund guarantee", "Free shipping for a year", "A new contract"],
+        "correct": 1
+      },
+      {
+        "question": "What did Mrs. Collins warn about?",
+        "questionTr": "Mrs. Collins ne hakkinda uyardi?",
+        "options": ["She'll sue the company", "She'll look into other suppliers if issues repeat", "She'll call the police", "She'll post negative reviews online"],
+        "correct": 1
+      },
+      {
+        "question": "When will Murat have the compensation paperwork ready?",
+        "questionTr": "Murat tazminat evraklarini ne zaman hazirlayacak?",
+        "options": ["Tomorrow morning", "By 5 PM today", "Next week", "In two days"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "We'll ___ ___ the shipping delay right away.", "answer": "look into", "hint": "Phrasal verb — arastirmak" },
+      { "sentence": "I need to ___ ___ ___ the client with an update.", "answer": "get back to", "hint": "Phrasal verb — geri donus yapmak" },
+      { "sentence": "Don't worry, we'll ___ ___ the problem by Friday.", "answer": "sort out", "hint": "Phrasal verb — cozmek" },
+      { "sentence": "The client ___ ___ several mistakes in the report.", "answer": "pointed out", "hint": "Phrasal verb — belirtmek (gecmis zaman)" },
+      { "sentence": "Could you ___ ___ while I check your order number?", "answer": "hold on", "hint": "Phrasal verb — beklemek" },
+      { "sentence": "I'll ___ ___ your complaint to the manager.", "answer": "pass on", "hint": "Phrasal verb — iletmek" },
+      { "sentence": "They want to ___ ___ the deadline to next month.", "answer": "push back", "hint": "Phrasal verb — ertelemek" },
+      { "sentence": "We had to ___ ___ the meeting because of the emergency.", "answer": "call off", "hint": "Phrasal verb — iptal etmek" },
+      { "sentence": "The company is ___ ___ the old delivery system.", "answer": "phasing out", "hint": "Phrasal verb — asamali olarak kaldirmak (-ing)" },
+      { "sentence": "We've ___ ___ on shipments this week and need to catch up.", "answer": "fallen behind", "hint": "Phrasal verb — geride kalmak (present perfect)" },
+      { "sentence": "She ___ ___ our compensation offer and demanded a full refund.", "answer": "turned down", "hint": "Phrasal verb — reddetmek (gecmis zaman)" },
+      { "sentence": "Let's ___ ___ this discussion and move to the action items.", "answer": "wrap up", "hint": "Phrasal verb — bitirmek, sonlandirmak" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "Which is the correct way to use 'sort out' with a pronoun?",
+        "options": ["Sort out it", "Sort it out", "Sort it up", "Sort on it"],
+        "correct": 1
+      },
+      {
+        "question": "\"Look into\" is which type of phrasal verb?",
+        "options": ["Separable", "Inseparable", "Intransitive", "Three-word"],
+        "correct": 1
+      },
+      {
+        "question": "What is the formal equivalent of 'look into'?",
+        "options": ["examine", "investigate", "search", "discover"],
+        "correct": 1
+      },
+      {
+        "question": "\"We need to ___ ___ on the delayed shipments.\" Hangisi dogru?",
+        "options": ["follow up", "follow down", "follow in", "follow out"],
+        "correct": 0
+      },
+      {
+        "question": "\"Sort out\" un resmi karsiligi nedir?",
+        "options": ["organize", "resolve", "fix", "manage"],
+        "correct": 1
+      },
+      {
+        "question": "Hangisi 'step down' in dogru anlami?",
+        "options": ["Merdivenden inmek", "Gorevden cekilmek / istifa etmek", "Asagi bakmak", "Yere dusmek"],
+        "correct": 1
+      },
+      {
+        "question": "\"I'll put you ___ to the manager.\" Bosluga ne gelir?",
+        "options": ["through", "over", "into", "on"],
+        "correct": 0
+      },
+      {
+        "question": "\"Turn down\" ne anlama gelir?",
+        "options": ["Asagi inmek", "Ses kismak", "Reddetmek", "Donmek"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi inseparable phrasal verb'dur?",
+        "options": ["sort out", "call off", "deal with", "hand over"],
+        "correct": 2
+      },
+      {
+        "question": "\"Bring forward\" in tersi hangisidir?",
+        "options": ["push back", "call off", "phase out", "turn down"],
+        "correct": 0
+      },
+      {
+        "question": "\"We ___ ___ a problem with the shipment.\" (karsilastik)",
+        "options": ["ran into", "ran out", "ran over", "ran up"],
+        "correct": 0
+      }
+    ],
+    "matching": [
+      { "left": "look into", "right": "investigate" },
+      { "left": "deal with", "right": "handle" },
+      { "left": "sort out", "right": "resolve" },
+      { "left": "point out", "right": "indicate / highlight" },
+      { "left": "hand over", "right": "transfer" },
+      { "left": "put forward", "right": "propose / suggest" },
+      { "left": "call off", "right": "cancel" },
+      { "left": "turn down", "right": "reject / decline" },
+      { "left": "draw up", "right": "prepare / draft" },
+      { "left": "follow up", "right": "monitor / check progress" },
+      { "left": "phase out", "right": "gradually eliminate" },
+      { "left": "take over", "right": "assume control" },
+      { "left": "wrap up", "right": "conclude / finalize" },
+      { "left": "pass on", "right": "relay / forward" },
+      { "left": "bring forward", "right": "reschedule earlier" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I'll", "look", "into", "the", "issue", "right", "away"], "correct": "I'll look into the issue right away" },
+      { "words": ["We", "need", "to", "sort", "out", "the", "packaging", "problem"], "correct": "We need to sort out the packaging problem" },
+      { "words": ["Can", "you", "get", "back", "to", "the", "client", "today"], "correct": "Can you get back to the client today" },
+      { "words": ["She", "pointed", "out", "the", "errors", "in", "the", "invoice"], "correct": "She pointed out the errors in the invoice" },
+      { "words": ["They", "decided", "to", "call", "off", "the", "contract"], "correct": "They decided to call off the contract" },
+      { "words": ["I'll", "hand", "the", "case", "over", "to", "the", "senior", "manager"], "correct": "I'll hand the case over to the senior manager" },
+      { "words": ["We've", "fallen", "behind", "on", "order", "processing"], "correct": "We've fallen behind on order processing" },
+      { "words": ["Let's", "wrap", "up", "this", "meeting", "and", "start", "working"], "correct": "Let's wrap up this meeting and start working" },
+      { "words": ["The", "company", "is", "phasing", "out", "the", "old", "system"], "correct": "The company is phasing out the old system" }
+    ],
+    "translation": [
+      {
+        "turkish": "Bu konuyu hemen arastiracagiz.",
+        "english": "We'll look into this issue right away.",
+        "acceptAlso": ["We will look into this issue immediately", "We'll look into this matter right away"]
+      },
+      {
+        "turkish": "Musteriye yarin geri donus yapacagim.",
+        "english": "I'll get back to the client tomorrow.",
+        "acceptAlso": ["I will get back to the client tomorrow"]
+      },
+      {
+        "turkish": "Teslimat sorununu cuma gunune kadar cozeriz.",
+        "english": "We'll sort out the delivery problem by Friday.",
+        "acceptAlso": ["We will sort out the delivery problem by Friday", "We'll sort the delivery problem out by Friday"]
+      },
+      {
+        "turkish": "Toplanti iptal edildi.",
+        "english": "The meeting has been called off.",
+        "acceptAlso": ["The meeting was called off", "They called off the meeting"]
+      },
+      {
+        "turkish": "Bu sikayetle kisisel olarak ilgilenecegim.",
+        "english": "I'll deal with this complaint personally.",
+        "acceptAlso": ["I will deal with this complaint personally", "I will handle this complaint personally"]
+      },
+      {
+        "turkish": "Geri bildiriminizi mudure ilettim.",
+        "english": "I've passed on your feedback to the manager.",
+        "acceptAlso": ["I passed on your feedback to the manager", "I have passed your feedback on to the manager"]
+      },
+      {
+        "turkish": "Tekliflerini reddettik.",
+        "english": "We turned down their offer.",
+        "acceptAlso": ["We turned their offer down", "We rejected their offer"]
+      },
+      {
+        "turkish": "Teslimat tarihini bir gun one aldik.",
+        "english": "We brought forward the delivery date by one day.",
+        "acceptAlso": ["We've brought forward the delivery date by one day", "We brought the delivery date forward by one day"]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Phrasal Verbs for Business - BBC Learning English",
+      "description": "Is Ingilizcesinde en cok kullanilan phrasal verb'ler ve ornekler",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/english-you-need",
+      "type": "video",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Separable vs Inseparable Phrasal Verbs - Perfect English Grammar",
+      "description": "Ayrilabilir ve ayrilamaz phrasal verb'ler arasindaki farki ogrenin",
+      "url": "https://www.perfect-english-grammar.com/phrasal-verbs.html",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Customer Complaints in English - Business English Pod",
+      "description": "Musteri sikayetlerini profesyonelce yonetme diyaloglari",
+      "url": "https://www.businessenglishpod.com/category/customer-service/",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    }
+  ]
+}

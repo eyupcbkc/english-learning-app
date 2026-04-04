@@ -1,0 +1,184 @@
+{
+  "id": "unit-29",
+  "title": "Connectors & Linking Words",
+  "titleTr": "Bağlaçlar ve Bağlantı Kelimeleri",
+  "level": "B1",
+  "module": 4,
+  "description": "Use connectors and linking words to build strong arguments. Present quarterly business results with clear logic and smooth transitions.",
+  "descriptionTr": "Güçlü argümanlar kurmak için bağlaçlar ve bağlantı kelimeleri kullan. Çeyreklik iş sonuçlarını net mantık ve akıcı geçişlerle sun.",
+
+  "vocabulary": [
+    { "word": "however", "pronunciation": "hav-E-vır", "turkish": "ancak / bununla birlikte", "example": "Revenue increased. However, costs also went up.", "exampleTr": "Gelir arttı. Ancak maliyetler de yükseldi.", "extra": "We expected growth; however, the market was slow.", "extraTr": "Büyüme bekliyorduk; ancak piyasa yavaştı." },
+    { "word": "although", "pronunciation": "ol-DOU", "turkish": "her ne kadar / -e rağmen", "example": "Although sales dropped, we stayed profitable.", "exampleTr": "Satışlar düşmesine rağmen kârlılığımızı koruduk.", "extra": "Although it was a tough quarter, we learned a lot.", "extraTr": "Zor bir çeyrek olmasına rağmen çok şey öğrendik." },
+    { "word": "despite", "pronunciation": "dis-PAYT", "turkish": "-e rağmen", "example": "Despite the challenges, we met our targets.", "exampleTr": "Zorluklara rağmen hedeflerimizi tutturduk.", "extra": "The team performed well despite the tight deadline.", "extraTr": "Ekip sıkı teslim tarihine rağmen iyi performans gösterdi." },
+    { "word": "moreover", "pronunciation": "mor-OU-vır", "turkish": "üstelik / dahası", "example": "The project was on time. Moreover, it was under budget.", "exampleTr": "Proje zamanında bitti. Üstelik bütçenin altında kaldı.", "extra": "Moreover, customer satisfaction increased by 12%.", "extraTr": "Dahası müşteri memnuniyeti %12 arttı." },
+    { "word": "furthermore", "pronunciation": "för-dır-MOR", "turkish": "ayrıca / bunun yanı sıra", "example": "We expanded to 3 new markets. Furthermore, we signed 10 new clients.", "exampleTr": "3 yeni pazara açıldık. Ayrıca 10 yeni müşteri imzaladık.", "extra": "Furthermore, our brand awareness has grown significantly.", "extraTr": "Bunun yanı sıra marka bilinirliğimiz önemli ölçüde arttı." },
+    { "word": "in addition", "pronunciation": "in ı-Dİ-şın", "turkish": "buna ek olarak", "example": "In addition to cost savings, we improved delivery times.", "exampleTr": "Maliyet tasarrufuna ek olarak teslimat sürelerini iyileştirdik.", "extra": "In addition, the new warehouse is fully operational.", "extraTr": "Buna ek olarak yeni depo tamamen faaliyete geçti." },
+    { "word": "therefore", "pronunciation": "DER-for", "turkish": "bu nedenle / dolayısıyla", "example": "Demand increased; therefore, we hired more staff.", "exampleTr": "Talep arttı; bu nedenle daha fazla personel aldık.", "extra": "The client was unhappy; therefore, we offered a discount.", "extraTr": "Müşteri memnun değildi; dolayısıyla indirim teklif ettik." },
+    { "word": "consequently", "pronunciation": "KON-sı-kvent-li", "turkish": "sonuç olarak / bunun sonucunda", "example": "We lost a major client. Consequently, revenue fell by 8%.", "exampleTr": "Büyük bir müşteriyi kaybettik. Sonuç olarak gelir %8 düştü.", "extra": "The system crashed; consequently, all orders were delayed.", "extraTr": "Sistem çöktü; bunun sonucunda tüm siparişler gecikti." },
+    { "word": "as a result", "pronunciation": "ez ı ri-ZALT", "turkish": "bunun sonucunda", "example": "We invested in automation. As a result, productivity improved.", "exampleTr": "Otomasyona yatırım yaptık. Bunun sonucunda verimlilik arttı.", "extra": "As a result of the new strategy, profits doubled.", "extraTr": "Yeni stratejinin sonucunda kârlar ikiye katlandı." },
+    { "word": "nevertheless", "pronunciation": "ne-vır-dı-LES", "turkish": "yine de / buna rağmen", "example": "It was a difficult year. Nevertheless, we grew by 5%.", "exampleTr": "Zor bir yıldı. Yine de %5 büyüdük.", "extra": "The budget was limited; nevertheless, we delivered on time.", "extraTr": "Bütçe sınırlıydı; yine de zamanında teslim ettik." },
+    { "word": "on the other hand", "pronunciation": "on dı A-dır hend", "turkish": "öte yandan / diğer taraftan", "example": "Revenue is up. On the other hand, expenses are also rising.", "exampleTr": "Gelir arttı. Öte yandan giderler de yükseliyor.", "extra": "On the other hand, our competitors are struggling more.", "extraTr": "Diğer taraftan rakiplerimiz daha çok zorlanıyor." },
+    { "word": "in contrast", "pronunciation": "in KON-trest", "turkish": "aksine / buna karşılık", "example": "Q2 was weak. In contrast, Q3 showed strong recovery.", "exampleTr": "2. çeyrek zayıftı. Aksine 3. çeyrek güçlü toparlanma gösterdi.", "extra": "In contrast to last year, shipping costs decreased.", "extraTr": "Geçen yılın aksine nakliye maliyetleri düştü." },
+    { "word": "meanwhile", "pronunciation": "MIIN-vayıl", "turkish": "bu arada / bu esnada", "example": "The sales team was meeting clients. Meanwhile, we prepared the report.", "exampleTr": "Satış ekibi müşterilerle görüşüyordu. Bu arada biz raporu hazırladık.", "extra": "Meanwhile, our new product is getting excellent reviews.", "extraTr": "Bu arada yeni ürünümüz mükemmel yorumlar alıyor." },
+    { "word": "whereas", "pronunciation": "ver-EZ", "turkish": "oysa / halbuki", "example": "Domestic sales grew 10%, whereas exports dropped 3%.", "exampleTr": "Yurt içi satışlar %10 büyüdü, oysa ihracat %3 düştü.", "extra": "Last year we had 50 clients, whereas now we have 80.", "extraTr": "Geçen yıl 50 müşterimiz vardı, oysa şimdi 80 müşterimiz var." },
+    { "word": "while", "pronunciation": "vayıl", "turkish": "-ken / -e rağmen", "example": "While revenue increased, profit margins stayed flat.", "exampleTr": "Gelir artarken kâr marjları sabit kaldı.", "extra": "While Q3 was strong, we need to prepare for Q4 challenges.", "extraTr": "3. çeyrek güçlü olsa da 4. çeyrek zorluklarına hazırlanmamız gerek." },
+    { "word": "due to", "pronunciation": "duu tu", "turkish": "-den dolayı / nedeniyle", "example": "Due to high demand, we opened a second warehouse.", "exampleTr": "Yüksek talepten dolayı ikinci bir depo açtık.", "extra": "The delay was due to a shipping problem.", "extraTr": "Gecikme bir nakliye sorunundan kaynaklandı." },
+    { "word": "because of", "pronunciation": "bi-KOZ ov", "turkish": "yüzünden / -den dolayı", "example": "Because of the new system, errors decreased by 40%.", "exampleTr": "Yeni sistem sayesinde hatalar %40 azaldı.", "extra": "We succeeded because of the team's hard work.", "extraTr": "Ekibin sıkı çalışması sayesinde başarılı olduk." },
+    { "word": "in order to", "pronunciation": "in OR-dır tu", "turkish": "-mek amacıyla / için", "example": "In order to reduce costs, we switched suppliers.", "exampleTr": "Maliyetleri düşürmek amacıyla tedarikçi değiştirdik.", "extra": "We restructured the team in order to improve efficiency.", "extraTr": "Verimliliği artırmak için ekibi yeniden yapılandırdık." },
+    { "word": "so that", "pronunciation": "sou det", "turkish": "-sin diye / -ması için", "example": "We hired more drivers so that deliveries would be faster.", "exampleTr": "Teslimatlar daha hızlı olsun diye daha fazla şoför aldık.", "extra": "I prepared extra slides so that I could answer any questions.", "extraTr": "Soruları yanıtlayabilmem için ekstra slayt hazırladım." },
+    { "word": "unless", "pronunciation": "ın-LES", "turkish": "-medikçe / -mezse", "example": "Unless we cut costs, profit will decrease next quarter.", "exampleTr": "Maliyetleri düşürmedikçe gelecek çeyrekte kâr azalacak.", "extra": "We won't meet the deadline unless we add more resources.", "extraTr": "Daha fazla kaynak eklemedikçe teslim tarihini tutturamayız." },
+    { "word": "provided that", "pronunciation": "prı-VAY-did det", "turkish": "şartıyla / koşuluyla", "example": "We can launch in March, provided that testing is complete.", "exampleTr": "Testler tamamlanmış olması şartıyla Mart'ta lansman yapabiliriz.", "extra": "I'll approve the budget, provided that you stay under $50,000.", "extraTr": "50.000 doların altında kalmanız şartıyla bütçeyi onaylayacağım." },
+    { "word": "as long as", "pronunciation": "ez long ez", "turkish": "-dığı sürece / -dıkça", "example": "As long as quality stays high, clients will be satisfied.", "exampleTr": "Kalite yüksek kaldığı sürece müşteriler memnun olacak.", "extra": "You can work remotely as long as you attend the weekly meetings.", "extraTr": "Haftalık toplantılara katıldığın sürece uzaktan çalışabilirsin." },
+    { "word": "in terms of", "pronunciation": "in törmz ov", "turkish": "açısından / bakımından", "example": "In terms of revenue, this was our best quarter.", "exampleTr": "Gelir açısından bu en iyi çeyreğimizdi.", "extra": "In terms of customer service, we still need improvement.", "extraTr": "Müşteri hizmetleri bakımından hâlâ iyileştirmeye ihtiyacımız var." },
+    { "word": "regarding", "pronunciation": "ri-GAR-ding", "turkish": "ile ilgili / hakkında", "example": "Regarding the Q3 results, I have good news.", "exampleTr": "3. çeyrek sonuçlarıyla ilgili iyi haberlerim var.", "extra": "Do you have any questions regarding the budget?", "extraTr": "Bütçeyle ilgili herhangi bir sorunuz var mı?" },
+    { "word": "according to", "pronunciation": "ı-KOR-ding tu", "turkish": "-e göre", "example": "According to the report, customer retention improved.", "exampleTr": "Rapora göre müşteri tutma oranı iyileşti.", "extra": "According to our data, 80% of clients renewed their contracts.", "extraTr": "Verilerimize göre müşterilerin %80'i sözleşmelerini yeniledi." },
+    { "word": "overall", "pronunciation": "ou-vır-OL", "turkish": "genel olarak / toplamda", "example": "Overall, it was a successful quarter for the company.", "exampleTr": "Genel olarak şirket için başarılı bir çeyrekti.", "extra": "Overall performance exceeded expectations.", "extraTr": "Genel performans beklentileri aştı." },
+    { "word": "significantly", "pronunciation": "sig-Nİ-fi-kınt-li", "turkish": "önemli ölçüde / belirgin şekilde", "example": "Profits increased significantly compared to last year.", "exampleTr": "Kârlar geçen yıla kıyasla önemli ölçüde arttı.", "extra": "Customer complaints dropped significantly after the update.", "extraTr": "Güncellemeden sonra müşteri şikayetleri belirgin şekilde azaldı." },
+    { "word": "approximately", "pronunciation": "ıp-ROK-si-mıt-li", "turkish": "yaklaşık olarak", "example": "We shipped approximately 15,000 orders this quarter.", "exampleTr": "Bu çeyrekte yaklaşık 15.000 sipariş gönderdik.", "extra": "The project will take approximately 6 months.", "extraTr": "Proje yaklaşık 6 ay sürecek." },
+    { "word": "slightly", "pronunciation": "SLAYT-li", "turkish": "hafifçe / biraz", "example": "Costs increased slightly due to fuel prices.", "exampleTr": "Akaryakıt fiyatları nedeniyle maliyetler hafifçe arttı.", "extra": "Revenue was slightly below our target.", "extraTr": "Gelir hedefimizin biraz altında kaldı." },
+    { "word": "gradually", "pronunciation": "GRE-cu-ı-li", "turkish": "yavaş yavaş / kademeli olarak", "example": "Customer satisfaction has gradually improved over the year.", "exampleTr": "Müşteri memnuniyeti yıl boyunca kademeli olarak iyileşti.", "extra": "We are gradually expanding into European markets.", "extraTr": "Avrupa pazarlarına kademeli olarak açılıyoruz." }
+  ],
+
+  "grammar": {
+    "title": "Connectors & Linking Words — Building Clear Arguments",
+    "titleTr": "Bağlaçlar ve Bağlantı Kelimeleri — Net Argümanlar Kurma",
+    "explanation": "Connectors link ideas and show relationships between sentences. They make your writing and speaking more logical and professional. Use contrast connectors to show differences, addition connectors to add information, cause/result connectors to explain reasons and outcomes, and condition connectors to set requirements.",
+    "explanationTr": "Bağlaçlar fikirleri birbirine bağlar ve cümleler arasındaki ilişkiyi gösterir. Yazını ve konuşmanı daha mantıklı ve profesyonel yapar. Zıtlık bağlaçlarını farklılıkları göstermek için, ekleme bağlaçlarını bilgi eklemek için, sebep/sonuç bağlaçlarını nedenleri ve sonuçları açıklamak için, koşul bağlaçlarını ise gereklilik belirlemek için kullan.",
+    "table": [
+      ["Contrast (Zıtlık)", "however, nevertheless", "Revenue grew. However, costs also increased.", "Gelir arttı. Ancak maliyetler de yükseldi."],
+      ["Contrast (Zıtlık)", "although, despite, while", "Although sales dropped, we stayed profitable.", "Satışlar düşmesine rağmen kârlı kaldık."],
+      ["Addition (Ekleme)", "moreover, furthermore, in addition", "We cut costs. Moreover, we improved quality.", "Maliyetleri düşürdük. Üstelik kaliteyi artırdık."],
+      ["Cause/Result (Sebep/Sonuç)", "therefore, consequently, as a result", "Demand increased; therefore, we hired more staff.", "Talep arttı; bu nedenle daha fazla personel aldık."],
+      ["Cause (Sebep)", "due to, because of", "Due to high demand, we opened a new warehouse.", "Yüksek talepten dolayı yeni depo açtık."],
+      ["Purpose (Amaç)", "in order to, so that", "We trained the team in order to improve service.", "Hizmeti iyileştirmek için ekibi eğittik."],
+      ["Condition (Koşul)", "unless, provided that, as long as", "Unless we act now, we'll lose the client.", "Hemen harekete geçmezsek müşteriyi kaybedeceğiz."]
+    ],
+    "tips": [
+      { "en": "However, nevertheless, moreover, furthermore, consequently — use after a period or semicolon, NOT after a comma: 'Sales dropped. However, we recovered.' ✓ / 'Sales dropped, however we recovered.' ✗", "tr": "However, nevertheless, moreover, furthermore, consequently — noktadan veya noktalı virgülden sonra kullan, virgülden sonra DEĞİL: 'Sales dropped. However, we recovered.' ✓" },
+      { "en": "Although/While/Despite go at the START of a clause: 'Although it rained...' — However goes BETWEEN two sentences: 'It rained. However, we continued.'", "tr": "Although/While/Despite cümlenin BAŞINA gelir: 'Although it rained...' — However iki cümlenin ARASINA gelir: 'It rained. However, we continued.'" },
+      { "en": "Despite + noun/gerund (NOT a clause): 'Despite the rain...' / 'Despite raining...' ✓ — 'Despite it rained...' ✗ Use 'although' for clauses.", "tr": "Despite + isim/fiilimsi (cümle DEĞİL): 'Despite the rain...' ✓ — 'Despite it rained...' ✗ Cümle için 'although' kullan." },
+      { "en": "Due to + noun: 'Due to the delay...' ✓ — Because of + noun: 'Because of the delay...' ✓ — Because + clause: 'Because it was delayed...' ✓", "tr": "Due to + isim: 'Due to the delay...' ✓ — Because of + isim: 'Because of the delay...' ✓ — Because + cümle: 'Because it was delayed...' ✓" },
+      { "en": "Unless = if...not: 'Unless we act' = 'If we don't act'. Never use 'unless' with a negative verb: 'Unless we don't act' ✗", "tr": "Unless = eğer...değilse: 'Unless we act' = 'If we don't act'. Unless ile olumsuz fiil KULLANMA: 'Unless we don't act' ✗" },
+      { "en": "In terms of / Regarding / According to are great for presentations: 'In terms of revenue, Q3 was our strongest quarter.'", "tr": "In terms of / Regarding / According to sunumlar için harika: 'In terms of revenue, Q3 was our strongest quarter.'" }
+    ]
+  },
+
+  "reading": {
+    "text": "Good morning everyone. Thank you for joining the Q3 quarterly review. I'm Eyüp from the logistics department, and I'll be presenting our results today.\n\nOverall, Q3 was a strong quarter for our company. Revenue reached approximately $4.2 million, which is significantly higher than Q2. However, operating costs also increased slightly due to rising fuel prices.\n\nIn terms of delivery performance, we completed 98.3% of shipments on time. Although we faced supply chain disruptions in August, the team worked extra hours to stay on track. Furthermore, customer complaints decreased by 22% compared to the previous quarter.\n\nDespite the challenges in the European market, our domestic operations performed exceptionally well. Whereas international shipping costs went up by 7%, we managed to reduce domestic costs by 4%. As a result, our overall profit margin improved by 2.1 percentage points.\n\nWe also launched the new warehouse automation system. Consequently, order processing time dropped from 48 hours to 30 hours. Moreover, error rates fell significantly — from 3.2% to just 1.1%.\n\nRegarding Q4 targets, we plan to expand into two new markets. In order to achieve this, we need to hire approximately 15 new team members. Unless the board approves the budget increase, we may need to delay this expansion.\n\nAccording to our projections, Q4 revenue should reach $4.8 million, provided that market conditions remain stable. Nevertheless, we are preparing contingency plans in case of any unexpected challenges.\n\nThank you for your attention. I'm happy to take any questions.",
+    "textTr": "Herkese günaydın. Çeyreklik Q3 değerlendirmesine katıldığınız için teşekkürler. Ben lojistik departmanından Eyüp ve bugün sonuçlarımızı sunacağım.\n\nGenel olarak Q3 şirketimiz için güçlü bir çeyrekti. Gelir yaklaşık 4.2 milyon dolara ulaştı ki bu Q2'den önemli ölçüde yüksek. Ancak artan akaryakıt fiyatları nedeniyle işletme maliyetleri de hafifçe yükseldi.\n\nTeslimat performansı açısından sevkiyatların %98.3'ünü zamanında tamamladık. Ağustos'ta tedarik zinciri aksaklıklarıyla karşılaşmamıza rağmen ekip programda kalmak için fazla mesai yaptı. Ayrıca müşteri şikayetleri bir önceki çeyreğe kıyasla %22 azaldı.\n\nAvrupa pazarındaki zorluklara rağmen yurt içi operasyonlarımız olağanüstü iyi performans gösterdi. Uluslararası nakliye maliyetleri %7 artarken yurt içi maliyetleri %4 düşürmeyi başardık. Bunun sonucunda genel kâr marjımız 2.1 puan iyileşti.\n\nAyrıca yeni depo otomasyon sistemini devreye aldık. Sonuç olarak sipariş işleme süresi 48 saatten 30 saate düştü. Dahası hata oranları belirgin şekilde düştü — %3.2'den sadece %1.1'e.\n\nQ4 hedefleri ile ilgili olarak iki yeni pazara açılmayı planlıyoruz. Bunu başarabilmek için yaklaşık 15 yeni ekip üyesi almamız gerekiyor. Yönetim kurulu bütçe artışını onaylamadığı sürece bu genişlemeyi ertelememiz gerekebilir.\n\nProjeksiyonlarımıza göre piyasa koşullarının stabil kalması şartıyla Q4 geliri 4.8 milyon dolara ulaşması bekleniyor. Yine de beklenmeyen zorluklara karşı acil durum planları hazırlıyoruz.\n\nİlginiz için teşekkürler. Sorularınızı memnuniyetle cevaplarım.",
+    "questions": [
+      { "question": "What was the approximate Q3 revenue?", "questionTr": "Q3 geliri yaklaşık ne kadardı?", "options": ["$3.5 million", "$4.2 million", "$4.8 million", "$5.1 million"], "correct": 1 },
+      { "question": "Why did operating costs increase?", "questionTr": "İşletme maliyetleri neden arttı?", "options": ["New hires", "Rising fuel prices", "Warehouse rent", "Currency exchange"], "correct": 1 },
+      { "question": "What percentage of shipments were delivered on time?", "questionTr": "Sevkiyatların yüzde kaçı zamanında teslim edildi?", "options": ["95.7%", "97.1%", "98.3%", "99.5%"], "correct": 2 },
+      { "question": "What happened to order processing time after automation?", "questionTr": "Otomasyondan sonra sipariş işleme süresine ne oldu?", "options": ["Dropped from 72h to 48h", "Dropped from 48h to 30h", "Dropped from 36h to 24h", "Stayed the same"], "correct": 1 },
+      { "question": "What is needed to expand into new markets in Q4?", "questionTr": "Q4'te yeni pazarlara açılmak için ne gerekiyor?", "options": ["New software", "Board approval for budget increase", "A new CEO", "Office relocation"], "correct": 1 }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "Revenue increased. ___, costs also went up.", "answer": "However", "hint": "ancak / bununla birlikte" },
+      { "sentence": "___ the challenges, we met our targets.", "answer": "Despite", "hint": "-e rağmen + isim" },
+      { "sentence": "We cut costs. ___, we improved quality.", "answer": "Moreover", "hint": "üstelik / dahası" },
+      { "sentence": "Demand grew; ___, we hired more staff.", "answer": "therefore", "hint": "bu nedenle" },
+      { "sentence": "___ sales dropped, the company stayed profitable.", "answer": "Although", "hint": "-e rağmen + cümle" },
+      { "sentence": "___ to the delay, we missed the deadline.", "answer": "Due", "hint": "nedeniyle (Due ___)" },
+      { "sentence": "We trained the team in ___ to improve service.", "answer": "order", "hint": "-mek amacıyla (in ___ to)" },
+      { "sentence": "___ we act now, we'll lose the client.", "answer": "Unless", "hint": "-medikçe" },
+      { "sentence": "Revenue reached ___ $4.2 million this quarter.", "answer": "approximately", "hint": "yaklaşık" },
+      { "sentence": "Customer satisfaction has ___ improved over the year.", "answer": "gradually", "hint": "yavaş yavaş" },
+      { "sentence": "Profits increased ___ compared to last year.", "answer": "significantly", "hint": "önemli ölçüde" },
+      { "sentence": "___, it was a successful quarter for the company.", "answer": "Overall", "hint": "genel olarak" }
+    ],
+    "multipleChoice": [
+      { "question": "\"Revenue grew. ___, costs also increased.\" Boşluğa ne gelir?", "options": ["Although", "However", "Despite", "Because of"], "correct": 1 },
+      { "question": "\"___ the challenges, we succeeded.\" Hangisi doğru?", "options": ["Although", "However", "Despite", "Therefore"], "correct": 2 },
+      { "question": "Hangisi EKLEME bağlacıdır?", "options": ["However", "Nevertheless", "Moreover", "Consequently"], "correct": 2 },
+      { "question": "\"Bu nedenle\" İngilizce'de hangisi?", "options": ["however", "therefore", "although", "despite"], "correct": 1 },
+      { "question": "\"___ we cut costs, we may need to close the office.\" Doğru olan?", "options": ["Unless", "Although", "Moreover", "Furthermore"], "correct": 0 },
+      { "question": "\"Yaklaşık\" İngilizce'de hangisi?", "options": ["significantly", "slightly", "approximately", "gradually"], "correct": 2 },
+      { "question": "\"Despite\" kelimesinden sonra ne gelir?", "options": ["a clause (cümle)", "a noun or gerund (isim/fiilimsi)", "an adjective (sıfat)", "an adverb (zarf)"], "correct": 1 },
+      { "question": "\"___ to the report, sales improved.\" Boşluğa ne gelir?", "options": ["Regarding", "According", "In terms of", "Due"], "correct": 1 },
+      { "question": "Hangisi SEBEP/SONUÇ bağlacıdır?", "options": ["although", "despite", "consequently", "whereas"], "correct": 2 },
+      { "question": "\"Yine de / Buna rağmen\" İngilizce'de hangisi?", "options": ["moreover", "furthermore", "nevertheless", "consequently"], "correct": 2 }
+    ],
+    "matching": [
+      { "left": "however", "right": "ancak" },
+      { "left": "although", "right": "-e rağmen (cümle)" },
+      { "left": "despite", "right": "-e rağmen (isim)" },
+      { "left": "moreover", "right": "üstelik" },
+      { "left": "therefore", "right": "bu nedenle" },
+      { "left": "consequently", "right": "sonuç olarak" },
+      { "left": "nevertheless", "right": "yine de" },
+      { "left": "whereas", "right": "oysa" },
+      { "left": "due to", "right": "-den dolayı" },
+      { "left": "unless", "right": "-medikçe" },
+      { "left": "provided that", "right": "şartıyla" },
+      { "left": "approximately", "right": "yaklaşık" },
+      { "left": "significantly", "right": "önemli ölçüde" },
+      { "left": "gradually", "right": "yavaş yavaş" },
+      { "left": "overall", "right": "genel olarak" }
+    ],
+    "sentenceOrder": [
+      { "words": ["Revenue", "increased", "However", "costs", "also", "went", "up"], "correct": "Revenue increased However costs also went up" },
+      { "words": ["Despite", "the", "challenges", "we", "met", "our", "targets"], "correct": "Despite the challenges we met our targets" },
+      { "words": ["Although", "sales", "dropped", "we", "stayed", "profitable"], "correct": "Although sales dropped we stayed profitable" },
+      { "words": ["Demand", "increased", "therefore", "we", "hired", "more", "staff"], "correct": "Demand increased therefore we hired more staff" },
+      { "words": ["We", "trained", "the", "team", "in", "order", "to", "improve", "service"], "correct": "We trained the team in order to improve service" },
+      { "words": ["Unless", "we", "act", "now", "we", "will", "lose", "the", "client"], "correct": "Unless we act now we will lose the client" },
+      { "words": ["According", "to", "the", "report", "customer", "retention", "improved"], "correct": "According to the report customer retention improved" },
+      { "words": ["In", "terms", "of", "revenue", "this", "was", "our", "best", "quarter"], "correct": "In terms of revenue this was our best quarter" },
+      { "words": ["Overall", "it", "was", "a", "successful", "quarter"], "correct": "Overall it was a successful quarter" }
+    ],
+    "translation": [
+      { "turkish": "Gelir arttı. Ancak maliyetler de yükseldi.", "english": "Revenue increased. However, costs also went up.", "acceptAlso": ["Revenue grew. However, costs also increased."] },
+      { "turkish": "Zorluklara rağmen hedeflerimizi tutturduk.", "english": "Despite the challenges, we met our targets.", "acceptAlso": ["Despite the challenges we met our targets"] },
+      { "turkish": "Satışlar düşmesine rağmen kârlı kaldık.", "english": "Although sales dropped, we stayed profitable.", "acceptAlso": ["Although sales decreased, we remained profitable."] },
+      { "turkish": "Talep arttı; bu nedenle daha fazla personel aldık.", "english": "Demand increased; therefore, we hired more staff.", "acceptAlso": ["Demand grew; therefore, we hired more people."] },
+      { "turkish": "Maliyetleri düşürmek amacıyla tedarikçi değiştirdik.", "english": "In order to reduce costs, we switched suppliers.", "acceptAlso": ["We switched suppliers in order to reduce costs."] },
+      { "turkish": "Hemen harekete geçmezsek müşteriyi kaybedeceğiz.", "english": "Unless we act now, we will lose the client.", "acceptAlso": ["We will lose the client unless we act now."] },
+      { "turkish": "Rapora göre müşteri tutma oranı iyileşti.", "english": "According to the report, customer retention improved.", "acceptAlso": ["According to the report customer retention improved"] },
+      { "turkish": "Genel olarak şirket için başarılı bir çeyrekti.", "english": "Overall, it was a successful quarter for the company.", "acceptAlso": ["Overall it was a successful quarter for the company."] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Q3 Quarterly Business Presentation",
+    "titleTr": "Q3 Çeyreklik İş Sunumu",
+    "context": "Eyüp, lojistik şirketinde Q3 sonuçlarını sunuyor. CEO Mr. Karataş ve CFO Ms. Yıldız soruları yanıtlamasını istiyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning everyone. Thank you for joining the Q3 quarterly review. I'll be presenting the logistics department results today.", "textTr": "Herkese günaydın. Q3 çeyreklik değerlendirmesine katıldığınız için teşekkürler. Bugün lojistik departmanı sonuçlarını sunacağım." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Overall, Q3 was a strong quarter. Revenue reached approximately $4.2 million. However, operating costs increased slightly due to fuel prices.", "textTr": "Genel olarak Q3 güçlü bir çeyrekti. Gelir yaklaşık 4.2 milyon dolara ulaştı. Ancak akaryakıt fiyatları nedeniyle işletme maliyetleri hafifçe arttı." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "In terms of delivery performance, we completed 98.3% of shipments on time. Furthermore, customer complaints decreased by 22%.", "textTr": "Teslimat performansı açısından sevkiyatların %98.3'ünü zamanında tamamladık. Ayrıca müşteri şikayetleri %22 azaldı." },
+      { "speaker": "A", "speakerName": "Ms. Yıldız", "text": "Those are impressive numbers, Eyüp. However, I noticed that international shipping costs went up by 7%. Can you explain?", "textTr": "Etkileyici rakamlar Eyüp. Ancak uluslararası nakliye maliyetlerinin %7 arttığını fark ettim. Açıklayabilir misin?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, of course. The increase was due to rising fuel prices and new customs regulations. Nevertheless, we managed to reduce domestic costs by 4%. As a result, our overall profit margin still improved.", "textTr": "Evet, tabii ki. Artış artan akaryakıt fiyatları ve yeni gümrük düzenlemelerinden kaynaklandı. Yine de yurt içi maliyetleri %4 düşürmeyi başardık. Bunun sonucunda genel kâr marjımız yine de iyileşti." },
+      { "speaker": "A", "speakerName": "Ms. Yıldız", "text": "Good. So despite the higher international costs, the net impact was positive?", "textTr": "İyi. Yani daha yüksek uluslararası maliyetlere rağmen net etki olumlu muydu?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Exactly. Although international costs rose, the domestic savings more than compensated. Moreover, the new automation system significantly reduced processing errors.", "textTr": "Kesinlikle. Uluslararası maliyetler artmış olsa da yurt içi tasarruflar bunu fazlasıyla telafi etti. Dahası yeni otomasyon sistemi işlem hatalarını önemli ölçüde azalttı." },
+      { "speaker": "B", "speakerName": "Mr. Karataş", "text": "Tell us more about the automation system. What were the results?", "textTr": "Bize otomasyon sistemi hakkında daha fazla bilgi ver. Sonuçlar ne oldu?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Certainly, Mr. Karataş. We launched the warehouse automation in July. Consequently, order processing time dropped from 48 hours to 30 hours. In addition, error rates fell from 3.2% to just 1.1%.", "textTr": "Tabii ki Mr. Karataş. Depo otomasyonunu Temmuz'da devreye aldık. Sonuç olarak sipariş işleme süresi 48 saatten 30 saate düştü. Buna ek olarak hata oranları %3.2'den sadece %1.1'e düştü." },
+      { "speaker": "B", "speakerName": "Mr. Karataş", "text": "That's a significant improvement. What about Q4 plans? I understand you want to expand into new markets.", "textTr": "Bu önemli bir iyileşme. Peki Q4 planları ne? Yeni pazarlara açılmak istediğinizi anlıyorum.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes. Regarding Q4, we plan to enter two new European markets. In order to achieve this, we need to hire approximately 15 new team members.", "textTr": "Evet. Q4 ile ilgili olarak iki yeni Avrupa pazarına girmeyi planlıyoruz. Bunu başarabilmek için yaklaşık 15 yeni ekip üyesi almamız gerekiyor." },
+      { "speaker": "A", "speakerName": "Ms. Yıldız", "text": "What kind of budget are we looking at?", "textTr": "Ne tür bir bütçeden bahsediyoruz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "We'll need an additional $280,000. Unless the board approves this budget increase, we may need to delay the expansion. However, according to our projections, the return on investment would be within 8 months.", "textTr": "Ek 280.000 dolara ihtiyacımız olacak. Yönetim kurulu bu bütçe artışını onaylamadıkça genişlemeyi ertelememiz gerekebilir. Ancak projeksiyonlarımıza göre yatırım getirisi 8 ay içinde olacaktır." },
+      { "speaker": "B", "speakerName": "Mr. Karataş", "text": "The ROI sounds promising. Provided that you can keep costs under control, I think the board will support this.", "textTr": "Yatırım getirisi umut verici görünüyor. Maliyetleri kontrol altında tutmanız şartıyla yönetim kurulunun bunu destekleyeceğini düşünüyorum.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you, Mr. Karataş. We will keep costs under control. Furthermore, we're preparing contingency plans so that we're ready for any unexpected challenges.", "textTr": "Teşekkürler Mr. Karataş. Maliyetleri kontrol altında tutacağız. Ayrıca beklenmeyen zorluklara hazır olmamız için acil durum planları hazırlıyoruz." },
+      { "speaker": "A", "speakerName": "Ms. Yıldız", "text": "One last question. Whereas domestic operations are strong, the European market is more competitive. How will you handle that?", "textTr": "Son bir soru. Yurt içi operasyonlar güçlüyken Avrupa pazarı daha rekabetçi. Bununla nasıl başa çıkacaksın?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Great question. While the European market is competitive, our automation advantage gives us an edge. As long as we maintain our delivery speed and low error rates, we'll be competitive.", "textTr": "Harika soru. Avrupa pazarı rekabetçi olsa da otomasyon avantajımız bize üstünlük sağlıyor. Teslimat hızımızı ve düşük hata oranlarımızı koruduğumuz sürece rekabetçi olacağız." },
+      { "speaker": "B", "speakerName": "Mr. Karataş", "text": "Well done, Eyüp. Overall, a very strong presentation. Let's move forward with the Q4 expansion plan.", "textTr": "Aferin Eyüp. Genel olarak çok güçlü bir sunum. Q4 genişleme planıyla ilerleyelim.", "gender": "male" }
+    ],
+    "questions": [
+      { "question": "What was Q3 revenue?", "questionTr": "Q3 geliri ne kadardı?", "options": ["$3.8 million", "$4.2 million", "$4.8 million", "$5.0 million"], "correct": 1 },
+      { "question": "Why did international shipping costs increase?", "questionTr": "Uluslararası nakliye maliyetleri neden arttı?", "options": ["New employees", "Fuel prices and customs regulations", "Warehouse expansion", "Currency exchange"], "correct": 1 },
+      { "question": "What happened to order processing time after automation?", "questionTr": "Otomasyondan sonra sipariş işleme süresine ne oldu?", "options": ["48h to 30h", "72h to 48h", "36h to 24h", "24h to 12h"], "correct": 0 },
+      { "question": "How many new team members does Eyüp want to hire for Q4?", "questionTr": "Eyüp Q4 için kaç yeni ekip üyesi almak istiyor?", "options": ["10", "15", "20", "25"], "correct": 1 },
+      { "question": "What does Mr. Karataş think about the expansion plan?", "questionTr": "Mr. Karataş genişleme planı hakkında ne düşünüyor?", "options": ["He rejects it", "He wants to delay it", "He supports it if costs are controlled", "He needs more data"], "correct": 2 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Linking Words — British Council", "description": "Bağlaçlar ve bağlantı kelimeleri interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/linking-words", "type": "practice", "level": "B1", "free": true },
+    { "title": "Connectors in Business English — BBC Learning English", "description": "İş İngilizcesinde bağlaçlar video dersleri", "url": "https://www.bbc.co.uk/learningenglish/english/course/towards-advanced/unit-6", "type": "video", "level": "B1", "free": true },
+    { "title": "Business Presentation Phrases — FluentU", "description": "İş sunumu için kullanışlı ifadeler ve bağlaçlar", "url": "https://www.fluentu.com/blog/business-english/business-english-presentation/", "type": "article", "level": "B1", "free": true }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "unit-26",
+  "title": "Passive Voice",
+  "titleTr": "Edilgen Çatı",
+  "level": "B1",
+  "module": 4,
+  "description": "Describe processes, reports, and formal situations using passive voice. Handle product returns and logistics operations.",
+  "descriptionTr": "Süreçleri, raporları ve resmi durumları edilgen çatı ile anlat. Ürün iade ve lojistik operasyonlarını yönet.",
+
+  "vocabulary": [
+    { "word": "process", "pronunciation": "PRA-ses", "turkish": "süreç / işlemek", "example": "All returns are processed within 48 hours.", "exampleTr": "Tüm iadeler 48 saat içinde işlenir.", "extra": "The order is being processed right now.", "extraTr": "Sipariş şu an işleniyor." },
+    { "word": "manufacture", "pronunciation": "men-yu-FEK-çır", "turkish": "üretmek / imal etmek", "example": "These products are manufactured in Germany.", "exampleTr": "Bu ürünler Almanya'da üretilir.", "extra": "The parts were manufactured last month.", "extraTr": "Parçalar geçen ay üretildi." },
+    { "word": "assemble", "pronunciation": "ı-SEM-bıl", "turkish": "monte etmek", "example": "The machines are assembled at our factory in Bursa.", "exampleTr": "Makineler Bursa'daki fabrikamızda monte edilir.", "extra": "500 units were assembled yesterday.", "extraTr": "Dün 500 adet monte edildi." },
+    { "word": "inspect", "pronunciation": "in-SPEKT", "turkish": "denetlemek / kontrol etmek", "example": "Every shipment is inspected before delivery.", "exampleTr": "Her sevkiyat teslimattan önce denetlenir.", "extra": "The warehouse was inspected by the quality team.", "extraTr": "Depo kalite ekibi tarafından denetlendi." },
+    { "word": "approve", "pronunciation": "ı-PRUUV", "turkish": "onaylamak", "example": "The refund was approved by the manager.", "exampleTr": "İade müdür tarafından onaylandı.", "extra": "Your request will be approved within 24 hours.", "extraTr": "Talebiniz 24 saat içinde onaylanacak." },
+    { "word": "reject", "pronunciation": "ri-CEKT", "turkish": "reddetmek", "example": "The claim was rejected due to missing documents.", "exampleTr": "Talep eksik belgeler nedeniyle reddedildi.", "extra": "Damaged goods are rejected at the warehouse.", "extraTr": "Hasarlı ürünler depoda reddedilir." },
+    { "word": "ship", "pronunciation": "şip", "turkish": "sevk etmek / göndermek", "example": "Your order will be shipped tomorrow.", "exampleTr": "Siparişiniz yarın sevk edilecek.", "extra": "The goods were shipped from Istanbul.", "extraTr": "Mallar İstanbul'dan sevk edildi." },
+    { "word": "deliver", "pronunciation": "di-Lİ-vır", "turkish": "teslim etmek", "example": "The package was delivered to the wrong address.", "exampleTr": "Paket yanlış adrese teslim edildi.", "extra": "All orders are delivered within 3-5 business days.", "extraTr": "Tüm siparişler 3-5 iş günü içinde teslim edilir." },
+    { "word": "return", "pronunciation": "ri-TÖRN", "turkish": "iade etmek", "example": "The product can be returned within 14 days.", "exampleTr": "Ürün 14 gün içinde iade edilebilir.", "extra": "Over 200 items were returned last month.", "extraTr": "Geçen ay 200'den fazla ürün iade edildi." },
+    { "word": "damage", "pronunciation": "DE-mic", "turkish": "hasar vermek / hasar", "example": "The screen was damaged during shipping.", "exampleTr": "Ekran sevkiyat sırasında hasar gördü.", "extra": "Damaged items are replaced free of charge.", "extraTr": "Hasarlı ürünler ücretsiz değiştirilir." },
+    { "word": "defect", "pronunciation": "DII-fekt", "turkish": "kusur / arıza", "example": "A manufacturing defect was found in the batch.", "exampleTr": "Partide bir üretim kusuru bulundu.", "extra": "Products with defects are recalled immediately.", "extraTr": "Kusurlu ürünler derhal geri çağrılır." },
+    { "word": "warranty", "pronunciation": "VOR-ın-ti", "turkish": "garanti", "example": "This product is covered by a 2-year warranty.", "exampleTr": "Bu ürün 2 yıl garanti kapsamındadır.", "extra": "The warranty was voided because of misuse.", "extraTr": "Yanlış kullanım nedeniyle garanti geçersiz sayıldı." },
+    { "word": "claim", "pronunciation": "kleym", "turkish": "talep / iddia", "example": "The insurance claim was filed yesterday.", "exampleTr": "Sigorta talebi dün dosyalandı.", "extra": "All claims are reviewed by the legal department.", "extraTr": "Tüm talepler hukuk departmanı tarafından incelenir." },
+    { "word": "investigate", "pronunciation": "in-VES-ti-geyt", "turkish": "araştırmak / soruşturmak", "example": "The incident is being investigated by our team.", "exampleTr": "Olay ekibimiz tarafından araştırılıyor.", "extra": "The complaint was investigated and resolved.", "extraTr": "Şikayet araştırıldı ve çözüldü." },
+    { "word": "resolve", "pronunciation": "ri-ZOLV", "turkish": "çözmek / çözüme kavuşturmak", "example": "The issue will be resolved by Friday.", "exampleTr": "Sorun Cuma gününe kadar çözülecek.", "extra": "Most complaints are resolved within 48 hours.", "extraTr": "Çoğu şikayet 48 saat içinde çözülür." },
+    { "word": "compensate", "pronunciation": "KOM-pen-seyt", "turkish": "tazmin etmek", "example": "The customer was compensated for the delay.", "exampleTr": "Müşteri gecikme için tazmin edildi.", "extra": "You will be compensated with a full refund.", "extraTr": "Tam iade ile tazmin edileceksiniz." },
+    { "word": "notify", "pronunciation": "NOU-tı-fay", "turkish": "bilgilendirmek", "example": "You will be notified by email when your order ships.", "exampleTr": "Siparişiniz sevk edildiğinde e-postayla bilgilendirileceksiniz.", "extra": "The team was notified about the issue.", "extraTr": "Ekip sorun hakkında bilgilendirildi." },
+    { "word": "document", "pronunciation": "DO-kyu-ment", "turkish": "belgelemek / belge", "example": "Every step must be documented for compliance.", "exampleTr": "Uyum için her adım belgelenmeli.", "extra": "The damage was documented with photos.", "extraTr": "Hasar fotoğraflarla belgelendi." },
+    { "word": "authorize", "pronunciation": "O-tı-rayz", "turkish": "yetkilendirmek", "example": "The return was authorized by the supervisor.", "exampleTr": "İade süpervizör tarafından yetkilendirildi.", "extra": "Only managers are authorized to approve refunds.", "extraTr": "Sadece müdürler iadeleri onaylama yetkisine sahiptir." },
+    { "word": "dispatch", "pronunciation": "dis-PEÇ", "turkish": "sevk etmek / yollamak", "example": "The replacement was dispatched this morning.", "exampleTr": "Yedek ürün bu sabah sevk edildi.", "extra": "Orders are dispatched from our central warehouse.", "extraTr": "Siparişler merkez depomuzdan sevk edilir." },
+    { "word": "scan", "pronunciation": "sken", "turkish": "taramak", "example": "Every package is scanned at each checkpoint.", "exampleTr": "Her paket her kontrol noktasında taranır.", "extra": "The barcode was scanned but showed an error.", "extraTr": "Barkod tarandı ama hata gösterdi." },
+    { "word": "verify", "pronunciation": "VE-rı-fay", "turkish": "doğrulamak", "example": "Your identity will be verified before the refund.", "exampleTr": "İadeden önce kimliğiniz doğrulanacak.", "extra": "The shipment details were verified by the team.", "extraTr": "Sevkiyat detayları ekip tarafından doğrulandı." },
+    { "word": "register", "pronunciation": "RE-cis-tır", "turkish": "kaydetmek / kaydolmak", "example": "The complaint was registered in our system.", "exampleTr": "Şikayet sistemimize kaydedildi.", "extra": "All returns must be registered online first.", "extraTr": "Tüm iadeler önce online olarak kaydedilmelidir." },
+    { "word": "assign", "pronunciation": "ı-SAYN", "turkish": "atamak / görevlendirmek", "example": "A case number was assigned to your request.", "exampleTr": "Talebinize bir vaka numarası atandı.", "extra": "The task was assigned to the logistics team.", "extraTr": "Görev lojistik ekibine atandı." },
+    { "word": "complete", "pronunciation": "kım-PLIIT", "turkish": "tamamlamak", "example": "The investigation was completed yesterday.", "exampleTr": "Soruşturma dün tamamlandı.", "extra": "All orders are completed within the deadline.", "extraTr": "Tüm siparişler süre içinde tamamlanır." },
+    { "word": "handle", "pronunciation": "HEN-dıl", "turkish": "ele almak / halletmek", "example": "Customer complaints are handled by our support team.", "exampleTr": "Müşteri şikayetleri destek ekibimiz tarafından ele alınır.", "extra": "The situation was handled professionally.", "extraTr": "Durum profesyonelce ele alındı." },
+    { "word": "escalate", "pronunciation": "ES-kı-leyt", "turkish": "üst makama iletmek", "example": "The issue was escalated to senior management.", "exampleTr": "Sorun üst yönetime iletildi.", "extra": "Unresolved complaints are escalated automatically.", "extraTr": "Çözülmeyen şikayetler otomatik olarak üst makama iletilir." },
+    { "word": "review", "pronunciation": "ri-VYUU", "turkish": "incelemek / gözden geçirmek", "example": "Your application is being reviewed.", "exampleTr": "Başvurunuz inceleniyor.", "extra": "The contract was reviewed by our legal team.", "extraTr": "Sözleşme hukuk ekibimiz tarafından incelendi." },
+    { "word": "update", "pronunciation": "ap-DEYT", "turkish": "güncellemek", "example": "You will be updated on the status of your claim.", "exampleTr": "Talebinizin durumu hakkında bilgilendirileceksiniz.", "extra": "The tracking system was updated last night.", "extraTr": "Takip sistemi dün gece güncellendi." },
+    { "word": "archive", "pronunciation": "AR-kayv", "turkish": "arşivlemek", "example": "Completed cases are archived after 90 days.", "exampleTr": "Tamamlanan vakalar 90 gün sonra arşivlenir.", "extra": "All documents must be archived for audit purposes.", "extraTr": "Tüm belgeler denetim amaçlı arşivlenmelidir." }
+  ],
+
+  "grammar": {
+    "title": "Passive Voice — Present, Past & Future",
+    "titleTr": "Edilgen Çatı — Şimdiki, Geçmiş ve Gelecek Zaman",
+    "explanation": "Passive voice is used when the action is more important than who does it. Structure: Subject + be + past participle (+ by agent). Common in business, logistics, and formal communication.",
+    "explanationTr": "Edilgen çatı, eylemin kimin yaptığından daha önemli olduğu durumlarda kullanılır. Yapı: Özne + be + geçmiş ortaç (+ tarafından). İş, lojistik ve resmi iletişimde yaygındır.",
+    "table": [
+      ["Present: The order is processed daily.", "The order is not processed on weekends.", "Is the order processed today?", "Yes, it is. / No, it isn't."],
+      ["Present Continuous: The package is being delivered now.", "The package is not being delivered yet.", "Is the package being delivered?", "Yes, it is."],
+      ["Past: The complaint was resolved yesterday.", "The complaint was not resolved on time.", "Was the complaint resolved?", "Yes, it was. / No, it wasn't."],
+      ["Past: The goods were shipped from Istanbul.", "The goods were not shipped last week.", "Were the goods shipped?", "Yes, they were."],
+      ["Future: The refund will be processed tomorrow.", "The refund will not be processed today.", "Will the refund be processed?", "Yes, it will."],
+      ["Modal: The issue can be resolved quickly.", "The issue cannot be ignored.", "Can the issue be resolved?", "Yes, it can."],
+      ["Present Perfect: The report has been completed.", "The report has not been reviewed yet.", "Has the report been completed?", "Yes, it has."]
+    ],
+    "tips": [
+      { "en": "Active: 'The team inspected the goods.' → Passive: 'The goods were inspected (by the team).'", "tr": "Etken: 'Ekip malları denetledi.' → Edilgen: 'Mallar (ekip tarafından) denetlendi.'" },
+      { "en": "Use passive when WHO did it doesn't matter: 'The package was delivered.' (we don't care by whom)", "tr": "KİM yaptığı önemli değilse edilgen kullan: 'Paket teslim edildi.' (kim teslim etti önemli değil)" },
+      { "en": "Business emails love passive: 'Your request has been received' sounds more professional", "tr": "İş e-postaları edilgen sever: 'Talebiniz alındı' daha profesyonel görünür" },
+      { "en": "'by + agent' is optional: 'The report was written (by the manager).'", "tr": "'by + yapan kişi' isteğe bağlıdır: 'Rapor (müdür tarafından) yazıldı.'" },
+      { "en": "Common in logistics: shipped, delivered, processed, inspected, approved, dispatched", "tr": "Lojistikte yaygın: sevk edildi, teslim edildi, işlendi, denetlendi, onaylandı, yollandı" },
+      { "en": "Don't overuse passive — mix with active for natural writing", "tr": "Edilgeni aşırı kullanma — doğal yazı için etkenle karıştır" }
+    ]
+  },
+
+  "reading": {
+    "text": "RETURN POLICY — GlobalShip Logistics\n\nAll products purchased through our platform can be returned within 14 days of delivery. Returns must be registered online before the item is sent back.\n\nHow the process works:\n1. A return request is submitted through your account.\n2. The request is reviewed by our team within 24 hours.\n3. A return label is generated and sent to your email.\n4. The item must be packed in its original packaging.\n5. The package is picked up by our courier or dropped off at a collection point.\n6. Once received, the item is inspected for damage.\n7. If approved, your refund is processed within 3-5 business days.\n\nPlease note: Items that were used, damaged by the customer, or returned without original packaging will not be accepted. Electronics must be returned with all accessories included.\n\n---\n\nCustomer Email:\n\"Dear Support, I ordered a laptop (Order #4821) and it was delivered on March 15th. Unfortunately, the screen was cracked when the box was opened. The damage was clearly caused during shipping. I would like this to be investigated and a replacement to be sent as soon as possible. Photos of the damage have been attached.\"",
+    "textTr": "İADE POLİTİKASI — GlobalShip Lojistik\n\nPlatformumuz üzerinden satın alınan tüm ürünler teslimat tarihinden itibaren 14 gün içinde iade edilebilir. İadeler, ürün geri gönderilmeden önce online olarak kaydedilmelidir.\n\nSüreç nasıl işliyor:\n1. Hesabınız üzerinden iade talebi gönderilir.\n2. Talep ekibimiz tarafından 24 saat içinde incelenir.\n3. İade etiketi oluşturulur ve e-postanıza gönderilir.\n4. Ürün orijinal ambalajında paketlenmelidir.\n5. Paket kuryemiz tarafından alınır veya toplama noktasına bırakılır.\n6. Alındıktan sonra ürün hasar açısından denetlenir.\n7. Onaylanırsa iadeniz 3-5 iş günü içinde işlenir.\n\nNot: Kullanılmış, müşteri tarafından hasar görmüş veya orijinal ambalajı olmadan iade edilen ürünler kabul edilmez. Elektronik ürünler tüm aksesuarlarıyla birlikte iade edilmelidir.\n\n---\n\nMüşteri E-postası:\n\"Sayın Destek, bir dizüstü bilgisayar sipariş ettim (Sipariş #4821) ve 15 Mart'ta teslim edildi. Maalesef kutu açıldığında ekran çatlakmış. Hasarın sevkiyat sırasında oluştuğu açıkça belli. Bu durumun araştırılmasını ve en kısa sürede yedek ürün gönderilmesini istiyorum. Hasar fotoğrafları ek olarak gönderildi.\"",
+    "questions": [
+      { "question": "How long do customers have to return a product?", "questionTr": "Müşterilerin ürünü iade etmek için ne kadar süreleri var?", "options": ["7 days", "14 days", "30 days", "60 days"], "correct": 1 },
+      { "question": "What happens after the return request is submitted?", "questionTr": "İade talebi gönderildikten sonra ne olur?", "options": ["Item is picked up immediately", "Request is reviewed within 24 hours", "Refund is processed instantly", "Customer calls support"], "correct": 1 },
+      { "question": "What was wrong with the customer's laptop?", "questionTr": "Müşterinin dizüstü bilgisayarında ne sorun vardı?", "options": ["It didn't turn on", "The screen was cracked", "Wrong model was sent", "Battery was missing"], "correct": 1 },
+      { "question": "When was the laptop delivered?", "questionTr": "Dizüstü bilgisayar ne zaman teslim edildi?", "options": ["March 10th", "March 12th", "March 15th", "March 20th"], "correct": 2 },
+      { "question": "What will NOT be accepted for return?", "questionTr": "İade için ne kabul edilmez?", "options": ["Unused items", "Items in original packaging", "Items damaged by customer", "Items with receipt"], "correct": 2 }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "The package ___ delivered yesterday.", "answer": "was", "hint": "past passive — tekil" },
+      { "sentence": "All orders ___ processed within 48 hours.", "answer": "are", "hint": "present passive — çoğul" },
+      { "sentence": "The refund will ___ approved by Friday.", "answer": "be", "hint": "future passive" },
+      { "sentence": "The complaint ___ being investigated right now.", "answer": "is", "hint": "present continuous passive" },
+      { "sentence": "The goods were ___ from Istanbul last week.", "answer": "shipped", "hint": "sevk etmek — past participle" },
+      { "sentence": "Every shipment is ___ before delivery.", "answer": "inspected", "hint": "denetlemek" },
+      { "sentence": "The return was ___ by the supervisor.", "answer": "authorized", "hint": "yetkilendirmek" },
+      { "sentence": "You will be ___ by email when it ships.", "answer": "notified", "hint": "bilgilendirmek" },
+      { "sentence": "The issue was ___ to senior management.", "answer": "escalated", "hint": "üst makama iletmek" },
+      { "sentence": "A case number was ___ to your request.", "answer": "assigned", "hint": "atamak" },
+      { "sentence": "The report has been ___ by the legal team.", "answer": "reviewed", "hint": "incelemek" },
+      { "sentence": "Completed cases are ___ after 90 days.", "answer": "archived", "hint": "arşivlemek" }
+    ],
+    "multipleChoice": [
+      { "question": "\"The order ___ processed yesterday.\" Doğru olan?", "options": ["is", "was", "were", "be"], "correct": 1 },
+      { "question": "\"Active: The team inspected the goods.\" Passive?", "options": ["The goods inspected by the team.", "The goods were inspected by the team.", "The goods is inspected by the team.", "The goods inspecting by the team."], "correct": 1 },
+      { "question": "\"Hasarlı ürünler reddedilir\" İngilizce'de?", "options": ["Damaged goods reject.", "Damaged goods are rejected.", "Damaged goods rejected.", "Damaged goods is rejected."], "correct": 1 },
+      { "question": "\"The package is being ___\" (şu an teslim ediliyor)", "options": ["deliver", "delivered", "delivering", "delivers"], "correct": 1 },
+      { "question": "\"Garanti\" İngilizce'de hangisi?", "options": ["warranty", "guarantee", "insurance", "Both A and B"], "correct": 3 },
+      { "question": "\"The refund will ___ processed.\"", "options": ["is", "was", "be", "been"], "correct": 2 },
+      { "question": "\"Edilgen çatı\" ne zaman kullanılır?", "options": ["Kimin yaptığı önemli değilse", "Sadece geçmiş zamanda", "Sadece sorularda", "Her zaman"], "correct": 0 },
+      { "question": "\"Denetlemek\" İngilizce'de hangisi?", "options": ["inspect", "expect", "suspect", "respect"], "correct": 0 },
+      { "question": "\"The complaint has been ___.\" (çözüldü)", "options": ["resolve", "resolved", "resolving", "resolves"], "correct": 1 },
+      { "question": "Hangisi passive voice DEĞİL?", "options": ["The order was shipped.", "The team shipped the order.", "The goods were inspected.", "The refund was approved."], "correct": 1 }
+    ],
+    "matching": [
+      { "left": "process", "right": "işlemek" },
+      { "left": "manufacture", "right": "üretmek" },
+      { "left": "inspect", "right": "denetlemek" },
+      { "left": "approve", "right": "onaylamak" },
+      { "left": "ship", "right": "sevk etmek" },
+      { "left": "deliver", "right": "teslim etmek" },
+      { "left": "damage", "right": "hasar vermek" },
+      { "left": "warranty", "right": "garanti" },
+      { "left": "investigate", "right": "araştırmak" },
+      { "left": "resolve", "right": "çözmek" },
+      { "left": "compensate", "right": "tazmin etmek" },
+      { "left": "notify", "right": "bilgilendirmek" },
+      { "left": "authorize", "right": "yetkilendirmek" },
+      { "left": "escalate", "right": "üst makama iletmek" },
+      { "left": "archive", "right": "arşivlemek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["The", "order", "was", "shipped", "yesterday"], "correct": "The order was shipped yesterday" },
+      { "words": ["All", "returns", "are", "processed", "within", "48", "hours"], "correct": "All returns are processed within 48 hours" },
+      { "words": ["The", "refund", "will", "be", "approved", "by", "Friday"], "correct": "The refund will be approved by Friday" },
+      { "words": ["The", "complaint", "was", "investigated", "by", "the", "team"], "correct": "The complaint was investigated by the team" },
+      { "words": ["Your", "request", "is", "being", "reviewed"], "correct": "Your request is being reviewed" },
+      { "words": ["The", "goods", "were", "inspected", "at", "the", "warehouse"], "correct": "The goods were inspected at the warehouse" },
+      { "words": ["A", "replacement", "has", "been", "dispatched"], "correct": "A replacement has been dispatched" },
+      { "words": ["The", "report", "must", "be", "documented"], "correct": "The report must be documented" },
+      { "words": ["Customers", "are", "notified", "by", "email"], "correct": "Customers are notified by email" }
+    ],
+    "translation": [
+      { "turkish": "Sipariş dün sevk edildi.", "english": "The order was shipped yesterday.", "acceptAlso": ["The order was dispatched yesterday"] },
+      { "turkish": "Tüm iadeler 48 saat içinde işlenir.", "english": "All returns are processed within 48 hours.", "acceptAlso": ["All returns are processed in 48 hours"] },
+      { "turkish": "İade Cuma gününe kadar onaylanacak.", "english": "The refund will be approved by Friday.", "acceptAlso": ["The refund will be processed by Friday"] },
+      { "turkish": "Sorun ekibimiz tarafından araştırılıyor.", "english": "The issue is being investigated by our team.", "acceptAlso": ["The issue is being investigated by the team"] },
+      { "turkish": "Hasarlı ürünler ücretsiz değiştirilir.", "english": "Damaged items are replaced free of charge.", "acceptAlso": ["Damaged products are replaced for free"] },
+      { "turkish": "Paket her kontrol noktasında taranır.", "english": "Every package is scanned at each checkpoint.", "acceptAlso": ["The package is scanned at every checkpoint"] },
+      { "turkish": "Müşteri gecikme için tazmin edildi.", "english": "The customer was compensated for the delay.", "acceptAlso": ["The customer was compensated for the late delivery"] },
+      { "turkish": "Rapor hukuk ekibi tarafından incelendi.", "english": "The report was reviewed by the legal team.", "acceptAlso": ["The report was reviewed by the legal department"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Handling a Product Return",
+    "titleTr": "Ürün İade Sürecini Yönetme",
+    "context": "Eyüp, GlobalShip'te lojistik müdürü. Ekip üyesi Murat ile bir müşteri şikayetini görüşüyor, sonra müşteriyi (Mrs. Taylor) arıyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Murat", "text": "Eyüp, we have a problem. A damaged laptop was reported by a customer — Order #4821.", "textTr": "Eyüp, bir sorunumuz var. Bir müşteri hasarlı dizüstü bilgisayar bildirdi — Sipariş #4821." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "When was it delivered?", "textTr": "Ne zaman teslim edildi?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "It was delivered on March 15th. The customer says the screen was cracked when the box was opened.", "textTr": "15 Mart'ta teslim edildi. Müşteri kutu açıldığında ekranın çatlak olduğunu söylüyor." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Was it inspected before shipping? Every item should be inspected at the warehouse.", "textTr": "Sevkiyattan önce denetlendi mi? Her ürün depoda denetlenmelidir." },
+      { "speaker": "A", "speakerName": "Murat", "text": "Yes, it was inspected and approved. The damage must have been caused during transit.", "textTr": "Evet, denetlendi ve onaylandı. Hasar taşıma sırasında oluşmuş olmalı." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Okay. Has a case number been assigned yet?", "textTr": "Tamam. Bir vaka numarası atandı mı?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "Yes, Case #RT-2847 was registered in the system this morning. Photos have been attached by the customer.", "textTr": "Evet, Vaka #RT-2847 bu sabah sisteme kaydedildi. Müşteri tarafından fotoğraflar eklendi." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good. A replacement should be dispatched immediately. And the customer needs to be notified. Let me call her.", "textTr": "İyi. Yedek ürün derhal sevk edilmeli. Ve müşterinin bilgilendirilmesi lazım. Onu arayayım." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Hello, Mrs. Taylor? This is Eyüp from GlobalShip. I'm calling about your damaged laptop — Case #RT-2847.", "textTr": "Merhaba, Bayan Taylor? Ben GlobalShip'ten Eyüp. Hasarlı dizüstü bilgisayarınız hakkında arıyorum — Vaka #RT-2847." },
+      { "speaker": "A", "speakerName": "Mrs. Taylor", "text": "Yes! I've been waiting for a response. The screen was completely cracked. It was obviously damaged during shipping.", "textTr": "Evet! Cevap bekliyordum. Ekran tamamen çatlamıştı. Belli ki sevkiyat sırasında hasar görmüş.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I sincerely apologize, Mrs. Taylor. The issue has been investigated, and we've confirmed the damage was caused during transit.", "textTr": "İçtenlikle özür dilerim Bayan Taylor. Sorun araştırıldı ve hasarın taşıma sırasında oluştuğu doğrulandı." },
+      { "speaker": "A", "speakerName": "Mrs. Taylor", "text": "So what will be done about it?", "textTr": "Peki bu konuda ne yapılacak?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "A brand new replacement has been authorized and will be dispatched today. It should be delivered within 2-3 business days. The damaged unit will be picked up by our courier.", "textTr": "Yepyeni bir yedek ürün yetkilendirildi ve bugün sevk edilecek. 2-3 iş günü içinde teslim edilecek. Hasarlı ürün kuryemiz tarafından alınacak." },
+      { "speaker": "A", "speakerName": "Mrs. Taylor", "text": "That sounds good. Will I be compensated for the inconvenience?", "textTr": "İyi görünüyor. Yaşanan rahatsızlık için tazmin edilecek miyim?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Absolutely. A 15% discount code has been generated for your next order. You'll be notified by email with all the details.", "textTr": "Kesinlikle. Bir sonraki siparişiniz için %15 indirim kodu oluşturuldu. Tüm detaylarla e-postayla bilgilendirileceksiniz." },
+      { "speaker": "A", "speakerName": "Mrs. Taylor", "text": "Thank you, Eyüp. I appreciate how quickly this was handled.", "textTr": "Teşekkür ederim Eyüp. Bunun ne kadar hızlı ele alındığını takdir ediyorum.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "You're welcome, Mrs. Taylor. We take these issues very seriously. Everything has been documented in your case file.", "textTr": "Rica ederim Bayan Taylor. Bu konuları çok ciddiye alıyoruz. Her şey vaka dosyanızda belgelendi." },
+      { "speaker": "A", "speakerName": "Mrs. Taylor", "text": "Great. I look forward to receiving the replacement.", "textTr": "Harika. Yedek ürünü almayı dört gözle bekliyorum.", "gender": "female" }
+    ],
+    "questions": [
+      { "question": "What was wrong with the customer's order?", "questionTr": "Müşterinin siparişinde ne sorun vardı?", "options": ["Wrong product", "Cracked screen", "Missing accessories", "Late delivery"], "correct": 1 },
+      { "question": "When was the damage caused?", "questionTr": "Hasar ne zaman oluştu?", "options": ["At the factory", "At the warehouse", "During transit", "By the customer"], "correct": 2 },
+      { "question": "What will be done for the customer?", "questionTr": "Müşteri için ne yapılacak?", "options": ["Full refund only", "Replacement + discount code", "Apology email only", "Nothing"], "correct": 1 },
+      { "question": "How soon will the replacement be delivered?", "questionTr": "Yedek ürün ne zaman teslim edilecek?", "options": ["Same day", "Next day", "2-3 business days", "1 week"], "correct": 2 },
+      { "question": "Who authorized the replacement?", "questionTr": "Yedek ürünü kim yetkilendirdi?", "options": ["Murat", "Mrs. Taylor", "The system", "Eyüp (the manager)"], "correct": 3 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Passive Voice — British Council", "description": "Edilgen çatı interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/passive", "type": "practice", "level": "B1", "free": true },
+    { "title": "Business English: Complaints — BBC", "description": "İş İngilizcesi şikayet yönetimi", "url": "https://www.bbc.co.uk/learningenglish/english/course/upper-intermediate/unit-5", "type": "video", "level": "B1", "free": true },
+    { "title": "Passive Voice Exercises — Perfect English Grammar", "description": "Edilgen çatı alıştırmaları", "url": "https://www.perfect-english-grammar.com/passive.html", "type": "practice", "level": "B1", "free": true }
+  ]
+}

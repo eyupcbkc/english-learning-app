@@ -1,0 +1,577 @@
+{
+  "id": "unit-28",
+  "title": "Relative Clauses — Integration Specialist Emails",
+  "titleTr": "Relative Clause'lar — Entegrasyon Uzmanı E-postaları",
+  "level": "B1",
+  "module": 4,
+  "description": "Learn relative clauses (who, which, that, where, whose) through professional emails and video calls as an integration specialist. Defining vs non-defining clauses in tech and logistics contexts.",
+  "descriptionTr": "Entegrasyon uzmanı olarak profesyonel e-postalar ve video görüşmeleri üzerinden relative clause'ları (who, which, that, where, whose) öğren. Teknik ve lojistik bağlamda belirleyici ve belirleyici olmayan yan cümleler.",
+
+  "vocabulary": [
+    {
+      "word": "integrate",
+      "pronunciation": "IN-tı-greyt",
+      "turkish": "entegre etmek, bütünleştirmek",
+      "example": "We need to integrate the new CRM system with the existing database.",
+      "exampleTr": "Yeni CRM sistemini mevcut veritabanıyla entegre etmemiz gerekiyor.",
+      "extra": "The team that integrates the two platforms will work overtime this week.",
+      "extraTr": "İki platformu entegre eden ekip bu hafta fazla mesai yapacak."
+    },
+    {
+      "word": "implement",
+      "pronunciation": "IM-plı-ment",
+      "turkish": "uygulamak, hayata geçirmek",
+      "example": "We will implement the changes that the client requested.",
+      "exampleTr": "Müşterinin talep ettiği değişiklikleri uygulayacağız.",
+      "extra": "The solution which we implemented last month is working perfectly.",
+      "extraTr": "Geçen ay uyguladığımız çözüm mükemmel çalışıyor."
+    },
+    {
+      "word": "configure",
+      "pronunciation": "kın-FIG-yır",
+      "turkish": "yapılandırmak, ayarlamak",
+      "example": "Can you configure the server settings before the deployment?",
+      "exampleTr": "Dağıtımdan önce sunucu ayarlarını yapılandırabilir misin?",
+      "extra": "The engineer who configured the system did an excellent job.",
+      "extraTr": "Sistemi yapılandıran mühendis mükemmel iş çıkardı."
+    },
+    {
+      "word": "deploy",
+      "pronunciation": "di-PLOY",
+      "turkish": "dağıtmak, yayına almak",
+      "example": "We're going to deploy the update to the production server tonight.",
+      "exampleTr": "Güncellemeyi bu gece canlı sunucuya yayına alacağız.",
+      "extra": "The version that we deployed yesterday has a small bug.",
+      "extraTr": "Dün yayına aldığımız versiyonda küçük bir hata var."
+    },
+    {
+      "word": "migrate",
+      "pronunciation": "MAY-greyt",
+      "turkish": "taşımak, göç ettirmek (veri/sistem)",
+      "example": "We need to migrate all customer data to the new platform.",
+      "exampleTr": "Tüm müşteri verilerini yeni platforma taşımamız gerekiyor.",
+      "extra": "The database migration, which took three days, was completed successfully.",
+      "extraTr": "Üç gün süren veritabanı göçü başarıyla tamamlandı."
+    },
+    {
+      "word": "customize",
+      "pronunciation": "KAS-tı-mayz",
+      "turkish": "özelleştirmek, kişiselleştirmek",
+      "example": "We can customize the dashboard for each client.",
+      "exampleTr": "Her müşteri için kontrol panelini özelleştirebiliriz.",
+      "extra": "The features that we customized for them increased their satisfaction.",
+      "extraTr": "Onlar için özelleştirdiğimiz özellikler memnuniyetlerini artırdı."
+    },
+    {
+      "word": "optimize",
+      "pronunciation": "OP-tı-mayz",
+      "turkish": "optimize etmek, en iyi hale getirmek",
+      "example": "We should optimize the workflow to save time.",
+      "exampleTr": "Zaman kazanmak için iş akışını optimize etmeliyiz.",
+      "extra": "The process which we optimized now runs 40% faster.",
+      "extraTr": "Optimize ettiğimiz süreç artık %40 daha hızlı çalışıyor."
+    },
+    {
+      "word": "troubleshoot",
+      "pronunciation": "TRA-bıl-şuut",
+      "turkish": "sorun gidermek, arıza bulmak",
+      "example": "I spent two hours troubleshooting the connection issue.",
+      "exampleTr": "Bağlantı sorununu gidermek için iki saat harcadım.",
+      "extra": "The technician who troubleshoots our systems is very experienced.",
+      "extraTr": "Sistemlerimizin sorunlarını gideren teknisyen çok deneyimli."
+    },
+    {
+      "word": "maintain",
+      "pronunciation": "meyn-TEYN",
+      "turkish": "bakımını yapmak, sürdürmek",
+      "example": "It's important to maintain the servers regularly.",
+      "exampleTr": "Sunucuların bakımını düzenli olarak yapmak önemli.",
+      "extra": "The team that maintains the infrastructure works around the clock.",
+      "extraTr": "Altyapının bakımını yapan ekip gece gündüz çalışıyor."
+    },
+    {
+      "word": "upgrade",
+      "pronunciation": "ap-GREYD",
+      "turkish": "yükseltmek, güncellemek",
+      "example": "We need to upgrade the software to the latest version.",
+      "exampleTr": "Yazılımı en son sürüme yükseltmemiz gerekiyor.",
+      "extra": "The upgrade, which was scheduled for Friday, has been moved to Saturday.",
+      "extraTr": "Cuma için planlanan yükseltme cumartesiye ertelendi."
+    },
+    {
+      "word": "compatible",
+      "pronunciation": "kım-PE-tı-bıl",
+      "turkish": "uyumlu",
+      "example": "Make sure the new module is compatible with the existing system.",
+      "exampleTr": "Yeni modülün mevcut sistemle uyumlu olduğundan emin ol.",
+      "extra": "The software that is compatible with both platforms costs more.",
+      "extraTr": "Her iki platformla uyumlu olan yazılım daha pahalı."
+    },
+    {
+      "word": "interface",
+      "pronunciation": "IN-tır-feys",
+      "turkish": "arayüz, bağlantı noktası",
+      "example": "The user interface needs to be simple and clean.",
+      "exampleTr": "Kullanıcı arayüzünün basit ve temiz olması gerekiyor.",
+      "extra": "The API interface, which connects the two systems, is well documented.",
+      "extraTr": "İki sistemi bağlayan API arayüzü iyi belgelenmiş."
+    },
+    {
+      "word": "module",
+      "pronunciation": "MO-cuul",
+      "turkish": "modül, bileşen",
+      "example": "We've added a new reporting module to the platform.",
+      "exampleTr": "Platforma yeni bir raporlama modülü ekledik.",
+      "extra": "The module that handles payments needs an update.",
+      "extraTr": "Ödemeleri yöneten modülün güncellenmesi gerekiyor."
+    },
+    {
+      "word": "database",
+      "pronunciation": "DEY-tı-beys",
+      "turkish": "veritabanı",
+      "example": "All customer information is stored in the database.",
+      "exampleTr": "Tüm müşteri bilgileri veritabanında saklanıyor.",
+      "extra": "The database where we keep order records is almost full.",
+      "extraTr": "Sipariş kayıtlarını tuttuğumuz veritabanı neredeyse doldu."
+    },
+    {
+      "word": "server",
+      "pronunciation": "SÖR-vır",
+      "turkish": "sunucu",
+      "example": "The server went down during peak hours yesterday.",
+      "exampleTr": "Sunucu dün yoğun saatlerde çöktü.",
+      "extra": "The server where the application runs needs more memory.",
+      "extraTr": "Uygulamanın çalıştığı sunucu daha fazla belleğe ihtiyaç duyuyor."
+    },
+    {
+      "word": "endpoint",
+      "pronunciation": "END-poynt",
+      "turkish": "uç nokta, erişim noktası",
+      "example": "We need to create a new API endpoint for the mobile app.",
+      "exampleTr": "Mobil uygulama için yeni bir API uç noktası oluşturmamız gerekiyor.",
+      "extra": "The endpoint that receives order data must be secure.",
+      "extraTr": "Sipariş verilerini alan uç noktanın güvenli olması gerekiyor."
+    },
+    {
+      "word": "credential",
+      "pronunciation": "kri-DEN-şıl",
+      "turkish": "kimlik bilgisi, erişim bilgisi",
+      "example": "Please send me the login credentials for the staging server.",
+      "exampleTr": "Lütfen test sunucusunun giriş bilgilerini bana gönder.",
+      "extra": "The credentials which were shared last week have expired.",
+      "extraTr": "Geçen hafta paylaşılan kimlik bilgilerinin süresi dolmuş."
+    },
+    {
+      "word": "authorization",
+      "pronunciation": "o-tı-rı-ZEY-şın",
+      "turkish": "yetkilendirme, izin",
+      "example": "You need authorization to access the production database.",
+      "exampleTr": "Canlı veritabanına erişmek için yetkilendirmeye ihtiyacın var.",
+      "extra": "The authorization process, which used to take a week, now takes one day.",
+      "extraTr": "Eskiden bir hafta süren yetkilendirme süreci artık bir gün sürüyor."
+    },
+    {
+      "word": "specification",
+      "pronunciation": "spe-sı-fi-KEY-şın",
+      "turkish": "şartname, teknik özellik",
+      "example": "The client sent us the technical specifications for the project.",
+      "exampleTr": "Müşteri bize projenin teknik şartnamelerini gönderdi.",
+      "extra": "The specifications that we received are very detailed.",
+      "extraTr": "Aldığımız şartnameler çok detaylı."
+    },
+    {
+      "word": "documentation",
+      "pronunciation": "do-kyu-men-TEY-şın",
+      "turkish": "belgeleme, döküman",
+      "example": "Good documentation makes the integration process much easier.",
+      "exampleTr": "İyi belgeleme entegrasyon sürecini çok daha kolay hale getirir.",
+      "extra": "The documentation, which is available online, covers all API methods.",
+      "extraTr": "Çevrimiçi olarak erişilebilen belgeleme tüm API yöntemlerini kapsıyor."
+    },
+    {
+      "word": "stakeholder",
+      "pronunciation": "STEYK-hol-dır",
+      "turkish": "paydaş, ilgili taraf",
+      "example": "We need to update all stakeholders about the project status.",
+      "exampleTr": "Tüm paydaşları proje durumu hakkında bilgilendirmemiz gerekiyor.",
+      "extra": "The stakeholders who attended the meeting approved the timeline.",
+      "extraTr": "Toplantıya katılan paydaşlar zaman çizelgesini onayladı."
+    },
+    {
+      "word": "requirement",
+      "pronunciation": "ri-KWAYR-mınt",
+      "turkish": "gereksinim, şart",
+      "example": "Let's review the client's requirements before we start coding.",
+      "exampleTr": "Kodlamaya başlamadan önce müşterinin gereksinimlerini inceleyelim.",
+      "extra": "The requirements that the client listed are very specific.",
+      "extraTr": "Müşterinin listelediği gereksinimler çok spesifik."
+    },
+    {
+      "word": "milestone",
+      "pronunciation": "MAYL-ston",
+      "turkish": "kilometre taşı, önemli aşama",
+      "example": "Completing the API integration was a major milestone for the project.",
+      "exampleTr": "API entegrasyonunu tamamlamak proje için önemli bir kilometre taşıydı.",
+      "extra": "The first milestone, which is the database migration, is due next week.",
+      "extraTr": "İlk kilometre taşı olan veritabanı göçü gelecek hafta teslim edilecek."
+    },
+    {
+      "word": "sprint",
+      "pronunciation": "sprint",
+      "turkish": "sprint (kısa çalışma dönemi)",
+      "example": "We'll finish the user authentication module in this sprint.",
+      "exampleTr": "Kullanıcı kimlik doğrulama modülünü bu sprintte bitireceğiz.",
+      "extra": "The sprint that ends on Friday includes five integration tasks.",
+      "extraTr": "Cuma günü biten sprint beş entegrasyon görevi içeriyor."
+    },
+    {
+      "word": "release",
+      "pronunciation": "ri-LIIS",
+      "turkish": "sürüm, yayın",
+      "example": "The new release includes several bug fixes and improvements.",
+      "exampleTr": "Yeni sürüm birçok hata düzeltmesi ve iyileştirme içeriyor.",
+      "extra": "The release which we planned for Monday has been delayed.",
+      "extraTr": "Pazartesi için planladığımız sürüm ertelendi."
+    },
+    {
+      "word": "bug",
+      "pronunciation": "bag",
+      "turkish": "hata, kusur (yazılım)",
+      "example": "We found a critical bug in the payment module.",
+      "exampleTr": "Ödeme modülünde kritik bir hata bulduk.",
+      "extra": "The bug that caused the crash has been fixed.",
+      "extraTr": "Çökmeye neden olan hata düzeltildi."
+    },
+    {
+      "word": "feature",
+      "pronunciation": "FII-çır",
+      "turkish": "özellik, fonksiyon",
+      "example": "The client requested a new feature for real-time tracking.",
+      "exampleTr": "Müşteri gerçek zamanlı takip için yeni bir özellik istedi.",
+      "extra": "The feature that we built last sprint is very popular with users.",
+      "extraTr": "Geçen sprintte geliştirdiğimiz özellik kullanıcılar arasında çok popüler."
+    },
+    {
+      "word": "workflow",
+      "pronunciation": "VÖRK-flo",
+      "turkish": "iş akışı",
+      "example": "We need to automate the order processing workflow.",
+      "exampleTr": "Sipariş işleme iş akışını otomatikleştirmemiz gerekiyor.",
+      "extra": "The workflow which handles returns is too complicated.",
+      "extraTr": "İadeleri yöneten iş akışı çok karmaşık."
+    },
+    {
+      "word": "automate",
+      "pronunciation": "O-tı-meyt",
+      "turkish": "otomatikleştirmek",
+      "example": "We should automate the daily reports to save time.",
+      "exampleTr": "Zaman kazanmak için günlük raporları otomatikleştirmeliyiz.",
+      "extra": "The process that we automated saves us 10 hours per week.",
+      "extraTr": "Otomatikleştirdiğimiz süreç bize haftada 10 saat kazandırıyor."
+    },
+    {
+      "word": "sync",
+      "pronunciation": "sink",
+      "turkish": "senkronize etmek, eşlemek",
+      "example": "The inventory data needs to sync between both systems every hour.",
+      "exampleTr": "Envanter verilerinin her saat iki sistem arasında senkronize olması gerekiyor.",
+      "extra": "The tool that syncs the databases runs automatically at midnight.",
+      "extraTr": "Veritabanlarını senkronize eden araç gece yarısı otomatik çalışıyor."
+    }
+  ],
+
+  "grammar": {
+    "title": "Relative Clauses (who, which, that, where, whose)",
+    "titleTr": "Relative Clause'lar (who, which, that, where, whose)",
+    "explanation": "Relative clauses give extra information about a noun. We use 'who' for people, 'which' for things, 'that' for both (in defining clauses), 'where' for places, and 'whose' for possession. There are two types: Defining clauses (essential information, no commas) and Non-defining clauses (extra information, with commas).",
+    "explanationTr": "Relative clause'lar bir isim hakkında ek bilgi verir. İnsanlar için 'who', nesneler için 'which', ikisi için de 'that' (tanımlayıcı cümlelerde), yerler için 'where' ve sahiplik için 'whose' kullanırız. İki tür var: Tanımlayıcı (zorunlu bilgi, virgülsüz) ve tanımlayıcı olmayan (ek bilgi, virgüllü).",
+    "table": [
+      ["who", "People (defining)", "The engineer who configured the server is on leave.", "Sunucuyu yapılandıran mühendis izinde.", "Kim olduğunu belirliyor — virgülsüz"],
+      ["which", "Things (defining & non-defining)", "The module which handles payments needs an update. / The update, which took two hours, was successful.", "Ödemeleri yöneten modülün güncellenmesi gerekiyor. / İki saat süren güncelleme başarılı oldu.", "Virgüllü = ek bilgi, virgülsüz = zorunlu bilgi"],
+      ["that", "People & things (defining ONLY)", "The bug that caused the crash has been fixed.", "Çökmeye neden olan hata düzeltildi.", "Sadece tanımlayıcı cümlelerde — virgülsüz, 'which/who' yerine kullanılabilir"],
+      ["where", "Places", "The server where the app runs needs more memory.", "Uygulamanın çalıştığı sunucu daha fazla belleğe ihtiyaç duyuyor.", "Yer belirtir — 'in which' yerine kullanılabilir"],
+      ["whose", "Possession", "The client whose system we integrated sent positive feedback.", "Sistemini entegre ettiğimiz müşteri olumlu geri bildirim gönderdi.", "Sahiplik belirtir — insanlar ve nesneler için"],
+      ["Defining clause", "Essential info, no commas", "The team that maintains the servers works 24/7.", "Sunucuların bakımını yapan ekip 7/24 çalışıyor.", "Bu bilgi olmadan cümlenin anlamı değişir"],
+      ["Non-defining clause", "Extra info, WITH commas", "Our CRM, which was updated last week, now syncs faster.", "Geçen hafta güncellenen CRM'imiz artık daha hızlı senkronize oluyor.", "Bu bilgi olmadan cümle hala anlamlı"]
+    ],
+    "tips": [
+      { "en": "Defining clause = essential info, no commas. 'The developer who fixed the bug got a bonus.' (Which developer? The one who fixed the bug.)", "tr": "Tanımlayıcı = zorunlu bilgi, virgülsüz. 'The developer who fixed the bug got a bonus.' (Hangi geliştirici? Hatayı düzelten.)" },
+      { "en": "Non-defining clause = extra info, WITH commas. 'Marcus, who leads the IT team, joined the call.' (We already know Marcus — the clause adds info.)", "tr": "Tanımlayıcı olmayan = ek bilgi, virgüllü. 'Marcus, who leads the IT team, joined the call.' (Marcus'u zaten biliyoruz — cümlecik ekstra bilgi veriyor.)" },
+      { "en": "You CANNOT use 'that' in non-defining clauses. Say 'The server, which crashed...' NOT 'The server, that crashed...'", "tr": "'that' tanımlayıcı olmayan cümlelerde KULLANILMAZ. 'The server, which crashed...' DE, 'The server, that crashed...' DEME" },
+      { "en": "In defining clauses, you can often drop 'who/which/that' when it's the object: 'The email (that) I sent...' = 'The email I sent...'", "tr": "Tanımlayıcı cümlelerde nesne konumundaki 'who/which/that' düşürülebilir: 'The email (that) I sent...' = 'The email I sent...'" },
+      { "en": "'Whose' replaces possessives: 'The client whose API key expired...' (= the client — his/her API key expired)", "tr": "'Whose' sahiplik ifadelerinin yerine geçer: 'The client whose API key expired...' (= müşteri — onun API anahtarı süresi dolmuş)" },
+      { "en": "In professional emails, relative clauses help you write clearer, more detailed sentences without repeating yourself.", "tr": "Profesyonel e-postalarda relative clause'lar kendinizi tekrar etmeden daha net ve detaylı cümleler yazmanıza yardımcı olur." }
+    ]
+  },
+
+  "reading": {
+    "title": "Integration Project Email Thread",
+    "titleTr": "Entegrasyon Projesi E-posta Dizisi",
+    "text": "From: Eyüp Çubukçu <eyup@techbridge.com>\nTo: Sarah Mitchell <sarah@globalretail.com>\nSubject: Re: ERP Integration — Phase 1 Update\n\nHi Sarah,\n\nI wanted to give you a quick update on the ERP integration project that we started two weeks ago. The team who is handling the database migration has completed 80% of the work. The data which needed to be cleaned before the transfer has been processed successfully.\n\nThe API endpoint where your order management system connects to our platform is now live on the staging server. Marcus, who leads your IT team, tested it yesterday and confirmed that the response times are within the specifications that you provided.\n\nHowever, there is one issue that I need to flag. The authentication module, which we configured last week, is showing timeout errors during peak hours. The server where the module runs needs a memory upgrade. I've already contacted our infrastructure team, whose response time is usually within 24 hours.\n\nI'd also like to discuss the custom reporting feature that your stakeholders requested in the last sprint meeting. The specifications that Lisa sent are very clear, but we need to confirm the data fields whose formats differ between the two systems.\n\nThe next milestone, which is the full deployment to production, is scheduled for April 18th. I'm confident we'll meet the deadline.\n\nCould we set up a video call tomorrow at 2 PM to go through the remaining requirements? The sprint that ends this Friday has three critical tasks that we should review together.\n\nBest regards,\nEyüp Çubukçu\nIntegration Specialist, TechBridge Solutions",
+    "textTr": "Kimden: Eyüp Çubukçu <eyup@techbridge.com>\nKime: Sarah Mitchell <sarah@globalretail.com>\nKonu: Re: ERP Entegrasyonu — Faz 1 Güncellemesi\n\nMerhaba Sarah,\n\nİki hafta önce başladığımız ERP entegrasyon projesi hakkında hızlı bir güncelleme vermek istedim. Veritabanı göçünü yürüten ekip işin %80'ini tamamladı. Transferden önce temizlenmesi gereken veriler başarıyla işlendi.\n\nSipariş yönetim sisteminizin platformumuza bağlandığı API uç noktası artık test sunucusunda canlı. IT ekibinizi yöneten Marcus dün test etti ve yanıt sürelerinin sağladığınız şartnamelere uygun olduğunu doğruladı.\n\nAncak, bildirmem gereken bir sorun var. Geçen hafta yapılandırdığımız kimlik doğrulama modülü yoğun saatlerde zaman aşımı hataları gösteriyor. Modülün çalıştığı sunucunun bellek yükseltmesine ihtiyacı var. Altyapı ekibimizle zaten iletişime geçtim, yanıt süreleri genellikle 24 saat içinde oluyor.\n\nAyrıca, son sprint toplantısında paydaşlarınızın talep ettiği özel raporlama özelliğini de görüşmek istiyorum. Lisa'nın gönderdiği şartnameler çok net, ancak iki sistem arasında formatları farklı olan veri alanlarını doğrulamamız gerekiyor.\n\nBir sonraki kilometre taşı olan üretime tam dağıtım 18 Nisan için planlanıyor. Son teslim tarihine yetişeceğimizden eminim.\n\nKalan gereksinimleri gözden geçirmek için yarın saat 14:00'te bir video görüşme ayarlayabilir miyiz? Bu cuma biten sprintte birlikte gözden geçirmemiz gereken üç kritik görev var.\n\nSaygılarımla,\nEyüp Çubukçu\nEntegrasyon Uzmanı, TechBridge Solutions",
+    "questions": [
+      {
+        "question": "How much of the database migration has been completed?",
+        "questionTr": "Veritabanı göçünün ne kadarı tamamlandı?",
+        "options": ["50%", "60%", "80%", "100%"],
+        "correct": 2
+      },
+      {
+        "question": "What problem is the authentication module having?",
+        "questionTr": "Kimlik doğrulama modülü hangi sorunu yaşıyor?",
+        "options": ["It's not compatible with the system", "It shows timeout errors during peak hours", "It was never configured", "It doesn't connect to the database"],
+        "correct": 1
+      },
+      {
+        "question": "Who tested the API endpoint on the staging server?",
+        "questionTr": "API uç noktasını test sunucusunda kim test etti?",
+        "options": ["Eyüp", "Sarah", "Marcus", "Lisa"],
+        "correct": 2
+      },
+      {
+        "question": "When is the full deployment to production scheduled?",
+        "questionTr": "Üretime tam dağıtım ne zaman planlanıyor?",
+        "options": ["April 10th", "April 15th", "April 18th", "April 25th"],
+        "correct": 2
+      },
+      {
+        "question": "What does Eyüp want to discuss about the custom reporting feature?",
+        "questionTr": "Eyüp özel raporlama özelliği hakkında ne görüşmek istiyor?",
+        "options": ["The cost of the feature", "Data fields whose formats differ between systems", "Whether to cancel the feature", "Who will build the feature"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Integration Requirements Video Call",
+    "titleTr": "Entegrasyon Gereksinimleri Video Görüşmesi",
+    "context": "Eyüp, müşteri IT ekibiyle video görüşmesinde. IT ekip lideri Marcus (erkek) ve proje yöneticisi Lisa (kadın) ile entegrasyon gereksinimlerini tartışıyorlar.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Lisa (PM)", "text": "Hi Eyüp! Thanks for setting up this call. Marcus, who you met at the kickoff meeting, is here too.", "textTr": "Merhaba Eyüp! Bu görüşmeyi ayarladığın için teşekkürler. Başlangıç toplantısında tanıştığın Marcus da burada.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Great to see you both! I've prepared a list of items that we need to discuss today.", "textTr": "İkinizi de görmek harika! Bugün görüşmemiz gereken konuların bir listesini hazırladım." },
+      { "speaker": "A", "speakerName": "Marcus (IT Lead)", "text": "Sounds good. The first thing that I want to bring up is the API authentication. The credentials which you shared last week have expired.", "textTr": "Kulağa iyi geliyor. İlk gündeme getirmek istediğim konu API kimlik doğrulaması. Geçen hafta paylaştığın kimlik bilgilerinin süresi dolmuş.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Oh, I apologize for that. I'll generate new credentials that have a longer expiration period. I'll send them to the email where you usually receive secure files.", "textTr": "Bunun için özür dilerim. Daha uzun geçerlilik süresi olan yeni kimlik bilgileri oluşturacağım. Güvenli dosyaları genellikle aldığın e-postaya göndereceğim." },
+      { "speaker": "A", "speakerName": "Lisa (PM)", "text": "Perfect. Now, the stakeholders whose approval we need want to see a demo of the sync feature. When can we schedule that?", "textTr": "Mükemmel. Şimdi, onayına ihtiyacımız olan paydaşlar senkronizasyon özelliğinin demosunu görmek istiyor. Bunu ne zaman ayarlayabiliriz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "The sync module, which we finished testing yesterday, is ready for demo. How about next Wednesday?", "textTr": "Dün testini bitirdiğimiz senkronizasyon modülü demo için hazır. Gelecek çarşamba nasıl olur?" },
+      { "speaker": "A", "speakerName": "Marcus (IT Lead)", "text": "Wednesday works. Now, I have a question about the database where we store customer records. Will the migration affect the live data?", "textTr": "Çarşamba uyar. Şimdi, müşteri kayıtlarını sakladığımız veritabanı hakkında bir sorum var. Göç canlı verileri etkileyecek mi?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "No, we'll use a staging environment that mirrors your production setup. The data that is currently in production won't be touched until we run all the tests.", "textTr": "Hayır, canlı ortamınızı yansıtan bir test ortamı kullanacağız. Şu anda canlıda olan veriler tüm testleri çalıştırana kadar dokunulmayacak." },
+      { "speaker": "A", "speakerName": "Lisa (PM)", "text": "That's reassuring. Marcus, what about the server specifications that the infrastructure team sent?", "textTr": "Bu güven verici. Marcus, altyapı ekibinin gönderdiği sunucu özellikleri ne olacak?", "gender": "female" },
+      { "speaker": "A", "speakerName": "Marcus (IT Lead)", "text": "Right. Eyüp, the server where we plan to deploy the integration module only has 16 GB of RAM. The documentation says we need 32 GB. Is that a hard requirement?", "textTr": "Doğru. Eyüp, entegrasyon modülünü dağıtmayı planladığımız sunucuda sadece 16 GB RAM var. Belgeleme 32 GB gerektiğini söylüyor. Bu kesin bir gereksinim mi?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "It depends on the workflow that you're running. For basic sync, 16 GB is fine. But the automated reports feature, which processes large datasets, needs at least 32 GB.", "textTr": "Çalıştırdığınız iş akışına bağlı. Temel senkronizasyon için 16 GB yeterli. Ama büyük veri kümelerini işleyen otomatik raporlar özelliği en az 32 GB gerektiriyor." },
+      { "speaker": "A", "speakerName": "Marcus (IT Lead)", "text": "Got it. I'll talk to the team whose budget covers hardware upgrades. We should be able to get the upgrade approved by next week.", "textTr": "Anladım. Donanım yükseltmelerinin bütçesini karşılayan ekiple konuşacağım. Yükseltmenin onayını gelecek haftaya kadar alabiliyor olmamız lazım.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Lisa (PM)", "text": "Good. Eyüp, there's also a bug that our QA team found in the order tracking endpoint. The response that comes back is missing the timestamp field.", "textTr": "İyi. Eyüp, QA ekibimizin sipariş takibi uç noktasında bulduğu bir hata da var. Geri dönen yanıtta zaman damgası alanı eksik.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thanks for catching that, Lisa. I'll assign it to the developer who built that endpoint. It should be a quick fix that we can include in Friday's release.", "textTr": "Bunu fark ettiğin için teşekkürler Lisa. O uç noktayı geliştiren geliştiriciye atayacağım. Cuma sürümüne dahil edebileceğimiz hızlı bir düzeltme olması lazım." },
+      { "speaker": "A", "speakerName": "Marcus (IT Lead)", "text": "Speaking of the release, the deployment window where we can update the production server is Saturday 2 AM to 6 AM. Does that work?", "textTr": "Sürümden bahsetmişken, canlı sunucuyu güncelleyebileceğimiz dağıtım penceresi cumartesi sabah 2'den 6'ya kadar. Uyar mı?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That's perfect. I'll prepare the deployment scripts that we need and share them with your team by Thursday.", "textTr": "Mükemmel. İhtiyacımız olan dağıtım betiklerini hazırlayıp perşembeye kadar ekibinizle paylaşacağım." },
+      { "speaker": "A", "speakerName": "Lisa (PM)", "text": "Excellent. One last thing — the custom dashboard feature, which is the top priority for our stakeholders, needs to be in the next sprint. Can your team handle that?", "textTr": "Mükemmel. Son bir şey — paydaşlarımız için en önemli öncelik olan özel kontrol paneli özelliğinin bir sonraki sprintte olması gerekiyor. Ekibin bunu halledebilir mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Absolutely. I'll add it to the sprint that starts next Monday. I'll also update the project documentation where we track all feature requests. Anything else?", "textTr": "Kesinlikle. Gelecek pazartesi başlayan sprinte ekleyeceğim. Ayrıca tüm özellik taleplerini takip ettiğimiz proje belgelendirmesini de güncelleyeceğim. Başka bir şey var mı?" },
+      { "speaker": "A", "speakerName": "Marcus (IT Lead)", "text": "I think we've covered everything. Great call, Eyüp. The progress that your team has made is impressive.", "textTr": "Her şeyi ele aldık sanırım. Harika görüşme Eyüp. Ekibinin kaydettiği ilerleme etkileyici.", "gender": "male" },
+      { "speaker": "A", "speakerName": "Lisa (PM)", "text": "Agreed! I'll send the meeting notes to everyone who was on this call. Talk to you next week!", "textTr": "Katılıyorum! Toplantı notlarını bu görüşmedeki herkese göndereceğim. Gelecek hafta görüşürüz!", "gender": "female" }
+    ],
+    "questions": [
+      {
+        "question": "Why did the API credentials stop working?",
+        "questionTr": "API kimlik bilgileri neden çalışmayı durdurdu?",
+        "options": ["They were incorrect", "They expired", "Marcus deleted them", "The server was down"],
+        "correct": 1
+      },
+      {
+        "question": "How much RAM does the documentation say is needed?",
+        "questionTr": "Belgeleme ne kadar RAM gerektiğini söylüyor?",
+        "options": ["8 GB", "16 GB", "32 GB", "64 GB"],
+        "correct": 2
+      },
+      {
+        "question": "What bug did the QA team find?",
+        "questionTr": "QA ekibi hangi hatayı buldu?",
+        "options": ["Missing timestamp in order tracking response", "Server timeout during peak hours", "Wrong customer data in reports", "Sync module not working"],
+        "correct": 0
+      },
+      {
+        "question": "When is the production deployment window?",
+        "questionTr": "Canlı dağıtım penceresi ne zaman?",
+        "options": ["Friday 10 PM to 2 AM", "Saturday 2 AM to 6 AM", "Sunday 12 AM to 4 AM", "Monday 6 AM to 10 AM"],
+        "correct": 1
+      },
+      {
+        "question": "What is the top priority feature for the stakeholders?",
+        "questionTr": "Paydaşlar için en önemli öncelikli özellik ne?",
+        "options": ["Automated reports", "Data migration", "Custom dashboard", "API authentication"],
+        "correct": 2
+      },
+      {
+        "question": "Who will send the meeting notes?",
+        "questionTr": "Toplantı notlarını kim gönderecek?",
+        "options": ["Eyüp", "Marcus", "Lisa", "The QA team"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "The engineer ___ configured the server is on leave.", "answer": "who", "hint": "İnsanlar için — kim?" },
+      { "sentence": "The module ___ handles payments needs an update.", "answer": "that", "hint": "Nesneler için tanımlayıcı — hangi modül?" },
+      { "sentence": "The server ___ the application runs needs more memory.", "answer": "where", "hint": "Yer belirtir — nerede?" },
+      { "sentence": "The client ___ system we integrated sent positive feedback.", "answer": "whose", "hint": "Sahiplik — kimin sistemi?" },
+      { "sentence": "The update, ___ took two hours, was successful.", "answer": "which", "hint": "Ek bilgi, virgüllü — nesne için" },
+      { "sentence": "The developer ___ fixed the bug got a bonus.", "answer": "who", "hint": "İnsanlar için — kim düzeltti?" },
+      { "sentence": "The credentials ___ were shared last week have expired.", "answer": "which", "hint": "Nesneler için — hangi kimlik bilgileri?" },
+      { "sentence": "The database ___ we keep order records is almost full.", "answer": "where", "hint": "Yer belirtir — nerede tutuyoruz?" },
+      { "sentence": "Marcus, ___ leads the IT team, tested the endpoint.", "answer": "who", "hint": "Ek bilgi, virgüllü — kişi" },
+      { "sentence": "The specifications ___ Lisa sent are very detailed.", "answer": "that", "hint": "Tanımlayıcı — hangi şartnameler?" },
+      { "sentence": "The team ___ budget covers hardware upgrades will help.", "answer": "whose", "hint": "Sahiplik — kimin bütçesi?" },
+      { "sentence": "The sprint ___ ends on Friday includes five tasks.", "answer": "that", "hint": "Tanımlayıcı — hangi sprint?" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"The engineer ___ configured the server is very experienced.\" Hangisi doğru?",
+        "options": ["which", "who", "where", "whose"],
+        "correct": 1
+      },
+      {
+        "question": "\"The server, ___ crashed yesterday, has been fixed.\" Hangisi doğru?",
+        "options": ["that", "who", "which", "whose"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi non-defining (tanımlayıcı olmayan) clause?",
+        "options": ["The bug that caused the crash was fixed.", "The developer who built it is great.", "Marcus, who leads the team, tested it.", "The feature that we need is ready."],
+        "correct": 2
+      },
+      {
+        "question": "\"The database ___ we store data needs an upgrade.\" Doğru cevap?",
+        "options": ["who", "whose", "where", "which"],
+        "correct": 2
+      },
+      {
+        "question": "Non-defining clause'larda hangisi KULLANILMAZ?",
+        "options": ["who", "which", "that", "whose"],
+        "correct": 2
+      },
+      {
+        "question": "\"The client ___ API key expired needs a new one.\" Doğru cevap?",
+        "options": ["who", "which", "that", "whose"],
+        "correct": 3
+      },
+      {
+        "question": "\"I'll send it to the email ___ you receive secure files.\" Doğru cevap?",
+        "options": ["which", "who", "whose", "where"],
+        "correct": 3
+      },
+      {
+        "question": "Hangisinde 'that' düşürülebilir (omit edilebilir)?",
+        "options": ["The developer that fixed the bug...", "The email that I sent yesterday...", "The server that crashed last night...", "The team that maintains the system..."],
+        "correct": 1
+      },
+      {
+        "question": "\"The migration, ___ took three days, was successful.\" Doğru cevap?",
+        "options": ["that", "who", "which", "where"],
+        "correct": 2
+      },
+      {
+        "question": "\"Sunucuyu yapılandıran mühendis\" İngilizce'ye nasıl çevrilir?",
+        "options": ["The engineer whose configured the server", "The engineer which configured the server", "The engineer who configured the server", "The engineer where configured the server"],
+        "correct": 2
+      }
+    ],
+    "matching": [
+      { "left": "integrate", "right": "entegre etmek" },
+      { "left": "implement", "right": "uygulamak" },
+      { "left": "configure", "right": "yapılandırmak" },
+      { "left": "deploy", "right": "yayına almak" },
+      { "left": "migrate", "right": "taşımak (veri)" },
+      { "left": "customize", "right": "özelleştirmek" },
+      { "left": "optimize", "right": "en iyi hale getirmek" },
+      { "left": "troubleshoot", "right": "sorun gidermek" },
+      { "left": "maintain", "right": "bakımını yapmak" },
+      { "left": "upgrade", "right": "yükseltmek" },
+      { "left": "compatible", "right": "uyumlu" },
+      { "left": "endpoint", "right": "uç nokta" },
+      { "left": "credential", "right": "kimlik bilgisi" },
+      { "left": "stakeholder", "right": "paydaş" },
+      { "left": "workflow", "right": "iş akışı" }
+    ],
+    "sentenceOrder": [
+      { "words": ["The", "engineer", "who", "configured", "the", "server", "is", "on", "leave"], "correct": "The engineer who configured the server is on leave" },
+      { "words": ["The", "module", "that", "handles", "payments", "needs", "an", "update"], "correct": "The module that handles payments needs an update" },
+      { "words": ["Marcus", "who", "leads", "the", "IT", "team", "tested", "the", "endpoint"], "correct": "Marcus who leads the IT team tested the endpoint" },
+      { "words": ["The", "database", "where", "we", "store", "records", "is", "almost", "full"], "correct": "The database where we store records is almost full" },
+      { "words": ["The", "client", "whose", "system", "we", "integrated", "sent", "feedback"], "correct": "The client whose system we integrated sent feedback" },
+      { "words": ["The", "bug", "that", "caused", "the", "crash", "has", "been", "fixed"], "correct": "The bug that caused the crash has been fixed" },
+      { "words": ["The", "update", "which", "took", "two", "hours", "was", "successful"], "correct": "The update which took two hours was successful" },
+      { "words": ["The", "server", "where", "the", "app", "runs", "needs", "more", "memory"], "correct": "The server where the app runs needs more memory" },
+      { "words": ["I'll", "assign", "it", "to", "the", "developer", "who", "built", "that", "endpoint"], "correct": "I'll assign it to the developer who built that endpoint" }
+    ],
+    "translation": [
+      {
+        "turkish": "Sunucuyu yapılandıran mühendis izinde.",
+        "english": "The engineer who configured the server is on leave.",
+        "acceptAlso": ["The engineer that configured the server is on leave"]
+      },
+      {
+        "turkish": "Ödemeleri yöneten modülün güncellenmesi gerekiyor.",
+        "english": "The module that handles payments needs an update.",
+        "acceptAlso": ["The module which handles payments needs an update"]
+      },
+      {
+        "turkish": "Uygulamanın çalıştığı sunucu daha fazla belleğe ihtiyaç duyuyor.",
+        "english": "The server where the application runs needs more memory.",
+        "acceptAlso": ["The server where the app runs needs more memory"]
+      },
+      {
+        "turkish": "Sistemini entegre ettiğimiz müşteri olumlu geri bildirim gönderdi.",
+        "english": "The client whose system we integrated sent positive feedback.",
+        "acceptAlso": ["The client whose system we integrated sent us positive feedback"]
+      },
+      {
+        "turkish": "İki saat süren güncelleme başarılı oldu.",
+        "english": "The update, which took two hours, was successful.",
+        "acceptAlso": ["The update which took two hours was successful"]
+      },
+      {
+        "turkish": "Çökmeye neden olan hata düzeltildi.",
+        "english": "The bug that caused the crash has been fixed.",
+        "acceptAlso": ["The bug which caused the crash has been fixed"]
+      },
+      {
+        "turkish": "Geçen hafta paylaşılan kimlik bilgilerinin süresi dolmuş.",
+        "english": "The credentials which were shared last week have expired.",
+        "acceptAlso": ["The credentials that were shared last week have expired"]
+      },
+      {
+        "turkish": "Sipariş kayıtlarını tuttuğumuz veritabanı neredeyse doldu.",
+        "english": "The database where we keep order records is almost full.",
+        "acceptAlso": ["The database where we store order records is almost full"]
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Relative Clauses — British Council",
+      "description": "Defining ve non-defining relative clause'lar için interaktif alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/relative-clauses",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Relative Clauses Explained — BBC Learning English",
+      "description": "Who, which, that, where, whose kullanımını video ile öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-21",
+      "type": "video",
+      "level": "B1",
+      "free": true
+    },
+    {
+      "title": "Tech English — Relative Clauses in Professional Writing",
+      "description": "Profesyonel e-postalarda ve teknik yazışmalarda relative clause kullanımı",
+      "url": "https://www.perfect-english-grammar.com/relative-clauses.html",
+      "type": "practice",
+      "level": "B1",
+      "free": true
+    }
+  ]
+}

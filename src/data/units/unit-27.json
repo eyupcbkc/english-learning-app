@@ -1,0 +1,186 @@
+{
+  "id": "unit-27",
+  "title": "Reported Speech",
+  "titleTr": "Dolaylı Anlatım",
+  "level": "B1",
+  "module": 4,
+  "description": "Report what colleagues said in meetings. Summarize discussions using reported speech with tense backshift and reporting verbs.",
+  "descriptionTr": "Toplantılarda meslektaşların ne dediğini aktar. Zaman geri kayması ve aktarma fiilleri ile tartışmaları özetle.",
+
+  "vocabulary": [
+    { "word": "report", "pronunciation": "ri-PORT", "turkish": "rapor etmek / bildirmek", "example": "She reported that the shipment was delayed.", "exampleTr": "Sevkiyatın geciktiğini bildirdi.", "extra": "The manager reported the results to the board.", "extraTr": "Müdür sonuçları yönetim kuruluna bildirdi." },
+    { "word": "mention", "pronunciation": "MEN-şın", "turkish": "bahsetmek / söz etmek", "example": "He mentioned that the deadline had changed.", "exampleTr": "Son tarihin değiştiğinden bahsetti.", "extra": "Did anyone mention the budget issue?", "extraTr": "Biri bütçe sorununden bahsetti mi?" },
+    { "word": "explain", "pronunciation": "ik-PLEYN", "turkish": "açıklamak", "example": "She explained that the delay was caused by customs.", "exampleTr": "Gecikmenin gümrükten kaynaklandığını açıkladı.", "extra": "Can you explain why the order was late?", "extraTr": "Siparişin neden geç kaldığını açıklayabilir misin?" },
+    { "word": "announce", "pronunciation": "ı-NAUNS", "turkish": "duyurmak / ilan etmek", "example": "The CEO announced that the company would expand.", "exampleTr": "CEO şirketin genişleyeceğini duyurdu.", "extra": "They announced the new policy at the meeting.", "extraTr": "Toplantıda yeni politikayı duyurdular." },
+    { "word": "suggest", "pronunciation": "sıg-CEST", "turkish": "önermek / teklif etmek", "example": "He suggested that we hire more drivers.", "exampleTr": "Daha fazla şoför almamızı önerdi.", "extra": "She suggested changing the delivery route.", "extraTr": "Teslimat rotasını değiştirmeyi önerdi." },
+    { "word": "propose", "pronunciation": "prı-POUZ", "turkish": "teklif etmek / öne sürmek", "example": "The director proposed a new shipping strategy.", "exampleTr": "Direktör yeni bir sevkiyat stratejisi teklif etti.", "extra": "He proposed that we extend the deadline.", "extraTr": "Son tarihi uzatmamızı teklif etti." },
+    { "word": "agree", "pronunciation": "ı-GRII", "turkish": "katılmak / onaylamak", "example": "Everyone agreed that the plan was good.", "exampleTr": "Herkes planın iyi olduğu konusunda hemfikirdi.", "extra": "She agreed to send the report by Friday.", "extraTr": "Raporu Cuma gününe kadar göndermeyi kabul etti." },
+    { "word": "disagree", "pronunciation": "dis-ı-GRII", "turkish": "katılmamak / aynı fikirde olmamak", "example": "He disagreed with the proposed timeline.", "exampleTr": "Önerilen zaman çizelgesine katılmadı.", "extra": "Two managers disagreed about the budget.", "extraTr": "İki müdür bütçe konusunda anlaşamadı." },
+    { "word": "confirm", "pronunciation": "kın-FÖRM", "turkish": "doğrulamak / onaylamak", "example": "She confirmed that the order had been shipped.", "exampleTr": "Siparişin sevk edildiğini doğruladı.", "extra": "Can you confirm the delivery date?", "extraTr": "Teslimat tarihini doğrulayabilir misin?" },
+    { "word": "deny", "pronunciation": "di-NAY", "turkish": "inkar etmek / reddetmek", "example": "He denied that there was a problem with the system.", "exampleTr": "Sistemde bir sorun olduğunu inkar etti.", "extra": "The supplier denied responsibility for the damage.", "extraTr": "Tedarikçi hasarın sorumluluğunu reddetti." },
+    { "word": "warn", "pronunciation": "vorn", "turkish": "uyarmak", "example": "She warned us that the costs would increase.", "exampleTr": "Maliyetlerin artacağı konusunda bizi uyardı.", "extra": "The manager warned the team about the deadline.", "extraTr": "Müdür ekibi son tarih hakkında uyardı." },
+    { "word": "promise", "pronunciation": "PRO-mis", "turkish": "söz vermek", "example": "He promised that the issue would be resolved.", "exampleTr": "Sorunun çözüleceğine söz verdi.", "extra": "They promised to deliver by Monday.", "extraTr": "Pazartesi gününe kadar teslim edeceklerine söz verdiler." },
+    { "word": "complain", "pronunciation": "kım-PLEYN", "turkish": "şikayet etmek", "example": "The client complained that deliveries were always late.", "exampleTr": "Müşteri teslimatların hep geç olduğundan şikayet etti.", "extra": "Several customers complained about the packaging.", "extraTr": "Birkaç müşteri ambalajdan şikayet etti." },
+    { "word": "remind", "pronunciation": "ri-MAYND", "turkish": "hatırlatmak", "example": "She reminded us that the report was due tomorrow.", "exampleTr": "Raporun yarın teslim edilmesi gerektiğini hatırlattı.", "extra": "He reminded the team about the safety rules.", "extraTr": "Ekibe güvenlik kurallarını hatırlattı." },
+    { "word": "inform", "pronunciation": "in-FORM", "turkish": "bilgilendirmek / haber vermek", "example": "He informed us that the warehouse would be closed.", "exampleTr": "Deponun kapatılacağını bize bildirdi.", "extra": "Please inform the client about the delay.", "extraTr": "Lütfen müşteriyi gecikme hakkında bilgilendirin." },
+    { "word": "state", "pronunciation": "steyt", "turkish": "belirtmek / ifade etmek", "example": "The report stated that sales had dropped by 15%.", "exampleTr": "Rapor satışların %15 düştüğünü belirtti.", "extra": "He clearly stated his position on the issue.", "extraTr": "Konuyla ilgili pozisyonunu açıkça belirtti." },
+    { "word": "claim", "pronunciation": "kleym", "turkish": "iddia etmek", "example": "The supplier claimed that the goods were shipped on time.", "exampleTr": "Tedarikçi malların zamanında sevk edildiğini iddia etti.", "extra": "She claimed that the invoice was incorrect.", "extraTr": "Faturanın yanlış olduğunu iddia etti." },
+    { "word": "insist", "pronunciation": "in-SİST", "turkish": "ısrar etmek", "example": "He insisted that the meeting should start at 9 AM.", "exampleTr": "Toplantının sabah 9'da başlaması gerektiğinde ısrar etti.", "extra": "The client insisted on a full refund.", "extraTr": "Müşteri tam iade konusunda ısrar etti." },
+    { "word": "admit", "pronunciation": "ıd-MİT", "turkish": "itiraf etmek / kabul etmek", "example": "She admitted that the error was on their side.", "exampleTr": "Hatanın kendi taraflarında olduğunu kabul etti.", "extra": "He admitted making a mistake in the report.", "extraTr": "Raporda hata yaptığını itiraf etti." },
+    { "word": "request", "pronunciation": "ri-KVEST", "turkish": "talep etmek / rica etmek", "example": "The client requested that we send a revised invoice.", "exampleTr": "Müşteri düzeltilmiş bir fatura göndermemizi talep etti.", "extra": "She requested more time to complete the project.", "extraTr": "Projeyi tamamlamak için daha fazla zaman talep etti." },
+    { "word": "demand", "pronunciation": "di-MEND", "turkish": "talep etmek / istemek (güçlü)", "example": "The customer demanded a full refund immediately.", "exampleTr": "Müşteri derhal tam iade talep etti.", "extra": "They demanded that we replace all defective items.", "extraTr": "Tüm kusurlu ürünleri değiştirmemizi talep ettiler." },
+    { "word": "recommend", "pronunciation": "re-kı-MEND", "turkish": "tavsiye etmek", "example": "She recommended that we switch to a new carrier.", "exampleTr": "Yeni bir taşıyıcıya geçmemizi tavsiye etti.", "extra": "The consultant recommended reducing overhead costs.", "extraTr": "Danışman genel giderleri düşürmeyi tavsiye etti." },
+    { "word": "conclude", "pronunciation": "kın-KLUUD", "turkish": "sonuçlandırmak / sonuca varmak", "example": "He concluded that the project was behind schedule.", "exampleTr": "Projenin programın gerisinde kaldığı sonucuna vardı.", "extra": "The meeting concluded with a vote on the proposal.", "extraTr": "Toplantı teklif üzerine oylama ile sonuçlandı." },
+    { "word": "summarize", "pronunciation": "SA-mı-rayz", "turkish": "özetlemek", "example": "Can you summarize what was discussed in the meeting?", "exampleTr": "Toplantıda ne tartışıldığını özetleyebilir misin?", "extra": "She summarized the key points for the team.", "extraTr": "Ekip için kilit noktaları özetledi." },
+    { "word": "emphasize", "pronunciation": "EM-fı-sayz", "turkish": "vurgulamak", "example": "He emphasized that quality was the top priority.", "exampleTr": "Kalitenin birinci öncelik olduğunu vurguladı.", "extra": "The director emphasized the importance of deadlines.", "extraTr": "Direktör son tarihlerin önemini vurguladı." },
+    { "word": "point out", "pronunciation": "poynt AUT", "turkish": "dikkat çekmek / işaret etmek", "example": "She pointed out that the data was outdated.", "exampleTr": "Verilerin güncel olmadığına dikkat çekti.", "extra": "He pointed out a mistake in the report.", "extraTr": "Rapordaki bir hataya dikkat çekti." },
+    { "word": "respond", "pronunciation": "ri-SPOND", "turkish": "yanıtlamak / cevap vermek", "example": "He responded that they would look into it.", "exampleTr": "Konuyu inceleyeceklerini yanıtladı.", "extra": "She responded quickly to the customer's email.", "extraTr": "Müşterinin e-postasına hızlıca yanıt verdi." },
+    { "word": "argue", "pronunciation": "AR-gyu", "turkish": "tartışmak / savunmak", "example": "He argued that the budget was too low.", "exampleTr": "Bütçenin çok düşük olduğunu savundu.", "extra": "They argued about the best delivery method.", "extraTr": "En iyi teslimat yöntemi hakkında tartıştılar." },
+    { "word": "clarify", "pronunciation": "KLE-rı-fay", "turkish": "açıklığa kavuşturmak", "example": "She clarified that the deadline was Friday, not Thursday.", "exampleTr": "Son tarihin Perşembe değil Cuma olduğunu açıklığa kavuşturdu.", "extra": "Could you clarify what you meant by that?", "extraTr": "Bununla ne demek istediğinizi açıklığa kavuşturabilir misiniz?" },
+    { "word": "highlight", "pronunciation": "HAY-layt", "turkish": "öne çıkarmak / vurgulamak", "example": "The manager highlighted the need for better communication.", "exampleTr": "Müdür daha iyi iletişim ihtiyacını vurguladı.", "extra": "She highlighted three key risks in the project.", "extraTr": "Projedeki üç temel riski öne çıkardı." }
+  ],
+
+  "grammar": {
+    "title": "Reported Speech — Tense Backshift & Reporting Verbs",
+    "titleTr": "Dolaylı Anlatım — Zaman Geri Kayması ve Aktarma Fiilleri",
+    "explanation": "When we report what someone said, we usually shift the tense back. Direct: 'I will send it.' → Reported: He said (that) he would send it. We use reporting verbs like said, told, asked, explained, suggested to introduce what was said.",
+    "explanationTr": "Birinin ne dediğini aktarırken, genellikle zamanı bir adım geri kaydırırız. Doğrudan: 'Göndereceğim.' → Dolaylı: Göndereceğini söyledi. Söyleneni aktarmak için said, told, asked, explained, suggested gibi aktarma fiilleri kullanırız.",
+    "table": [
+      ["Present Simple → Past Simple", "\"I work in logistics.\"", "He said (that) he worked in logistics.", "\"Lojistikte çalışıyorum.\" → Lojistikte çalıştığını söyledi."],
+      ["Present Continuous → Past Continuous", "\"We are preparing the report.\"", "She said (that) they were preparing the report.", "\"Raporu hazırlıyoruz.\" → Raporu hazırladıklarını söyledi."],
+      ["Past Simple → Past Perfect", "\"I sent the invoice.\"", "He said (that) he had sent the invoice.", "\"Faturayı gönderdim.\" → Faturayı gönderdiğini söyledi."],
+      ["Will → Would", "\"I will fix the problem.\"", "She said (that) she would fix the problem.", "\"Sorunu çözeceğim.\" → Sorunu çözeceğini söyledi."],
+      ["Can → Could", "\"We can deliver by Friday.\"", "He said (that) they could deliver by Friday.", "\"Cuma'ya kadar teslim edebiliriz.\" → Cuma'ya kadar teslim edebileceklerini söyledi."],
+      ["Must → Had to", "\"You must submit the form.\"", "She said (that) I had to submit the form.", "\"Formu teslim etmelisin.\" → Formu teslim etmem gerektiğini söyledi."],
+      ["Reporting Questions", "\"Where is the shipment?\"", "He asked where the shipment was.", "\"Sevkiyat nerede?\" → Sevkiyatın nerede olduğunu sordu."]
+    ],
+    "tips": [
+      { "en": "'said' = general reporting. 'told' always needs an object: He told ME that... (not 'He told that...')", "tr": "'said' = genel aktarma. 'told' her zaman nesne ister: He told ME that... ('He told that...' YANLIŞ)" },
+      { "en": "'that' is optional: 'He said he was busy' = 'He said that he was busy' — both are correct", "tr": "'that' isteğe bağlıdır: 'He said he was busy' = 'He said that he was busy' — ikisi de doğru" },
+      { "en": "For yes/no questions, use 'if' or 'whether': She asked if we had finished. (NOT 'She asked did we finish.')", "tr": "Evet/hayır soruları için 'if' veya 'whether' kullan: She asked if we had finished. ('She asked did we finish.' YANLIŞ)" },
+      { "en": "Suggest/recommend + gerund or that-clause: He suggested hiring more people. OR He suggested that we hire more people.", "tr": "Suggest/recommend + fiil-ing veya that-cümle: He suggested hiring more people. VEYA He suggested that we hire more people." },
+      { "en": "Time/place words also change: today→that day, tomorrow→the next day, here→there, this→that", "tr": "Zaman/yer kelimeleri de değişir: today→that day, tomorrow→the next day, here→there, this→that" },
+      { "en": "Don't backshift if the information is still true: 'She said the office is on the 5th floor.' (still true = no change needed)", "tr": "Bilgi hala doğruysa geri kayma yapma: 'She said the office is on the 5th floor.' (hala doğru = değişiklik gerekmez)" }
+    ]
+  },
+
+  "reading": {
+    "text": "MEETING MINUTES — Logistics Team Weekly Meeting\nDate: Monday, October 14\nAttendees: Mr. Kaya (Operations Manager), Ms. Demir (Supply Chain Lead), Mr. Harris (Warehouse Supervisor), Ms. Yılmaz (Customer Relations)\n\nMr. Kaya opened the meeting and announced that Q4 shipment volumes had increased by 25% compared to last year. He warned that the current warehouse capacity might not be enough to handle the peak season.\n\nMs. Demir reported that three major suppliers had delayed their deliveries by an average of five days. She explained that port congestion in Rotterdam was the main cause. She recommended that the team consider alternative shipping routes through Hamburg.\n\nMr. Harris complained that the warehouse was already operating at 90% capacity. He pointed out that overtime hours had increased by 40% in September. He requested additional temporary staff for November and December.\n\nMs. Yılmaz informed the group that customer complaints about late deliveries had doubled since August. She emphasized that response time needed to improve. She suggested creating a dedicated task force to handle Q4 delays.\n\nMr. Kaya concluded the meeting by stating that he would present a revised logistics plan to senior management by Friday. He reminded everyone to submit their departmental reports by Wednesday.",
+    "textTr": "TOPLANTI TUTANAĞI — Lojistik Ekibi Haftalık Toplantısı\nTarih: Pazartesi, 14 Ekim\nKatılımcılar: Bay Kaya (Operasyon Müdürü), Bayan Demir (Tedarik Zinciri Sorumlusu), Bay Harris (Depo Süpervizörü), Bayan Yılmaz (Müşteri İlişkileri)\n\nBay Kaya toplantıyı açtı ve Q4 sevkiyat hacimlerinin geçen yıla göre %25 arttığını duyurdu. Mevcut depo kapasitesinin yoğun sezonu karşılamaya yetmeyebileceği konusunda uyardı.\n\nBayan Demir üç büyük tedarikçinin teslimatlarını ortalama beş gün geciktirdiğini bildirdi. Rotterdam limanındaki tıkanıklığın ana neden olduğunu açıkladı. Ekibin Hamburg üzerinden alternatif sevkiyat rotalarını değerlendirmesini tavsiye etti.\n\nBay Harris deponun zaten %90 kapasiteyle çalıştığından şikayet etti. Eylül ayında fazla mesai saatlerinin %40 arttığına dikkat çekti. Kasım ve Aralık için ek geçici personel talep etti.\n\nBayan Yılmaz gruba Ağustos'tan bu yana geç teslimatlarla ilgili müşteri şikayetlerinin iki katına çıktığını bildirdi. Yanıt süresinin iyileştirilmesi gerektiğini vurguladı. Q4 gecikmelerini ele almak için özel bir görev gücü oluşturulmasını önerdi.\n\nBay Kaya, Cuma gününe kadar üst yönetime revize edilmiş bir lojistik planı sunacağını belirterek toplantıyı kapattı. Herkese departman raporlarını Çarşamba gününe kadar teslim etmesini hatırlattı.",
+    "questions": [
+      { "question": "By how much did Q4 shipment volumes increase?", "questionTr": "Q4 sevkiyat hacimleri ne kadar arttı?", "options": ["10%", "15%", "25%", "40%"], "correct": 2 },
+      { "question": "What caused the supplier delays according to Ms. Demir?", "questionTr": "Bayan Demir'e göre tedarikçi gecikmelerinin nedeni neydi?", "options": ["Bad weather", "Port congestion in Rotterdam", "Truck driver shortage", "Customs issues"], "correct": 1 },
+      { "question": "What did Mr. Harris request for November and December?", "questionTr": "Bay Harris Kasım ve Aralık için ne talep etti?", "options": ["New equipment", "Higher salaries", "Additional temporary staff", "Warehouse expansion"], "correct": 2 },
+      { "question": "What did Ms. Yılmaz suggest?", "questionTr": "Bayan Yılmaz ne önerdi?", "options": ["Hiring a consultant", "Creating a dedicated task force", "Changing suppliers", "Reducing orders"], "correct": 1 },
+      { "question": "When did Mr. Kaya say he would present the revised plan?", "questionTr": "Bay Kaya revize planı ne zaman sunacağını söyledi?", "options": ["Wednesday", "Thursday", "Friday", "Next Monday"], "correct": 2 }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "She said that she ___ working on the report.", "answer": "was", "hint": "is → was (geri kayma)" },
+      { "sentence": "He told me that he ___ send the invoice the next day.", "answer": "would", "hint": "will → would" },
+      { "sentence": "She said that they ___ deliver by Friday.", "answer": "could", "hint": "can → could" },
+      { "sentence": "He ___ that the project was behind schedule.", "answer": "mentioned", "hint": "bahsetmek" },
+      { "sentence": "She ___ us that the deadline had changed.", "answer": "informed", "hint": "bilgilendirmek" },
+      { "sentence": "The manager ___ that we hire more staff.", "answer": "suggested", "hint": "önermek" },
+      { "sentence": "He ___ that there was no problem with the system.", "answer": "denied", "hint": "inkar etmek" },
+      { "sentence": "She asked ___ we had finished the report.", "answer": "if", "hint": "evet/hayır sorusu aktarma" },
+      { "sentence": "He ___ that he had sent the email already.", "answer": "claimed", "hint": "iddia etmek" },
+      { "sentence": "The director ___ the importance of meeting deadlines.", "answer": "emphasized", "hint": "vurgulamak" },
+      { "sentence": "She ___ out that the data was outdated.", "answer": "pointed", "hint": "dikkat çekmek (iki kelimeli fiil)" },
+      { "sentence": "He ___ to fix the problem by Monday.", "answer": "promised", "hint": "söz vermek" }
+    ],
+    "multipleChoice": [
+      { "question": "Direct: \"I work in logistics.\" → Reported?", "options": ["He said he work in logistics.", "He said he works in logistics.", "He said he worked in logistics.", "He said he working in logistics."], "correct": 2 },
+      { "question": "Direct: \"We will ship tomorrow.\" → Reported?", "options": ["They said they will ship tomorrow.", "They said they would ship the next day.", "They said they would ship tomorrow.", "They said they shipped the next day."], "correct": 1 },
+      { "question": "\"She ___ me that the meeting was canceled.\" Doğru olan?", "options": ["said", "told", "spoke", "talked"], "correct": 1 },
+      { "question": "Direct: \"Can you help me?\" → Reported?", "options": ["She asked can I help her.", "She asked if I could help her.", "She asked if I can help her.", "She asked could I help her."], "correct": 1 },
+      { "question": "\"Önermek\" İngilizce'de hangisi?", "options": ["suppose", "suggest", "suspect", "support"], "correct": 1 },
+      { "question": "Direct: \"I sent the invoice.\" → Reported?", "options": ["He said he sent the invoice.", "He said he had sent the invoice.", "He said he sends the invoice.", "He said he has sent the invoice."], "correct": 1 },
+      { "question": "\"He ___ that the budget was too low.\" (savundu)", "options": ["agreed", "argued", "admitted", "announced"], "correct": 1 },
+      { "question": "Hangisi doğru reported speech?", "options": ["She asked where was the office.", "She asked where the office was.", "She asked where is the office.", "She asked where the office is was."], "correct": 1 },
+      { "question": "\"Vurgulamak\" İngilizce'de hangisi?", "options": ["emphasize", "empathize", "enterprise", "energize"], "correct": 0 },
+      { "question": "\"He told that he was busy.\" Bu cümle neden yanlış?", "options": ["'told' yerine 'said' olmalı", "'told' nesne ister: told ME/US", "'was' yerine 'is' olmalı", "Cümle doğru, hata yok"], "correct": 1 }
+    ],
+    "matching": [
+      { "left": "report", "right": "rapor etmek" },
+      { "left": "mention", "right": "bahsetmek" },
+      { "left": "explain", "right": "açıklamak" },
+      { "left": "announce", "right": "duyurmak" },
+      { "left": "suggest", "right": "önermek" },
+      { "left": "agree", "right": "katılmak" },
+      { "left": "confirm", "right": "doğrulamak" },
+      { "left": "deny", "right": "inkar etmek" },
+      { "left": "warn", "right": "uyarmak" },
+      { "left": "promise", "right": "söz vermek" },
+      { "left": "complain", "right": "şikayet etmek" },
+      { "left": "insist", "right": "ısrar etmek" },
+      { "left": "admit", "right": "itiraf etmek" },
+      { "left": "demand", "right": "talep etmek" },
+      { "left": "clarify", "right": "açıklığa kavuşturmak" }
+    ],
+    "sentenceOrder": [
+      { "words": ["He", "said", "that", "he", "was", "busy"], "correct": "He said that he was busy" },
+      { "words": ["She", "told", "me", "that", "the", "meeting", "had", "been", "canceled"], "correct": "She told me that the meeting had been canceled" },
+      { "words": ["He", "asked", "if", "we", "could", "finish", "early"], "correct": "He asked if we could finish early" },
+      { "words": ["She", "mentioned", "that", "the", "deadline", "had", "changed"], "correct": "She mentioned that the deadline had changed" },
+      { "words": ["The", "manager", "suggested", "hiring", "more", "staff"], "correct": "The manager suggested hiring more staff" },
+      { "words": ["He", "warned", "us", "that", "costs", "would", "increase"], "correct": "He warned us that costs would increase" },
+      { "words": ["She", "promised", "to", "send", "the", "report", "by", "Friday"], "correct": "She promised to send the report by Friday" },
+      { "words": ["He", "explained", "that", "the", "delay", "was", "caused", "by", "customs"], "correct": "He explained that the delay was caused by customs" },
+      { "words": ["She", "recommended", "that", "we", "change", "the", "route"], "correct": "She recommended that we change the route" }
+    ],
+    "translation": [
+      { "turkish": "Toplantının iptal edildiğini söyledi.", "english": "He said that the meeting had been canceled.", "acceptAlso": ["He said the meeting had been canceled", "He said that the meeting was canceled"] },
+      { "turkish": "Bana siparişi göndereceğini söyledi.", "english": "She told me that she would send the order.", "acceptAlso": ["She told me she would send the order"] },
+      { "turkish": "Sevkiyatın nerede olduğunu sordu.", "english": "He asked where the shipment was.", "acceptAlso": ["He asked where the shipment is"] },
+      { "turkish": "Daha fazla personel almamızı önerdi.", "english": "She suggested that we hire more staff.", "acceptAlso": ["She suggested hiring more staff"] },
+      { "turkish": "Sorunu Pazartesi'ye kadar çözeceğine söz verdi.", "english": "He promised to fix the problem by Monday.", "acceptAlso": ["He promised that he would fix the problem by Monday"] },
+      { "turkish": "Gecikmenin gümrükten kaynaklandığını açıkladı.", "english": "She explained that the delay was caused by customs.", "acceptAlso": ["She explained that the delay had been caused by customs"] },
+      { "turkish": "Bütçenin çok düşük olduğunu savundu.", "english": "He argued that the budget was too low.", "acceptAlso": ["He argued the budget was too low"] },
+      { "turkish": "Müşteri şikayetlerinin arttığına dikkat çekti.", "english": "She pointed out that customer complaints had increased.", "acceptAlso": ["She pointed out that customer complaints increased"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Summarizing the Meeting for a Colleague",
+    "titleTr": "Toplantıyı Bir Meslektaşa Özetleme",
+    "context": "Eyüp, lojistik ekibindeki haftalık toplantıya katıldı. Meslektaşı Ayşe toplantıyı kaçırdı. Eyüp öğle yemeğinde Ayşe'ye toplantıda neler konuşulduğunu anlatıyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Hey Eyüp, I missed the meeting this morning. What did I miss?", "textTr": "Hey Eyüp, bu sabah toplantıyı kaçırdım. Neler kaçırdım?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "A lot, actually. Mr. Kaya opened the meeting and announced that Q4 shipment volumes had increased by 25%.", "textTr": "Aslında çok şey. Bay Kaya toplantıyı açtı ve Q4 sevkiyat hacimlerinin %25 arttığını duyurdu." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Wow, that's a big jump. Did he say anything about the warehouse?", "textTr": "Vay, büyük bir artış. Depo hakkında bir şey söyledi mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes. He warned that the current warehouse capacity might not be enough for the peak season.", "textTr": "Evet. Mevcut depo kapasitesinin yoğun sezon için yetmeyebileceği konusunda uyardı." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "That's concerning. What about the supplier delays? Did Ms. Demir mention anything?", "textTr": "Bu endişe verici. Tedarikçi gecikmeleri ne oldu? Bayan Demir bir şey söyledi mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "She reported that three major suppliers had delayed deliveries by about five days. She explained that port congestion in Rotterdam was the main cause.", "textTr": "Üç büyük tedarikçinin teslimatları yaklaşık beş gün geciktirdiğini bildirdi. Rotterdam limanındaki tıkanıklığın ana neden olduğunu açıkladı." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Did she suggest any solutions?", "textTr": "Herhangi bir çözüm önerdi mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "She recommended that we consider alternative shipping routes through Hamburg instead of Rotterdam.", "textTr": "Rotterdam yerine Hamburg üzerinden alternatif sevkiyat rotalarını değerlendirmemizi tavsiye etti." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Makes sense. And what about Mr. Harris? He's always worried about the warehouse.", "textTr": "Mantıklı. Peki Bay Harris? O hep depo için endişelenir.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "He complained that the warehouse was already at 90% capacity. He pointed out that overtime hours had gone up by 40% in September.", "textTr": "Deponun zaten %90 kapasiteyle çalıştığından şikayet etti. Eylül ayında fazla mesai saatlerinin %40 arttığına dikkat çekti." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Did he request extra help?", "textTr": "Ek yardım talep etti mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, he requested additional temporary staff for November and December. And Mr. Kaya agreed that it was necessary.", "textTr": "Evet, Kasım ve Aralık için ek geçici personel talep etti. Ve Bay Kaya bunun gerekli olduğunu kabul etti." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Good. Did Ms. Yılmaz talk about the customer complaints?", "textTr": "İyi. Bayan Yılmaz müşteri şikayetlerinden bahsetti mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "She informed the group that customer complaints about late deliveries had doubled since August. She emphasized that our response time needed to improve.", "textTr": "Gruba Ağustos'tan bu yana geç teslimat şikayetlerinin iki katına çıktığını bildirdi. Yanıt süremizin iyileştirilmesi gerektiğini vurguladı." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "That's not good at all. Did she propose anything?", "textTr": "Bu hiç iyi değil. Bir şey önerdi mi?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "She suggested creating a dedicated task force to handle Q4 delays. Everyone seemed to agree.", "textTr": "Q4 gecikmelerini ele almak için özel bir görev gücü oluşturulmasını önerdi. Herkes aynı fikirde görünüyordu." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "So how did the meeting end? Any deadlines we should know about?", "textTr": "Peki toplantı nasıl bitti? Bilmemiz gereken son tarihler var mı?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Mr. Kaya concluded by stating that he would present a revised logistics plan to senior management by Friday. And he reminded everyone to submit their departmental reports by Wednesday.", "textTr": "Bay Kaya, Cuma gününe kadar üst yönetime revize bir lojistik planı sunacağını belirterek toplantıyı kapattı. Ve herkese departman raporlarını Çarşamba'ya kadar teslim etmesini hatırlattı." },
+      { "speaker": "A", "speakerName": "Ayşe", "text": "Wednesday — got it. Thanks for the summary, Eyüp. You explained everything really clearly.", "textTr": "Çarşamba — anlaşıldı. Özet için teşekkürler Eyüp. Her şeyi çok net açıkladın.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "No problem. I'll send you the meeting minutes by email so you have all the details.", "textTr": "Sorun değil. Tüm detaylara sahip olman için toplantı tutanaklarını e-postayla göndereceğim." }
+    ],
+    "questions": [
+      { "question": "Why did Ayşe need a summary?", "questionTr": "Ayşe neden özete ihtiyaç duydu?", "options": ["She was late", "She missed the meeting", "She forgot the details", "She was in a different meeting"], "correct": 1 },
+      { "question": "What did Mr. Kaya announce at the start?", "questionTr": "Bay Kaya başlangıçta ne duyurdu?", "options": ["New hires", "25% increase in Q4 volumes", "Office relocation", "Budget cuts"], "correct": 1 },
+      { "question": "What solution did Ms. Demir recommend?", "questionTr": "Bayan Demir hangi çözümü tavsiye etti?", "options": ["Change suppliers", "Alternative routes through Hamburg", "Increase warehouse size", "Reduce shipments"], "correct": 1 },
+      { "question": "What did Ms. Yılmaz suggest?", "questionTr": "Bayan Yılmaz ne önerdi?", "options": ["Hiring consultants", "Creating a task force for Q4 delays", "Firing the delivery team", "Sending apology emails"], "correct": 1 },
+      { "question": "By when must departmental reports be submitted?", "questionTr": "Departman raporları ne zamana kadar teslim edilmeli?", "options": ["Monday", "Tuesday", "Wednesday", "Friday"], "correct": 2 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Reported Speech — British Council", "description": "Dolaylı anlatım interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/reported-speech", "type": "practice", "level": "B1", "free": true },
+    { "title": "Reporting Verbs — BBC Learning English", "description": "Aktarma fiilleri video dersleri", "url": "https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-22", "type": "video", "level": "B1", "free": true },
+    { "title": "Reported Speech Exercises — Perfect English Grammar", "description": "Dolaylı anlatım alıştırmaları", "url": "https://www.perfect-english-grammar.com/reported-speech.html", "type": "practice", "level": "B1", "free": true }
+  ]
+}

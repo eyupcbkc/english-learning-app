@@ -1,0 +1,184 @@
+{
+  "id": "unit-30",
+  "title": "Email & Formal Writing",
+  "titleTr": "E-posta ve Resmi Yazışma",
+  "level": "B1",
+  "module": 4,
+  "description": "Write professional emails with correct structure. Learn formal phrases for complaints, requests, and follow-ups in corporate correspondence.",
+  "descriptionTr": "Doğru yapıyla profesyonel e-postalar yaz. Kurumsal yazışmalarda şikayet, talep ve takip için resmi ifadeleri öğren.",
+
+  "vocabulary": [
+    { "word": "Dear", "pronunciation": "dir", "turkish": "Sayın / Sevgili", "example": "Dear Mr. Johnson, thank you for your email.", "exampleTr": "Sayın Bay Johnson, e-postanız için teşekkür ederim.", "extra": "Use 'Dear' at the start of formal emails. 'Dear Sir/Madam' if you don't know the name.", "extraTr": "Resmi e-postaların başında 'Dear' kullan. İsmini bilmiyorsan 'Dear Sir/Madam' yaz." },
+    { "word": "Sincerely", "pronunciation": "sin-SİR-li", "turkish": "Saygılarımla", "example": "Sincerely, Eyüp Çubukçu.", "exampleTr": "Saygılarımla, Eyüp Çubukçu.", "extra": "Use 'Sincerely' when you know the recipient's name.", "extraTr": "Alıcının ismini biliyorsan 'Sincerely' kullan." },
+    { "word": "Regards", "pronunciation": "ri-GARDZ", "turkish": "Saygılarımla / İyi dileklerimle", "example": "Best regards, the logistics team.", "exampleTr": "İyi dileklerimle, lojistik ekibi.", "extra": "'Kind regards' and 'Best regards' are both common sign-offs.", "extraTr": "'Kind regards' ve 'Best regards' ikisi de yaygın kapanış ifadeleri." },
+    { "word": "attached", "pronunciation": "ı-TEÇT", "turkish": "ekli / ekteki", "example": "Please find the report attached to this email.", "exampleTr": "Lütfen raporu bu e-postanın ekinde bulunuz.", "extra": "I have attached the updated contract for your review.", "extraTr": "Güncellenmiş sözleşmeyi incelemeniz için ekteyim." },
+    { "word": "enclosed", "pronunciation": "in-KLOUZD", "turkish": "ilişikte / ekte sunulan", "example": "Please find enclosed the invoice for last month.", "exampleTr": "Geçen aya ait faturayı ilişikte bulunuz.", "extra": "'Enclosed' is more formal and often used for physical mail.", "extraTr": "'Enclosed' daha resmidir ve genellikle fiziksel posta için kullanılır." },
+    { "word": "reference", "pronunciation": "REF-rıns", "turkish": "referans / atıf", "example": "With reference to your email dated March 15th...", "exampleTr": "15 Mart tarihli e-postanıza atıfla...", "extra": "Please use the reference number when contacting us.", "extraTr": "Bizimle iletişime geçerken lütfen referans numarasını kullanın." },
+    { "word": "regarding", "pronunciation": "ri-GAR-ding", "turkish": "hakkında / ile ilgili", "example": "I am writing regarding the shipment delay.", "exampleTr": "Sevkiyat gecikmesiyle ilgili yazıyorum.", "extra": "'Regarding' is more formal than 'about' in emails.", "extraTr": "E-postalarda 'regarding', 'about' kelimesinden daha resmidir." },
+    { "word": "inquiry", "pronunciation": "in-KVAY-ri", "turkish": "sorgu / bilgi talebi", "example": "Thank you for your inquiry about our services.", "exampleTr": "Hizmetlerimiz hakkındaki sorgunuz için teşekkür ederiz.", "extra": "We received your inquiry and will respond within 48 hours.", "extraTr": "Sorgunuzu aldık ve 48 saat içinde yanıt vereceğiz." },
+    { "word": "acknowledge", "pronunciation": "ek-NAL-ic", "turkish": "onaylamak / kabul etmek", "example": "I acknowledge receipt of your email.", "exampleTr": "E-postanızın alındığını onaylıyorum.", "extra": "Please acknowledge that you have read the policy.", "extraTr": "Lütfen politikayı okuduğunuzu onaylayın." },
+    { "word": "appreciate", "pronunciation": "ı-PRİ-şi-eyt", "turkish": "takdir etmek / minnettarlık duymak", "example": "I would appreciate a prompt response.", "exampleTr": "Hızlı bir yanıt için minnettar olurum.", "extra": "We appreciate your patience during this process.", "extraTr": "Bu süreçte sabrınız için minnettarız." },
+    { "word": "apologize", "pronunciation": "ı-PAL-ı-cayz", "turkish": "özür dilemek", "example": "I apologize for the delay in responding.", "exampleTr": "Yanıttaki gecikme için özür dilerim.", "extra": "We sincerely apologize for any inconvenience caused.", "extraTr": "Yaşanan rahatsızlık için içtenlikle özür dileriz." },
+    { "word": "inconvenience", "pronunciation": "in-kın-VİN-yıns", "turkish": "rahatsızlık / olumsuzluk", "example": "We apologize for any inconvenience this may cause.", "exampleTr": "Bunun yaratabileceği herhangi bir rahatsızlık için özür dileriz.", "extra": "Sorry for the inconvenience. We are working to fix it.", "extraTr": "Rahatsızlık için özür dileriz. Düzeltmek için çalışıyoruz." },
+    { "word": "forthcoming", "pronunciation": "fort-KA-ming", "turkish": "yaklaşan / gelecek olan", "example": "Details will be provided in the forthcoming email.", "exampleTr": "Detaylar gelecek e-postada sağlanacaktır.", "extra": "The forthcoming meeting will address all concerns.", "extraTr": "Yaklaşan toplantı tüm endişeleri ele alacak." },
+    { "word": "comply", "pronunciation": "kım-PLAY", "turkish": "uymak / uyum sağlamak", "example": "All departments must comply with the new policy.", "exampleTr": "Tüm departmanlar yeni politikaya uymak zorundadır.", "extra": "Please comply with the deadline stated in the contract.", "extraTr": "Lütfen sözleşmede belirtilen son tarihe uyun." },
+    { "word": "adhere", "pronunciation": "ed-HİR", "turkish": "bağlı kalmak / riayet etmek", "example": "Employees must adhere to the company dress code.", "exampleTr": "Çalışanlar şirketin kıyafet kurallarına riayet etmelidir.", "extra": "Please adhere to the guidelines outlined in the handbook.", "extraTr": "Lütfen el kitabında belirtilen yönergelere bağlı kalın." },
+    { "word": "hereby", "pronunciation": "hir-BAY", "turkish": "bu vesileyle / işbu", "example": "I hereby confirm my attendance at the meeting.", "exampleTr": "Bu vesileyle toplantıya katılımımı onaylıyorum.", "extra": "We hereby notify you that your contract has been renewed.", "extraTr": "İşbu belgeyle sözleşmenizin yenilendiğini bildiririz." },
+    { "word": "amendment", "pronunciation": "ı-MEND-mınt", "turkish": "değişiklik / düzeltme", "example": "Please review the amendment to the original contract.", "exampleTr": "Lütfen orijinal sözleşmedeki değişikliği inceleyin.", "extra": "The amendment was approved by both parties.", "extraTr": "Değişiklik her iki tarafça onaylandı." },
+    { "word": "pursuant", "pronunciation": "pır-SU-ınt", "turkish": "uyarınca / gereğince", "example": "Pursuant to our agreement, the payment is due on the 15th.", "exampleTr": "Anlaşmamız uyarınca ödeme 15'inde yapılmalıdır.", "extra": "Pursuant to company policy, overtime must be pre-approved.", "extraTr": "Şirket politikası gereğince, fazla mesai önceden onaylanmalıdır." },
+    { "word": "facilitate", "pronunciation": "fı-Sİ-lı-teyt", "turkish": "kolaylaştırmak", "example": "I will facilitate the communication between both teams.", "exampleTr": "Her iki ekip arasındaki iletişimi kolaylaştıracağım.", "extra": "This system was designed to facilitate faster processing.", "extraTr": "Bu sistem daha hızlı işlem yapılmasını kolaylaştırmak için tasarlandı." },
+    { "word": "liaise", "pronunciation": "li-EYZ", "turkish": "irtibat kurmak / bağlantı sağlamak", "example": "I will liaise with the shipping department on this matter.", "exampleTr": "Bu konuda sevkiyat departmanıyla irtibat kuracağım.", "extra": "Please liaise with HR regarding the new hire.", "extraTr": "Yeni işe alımla ilgili İK ile irtibat kurun lütfen." },
+    { "word": "correspondence", "pronunciation": "ko-rıs-PON-dıns", "turkish": "yazışma", "example": "All correspondence should be sent to the official email.", "exampleTr": "Tüm yazışmalar resmi e-postaya gönderilmelidir.", "extra": "Please keep a record of all correspondence with the client.", "extraTr": "Müşteriyle yapılan tüm yazışmaların kaydını tutun lütfen." },
+    { "word": "recipient", "pronunciation": "ri-Sİ-pi-ınt", "turkish": "alıcı", "example": "Make sure the recipient's email address is correct.", "exampleTr": "Alıcının e-posta adresinin doğru olduğundan emin olun.", "extra": "The recipient has not yet opened the email.", "extraTr": "Alıcı henüz e-postayı açmadı." },
+    { "word": "cc", "pronunciation": "si-si", "turkish": "bilgi için (karbon kopya)", "example": "Please cc the manager on all project emails.", "exampleTr": "Tüm proje e-postalarında müdürü bilgi için ekleyin.", "extra": "I will cc you so you can follow the conversation.", "extraTr": "Seni bilgi için ekleyeceğim, böylece konuşmayı takip edebilirsin." },
+    { "word": "bcc", "pronunciation": "bi-si-si", "turkish": "gizli kopya", "example": "Use bcc when emailing a large group for privacy.", "exampleTr": "Gizlilik için büyük gruba e-posta atarken bcc kullanın.", "extra": "I added the director in bcc so others won't see.", "extraTr": "Direktörü gizli kopyaya ekledim, diğerleri görmez." },
+    { "word": "subject line", "pronunciation": "SAB-cekt layn", "turkish": "konu satırı", "example": "Write a clear subject line so the reader knows what to expect.", "exampleTr": "Okuyucunun ne bekleyeceğini bilmesi için net bir konu satırı yaz.", "extra": "A good subject line increases the chance of your email being read.", "extraTr": "İyi bir konu satırı e-postanızın okunma şansını artırır." },
+    { "word": "follow up", "pronunciation": "FAL-ou ap", "turkish": "takip etmek", "example": "I am writing to follow up on my previous email.", "exampleTr": "Önceki e-postamı takip etmek için yazıyorum.", "extra": "Could you follow up with the supplier about the delivery?", "extraTr": "Teslimat hakkında tedarikçiyi takip edebilir misin?" },
+    { "word": "kindly", "pronunciation": "KAYND-li", "turkish": "lütfen (resmi)", "example": "Kindly confirm your availability by Friday.", "exampleTr": "Lütfen müsaitliğinizi Cuma gününe kadar onaylayın.", "extra": "Kindly find attached the requested documents.", "extraTr": "Talep edilen belgeleri ekte bulunuz lütfen." },
+    { "word": "promptly", "pronunciation": "PROMPT-li", "turkish": "derhal / hemen", "example": "Please respond to this matter promptly.", "exampleTr": "Lütfen bu konuya derhal yanıt verin.", "extra": "The issue was resolved promptly by the support team.", "extraTr": "Sorun destek ekibi tarafından derhal çözüldü." },
+    { "word": "prior", "pronunciation": "PRAY-ır", "turkish": "önceki / daha önceki", "example": "As discussed in our prior meeting...", "exampleTr": "Önceki toplantımızda tartışıldığı gibi...", "extra": "Prior approval is required before any purchase.", "extraTr": "Herhangi bir satın alma öncesinde ön onay gereklidir." },
+    { "word": "subsequent", "pronunciation": "SAB-sı-kvınt", "turkish": "sonraki / müteakip", "example": "Subsequent emails will include the updated timeline.", "exampleTr": "Sonraki e-postalar güncellenmiş zaman çizelgesini içerecektir.", "extra": "The subsequent report showed a 20% improvement.", "extraTr": "Sonraki rapor %20 iyileşme gösterdi." }
+  ],
+
+  "grammar": {
+    "title": "Formal Email Structure & Register",
+    "titleTr": "Resmi E-posta Yapısı ve Üslup",
+    "explanation": "A professional email has 5 key parts: Greeting, Opening line, Body, Closing line, and Sign-off. The tone should be polite and indirect. Use formal register — avoid contractions (don't → do not), slang, and emojis. Common formal phrases replace everyday language.",
+    "explanationTr": "Profesyonel bir e-postanın 5 temel bölümü vardır: Selamlama, Açılış cümlesi, Gövde, Kapanış cümlesi ve İmza. Ton nazik ve dolaylı olmalıdır. Resmi üslup kullan — kısaltmalardan (don't → do not), argolardan ve emojilerden kaçın. Yaygın resmi ifadeler günlük dili değiştirir.",
+    "table": [
+      ["Greeting", "Dear Mr. / Ms. / Dr. + Last name", "Formal — use when you know the name", "Resmi — ismini biliyorsan kullan"],
+      ["Greeting", "Dear Sir or Madam", "Very formal — use when name is unknown", "Çok resmi — isim bilinmiyorsa kullan"],
+      ["Opening", "I am writing to inquire about...", "State the purpose of your email clearly", "E-postanın amacını açıkça belirt"],
+      ["Opening", "With reference to your email dated...", "Refer to a previous communication", "Önceki bir yazışmaya atıf yap"],
+      ["Body", "Please find attached the document...", "Share information or files politely", "Bilgi veya dosyaları nazikçe paylaş"],
+      ["Closing", "I would appreciate a prompt response.", "Politely request action from the reader", "Okuyucudan nazikçe harekete geçmesini iste"],
+      ["Sign-off", "Sincerely, / Best regards, / Kind regards,", "End with a professional closing + your name", "Profesyonel bir kapanış + isminle bitir"]
+    ],
+    "tips": [
+      { "en": "FORMAL: 'I am writing to inform you...' vs INFORMAL: 'Just wanted to let you know...'", "tr": "RESMİ: 'Size bildirmek için yazıyorum...' vs GÜNDELİK: 'Sadece bilginize...'" },
+      { "en": "Never use contractions in formal emails: write 'do not' instead of 'don't', 'I would' instead of 'I'd'.", "tr": "Resmi e-postalarda kısaltma kullanma: 'don't' yerine 'do not', 'I'd' yerine 'I would' yaz." },
+      { "en": "'Please find attached...' is the standard phrase for sending files. Never write 'I am attaching...' in formal emails.", "tr": "'Please find attached...' dosya göndermek için standart ifadedir. Resmi e-postalarda 'I am attaching...' yazma." },
+      { "en": "Use 'I would appreciate if...' instead of 'Can you...?' — it sounds more professional.", "tr": "'Can you...?' yerine 'I would appreciate if...' kullan — daha profesyonel." },
+      { "en": "'Kindly' is more formal than 'please'. Use it in official requests: 'Kindly confirm by Friday.'", "tr": "'Kindly', 'please' kelimesinden daha resmidir. Resmi taleplerde kullan: 'Kindly confirm by Friday.'" },
+      { "en": "Always include a clear subject line. Bad: 'Hi' / Good: 'Re: Invoice #4521 — Payment Confirmation'", "tr": "Her zaman net bir konu satırı yaz. Kötü: 'Hi' / İyi: 'Re: Invoice #4521 — Payment Confirmation'" }
+    ]
+  },
+
+  "reading": {
+    "text": "--- EMAIL 1: COMPLAINT ---\n\nSubject: Delayed Shipment — Order #7842\n\nDear Customer Service Team,\n\nI am writing regarding order #7842, which was scheduled for delivery on March 20th. Unfortunately, we have not yet received the shipment and it is now 10 days overdue.\n\nThis delay has caused significant inconvenience to our operations. We kindly request an update on the current status of the order and an estimated delivery date.\n\nI would appreciate a prompt response.\n\nSincerely,\nEyüp Çubukçu\nOperations Manager, TechBridge Ltd.\n\n--- EMAIL 2: RESPONSE ---\n\nSubject: Re: Delayed Shipment — Order #7842\n\nDear Mr. Çubukçu,\n\nThank you for bringing this matter to our attention. I sincerely apologize for the inconvenience caused by the delay.\n\nAfter investigating the issue, I can confirm that the shipment was held at customs due to a documentation error. We have resolved the problem and the order will be dispatched within 48 hours.\n\nPlease find attached the updated tracking information for your reference.\n\nBest regards,\nAmanda Clarke\nCustomer Relations, GlobalFreight Inc.\n\n--- EMAIL 3: FOLLOW-UP ---\n\nSubject: Re: Re: Delayed Shipment — Order #7842\n\nDear Ms. Clarke,\n\nThank you for your prompt response. I acknowledge receipt of the tracking information and appreciate your efforts to resolve this matter.\n\nKindly ensure that subsequent shipments comply with all customs documentation requirements to avoid similar delays.\n\nI look forward to your confirmation once the order has been dispatched.\n\nBest regards,\nEyüp Çubukçu\nOperations Manager, TechBridge Ltd.",
+    "textTr": "--- E-POSTA 1: ŞİKAYET ---\n\nKonu: Geciken Sevkiyat — Sipariş #7842\n\nSayın Müşteri Hizmetleri Ekibi,\n\n20 Mart'ta teslimatı planlanan #7842 numaralı siparişle ilgili yazıyorum. Maalesef sevkiyatı henüz almadık ve şu anda 10 gün gecikmiş durumda.\n\nBu gecikme operasyonlarımızda ciddi rahatsızlığa neden olmuştur. Siparişin mevcut durumu ve tahmini teslim tarihi hakkında güncelleme talep ederiz.\n\nHızlı bir yanıt için minnettar olurum.\n\nSaygılarımla,\nEyüp Çubukçu\nOperasyon Müdürü, TechBridge Ltd.\n\n--- E-POSTA 2: YANIT ---\n\nKonu: Re: Geciken Sevkiyat — Sipariş #7842\n\nSayın Bay Çubukçu,\n\nBu konuyu dikkatimize getirdiğiniz için teşekkür ederiz. Gecikmeden kaynaklanan rahatsızlık için içtenlikle özür dilerim.\n\nKonuyu araştırdıktan sonra, sevkiyatın bir belge hatası nedeniyle gümrükte bekletildiğini doğrulayabilirim. Sorunu çözdük ve sipariş 48 saat içinde gönderilecektir.\n\nGüncellenmiş takip bilgilerini referansınız için ekte bulunuz.\n\nİyi dileklerimle,\nAmanda Clarke\nMüşteri İlişkileri, GlobalFreight Inc.\n\n--- E-POSTA 3: TAKİP ---\n\nKonu: Re: Re: Geciken Sevkiyat — Sipariş #7842\n\nSayın Bayan Clarke,\n\nHızlı yanıtınız için teşekkür ederim. Takip bilgilerinin alındığını onaylarım ve bu konuyu çözme çabalarınız için minnettarım.\n\nLütfen benzer gecikmeleri önlemek için sonraki sevkiyatların tüm gümrük belgelendirme gerekliliklerine uymasını sağlayın.\n\nSipariş gönderildiğinde onayınızı bekliyorum.\n\nİyi dileklerimle,\nEyüp Çubukçu\nOperasyon Müdürü, TechBridge Ltd.",
+    "questions": [
+      { "question": "What is the main reason Eyüp wrote the first email?", "questionTr": "Eyüp'ün ilk e-postayı yazmasının ana nedeni nedir?", "options": ["To place a new order", "To complain about a delayed shipment", "To cancel an order", "To request a refund"], "correct": 1 },
+      { "question": "Why was the shipment delayed?", "questionTr": "Sevkiyat neden gecikti?", "options": ["Bad weather", "A documentation error at customs", "The warehouse was closed", "The truck broke down"], "correct": 1 },
+      { "question": "What did Amanda attach to her response email?", "questionTr": "Amanda yanıt e-postasına ne ekledi?", "options": ["A new invoice", "An apology letter", "Updated tracking information", "A discount coupon"], "correct": 2 },
+      { "question": "What did Eyüp ask for in the follow-up email?", "questionTr": "Eyüp takip e-postasında ne istedi?", "options": ["A refund for the delay", "That future shipments comply with customs rules", "A meeting with the manager", "A new supplier"], "correct": 1 },
+      { "question": "Which phrase did Eyüp use to confirm he received the tracking info?", "questionTr": "Eyüp takip bilgisini aldığını onaylamak için hangi ifadeyi kullandı?", "options": ["I got your email", "Thanks for the info", "I acknowledge receipt of", "I saw the attachment"], "correct": 2 }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I am writing ___ the delayed shipment.", "answer": "regarding", "hint": "hakkında (resmi)" },
+      { "sentence": "Please find ___ the updated report.", "answer": "attached", "hint": "ekli" },
+      { "sentence": "___ Mr. Anderson, I hope this email finds you well.", "answer": "Dear", "hint": "selamlama" },
+      { "sentence": "I would ___ a prompt response.", "answer": "appreciate", "hint": "minnettarlık" },
+      { "sentence": "We sincerely ___ for the inconvenience.", "answer": "apologize", "hint": "özür dilemek" },
+      { "sentence": "All staff must ___ with the new regulations.", "answer": "comply", "hint": "uymak" },
+      { "sentence": "___ confirm your attendance by Friday.", "answer": "Kindly", "hint": "lütfen (resmi)" },
+      { "sentence": "I will ___ with the HR department on this matter.", "answer": "liaise", "hint": "irtibat kurmak" },
+      { "sentence": "I am writing to ___ on my previous email.", "answer": "follow up", "hint": "takip etmek" },
+      { "sentence": "Please respond ___. This matter is urgent.", "answer": "promptly", "hint": "derhal" },
+      { "sentence": "With ___ to your email dated April 1st...", "answer": "reference", "hint": "atıf" },
+      { "sentence": "The ___ meeting will cover the budget review.", "answer": "forthcoming", "hint": "yaklaşan" }
+    ],
+    "multipleChoice": [
+      { "question": "Resmi e-posta nasıl başlar?", "options": ["Hey!", "Dear Mr. / Ms. + Soyisim", "What's up?", "Hi there!"], "correct": 1 },
+      { "question": "\"Ekte bulunuz\" İngilizce'de hangisi?", "options": ["I am sending you", "Here is the file", "Please find attached", "Look at this"], "correct": 2 },
+      { "question": "Resmi e-postada 'don't' yerine ne yazılır?", "options": ["dont", "do not", "doesn't", "do'nt"], "correct": 1 },
+      { "question": "\"Rahatsızlık\" İngilizce'de hangisi?", "options": ["inconvenience", "uncomfortable", "disturbance", "annoyance"], "correct": 0 },
+      { "question": "\"I would appreciate a prompt response.\" ne demek?", "options": ["Hızlı yanıt bekliyorum.", "Hızlı bir yanıt için minnettar olurum.", "Yanıt vermek zorundasınız.", "Acil yanıt verin."], "correct": 1 },
+      { "question": "\"Yazışma\" İngilizce'de hangisi?", "options": ["writing", "correspondence", "letter", "message"], "correct": 1 },
+      { "question": "E-postanın sonunda 'Sincerely' ne zaman kullanılır?", "options": ["Her zaman", "Alıcının ismini bildiğinde", "Sadece şikayet e-postalarında", "Sadece arkadaşlara"], "correct": 1 },
+      { "question": "\"Pursuant to\" ne anlama gelir?", "options": ["Karşı olarak", "Uyarınca / gereğince", "Öncelikle", "Sonuç olarak"], "correct": 1 },
+      { "question": "\"Gizli kopya\" İngilizce'de hangisi?", "options": ["cc", "bcc", "fw", "re"], "correct": 1 },
+      { "question": "Hangisi resmi bir kapanış ifadesidir?", "options": ["See ya!", "Cheers!", "Best regards,", "Later!"], "correct": 2 }
+    ],
+    "matching": [
+      { "left": "Dear", "right": "Sayın" },
+      { "left": "Sincerely", "right": "Saygılarımla" },
+      { "left": "attached", "right": "ekli" },
+      { "left": "regarding", "right": "hakkında" },
+      { "left": "inquiry", "right": "bilgi talebi" },
+      { "left": "acknowledge", "right": "onaylamak" },
+      { "left": "appreciate", "right": "takdir etmek" },
+      { "left": "apologize", "right": "özür dilemek" },
+      { "left": "inconvenience", "right": "rahatsızlık" },
+      { "left": "comply", "right": "uymak" },
+      { "left": "correspondence", "right": "yazışma" },
+      { "left": "recipient", "right": "alıcı" },
+      { "left": "kindly", "right": "lütfen (resmi)" },
+      { "left": "promptly", "right": "derhal" },
+      { "left": "subsequent", "right": "sonraki" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "am", "writing", "regarding", "the", "delayed", "shipment"], "correct": "I am writing regarding the delayed shipment" },
+      { "words": ["Please", "find", "attached", "the", "updated", "report"], "correct": "Please find attached the updated report" },
+      { "words": ["I", "would", "appreciate", "a", "prompt", "response"], "correct": "I would appreciate a prompt response" },
+      { "words": ["We", "apologize", "for", "the", "inconvenience", "caused"], "correct": "We apologize for the inconvenience caused" },
+      { "words": ["Kindly", "confirm", "your", "availability", "by", "Friday"], "correct": "Kindly confirm your availability by Friday" },
+      { "words": ["I", "acknowledge", "receipt", "of", "your", "email"], "correct": "I acknowledge receipt of your email" },
+      { "words": ["With", "reference", "to", "your", "previous", "email"], "correct": "With reference to your previous email" },
+      { "words": ["All", "departments", "must", "comply", "with", "the", "new", "policy"], "correct": "All departments must comply with the new policy" },
+      { "words": ["I", "will", "liaise", "with", "the", "shipping", "department"], "correct": "I will liaise with the shipping department" }
+    ],
+    "translation": [
+      { "turkish": "Gecikme hakkında yazıyorum.", "english": "I am writing regarding the delay.", "acceptAlso": ["I am writing about the delay"] },
+      { "turkish": "Güncellenmiş raporu ekte bulunuz.", "english": "Please find attached the updated report.", "acceptAlso": ["Kindly find attached the updated report"] },
+      { "turkish": "Hızlı bir yanıt için minnettar olurum.", "english": "I would appreciate a prompt response.", "acceptAlso": ["I would appreciate a quick response"] },
+      { "turkish": "Yaşanan rahatsızlık için özür dileriz.", "english": "We apologize for the inconvenience caused.", "acceptAlso": ["We apologize for any inconvenience caused"] },
+      { "turkish": "Lütfen Cuma gününe kadar onaylayın.", "english": "Kindly confirm by Friday.", "acceptAlso": ["Please confirm by Friday"] },
+      { "turkish": "E-postanızın alındığını onaylıyorum.", "english": "I acknowledge receipt of your email.", "acceptAlso": ["I confirm receipt of your email"] },
+      { "turkish": "Tüm personel yeni politikaya uymalıdır.", "english": "All staff must comply with the new policy.", "acceptAlso": ["All employees must comply with the new policy"] },
+      { "turkish": "Önceki e-postamı takip etmek için yazıyorum.", "english": "I am writing to follow up on my previous email.", "acceptAlso": ["I'm writing to follow up on my previous email"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Writing a Diplomatic Email",
+    "titleTr": "Diplomatik Bir E-posta Yazmak",
+    "context": "Eyüp, müşteriye geciken sevkiyat hakkında resmi bir şikayet e-postası yazması gerekiyor. Meslektaşı Selin'den diplomatik ifadeler konusunda yardım istiyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Selin, I need to write a complaint email to GlobalFreight about the delayed shipment. Can you help me with the wording?", "textTr": "Selin, GlobalFreight'e geciken sevkiyat hakkında bir şikayet e-postası yazmam gerekiyor. İfadeler konusunda yardım edebilir misin?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Of course. First, let's start with the subject line. It should be clear and specific. How about 'Delayed Shipment — Order #7842'?", "textTr": "Tabii ki. Önce konu satırıyla başlayalım. Net ve spesifik olmalı. 'Delayed Shipment — Order #7842' nasıl?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good. For the greeting, should I write 'Hi' or 'Hello'?", "textTr": "İyi. Selamlama için 'Hi' mı yoksa 'Hello' mu yazmalıyım?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Neither. This is a formal complaint. Use 'Dear Customer Service Team' since you do not know the specific person's name.", "textTr": "İkisi de değil. Bu resmi bir şikayet. Kişinin ismini bilmediğin için 'Dear Customer Service Team' kullan.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Okay. Then I want to say 'Your shipment is very late and I am angry about it.'", "textTr": "Tamam. Sonra 'Sevkiyatınız çok geç ve bu konuda kızgınım' demek istiyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "That is too direct and emotional. In formal emails, we use indirect language. Say 'I am writing regarding order #7842, which has not yet been delivered.' Much more professional.", "textTr": "Bu çok doğrudan ve duygusal. Resmi e-postalarda dolaylı dil kullanırız. 'I am writing regarding order #7842, which has not yet been delivered' de. Çok daha profesyonel.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I see. And then I want to say the delay is causing problems for us.", "textTr": "Anlıyorum. Sonra gecikmenin bize sorun çıkardığını söylemek istiyorum." },
+      { "speaker": "A", "speakerName": "Selin", "text": "Good point. Write: 'This delay has caused significant inconvenience to our operations.' The word 'inconvenience' is very common in formal complaints.", "textTr": "İyi bir nokta. Yaz: 'This delay has caused significant inconvenience to our operations.' 'Inconvenience' kelimesi resmi şikayetlerde çok yaygın.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Now I want to ask them to tell me when the shipment will arrive. Can I say 'Tell me the delivery date'?", "textTr": "Şimdi onlardan sevkiyatın ne zaman geleceğini söylemelerini istiyorum. 'Tell me the delivery date' diyebilir miyim?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "That sounds like a demand. Use 'We kindly request an update on the current status and an estimated delivery date.' The word 'kindly' makes it polite but still firm.", "textTr": "Bu emir gibi duyuluyor. 'We kindly request an update on the current status and an estimated delivery date' kullan. 'Kindly' kelimesi nazik ama kararlı yapar.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "That is much better. How should I close the email?", "textTr": "Bu çok daha iyi. E-postayı nasıl kapamalıyım?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "End with 'I would appreciate a prompt response' and then sign off with 'Sincerely' followed by your name and title.", "textTr": "'I would appreciate a prompt response' ile bitir, sonra 'Sincerely' yazıp ismin ve ünvanını ekle.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Should I add anyone in cc?", "textTr": "Bilgi için birini eklemeli miyim?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "Yes, cc our manager so she is aware of the issue. Do not use bcc in this case — we want everyone to see who is included.", "textTr": "Evet, müdürümüzü bilgi için ekle, böylece konudan haberdar olur. Bu durumda bcc kullanma — herkesin kimin dahil olduğunu görmesini istiyoruz.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "One more thing. I used 'don't' and 'we're' in the email. Is that okay?", "textTr": "Bir şey daha. E-postada 'don't' ve 'we're' kullandım. Bu uygun mu?" },
+      { "speaker": "A", "speakerName": "Selin", "text": "No, avoid contractions in formal emails. Write 'do not' instead of 'don't' and 'we are' instead of 'we're'. It sounds more professional.", "textTr": "Hayır, resmi e-postalarda kısaltmalardan kaçın. 'don't' yerine 'do not', 'we're' yerine 'we are' yaz. Daha profesyonel duyulur.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Got it. What about the phrase 'Please find attached'? I have seen it many times but it feels strange.", "textTr": "Anladım. 'Please find attached' ifadesi ne durumda? Çok gördüm ama garip hissettiriyor." },
+      { "speaker": "A", "speakerName": "Selin", "text": "It is a standard formal phrase. You will see it in almost every professional email with an attachment. Just use it — everyone understands it and it is expected in business correspondence.", "textTr": "Standart bir resmi ifade. Eki olan neredeyse her profesyonel e-postada göreceksin. Kullan — herkes anlar ve iş yazışmalarında beklenir.", "gender": "female" }
+    ],
+    "questions": [
+      { "question": "Why does Selin say Eyüp should not write 'Hi' or 'Hello'?", "questionTr": "Selin neden Eyüp'e 'Hi' veya 'Hello' yazmamasını söylüyor?", "options": ["It is too long", "It is a formal complaint email", "It is grammatically wrong", "He does not know the person"], "correct": 1 },
+      { "question": "What word does Selin recommend for formal complaints?", "questionTr": "Selin resmi şikayetler için hangi kelimeyi öneriyor?", "options": ["problem", "inconvenience", "trouble", "difficulty"], "correct": 1 },
+      { "question": "Why should Eyüp avoid contractions?", "questionTr": "Eyüp neden kısaltmalardan kaçınmalı?", "options": ["They are grammatically wrong", "They are hard to understand", "They are not professional in formal emails", "They make the email too short"], "correct": 2 },
+      { "question": "Who should Eyüp add in cc?", "questionTr": "Eyüp kimi bilgi için eklemeli?", "options": ["The supplier", "His manager", "The entire team", "No one"], "correct": 1 },
+      { "question": "What does 'Please find attached' mean?", "questionTr": "'Please find attached' ne anlama gelir?", "options": ["Lütfen eki arayın", "Ekte bulunuz", "Lütfen dosyayı bulun", "Eki kontrol edin"], "correct": 1 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Formal Email Writing — British Council", "description": "Resmi e-posta yazımı interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/skills/writing/b1-writing/formal-email", "type": "practice", "level": "B1", "free": true },
+    { "title": "Business Email Phrases — BBC Learning English", "description": "İş e-postalarında kullanılan yaygın ifadeler", "url": "https://www.bbc.co.uk/learningenglish/english/course/english-for-emails", "type": "video", "level": "B1", "free": true },
+    { "title": "Email Writing Tips — Grammarly", "description": "Profesyonel e-posta yazım ipuçları ve örnekler", "url": "https://www.grammarly.com/blog/professional-email-in-english/", "type": "article", "level": "B1", "free": true }
+  ]
+}

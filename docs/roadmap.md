@@ -47,14 +47,16 @@
 - [x] 🚀 Vercel deploy (english-learning-app-six-cyan.vercel.app)
 - [x] 🎨 UX/UI modernizasyon (animasyonlar, responsive, student-friendly)
 - [x] 📝 Unit 09-16 icerikleri (Module 2 tamam! A1→A2)
-- [ ] 📝 **Unit 17-24 icerikleri (Module 3: A2→B1)** ← SIRADAKI
-- [ ] 📝 Unit 25-32 icerikleri (Module 4: B1)
-- [ ] ⚡ Performans optimizasyonu (lazy loading, code splitting)
+- [x] 📝 Unit 17-24 icerikleri (Module 3 tamam! A2→B1)
+- [x] 🃏 Flashcard sistemi refactor (8 modüler bileşen, zamanlı oturum, pas geçme, seviye filtresi)
+- [x] ⚡ Performans: anında kart yükleme, React.memo, Firestore modern API
+- [x] 📝 Unit 25-32 icerikleri (Module 4 tamam! B1)
+- [ ] 📝 **Unit 33-48 icerikleri (Module 5-6: B1→B2)** ← SIRADAKI
+- [ ] 📝 Unit 49-64 icerikleri (Module 7-8: B2→C1)
 - [ ] 📚 Kelime listesi sayfasi + filtreleme
 - [ ] 🎤 Speech-to-Text pronunciation practice
 - [ ] 📊 Seviye olcme testi (placement test)
 - [ ] 📊 Modul sonu testleri
-- [ ] 📊 Zayif nokta analizi
 - [ ] 🌙 Dark mode
 
 ---
@@ -95,27 +97,27 @@
 **Hedef:** Is dunyasina giris — CV, gorusme, freelance, startup
 **Senaryo temalari:** Is gorusmesi, LinkedIn, e-ticaret, lojistik, freelancing, startup
 
-- [ ] Unit 17: Future (will & going to) — *Is gorusmesine hazirlik*
-- [ ] Unit 18: Present Perfect — *CV ve is deneyimi anlatma*
-- [ ] Unit 19: Present Perfect vs Past Simple — *LinkedIn profili yazma*
-- [ ] Unit 20: First Conditional — *E-ticaret siparis problemi*
-- [ ] Unit 21: Modal Verbs — *Lojistik kargo takibi*
-- [ ] Unit 22: Adverbs & Frequency — *Freelancer gunlugu*
-- [ ] Unit 23: Phrasal Verbs Set 1 — *Startup kurma hikayesi*
-- [ ] Unit 24: B1 Entry Test — *Is dunyasi karma testi*
+- [x] Unit 17: Future (will & going to) — *Is gorusmesine hazirlik* (30 kelime)
+- [x] Unit 18: Present Perfect — *CV ve is deneyimi anlatma* (30 kelime)
+- [x] Unit 19: Present Perfect vs Past Simple — *LinkedIn profili yazma* (30 kelime)
+- [x] Unit 20: First Conditional — *E-ticaret siparis problemi* (30 kelime)
+- [x] Unit 21: Modal Verbs — *Lojistik kargo takibi* (30 kelime)
+- [x] Unit 22: Adverbs & Frequency — *Freelancer gunlugu* (30 kelime)
+- [x] Unit 23: Phrasal Verbs Set 1 — *Startup kurma hikayesi* (30 kelime)
+- [x] Unit 24: B1 Entry Test — *Is dunyasi karma testi* (30 kelime)
 
 ### Module 4: Real Communication (B1) 🌲
 **Hedef:** Profesyonel iletisim — e-posta, toplanti, sunum, musteri
 **Senaryo temalari:** Is teklifi, urun iade, toplanti, sirket yazismasi, musteri sikayeti
 
-- [ ] Unit 25: Second Conditional — *Is teklifi degerlendirme*
-- [ ] Unit 26: Passive Voice — *Urun iade sureci*
-- [ ] Unit 27: Reported Speech — *Toplanti ozeti*
-- [ ] Unit 28: Relative Clauses — *Musteriye e-posta*
-- [ ] Unit 29: Connectors — *Sunum yapma*
-- [ ] Unit 30: Email & Formal Writing — *Sirket yazismasi*
-- [ ] Unit 31: Phrasal Verbs Set 2 — *Musteri sikayeti cozme*
-- [ ] Unit 32: B1 Level Test — *Profesyonel iletisim testi*
+- [x] Unit 25: Second Conditional — *Is teklifi degerlendirme* (30 kelime)
+- [x] Unit 26: Passive Voice — *Urun iade sureci* (30 kelime)
+- [x] Unit 27: Reported Speech — *Toplanti ozeti* (30 kelime)
+- [x] Unit 28: Relative Clauses — *Entegrasyon uzmani email* (30 kelime)
+- [x] Unit 29: Connectors — *Ceyreklik sunum* (30 kelime)
+- [x] Unit 30: Email & Formal Writing — *Kurumsal yazisma* (30 kelime)
+- [x] Unit 31: Phrasal Verbs Set 2 — *Musteri sikayeti cozme* (30 kelime)
+- [x] Unit 32: B1 Level Test — *Tam is gunu senaryosu* (30 kelime, 27 satirlik dialog)
 
 ---
 
