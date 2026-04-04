@@ -1,0 +1,572 @@
+{
+  "id": "unit-08",
+  "title": "A1 Review & Test",
+  "titleTr": "A1 Tekrar ve Test",
+  "level": "A1",
+  "module": 1,
+  "description": "Review everything from Units 1-7! A full day scenario: hotel, restaurant, shopping, daily routine, and meeting people.",
+  "descriptionTr": "Ünite 1-7'deki her şeyi tekrarla! Tam bir gün senaryosu: otel, restoran, alışveriş, günlük rutin ve insanlarla tanışma.",
+
+  "vocabulary": [
+    {
+      "word": "excuse me",
+      "pronunciation": "iks-KYUUZ mii",
+      "turkish": "affedersiniz / pardon",
+      "example": "Excuse me, where is the nearest restaurant?",
+      "exampleTr": "Affedersiniz, en yakın restoran nerede?",
+      "extra": "Excuse me, can you help me with my luggage?",
+      "extraTr": "Affedersiniz, bavulumla bana yardım edebilir misiniz?"
+    },
+    {
+      "word": "pleased",
+      "pronunciation": "pliizd",
+      "turkish": "memnun",
+      "example": "Pleased to meet you! I'm Eyüp.",
+      "exampleTr": "Tanıştığıma memnun oldum! Ben Eyüp.",
+      "extra": "I'm very pleased with the hotel room.",
+      "extraTr": "Otel odasından çok memnunum."
+    },
+    {
+      "word": "quarter",
+      "pronunciation": "KVOR-tır",
+      "turkish": "çeyrek",
+      "example": "It's a quarter past nine. The taxi is here.",
+      "exampleTr": "Dokuzu çeyrek geçiyor. Taksi burada.",
+      "extra": "I'll meet you in a quarter of an hour.",
+      "extraTr": "Çeyrek saat sonra seninle buluşurum."
+    },
+    {
+      "word": "half",
+      "pronunciation": "hef",
+      "turkish": "yarım / buçuk",
+      "example": "The train leaves at half past ten.",
+      "exampleTr": "Tren on buçukta kalkıyor.",
+      "extra": "I waited for half an hour at the restaurant.",
+      "extraTr": "Restoranda yarım saat bekledim."
+    },
+    {
+      "word": "exhausted",
+      "pronunciation": "ig-ZOS-tid",
+      "turkish": "bitkin / çok yorgun",
+      "example": "I'm exhausted after walking all day in the city.",
+      "exampleTr": "Bütün gün şehirde yürüdükten sonra bitkinim.",
+      "extra": "She looks exhausted. She needs to rest.",
+      "extraTr": "Bitkin görünüyor. Dinlenmesi lazım."
+    },
+    {
+      "word": "confident",
+      "pronunciation": "KON-fi-dınt",
+      "turkish": "kendinden emin / özgüvenli",
+      "example": "I feel more confident when I speak English now.",
+      "exampleTr": "Artık İngilizce konuşurken kendimi daha özgüvenli hissediyorum.",
+      "extra": "She is confident about the job interview.",
+      "extraTr": "İş görüşmesi konusunda kendinden emin."
+    },
+    {
+      "word": "recommend",
+      "pronunciation": "re-kı-MEND",
+      "turkish": "tavsiye etmek / önermek",
+      "example": "Can you recommend a good restaurant near here?",
+      "exampleTr": "Buralarda iyi bir restoran tavsiye edebilir misiniz?",
+      "extra": "I recommend the chicken soup. It's delicious!",
+      "extraTr": "Tavuk çorbasını tavsiye ederim. Çok lezzetli!"
+    },
+    {
+      "word": "compare",
+      "pronunciation": "kım-PER",
+      "turkish": "karşılaştırmak / kıyaslamak",
+      "example": "I always compare prices before I buy something.",
+      "exampleTr": "Bir şey almadan önce her zaman fiyatları karşılaştırırım.",
+      "extra": "Don't compare yourself with other people.",
+      "extraTr": "Kendini başka insanlarla kıyaslama."
+    },
+    {
+      "word": "whose",
+      "pronunciation": "huuz",
+      "turkish": "kimin",
+      "example": "Whose bag is this? Is it yours?",
+      "exampleTr": "Bu kimin çantası? Senin mi?",
+      "extra": "Whose turn is it to pay?",
+      "extraTr": "Ödeme sırası kimde?"
+    },
+    {
+      "word": "commute",
+      "pronunciation": "kı-MYUUT",
+      "turkish": "işe gidip gelmek",
+      "example": "I commute to work by bus every day.",
+      "exampleTr": "Her gün otobüsle işe gidip geliyorum.",
+      "extra": "My commute takes about 45 minutes.",
+      "extraTr": "İşe gidiş geliş yaklaşık 45 dakika sürüyor."
+    },
+    {
+      "word": "deadline",
+      "pronunciation": "DED-layn",
+      "turkish": "son tarih / teslim tarihi",
+      "example": "The deadline is tomorrow. I need to finish this today.",
+      "exampleTr": "Son tarih yarın. Bunu bugün bitirmem lazım.",
+      "extra": "We have a tight deadline for this project.",
+      "extraTr": "Bu proje için sıkı bir teslim tarihimiz var."
+    },
+    {
+      "word": "appetizer",
+      "pronunciation": "E-pı-tay-zır",
+      "turkish": "başlangıç / meze",
+      "example": "Would you like an appetizer before your main course?",
+      "exampleTr": "Ana yemekten önce bir başlangıç ister misiniz?",
+      "extra": "The soup is the best appetizer on the menu.",
+      "extraTr": "Çorba menüdeki en iyi başlangıç."
+    },
+    {
+      "word": "delicious",
+      "pronunciation": "di-LI-şıs",
+      "turkish": "lezzetli / nefis",
+      "example": "This food is absolutely delicious!",
+      "exampleTr": "Bu yemek kesinlikle nefis!",
+      "extra": "The breakfast at this hotel is delicious.",
+      "extraTr": "Bu otelin kahvaltısı çok lezzetli."
+    },
+    {
+      "word": "receipt",
+      "pronunciation": "ri-SIIT",
+      "turkish": "fiş / makbuz",
+      "example": "Can I have the receipt, please?",
+      "exampleTr": "Fişi alabilir miyim, lütfen?",
+      "extra": "Keep the receipt. You might need it later.",
+      "extraTr": "Fişi sakla. Sonra lazım olabilir."
+    },
+    {
+      "word": "discount",
+      "pronunciation": "DIS-kaunt",
+      "turkish": "indirim",
+      "example": "Is there a discount for students?",
+      "exampleTr": "Öğrenciler için indirim var mı?",
+      "extra": "Everything is 20% discount this week.",
+      "extraTr": "Bu hafta her şey yüzde 20 indirimli."
+    },
+    {
+      "word": "check out",
+      "pronunciation": "çek AUT",
+      "turkish": "çıkış yapmak (otelden)",
+      "example": "I'd like to check out, please. Room 305.",
+      "exampleTr": "Çıkış yapmak istiyorum, lütfen. Oda 305.",
+      "extra": "What time is check out?",
+      "extraTr": "Çıkış saati ne zaman?"
+    },
+    {
+      "word": "reservation",
+      "pronunciation": "re-zır-VEY-şın",
+      "turkish": "rezervasyon",
+      "example": "I have a reservation for two people.",
+      "exampleTr": "İki kişilik rezervasyonum var.",
+      "extra": "Do I need a reservation for tonight?",
+      "extraTr": "Bu akşam için rezervasyon yapmam lazım mı?"
+    },
+    {
+      "word": "available",
+      "pronunciation": "ı-VEY-lı-bıl",
+      "turkish": "müsait / mevcut",
+      "example": "Is this table available?",
+      "exampleTr": "Bu masa müsait mi?",
+      "extra": "Sorry, there are no rooms available tonight.",
+      "extraTr": "Üzgünüz, bu gece müsait oda yok."
+    },
+    {
+      "word": "change",
+      "pronunciation": "çeync",
+      "turkish": "değişiklik / para üstü / değiştirmek",
+      "example": "Here's your change — five dollars.",
+      "exampleTr": "Buyurun para üstünüz — beş dolar.",
+      "extra": "Can I change my room? This one is too noisy.",
+      "extraTr": "Odamı değiştirebilir miyim? Bu çok gürültülü."
+    },
+    {
+      "word": "order",
+      "pronunciation": "OR-dır",
+      "turkish": "sipariş / sipariş etmek",
+      "example": "Are you ready to order?",
+      "exampleTr": "Sipariş vermeye hazır mısınız?",
+      "extra": "I'd like to order the grilled chicken, please.",
+      "extraTr": "Izgara tavuk sipariş etmek istiyorum, lütfen."
+    },
+    {
+      "word": "bill",
+      "pronunciation": "bil",
+      "turkish": "hesap / fatura",
+      "example": "Can I have the bill, please?",
+      "exampleTr": "Hesabı alabilir miyim, lütfen?",
+      "extra": "The total bill is 85 dollars.",
+      "extraTr": "Toplam hesap 85 dolar."
+    },
+    {
+      "word": "tip",
+      "pronunciation": "tip",
+      "turkish": "bahşiş / ipucu",
+      "example": "In America, you usually leave a 15-20% tip.",
+      "exampleTr": "Amerika'da genellikle yüzde 15-20 bahşiş bırakılır.",
+      "extra": "Here's a tip: always carry some cash with you.",
+      "extraTr": "İşte bir ipucu: yanında her zaman biraz nakit bulundur."
+    },
+    {
+      "word": "size",
+      "pronunciation": "sayz",
+      "turkish": "beden / boyut",
+      "example": "What size do you wear? Medium or large?",
+      "exampleTr": "Hangi bedeni giyiyorsun? Orta mı büyük mü?",
+      "extra": "Do you have this in a smaller size?",
+      "extraTr": "Bunun daha küçük bedeni var mı?"
+    },
+    {
+      "word": "try on",
+      "pronunciation": "tray on",
+      "turkish": "denemek (kıyafet)",
+      "example": "Can I try on this jacket?",
+      "exampleTr": "Bu ceketi deneyebilir miyim?",
+      "extra": "You should try on the shoes before you buy them.",
+      "extraTr": "Ayakkabıları almadan önce denemelisin."
+    },
+    {
+      "word": "spend",
+      "pronunciation": "spend",
+      "turkish": "harcamak (para/zaman)",
+      "example": "I don't want to spend too much money today.",
+      "exampleTr": "Bugün çok fazla para harcamak istemiyorum.",
+      "extra": "How much time do you spend learning English?",
+      "extraTr": "İngilizce öğrenmeye ne kadar zaman harcıyorsun?"
+    },
+    {
+      "word": "breakfast",
+      "pronunciation": "BREK-fıst",
+      "turkish": "kahvaltı",
+      "example": "Is breakfast included in the hotel price?",
+      "exampleTr": "Kahvaltı otel fiyatına dahil mi?",
+      "extra": "I usually have eggs and toast for breakfast.",
+      "extraTr": "Kahvaltıda genellikle yumurta ve tost yerim."
+    },
+    {
+      "word": "arrive",
+      "pronunciation": "ı-RAYV",
+      "turkish": "varmak / gelmek",
+      "example": "What time does the bus arrive?",
+      "exampleTr": "Otobüs saat kaçta varıyor?",
+      "extra": "We arrive in New York at 3 PM.",
+      "extraTr": "New York'a öğleden sonra 3'te varıyoruz."
+    },
+    {
+      "word": "leave",
+      "pronunciation": "liiv",
+      "turkish": "ayrılmak / çıkmak",
+      "example": "I need to leave the hotel before 11 AM.",
+      "exampleTr": "Sabah 11'den önce otelden ayrılmam lazım.",
+      "extra": "What time do you leave for work?",
+      "extraTr": "İşe kaçta çıkıyorsun?"
+    },
+    {
+      "word": "return",
+      "pronunciation": "ri-TÖRN",
+      "turkish": "geri dönmek / iade etmek",
+      "example": "Can I return this shirt? It doesn't fit.",
+      "exampleTr": "Bu gömleği iade edebilir miyim? Olmuyor.",
+      "extra": "I return home at 6 PM every day.",
+      "extraTr": "Her gün akşam 6'da eve dönerim."
+    },
+    {
+      "word": "address",
+      "pronunciation": "ı-DRES",
+      "turkish": "adres",
+      "example": "What is the address of the restaurant?",
+      "exampleTr": "Restoranın adresi ne?",
+      "extra": "Can you write down the address for me?",
+      "extraTr": "Adresi benim için yazabilir misiniz?"
+    }
+  ],
+
+  "grammar": {
+    "title": "A1 Grammar Review",
+    "titleTr": "A1 Gramer Tekrarı",
+    "explanation": "This is a complete review of all A1 grammar topics from Units 1-7. We covered: Be verb (am/is/are), Present Simple with do/does, WH Questions, Would like / Can I have, Time expressions, and Frequency adverbs. Master these and you are ready for A2!",
+    "explanationTr": "Bu, Ünite 1-7'deki tüm A1 gramer konularının tam bir tekrarıdır. Gördüklerimiz: Be fiili (am/is/are), Geniş Zaman do/does ile, WH Soruları, Would like / Can I have, Zaman ifadeleri ve Sıklık zarfları. Bunları öğren ve A2'ye hazırsın!",
+    "table": [
+      ["Be Verb: I am happy. She is tired.", "I am not tired. She isn't hungry.", "Are you ready? Is he a doctor?", "am → I / is → he,she,it / are → you,we,they"],
+      ["Present Simple: I eat breakfast at 8.", "I don't eat meat. She doesn't like fish.", "Do you like coffee? Does he work here?", "He/She/It → fiil + s/es. Soru ve olumsuzda -s düşer!"],
+      ["WH Questions: Where is the hotel?", "What do you want? How much does it cost?", "Who is your teacher? Whose bag is this?", "WH + be/do/does + özne + fiil"],
+      ["Would like: I'd like a coffee, please.", "I wouldn't like that. No, thank you.", "Would you like some water?", "Would like = want'ın kibar hali. Restoranda kullan!"],
+      ["Can I have: Can I have the bill?", "I can't have sugar. (izin/yetenek)", "Can I try this on? Can you help me?", "Can + fiil (yalın hali). Çok kullanışlı!"],
+      ["Time: at 9 o'clock, on Monday, in January", "It's quarter past ten. It's half past two.", "What time is it? When is the meeting?", "at → saat / on → gün / in → ay, yıl, mevsim"],
+      ["Frequency: I always eat breakfast.", "She never drinks coffee.", "Do you usually walk to work?", "always > usually > often > sometimes > rarely > never → fiilden ÖNCE"]
+    ],
+    "tips": [
+      { "en": "He likes tea. Does he like tea? He doesn't like tea. — The -s moves to does/doesn't!", "tr": "He likes tea. Does he like tea? He doesn't like tea. — Soru ve olumsuzda -s, does/doesn't'a geçer!" },
+      { "en": "I'm tired ≠ I'm tiring. Tired = how YOU feel. Tiring = the thing that makes you tired.", "tr": "I'm tired ≠ I'm tiring. Tired = SENİN hissin. Tiring = seni yoran ŞEY." },
+      { "en": "Would you like...? = Do you want...? (but more polite!). Use 'would like' in restaurants.", "tr": "Would you like...? = Do you want...? (ama daha kibar!). Restoranlarda 'would like' kullan." },
+      { "en": "There is + tekil: There is a hotel. There are + çoğul: There are two restaurants.", "tr": "There is + tekil: There is a hotel. There are + çoğul: There are two restaurants." },
+      { "en": "How much + sayılamayan: How much water? How many + sayılabilen: How many eggs?", "tr": "How much + sayılamayan: How much water? How many + sayılabilen: How many eggs?" },
+      { "en": "In the morning / In the afternoon / In the evening — BUT: At night (not 'in the night'!)", "tr": "In the morning / In the afternoon / In the evening — AMA: At night ('in the night' DEĞİL!)" }
+    ]
+  },
+
+  "reading": {
+    "text": "My First Week in America\n\nHello! My name is Eyüp and I'm from Turkey. Last month, I traveled to New York for the first time. Let me tell you about my amazing first week!\n\nOn Monday, I arrived at the airport at 7 AM. I was very tired after the long flight. I took a taxi to my hotel in Manhattan. The taxi driver was friendly. He asked, \"Is this your first time in New York?\" I said, \"Yes, it is!\" He recommended a good restaurant near the hotel.\n\nI checked into the hotel at 10 AM. The receptionist was very helpful. She said, \"Your room is on the 5th floor. Breakfast is included and it's from 7 to 10 AM.\" I went to my room, took a shower, and rested for two hours.\n\nIn the afternoon, I was hungry, so I walked to the restaurant the taxi driver recommended. It was a small Italian place. The waiter asked, \"Would you like to see the menu?\" I ordered a chicken pasta and a glass of lemonade. The food was absolutely delicious! The bill was 22 dollars plus tip.\n\nOn Tuesday, I went shopping at a big supermarket. I needed water, fruit, and some snacks for my room. Everything was more expensive than Turkey! A bottle of water cost 2 dollars. I also bought a souvenir t-shirt from a small store. It had \"I Love NY\" on it. The cashier gave me a 10% discount because I paid cash.\n\nEvery morning, I had breakfast at the hotel. I usually ate eggs, toast, and fresh orange juice. The coffee was strong and delicious. After breakfast, I always walked around the city. I visited Times Square, Central Park, and the Statue of Liberty.\n\nOn Friday, I met an American man named Jake at a café. He asked, \"Where are you from?\" I said, \"I'm from Turkey.\" He was very interested in Turkish culture. We talked for two hours! He recommended some places to visit. Jake said, \"You should try the pizza in Brooklyn. It's the best in New York!\" We exchanged phone numbers and he said, \"See you next time you're in New York!\"\n\nMy first week in America was incredible. I practiced my English every day, tried new food, met friendly people, and learned so much. I can't wait to go back!",
+    "textTr": "Amerika'daki İlk Haftam\n\nMerhaba! Benim adım Eyüp ve Türkiye'denim. Geçen ay ilk kez New York'a seyahat ettim. Size harika ilk haftamı anlatayım!\n\nPazartesi sabah 7'de havalimanına vardım. Uzun uçuştan sonra çok yorgundum. Manhattan'daki otelime taksi tuttum. Taksi şoförü samimiydi. \"New York'a ilk gelişiniz mi?\" diye sordu. \"Evet, öyle!\" dedim. Otelin yakınında iyi bir restoran önerdi.\n\nOtele sabah 10'da giriş yaptım. Resepsiyonist çok yardımseverdi. \"Odanız 5. katta. Kahvaltı dahil ve 7'den 10'a kadar\" dedi. Odama gittim, duş aldım ve iki saat dinlendim.\n\nÖğleden sonra acıktım, bu yüzden taksi şoförünün önerdiği restorana yürüdüm. Küçük bir İtalyan restoranıydı. Garson, \"Menüyü görmek ister misiniz?\" dedi. Tavuklu makarna ve bir bardak limonata sipariş ettim. Yemek kesinlikle nefisti! Hesap bahşiş hariç 22 dolardı.\n\nSalı günü büyük bir süpermarkete alışverişe gittim. Odam için su, meyve ve biraz atıştırmalık lazımdı. Her şey Türkiye'den daha pahalıydı! Bir şişe su 2 dolardı. Ayrıca küçük bir mağazadan hediyelik tişört aldım. Üzerinde \"I Love NY\" yazıyordu. Kasiyer nakit ödediğim için yüzde 10 indirim yaptı.\n\nHer sabah otelde kahvaltı yaptım. Genelde yumurta, tost ve taze portakal suyu yedim. Kahve güçlü ve lezzetliydi. Kahvaltıdan sonra her zaman şehirde yürüyüşe çıktım. Times Square, Central Park ve Özgürlük Heykeli'ni ziyaret ettim.\n\nCuma günü bir kafede Jake adında bir Amerikalıyla tanıştım. \"Nerelisiniz?\" dedi. \"Türkiye'denim\" dedim. Türk kültürüne çok ilgiliydi. İki saat konuştuk! Gezilecek yerler önerdi. Jake, \"Brooklyn'de pizza denemelisiniz. New York'un en iyisi!\" dedi. Telefon numaralarımızı değiştirdik ve \"Bir dahaki sefere New York'a geldiğinizde görüşürüz!\" dedi.\n\nAmerika'daki ilk haftam inanılmazdı. Her gün İngilizcemi pratik ettim, yeni yemekler denedim, samimi insanlarla tanıştım ve çok şey öğrendim. Geri dönmek için sabırsızlanıyorum!",
+    "questions": [
+      {
+        "question": "How did Eyüp get from the airport to the hotel?",
+        "questionTr": "Eyüp havalimanından otele nasıl gitti?",
+        "options": ["By bus", "By taxi", "By subway", "He walked"],
+        "correct": 1
+      },
+      {
+        "question": "What did Eyüp order at the Italian restaurant?",
+        "questionTr": "Eyüp İtalyan restoranında ne sipariş etti?",
+        "options": ["Pizza and coffee", "Chicken pasta and lemonade", "Steak and water", "Soup and bread"],
+        "correct": 1
+      },
+      {
+        "question": "Why did the cashier give Eyüp a discount?",
+        "questionTr": "Kasiyer Eyüp'e neden indirim yaptı?",
+        "options": ["Because it was a holiday", "Because he bought two items", "Because he paid cash", "Because he was a tourist"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp usually eat for breakfast?",
+        "questionTr": "Eyüp kahvaltıda genelde ne yerdi?",
+        "options": ["Pancakes and milk", "Eggs, toast, and orange juice", "Cereal and coffee", "Bread and cheese"],
+        "correct": 1
+      },
+      {
+        "question": "What did Jake recommend to Eyüp?",
+        "questionTr": "Jake Eyüp'e ne önerdi?",
+        "options": ["A Turkish restaurant", "A museum in Manhattan", "Pizza in Brooklyn", "Shopping in Times Square"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ from Turkey. Nice to meet you!", "answer": "am", "hint": "be fiili — I ile" },
+      { "sentence": "She ___ a doctor at a big hospital.", "answer": "is", "hint": "be fiili — she ile" },
+      { "sentence": "They ___ ready for the meeting.", "answer": "are", "hint": "be fiili — they ile" },
+      { "sentence": "He ___ like shopping. He prefers to stay home.", "answer": "doesn't", "hint": "olumsuz — he ile" },
+      { "sentence": "___ you speak English?", "answer": "Do", "hint": "soru — you ile" },
+      { "sentence": "She ___ breakfast at 7 o'clock every morning.", "answer": "eats", "hint": "yemek yemek — she ile (-s eklenir)" },
+      { "sentence": "I'd ___ a glass of water, please.", "answer": "like", "hint": "would like = istemek (kibar)" },
+      { "sentence": "___ is the nearest supermarket?", "answer": "Where", "hint": "nerede" },
+      { "sentence": "How ___ does this t-shirt cost?", "answer": "much", "hint": "ne kadar" },
+      { "sentence": "I ___ go to the gym. Maybe once a year.", "answer": "rarely", "hint": "nadiren — sıklık zarfı" },
+      { "sentence": "Can I have the ___, please? I want to pay.", "answer": "bill", "hint": "hesap" },
+      { "sentence": "I need to ___ out before 11 AM.", "answer": "check", "hint": "otelden çıkış yapmak" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"I ___ tired after the long flight.\" Boşluğa ne gelir?",
+        "options": ["is", "am", "are", "do"],
+        "correct": 1
+      },
+      {
+        "question": "\"___ she work on Saturdays?\" Boşluğa ne gelir?",
+        "options": ["Do", "Is", "Does", "Are"],
+        "correct": 2
+      },
+      {
+        "question": "\"Would you like some coffee?\" ne demek?",
+        "options": ["Kahve sever misin?", "Kahve ister misiniz?", "Kahve var mı?", "Kahve nerede?"],
+        "correct": 1
+      },
+      {
+        "question": "\"I ___ eat meat. I'm vegetarian.\" Boşluğa ne gelir?",
+        "options": ["doesn't", "not", "don't", "isn't"],
+        "correct": 2
+      },
+      {
+        "question": "\"Lezzetli\" İngilizce'de hangisi?",
+        "options": ["discount", "delicious", "deadline", "difficult"],
+        "correct": 1
+      },
+      {
+        "question": "\"He go___ to work at 9 AM.\" Doğru ek hangisi?",
+        "options": ["-s", "-es", "-ies", "-ing"],
+        "correct": 1
+      },
+      {
+        "question": "\"_____ bag is this?\" — \"It's mine.\"",
+        "options": ["What", "Where", "Whose", "Which"],
+        "correct": 2
+      },
+      {
+        "question": "\"She ___ drinks coffee. She hates it.\" Hangi sıklık zarfı gelir?",
+        "options": ["always", "usually", "sometimes", "never"],
+        "correct": 3
+      },
+      {
+        "question": "\"Can I have the receipt?\" ne demek?",
+        "options": ["Fişi alabilir miyim?", "İndirim var mı?", "Hesap ne kadar?", "Para üstü lütfen."],
+        "correct": 0
+      },
+      {
+        "question": "\"Rezervasyon\" İngilizce'de hangisi?",
+        "options": ["reception", "reservation", "recommendation", "restaurant"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "excuse me", "right": "affedersiniz" },
+      { "left": "pleased", "right": "memnun" },
+      { "left": "quarter", "right": "çeyrek" },
+      { "left": "half", "right": "yarım / buçuk" },
+      { "left": "exhausted", "right": "bitkin" },
+      { "left": "confident", "right": "özgüvenli" },
+      { "left": "recommend", "right": "tavsiye etmek" },
+      { "left": "receipt", "right": "fiş / makbuz" },
+      { "left": "discount", "right": "indirim" },
+      { "left": "delicious", "right": "lezzetli" },
+      { "left": "appetizer", "right": "başlangıç / meze" },
+      { "left": "check out", "right": "çıkış yapmak" },
+      { "left": "reservation", "right": "rezervasyon" },
+      { "left": "bill", "right": "hesap" },
+      { "left": "tip", "right": "bahşiş" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I'd", "like", "to", "check", "out", "please"], "correct": "I'd like to check out please" },
+      { "words": ["Can", "I", "have", "the", "bill", "please"], "correct": "Can I have the bill please" },
+      { "words": ["Would", "you", "like", "an", "appetizer"], "correct": "Would you like an appetizer" },
+      { "words": ["How", "much", "does", "this", "cost"], "correct": "How much does this cost" },
+      { "words": ["She", "always", "eats", "breakfast", "at", "eight"], "correct": "She always eats breakfast at eight" },
+      { "words": ["Is", "there", "a", "discount", "for", "students"], "correct": "Is there a discount for students" },
+      { "words": ["I", "don't", "usually", "spend", "much", "money"], "correct": "I don't usually spend much money" },
+      { "words": ["What", "time", "does", "the", "bus", "arrive"], "correct": "What time does the bus arrive" },
+      { "words": ["Can", "I", "try", "on", "this", "jacket"], "correct": "Can I try on this jacket" }
+    ],
+    "translation": [
+      {
+        "turkish": "Çıkış yapmak istiyorum, lütfen.",
+        "english": "I'd like to check out, please.",
+        "acceptAlso": ["I would like to check out please", "I want to check out please"]
+      },
+      {
+        "turkish": "Buralarda iyi bir restoran tavsiye edebilir misiniz?",
+        "english": "Can you recommend a good restaurant near here?",
+        "acceptAlso": ["Can you recommend a good restaurant nearby"]
+      },
+      {
+        "turkish": "Hesabı alabilir miyim, lütfen?",
+        "english": "Can I have the bill, please?",
+        "acceptAlso": ["Can I have the bill please", "Can I get the bill please"]
+      },
+      {
+        "turkish": "Her sabah saat 7'de kahvaltı yaparım.",
+        "english": "I eat breakfast at 7 o'clock every morning.",
+        "acceptAlso": ["I have breakfast at 7 every morning", "Every morning I eat breakfast at 7"]
+      },
+      {
+        "turkish": "Bu ne kadar?",
+        "english": "How much does this cost?",
+        "acceptAlso": ["How much is this", "How much does this cost"]
+      },
+      {
+        "turkish": "Öğrenciler için indirim var mı?",
+        "english": "Is there a discount for students?",
+        "acceptAlso": ["Do you have a discount for students"]
+      },
+      {
+        "turkish": "Tanıştığıma memnun oldum!",
+        "english": "Pleased to meet you!",
+        "acceptAlso": ["Nice to meet you", "Pleased to meet you"]
+      },
+      {
+        "turkish": "O asla kahve içmez.",
+        "english": "She never drinks coffee.",
+        "acceptAlso": ["He never drinks coffee", "She never drinks coffee"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Eyüp's Full Day in New York",
+    "titleTr": "Eyüp'ün New York'taki Tam Günü",
+    "context": "Eyüp New York'ta bir gününü geçiriyor. Otelden çıkış yapıyor, taksi tutuyor, restoranda öğle yemeği yiyor, markete gidiyor ve bir arkadaşıyla buluşuyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning! I'd like to check out, please. Room 305.", "textTr": "Günaydın! Çıkış yapmak istiyorum, lütfen. Oda 305." },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Good morning, sir! Did you enjoy your stay?", "textTr": "Günaydın, efendim! Kalışınızdan memnun kaldınız mı?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, it was great! The breakfast was delicious. How much is the total?", "textTr": "Evet, harikaydı! Kahvaltı çok lezzetliydi. Toplam ne kadar?" },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Your total is 450 dollars for three nights. Would you like a receipt?", "textTr": "Toplamınız üç gece için 450 dolar. Fiş ister misiniz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, please. Can you call a taxi for me?", "textTr": "Evet, lütfen. Benim için bir taksi çağırabilir misiniz?" },
+      { "speaker": "A", "speakerName": "Taxi Driver", "text": "Where to, buddy?", "textTr": "Nereye, dostum?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Can you take me to Mario's Italian Restaurant on 5th Avenue, please?", "textTr": "Beni 5. Cadde'deki Mario'nun İtalyan Restoranına götürebilir misiniz, lütfen?" },
+      { "speaker": "A", "speakerName": "Taxi Driver", "text": "Sure thing! That's about 15 minutes from here. Good choice — their food is amazing!", "textTr": "Tabii! Buradan yaklaşık 15 dakika. İyi seçim — yemekleri harika!", "gender": "male" },
+      { "speaker": "A", "speakerName": "Waiter", "text": "Welcome to Mario's! Table for one? Are you ready to order?", "textTr": "Mario's'a hoş geldiniz! Bir kişilik masa? Sipariş vermeye hazır mısınız?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Can I see the menu first? And I'd like a glass of water, please.", "textTr": "Önce menüyü görebilir miyim? Ve bir bardak su istiyorum, lütfen." },
+      { "speaker": "A", "speakerName": "Waiter", "text": "Of course! Would you like an appetizer while you look at the menu?", "textTr": "Tabii! Menüye bakarken bir başlangıç ister misiniz?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "What do you recommend?", "textTr": "Ne tavsiye edersiniz?" },
+      { "speaker": "A", "speakerName": "Waiter", "text": "The tomato soup is very popular. For the main course, I recommend the grilled chicken.", "textTr": "Domates çorbası çok popüler. Ana yemek için ızgara tavuğu tavsiye ederim.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'll have the soup and the grilled chicken, please. Can I have the bill after?", "textTr": "Çorbayı ve ızgara tavuğu alayım, lütfen. Sonra hesabı alabilir miyim?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Excuse me, how much is the total?", "textTr": "Affedersiniz, toplam ne kadar?" },
+      { "speaker": "A", "speakerName": "Waiter", "text": "That's 28 dollars, sir. Cash or card?", "textTr": "28 dolar, efendim. Nakit mi kart mı?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Card, please. And here's a 5 dollar tip. The food was delicious!", "textTr": "Kartla, lütfen. Ve 5 dolar bahşiş. Yemek çok lezzetliydi!" },
+      { "speaker": "A", "speakerName": "Jake", "text": "Hey, Eyüp! Over here! How are you doing, man?", "textTr": "Hey, Eyüp! Burada! Nasılsın, dostum?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Jake! Great to see you! I'm good but a little exhausted. I walked a lot today.", "textTr": "Jake! Seni görmek harika! İyiyim ama biraz bitkinim. Bugün çok yürüdüm." },
+      { "speaker": "A", "speakerName": "Jake", "text": "Would you like some coffee? My treat! So, do you like New York?", "textTr": "Kahve ister misin? Ben ısmarlıyorum! Peki, New York'u seviyor musun?", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I love it! The food is amazing, people are friendly, and the city never sleeps. I always learn something new here.", "textTr": "Bayılıyorum! Yemekler harika, insanlar samimi ve şehir hiç uyumuyor. Burada her zaman yeni bir şey öğreniyorum." },
+      { "speaker": "A", "speakerName": "Jake", "text": "Your English is much better now! I'm really pleased to hear that. See you next time, buddy!", "textTr": "İngilizcen çok daha iyi artık! Bunu duymak beni gerçekten memnun etti. Bir dahaki sefere görüşürüz, dostum!", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thanks, Jake! See you! And thank you for everything. Goodbye!", "textTr": "Teşekkürler, Jake! Görüşürüz! Ve her şey için teşekkürler. Hoşça kal!" }
+    ],
+    "questions": [
+      {
+        "question": "How much did Eyüp pay for the hotel?",
+        "questionTr": "Eyüp otel için ne kadar ödedi?",
+        "options": ["300 dollars", "350 dollars", "450 dollars", "500 dollars"],
+        "correct": 2
+      },
+      {
+        "question": "What did Eyüp order at the restaurant?",
+        "questionTr": "Eyüp restoranda ne sipariş etti?",
+        "options": ["Pizza and salad", "Tomato soup and grilled chicken", "Pasta and lemonade", "Steak and fries"],
+        "correct": 1
+      },
+      {
+        "question": "How much tip did Eyüp leave?",
+        "questionTr": "Eyüp ne kadar bahşiş bıraktı?",
+        "options": ["3 dollars", "5 dollars", "10 dollars", "No tip"],
+        "correct": 1
+      },
+      {
+        "question": "Why is Eyüp exhausted?",
+        "questionTr": "Eyüp neden bitkin?",
+        "options": ["He didn't sleep well", "He walked a lot", "He worked all day", "He is sick"],
+        "correct": 1
+      },
+      {
+        "question": "What does Jake think about Eyüp's English?",
+        "questionTr": "Jake, Eyüp'ün İngilizcesi hakkında ne düşünüyor?",
+        "options": ["It needs more work", "It's the same as before", "It's much better now", "He didn't say anything"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "A1 English Level Test - British Council",
+      "description": "A1 seviyeni test et — ücretsiz online test",
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/a1-a2-grammar",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "A1 Vocabulary & Grammar Review - Cambridge",
+      "description": "Kelime ve gramer tekrarı alıştırmaları",
+      "url": "https://www.cambridgeenglish.org/test-your-english/general-english/",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "English for Beginners - Full Review - BBC Learning",
+      "description": "Başlangıç seviyesi tam tekrar — video ve alıştırmalar",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "id": "unit-07",
+  "title": "Food & Drinks",
+  "titleTr": "Yiyecek ve İçecekler",
+  "level": "A1",
+  "module": 1,
+  "description": "Learn how to order food and drinks at a restaurant, talk about meals, and use 'would like' politely.",
+  "descriptionTr": "Restoranda yemek ve içecek sipariş etmeyi, yemekler hakkında konuşmayı ve 'would like' ile kibarca istekte bulunmayı öğren.",
+
+  "vocabulary": [
+    {
+      "word": "menu",
+      "pronunciation": "MEN-yuu",
+      "turkish": "menü",
+      "example": "Can I see the menu, please?",
+      "exampleTr": "Menüyü görebilir miyim, lütfen?",
+      "extra": "The menu has a lot of options. I can't decide!",
+      "extraTr": "Menüde çok seçenek var. Karar veremiyorum!"
+    },
+    {
+      "word": "order",
+      "pronunciation": "OR-dır",
+      "turkish": "sipariş / sipariş etmek",
+      "example": "Are you ready to order?",
+      "exampleTr": "Sipariş vermeye hazır mısınız?",
+      "extra": "I'd like to order a pizza and a soda, please.",
+      "extraTr": "Bir pizza ve bir soda sipariş etmek istiyorum, lütfen."
+    },
+    {
+      "word": "waiter",
+      "pronunciation": "VEY-tır",
+      "turkish": "garson (erkek)",
+      "example": "The waiter is very friendly and helpful.",
+      "exampleTr": "Garson çok samimi ve yardımsever.",
+      "extra": "Excuse me, waiter! Can we have the bill?",
+      "extraTr": "Affedersiniz, garson! Hesabı alabilir miyiz?"
+    },
+    {
+      "word": "bill",
+      "pronunciation": "bil",
+      "turkish": "hesap",
+      "example": "Can I have the bill, please?",
+      "exampleTr": "Hesabı alabilir miyim, lütfen?",
+      "extra": "The bill was $45 for two people. That's not bad!",
+      "extraTr": "İki kişi için hesap 45 dolardı. Fena değil!"
+    },
+    {
+      "word": "tip",
+      "pronunciation": "tip",
+      "turkish": "bahşiş",
+      "example": "In America, you usually leave a 15-20% tip.",
+      "exampleTr": "Amerika'da genelde %15-20 bahşiş bırakırsın.",
+      "extra": "The service was great, so I left a big tip.",
+      "extraTr": "Servis harikaydı, bu yüzden büyük bahşiş bıraktım."
+    },
+    {
+      "word": "appetizer",
+      "pronunciation": "E-pı-tay-zır",
+      "turkish": "başlangıç / meze",
+      "example": "Would you like an appetizer before your main course?",
+      "exampleTr": "Ana yemekten önce bir başlangıç ister misiniz?",
+      "extra": "The soup is a great appetizer here.",
+      "extraTr": "Burada çorba harika bir başlangıç."
+    },
+    {
+      "word": "main course",
+      "pronunciation": "meyn kors",
+      "turkish": "ana yemek",
+      "example": "For my main course, I'd like the grilled chicken.",
+      "exampleTr": "Ana yemek olarak ızgara tavuk istiyorum.",
+      "extra": "The main course comes with salad and bread.",
+      "extraTr": "Ana yemek salata ve ekmekle birlikte geliyor."
+    },
+    {
+      "word": "dessert",
+      "pronunciation": "di-ZÖRT",
+      "turkish": "tatlı",
+      "example": "Would you like some dessert after your meal?",
+      "exampleTr": "Yemekten sonra tatlı ister misiniz?",
+      "extra": "The chocolate cake is the best dessert on the menu.",
+      "extraTr": "Çikolatalı kek menüdeki en iyi tatlı."
+    },
+    {
+      "word": "steak",
+      "pronunciation": "steyk",
+      "turkish": "biftek",
+      "example": "I'd like my steak medium, please.",
+      "exampleTr": "Bifteğimi orta pişmiş istiyorum, lütfen.",
+      "extra": "This steak is so juicy and tender!",
+      "extraTr": "Bu biftek çok sulu ve yumuşak!"
+    },
+    {
+      "word": "salad",
+      "pronunciation": "SE-lıd",
+      "turkish": "salata",
+      "example": "Can I have a Caesar salad, please?",
+      "exampleTr": "Bir Sezar salata alabilir miyim, lütfen?",
+      "extra": "I always eat salad with my lunch.",
+      "extraTr": "Öğle yemeğimde her zaman salata yerim."
+    },
+    {
+      "word": "soup",
+      "pronunciation": "suup",
+      "turkish": "çorba",
+      "example": "The tomato soup is really delicious here.",
+      "exampleTr": "Domates çorbası burada gerçekten lezzetli.",
+      "extra": "On cold days, I love a hot bowl of soup.",
+      "extraTr": "Soğuk günlerde sıcak bir kase çorba bayılırım."
+    },
+    {
+      "word": "pizza",
+      "pronunciation": "PIIT-sa",
+      "turkish": "pizza",
+      "example": "Let's order a large pizza with extra cheese!",
+      "exampleTr": "Ekstra peynirli büyük bir pizza sipariş edelim!",
+      "extra": "Pizza is my favorite food. I eat it every week.",
+      "extraTr": "Pizza en sevdiğim yemek. Her hafta yerim."
+    },
+    {
+      "word": "pasta",
+      "pronunciation": "PAS-tı",
+      "turkish": "makarna",
+      "example": "The pasta with tomato sauce is amazing!",
+      "exampleTr": "Domates soslu makarna harika!",
+      "extra": "I'd like some pasta for my main course, please.",
+      "extraTr": "Ana yemek olarak makarna istiyorum, lütfen."
+    },
+    {
+      "word": "coffee",
+      "pronunciation": "KO-fi",
+      "turkish": "kahve",
+      "example": "Can I have a coffee with milk, please?",
+      "exampleTr": "Sütlü bir kahve alabilir miyim, lütfen?",
+      "extra": "I drink two cups of coffee every morning.",
+      "extraTr": "Her sabah iki fincan kahve içerim."
+    },
+    {
+      "word": "tea",
+      "pronunciation": "tii",
+      "turkish": "çay",
+      "example": "Would you like some tea after dinner?",
+      "exampleTr": "Akşam yemeğinden sonra çay ister misiniz?",
+      "extra": "Turkish tea is the best tea in the world!",
+      "extraTr": "Türk çayı dünyanın en iyi çayı!"
+    },
+    {
+      "word": "soda",
+      "pronunciation": "SOU-dı",
+      "turkish": "gazlı içecek",
+      "example": "I'd like a soda with ice, please.",
+      "exampleTr": "Buzlu bir soda istiyorum, lütfen.",
+      "extra": "Do you have any diet soda?",
+      "extraTr": "Diyet gazlı içeceğiniz var mı?"
+    },
+    {
+      "word": "glass",
+      "pronunciation": "glas",
+      "turkish": "bardak",
+      "example": "Can I have a glass of water, please?",
+      "exampleTr": "Bir bardak su alabilir miyim, lütfen?",
+      "extra": "Be careful! The glass is very hot.",
+      "extraTr": "Dikkat! Bardak çok sıcak."
+    },
+    {
+      "word": "plate",
+      "pronunciation": "pleyt",
+      "turkish": "tabak",
+      "example": "Your plate is empty! Would you like some more?",
+      "exampleTr": "Tabağın boş! Biraz daha ister misin?",
+      "extra": "The waiter put a clean plate on the table.",
+      "extraTr": "Garson masaya temiz bir tabak koydu."
+    },
+    {
+      "word": "fork",
+      "pronunciation": "fork",
+      "turkish": "çatal",
+      "example": "I need a fork and a knife for the steak.",
+      "exampleTr": "Biftek için çatal ve bıçak lazım.",
+      "extra": "In some countries, people don't use a fork to eat.",
+      "extraTr": "Bazı ülkelerde insanlar yemek yerken çatal kullanmaz."
+    },
+    {
+      "word": "knife",
+      "pronunciation": "nayf",
+      "turkish": "bıçak",
+      "example": "This knife isn't sharp enough for the steak.",
+      "exampleTr": "Bu bıçak biftek için yeterince keskin değil.",
+      "extra": "Can I have a clean knife, please?",
+      "extraTr": "Temiz bir bıçak alabilir miyim, lütfen?"
+    },
+    {
+      "word": "spoon",
+      "pronunciation": "spuun",
+      "turkish": "kaşık",
+      "example": "I need a spoon for the soup.",
+      "exampleTr": "Çorba için kaşık lazım.",
+      "extra": "The baby is eating with a small spoon.",
+      "extraTr": "Bebek küçük bir kaşıkla yiyor."
+    },
+    {
+      "word": "delicious",
+      "pronunciation": "di-Lİ-şıs",
+      "turkish": "lezzetli / nefis",
+      "example": "This pasta is absolutely delicious!",
+      "exampleTr": "Bu makarna kesinlikle nefis!",
+      "extra": "My mom makes the most delicious food.",
+      "extraTr": "Annem en lezzetli yemekleri yapar."
+    },
+    {
+      "word": "spicy",
+      "pronunciation": "SPAY-si",
+      "turkish": "baharatlı / acılı",
+      "example": "Is this dish spicy? I don't like very hot food.",
+      "exampleTr": "Bu yemek acılı mı? Çok acı sevmem.",
+      "extra": "The chicken wings are too spicy for me!",
+      "extraTr": "Tavuk kanatları benim için çok acı!"
+    },
+    {
+      "word": "sweet",
+      "pronunciation": "sviit",
+      "turkish": "tatlı (tat)",
+      "example": "This cake is very sweet. I love it!",
+      "exampleTr": "Bu kek çok tatlı. Bayıldım!",
+      "extra": "Turkish desserts are usually very sweet.",
+      "extraTr": "Türk tatlıları genelde çok tatlıdır."
+    },
+    {
+      "word": "sour",
+      "pronunciation": "SAU-ır",
+      "turkish": "ekşi",
+      "example": "This lemon is really sour!",
+      "exampleTr": "Bu limon gerçekten ekşi!",
+      "extra": "I don't like sour food. I prefer sweet things.",
+      "extraTr": "Ekşi yemek sevmem. Tatlı şeyleri tercih ederim."
+    },
+    {
+      "word": "recommend",
+      "pronunciation": "re-kı-MEND",
+      "turkish": "tavsiye etmek / önermek",
+      "example": "What do you recommend from the menu?",
+      "exampleTr": "Menüden ne tavsiye edersiniz?",
+      "extra": "I recommend the grilled fish. It's amazing!",
+      "extraTr": "Izgara balığı tavsiye ederim. Harika!"
+    },
+    {
+      "word": "serve",
+      "pronunciation": "sörv",
+      "turkish": "servis yapmak / sunmak",
+      "example": "They serve breakfast from 7 to 10 in the morning.",
+      "exampleTr": "Sabah 7'den 10'a kadar kahvaltı servis ediyorlar.",
+      "extra": "The food is served on beautiful white plates.",
+      "extraTr": "Yemekler güzel beyaz tabaklarda servis ediliyor."
+    },
+    {
+      "word": "restaurant",
+      "pronunciation": "RES-tı-rant",
+      "turkish": "restoran",
+      "example": "There's a nice Italian restaurant near my house.",
+      "exampleTr": "Evimin yakınında güzel bir İtalyan restoranı var.",
+      "extra": "Let's go to a restaurant tonight!",
+      "extraTr": "Bu akşam bir restorana gidelim!"
+    },
+    {
+      "word": "hungry",
+      "pronunciation": "HANG-ri",
+      "turkish": "aç",
+      "example": "I'm so hungry! I didn't eat breakfast today.",
+      "exampleTr": "Çok açım! Bugün kahvaltı yapmadım.",
+      "extra": "Are you hungry? Let's grab something to eat.",
+      "extraTr": "Aç mısın? Hadi bir şeyler yiyelim."
+    },
+    {
+      "word": "full",
+      "pronunciation": "ful",
+      "turkish": "tok / dolu",
+      "example": "I'm so full! I can't eat any more.",
+      "exampleTr": "Çok tokum! Daha fazla yiyemem.",
+      "extra": "The restaurant is full tonight. We need a reservation.",
+      "extraTr": "Restoran bu gece dolu. Rezervasyon lazım."
+    }
+  ],
+
+  "grammar": {
+    "title": "Would like / Can I have / Some & Any",
+    "titleTr": "Would like / Can I have / Some & Any Kullanımı",
+    "explanation": "When ordering food, we use polite expressions. 'Would like' is more polite than 'want'. We use 'some' in positive sentences and offers, and 'any' in questions and negatives. 'Can I have...?' is a polite way to ask for something.",
+    "explanationTr": "Yemek sipariş ederken kibar ifadeler kullanırız. 'Would like' (isterim), 'want' (istiyorum) kelimesinden daha kibardır. 'Some' olumlu cümlelerde ve tekliflerde, 'any' soru ve olumsuz cümlelerde kullanılır. 'Can I have...?' bir şey istemenin kibar yoludur.",
+    "table": [
+      ["Form", "Example", "Turkish", "Note"],
+      ["I'd like + noun", "I'd like a coffee, please.", "Bir kahve istiyorum, lütfen.", "Kibar sipariş — en çok kullanılan"],
+      ["Would you like...?", "Would you like some dessert?", "Tatlı ister misiniz?", "Kibar teklif — garsonlar çok kullanır"],
+      ["Can I have...?", "Can I have the bill, please?", "Hesabı alabilir miyim, lütfen?", "Kibar istek — çok yaygın"],
+      ["some (olumlu/teklif)", "I'd like some water. / Would you like some bread?", "Biraz su istiyorum. / Biraz ekmek ister misiniz?", "Olumlu cümlede ve tekliflerde 'some'"],
+      ["any (soru/olumsuz)", "Do you have any vegetarian dishes? / There isn't any milk.", "Vejetaryen yemeğiniz var mı? / Hiç süt yok.", "Soruda ve olumsuzda 'any'"],
+      ["Countable", "a steak, two coffees, three plates", "bir biftek, iki kahve, üç tabak", "Sayılabilen: a/an, one, two..."],
+      ["Uncountable", "some water, some bread, some rice", "biraz su, biraz ekmek, biraz pilav", "Sayılamayan: some, a glass of, a bowl of"]
+    ],
+    "tips": [
+      { "en": "'I'd like' = 'I would like' — always polite. 'I want' sounds rude in a restaurant!", "tr": "'I'd like' = 'I would like' — her zaman kibar. 'I want' restoranda kaba kaçar!" },
+      { "en": "Use 'some' in offers: 'Would you like SOME coffee?' (not 'any')", "tr": "Tekliflerde 'some' kullan: 'Would you like SOME coffee?' ('any' değil)" },
+      { "en": "Use 'any' in questions: 'Do you have ANY soup?' and negatives: 'We don't have ANY pizza left.'", "tr": "Sorularda 'any' kullan: 'Do you have ANY soup?' ve olumsuzda: 'We don't have ANY pizza left.'" },
+      { "en": "Uncountable nouns: water, bread, rice, milk, sugar, cheese — no 'a/an', use 'some'", "tr": "Sayılamayan isimler: water, bread, rice, milk, sugar, cheese — 'a/an' almaz, 'some' kullan" },
+      { "en": "Countable nouns: a steak, an apple, two coffees, three plates", "tr": "Sayılabilen isimler: a steak, an apple, two coffees, three plates" },
+      { "en": "'Can I have...?' and 'Could I have...?' are both polite. 'Could' is a little more formal.", "tr": "'Can I have...?' ve 'Could I have...?' ikisi de kibar. 'Could' biraz daha resmi." }
+    ]
+  },
+
+  "reading": {
+    "text": "Last Saturday, my friend Ayşe and I went to a new Italian restaurant called 'Bella Cucina'. It is near Taksim Square in Istanbul.\n\nThe restaurant is small but very cozy. The waiter was friendly and gave us the menu right away. For appetizers, we ordered a tomato soup and a Caesar salad. Both were fresh and delicious!\n\nFor the main course, I had pasta with mushroom sauce and Ayşe ordered a grilled chicken with vegetables. The pasta was amazing — the sauce was creamy and had a great flavor. Ayşe's chicken was juicy and well-cooked.\n\nFor dessert, we shared a chocolate cake. It was sweet but not too sweet — just perfect! We also had Turkish coffee after the meal.\n\nThe bill was 350 TL for two people, which is reasonable. The service was excellent, so we left a good tip. I definitely recommend this restaurant! I'd give it 4.5 out of 5 stars.",
+    "textTr": "Geçen Cumartesi arkadaşım Ayşe ile 'Bella Cucina' adında yeni bir İtalyan restoranına gittik. İstanbul'da Taksim Meydanı'nın yakınında.\n\nRestoran küçük ama çok samimi. Garson güler yüzlüydü ve hemen menüyü getirdi. Başlangıç olarak domates çorbası ve Sezar salata sipariş ettik. İkisi de taze ve lezzetliydi!\n\nAna yemek olarak ben mantarlı soslu makarna aldım, Ayşe ise sebzeli ızgara tavuk sipariş etti. Makarna harikaydı — sos kremalı ve lezzeti muhteşemdi. Ayşe'nin tavuğu sulu ve iyi pişmişti.\n\nTatlı olarak çikolatalı kek paylaştık. Tatlıydı ama fazla tatlı değildi — tam kıvamındaydı! Yemekten sonra Türk kahvesi de içtik.\n\nİki kişi için hesap 350 TL'ydi, bu makul bir fiyat. Servis mükemmeldi, bu yüzden iyi bahşiş bıraktık. Bu restoranı kesinlikle tavsiye ederim! 5 üzerinden 4.5 yıldız veririm.",
+    "questions": [
+      {
+        "question": "What is the name of the restaurant?",
+        "questionTr": "Restoranın adı ne?",
+        "options": ["Taksim Kitchen", "Bella Cucina", "Italian House", "Pasta Palace"],
+        "correct": 1
+      },
+      {
+        "question": "What did they order as appetizers?",
+        "questionTr": "Başlangıç olarak ne sipariş ettiler?",
+        "options": ["Pizza and bread", "Tomato soup and Caesar salad", "French fries and salad", "Mushroom soup and bread"],
+        "correct": 1
+      },
+      {
+        "question": "What was Ayşe's main course?",
+        "questionTr": "Ayşe'nin ana yemeği neydi?",
+        "options": ["Pasta with mushroom sauce", "Grilled chicken with vegetables", "Steak with salad", "Pizza with cheese"],
+        "correct": 1
+      },
+      {
+        "question": "How much was the bill?",
+        "questionTr": "Hesap ne kadardı?",
+        "options": ["250 TL", "300 TL", "350 TL", "400 TL"],
+        "correct": 2
+      },
+      {
+        "question": "How many stars does the writer give the restaurant?",
+        "questionTr": "Yazar restorana kaç yıldız veriyor?",
+        "options": ["3 out of 5", "4 out of 5", "4.5 out of 5", "5 out of 5"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I'd ___ a glass of water, please.", "answer": "like", "hint": "istemek (kibar)" },
+      { "sentence": "Can I ___ the menu, please?", "answer": "have", "hint": "almak / alabilir miyim" },
+      { "sentence": "Would you ___ some dessert?", "answer": "like", "hint": "ister misiniz" },
+      { "sentence": "Do you have ___ vegetarian dishes?", "answer": "any", "hint": "soru cümlesinde: some/any?" },
+      { "sentence": "I'd like ___ water, please.", "answer": "some", "hint": "olumlu cümlede: some/any?" },
+      { "sentence": "We don't have ___ soup today, sorry.", "answer": "any", "hint": "olumsuz cümlede: some/any?" },
+      { "sentence": "The steak is really ___! I love it!", "answer": "delicious", "hint": "lezzetli" },
+      { "sentence": "Can I have the ___, please? We'd like to pay.", "answer": "bill", "hint": "hesap" },
+      { "sentence": "What do you ___ from the menu?", "answer": "recommend", "hint": "tavsiye etmek" },
+      { "sentence": "I'm so ___! I didn't eat lunch today.", "answer": "hungry", "hint": "aç" },
+      { "sentence": "I can't eat any more. I'm completely ___.", "answer": "full", "hint": "tok" },
+      { "sentence": "Be careful, this chicken is very ___!", "answer": "spicy", "hint": "acılı / baharatlı" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "Restoranda kibar sipariş vermek için hangisini kullanırız?",
+        "options": ["I want a steak.", "I'd like a steak, please.", "Give me a steak.", "Steak, now!"],
+        "correct": 1
+      },
+      {
+        "question": "\"Would you like ___ coffee?\" Boşluğa ne gelir?",
+        "options": ["any", "a", "some", "the"],
+        "correct": 2
+      },
+      {
+        "question": "\"Do you have ___ fresh fish today?\" Boşluğa ne gelir?",
+        "options": ["some", "any", "a", "the"],
+        "correct": 1
+      },
+      {
+        "question": "\"Hesabı alabilir miyim?\" İngilizce'de nasıl söylenir?",
+        "options": ["Give me the bill.", "I want the bill.", "Can I have the bill, please?", "Bill, please now!"],
+        "correct": 2
+      },
+      {
+        "question": "\"Dessert\" ne demek?",
+        "options": ["Çorba", "Ana yemek", "Tatlı", "Başlangıç"],
+        "correct": 2
+      },
+      {
+        "question": "\"I'm full.\" ne demek?",
+        "options": ["Açım.", "Tokum.", "Susamışım.", "Yorgunum."],
+        "correct": 1
+      },
+      {
+        "question": "\"Spicy\" ne demek?",
+        "options": ["Tatlı", "Ekşi", "Baharatlı / Acılı", "Tuzlu"],
+        "correct": 2
+      },
+      {
+        "question": "Hangisi sayılamayan (uncountable) isimdir?",
+        "options": ["plate", "fork", "steak", "water"],
+        "correct": 3
+      },
+      {
+        "question": "\"Ne tavsiye edersiniz?\" İngilizce'de nasıl söylenir?",
+        "options": ["What is good?", "What do you recommend?", "What do you want?", "What is expensive?"],
+        "correct": 1
+      },
+      {
+        "question": "\"I'd like\" ne demek?",
+        "options": ["Beğendim", "İstiyorum (kibar)", "Seviyorum", "İhtiyacım var"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "menu", "right": "menü" },
+      { "left": "order", "right": "sipariş" },
+      { "left": "waiter", "right": "garson" },
+      { "left": "bill", "right": "hesap" },
+      { "left": "tip", "right": "bahşiş" },
+      { "left": "appetizer", "right": "başlangıç / meze" },
+      { "left": "main course", "right": "ana yemek" },
+      { "left": "dessert", "right": "tatlı" },
+      { "left": "delicious", "right": "lezzetli" },
+      { "left": "spicy", "right": "baharatlı / acılı" },
+      { "left": "sweet", "right": "tatlı (tat)" },
+      { "left": "sour", "right": "ekşi" },
+      { "left": "hungry", "right": "aç" },
+      { "left": "full", "right": "tok" },
+      { "left": "recommend", "right": "tavsiye etmek" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I'd", "like", "a", "coffee", "please"], "correct": "I'd like a coffee please" },
+      { "words": ["Can", "I", "have", "the", "menu"], "correct": "Can I have the menu" },
+      { "words": ["Would", "you", "like", "some", "dessert"], "correct": "Would you like some dessert" },
+      { "words": ["The", "steak", "is", "really", "delicious"], "correct": "The steak is really delicious" },
+      { "words": ["Do", "you", "have", "any", "soup", "today"], "correct": "Do you have any soup today" },
+      { "words": ["Can", "I", "have", "the", "bill", "please"], "correct": "Can I have the bill please" },
+      { "words": ["I'm", "so", "hungry", "right", "now"], "correct": "I'm so hungry right now" },
+      { "words": ["What", "do", "you", "recommend", "from", "the", "menu"], "correct": "What do you recommend from the menu" },
+      { "words": ["We", "don't", "have", "any", "pizza", "left"], "correct": "We don't have any pizza left" }
+    ],
+    "translation": [
+      {
+        "turkish": "Bir kahve istiyorum, lütfen.",
+        "english": "I'd like a coffee, please.",
+        "acceptAlso": ["I would like a coffee please", "I'd like a coffee please", "Can I have a coffee please"]
+      },
+      {
+        "turkish": "Menüyü alabilir miyim?",
+        "english": "Can I have the menu, please?",
+        "acceptAlso": ["Can I have the menu please", "Can I see the menu please", "Can I have the menu"]
+      },
+      {
+        "turkish": "Ne tavsiye edersiniz?",
+        "english": "What do you recommend?",
+        "acceptAlso": ["What do you recommend"]
+      },
+      {
+        "turkish": "Tatlı ister misiniz?",
+        "english": "Would you like some dessert?",
+        "acceptAlso": ["Would you like dessert", "Would you like some dessert"]
+      },
+      {
+        "turkish": "Vejetaryen yemeğiniz var mı?",
+        "english": "Do you have any vegetarian dishes?",
+        "acceptAlso": ["Do you have any vegetarian food", "Do you have vegetarian dishes", "Do you have any vegetarian dishes"]
+      },
+      {
+        "turkish": "Hesabı alabilir miyim, lütfen?",
+        "english": "Can I have the bill, please?",
+        "acceptAlso": ["Can I have the bill please", "Can I get the bill please", "Could I have the bill please"]
+      },
+      {
+        "turkish": "Bu makarna çok lezzetli!",
+        "english": "This pasta is very delicious!",
+        "acceptAlso": ["This pasta is really delicious", "This pasta is so delicious"]
+      },
+      {
+        "turkish": "Çok tokum, daha fazla yiyemem.",
+        "english": "I'm so full, I can't eat any more.",
+        "acceptAlso": ["I am so full I can't eat any more", "I'm so full I can't eat anymore", "I am so full, I can't eat any more"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Dinner at an Italian Restaurant",
+    "titleTr": "Bir İtalyan Restoranında Akşam Yemeği",
+    "context": "Eyüp ve arkadaşı Murat bir İtalyan restoranına gidiyorlar. Garson onlara yardım ediyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Waitress", "text": "Good evening! Welcome to Bella Cucina. A table for two?", "textTr": "İyi akşamlar! Bella Cucina'ya hoş geldiniz. İki kişilik masa mı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, please. A table for two.", "textTr": "Evet, lütfen. İki kişilik masa." },
+      { "speaker": "A", "speakerName": "Waitress", "text": "Right this way, please. Here are your menus. Can I get you something to drink?", "textTr": "Buyurun bu taraftan. İşte menüleriniz. İçecek bir şey alabilir miyim?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "I'd like a glass of soda, please.", "textTr": "Bir bardak soda istiyorum, lütfen.", "gender": "male" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "And I'd like some water, please. What do you recommend for appetizers?", "textTr": "Ben de biraz su istiyorum, lütfen. Başlangıç olarak ne tavsiye edersiniz?" },
+      { "speaker": "A", "speakerName": "Waitress", "text": "Our tomato soup is very popular. And the Caesar salad is fresh and delicious!", "textTr": "Domates çorbamız çok popüler. Ve Sezar salata taze ve lezzetli!" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'd like the tomato soup, please. Murat, what about you?", "textTr": "Ben domates çorbası istiyorum, lütfen. Murat, sen ne dersin?" },
+      { "speaker": "A", "speakerName": "Murat", "text": "Can I have the Caesar salad, please? Is it spicy?", "textTr": "Sezar salata alabilir miyim, lütfen? Acılı mı?", "gender": "male" },
+      { "speaker": "A", "speakerName": "Waitress", "text": "No, it's not spicy at all. It's light and fresh. Are you ready to order your main course?", "textTr": "Hayır, hiç acılı değil. Hafif ve taze. Ana yemek sipariş etmeye hazır mısınız?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes! I'd like the pasta with mushroom sauce, please.", "textTr": "Evet! Mantarlı soslu makarna istiyorum, lütfen." },
+      { "speaker": "A", "speakerName": "Murat", "text": "And I'd like a steak, medium please. Does it come with any side dishes?", "textTr": "Ben de biftek istiyorum, orta pişmiş lütfen. Yanında garnitür geliyor mu?", "gender": "male" },
+      { "speaker": "A", "speakerName": "Waitress", "text": "Yes, it comes with fries and a small salad. Would you like some bread while you wait?", "textTr": "Evet, patates kızartması ve küçük salatayla birlikte geliyor. Beklerken biraz ekmek ister misiniz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, please! Thank you.", "textTr": "Evet, lütfen! Teşekkürler." },
+      { "speaker": "A", "speakerName": "Waitress", "text": "Here you are. Enjoy your meal! Would you like some dessert later?", "textTr": "Buyurun. Afiyet olsun! Sonra tatlı ister misiniz?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Everything was delicious! Can I have the bill, please? And we'd like to leave a tip.", "textTr": "Her şey çok lezzetliydi! Hesabı alabilir miyim, lütfen? Ve bahşiş bırakmak istiyoruz." }
+    ],
+    "questions": [
+      {
+        "question": "What does Murat order to drink?",
+        "questionTr": "Murat içecek olarak ne sipariş ediyor?",
+        "options": ["Water", "Coffee", "Soda", "Tea"],
+        "correct": 2
+      },
+      {
+        "question": "What appetizer does Eyüp choose?",
+        "questionTr": "Eyüp başlangıç olarak ne seçiyor?",
+        "options": ["Caesar salad", "Tomato soup", "Bread", "Mushroom soup"],
+        "correct": 1
+      },
+      {
+        "question": "Is the Caesar salad spicy?",
+        "questionTr": "Sezar salata acılı mı?",
+        "options": ["Yes, very spicy", "A little spicy", "No, it's light and fresh", "It depends on the day"],
+        "correct": 2
+      },
+      {
+        "question": "What does Murat order for main course?",
+        "questionTr": "Murat ana yemek olarak ne sipariş ediyor?",
+        "options": ["Pasta with mushroom sauce", "Grilled chicken", "A medium steak", "Pizza"],
+        "correct": 2
+      },
+      {
+        "question": "What does Eyüp think about the food?",
+        "questionTr": "Eyüp yemekler hakkında ne düşünüyor?",
+        "options": ["It was bad", "It was okay", "Everything was delicious", "It was too expensive"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Ordering Food in English - BBC Learning",
+      "description": "Restoranda İngilizce sipariş verme videosu",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-7/session-1",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Food & Drink Vocabulary - British Council",
+      "description": "Yiyecek ve içecek kelimeleri interaktif alıştırmalar",
+      "url": "https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/food-and-drink",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Restaurant English - Cambridge Dictionary",
+      "description": "Restoran İngilizcesi kelime ve ifadeler",
+      "url": "https://dictionary.cambridge.org/topics/food-and-drink/restaurants-and-cafes/",
+      "type": "article",
+      "level": "A1",
+      "free": true
+    }
+  ]
+}

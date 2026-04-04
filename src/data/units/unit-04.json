@@ -1,0 +1,444 @@
+{
+  "id": "unit-04",
+  "title": "Present Simple - Do/Does",
+  "titleTr": "Geniş Zaman - Olumlu, Olumsuz ve Soru",
+  "level": "A1",
+  "module": 1,
+  "description": "Talk about habits, likes, and daily actions. Use do/does for questions and negatives. Go shopping at the supermarket!",
+  "descriptionTr": "Alışkanlıkları, beğenileri ve günlük eylemleri anlat. Soru ve olumsuz için do/does kullan. Markette alışveriş yap!",
+
+  "vocabulary": [
+    {
+      "word": "like",
+      "pronunciation": "layk",
+      "turkish": "sevmek / beğenmek",
+      "example": "I like coffee in the morning.",
+      "exampleTr": "Sabahları kahve severim.",
+      "extra": "Do you like Turkish food?",
+      "extraTr": "Türk yemeklerini sever misin?"
+    },
+    {
+      "word": "want",
+      "pronunciation": "vant",
+      "turkish": "istemek",
+      "example": "I want a bottle of water, please.",
+      "exampleTr": "Bir şişe su istiyorum, lütfen.",
+      "extra": "What do you want for dinner?",
+      "extraTr": "Akşam yemeğinde ne istersin?"
+    },
+    {
+      "word": "need",
+      "pronunciation": "niid",
+      "turkish": "ihtiyaç duymak",
+      "example": "I need some milk. We don't have any.",
+      "exampleTr": "Biraz süte ihtiyacım var. Hiç yok.",
+      "extra": "Do you need help with the bags?",
+      "extraTr": "Poşetler için yardıma ihtiyacın var mı?"
+    },
+    {
+      "word": "buy",
+      "pronunciation": "bay",
+      "turkish": "satın almak",
+      "example": "I usually buy groceries on Saturday.",
+      "exampleTr": "Genelde cumartesi market alışverişi yaparım.",
+      "extra": "She buys fresh bread every morning.",
+      "extraTr": "Her sabah taze ekmek alır."
+    },
+    {
+      "word": "eat",
+      "pronunciation": "iit",
+      "turkish": "yemek yemek",
+      "example": "I eat breakfast at 8 o'clock.",
+      "exampleTr": "Saat 8'de kahvaltı yaparım.",
+      "extra": "He eats a lot of fruit.",
+      "extraTr": "Çok meyve yer."
+    },
+    {
+      "word": "drink",
+      "pronunciation": "drink",
+      "turkish": "içmek",
+      "example": "I drink two liters of water every day.",
+      "exampleTr": "Her gün iki litre su içerim.",
+      "extra": "She doesn't drink coffee. She prefers tea.",
+      "extraTr": "Kahve içmez. Çayı tercih eder."
+    },
+    {
+      "word": "cook",
+      "pronunciation": "kuk",
+      "turkish": "yemek pişirmek",
+      "example": "My wife cooks dinner every evening.",
+      "exampleTr": "Eşim her akşam yemek pişirir.",
+      "extra": "I don't cook very often. I usually order food.",
+      "extraTr": "Çok sık yemek pişirmem. Genelde yemek sipariş ederim."
+    },
+    {
+      "word": "sell",
+      "pronunciation": "sel",
+      "turkish": "satmak",
+      "example": "This store sells fresh vegetables.",
+      "exampleTr": "Bu mağaza taze sebze satar.",
+      "extra": "He sells electronics online.",
+      "extraTr": "İnternetten elektronik satar."
+    },
+    {
+      "word": "pay",
+      "pronunciation": "pey",
+      "turkish": "ödemek",
+      "example": "Do you pay by cash or card?",
+      "exampleTr": "Nakit mi yoksa kartla mı ödüyorsun?",
+      "extra": "I always pay with my credit card.",
+      "extraTr": "Her zaman kredi kartımla öderim."
+    },
+    {
+      "word": "cost",
+      "pronunciation": "kost",
+      "turkish": "mal olmak / fiyatı olmak",
+      "example": "How much does this cost?",
+      "exampleTr": "Bu ne kadar?",
+      "extra": "These tomatoes cost 2 dollars per kilo.",
+      "extraTr": "Bu domateslerin kilosu 2 dolar."
+    },
+    {
+      "word": "bread",
+      "pronunciation": "bred",
+      "turkish": "ekmek",
+      "example": "We need two loaves of bread.",
+      "exampleTr": "İki ekmek almamız lazım.",
+      "extra": "I like whole wheat bread.",
+      "extraTr": "Tam buğday ekmeği severim."
+    },
+    {
+      "word": "milk",
+      "pronunciation": "milk",
+      "turkish": "süt",
+      "example": "Do we have any milk in the fridge?",
+      "exampleTr": "Buzdolabında hiç süt var mı?",
+      "extra": "He drinks milk every morning.",
+      "extraTr": "Her sabah süt içer."
+    },
+    {
+      "word": "egg",
+      "pronunciation": "eg",
+      "turkish": "yumurta",
+      "example": "I eat two eggs for breakfast.",
+      "exampleTr": "Kahvaltıda iki yumurta yerim.",
+      "extra": "A dozen eggs, please.",
+      "extraTr": "Bir düzine yumurta, lütfen."
+    },
+    {
+      "word": "fruit",
+      "pronunciation": "fruut",
+      "turkish": "meyve",
+      "example": "She eats fruit after every meal.",
+      "exampleTr": "Her yemekten sonra meyve yer.",
+      "extra": "Fresh fruit is good for your health.",
+      "extraTr": "Taze meyve sağlığın için iyidir."
+    },
+    {
+      "word": "vegetable",
+      "pronunciation": "VEC-tı-bıl",
+      "turkish": "sebze",
+      "example": "I don't eat enough vegetables.",
+      "exampleTr": "Yeterince sebze yemiyorum.",
+      "extra": "The vegetable section is over there.",
+      "extraTr": "Sebze reyonu orada."
+    },
+    {
+      "word": "meat",
+      "pronunciation": "miit",
+      "turkish": "et",
+      "example": "How much does the meat cost?",
+      "exampleTr": "Et ne kadar?",
+      "extra": "I don't eat meat. I'm vegetarian.",
+      "extraTr": "Et yemem. Vejeteryanım."
+    },
+    {
+      "word": "chicken",
+      "pronunciation": "ÇİK-ın",
+      "turkish": "tavuk",
+      "example": "We usually eat chicken twice a week.",
+      "exampleTr": "Genelde haftada iki kez tavuk yeriz.",
+      "extra": "I want a kilo of chicken breast, please.",
+      "extraTr": "Bir kilo tavuk göğsü istiyorum, lütfen."
+    },
+    {
+      "word": "rice",
+      "pronunciation": "rays",
+      "turkish": "pirinç / pilav",
+      "example": "Do you eat rice every day?",
+      "exampleTr": "Her gün pilav yer misin?",
+      "extra": "Rice goes well with chicken.",
+      "extraTr": "Pilav tavukla çok iyi gider."
+    },
+    {
+      "word": "sugar",
+      "pronunciation": "ŞUG-ır",
+      "turkish": "şeker",
+      "example": "I don't use sugar in my tea.",
+      "exampleTr": "Çayıma şeker koymam.",
+      "extra": "Too much sugar is bad for you.",
+      "extraTr": "Çok fazla şeker sağlığa zararlı."
+    },
+    {
+      "word": "water",
+      "pronunciation": "VA-tır",
+      "turkish": "su",
+      "example": "Can I have a glass of water, please?",
+      "exampleTr": "Bir bardak su alabilir miyim, lütfen?",
+      "extra": "I always carry a bottle of water.",
+      "extraTr": "Yanımda her zaman bir şişe su taşırım."
+    },
+    {
+      "word": "juice",
+      "pronunciation": "cuus",
+      "turkish": "meyve suyu",
+      "example": "I like orange juice for breakfast.",
+      "exampleTr": "Kahvaltıda portakal suyu severim.",
+      "extra": "Do you have any apple juice?",
+      "extraTr": "Hiç elma suyunuz var mı?"
+    },
+    {
+      "word": "cheese",
+      "pronunciation": "çiiz",
+      "turkish": "peynir",
+      "example": "I love cheese on my toast.",
+      "exampleTr": "Tostumda peynir severim.",
+      "extra": "She buys white cheese every week.",
+      "extraTr": "Her hafta beyaz peynir alır."
+    },
+    {
+      "word": "bag",
+      "pronunciation": "beg",
+      "turkish": "poşet / çanta",
+      "example": "Do you need a bag?",
+      "exampleTr": "Poşet ister misiniz?",
+      "extra": "I always bring my own bag to the store.",
+      "extraTr": "Markete her zaman kendi poşetimi getiririm."
+    },
+    {
+      "word": "price",
+      "pronunciation": "prays",
+      "turkish": "fiyat",
+      "example": "What is the price of this?",
+      "exampleTr": "Bunun fiyatı ne?",
+      "extra": "The prices are really high this month.",
+      "extraTr": "Bu ay fiyatlar gerçekten yüksek."
+    },
+    {
+      "word": "cheap",
+      "pronunciation": "çiip",
+      "turkish": "ucuz",
+      "example": "This brand is cheap and good.",
+      "exampleTr": "Bu marka ucuz ve iyi.",
+      "extra": "Where can I find cheap groceries?",
+      "extraTr": "Ucuz market ürünlerini nerede bulabilirim?"
+    },
+    {
+      "word": "expensive",
+      "pronunciation": "ik-SPEN-siv",
+      "turkish": "pahalı",
+      "example": "This cheese is too expensive!",
+      "exampleTr": "Bu peynir çok pahalı!",
+      "extra": "Organic food is always more expensive.",
+      "extraTr": "Organik yiyecek her zaman daha pahalıdır."
+    },
+    {
+      "word": "fresh",
+      "pronunciation": "freş",
+      "turkish": "taze",
+      "example": "I always buy fresh vegetables.",
+      "exampleTr": "Her zaman taze sebze alırım.",
+      "extra": "This bread is very fresh. It's from this morning.",
+      "extraTr": "Bu ekmek çok taze. Bu sabahtan."
+    },
+    {
+      "word": "store",
+      "pronunciation": "stor",
+      "turkish": "mağaza / market",
+      "example": "There is a grocery store near my house.",
+      "exampleTr": "Evimin yakınında bir market var.",
+      "extra": "The store closes at 10 PM.",
+      "extraTr": "Market akşam 10'da kapanır."
+    },
+    {
+      "word": "list",
+      "pronunciation": "list",
+      "turkish": "liste",
+      "example": "I always make a shopping list before I go.",
+      "exampleTr": "Gitmeden önce her zaman alışveriş listesi yaparım.",
+      "extra": "What's on the list today?",
+      "extraTr": "Bugün listede ne var?"
+    },
+    {
+      "word": "prefer",
+      "pronunciation": "pri-FÖR",
+      "turkish": "tercih etmek",
+      "example": "I prefer tea over coffee.",
+      "exampleTr": "Kahve yerine çayı tercih ederim.",
+      "extra": "She prefers online shopping.",
+      "extraTr": "Online alışverişi tercih eder."
+    }
+  ],
+
+  "grammar": {
+    "title": "Present Simple - Positive, Negative & Questions",
+    "titleTr": "Geniş Zaman - Olumlu, Olumsuz ve Soru Cümleleri",
+    "explanation": "Use Present Simple for habits, routines, facts, and things you like or dislike. For I/you/we/they, use the base verb. For he/she/it, add -s or -es. Use 'do/does' for questions and 'don't/doesn't' for negatives.",
+    "explanationTr": "Geniş Zaman alışkanlıklar, rutinler, gerçekler ve sevdiğin/sevmediğin şeyler için kullanılır. I/you/we/they ile fiilin yalın hali kullanılır. He/she/it ile fiile -s veya -es eklenir. Sorularda 'do/does', olumsuzda 'don't/doesn't' kullanılır.",
+    "table": [
+      ["I like tea.", "I don't like coffee.", "Do you like tea?", "Yes, I do. / No, I don't."],
+      ["You eat fruit.", "You don't eat meat.", "Do you eat meat?", "Yes, I do. / No, I don't."],
+      ["He works hard.", "He doesn't work on Sunday.", "Does he work on Sunday?", "Yes, he does. / No, he doesn't."],
+      ["She cooks dinner.", "She doesn't cook breakfast.", "Does she cook every day?", "Yes, she does. / No, she doesn't."],
+      ["It costs $5.", "It doesn't cost much.", "Does it cost a lot?", "Yes, it does. / No, it doesn't."],
+      ["We buy groceries.", "We don't buy junk food.", "Do you buy organic food?", "Yes, we do. / No, we don't."],
+      ["They sell fruit.", "They don't sell alcohol.", "Do they sell bread?", "Yes, they do. / No, they don't."]
+    ],
+    "tips": [
+      { "en": "He/She/It → add -s: like → likes, eat → eats, buy → buys", "tr": "He/She/It ile fiile -s eklenir: like → likes, eat → eats, buy → buys" },
+      { "en": "-s, -sh, -ch, -x, -o → add -es: go → goes, wash → washes", "tr": "-s, -sh, -ch, -x, -o ile biten fiillere -es eklenir: go → goes, wash → washes" },
+      { "en": "consonant + y → drop y, add -ies: carry → carries, try → tries", "tr": "Ünsüz + y ile bitenler: y düşer, -ies eklenir: carry → carries, try → tries" },
+      { "en": "Does + he/she/it → verb goes back to base: She likes → Does she like? (NOT: Does she likes?)", "tr": "Does ile soru yaparken fiilin -s'i düşer: She likes → Does she like? (Does she likes? YANLIŞ!)" },
+      { "en": "Frequency words: always, usually, often, sometimes, rarely, never → before the verb", "tr": "Sıklık zarfları fiilden ÖNCE gelir: I always buy, She never eats" },
+      { "en": "How much does this cost? = What's the price? = How much is this?", "tr": "Fiyat sorma: How much does this cost? = What's the price? = How much is this?" }
+    ]
+  },
+
+  "reading": {
+    "text": "Hi! My name is Ayşe. Every Saturday morning, I go to the big supermarket near my house. I always make a shopping list before I leave.\n\nI usually buy fresh vegetables first — tomatoes, peppers, onions, and potatoes. My family eats a lot of salad, so I need fresh vegetables every week. I also buy fruit — mostly apples and oranges. My kids love bananas, so I always get some.\n\nThen I go to the dairy section. I buy milk, eggs, and white cheese. We eat eggs every morning for breakfast. My husband drinks a lot of milk, so I buy two bottles every time.\n\nI don't buy a lot of meat because it's very expensive these days. I usually buy chicken instead — it's cheaper and my family likes it. I cook chicken with rice twice a week.\n\nI prefer to pay by card, but some small stores don't accept cards. The total usually costs around 800-900 liras. It sounds expensive, but it's enough food for the whole week.\n\nMy husband doesn't come to the store with me. He doesn't like shopping! He prefers to stay home and watch TV. But he always helps me carry the bags when I get home. That's nice of him!",
+    "textTr": "Merhaba! Benim adım Ayşe. Her cumartesi sabahı evimin yakınındaki büyük markete giderim. Gitmeden önce her zaman bir alışveriş listesi yaparım.\n\nGenelde önce taze sebze alırım — domates, biber, soğan ve patates. Ailem çok salata yer, bu yüzden her hafta taze sebzeye ihtiyacım var. Bir de meyve alırım — çoğunlukla elma ve portakal. Çocuklarım muzu çok sever, o yüzden hep alırım.\n\nSonra süt ürünleri reyonuna giderim. Süt, yumurta ve beyaz peynir alırım. Her sabah kahvaltıda yumurta yeriz. Kocam çok süt içer, bu yüzden her seferinde iki şişe alırım.\n\nÇok et almam çünkü bu aralar çok pahalı. Genelde onun yerine tavuk alırım — daha ucuz ve ailem seviyor. Haftada iki kez tavuklu pilav yaparım.\n\nKartla ödemeyi tercih ederim ama bazı küçük marketler kart kabul etmez. Toplam genelde 800-900 lira civarı tutar. Pahalı gibi görünüyor ama bütün hafta yetecek kadar yiyecek.\n\nKocam benimle markete gelmez. Alışverişi sevmez! Evde kalıp TV izlemeyi tercih eder. Ama eve geldiğimde poşetleri taşımama her zaman yardım eder. Bu onun çok tatlı bir hareketi!",
+    "questions": [
+      {
+        "question": "When does Ayşe go to the supermarket?",
+        "questionTr": "Ayşe markete ne zaman gider?",
+        "options": ["Every day", "Every Saturday morning", "Every Sunday evening", "On weekdays"],
+        "correct": 1
+      },
+      {
+        "question": "Why doesn't Ayşe buy a lot of meat?",
+        "questionTr": "Ayşe neden çok et almaz?",
+        "options": ["She doesn't like meat", "Her family is vegetarian", "It's very expensive", "The store doesn't sell meat"],
+        "correct": 2
+      },
+      {
+        "question": "What does Ayşe cook twice a week?",
+        "questionTr": "Ayşe haftada iki kez ne pişirir?",
+        "options": ["Salad with vegetables", "Chicken with rice", "Eggs and cheese", "Meat and potatoes"],
+        "correct": 1
+      },
+      {
+        "question": "How does Ayşe prefer to pay?",
+        "questionTr": "Ayşe nasıl ödemeyi tercih eder?",
+        "options": ["Always cash", "By card", "Mobile payment", "She doesn't pay"],
+        "correct": 1
+      },
+      {
+        "question": "Why doesn't her husband come to the store?",
+        "questionTr": "Kocası neden markete gelmez?",
+        "options": ["He is busy at work", "He doesn't like shopping", "He is sick", "He doesn't have time"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ coffee every morning.", "answer": "drink", "hint": "içmek" },
+      { "sentence": "She ___ fresh bread from the bakery.", "answer": "buys", "hint": "almak — he/she/it ile" },
+      { "sentence": "We ___ eat meat. We are vegetarian.", "answer": "don't", "hint": "olumsuz — we ile" },
+      { "sentence": "___ you like Turkish food?", "answer": "Do", "hint": "soru — you ile" },
+      { "sentence": "He ___ like shopping. He stays home.", "answer": "doesn't", "hint": "olumsuz — he ile" },
+      { "sentence": "___ she cook dinner every day?", "answer": "Does", "hint": "soru — she ile" },
+      { "sentence": "How much ___ this cost?", "answer": "does", "hint": "soru — this (it) ile" },
+      { "sentence": "I always make a shopping ___ before I go.", "answer": "list", "hint": "alışveriş ___" },
+      { "sentence": "This cheese is too ___! I can't buy it.", "answer": "expensive", "hint": "pahalı" },
+      { "sentence": "I ___ tea over coffee.", "answer": "prefer", "hint": "tercih etmek" },
+      { "sentence": "The ___ is very fresh today.", "answer": "bread", "hint": "ekmek" },
+      { "sentence": "I need a ___ of water.", "answer": "bottle", "hint": "şişe" }
+    ],
+    "multipleChoice": [
+      { "question": "\"She ___ vegetables every week.\" Boşluğa ne gelir?", "options": ["buy", "buys", "buying", "does buy"], "correct": 1 },
+      { "question": "\"___ he drink milk?\" Boşluğa ne gelir?", "options": ["Do", "Does", "Is", "Are"], "correct": 1 },
+      { "question": "\"I ___ eat meat.\" (yemem) Boşluğa ne gelir?", "options": ["doesn't", "don't", "not", "isn't"], "correct": 1 },
+      { "question": "\"He go___ to work every day.\" Doğru ek hangisi?", "options": ["-s", "-es", "-ies", "-ing"], "correct": 1 },
+      { "question": "\"Pahalı\" İngilizce'de hangisi?", "options": ["cheap", "fresh", "expensive", "price"], "correct": 2 },
+      { "question": "\"Does she like tea?\" → Evet. Doğru kısa cevap?", "options": ["Yes, she like.", "Yes, she does.", "Yes, she is.", "Yes, she do."], "correct": 1 },
+      { "question": "\"Tercih etmek\" İngilizce'de hangisi?", "options": ["want", "need", "like", "prefer"], "correct": 3 },
+      { "question": "\"We ___ groceries on Saturday.\" (alırız)", "options": ["buys", "buy", "buying", "does buy"], "correct": 1 },
+      { "question": "\"Sebze\" İngilizce'de hangisi?", "options": ["fruit", "vegetable", "meat", "chicken"], "correct": 1 },
+      { "question": "\"She carry → carries\" kuralı nedir?", "options": ["Sesli harf + y = -ys", "Ünsüz + y = y düşer, -ies", "Hep -s eklenir", "Hep -es eklenir"], "correct": 1 }
+    ],
+    "matching": [
+      { "left": "like", "right": "sevmek" },
+      { "left": "want", "right": "istemek" },
+      { "left": "need", "right": "ihtiyaç duymak" },
+      { "left": "buy", "right": "satın almak" },
+      { "left": "sell", "right": "satmak" },
+      { "left": "cook", "right": "pişirmek" },
+      { "left": "pay", "right": "ödemek" },
+      { "left": "cost", "right": "mal olmak" },
+      { "left": "bread", "right": "ekmek" },
+      { "left": "milk", "right": "süt" },
+      { "left": "chicken", "right": "tavuk" },
+      { "left": "rice", "right": "pirinç" },
+      { "left": "cheap", "right": "ucuz" },
+      { "left": "expensive", "right": "pahalı" },
+      { "left": "fresh", "right": "taze" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "like", "orange", "juice"], "correct": "I like orange juice" },
+      { "words": ["She", "doesn't", "eat", "meat"], "correct": "She doesn't eat meat" },
+      { "words": ["Do", "you", "need", "a", "bag"], "correct": "Do you need a bag" },
+      { "words": ["He", "buys", "bread", "every", "morning"], "correct": "He buys bread every morning" },
+      { "words": ["How", "much", "does", "this", "cost"], "correct": "How much does this cost" },
+      { "words": ["We", "don't", "buy", "expensive", "food"], "correct": "We don't buy expensive food" },
+      { "words": ["Does", "she", "prefer", "tea", "or", "coffee"], "correct": "Does she prefer tea or coffee" },
+      { "words": ["I", "always", "make", "a", "shopping", "list"], "correct": "I always make a shopping list" },
+      { "words": ["They", "sell", "fresh", "vegetables", "here"], "correct": "They sell fresh vegetables here" }
+    ],
+    "translation": [
+      { "turkish": "Kahve severim.", "english": "I like coffee.", "acceptAlso": ["I like coffee"] },
+      { "turkish": "Et yemez.", "english": "He doesn't eat meat.", "acceptAlso": ["She doesn't eat meat", "He does not eat meat", "She does not eat meat"] },
+      { "turkish": "Süt içer misin?", "english": "Do you drink milk?", "acceptAlso": ["Do you drink milk"] },
+      { "turkish": "Bu ne kadar?", "english": "How much does this cost?", "acceptAlso": ["How much is this", "How much does this cost"] },
+      { "turkish": "Her sabah taze ekmek alırım.", "english": "I buy fresh bread every morning.", "acceptAlso": ["I buy fresh bread every morning", "Every morning I buy fresh bread"] },
+      { "turkish": "Alışverişi sevmez.", "english": "He doesn't like shopping.", "acceptAlso": ["She doesn't like shopping", "He does not like shopping"] },
+      { "turkish": "Çayı tercih ederim.", "english": "I prefer tea.", "acceptAlso": ["I prefer tea"] },
+      { "turkish": "Haftada iki kez tavuk pişirir.", "english": "She cooks chicken twice a week.", "acceptAlso": ["He cooks chicken twice a week", "She cooks chicken twice a week"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "At the Supermarket",
+    "titleTr": "Markette",
+    "context": "Eyüp markete gidiyor. Kasiyer ve reyon görevlisi ile konuşuyor.",
+    "lines": [
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Excuse me, do you sell fresh chicken here?", "textTr": "Affedersiniz, burada taze tavuk satıyor musunuz?" },
+      { "speaker": "A", "speakerName": "Employee", "text": "Yes, we do! The chicken section is in aisle 3. Do you need anything else?", "textTr": "Evet, satıyoruz! Tavuk reyonu 3. koridorda. Başka bir şeye ihtiyacınız var mı?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, I also need eggs and milk. Where do I find them?", "textTr": "Evet, yumurta ve süte de ihtiyacım var. Onları nerede bulurum?" },
+      { "speaker": "A", "speakerName": "Employee", "text": "Eggs and milk are in the dairy section — aisle 5, on the right side.", "textTr": "Yumurta ve süt, süt ürünleri reyonunda — 5. koridor, sağ taraf." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you! How much does the white cheese cost?", "textTr": "Teşekkürler! Beyaz peynir ne kadar?" },
+      { "speaker": "A", "speakerName": "Employee", "text": "The small one costs 80 liras and the big one costs 140 liras.", "textTr": "Küçüğü 80 lira, büyüğü 140 lira." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'll take the big one. My family eats a lot of cheese!", "textTr": "Büyüğünü alayım. Ailem çok peynir yiyor!" },
+      { "speaker": "A", "speakerName": "Cashier", "text": "Good afternoon! Do you need a bag?", "textTr": "İyi günler! Poşet ister misiniz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "No, thanks. I always bring my own bag. How much is the total?", "textTr": "Hayır, teşekkürler. Her zaman kendi poşetimi getiririm. Toplam ne kadar?" },
+      { "speaker": "A", "speakerName": "Cashier", "text": "Let me see... Your total is 347 liras. Do you pay by cash or card?", "textTr": "Bir bakayım... Toplamınız 347 lira. Nakit mi kartla mı ödeyeceksiniz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "By card, please. I don't usually carry cash.", "textTr": "Kartla lütfen. Genelde yanımda nakit taşımam." },
+      { "speaker": "A", "speakerName": "Cashier", "text": "No problem! Here's your receipt. Have a nice day!", "textTr": "Sorun değil! Buyurun fişiniz. İyi günler!", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you! You too!", "textTr": "Teşekkürler! Size de!" }
+    ],
+    "questions": [
+      { "question": "What does Eyüp need from aisle 3?", "questionTr": "Eyüp 3. koridordan ne alacak?", "options": ["Eggs", "Milk", "Chicken", "Cheese"], "correct": 2 },
+      { "question": "How much does the big white cheese cost?", "questionTr": "Büyük beyaz peynir ne kadar?", "options": ["80 liras", "140 liras", "347 liras", "200 liras"], "correct": 1 },
+      { "question": "Does Eyüp need a bag?", "questionTr": "Eyüp'ün poşete ihtiyacı var mı?", "options": ["Yes, he needs two bags", "No, he brings his own bag", "Yes, one bag please", "No, he doesn't have groceries"], "correct": 1 },
+      { "question": "How does Eyüp pay?", "questionTr": "Eyüp nasıl ödüyor?", "options": ["By cash", "By card", "By mobile", "He doesn't pay"], "correct": 1 },
+      { "question": "What is the total price?", "questionTr": "Toplam fiyat ne kadar?", "options": ["80 liras", "140 liras", "247 liras", "347 liras"], "correct": 3 }
+    ]
+  },
+
+  "resources": [
+    { "title": "Present Simple - British Council", "description": "Geniş zaman interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-simple", "type": "practice", "level": "A1", "free": true },
+    { "title": "Food Vocabulary - Cambridge", "description": "Yiyecek kelimeleri ve telaffuz", "url": "https://dictionary.cambridge.org/topics/food/food-general-words/", "type": "article", "level": "A1", "free": true },
+    { "title": "Shopping Dialogues - ESL", "description": "Alışveriş diyalogları dinleme", "url": "https://www.eslfast.com/robot/topics/shopping/shopping.htm", "type": "practice", "level": "A1", "free": true }
+  ]
+}

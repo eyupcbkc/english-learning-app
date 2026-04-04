@@ -1,0 +1,444 @@
+{
+  "id": "unit-05",
+  "title": "Basic Questions (WH Questions)",
+  "titleTr": "Temel Sorular (WH Soruları)",
+  "level": "A1",
+  "module": 1,
+  "description": "Learn WH question words (what, where, when, who, how) and use them in real hotel situations. Ask for information confidently!",
+  "descriptionTr": "WH soru kelimelerini (what, where, when, who, how) öğren ve gerçek otel durumlarında kullan. Güvenle bilgi sor!",
+
+  "vocabulary": [
+    {
+      "word": "room",
+      "pronunciation": "ruum",
+      "turkish": "oda",
+      "example": "My room is on the third floor.",
+      "exampleTr": "Odam üçüncü katta.",
+      "extra": "Can I see the room before I decide?",
+      "extraTr": "Karar vermeden önce odayı görebilir miyim?"
+    },
+    {
+      "word": "key",
+      "pronunciation": "kii",
+      "turkish": "anahtar",
+      "example": "Here is your room key. Don't lose it!",
+      "exampleTr": "İşte oda anahtarınız. Kaybetmeyin!",
+      "extra": "I left my key inside the room. Can you help me?",
+      "extraTr": "Anahtarımı odanın içinde unuttum. Yardımcı olabilir misiniz?"
+    },
+    {
+      "word": "floor",
+      "pronunciation": "flor",
+      "turkish": "kat / zemin",
+      "example": "What floor is my room on?",
+      "exampleTr": "Odam kaçıncı katta?",
+      "extra": "The restaurant is on the ground floor.",
+      "extraTr": "Restoran zemin katta."
+    },
+    {
+      "word": "elevator",
+      "pronunciation": "E-lı-vey-tır",
+      "turkish": "asansör",
+      "example": "Where is the elevator? I have heavy luggage.",
+      "exampleTr": "Asansör nerede? Ağır bavullarım var.",
+      "extra": "Take the elevator to the fifth floor.",
+      "extraTr": "Asansörle beşinci kata çıkın."
+    },
+    {
+      "word": "breakfast",
+      "pronunciation": "BREK-fıst",
+      "turkish": "kahvaltı",
+      "example": "What time is breakfast?",
+      "exampleTr": "Kahvaltı saat kaçta?",
+      "extra": "Breakfast is included in the price.",
+      "extraTr": "Kahvaltı fiyata dahildir."
+    },
+    {
+      "word": "wifi",
+      "pronunciation": "WAY-fay",
+      "turkish": "kablosuz internet",
+      "example": "What is the wifi password?",
+      "exampleTr": "Wifi şifresi ne?",
+      "extra": "The wifi is free for all guests.",
+      "extraTr": "Wifi tüm misafirler için ücretsiz."
+    },
+    {
+      "word": "passport",
+      "pronunciation": "PAS-port",
+      "turkish": "pasaport",
+      "example": "Can I see your passport, please?",
+      "exampleTr": "Pasaportunuzu görebilir miyim, lütfen?",
+      "extra": "I always keep my passport in a safe place.",
+      "extraTr": "Pasaportumu her zaman güvenli bir yerde tutarım."
+    },
+    {
+      "word": "reservation",
+      "pronunciation": "re-zır-VEY-şın",
+      "turkish": "rezervasyon",
+      "example": "I have a reservation under the name Eyüp.",
+      "exampleTr": "Eyüp adına bir rezervasyonum var.",
+      "extra": "Do you have a reservation, sir?",
+      "extraTr": "Rezervasyonunuz var mı, efendim?"
+    },
+    {
+      "word": "night",
+      "pronunciation": "nayt",
+      "turkish": "gece",
+      "example": "How many nights are you staying?",
+      "exampleTr": "Kaç gece kalacaksınız?",
+      "extra": "I want to stay for three nights.",
+      "extraTr": "Üç gece kalmak istiyorum."
+    },
+    {
+      "word": "price",
+      "pronunciation": "prays",
+      "turkish": "fiyat",
+      "example": "How much is the price per night?",
+      "exampleTr": "Gecelik fiyatı ne kadar?",
+      "extra": "The price includes breakfast and wifi.",
+      "extraTr": "Fiyata kahvaltı ve wifi dahil."
+    },
+    {
+      "word": "check-in",
+      "pronunciation": "ÇEK-in",
+      "turkish": "giriş kaydı",
+      "example": "What time is check-in?",
+      "exampleTr": "Giriş saati kaçta?",
+      "extra": "Check-in starts at 2 PM.",
+      "extraTr": "Giriş kaydı saat 14:00'te başlar."
+    },
+    {
+      "word": "check-out",
+      "pronunciation": "ÇEK-aut",
+      "turkish": "çıkış kaydı",
+      "example": "When is check-out time?",
+      "exampleTr": "Çıkış saati ne zaman?",
+      "extra": "Check-out is at 11 AM. Please don't be late.",
+      "extraTr": "Çıkış saati 11:00. Lütfen geç kalmayın."
+    },
+    {
+      "word": "single",
+      "pronunciation": "SING-gıl",
+      "turkish": "tek kişilik",
+      "example": "I'd like a single room, please.",
+      "exampleTr": "Tek kişilik bir oda istiyorum, lütfen.",
+      "extra": "A single room is cheaper than a double.",
+      "extraTr": "Tek kişilik oda çift kişilikten daha ucuz."
+    },
+    {
+      "word": "double",
+      "pronunciation": "DA-bıl",
+      "turkish": "çift kişilik",
+      "example": "Do you have a double room available?",
+      "exampleTr": "Çift kişilik müsait odanız var mı?",
+      "extra": "The double room has a big bed and a nice view.",
+      "extraTr": "Çift kişilik odanın büyük yatağı ve güzel manzarası var."
+    },
+    {
+      "word": "lobby",
+      "pronunciation": "LO-bi",
+      "turkish": "lobi",
+      "example": "I'll wait for you in the lobby.",
+      "exampleTr": "Seni lobide bekleyeceğim.",
+      "extra": "The lobby is very modern and clean.",
+      "extraTr": "Lobi çok modern ve temiz."
+    },
+    {
+      "word": "reception",
+      "pronunciation": "ri-SEP-şın",
+      "turkish": "resepsiyon",
+      "example": "Please go to reception for your key.",
+      "exampleTr": "Anahtarınız için lütfen resepsiyona gidin.",
+      "extra": "The reception is open 24 hours.",
+      "extraTr": "Resepsiyon 24 saat açık."
+    },
+    {
+      "word": "suitcase",
+      "pronunciation": "SUUT-keys",
+      "turkish": "bavul",
+      "example": "Where can I leave my suitcase?",
+      "exampleTr": "Bavulumu nereye bırakabilirim?",
+      "extra": "My suitcase is very heavy. I need help!",
+      "extraTr": "Bavulum çok ağır. Yardıma ihtiyacım var!"
+    },
+    {
+      "word": "luggage",
+      "pronunciation": "LA-gıc",
+      "turkish": "bagaj / valiz",
+      "example": "How many pieces of luggage do you have?",
+      "exampleTr": "Kaç parça bagajınız var?",
+      "extra": "You can leave your luggage at reception.",
+      "extraTr": "Bagajınızı resepsiyonda bırakabilirsiniz."
+    },
+    {
+      "word": "towel",
+      "pronunciation": "TAU-ıl",
+      "turkish": "havlu",
+      "example": "Can I get extra towels, please?",
+      "exampleTr": "Ekstra havlu alabilir miyim, lütfen?",
+      "extra": "The towels are in the bathroom.",
+      "extraTr": "Havlular banyoda."
+    },
+    {
+      "word": "view",
+      "pronunciation": "vyuu",
+      "turkish": "manzara",
+      "example": "The room has a beautiful sea view.",
+      "exampleTr": "Odanın güzel bir deniz manzarası var.",
+      "extra": "Which room has the best view?",
+      "extraTr": "Hangi odanın manzarası en güzel?"
+    },
+    {
+      "word": "available",
+      "pronunciation": "ı-VEY-lı-bıl",
+      "turkish": "müsait / mevcut",
+      "example": "Is this room available for tonight?",
+      "exampleTr": "Bu oda bu gece için müsait mi?",
+      "extra": "Sorry, no rooms are available this weekend.",
+      "extraTr": "Üzgünüm, bu hafta sonu müsait oda yok."
+    },
+    {
+      "word": "book",
+      "pronunciation": "buk",
+      "turkish": "rezervasyon yapmak",
+      "example": "I want to book a room for two nights.",
+      "exampleTr": "İki gecelik bir oda rezerve etmek istiyorum.",
+      "extra": "Where can I book a hotel online?",
+      "extraTr": "İnternetten nereden otel rezervasyonu yapabilirim?"
+    },
+    {
+      "word": "confirm",
+      "pronunciation": "kın-FÖRM",
+      "turkish": "onaylamak / doğrulamak",
+      "example": "Can you confirm my reservation, please?",
+      "exampleTr": "Rezervasyonumu onaylayabilir misiniz, lütfen?",
+      "extra": "I need to confirm the dates with my boss.",
+      "extraTr": "Tarihleri patronumla doğrulamam gerekiyor."
+    },
+    {
+      "word": "cancel",
+      "pronunciation": "KEN-sıl",
+      "turkish": "iptal etmek",
+      "example": "I need to cancel my reservation.",
+      "exampleTr": "Rezervasyonumu iptal etmem gerekiyor.",
+      "extra": "Can I cancel without a fee?",
+      "extraTr": "Ücret ödemeden iptal edebilir miyim?"
+    },
+    {
+      "word": "sign",
+      "pronunciation": "sayn",
+      "turkish": "imzalamak",
+      "example": "Please sign here at the bottom.",
+      "exampleTr": "Lütfen burayı altta imzalayın.",
+      "extra": "Where do I sign this form?",
+      "extraTr": "Bu formu nereye imzalayacağım?"
+    },
+    {
+      "word": "fill out",
+      "pronunciation": "FIL-aut",
+      "turkish": "doldurmak (form)",
+      "example": "Please fill out this registration form.",
+      "exampleTr": "Lütfen bu kayıt formunu doldurun.",
+      "extra": "How do I fill out this part? I don't understand.",
+      "extraTr": "Bu kısmı nasıl dolduracağım? Anlamıyorum."
+    },
+    {
+      "word": "address",
+      "pronunciation": "ıd-RES",
+      "turkish": "adres",
+      "example": "What is the hotel's address?",
+      "exampleTr": "Otelin adresi ne?",
+      "extra": "Please write your home address on the form.",
+      "extraTr": "Lütfen ev adresinizi forma yazın."
+    },
+    {
+      "word": "quiet",
+      "pronunciation": "KUAY-ıt",
+      "turkish": "sessiz / sakin",
+      "example": "I want a quiet room, please. I need to sleep well.",
+      "exampleTr": "Sessiz bir oda istiyorum, lütfen. İyi uyumam lazım.",
+      "extra": "The hotel is in a very quiet area.",
+      "extraTr": "Otel çok sakin bir bölgede."
+    },
+    {
+      "word": "comfortable",
+      "pronunciation": "KAMF-tır-bıl",
+      "turkish": "rahat / konforlu",
+      "example": "The bed is very comfortable.",
+      "exampleTr": "Yatak çok rahat.",
+      "extra": "Is the room comfortable enough for you?",
+      "extraTr": "Oda sizin için yeterince rahat mı?"
+    },
+    {
+      "word": "service",
+      "pronunciation": "SÖR-vis",
+      "turkish": "hizmet / servis",
+      "example": "The room service is available until midnight.",
+      "exampleTr": "Oda servisi gece yarısına kadar mevcut.",
+      "extra": "How is the service at this hotel?",
+      "extraTr": "Bu otelin hizmeti nasıl?"
+    }
+  ],
+
+  "grammar": {
+    "title": "WH Questions — What, Where, When, Who, How, How much, How many, Which",
+    "titleTr": "WH Soruları — What, Where, When, Who, How, How much, How many, Which",
+    "explanation": "WH questions start with a question word. The structure is: WH word + auxiliary verb (do/does/is/are) + subject + main verb. These questions need a full answer, not just yes/no.",
+    "explanationTr": "WH soruları bir soru kelimesiyle başlar. Yapı: WH kelimesi + yardımcı fiil (do/does/is/are) + özne + ana fiil. Bu sorulara tam cevap verilir, sadece evet/hayır değil.",
+    "table": [
+      ["What is your name?", "My name is Eyüp.", "What → Ne / Ne? (şey sormak için)", "What time is breakfast? — Kahvaltı saat kaçta?"],
+      ["Where is the elevator?", "It is near the lobby.", "Where → Nerede? (yer sormak için)", "Where are you from? — Nerelisin?"],
+      ["When is check-out?", "Check-out is at 11 AM.", "When → Ne zaman? (zaman sormak için)", "When do you arrive? — Ne zaman varıyorsun?"],
+      ["Who is at the reception?", "The manager is at the reception.", "Who → Kim? (kişi sormak için)", "Who is your teacher? — Öğretmenin kim?"],
+      ["How is the room?", "The room is comfortable.", "How → Nasıl? (durum sormak için)", "How do you spell your name? — Adını nasıl yazıyorsun?"],
+      ["How much is the room?", "It is 100 dollars per night.", "How much → Ne kadar? (fiyat/miktar için)", "How much does it cost? — Ne kadar tutar?"],
+      ["How many nights?", "Three nights.", "How many → Kaç tane? (sayılabilir şeyler için)", "How many bags do you have? — Kaç çantan var?"]
+    ],
+    "tips": [
+      { "en": "What = things/info, Where = places, When = time, Who = people", "tr": "What = şey/bilgi, Where = yerler, When = zaman, Who = kişiler" },
+      { "en": "How much = price or uncountable. How many = countable things.", "tr": "How much = fiyat veya sayılamayan. How many = sayılabilen şeyler." },
+      { "en": "Which = choosing from options. 'Which room do you prefer?'", "tr": "Which = seçenekler arasından seçmek. 'Hangi odayı tercih edersiniz?'" },
+      { "en": "WH questions need a full answer, not just Yes/No.", "tr": "WH sorularına tam cevap verilir, sadece Evet/Hayır olmaz." },
+      { "en": "Word order: WH + do/does/is/are + subject + verb", "tr": "Kelime sırası: WH + do/does/is/are + özne + fiil" },
+      { "en": "How + adjective: How old are you? How long is the trip?", "tr": "How + sıfat: How old are you? (Kaç yaşındasın?) How long is the trip? (Yolculuk ne kadar sürer?)" }
+    ]
+  },
+
+  "reading": {
+    "text": "Last month, I stayed at the Grand Star Hotel in Antalya for three nights. It was my first business trip, so I was a little nervous.\n\nThe hotel is in a quiet area near the beach. When I arrived, the receptionist was very friendly. She asked, 'How many nights are you staying?' and 'Do you have a reservation?' Everything was fast and easy.\n\nMy room was on the fifth floor. It was a single room with a nice sea view. The bed was very comfortable and the bathroom was clean. There were fresh towels every day.\n\nBreakfast was included in the price. The restaurant was on the ground floor and it opened at 7 AM. The food was great — eggs, cheese, bread, fruit, and Turkish tea.\n\nThe wifi was free but a little slow. I asked, 'What is the wifi password?' and they gave me a card with the information.\n\nThe only problem was the elevator. It was very slow and sometimes I waited five minutes! But the staff was helpful and the service was excellent. The price was 800 TL per night, which is good for Antalya.\n\nI definitely want to go back. I give this hotel 4 out of 5 stars!",
+    "textTr": "Geçen ay Antalya'daki Grand Star Otel'de üç gece kaldım. İlk iş seyahatimdi, bu yüzden biraz gergindim.\n\nOtel sahile yakın sakin bir bölgede. Vardığımda resepsiyonist çok güler yüzlüydü. 'Kaç gece kalacaksınız?' ve 'Rezervasyonunuz var mı?' diye sordu. Her şey hızlı ve kolaydı.\n\nOdam beşinci kattaydı. Güzel deniz manzaralı tek kişilik bir odaydı. Yatak çok rahattı ve banyo temizdi. Her gün temiz havlular vardı.\n\nKahvaltı fiyata dahildi. Restoran zemin kattaydı ve sabah 7'de açılıyordu. Yemekler harikaydı — yumurta, peynir, ekmek, meyve ve Türk çayı.\n\nWifi ücretsizdi ama biraz yavaştı. 'Wifi şifresi ne?' diye sordum ve bilgiyle birlikte bir kart verdiler.\n\nTek sorun asansördü. Çok yavaştı ve bazen beş dakika bekledim! Ama personel yardımseverdi ve hizmet mükemmeldi. Gecelik fiyat 800 TL'ydi, Antalya için iyi.\n\nKesinlikle tekrar gitmek istiyorum. Bu otele 5 üzerinden 4 yıldız veriyorum!",
+    "questions": [
+      {
+        "question": "How many nights did the writer stay at the hotel?",
+        "questionTr": "Yazar otelde kaç gece kaldı?",
+        "options": ["One night", "Two nights", "Three nights", "Five nights"],
+        "correct": 2
+      },
+      {
+        "question": "What floor was the room on?",
+        "questionTr": "Oda kaçıncı kattaydı?",
+        "options": ["Ground floor", "Third floor", "Fourth floor", "Fifth floor"],
+        "correct": 3
+      },
+      {
+        "question": "What was the problem at the hotel?",
+        "questionTr": "Oteldeki sorun neydi?",
+        "options": ["The room was dirty", "The wifi had no password", "The elevator was very slow", "Breakfast was not included"],
+        "correct": 2
+      },
+      {
+        "question": "How much was the room per night?",
+        "questionTr": "Oda geceliği ne kadardı?",
+        "options": ["500 TL", "800 TL", "1000 TL", "Free"],
+        "correct": 1
+      },
+      {
+        "question": "What rating did the writer give the hotel?",
+        "questionTr": "Yazar otele kaç yıldız verdi?",
+        "options": ["3 out of 5", "4 out of 5", "5 out of 5", "2 out of 5"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "___ is your name?", "answer": "What", "hint": "Ne? - şey/bilgi sormak" },
+      { "sentence": "___ is the elevator?", "answer": "Where", "hint": "Nerede? - yer sormak" },
+      { "sentence": "___ is check-out time?", "answer": "When", "hint": "Ne zaman? - zaman sormak" },
+      { "sentence": "___ is at the reception?", "answer": "Who", "hint": "Kim? - kişi sormak" },
+      { "sentence": "___ much is the room per night?", "answer": "How", "hint": "Ne kadar? - fiyat sormak" },
+      { "sentence": "___ many nights are you staying?", "answer": "How", "hint": "Kaç tane? - sayı sormak" },
+      { "sentence": "___ room do you prefer — single or double?", "answer": "Which", "hint": "Hangi? - seçenek sormak" },
+      { "sentence": "I have a ___ under the name Eyüp.", "answer": "reservation", "hint": "rezervasyon" },
+      { "sentence": "Please fill ___ this registration form.", "answer": "out", "hint": "doldurmak (fill ___)" },
+      { "sentence": "The room has a beautiful sea ___.", "answer": "view", "hint": "manzara" },
+      { "sentence": "Can I get extra ___, please?", "answer": "towels", "hint": "havlu (çoğul)" },
+      { "sentence": "The bed is very ___. I slept well!", "answer": "comfortable", "hint": "rahat / konforlu" }
+    ],
+    "multipleChoice": [
+      { "question": "\"___ is the wifi password?\" Doğru soru kelimesi hangisi?", "options": ["Where", "When", "What", "Who"], "correct": 2 },
+      { "question": "\"___ is your room?\" (Odanız hangi katta?) Doğru kelime?", "options": ["What floor", "How floor", "When floor", "Who floor"], "correct": 0 },
+      { "question": "\"Odam ne kadar?\" İngilizce'de nasıl sorulur?", "options": ["How many is my room?", "How much is my room?", "What is my room?", "Where is my room?"], "correct": 1 },
+      { "question": "\"Kahvaltı saat kaçta?\" İngilizce'si hangisi?", "options": ["Where is breakfast?", "Who is breakfast?", "What time is breakfast?", "How is breakfast?"], "correct": 2 },
+      { "question": "\"Rezervasyon\" İngilizce'de hangisi?", "options": ["reception", "reservation", "registration", "reception desk"], "correct": 1 },
+      { "question": "\"___ do you spell your name?\" Doğru kelime?", "options": ["What", "Where", "Who", "How"], "correct": 3 },
+      { "question": "\"Tek kişilik oda\" İngilizce'de hangisi?", "options": ["double room", "single room", "one room", "small room"], "correct": 1 },
+      { "question": "\"Müsait\" İngilizce'de hangisi?", "options": ["comfortable", "available", "quiet", "double"], "correct": 1 },
+      { "question": "\"___ bag do you want — the black or the brown?\"", "options": ["What", "How", "Which", "Where"], "correct": 2 },
+      { "question": "\"Bavul\" İngilizce'de hangisi?", "options": ["luggage", "towel", "suitcase", "passport"], "correct": 2 }
+    ],
+    "matching": [
+      { "left": "room", "right": "oda" },
+      { "left": "key", "right": "anahtar" },
+      { "left": "floor", "right": "kat" },
+      { "left": "elevator", "right": "asansör" },
+      { "left": "breakfast", "right": "kahvaltı" },
+      { "left": "passport", "right": "pasaport" },
+      { "left": "reservation", "right": "rezervasyon" },
+      { "left": "price", "right": "fiyat" },
+      { "left": "suitcase", "right": "bavul" },
+      { "left": "towel", "right": "havlu" },
+      { "left": "view", "right": "manzara" },
+      { "left": "quiet", "right": "sessiz" },
+      { "left": "comfortable", "right": "rahat" },
+      { "left": "available", "right": "müsait" },
+      { "left": "service", "right": "hizmet" }
+    ],
+    "sentenceOrder": [
+      { "words": ["What", "is", "the", "wifi", "password"], "correct": "What is the wifi password" },
+      { "words": ["Where", "is", "the", "elevator"], "correct": "Where is the elevator" },
+      { "words": ["How", "much", "is", "the", "room"], "correct": "How much is the room" },
+      { "words": ["When", "is", "check-out", "time"], "correct": "When is check-out time" },
+      { "words": ["I", "have", "a", "reservation", "for", "tonight"], "correct": "I have a reservation for tonight" },
+      { "words": ["Can", "I", "get", "extra", "towels", "please"], "correct": "Can I get extra towels please" },
+      { "words": ["How", "many", "nights", "are", "you", "staying"], "correct": "How many nights are you staying" },
+      { "words": ["Which", "room", "has", "a", "sea", "view"], "correct": "Which room has a sea view" },
+      { "words": ["Please", "fill", "out", "this", "form"], "correct": "Please fill out this form" }
+    ],
+    "translation": [
+      { "turkish": "Odanız kaçıncı katta?", "english": "What floor is your room on?", "acceptAlso": ["What floor is your room"] },
+      { "turkish": "Asansör nerede?", "english": "Where is the elevator?", "acceptAlso": ["Where's the elevator"] },
+      { "turkish": "Çıkış saati ne zaman?", "english": "When is check-out time?", "acceptAlso": ["When is check-out", "What time is check-out"] },
+      { "turkish": "Oda geceliği ne kadar?", "english": "How much is the room per night?", "acceptAlso": ["How much is the room a night", "How much does the room cost per night"] },
+      { "turkish": "Kaç gece kalacaksınız?", "english": "How many nights are you staying?", "acceptAlso": ["How many nights will you stay", "How many nights do you stay"] },
+      { "turkish": "Wifi şifresi ne?", "english": "What is the wifi password?", "acceptAlso": ["What's the wifi password"] },
+      { "turkish": "Hangi odayı tercih edersiniz?", "english": "Which room do you prefer?", "acceptAlso": ["Which room would you prefer", "Which room do you want"] },
+      { "turkish": "Lütfen bu formu doldurun.", "english": "Please fill out this form.", "acceptAlso": ["Fill out this form please", "Please fill out this form"] }
+    ]
+  },
+
+  "dialog": {
+    "title": "Checking Into a Hotel",
+    "titleTr": "Otele Giriş Yapma",
+    "context": "Eyüp iş seyahati için Antalya'daki bir otele giriş yapıyor. Resepsiyonistle konuşuyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Good evening! Welcome to the Grand Star Hotel. How can I help you?", "textTr": "İyi akşamlar! Grand Star Otel'e hoş geldiniz. Size nasıl yardımcı olabilirim?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Good evening! I have a reservation. My name is Eyüp.", "textTr": "İyi akşamlar! Rezervasyonum var. Adım Eyüp." },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Let me check. How do you spell your last name, please?", "textTr": "Bir bakayım. Soyadınızı nasıl yazıyorsunuz, lütfen?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "It's C-E-B-E-K-C-I. Cebekci.", "textTr": "C-E-B-E-K-C-I. Cebekci." },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Found it! A single room for three nights. Is that correct?", "textTr": "Buldum! Üç gecelik tek kişilik oda. Doğru mu?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, that's right. How much is the room per night?", "textTr": "Evet, doğru. Oda geceliği ne kadar?" },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "It's 800 TL per night and breakfast is included. Can I see your passport, please?", "textTr": "Geceliği 800 TL ve kahvaltı dahil. Pasaportunuzu görebilir miyim, lütfen?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Here you go. What floor is my room on?", "textTr": "Buyurun. Odam kaçıncı katta?" },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Your room is on the fifth floor, room 512. It has a sea view! Please fill out this form and sign at the bottom.", "textTr": "Odanız beşinci katta, 512 numara. Deniz manzarası var! Lütfen bu formu doldurun ve altta imzalayın.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Great, thank you! Where is the elevator? And what is the wifi password?", "textTr": "Harika, teşekkürler! Asansör nerede? Ve wifi şifresi ne?" },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "The elevator is on your left, next to the lobby. The wifi password is on this card. What time do you want breakfast? It starts at 7 AM.", "textTr": "Asansör sol tarafınızda, lobinin yanında. Wifi şifresi bu kartta. Kahvaltıyı saat kaçta istersiniz? Sabah 7'de başlıyor.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I'll come at 8 AM. When is check-out time?", "textTr": "Sabah 8'de gelirim. Çıkış saati ne zaman?" },
+      { "speaker": "A", "speakerName": "Receptionist", "text": "Check-out is at 11 AM. Here is your room key. Enjoy your stay, Mr. Cebekci!", "textTr": "Çıkış saati 11:00. İşte oda anahtarınız. İyi tatiller, Bay Cebekci!", "gender": "female" }
+    ],
+    "questions": [
+      { "question": "How many nights is Eyüp staying?", "questionTr": "Eyüp kaç gece kalacak?", "options": ["One night", "Two nights", "Three nights", "Five nights"], "correct": 2 },
+      { "question": "How much is the room per night?", "questionTr": "Oda geceliği ne kadar?", "options": ["500 TL", "600 TL", "800 TL", "1000 TL"], "correct": 2 },
+      { "question": "What floor is Eyüp's room on?", "questionTr": "Eyüp'ün odası kaçıncı katta?", "options": ["Third floor", "Fourth floor", "Fifth floor", "Ground floor"], "correct": 2 },
+      { "question": "What does the room have?", "questionTr": "Odada ne var?", "options": ["A balcony", "A sea view", "A kitchen", "Two beds"], "correct": 1 },
+      { "question": "When is check-out time?", "questionTr": "Çıkış saati ne zaman?", "options": ["10 AM", "11 AM", "12 PM", "9 AM"], "correct": 1 }
+    ]
+  },
+
+  "resources": [
+    { "title": "WH Questions - British Council", "description": "WH soru kelimeleri interaktif alıştırmalar", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/question-words", "type": "practice", "level": "A1", "free": true },
+    { "title": "Hotel English - Oxford Online English", "description": "Otel İngilizcesi video dersi", "url": "https://www.oxfordonlineenglish.com/hotel-english", "type": "video", "level": "A1", "free": true },
+    { "title": "Question Words Quiz - Cambridge", "description": "Soru kelimeleri quiz'i", "url": "https://www.cambridgeenglish.org/learning-english/activities-for-learners/?skill=grammar", "type": "practice", "level": "A1", "free": true }
+  ]
+}

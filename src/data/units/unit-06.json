@@ -1,0 +1,563 @@
+{
+  "id": "unit-06",
+  "title": "Daily Routines",
+  "titleTr": "Günlük Rutinler",
+  "level": "A1",
+  "module": 1,
+  "description": "Learn to talk about your daily routines, habits, and schedule using present simple with time expressions.",
+  "descriptionTr": "Günlük rutinlerini, alışkanlıklarını ve programını geniş zaman ve zaman ifadeleriyle anlatmayı öğren.",
+
+  "vocabulary": [
+    {
+      "word": "wake up",
+      "pronunciation": "veyk AP",
+      "turkish": "uyanmak",
+      "example": "I wake up at 7 o'clock every morning.",
+      "exampleTr": "Her sabah saat 7'de uyanırım.",
+      "extra": "My alarm makes me wake up, but I don't want to!",
+      "extraTr": "Alarmım beni uyandırıyor ama istemiyorum!"
+    },
+    {
+      "word": "get up",
+      "pronunciation": "get AP",
+      "turkish": "kalkmak (yataktan)",
+      "example": "I get up five minutes after my alarm rings.",
+      "exampleTr": "Alarmım çaldıktan beş dakika sonra kalkarım.",
+      "extra": "On weekends, I get up late.",
+      "extraTr": "Hafta sonları geç kalkarım."
+    },
+    {
+      "word": "brush",
+      "pronunciation": "braş",
+      "turkish": "fırçalamak",
+      "example": "I brush my teeth twice a day.",
+      "exampleTr": "Günde iki kez dişlerimi fırçalarım.",
+      "extra": "Don't forget to brush your teeth before bed!",
+      "extraTr": "Yatmadan önce dişlerini fırçalamayı unutma!"
+    },
+    {
+      "word": "shower",
+      "pronunciation": "ŞAV-ır",
+      "turkish": "duş almak / duş",
+      "example": "I take a shower every morning before work.",
+      "exampleTr": "Her sabah işten önce duş alırım.",
+      "extra": "A hot shower after exercise feels amazing.",
+      "extraTr": "Egzersizden sonra sıcak duş harika hissettirir."
+    },
+    {
+      "word": "breakfast",
+      "pronunciation": "BREK-fıst",
+      "turkish": "kahvaltı",
+      "example": "I have breakfast at 8 in the morning.",
+      "exampleTr": "Sabah 8'de kahvaltı yaparım.",
+      "extra": "Turkish breakfast is the best breakfast in the world!",
+      "extraTr": "Türk kahvaltısı dünyanın en iyi kahvaltısı!"
+    },
+    {
+      "word": "leave",
+      "pronunciation": "liiv",
+      "turkish": "ayrılmak / çıkmak",
+      "example": "I leave home at 8:30 every day.",
+      "exampleTr": "Her gün saat 8:30'da evden çıkarım.",
+      "extra": "What time do you leave work?",
+      "extraTr": "İşten saat kaçta çıkıyorsun?"
+    },
+    {
+      "word": "arrive",
+      "pronunciation": "ı-RAYV",
+      "turkish": "varmak / ulaşmak",
+      "example": "I arrive at work at 9 o'clock.",
+      "exampleTr": "Saat 9'da işe varırım.",
+      "extra": "The bus always arrives late in the morning.",
+      "extraTr": "Otobüs sabahları hep geç gelir."
+    },
+    {
+      "word": "work",
+      "pronunciation": "vörk",
+      "turkish": "çalışmak / iş",
+      "example": "I work from 9 to 6 every day.",
+      "exampleTr": "Her gün 9'dan 6'ya çalışırım.",
+      "extra": "He works at a tech company in San Francisco.",
+      "extraTr": "San Francisco'da bir teknoloji şirketinde çalışıyor."
+    },
+    {
+      "word": "lunch",
+      "pronunciation": "lanç",
+      "turkish": "öğle yemeği",
+      "example": "We have lunch at noon.",
+      "exampleTr": "Öğlen öğle yemeği yeriz.",
+      "extra": "I usually eat lunch with my coworkers.",
+      "extraTr": "Genelde iş arkadaşlarımla öğle yemeği yerim."
+    },
+    {
+      "word": "dinner",
+      "pronunciation": "DİN-ır",
+      "turkish": "akşam yemeği",
+      "example": "I cook dinner at home every evening.",
+      "exampleTr": "Her akşam evde akşam yemeği pişiririm.",
+      "extra": "What do you usually have for dinner?",
+      "extraTr": "Akşam yemeğinde genelde ne yersin?"
+    },
+    {
+      "word": "sleep",
+      "pronunciation": "sliip",
+      "turkish": "uyumak",
+      "example": "I sleep 7 hours every night.",
+      "exampleTr": "Her gece 7 saat uyurum.",
+      "extra": "I can't sleep when I drink coffee at night.",
+      "extraTr": "Gece kahve içince uyuyamıyorum."
+    },
+    {
+      "word": "exercise",
+      "pronunciation": "EK-sır-sayz",
+      "turkish": "egzersiz yapmak / egzersiz",
+      "example": "I exercise three times a week.",
+      "exampleTr": "Haftada üç kez egzersiz yaparım.",
+      "extra": "Do you exercise in the morning or evening?",
+      "extraTr": "Sabah mı akşam mı egzersiz yaparsın?"
+    },
+    {
+      "word": "start",
+      "pronunciation": "start",
+      "turkish": "başlamak",
+      "example": "I start work at 9 AM.",
+      "exampleTr": "Sabah 9'da işe başlarım.",
+      "extra": "The movie starts at 7 PM. Don't be late!",
+      "extraTr": "Film akşam 7'de başlıyor. Geç kalma!"
+    },
+    {
+      "word": "finish",
+      "pronunciation": "FİN-iş",
+      "turkish": "bitirmek / bitmek",
+      "example": "I finish work at 6 o'clock.",
+      "exampleTr": "Saat 6'da işi bitiririm.",
+      "extra": "What time does the class finish?",
+      "extraTr": "Ders saat kaçta bitiyor?"
+    },
+    {
+      "word": "usually",
+      "pronunciation": "YUU-ju-ıli",
+      "turkish": "genellikle",
+      "example": "I usually wake up early on weekdays.",
+      "exampleTr": "Hafta içi genellikle erken uyanırım.",
+      "extra": "She usually takes the bus to work.",
+      "extraTr": "O genellikle işe otobüsle gider."
+    },
+    {
+      "word": "always",
+      "pronunciation": "OL-veyz",
+      "turkish": "her zaman",
+      "example": "I always drink coffee in the morning.",
+      "exampleTr": "Sabahları her zaman kahve içerim.",
+      "extra": "He always arrives on time.",
+      "extraTr": "O her zaman zamanında gelir."
+    },
+    {
+      "word": "sometimes",
+      "pronunciation": "SAM-taymz",
+      "turkish": "bazen",
+      "example": "I sometimes go for a walk after dinner.",
+      "exampleTr": "Bazen akşam yemeğinden sonra yürüyüşe çıkarım.",
+      "extra": "Sometimes I work from home on Fridays.",
+      "extraTr": "Bazen Cuma günleri evden çalışırım."
+    },
+    {
+      "word": "never",
+      "pronunciation": "NEV-ır",
+      "turkish": "asla / hiçbir zaman",
+      "example": "I never skip breakfast.",
+      "exampleTr": "Asla kahvaltı atlamam.",
+      "extra": "She never drinks coffee. She prefers tea.",
+      "extraTr": "O asla kahve içmez. Çay tercih eder."
+    },
+    {
+      "word": "early",
+      "pronunciation": "ÖR-li",
+      "turkish": "erken",
+      "example": "I wake up early on weekdays.",
+      "exampleTr": "Hafta içi erken uyanırım.",
+      "extra": "The early bird catches the worm!",
+      "extraTr": "Erken kalkan yol alır!"
+    },
+    {
+      "word": "late",
+      "pronunciation": "leyt",
+      "turkish": "geç",
+      "example": "Don't be late for work!",
+      "exampleTr": "İşe geç kalma!",
+      "extra": "I went to bed late last night, so I'm tired today.",
+      "extraTr": "Dün gece geç yattım, bu yüzden bugün yorgunum."
+    },
+    {
+      "word": "morning",
+      "pronunciation": "MOR-ning",
+      "turkish": "sabah",
+      "example": "I check my emails every morning.",
+      "exampleTr": "Her sabah e-postalarımı kontrol ederim.",
+      "extra": "Good morning! Did you sleep well?",
+      "extraTr": "Günaydın! İyi uyudun mu?"
+    },
+    {
+      "word": "afternoon",
+      "pronunciation": "af-tır-NUUN",
+      "turkish": "öğleden sonra",
+      "example": "I have meetings in the afternoon.",
+      "exampleTr": "Öğleden sonra toplantılarım var.",
+      "extra": "On Saturday afternoon, I go shopping.",
+      "extraTr": "Cumartesi öğleden sonra alışverişe giderim."
+    },
+    {
+      "word": "evening",
+      "pronunciation": "IIV-ning",
+      "turkish": "akşam",
+      "example": "I watch YouTube videos in the evening.",
+      "exampleTr": "Akşamları YouTube videoları izlerim.",
+      "extra": "What do you do in the evening?",
+      "extraTr": "Akşamları ne yaparsın?"
+    },
+    {
+      "word": "night",
+      "pronunciation": "nayt",
+      "turkish": "gece",
+      "example": "I go to bed at 11 at night.",
+      "exampleTr": "Gece 11'de yatarım.",
+      "extra": "Good night! Sleep well.",
+      "extraTr": "İyi geceler! İyi uykular."
+    },
+    {
+      "word": "commute",
+      "pronunciation": "kı-MYUUT",
+      "turkish": "işe gidip gelmek / yolculuk",
+      "example": "My commute takes 40 minutes by bus.",
+      "exampleTr": "İşe gidiş geliş otobüsle 40 dakika sürüyor.",
+      "extra": "I listen to podcasts during my commute.",
+      "extraTr": "İşe giderken podcast dinlerim."
+    },
+    {
+      "word": "rest",
+      "pronunciation": "rest",
+      "turkish": "dinlenmek / dinlenme",
+      "example": "I rest for an hour after lunch.",
+      "exampleTr": "Öğle yemeğinden sonra bir saat dinlenirim.",
+      "extra": "You need to rest. You look tired.",
+      "extraTr": "Dinlenmen lazım. Yorgun görünüyorsun."
+    },
+    {
+      "word": "relax",
+      "pronunciation": "ri-LEKS",
+      "turkish": "rahatlamak / gevşemek",
+      "example": "I relax on the couch and watch TV after work.",
+      "exampleTr": "İşten sonra kanepede uzanıp TV izlerim.",
+      "extra": "On Sundays, I just relax at home all day.",
+      "extraTr": "Pazar günleri bütün gün evde rahatlarım."
+    },
+    {
+      "word": "prepare",
+      "pronunciation": "pri-PER",
+      "turkish": "hazırlamak / hazırlanmak",
+      "example": "I prepare my clothes the night before.",
+      "exampleTr": "Kıyafetlerimi bir gece önceden hazırlarım.",
+      "extra": "She prepares lunch for her kids every morning.",
+      "extraTr": "Her sabah çocukları için öğle yemeği hazırlar."
+    },
+    {
+      "word": "routine",
+      "pronunciation": "ruu-TIIN",
+      "turkish": "rutin / günlük düzen",
+      "example": "My morning routine takes about one hour.",
+      "exampleTr": "Sabah rutinim yaklaşık bir saat sürer.",
+      "extra": "Having a good routine makes life easier.",
+      "extraTr": "İyi bir rutine sahip olmak hayatı kolaylaştırır."
+    },
+    {
+      "word": "schedule",
+      "pronunciation": "SKED-yuul",
+      "turkish": "program / takvim",
+      "example": "My work schedule is from Monday to Friday.",
+      "exampleTr": "İş programım Pazartesiden Cumaya.",
+      "extra": "What's your schedule for tomorrow?",
+      "extraTr": "Yarın programın ne?"
+    }
+  ],
+
+  "grammar": {
+    "title": "Present Simple with Time Expressions & Frequency Adverbs",
+    "titleTr": "Geniş Zaman: Zaman İfadeleri ve Sıklık Zarfları",
+    "explanation": "We use the present simple tense to talk about daily routines, habits, and things that are always true. We add frequency adverbs (always, usually, sometimes, never) to say how often we do things. Time expressions (at 7 o'clock, in the morning, on Monday) tell us when.",
+    "explanationTr": "Günlük rutinleri, alışkanlıkları ve her zaman doğru olan şeyleri anlatmak için geniş zaman kullanırız. Bir şeyi ne sıklıkla yaptığımızı anlatmak için sıklık zarfları (always, usually, sometimes, never) kullanırız. Zaman ifadeleri (at 7 o'clock, in the morning, on Monday) ne zaman olduğunu söyler.",
+    "table": [
+      ["I wake up at 7 AM.", "I don't wake up at 7 AM.", "Do you wake up at 7 AM?", "Yes, I do. / No, I don't."],
+      ["She brushes her teeth every day.", "She doesn't brush her teeth every day.", "Does she brush her teeth every day?", "Yes, she does. / No, she doesn't."],
+      ["He always drinks coffee.", "He never drinks coffee.", "Does he always drink coffee?", "Yes, he does. / No, he doesn't."],
+      ["We usually have lunch at noon.", "We don't usually have lunch at noon.", "Do you usually have lunch at noon?", "Yes, we do. / No, we don't."],
+      ["They start work at 9.", "They don't start work at 9.", "Do they start work at 9?", "Yes, they do. / No, they don't."],
+      ["I sometimes exercise in the evening.", "I don't sometimes exercise in the evening.", "Do you sometimes exercise?", "Yes, I do. / No, I don't."],
+      ["He finishes at 6 PM.", "He doesn't finish at 6 PM.", "Does he finish at 6 PM?", "Yes, he does. / No, he doesn't."]
+    ],
+    "tips": [
+      { "en": "Frequency adverbs go BEFORE the main verb: I always wake up early.", "tr": "Sıklık zarfları ana fiilden ÖNCE gelir: I always wake up early." },
+      { "en": "But AFTER 'be': She is always late. (NOT: She always is late.)", "tr": "Ama 'be' fiilinden SONRA: She is always late. (She always is late DEĞİL)" },
+      { "en": "Use 'at' for clock times: at 7 o'clock, at noon, at midnight, at night.", "tr": "'at' saat için kullanılır: at 7 o'clock, at noon, at midnight, at night." },
+      { "en": "Use 'in' for parts of the day: in the morning, in the afternoon, in the evening.", "tr": "'in' günün bölümleri için: in the morning, in the afternoon, in the evening." },
+      { "en": "Use 'on' for days: on Monday, on weekends, on Friday morning.", "tr": "'on' günler için: on Monday, on weekends, on Friday morning." },
+      { "en": "He/She/It → add -s or -es: works, finishes, watches, brushes.", "tr": "He/She/It ile fiile -s veya -es eklenir: works, finishes, watches, brushes." }
+    ]
+  },
+
+  "reading": {
+    "text": "Hey guys! Welcome to my YouTube channel. Today I'm sharing my daily routine. So, let's go!\n\nI wake up at 6:30 AM. Yeah, I know — that's early! But I like quiet mornings. First, I brush my teeth and take a shower. Then I make breakfast. I usually have eggs, bread, and Turkish tea. I never skip breakfast — it's my favorite meal!\n\nI leave home at 8 o'clock and take the bus to work. My commute is about 40 minutes. I always listen to English podcasts on the bus. I arrive at work at 8:45.\n\nI work at a logistics company. I start at 9 and finish at 6. We have a lunch break at 12:30. I usually eat with my coworkers at a small restaurant near the office.\n\nAfter work, I go to the gym three times a week. On other days, I just go home and relax. I cook dinner, watch some YouTube, and sometimes study English for 30 minutes.\n\nI go to bed at 11 PM. On weekends, my routine is totally different — I sleep late and do whatever I want! That's my day. Thanks for watching!",
+    "textTr": "Selam millet! YouTube kanalıma hoş geldiniz. Bugün günlük rutinimi paylaşıyorum. Hadi başlayalım!\n\nSabah 6:30'da uyanırım. Evet biliyorum — bu erken! Ama sessiz sabahları seviyorum. Önce dişlerimi fırçalarım ve duş alırım. Sonra kahvaltı yaparım. Genellikle yumurta, ekmek ve Türk çayı içerim. Asla kahvaltı atlamam — en sevdiğim öğün!\n\nSaat 8'de evden çıkarım ve otobüsle işe giderim. Yolculuğum yaklaşık 40 dakika. Otobüste her zaman İngilizce podcast dinlerim. Saat 8:45'te işe varırım.\n\nBir lojistik şirketinde çalışıyorum. 9'da başlarım, 6'da bitiririm. 12:30'da öğle yemeği molası var. Genellikle ofis yakınındaki küçük bir restoranda iş arkadaşlarımla yerim.\n\nİşten sonra haftada üç kez spor salonuna giderim. Diğer günlerde eve gidip rahatlarım. Akşam yemeği pişiririm, biraz YouTube izlerim ve bazen 30 dakika İngilizce çalışırım.\n\nGece 11'de yatarım. Hafta sonları rutinim tamamen farklı — geç uyurum ve ne istersem onu yaparım! Günüm bu. İzlediğiniz için teşekkürler!",
+    "questions": [
+      {
+        "question": "What time does he wake up?",
+        "questionTr": "Saat kaçta uyanıyor?",
+        "options": ["6:00 AM", "6:30 AM", "7:00 AM", "7:30 AM"],
+        "correct": 1
+      },
+      {
+        "question": "What does he do during his commute?",
+        "questionTr": "Yolculuk sırasında ne yapıyor?",
+        "options": ["Reads a book", "Sleeps", "Listens to English podcasts", "Watches videos"],
+        "correct": 2
+      },
+      {
+        "question": "How often does he go to the gym?",
+        "questionTr": "Ne sıklıkla spor salonuna gidiyor?",
+        "options": ["Every day", "Twice a week", "Three times a week", "On weekends"],
+        "correct": 2
+      },
+      {
+        "question": "What does he NEVER skip?",
+        "questionTr": "Asla neyi atlamıyor?",
+        "options": ["Exercise", "Lunch", "Breakfast", "Dinner"],
+        "correct": 2
+      },
+      {
+        "question": "What is different about weekends?",
+        "questionTr": "Hafta sonları neyi farklı?",
+        "options": ["He wakes up at 5 AM", "He works extra hours", "He sleeps late and does whatever he wants", "He never leaves home"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      { "sentence": "I ___ up at 7 o'clock every morning.", "answer": "wake", "hint": "uyanmak" },
+      { "sentence": "She ___ her teeth twice a day.", "answer": "brushes", "hint": "fırçalamak (she ile)" },
+      { "sentence": "I ___ drink coffee in the morning.", "answer": "always", "hint": "her zaman" },
+      { "sentence": "He goes to work ___ the morning.", "answer": "in", "hint": "sabahları (zaman edatı)" },
+      { "sentence": "The meeting starts ___ 9 o'clock.", "answer": "at", "hint": "saat için edat" },
+      { "sentence": "I have breakfast ___ I go to work.", "answer": "before", "hint": "önce" },
+      { "sentence": "I ___ skip breakfast. It's very important.", "answer": "never", "hint": "asla" },
+      { "sentence": "She ___ lunch with her coworkers.", "answer": "has", "hint": "yemek yemek (she ile)" },
+      { "sentence": "I ___ home at 8:30 every day.", "answer": "leave", "hint": "çıkmak / ayrılmak" },
+      { "sentence": "He ___ at work at 9 AM.", "answer": "arrives", "hint": "varmak (he ile)" },
+      { "sentence": "We have English class ___ Mondays.", "answer": "on", "hint": "günler için edat" },
+      { "sentence": "I ___ go to the gym. Maybe 2-3 times a week.", "answer": "sometimes", "hint": "bazen" }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"Uyanmak\" İngilizce'de ne demek?",
+        "options": ["get up", "wake up", "stand up", "look up"],
+        "correct": 1
+      },
+      {
+        "question": "\"I ___ to work at 9.\" Doğru olan hangisi?",
+        "options": ["arrive", "arrives", "arriving", "arrived"],
+        "correct": 0
+      },
+      {
+        "question": "Hangi cümle doğru?",
+        "options": ["I drink always coffee.", "I always drink coffee.", "Always I drink coffee.", "I coffee always drink."],
+        "correct": 1
+      },
+      {
+        "question": "\"She ___ dinner every evening.\" Boşluğa ne gelir?",
+        "options": ["cook", "cooks", "cooking", "cooked"],
+        "correct": 1
+      },
+      {
+        "question": "\"Öğle yemeği\" İngilizce'de hangisi?",
+        "options": ["Breakfast", "Lunch", "Dinner", "Snack"],
+        "correct": 1
+      },
+      {
+        "question": "\"I go to bed ___ 11 PM.\" Boşluğa ne gelir?",
+        "options": ["in", "on", "at", "to"],
+        "correct": 2
+      },
+      {
+        "question": "\"He ___ exercises. He doesn't like sports.\" Boşluğa ne gelir?",
+        "options": ["always", "usually", "sometimes", "never"],
+        "correct": 3
+      },
+      {
+        "question": "\"Rutin\" İngilizce'de hangisi?",
+        "options": ["schedule", "routine", "commute", "exercise"],
+        "correct": 1
+      },
+      {
+        "question": "\"We have class ___ the afternoon.\" Boşluğa ne gelir?",
+        "options": ["at", "on", "in", "to"],
+        "correct": 2
+      },
+      {
+        "question": "\"___ she wake up early?\" Doğru olan hangisi?",
+        "options": ["Do", "Does", "Is", "Are"],
+        "correct": 1
+      }
+    ],
+    "matching": [
+      { "left": "wake up", "right": "uyanmak" },
+      { "left": "get up", "right": "yataktan kalkmak" },
+      { "left": "brush", "right": "fırçalamak" },
+      { "left": "shower", "right": "duş" },
+      { "left": "breakfast", "right": "kahvaltı" },
+      { "left": "lunch", "right": "öğle yemeği" },
+      { "left": "dinner", "right": "akşam yemeği" },
+      { "left": "leave", "right": "ayrılmak" },
+      { "left": "arrive", "right": "varmak" },
+      { "left": "commute", "right": "işe gidip gelmek" },
+      { "left": "always", "right": "her zaman" },
+      { "left": "usually", "right": "genellikle" },
+      { "left": "sometimes", "right": "bazen" },
+      { "left": "never", "right": "asla" },
+      { "left": "schedule", "right": "program" }
+    ],
+    "sentenceOrder": [
+      { "words": ["I", "wake", "up", "at", "7", "o'clock"], "correct": "I wake up at 7 o'clock" },
+      { "words": ["She", "always", "drinks", "tea", "in", "the", "morning"], "correct": "She always drinks tea in the morning" },
+      { "words": ["Do", "you", "exercise", "every", "day"], "correct": "Do you exercise every day" },
+      { "words": ["He", "doesn't", "eat", "breakfast"], "correct": "He doesn't eat breakfast" },
+      { "words": ["I", "usually", "go", "to", "bed", "at", "11"], "correct": "I usually go to bed at 11" },
+      { "words": ["We", "have", "lunch", "at", "noon"], "correct": "We have lunch at noon" },
+      { "words": ["What", "time", "do", "you", "finish", "work"], "correct": "What time do you finish work" },
+      { "words": ["They", "never", "wake", "up", "early"], "correct": "They never wake up early" },
+      { "words": ["She", "takes", "a", "shower", "every", "morning"], "correct": "She takes a shower every morning" }
+    ],
+    "translation": [
+      {
+        "turkish": "Her sabah saat 7'de uyanırım.",
+        "english": "I wake up at 7 o'clock every morning.",
+        "acceptAlso": ["I wake up at 7 every morning", "I wake up at 7 AM every morning", "Every morning I wake up at 7"]
+      },
+      {
+        "turkish": "O her zaman kahvaltı yapar.",
+        "english": "She always has breakfast.",
+        "acceptAlso": ["She always eats breakfast", "He always has breakfast", "He always eats breakfast"]
+      },
+      {
+        "turkish": "Saat kaçta işe başlıyorsun?",
+        "english": "What time do you start work?",
+        "acceptAlso": ["What time do you start working"]
+      },
+      {
+        "turkish": "Asla geç kalkmam.",
+        "english": "I never get up late.",
+        "acceptAlso": ["I never wake up late"]
+      },
+      {
+        "turkish": "Bazen akşamları yürüyüşe çıkarım.",
+        "english": "I sometimes go for a walk in the evening.",
+        "acceptAlso": ["Sometimes I go for a walk in the evening", "I sometimes walk in the evening"]
+      },
+      {
+        "turkish": "Öğle yemeğinde ne yersin?",
+        "english": "What do you have for lunch?",
+        "acceptAlso": ["What do you eat for lunch"]
+      },
+      {
+        "turkish": "İşten sonra dinlenirim.",
+        "english": "I rest after work.",
+        "acceptAlso": ["I relax after work", "After work I rest", "After work I relax"]
+      },
+      {
+        "turkish": "Hafta sonları geç uyurum.",
+        "english": "I sleep late on weekends.",
+        "acceptAlso": ["On weekends I sleep late", "I go to bed late on weekends"]
+      }
+    ]
+  },
+
+  "dialog": {
+    "title": "Telling a Friend About Your Daily Routine",
+    "titleTr": "Bir Arkadaşına Günlük Rutinini Anlatmak",
+    "context": "Eyüp, arkadaşı Sarah ile kafede oturuyor. Sarah, Eyüp'ün günlük rutinini merak ediyor çünkü her zaman enerjik görünüyor.",
+    "lines": [
+      { "speaker": "A", "speakerName": "Sarah", "text": "Hey Eyüp! You always look so energetic. What's your secret?", "textTr": "Hey Eyüp! Her zaman çok enerjik görünüyorsun. Sırrın ne?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Ha ha, thanks! I think it's my routine. I have a pretty strict daily schedule.", "textTr": "Ha ha, sağ ol! Rutinim sayesinde sanırım. Oldukça düzenli bir günlük programım var." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Really? What time do you wake up?", "textTr": "Gerçekten mi? Saat kaçta uyanıyorsun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I wake up at 6:30. I know, it's early! But I like having time in the morning.", "textTr": "6:30'da uyanırım. Biliyorum, erken! Ama sabah vaktim olsun istiyorum." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Wow, that IS early! What do you do first?", "textTr": "Vay, bu GERÇEKTEN erken! İlk ne yaparsın?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I brush my teeth, take a shower, and then have breakfast. I never skip breakfast.", "textTr": "Dişlerimi fırçalarım, duş alırım ve kahvaltı yaparım. Asla kahvaltı atlamam." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Good for you! I sometimes skip breakfast. What do you usually eat?", "textTr": "Aferin sana! Ben bazen kahvaltı atlarım. Genelde ne yersin?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Eggs, bread, cheese, and Turkish tea. Always Turkish tea!", "textTr": "Yumurta, ekmek, peynir ve Türk çayı. Her zaman Türk çayı!" },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Sounds delicious! And what about after work? Do you exercise?", "textTr": "Lezzetli görünüyor! Peki işten sonra? Egzersiz yapıyor musun?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Yes, I go to the gym three times a week. On other days, I just relax at home.", "textTr": "Evet, haftada üç kez spor salonuna giderim. Diğer günlerde evde rahatlarım." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "Nice! What time do you usually go to bed?", "textTr": "Güzel! Genelde saat kaçta yatarsın?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Around 11 PM. But first I study English for 30 minutes. It's part of my routine now.", "textTr": "Gece 11 civarı. Ama önce 30 dakika İngilizce çalışırım. Artık rutinim oldu." },
+      { "speaker": "A", "speakerName": "Sarah", "text": "That's amazing! Your English is getting really good, by the way.", "textTr": "Harika! Bu arada İngilizce'n gerçekten gelişiyor.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you, Sarah! Practice every day — that's my motto!", "textTr": "Teşekkürler, Sarah! Her gün pratik — bu benim sloganım!" }
+    ],
+    "questions": [
+      {
+        "question": "What time does Eyüp wake up?",
+        "questionTr": "Eyüp saat kaçta uyanıyor?",
+        "options": ["6:00 AM", "6:30 AM", "7:00 AM", "7:30 AM"],
+        "correct": 1
+      },
+      {
+        "question": "Does Eyüp ever skip breakfast?",
+        "questionTr": "Eyüp hiç kahvaltı atlıyor mu?",
+        "options": ["Yes, sometimes", "Yes, always", "No, never", "No, but Sarah does"],
+        "correct": 2
+      },
+      {
+        "question": "How often does Eyüp go to the gym?",
+        "questionTr": "Eyüp ne sıklıkla spor salonuna gidiyor?",
+        "options": ["Every day", "Twice a week", "Three times a week", "On weekends only"],
+        "correct": 2
+      },
+      {
+        "question": "What does Eyüp do before bed?",
+        "questionTr": "Eyüp yatmadan önce ne yapar?",
+        "options": ["Watches TV", "Studies English for 30 minutes", "Goes for a walk", "Reads a book"],
+        "correct": 1
+      },
+      {
+        "question": "What is Eyüp's motto?",
+        "questionTr": "Eyüp'ün sloganı ne?",
+        "options": ["Sleep early, wake early", "Practice every day", "Never skip breakfast", "Go to the gym"],
+        "correct": 1
+      }
+    ]
+  },
+
+  "resources": [
+    {
+      "title": "Daily Routine Vocabulary - BBC Learning English",
+      "description": "Günlük rutin kelimelerini videolarla öğren",
+      "url": "https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1/session-3",
+      "type": "video",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Present Simple & Daily Routines - British Council",
+      "description": "Geniş zaman ve günlük rutin alıştırmaları",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-simple",
+      "type": "practice",
+      "level": "A1",
+      "free": true
+    },
+    {
+      "title": "Adverbs of Frequency - Perfect English Grammar",
+      "description": "Sıklık zarflarını detaylı öğren ve pratik yap",
+      "url": "https://www.perfect-english-grammar.com/adverbs-of-frequency.html",
+      "type": "article",
+      "level": "A1",
+      "free": true
+    }
+  ]
+}

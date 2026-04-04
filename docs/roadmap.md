@@ -15,11 +15,11 @@
 - [x] Reading comprehension
 - [x] Fill in the blanks
 - [x] Multiple choice
-- [x] Matching exercise
+- [x] Matching exercise (toast + shake + seri takibi + istatistikler)
 - [x] Sentence ordering
 - [x] Translation (TR→EN)
 - [x] Text-to-Speech telaffuz (Web Speech API)
-- [x] Dialog/Conversation dinleme (karakter bazli ses profilleri)
+- [x] Dialog/Conversation dinleme (chat bubble UI, hover ile metin, karakter bazli ses)
 - [x] Karakter bazli ses: her karakter farkli pitch/rate (Eyup=derin erkek, Emma=parlak kadin vb.)
 - [x] Kaynak onerileri (BBC, British Council vb.)
 - [x] 7 adimli unite akisi
@@ -30,10 +30,21 @@
 - [x] Design system dokumantasyonu
 - [x] Vercel Analytics + Speed Insights
 - [x] GitHub entegrasyonu
+- [x] 🃏 Flashcard / Hafiza Karti (Leitner 5-kutu, flip + yazma modu, feedback badge)
+- [x] 🔄 Turkce ceviri accordion sistemi (TranslationToggle — reusable)
+- [x] 📱 Mobile responsive layout (hamburger menu + slide-in sidebar)
+- [x] 🔐 Firebase entegrasyonu (Auth + Firestore)
+  - Firebase Auth (email/sifre kayit + giris)
+  - Login/Register sayfasi + korunmus rotalar (ProtectedRoute)
+  - Firestore'a ilerleme verisi (skorlar, flashcard, streak, seviye)
+  - localStorage → Firestore otomatik goc
+  - Cihazlar arasi senkronizasyon (telefon ↔ bilgisayar)
+  - Offline persistence (IndexedDB)
+  - Sidebar'da kullanici adi + cikis butonu
 
 ## Yapilacaklar
-- [ ] 🃏 Flashcard / Hafiza Karti (Leitner system) → docs/flashcard-system.md
-- [ ] 📝 Unit 04-08 icerikleri → docs/content-plan.md
+- [x] 📝 Unit 04-08 icerikleri (Module 1 tamam!)
+- [ ] 📝 Unit 09-16 icerikleri (Module 2) → docs/content-plan.md
 - [ ] 📚 Kelime listesi sayfasi + filtreleme
 - [ ] 🎤 Speech-to-Text pronunciation practice
 - [ ] 📊 Seviye olcme testi (placement test)
@@ -41,7 +52,6 @@
 - [ ] 📊 Zayif nokta analizi
 - [ ] 🌙 Dark mode
 - [ ] 🚀 Vercel deploy
-- [ ] 📱 Mobile responsive iyilestirmeler
 
 ---
 
@@ -51,14 +61,14 @@
 **Hedef:** Hayatta kalma Ingilizcesi — tanisma, temel sorular, gunluk hayat
 **Senaryo temalari:** Kafe, okul, sinif, market, otel, restoran
 
-- [x] Unit 01: Greetings & Introductions — *Kafede tanisma* (20 kelime, 13 satirlik dialog)
-- [x] Unit 02: Numbers, Days & Months — *Okul kayit ofisi* (20 kelime, 14 satirlik dialog)
-- [x] Unit 03: Present Simple - Be — *Ofiste ilk gun* (20 kelime, 10 satirlik dialog, lojistik senaryo)
-- [ ] Unit 04: Present Simple - Do — *Markette alisveris*
-- [ ] Unit 05: Basic Questions — *Otelde check-in*
-- [ ] Unit 06: Daily Routines — *YouTube vlogger "Bir gunum"*
-- [ ] Unit 07: Food & Drinks — *Restoranda siparis verme*
-- [ ] Unit 08: A1 Core Review & Test — *Karma senaryo testi*
+- [x] Unit 01: Greetings & Introductions — *Kafede tanisma* (30 kelime, 13 satirlik dialog)
+- [x] Unit 02: Numbers, Days & Months — *Okul kayit ofisi* (30 kelime, 14 satirlik dialog)
+- [x] Unit 03: Present Simple - Be — *Ofiste ilk gun* (30 kelime, 10 satirlik dialog, lojistik senaryo)
+- [x] Unit 04: Present Simple - Do/Does — *Markette alisveris* (30 kelime, 13 satirlik dialog)
+- [x] Unit 05: Basic Questions (WH) — *Otelde check-in* (30 kelime, otel senaryosu)
+- [x] Unit 06: Daily Routines — *YouTube vlogger "Bir gunum"* (30 kelime, rutin anlatma)
+- [x] Unit 07: Food & Drinks — *Restoranda siparis verme* (30 kelime, restoran senaryosu)
+- [x] Unit 08: A1 Core Review & Test — *Karma senaryo testi* (30 kelime, tum A1 tekrari)
 
 ### Module 2: Expanding Basics (A1 → A2) 🌿
 **Hedef:** Gunluk hayat — seyahat, alisveris, gecmis zaman
