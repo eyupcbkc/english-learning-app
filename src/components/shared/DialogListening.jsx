@@ -4,12 +4,38 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Play, Pause, RotateCcw, Eye, EyeOff, Volume2 } from 'lucide-react'
 
-function speakLine(text, rate = 0.8) {
+function getVoices() {
   return new Promise(resolve => {
+    const voices = speechSynthesis.getVoices()
+    if (voices.length) return resolve(voices)
+    speechSynthesis.onvoiceschanged = () => resolve(speechSynthesis.getVoices())
+  })
+}
+
+async function speakLine(text, rate = 0.8, gender = 'female') {
+  return new Promise(async (resolve) => {
     speechSynthesis.cancel()
+    const voices = await getVoices()
+    const enVoices = voices.filter(v => v.lang.startsWith('en'))
+
+    let voice = null
+    if (gender === 'male') {
+      voice = enVoices.find(v => /male|david|george|james|mark|daniel/i.test(v.name) && !/female/i.test(v.name))
+    } else {
+      voice = enVoices.find(v => /female|zira|hazel|susan|karen|samantha|fiona/i.test(v.name))
+    }
+    if (!voice && gender === 'male') {
+      // fallback: pick a different voice than default to simulate male
+      voice = enVoices.find(v => !/female|zira|hazel|susan|karen|samantha|fiona/i.test(v.name))
+    }
+    if (!voice) voice = enVoices[0]
+
     const u = new SpeechSynthesisUtterance(text)
     u.lang = 'en-US'
     u.rate = rate
+    if (voice) u.voice = voice
+    if (gender === 'male') u.pitch = 0.85
+    else u.pitch = 1.1
     u.onend = resolve
     u.onerror = resolve
     speechSynthesis.speak(u)
@@ -40,7 +66,9 @@ export default function DialogListening({ dialog, onScore }) {
     for (let i = 0; i < dialog.lines.length; i++) {
       if (stopRef.current) break
       setCurrentLine(i)
-      await speakLine(dialog.lines[i].text, 0.8)
+      const line = dialog.lines[i]
+      const gender = line.gender || (line.speaker === 'B' ? 'male' : 'female')
+      await speakLine(line.text, 0.8, gender)
       await new Promise(r => setTimeout(r, 500))
     }
 
@@ -51,7 +79,9 @@ export default function DialogListening({ dialog, onScore }) {
   const playLine = async (i) => {
     speechSynthesis.cancel()
     setCurrentLine(i)
-    await speakLine(dialog.lines[i].text, 0.75)
+    const line = dialog.lines[i]
+    const gender = line.gender || (line.speaker === 'B' ? 'male' : 'female')
+    await speakLine(line.text, 0.75, gender)
     setCurrentLine(-1)
   }
 
