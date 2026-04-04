@@ -1,0 +1,286 @@
+{
+  "id": "unit-03",
+  "title": "Present Simple - Be",
+  "titleTr": "Geniş Zaman - Be (olmak) Fiili",
+  "level": "A1",
+  "module": 1,
+  "description": "Master the verb 'be' in all forms: positive, negative, and questions.",
+  "descriptionTr": "'Be' fiilini tam öğren: olumlu, olumsuz ve soru cümleleri.",
+
+  "vocabulary": [
+    {
+      "word": "happy",
+      "pronunciation": "HE-pi",
+      "turkish": "mutlu",
+      "example": "I am happy today.",
+      "exampleTr": "Bugün mutluyum."
+    },
+    {
+      "word": "sad",
+      "pronunciation": "sed",
+      "turkish": "üzgün",
+      "example": "She is sad because it is raining.",
+      "exampleTr": "Yağmur yağdığı için üzgün."
+    },
+    {
+      "word": "tired",
+      "pronunciation": "TAY-ırd",
+      "turkish": "yorgun",
+      "example": "We are tired after work.",
+      "exampleTr": "İşten sonra yorgunuz."
+    },
+    {
+      "word": "hungry",
+      "pronunciation": "HANG-ri",
+      "turkish": "aç",
+      "example": "Are you hungry?",
+      "exampleTr": "Aç mısın?"
+    },
+    {
+      "word": "cold",
+      "pronunciation": "kold",
+      "turkish": "soğuk / üşümüş",
+      "example": "It is cold outside.",
+      "exampleTr": "Dışarısı soğuk."
+    },
+    {
+      "word": "hot",
+      "pronunciation": "hot",
+      "turkish": "sıcak",
+      "example": "It is very hot today.",
+      "exampleTr": "Bugün çok sıcak."
+    },
+    {
+      "word": "young",
+      "pronunciation": "yang",
+      "turkish": "genç",
+      "example": "My sister is young.",
+      "exampleTr": "Kız kardeşim genç."
+    },
+    {
+      "word": "old",
+      "pronunciation": "old",
+      "turkish": "yaşlı / eski",
+      "example": "My grandfather is old.",
+      "exampleTr": "Büyükbabam yaşlı."
+    },
+    {
+      "word": "tall",
+      "pronunciation": "tol",
+      "turkish": "uzun boylu",
+      "example": "He is very tall.",
+      "exampleTr": "O çok uzun boylu."
+    },
+    {
+      "word": "short",
+      "pronunciation": "şort",
+      "turkish": "kısa boylu / kısa",
+      "example": "The table is short.",
+      "exampleTr": "Masa kısa."
+    },
+    {
+      "word": "teacher",
+      "pronunciation": "TII-çır",
+      "turkish": "öğretmen",
+      "example": "She is a teacher.",
+      "exampleTr": "O bir öğretmen."
+    },
+    {
+      "word": "student",
+      "pronunciation": "STUU-dınt",
+      "turkish": "öğrenci",
+      "example": "They are students.",
+      "exampleTr": "Onlar öğrenci."
+    },
+    {
+      "word": "doctor",
+      "pronunciation": "DOK-tır",
+      "turkish": "doktor",
+      "example": "My father is a doctor.",
+      "exampleTr": "Babam bir doktor."
+    },
+    {
+      "word": "ready",
+      "pronunciation": "RE-di",
+      "turkish": "hazır",
+      "example": "Are you ready?",
+      "exampleTr": "Hazır mısın?"
+    },
+    {
+      "word": "busy",
+      "pronunciation": "BIZ-i",
+      "turkish": "meşgul",
+      "example": "I am busy right now.",
+      "exampleTr": "Şu an meşgulüm."
+    }
+  ],
+
+  "grammar": {
+    "title": "Verb 'Be' - Positive, Negative & Questions",
+    "titleTr": "'Be' Fiili - Olumlu, Olumsuz ve Soru Cümleleri",
+    "explanation": "The verb 'be' has three forms: am, is, are. For negative, add 'not' after the verb. For questions, move the verb before the subject.",
+    "explanationTr": "'Be' fiilinin üç hali var: am, is, are. Olumsuz yapmak için fiilden sonra 'not' eklenir. Soru yapmak için fiil öznenin önüne geçer.",
+    "table": [
+      ["I am happy.", "I am not happy.", "Am I happy?", "Ben mutluyum / değilim / muyum?"],
+      ["You are tall.", "You are not tall.", "Are you tall?", "Sen uzunsun / değilsin / musun?"],
+      ["He is a doctor.", "He is not a doctor.", "Is he a doctor?", "O doktor / değil / mı?"],
+      ["She is tired.", "She is not tired.", "Is she tired?", "O yorgun / değil / mı?"],
+      ["It is cold.", "It is not cold.", "Is it cold?", "Soğuk / değil / mı?"],
+      ["We are ready.", "We are not ready.", "Are we ready?", "Hazırız / değiliz / mıyız?"],
+      ["They are students.", "They are not students.", "Are they students?", "Onlar öğrenci / değil / mi?"]
+    ],
+    "tips": [
+      { "en": "is not = isn't, are not = aren't", "tr": "Kısaltma: is not → isn't, are not → aren't" },
+      { "en": "am not = I'm not (no 'amn't'!)", "tr": "'am not' kısaltması: I'm not (amn't diye bir şey YOK!)" },
+      { "en": "Short answers: Yes, I am. / No, I'm not.", "tr": "Kısa cevap: Yes, I am. / No, I'm not." },
+      { "en": "Short answers: Yes, he is. / No, he isn't.", "tr": "Kısa cevap: Yes, he is. / No, he isn't." }
+    ]
+  },
+
+  "reading": {
+    "text": "Hello! I am Mehmet. I am not a teacher. I am a student. I am twenty years old. I am from Ankara. My friend Ali is tall. He is not short. He is a doctor. We are not in the same class, but we are good friends. Are you a student too?",
+    "textTr": "Merhaba! Ben Mehmet. Ben öğretmen değilim. Ben bir öğrenciyim. Yirmi yaşındayım. Ankara'lıyım. Arkadaşım Ali uzun boylu. O kısa değil. O bir doktor. Aynı sınıfta değiliz ama iyi arkadaşız. Sen de öğrenci misin?",
+    "questions": [
+      {
+        "question": "Is Mehmet a teacher?",
+        "questionTr": "Mehmet öğretmen mi?",
+        "options": ["Yes, he is.", "No, he isn't.", "Yes, he does.", "No, he doesn't."],
+        "correct": 1
+      },
+      {
+        "question": "Where is Mehmet from?",
+        "questionTr": "Mehmet nereli?",
+        "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+        "correct": 1
+      },
+      {
+        "question": "Is Ali short?",
+        "questionTr": "Ali kısa mı?",
+        "options": ["Yes, he is.", "No, he isn't.", "Yes, he are.", "No, he not."],
+        "correct": 1
+      },
+      {
+        "question": "What is Ali's job?",
+        "questionTr": "Ali'nin mesleği ne?",
+        "options": ["Student", "Teacher", "Doctor", "Engineer"],
+        "correct": 2
+      }
+    ]
+  },
+
+  "exercises": {
+    "fillBlanks": [
+      {
+        "sentence": "I ___ a student.",
+        "answer": "am",
+        "hint": "be fiili - I ile"
+      },
+      {
+        "sentence": "She ___ not hungry.",
+        "answer": "is",
+        "hint": "be fiili - She ile"
+      },
+      {
+        "sentence": "___ you ready?",
+        "answer": "Are",
+        "hint": "soru - you ile"
+      },
+      {
+        "sentence": "They ___ tired after school.",
+        "answer": "are",
+        "hint": "be fiili - They ile"
+      },
+      {
+        "sentence": "He ___ a tall man.",
+        "answer": "is",
+        "hint": "be fiili - He ile"
+      },
+      {
+        "sentence": "We ___ not busy today.",
+        "answer": "are",
+        "hint": "be fiili - We ile"
+      }
+    ],
+    "multipleChoice": [
+      {
+        "question": "\"She ___ happy.\" Boşluğa ne gelir?",
+        "options": ["am", "is", "are", "be"],
+        "correct": 1
+      },
+      {
+        "question": "\"___ they students?\" Boşluğa ne gelir?",
+        "options": ["Is", "Am", "Are", "Do"],
+        "correct": 2
+      },
+      {
+        "question": "\"I ___ not tired.\" Boşluğa ne gelir?",
+        "options": ["is", "are", "am", "do"],
+        "correct": 2
+      },
+      {
+        "question": "\"is not\" kısaltması nedir?",
+        "options": ["isnt", "isn't", "is'nt", "in't"],
+        "correct": 1
+      },
+      {
+        "question": "\"Meşgulüm\" İngilizce'de nasıl söylenir?",
+        "options": ["I am busy.", "I is busy.", "I are busy.", "I do busy."],
+        "correct": 0
+      }
+    ],
+    "matching": [
+      { "left": "happy", "right": "mutlu" },
+      { "left": "sad", "right": "üzgün" },
+      { "left": "tired", "right": "yorgun" },
+      { "left": "hungry", "right": "aç" },
+      { "left": "tall", "right": "uzun boylu" },
+      { "left": "short", "right": "kısa boylu" },
+      { "left": "busy", "right": "meşgul" },
+      { "left": "ready", "right": "hazır" }
+    ],
+    "sentenceOrder": [
+      {
+        "words": ["She", "is", "not", "tired"],
+        "correct": "She is not tired"
+      },
+      {
+        "words": ["Are", "you", "a", "student"],
+        "correct": "Are you a student"
+      },
+      {
+        "words": ["They", "are", "happy", "today"],
+        "correct": "They are happy today"
+      },
+      {
+        "words": ["Is", "he", "a", "doctor"],
+        "correct": "Is he a doctor"
+      },
+      {
+        "words": ["We", "are", "not", "ready"],
+        "correct": "We are not ready"
+      }
+    ],
+    "translation": [
+      {
+        "turkish": "Ben mutluyum.",
+        "english": "I am happy.",
+        "acceptAlso": ["I'm happy"]
+      },
+      {
+        "turkish": "O öğretmen değil.",
+        "english": "He is not a teacher.",
+        "acceptAlso": ["He isn't a teacher", "He's not a teacher", "She is not a teacher", "She isn't a teacher"]
+      },
+      {
+        "turkish": "Hazır mısın?",
+        "english": "Are you ready?",
+        "acceptAlso": ["Are you ready"]
+      },
+      {
+        "turkish": "Onlar yorgun değil.",
+        "english": "They are not tired.",
+        "acceptAlso": ["They aren't tired", "They're not tired"]
+      }
+    ]
+  }
+}

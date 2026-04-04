@@ -1,20 +1,18 @@
 # Learning Progress
 
 ## Current Level: A1
-## Current Unit: Unit 02 - Numbers, Days & Months
-## Next Action: Study Unit 02
+## Current Unit: Unit 03 - Present Simple: Be
+## Next Action: Study Unit 03
 
 ---
 
-## Completed Units
-- Unit 01: Greetings & Introductions (available)
-
 ## Available Units
 - Unit 01: Greetings & Introductions
-- Unit 02: Numbers, Days & Months ← NEW
+- Unit 02: Numbers, Days & Months
+- Unit 03: Present Simple - Be ← NEW
 
 ## Vocabulary Bank
-Total words available: 27 (12 from Unit 01 + 15 from Unit 02)
+Total words available: 42 (12 + 15 + 15)
 
 ## Test Scores
 (tracked in localStorage)

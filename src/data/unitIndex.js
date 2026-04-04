@@ -1,8 +1,9 @@
 // Central registry of all units - add new units here
 import unit01 from './units/unit-01.json'
 import unit02 from './units/unit-02.json'
+import unit03 from './units/unit-03.json'
 
-const units = [unit01, unit02]
+const units = [unit01, unit02, unit03]
 
 export default units
 
