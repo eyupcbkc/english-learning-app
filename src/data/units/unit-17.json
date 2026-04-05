@@ -481,54 +481,55 @@
   },
 
   "dialog": {
-    "title": "Job Interview at an International Company",
-    "titleTr": "Uluslararası Bir Şirkette İş Mülakatı",
-    "context": "Eyüp, uluslararası bir lojistik şirketinde iş mülakatına gidiyor. İK müdürü Ms. Carter ile görüşüyor.",
+    "title": "Senior WMS & Logistics Manager Interview",
+    "titleTr": "Kıdemli WMS ve Lojistik Müdürü Mülakatı",
+    "context": "Eyüp, uluslararası bir lojistik şirketinde Kıdemli Lojistik ve Operasyon Müdürü pozisyonuna başvuruyor. Operasyon Direktörü Mr. Harrison ve İK Müdürü Ms. Carter ile zorlu bir mülakatta.",
     "lines": [
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Good morning! You must be Eyüp. Please, have a seat.", "textTr": "Günaydın! Eyüp olmalısınız. Lütfen oturun." },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "Good morning, Ms. Carter! Thank you. I'm very happy to be here.", "textTr": "Günaydın, Ms. Carter! Teşekkürler. Burada olmaktan çok mutluyum." },
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "So, tell me — why are you applying for this position?", "textTr": "Peki, söyleyin bakalım — neden bu pozisyona başvuruyorsunuz?" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "I'm going to be honest — this company is perfect for my career goals. I want to work in international logistics and I believe this is a great opportunity.", "textTr": "Dürüst olacağım — bu şirket kariyer hedeflerim için mükemmel. Uluslararası lojistikte çalışmak istiyorum ve bunun harika bir fırsat olduğuna inanıyorum." },
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "That sounds great. What experience do you have?", "textTr": "Kulağa harika geliyor. Ne tür deneyiminiz var?" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "I have two years of experience in shipping and delivery. I also improved my English skills because I knew I was going to need them for international work.", "textTr": "Kargo ve teslimat alanında iki yıllık deneyimim var. Ayrıca İngilizce becerilerimi geliştirdim çünkü uluslararası iş için ihtiyacım olacağını biliyordum." },
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Impressive! Where do you see yourself in five years?", "textTr": "Etkileyici! Beş yıl sonra kendinizi nerede görüyorsunuz?" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "In five years, I'm going to be a team leader. I will develop my management skills and I'm going to take on more responsibility.", "textTr": "Beş yıl içinde takım lideri olacağım. Yönetim becerilerimi geliştireceğim ve daha fazla sorumluluk alacağım." },
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "You seem very ambitious! That's exactly what we're looking for. Can you start next Monday?", "textTr": "Çok hırslı görünüyorsunuz! Tam da aradığımız bu. Gelecek pazartesi başlayabilir misiniz?" },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "Really? Yes, absolutely! I will be here on Monday at 8 AM sharp!", "textTr": "Gerçekten mi? Evet, kesinlikle! Pazartesi sabah tam 8'de burada olacağım!" },
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Perfect. We're going to offer you the logistics coordinator position. Your salary will be discussed with the HR department.", "textTr": "Mükemmel. Size lojistik koordinatörü pozisyonunu teklif edeceğiz. Maaşınız İK departmanıyla görüşülecek." },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you so much, Ms. Carter! I won't let you down. I promise I will work hard and achieve great results!", "textTr": "Çok teşekkür ederim, Ms. Carter! Sizi hayal kırıklığına uğratmayacağım. Çok çalışacağıma ve harika sonuçlar elde edeceğime söz veriyorum!" },
-      { "speaker": "A", "speakerName": "Ms. Carter", "text": "I believe you will! Welcome to the team, Eyüp. We'll send you all the details by email.", "textTr": "Başaracağınıza inanıyorum! Ekibe hoş geldiniz, Eyüp. Tüm detayları e-postayla göndereceğiz." },
-      { "speaker": "B", "speakerName": "Eyüp", "text": "This is amazing! I'm going to celebrate tonight. Thank you for this opportunity!", "textTr": "Bu harika! Bu gece kutlama yapacağım. Bu fırsat için teşekkürler!" }
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "Good morning, Eyüp. Thank you for coming in. I'm David Harrison, Director of Operations, and this is Sarah Carter from HR. Let's get started — tell us about your background in logistics.", "textTr": "Günaydın Eyüp. Geldiğiniz için teşekkürler. Ben Operasyon Direktörü David Harrison, bu da İK'dan Sarah Carter. Başlayalım — lojistik geçmişinizden bahsedin." },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you, Mr. Harrison. I'm a Senior Logistics and Operations Manager with extensive experience in warehouse management systems. I've implemented and managed WMS platforms across multiple facilities, handling everything from the operational design to go-live and daily optimization.", "textTr": "Teşekkürler, Mr. Harrison. Depo yönetim sistemlerinde kapsamlı deneyime sahip Kıdemli Lojistik ve Operasyon Yöneticisiyim. Birden fazla tesiste WMS platformları kurdum ve yönettim — operasyonel tasarımdan canlıya geçişe ve günlük optimizasyona kadar her şeyi yürüttüm." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "Interesting. Can you walk us through a specific WMS implementation you've led? What challenges did you face and how are you going to apply that experience here?", "textTr": "İlginç. Yönettiğiniz belirli bir WMS uygulamasını bize anlatır mısınız? Ne gibi zorluklarla karşılaştınız ve bu deneyimi burada nasıl uygulayacaksınız?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I led a full WMS migration for a distribution center handling 15,000 SKUs. The biggest challenge was mapping the existing workflows to the new system without disrupting daily operations. I'm going to bring the same structured approach here — first, I will audit your current processes, then I'll design the integration roadmap, and finally we will execute it in phases.", "textTr": "15.000 SKU işleyen bir dağıtım merkezi için tam WMS geçişini yönettim. En büyük zorluk, günlük operasyonları aksatmadan mevcut iş akışlarını yeni sisteme eşleştirmekti. Aynı yapılandırılmış yaklaşımı buraya getireceğim — önce mevcut süreçlerinizi denetleyeceğim, sonra entegrasyon yol haritasını tasarlayacağım ve son olarak bunu aşamalı olarak uygulayacağız." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "That's impressive. This role involves managing a team of 40 warehouse staff and 8 supervisors. How will you handle team management at this scale?", "textTr": "Etkileyici. Bu rol 40 depo çalışanı ve 8 süpervizörden oluşan bir ekibi yönetmeyi içeriyor. Bu ölçekte ekip yönetimini nasıl halledeceksiniz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "I believe in a data-driven management approach. I will set clear KPIs for each team — pick accuracy, order cycle time, inventory accuracy — and I'm going to hold weekly performance reviews with the supervisors. But numbers aren't everything. I'm also going to invest in training and development because a motivated team will always outperform a burned-out one.", "textTr": "Veri odaklı bir yönetim yaklaşımına inanıyorum. Her ekip için net KPI'lar belirleyeceğim — toplama doğruluğu, sipariş çevrim süresi, stok doğruluğu — ve süpervizörlerle haftalık performans değerlendirmeleri yapacağım. Ama sayılar her şey değil. Eğitim ve gelişime de yatırım yapacağım çünkü motive bir ekip her zaman tükenmiş bir ekipten daha iyi performans gösterir." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "Let me ask you a tough one. Our current error rate in order fulfillment is 4.2%. Industry standard is under 1%. What will you do to fix this?", "textTr": "Size zor bir soru sorayım. Şu anki sipariş karşılama hata oranımız %4.2. Sektör standardı %1'in altında. Bunu düzeltmek için ne yapacaksınız?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "A 4.2% error rate tells me there's likely a systemic issue — not just human error. First, I will analyze where the errors are occurring: picking, packing, or shipping. Then I'm going to implement barcode verification at each stage. In my previous role, I reduced the error rate from 3.8% to 0.6% in six months using a similar approach. I will bring those same methodologies here.", "textTr": "%4.2 hata oranı bana sistemik bir sorun olduğunu söylüyor — sadece insan hatası değil. Önce hataların nerede oluştuğunu analiz edeceğim: toplama, paketleme veya sevkiyat. Sonra her aşamada barkod doğrulaması uygulayacağım. Önceki görevimde benzer bir yaklaşımla hata oranını altı ayda %3.8'den %0.6'ya düşürdüm. Aynı metodolojileri buraya getireceğim." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "We're planning to expand to two new warehouses next year. How will you manage that growth?", "textTr": "Gelecek yıl iki yeni depoya genişlemeyi planlıyoruz. Bu büyümeyi nasıl yöneteceksiniz?", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Scaling is where WMS expertise really matters. I'm going to design a standardized operational blueprint that we will replicate across all facilities. This will include standard receiving procedures, slotting strategies, and pick path optimization. I will also set up a centralized dashboard so we can monitor all three warehouses in real time.", "textTr": "Ölçeklendirme, WMS uzmanlığının gerçekten önemli olduğu yerdir. Tüm tesislerde çoğaltacağımız standartlaştırılmış bir operasyonel şablon tasarlayacağım. Bu, standart teslim alma prosedürleri, yerleştirme stratejileri ve toplama yolu optimizasyonunu içerecek. Ayrıca üç depoyu gerçek zamanlı izleyebilmemiz için merkezi bir kontrol paneli kuracağım." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "One more question. Our biggest client is threatening to leave because of late deliveries. If you start Monday, what will be your first action?", "textTr": "Bir soru daha. En büyük müşterimiz geç teslimatlar yüzünden ayrılmakla tehdit ediyor. Pazartesi başlarsanız ilk adımınız ne olacak?" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Day one, I will pull the shipment data for the last 90 days and identify the root causes. Are the delays in picking, staging, or carrier handoff? Then I'm going to call the client personally — not to make excuses, but to present a concrete recovery plan with specific deadlines. I will also set up daily tracking for their orders until we restore their confidence.", "textTr": "İlk gün, son 90 günlük sevkiyat verilerini çekeceğim ve temel nedenleri tespit edeceğim. Gecikmeler toplamada mı, hazırlamada mı yoksa taşıyıcı teslimatında mı? Sonra müşteriyi şahsen arayacağım — mazeret üretmek için değil, somut son tarihlerle bir kurtarma planı sunmak için. Güvenlerini yeniden tesis edene kadar siparişlerinin günlük takibini de kuracağım." },
+      { "speaker": "A", "speakerName": "Ms. Carter", "text": "Eyüp, I have to say — your answers are very structured and solution-oriented. That's exactly the mindset we need. We're going to discuss internally and get back to you within 48 hours.", "textTr": "Eyüp, söylemeliyim — cevaplarınız çok yapılandırılmış ve çözüm odaklı. Tam da ihtiyacımız olan zihniyet bu. İç değerlendirme yapacağız ve 48 saat içinde size dönüş yapacağız.", "gender": "female" },
+      { "speaker": "B", "speakerName": "Eyüp", "text": "Thank you both for your time. I'm confident I will add significant value to your operations. I'm ready to start whenever you need me. I look forward to hearing from you.", "textTr": "İkinize de zaman ayırdığınız için teşekkürler. Operasyonlarınıza önemli değer katacağıma eminim. Ne zaman ihtiyacınız olursa başlamaya hazırım. Sizden haber bekliyorum." },
+      { "speaker": "A", "speakerName": "Mr. Harrison", "text": "One last thing, Eyüp — between us, you're the strongest candidate we've seen. Don't be surprised if we call you sooner than 48 hours.", "textTr": "Son bir şey Eyüp — aramızda kalsın, gördüğümüz en güçlü adaysınız. 48 saatten önce ararsak şaşırmayın." }
     ],
     "questions": [
       {
-        "question": "What position is Eyüp applying for?",
-        "questionTr": "Eyüp hangi pozisyona başvuruyor?",
-        "options": ["Marketing manager", "Software developer", "Logistics coordinator", "HR assistant"],
+        "question": "What position is Eyüp interviewing for?",
+        "questionTr": "Eyüp hangi pozisyon için mülakatta?",
+        "options": ["Junior coordinator", "Warehouse worker", "Senior Logistics & Operations Manager", "IT developer"],
         "correct": 2
       },
       {
-        "question": "How much experience does Eyüp have?",
-        "questionTr": "Eyüp'ün ne kadar deneyimi var?",
-        "options": ["No experience", "One year", "Two years", "Five years"],
+        "question": "What is the company's current order fulfillment error rate?",
+        "questionTr": "Şirketin mevcut sipariş karşılama hata oranı nedir?",
+        "options": ["0.6%", "1.0%", "3.8%", "4.2%"],
+        "correct": 3
+      },
+      {
+        "question": "How did Eyüp reduce the error rate at his previous job?",
+        "questionTr": "Eyüp önceki işinde hata oranını nasıl düşürdü?",
+        "options": ["Fired underperforming staff", "Implemented barcode verification", "Hired more workers", "Changed the WMS vendor"],
+        "correct": 1
+      },
+      {
+        "question": "What will Eyüp do first about the unhappy client?",
+        "questionTr": "Eyüp mutsuz müşteri için ilk ne yapacak?",
+        "options": ["Wait and see", "Offer a discount", "Analyze 90-day data and call with recovery plan", "Send an apology email"],
         "correct": 2
       },
       {
-        "question": "Where does Eyüp see himself in five years?",
-        "questionTr": "Eyüp beş yıl sonra kendini nerede görüyor?",
-        "options": ["Same position", "Team leader", "CEO", "Retired"],
-        "correct": 1
-      },
-      {
-        "question": "Did Eyüp get the job?",
-        "questionTr": "Eyüp işi aldı mı?",
-        "options": ["No, they rejected him", "Yes, they offered him the position", "They said maybe", "They will call him later"],
-        "correct": 1
-      },
-      {
-        "question": "When will Eyüp start working?",
-        "questionTr": "Eyüp ne zaman işe başlayacak?",
-        "options": ["Tomorrow", "Next Monday", "Next month", "In two weeks"],
+        "question": "What does Mr. Harrison tell Eyüp at the end?",
+        "questionTr": "Mr. Harrison sonunda Eyüp'e ne söylüyor?",
+        "options": ["They need more interviews", "He's the strongest candidate", "The position is filled", "They'll call in 2 weeks"],
         "correct": 1
       }
     ]
