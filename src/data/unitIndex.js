@@ -63,6 +63,7 @@ import unit61 from './units/unit-61.json'
 import unit62 from './units/unit-62.json'
 import unit63 from './units/unit-63.json'
 import unit64 from './units/unit-64.json'
+import unit65 from './units/unit-65.json'
 
 const units = [
   unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08,
@@ -73,6 +74,7 @@ const units = [
   unit41, unit42, unit43, unit44, unit45, unit46, unit47, unit48,
   unit49, unit50, unit51, unit52, unit53, unit54, unit55, unit56,
   unit57, unit58, unit59, unit60, unit61, unit62, unit63, unit64,
+  unit65,
 ]
 
 export default units
