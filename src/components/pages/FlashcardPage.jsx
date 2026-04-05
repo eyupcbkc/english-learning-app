@@ -6,13 +6,14 @@ import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { useFlashcards } from '@/hooks/useFlashcards'
 import {
-  ArrowLeft, Eye, Keyboard, Zap, Timer, Sparkles, X, Volume2,
+  ArrowLeft, Eye, Keyboard, Zap, Timer, Sparkles, X, Volume2, Hand,
 } from 'lucide-react'
 import { BOX_LABELS, speak } from '@/components/flashcard/speak'
 import StatsBar from '@/components/flashcard/StatsBar'
 import { BoxDistribution } from '@/components/flashcard/BoxIndicator'
 import ReviewSession from '@/components/flashcard/ReviewSession'
 import TypeSession from '@/components/flashcard/TypeSession'
+import SwipeSession from '@/components/flashcard/SwipeSession'
 
 export default function FlashcardPage() {
   const {
@@ -165,6 +166,17 @@ export default function FlashcardPage() {
     )
   }
 
+  if (mode === 'swipe' && filteredCards.length > 0) {
+    return (
+      <div className="space-y-6 max-w-xl mx-auto">
+        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="h-4 w-4" /> Geri Dön
+        </button>
+        <SwipeSession cards={filteredCards} allCards={activeCards} markAnswer={markAnswer} onFinish={() => setMode(null)} />
+      </div>
+    )
+  }
+
   if (mode === 'flip' && filteredCards.length > 0) {
     return (
       <div className="space-y-6 max-w-xl mx-auto">
@@ -231,12 +243,15 @@ export default function FlashcardPage() {
                 <p className="text-sm text-muted-foreground">Hedef: {stats.dailyGoal} kart/gün</p>
               </div>
             </div>
-            <div className="flex gap-3 mt-4">
-              <Button className="flex-1" onClick={() => { setFilter('due'); setMode('flip') }}>
-                <Eye className="mr-2 h-4 w-4" /> Çevirerek Tekrar
+            <div className="grid grid-cols-3 gap-2 mt-4">
+              <Button onClick={() => { setFilter('due'); setMode('swipe') }}>
+                <Hand className="mr-1.5 h-4 w-4" /> Kaydır
               </Button>
-              <Button variant="outline" className="flex-1" onClick={() => { setFilter('due'); setMode('type') }}>
-                <Keyboard className="mr-2 h-4 w-4" /> Yazarak Tekrar
+              <Button variant="outline" onClick={() => { setFilter('due'); setMode('flip') }}>
+                <Eye className="mr-1.5 h-4 w-4" /> Çevir
+              </Button>
+              <Button variant="outline" onClick={() => { setFilter('due'); setMode('type') }}>
+                <Keyboard className="mr-1.5 h-4 w-4" /> Yaz
               </Button>
             </div>
           </CardContent>
@@ -334,7 +349,8 @@ export default function FlashcardPage() {
           <p className="text-xs text-muted-foreground">{filteredCards.length} kelime bulundu</p>
           {filteredCards.length > 0 && (
             <div className="flex gap-2">
-              <Button size="sm" onClick={() => setMode('flip')}><Eye className="mr-1.5 h-3.5 w-3.5" /> Çevir ({filteredCards.length})</Button>
+              <Button size="sm" onClick={() => setMode('swipe')}><Hand className="mr-1.5 h-3.5 w-3.5" /> Kaydır</Button>
+              <Button size="sm" variant="outline" onClick={() => setMode('flip')}><Eye className="mr-1.5 h-3.5 w-3.5" /> Çevir</Button>
               <Button size="sm" variant="outline" onClick={() => setMode('type')}><Keyboard className="mr-1.5 h-3.5 w-3.5" /> Yaz</Button>
             </div>
           )}
