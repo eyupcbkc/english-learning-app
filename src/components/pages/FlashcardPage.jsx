@@ -11,6 +11,7 @@ import {
 } from 'lucide-react'
 import { BOX_LABELS, speak } from '@/components/flashcard/speak'
 import { BoxDistribution } from '@/components/flashcard/BoxIndicator'
+import SpeedControl from '@/components/shared/SpeedControl'
 import ReviewSession from '@/components/flashcard/ReviewSession'
 import TypeSession from '@/components/flashcard/TypeSession'
 import SwipeSession from '@/components/flashcard/SwipeSession'
@@ -236,9 +237,12 @@ export default function FlashcardPage() {
         <ArrowLeft className="h-4 w-4" /> Ana Sayfa
       </Link>
 
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight">Hafıza Kartları</h1>
-        <p className="text-sm text-muted-foreground mt-1">Seviye seç, mod seç, öğrenmeye başla</p>
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold tracking-tight">Hafıza Kartları</h1>
+          <p className="text-sm text-muted-foreground mt-1">Seviye seç, mod seç, öğrenmeye başla</p>
+        </div>
+        <SpeedControl compact />
       </div>
 
       {/* Stats */}

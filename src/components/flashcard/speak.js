@@ -1,8 +1,24 @@
-export function speak(text) {
+// Speech rate state — persisted in localStorage
+const RATE_KEY = 'english-speech-rate'
+const RATES = [0.5, 0.7, 0.85, 1.0, 1.2]
+const RATE_LABELS = ['Çok Yavaş', 'Yavaş', 'Normal', 'Hızlı', 'Çok Hızlı']
+
+export function getRate() {
+  const saved = localStorage.getItem(RATE_KEY)
+  return saved ? parseFloat(saved) : 0.85
+}
+
+export function setRate(rate) {
+  localStorage.setItem(RATE_KEY, String(rate))
+}
+
+export { RATES, RATE_LABELS }
+
+export function speak(text, rateOverride) {
   speechSynthesis.cancel()
   const u = new SpeechSynthesisUtterance(text)
   u.lang = 'en-US'
-  u.rate = 0.85
+  u.rate = rateOverride ?? getRate()
   speechSynthesis.speak(u)
 }
 
