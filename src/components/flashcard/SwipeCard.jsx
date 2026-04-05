@@ -8,8 +8,7 @@ export default function SwipeCard({ word, correctSide, wrongLabel, onSwipe }) {
   const x = useMotionValue(0)
 
   const rotate = useTransform(x, [-200, 0, 200], [-12, 0, 12])
-  const leftBg = useTransform(x, [-120, 0], [1, 0])
-  const rightBg = useTransform(x, [0, 120], [0, 1])
+  const dragOpacity = useTransform(x, [-150, -50, 0, 50, 150], [0.6, 0.9, 1, 0.9, 0.6])
 
   const handleDragEnd = (_, info) => {
     const threshold = 80
@@ -35,18 +34,10 @@ export default function SwipeCard({ word, correctSide, wrongLabel, onSwipe }) {
 
   return (
     <div className="relative">
-      {/* Left/Right hint backgrounds */}
-      <motion.div className="absolute inset-0 rounded-3xl bg-red-100 border-2 border-red-200 flex items-center justify-start pl-6" style={{ opacity: leftBg }}>
-        <span className="text-red-500 font-bold text-lg">✗</span>
-      </motion.div>
-      <motion.div className="absolute inset-0 rounded-3xl bg-green-100 border-2 border-green-200 flex items-center justify-end pr-6" style={{ opacity: rightBg }}>
-        <span className="text-green-500 font-bold text-lg">✓</span>
-      </motion.div>
-
-      {/* Draggable card */}
+      {/* Draggable card — no color hints during drag */}
       <motion.div
         className="relative touch-none select-none cursor-grab active:cursor-grabbing"
-        style={{ x, rotate }}
+        style={{ x, rotate, opacity: dragOpacity }}
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
         dragElastic={0.7}
