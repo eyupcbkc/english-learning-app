@@ -6,15 +6,146 @@ import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { useFlashcards } from '@/hooks/useFlashcards'
 import {
-  ArrowLeft, Eye, Keyboard, Zap, Timer, Sparkles, X, Volume2, Hand,
+  ArrowLeft, Eye, Keyboard, Timer, Volume2, Hand, ChevronRight,
+  Target, Layers, Brain, Trophy,
 } from 'lucide-react'
 import { BOX_LABELS, speak } from '@/components/flashcard/speak'
-import StatsBar from '@/components/flashcard/StatsBar'
 import { BoxDistribution } from '@/components/flashcard/BoxIndicator'
 import ReviewSession from '@/components/flashcard/ReviewSession'
 import TypeSession from '@/components/flashcard/TypeSession'
 import SwipeSession from '@/components/flashcard/SwipeSession'
 
+// ─── Mode Card ───────────────────────────────────────────
+function ModeCard({ icon: Icon, title, desc, onClick }) {
+  return (
+    <button
+      onClick={onClick}
+      className="w-full text-left p-4 rounded-xl border hover:border-primary/40 hover:shadow-sm active:scale-[0.99] transition-all"
+    >
+      <div className="flex items-center gap-4">
+        <div className="h-11 w-11 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+          <Icon className="h-5 w-5 text-primary" />
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className="text-sm font-semibold">{title}</p>
+          <p className="text-xs text-muted-foreground mt-0.5">{desc}</p>
+        </div>
+        <ChevronRight className="h-4 w-4 text-muted-foreground shrink-0" />
+      </div>
+    </button>
+  )
+}
+
+// ─── Setup Screen (seviye + süre seçimi) ─────────────────
+function SetupScreen({ activeCards, onStart, onBack, title, icon: Icon }) {
+  const [level, setLevel] = useState(null)
+  const [duration, setDuration] = useState(null) // null = sınırsız
+
+  const levels = useMemo(() => {
+    const map = {}
+    activeCards.forEach(v => {
+      if (!map[v.level]) map[v.level] = 0
+      map[v.level]++
+    })
+    return Object.entries(map).sort()
+  }, [activeCards])
+
+  const cards = useMemo(() => {
+    if (!level) return []
+    return activeCards.filter(v => v.level === level)
+  }, [level, activeCards])
+
+  return (
+    <div className="space-y-6 max-w-md mx-auto">
+      <button onClick={onBack} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+        <ArrowLeft className="h-4 w-4" /> Geri
+      </button>
+
+      {/* Title */}
+      <div className="text-center space-y-2">
+        <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto">
+          <Icon className="h-6 w-6 text-primary" />
+        </div>
+        <h2 className="text-lg font-bold">{title}</h2>
+      </div>
+
+      {/* Seviye */}
+      <div>
+        <p className="text-sm font-medium mb-2">Seviye</p>
+        <div className="grid grid-cols-3 gap-2">
+          {levels.map(([lv, count]) => (
+            <button
+              key={lv}
+              onClick={() => setLevel(lv)}
+              className={`p-3 rounded-xl border-2 text-center transition-all ${
+                level === lv
+                  ? 'border-primary bg-primary/5'
+                  : 'border-border hover:border-primary/30'
+              }`}
+            >
+              <p className="text-sm font-bold">{lv}</p>
+              <p className="text-[10px] text-muted-foreground">{count} kelime</p>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Süre */}
+      {level && (
+        <div className="animate-fade-in-up">
+          <p className="text-sm font-medium mb-2">Süre</p>
+          <div className="grid grid-cols-5 gap-2">
+            {[
+              { val: null, label: 'Sınırsız' },
+              { val: 60, label: '1 dk' },
+              { val: 180, label: '3 dk' },
+              { val: 300, label: '5 dk' },
+              { val: 600, label: '10 dk' },
+            ].map(d => (
+              <button
+                key={String(d.val)}
+                onClick={() => setDuration(d.val)}
+                className={`p-2.5 rounded-xl border-2 text-center transition-all ${
+                  duration === d.val
+                    ? 'border-primary bg-primary/5'
+                    : 'border-border hover:border-primary/30'
+                }`}
+              >
+                <p className="text-xs font-semibold">{d.label}</p>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Başla */}
+      {level && (
+        <Button
+          size="lg"
+          className="w-full py-5 text-sm animate-fade-in-up"
+          onClick={() => onStart(cards, duration)}
+        >
+          Başla — {cards.length} kelime
+          {duration && ` · ${duration / 60} dk`}
+        </Button>
+      )}
+    </div>
+  )
+}
+
+// ─── Session Wrapper ─────────────────────────────────────
+function SessionWrapper({ children, onExit }) {
+  return (
+    <div className="space-y-6 max-w-xl mx-auto">
+      <button onClick={onExit} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+        <ArrowLeft className="h-4 w-4" /> Çık
+      </button>
+      {children}
+    </div>
+  )
+}
+
+// ─── Main Page ───────────────────────────────────────────
 export default function FlashcardPage() {
   const {
     dueCards, activeCards, loaded,
@@ -22,180 +153,79 @@ export default function FlashcardPage() {
   } = useFlashcards()
 
   const [mode, setMode] = useState(null)
-  const [filter, setFilter] = useState('due')
-  const [levelFilter, setLevelFilter] = useState('all')
-  const [unitFilter, setUnitFilter] = useState('all')
-  const [search, setSearch] = useState('')
-  const [timedLevel, setTimedLevel] = useState(null)
-  const [timedDuration, setTimedDuration] = useState(null)
+  const [sessionCards, setSessionCards] = useState([])
+  const [sessionTime, setSessionTime] = useState(null)
 
-  // Initialize ALL unit words into flashcards — runs after Firestore data is loaded
   useEffect(() => {
     if (loaded) initializeAllUnits()
   }, [loaded, initializeAllUnits])
 
-  // Available units for filter
-  const availableUnits = useMemo(() => {
-    let cards = activeCards
-    if (levelFilter !== 'all') cards = cards.filter(v => v.level === levelFilter)
-    const unitSet = new Map()
-    cards.forEach(v => { if (!unitSet.has(v.unitId)) unitSet.set(v.unitId, v.unitTitle) })
-    return [['all', 'Tüm Üniteler'], ...Array.from(unitSet.entries())]
-  }, [activeCards, levelFilter])
+  const startSession = (cards, time) => {
+    setSessionCards(cards)
+    setSessionTime(time)
+  }
 
-  // Level stats
-  const levelStats = useMemo(() => {
-    const map = {}
-    activeCards.forEach(v => {
-      const card = getCardData(v.word)
-      if (!map[v.level]) map[v.level] = { total: 0, learned: 0, due: 0 }
-      map[v.level].total++
-      if (card?.box === 5) map[v.level].learned++
-    })
-    dueCards.forEach(v => { if (map[v.level]) map[v.level].due++ })
-    return map
-  }, [activeCards, dueCards, getCardData])
+  const exitSession = () => {
+    setMode(null)
+    setSessionCards([])
+    setSessionTime(null)
+  }
 
-  // Filtered cards
-  const filteredCards = useMemo(() => {
-    let cards = filter === 'due' ? dueCards : filter === 'all' ? activeCards : activeCards.filter(v => {
-      const card = getCardData(v.word)
-      return card && card.box === parseInt(filter.split('-')[1])
-    })
-    if (levelFilter !== 'all') cards = cards.filter(v => v.level === levelFilter)
-    if (unitFilter !== 'all') cards = cards.filter(v => v.unitId === unitFilter)
-    if (search.trim()) {
-      const q = search.trim().toLowerCase()
-      cards = cards.filter(v => v.word.toLowerCase().includes(q) || v.turkish.toLowerCase().includes(q))
-    }
-    return cards
-  }, [filter, levelFilter, unitFilter, search, dueCards, activeCards, getCardData])
-
-  // Timed session cards
-  const timedCards = useMemo(() => {
-    if (!timedLevel) return []
-    return activeCards.filter(v => v.level === timedLevel)
-  }, [timedLevel, activeCards])
-
-  // ── Loading State ──
+  // ── Loading ──
   if (!loaded) {
     return (
       <div className="space-y-6">
         <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
           <ArrowLeft className="h-4 w-4" /> Ana Sayfa
         </Link>
-        <Card>
-          <CardContent className="p-8 text-center space-y-4">
-            <div className="h-8 w-8 mx-auto border-2 border-primary border-t-transparent rounded-full animate-spin" />
-            <p className="text-sm text-muted-foreground">Kartlar yükleniyor...</p>
-          </CardContent>
-        </Card>
+        <div className="p-12 text-center">
+          <div className="h-8 w-8 mx-auto border-2 border-primary border-t-transparent rounded-full animate-spin" />
+          <p className="text-sm text-muted-foreground mt-4">Yükleniyor...</p>
+        </div>
       </div>
     )
   }
 
-  // ── Timed Setup Screen ──
-  if (mode === 'timed-setup') {
-    const levels = [...new Set(activeCards.map(v => v.level))].sort()
-    const durations = [
-      { seconds: 60, label: '1 dk', icon: '⚡' },
-      { seconds: 180, label: '3 dk', icon: '🔥' },
-      { seconds: 300, label: '5 dk', icon: '💪' },
-      { seconds: 600, label: '10 dk', icon: '🧠' },
-    ]
-    return (
-      <div className="space-y-6 max-w-lg mx-auto animate-fade-in-up">
-        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-          <ArrowLeft className="h-4 w-4" /> Geri Dön
-        </button>
-        <div className="text-center space-y-2">
-          <div className="inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-primary/10 mx-auto">
-            <Zap className="h-7 w-7 text-primary" />
-          </div>
-          <h2 className="text-xl font-bold">Zamanlı Oturum</h2>
-          <p className="text-sm text-muted-foreground">Seviye ve süre seç, kaç kelime bilebileceğini gör!</p>
-        </div>
-        <div className="space-y-3">
-          <p className="text-sm font-semibold">Seviye Seç</p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-            {levels.map(level => {
-              const count = activeCards.filter(v => v.level === level).length
-              return (
-                <button key={level} onClick={() => setTimedLevel(level)}
-                  className={`p-4 rounded-xl border-2 text-center transition-all ${timedLevel === level ? 'border-primary bg-primary/5 shadow-md' : 'border-border hover:border-primary/30'}`}>
-                  <p className="text-lg font-bold">{level}</p>
-                  <p className="text-xs text-muted-foreground">{count} kelime</p>
-                </button>
-              )
-            })}
-          </div>
-        </div>
-        {timedLevel && (
-          <div className="space-y-3 animate-fade-in-up">
-            <p className="text-sm font-semibold">Süre Seç</p>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-              {durations.map(d => (
-                <button key={d.seconds} onClick={() => setTimedDuration(d.seconds)}
-                  className={`p-4 rounded-xl border-2 text-center transition-all ${timedDuration === d.seconds ? 'border-primary bg-primary/5 shadow-md' : 'border-border hover:border-primary/30'}`}>
-                  <p className="text-2xl mb-1">{d.icon}</p>
-                  <p className="text-sm font-bold">{d.label}</p>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-        {timedLevel && timedDuration && (
-          <Button size="lg" className="w-full text-lg py-6 animate-fade-in-up" onClick={() => setMode('timed')}>
-            <Timer className="mr-2 h-5 w-5" /> {timedLevel} — {timedDuration / 60} dakika Başla!
-          </Button>
-        )}
-      </div>
-    )
+  // ── Setup Screens ──
+  if (mode === 'swipe-setup') {
+    return <SetupScreen activeCards={activeCards} icon={Hand} title="Kaydırarak Öğren"
+      onBack={() => setMode(null)}
+      onStart={(c, t) => { startSession(c, t); setMode('swipe') }} />
+  }
+  if (mode === 'flip-setup') {
+    return <SetupScreen activeCards={activeCards} icon={Eye} title="Çevirerek Öğren"
+      onBack={() => setMode(null)}
+      onStart={(c, t) => { startSession(c, t); setMode('flip') }} />
+  }
+  if (mode === 'type-setup') {
+    return <SetupScreen activeCards={activeCards} icon={Keyboard} title="Yazarak Öğren"
+      onBack={() => setMode(null)}
+      onStart={(c, t) => { startSession(c, t); setMode('type') }} />
   }
 
   // ── Active Sessions ──
-  if (mode === 'timed' && timedCards.length > 0 && timedDuration) {
+  if (mode === 'swipe' && sessionCards.length > 0) {
     return (
-      <div className="space-y-6 max-w-xl mx-auto">
-        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-          <ArrowLeft className="h-4 w-4" /> Çık
-        </button>
-        <ReviewSession cards={timedCards} getCardData={getCardData} markAnswer={markAnswer}
-          onFinish={() => { setMode(null); setTimedLevel(null); setTimedDuration(null) }} timeLimit={timedDuration} />
-      </div>
+      <SessionWrapper onExit={exitSession}>
+        <SwipeSession cards={sessionCards} allCards={activeCards} markAnswer={markAnswer}
+          onFinish={exitSession} timeLimit={sessionTime} />
+      </SessionWrapper>
     )
   }
-
-  if (mode === 'swipe' && filteredCards.length > 0) {
+  if (mode === 'flip' && sessionCards.length > 0) {
     return (
-      <div className="space-y-6 max-w-xl mx-auto">
-        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-          <ArrowLeft className="h-4 w-4" /> Geri Dön
-        </button>
-        <SwipeSession cards={filteredCards} allCards={activeCards} markAnswer={markAnswer} onFinish={() => setMode(null)} />
-      </div>
+      <SessionWrapper onExit={exitSession}>
+        <ReviewSession cards={sessionCards} getCardData={getCardData} markAnswer={markAnswer}
+          onFinish={exitSession} timeLimit={sessionTime} />
+      </SessionWrapper>
     )
   }
-
-  if (mode === 'flip' && filteredCards.length > 0) {
+  if (mode === 'type' && sessionCards.length > 0) {
     return (
-      <div className="space-y-6 max-w-xl mx-auto">
-        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-          <ArrowLeft className="h-4 w-4" /> Geri Dön
-        </button>
-        <ReviewSession cards={filteredCards} getCardData={getCardData} markAnswer={markAnswer} onFinish={() => setMode(null)} />
-      </div>
-    )
-  }
-
-  if (mode === 'type' && filteredCards.length > 0) {
-    return (
-      <div className="space-y-6 max-w-xl mx-auto">
-        <button onClick={() => setMode(null)} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-          <ArrowLeft className="h-4 w-4" /> Geri Dön
-        </button>
-        <TypeSession cards={filteredCards} getCardData={getCardData} markAnswer={markAnswer} onFinish={() => setMode(null)} />
-      </div>
+      <SessionWrapper onExit={exitSession}>
+        <TypeSession cards={sessionCards} getCardData={getCardData} markAnswer={markAnswer}
+          onFinish={exitSession} />
+      </SessionWrapper>
     )
   }
 
@@ -207,187 +237,103 @@ export default function FlashcardPage() {
       </Link>
 
       <div>
-        <h1 className="text-2xl font-bold tracking-tight mb-1">Hafıza Kartları</h1>
-        <p className="text-muted-foreground text-sm">Leitner sistemi ile kelime ezberle — her gün tekrar et, kalıcı öğren</p>
+        <h1 className="text-2xl font-bold tracking-tight">Hafıza Kartları</h1>
+        <p className="text-sm text-muted-foreground mt-1">Seviye seç, mod seç, öğrenmeye başla</p>
       </div>
 
-      <StatsBar stats={stats} />
+      {/* Stats */}
+      <div className="grid grid-cols-4 gap-2">
+        {[
+          { icon: Target, value: stats.todayReviewed, label: 'Bugün', color: 'text-blue-600' },
+          { icon: Layers, value: stats.dueToday, label: 'Bekleyen', color: 'text-orange-600' },
+          { icon: Brain, value: stats.totalCards, label: 'Toplam', color: 'text-purple-600' },
+          { icon: Trophy, value: stats.learned, label: 'Bilen', color: 'text-green-600' },
+        ].map(({ icon: Icon, value, label, color }) => (
+          <div key={label} className="text-center p-3 rounded-xl border">
+            <Icon className={`h-4 w-4 mx-auto mb-1.5 ${color}`} />
+            <p className="text-base font-bold leading-none">{value}</p>
+            <p className="text-[10px] text-muted-foreground mt-1">{label}</p>
+          </div>
+        ))}
+      </div>
 
       {/* Box Distribution */}
-      <div className="space-y-2">
-        <div className="flex justify-between text-xs text-muted-foreground">
-          <span>Kutu dağılımı</span>
-          <span>{stats.totalCards} kart</span>
-        </div>
+      <div>
         <BoxDistribution boxCounts={stats.boxCounts} totalCards={stats.totalCards} />
-        <div className="flex justify-between px-1">
+        <div className="flex justify-between px-0.5 mt-1.5">
           {[1, 2, 3, 4, 5].map(box => (
             <div key={box} className="text-center">
-              <div className={`text-[10px] font-medium ${BOX_LABELS[box].textColor}`}>{stats.boxCounts[box] || 0}</div>
-              <div className="text-[10px] text-muted-foreground">{BOX_LABELS[box].label}</div>
+              <span className={`text-[10px] font-medium ${BOX_LABELS[box].textColor}`}>{stats.boxCounts[box] || 0}</span>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Due Cards CTA */}
-      {dueCards.length > 0 && (
-        <Card className="border-primary/30 bg-primary/5 border-2">
-          <CardContent className="p-5">
-            <div className="flex items-center gap-3">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                <Sparkles className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <p className="font-semibold">Bugün {dueCards.length} kart tekrar bekliyor</p>
-                <p className="text-sm text-muted-foreground">Hedef: {stats.dailyGoal} kart/gün</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-2 mt-4">
-              <Button onClick={() => { setFilter('due'); setMode('swipe') }}>
-                <Hand className="mr-1.5 h-4 w-4" /> Kaydır
-              </Button>
-              <Button variant="outline" onClick={() => { setFilter('due'); setMode('flip') }}>
-                <Eye className="mr-1.5 h-4 w-4" /> Çevir
-              </Button>
-              <Button variant="outline" onClick={() => { setFilter('due'); setMode('type') }}>
-                <Keyboard className="mr-1.5 h-4 w-4" /> Yaz
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      )}
-
-      {dueCards.length === 0 && (
-        <Card className="border-green-200 bg-green-50/30">
-          <CardContent className="p-5 text-center space-y-2">
-            <div className="text-4xl">✅</div>
-            <p className="font-semibold text-green-700">Bugünlük tekrar tamamlandı!</p>
-            <p className="text-sm text-muted-foreground">Tüm kartları tekrar ettiniz. Yarın tekrar gelin.</p>
-          </CardContent>
-        </Card>
-      )}
-
-      {/* Timed Challenge */}
-      <Card className="border-2 border-amber-200 bg-gradient-to-br from-amber-50/50 to-orange-50/30 hover:shadow-lg transition-all cursor-pointer" onClick={() => setMode('timed-setup')}>
-        <CardContent className="p-5">
-          <div className="flex items-center gap-4">
-            <div className="h-12 w-12 rounded-xl bg-amber-500/10 flex items-center justify-center shrink-0">
-              <Zap className="h-6 w-6 text-amber-600" />
-            </div>
-            <div className="flex-1">
-              <p className="font-bold text-base">Zamanlı Oturum</p>
-              <p className="text-sm text-muted-foreground">Seviye ve süre seç, kendini test et!</p>
-            </div>
-            <div className="flex gap-1.5">
-              {['1dk', '3dk', '5dk', '10dk'].map(t => (
-                <span key={t} className="px-2 py-1 rounded-md bg-amber-100 text-amber-700 text-[10px] font-bold">{t}</span>
-              ))}
-            </div>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Level Overview */}
-      {Object.keys(levelStats).length > 1 && (
-        <div>
-          <h2 className="text-sm font-semibold mb-3">Seviye Bazlı İlerleme</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-            {Object.entries(levelStats).sort().map(([level, s]) => (
-              <button key={level} onClick={() => { setLevelFilter(level === levelFilter ? 'all' : level); setUnitFilter('all') }}
-                className={`p-3 rounded-xl border text-left transition-all ${levelFilter === level ? 'border-primary bg-primary/5 shadow-sm' : 'hover:border-primary/30 hover:bg-accent/50'}`}>
-                <div className="flex items-center justify-between mb-2">
-                  <Badge variant={levelFilter === level ? 'default' : 'outline'} className="text-[10px]">{level}</Badge>
-                  <span className="text-[10px] text-muted-foreground">{s.total} kelime</span>
-                </div>
-                <Progress value={(s.learned / s.total) * 100} className="h-1.5 mb-1" />
-                <div className="flex justify-between text-[10px] text-muted-foreground">
-                  <span>{s.learned} öğrenildi</span>
-                  {s.due > 0 && <span className="text-orange-600 font-medium">{s.due} bekliyor</span>}
-                </div>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Filters */}
-      <div className="space-y-3">
-        <h2 className="text-sm font-semibold">Filtrele ve Pratik Yap</h2>
-
-        <div className="relative">
-          <input type="text" placeholder="Kelime veya anlam ara..." value={search} onChange={(e) => setSearch(e.target.value)}
-            className="w-full h-9 px-3 rounded-lg border bg-background text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring/50" />
-          {search && <button onClick={() => setSearch('')} className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"><X className="h-3.5 w-3.5" /></button>}
-        </div>
-
-        <div className="flex gap-1.5 p-1 rounded-lg bg-muted overflow-x-auto">
-          {[
-            { key: 'due', label: `Bekleyen (${dueCards.length})` },
-            { key: 'all', label: `Tümü (${activeCards.length})` },
-            ...([1,2,3,4,5].map(b => ({ key: `box-${b}`, label: `Kutu ${b}` }))),
-          ].map(f => (
-            <button key={f.key} onClick={() => setFilter(f.key)}
-              className={`shrink-0 px-2.5 py-1.5 rounded-md text-xs font-medium transition-all ${filter === f.key ? 'bg-background text-foreground shadow-sm' : 'text-muted-foreground hover:text-foreground'}`}>
-              {f.label}
-            </button>
-          ))}
-        </div>
-
-        {availableUnits.length > 2 && (
-          <div className="flex gap-1.5 overflow-x-auto pb-1">
-            {availableUnits.map(([key, label]) => (
-              <button key={key} onClick={() => setUnitFilter(key)}
-                className={`shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] font-medium border transition-all ${unitFilter === key ? 'border-primary bg-primary/5 text-primary' : 'border-transparent text-muted-foreground hover:bg-accent'}`}>
-                {key === 'all' ? 'Tüm Üniteler' : label}
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className="flex items-center justify-between">
-          <p className="text-xs text-muted-foreground">{filteredCards.length} kelime bulundu</p>
-          {filteredCards.length > 0 && (
-            <div className="flex gap-2">
-              <Button size="sm" onClick={() => setMode('swipe')}><Hand className="mr-1.5 h-3.5 w-3.5" /> Kaydır</Button>
-              <Button size="sm" variant="outline" onClick={() => setMode('flip')}><Eye className="mr-1.5 h-3.5 w-3.5" /> Çevir</Button>
-              <Button size="sm" variant="outline" onClick={() => setMode('type')}><Keyboard className="mr-1.5 h-3.5 w-3.5" /> Yaz</Button>
-            </div>
-          )}
-        </div>
-
-        <div className="space-y-1.5 max-h-[500px] overflow-y-auto">
-          {filteredCards.length === 0 ? (
-            <p className="text-sm text-muted-foreground text-center py-8">Bu filtrede kart yok</p>
-          ) : (
-            filteredCards.map((v, i) => {
-              const card = getCardData(v.word)
-              return (
-                <div key={i} className="flex items-center justify-between p-3 rounded-xl border hover:border-primary/30 hover:shadow-sm transition-all group">
-                  <div className="flex items-center gap-3">
-                    <button onClick={() => speak(v.word)} className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 active:scale-95 transition-all shrink-0">
-                      <Volume2 className="h-3.5 w-3.5 text-primary" />
-                    </button>
-                    <div>
-                      <p className="text-sm font-medium group-hover:text-primary transition-colors">{v.word}</p>
-                      <p className="text-xs text-muted-foreground">{v.turkish}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    {card && (
-                      <div className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium ${BOX_LABELS[card.box].bgLight} ${BOX_LABELS[card.box].textColor} border ${BOX_LABELS[card.box].borderColor}`}>
-                        <div className={`h-1.5 w-1.5 rounded-full ${BOX_LABELS[card.box].color}`} />
-                        {card.box}
-                      </div>
-                    )}
-                    <Badge variant="outline" className="text-[10px] hidden sm:flex">{v.level}</Badge>
-                  </div>
-                </div>
-              )
-            })
-          )}
+      {/* Mod Seçimi */}
+      <div>
+        <h2 className="text-sm font-semibold mb-3">Nasıl çalışmak istersin?</h2>
+        <div className="space-y-2">
+          <ModeCard
+            icon={Hand}
+            title="Kaydırarak Öğren"
+            desc="Doğru anlama kaydır — hızlı ve eğlenceli"
+            onClick={() => setMode('swipe-setup')}
+          />
+          <ModeCard
+            icon={Eye}
+            title="Çevirerek Öğren"
+            desc="Kartı çevir, biliyorum / bilmiyorum seç"
+            onClick={() => setMode('flip-setup')}
+          />
+          <ModeCard
+            icon={Keyboard}
+            title="Yazarak Öğren"
+            desc="Türkçe'yi gör, İngilizce'sini yaz"
+            onClick={() => setMode('type-setup')}
+          />
         </div>
       </div>
+
+      {/* Kelime Listesi */}
+      <details className="group">
+        <summary className="text-sm font-semibold cursor-pointer flex items-center gap-2 py-2 select-none">
+          Tüm Kelimeler
+          <Badge variant="secondary" className="text-[10px]">{activeCards.length}</Badge>
+          <ChevronRight className="h-3.5 w-3.5 text-muted-foreground group-open:rotate-90 transition-transform ml-auto" />
+        </summary>
+        <div className="space-y-1 mt-2 max-h-[400px] overflow-y-auto">
+          {activeCards.slice(0, 60).map((v, i) => {
+            const card = getCardData(v.word)
+            return (
+              <div key={i} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-accent/50 transition-colors">
+                <div className="flex items-center gap-3 min-w-0">
+                  <button
+                    onClick={() => speak(v.word)}
+                    className="h-7 w-7 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 active:scale-95 transition-all shrink-0"
+                  >
+                    <Volume2 className="h-3 w-3 text-primary" />
+                  </button>
+                  <div className="min-w-0">
+                    <p className="text-sm font-medium truncate">{v.word}</p>
+                    <p className="text-[11px] text-muted-foreground truncate">{v.turkish}</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 shrink-0 ml-2">
+                  {card && (
+                    <div className={`h-2 w-2 rounded-full ${BOX_LABELS[card.box].color}`} title={`Kutu ${card.box}`} />
+                  )}
+                  <span className="text-[9px] text-muted-foreground">{v.level}</span>
+                </div>
+              </div>
+            )
+          })}
+          {activeCards.length > 60 && (
+            <p className="text-[11px] text-muted-foreground text-center py-3">
+              +{activeCards.length - 60} kelime daha
+            </p>
+          )}
+        </div>
+      </details>
     </div>
   )
 }
