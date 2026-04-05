@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { Play, Pause, Eye, EyeOff, Volume2, Languages, ChevronDown } from 'lucide-react'
 import TranslationToggle from './TranslationToggle'
+import { getRate } from '@/components/flashcard/speak'
 
 // ─── Voice Engine ────────────────────────────────────────
 let cachedVoices = null
@@ -24,15 +25,33 @@ const CHARACTER_PROFILES = {
   'Eyüp':     { gender: 'male',   pitch: 0.8,  rate: 0.8  },
   'Mehmet':   { gender: 'male',   pitch: 0.75, rate: 0.78 },
   'Ali':      { gender: 'male',   pitch: 0.9,  rate: 0.85 },
+  'Murat':    { gender: 'male',   pitch: 0.82, rate: 0.8  },
+  'Kerem':    { gender: 'male',   pitch: 0.88, rate: 0.82 },
+  'Jake':     { gender: 'male',   pitch: 0.9,  rate: 0.85 },
+  'Marcus':   { gender: 'male',   pitch: 0.85, rate: 0.82 },
   'Emma':     { gender: 'female', pitch: 1.15, rate: 0.82 },
   'Ayşe':     { gender: 'female', pitch: 1.05, rate: 0.8  },
+  'Elif':     { gender: 'female', pitch: 1.08, rate: 0.8  },
+  'Selin':    { gender: 'female', pitch: 1.1,  rate: 0.82 },
   'Zeynep':   { gender: 'female', pitch: 1.1,  rate: 0.78 },
+  'Lisa':     { gender: 'female', pitch: 1.12, rate: 0.82 },
+  'Sarah':    { gender: 'female', pitch: 1.08, rate: 0.8  },
   'Secretary':{ gender: 'female', pitch: 1.0,  rate: 0.75 },
   'Manager':  { gender: 'male',   pitch: 0.85, rate: 0.75 },
   'Waiter':   { gender: 'male',   pitch: 0.9,  rate: 0.8  },
+  'Waitress': { gender: 'female', pitch: 1.05, rate: 0.8  },
   'Teacher':  { gender: 'female', pitch: 1.05, rate: 0.72 },
   'Doctor':   { gender: 'male',   pitch: 0.85, rate: 0.72 },
   'Receptionist': { gender: 'female', pitch: 1.0, rate: 0.75 },
+  'Employee': { gender: 'male',   pitch: 0.88, rate: 0.78 },
+  'Cashier':  { gender: 'female', pitch: 1.02, rate: 0.78 },
+  'Mr. Harrison': { gender: 'male', pitch: 0.78, rate: 0.75 },
+  'Ms. Carter':   { gender: 'female', pitch: 1.05, rate: 0.78 },
+  'Ms. Reed':     { gender: 'female', pitch: 1.0, rate: 0.75 },
+  'Mr. Mitchell': { gender: 'male', pitch: 0.82, rate: 0.78 },
+  'Ms. Sharma':   { gender: 'female', pitch: 1.08, rate: 0.78 },
+  'Mrs. Taylor':  { gender: 'female', pitch: 1.02, rate: 0.78 },
+  'Mrs. Collins': { gender: 'female', pitch: 1.0, rate: 0.76 },
 }
 
 const DEFAULT_MALE   = { gender: 'male',   pitch: 0.85, rate: 0.8 }
@@ -60,7 +79,8 @@ async function speakLine(text, profile) {
     if (!voice) voice = enVoices[0]
     const u = new SpeechSynthesisUtterance(text)
     u.lang = 'en-US'
-    u.rate = profile.rate
+    const globalRate = getRate()
+    u.rate = profile.rate * (globalRate / 0.85) // Scale relative to default 0.85
     u.pitch = profile.pitch
     if (voice) u.voice = voice
     u.onend = resolve

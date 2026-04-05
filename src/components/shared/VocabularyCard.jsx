@@ -4,14 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Eye, EyeOff } from 'lucide-react'
-
-function speak(text) {
-  speechSynthesis.cancel()
-  const u = new SpeechSynthesisUtterance(text)
-  u.lang = 'en-US'
-  u.rate = 0.85
-  speechSynthesis.speak(u)
-}
+import { speak } from '@/components/flashcard/speak'
 
 export default function VocabularyCard({ vocabulary }) {
   const [flipped, setFlipped] = useState({})
