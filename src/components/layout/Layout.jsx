@@ -151,10 +151,15 @@ function SidebarContent({ onNavigate }) {
                   }`}
                 >
                   <span className="text-base leading-none">{info?.emoji || '📘'}</span>
-                  <div className="flex-1 text-left">
-                    <p className="text-xs font-semibold leading-tight">
-                      {info?.titleTr || `Module ${modNum}`}
-                    </p>
+                  <div className="flex-1 text-left min-w-0">
+                    <div className="flex items-center gap-1.5">
+                      <p className="text-xs font-semibold leading-tight truncate">
+                        {info?.titleTr || `Module ${modNum}`}
+                      </p>
+                      <span className="shrink-0 px-1.5 py-0.5 rounded text-[9px] font-bold bg-muted text-muted-foreground">
+                        {info?.level || 'A1'}
+                      </span>
+                    </div>
                     <p className="text-[10px] text-muted-foreground">{modCompleted}/{modUnits.length} ünite</p>
                   </div>
                   {allDone ? (
